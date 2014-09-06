@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="ExampleRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+   <head><title>Text</title></head>
+    <body>
+        
+        <chapter>
+             text 
+            
+            <paragraph>
+                text text text
+               <name></name>
+                <date from="2012-12-12" to="2016-10-24">stuff</date>
+               
+            </paragraph>
+            
+            <list>
+                <item>text</item>
+            </list>
+        </chapter>
+        
+    </body>
+    
+</root>

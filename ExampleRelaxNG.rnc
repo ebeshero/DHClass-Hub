@@ -1,0 +1,47 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+
+
+start = root
+
+root = element root {(head | body)*}
+#root = element root {(head, body) | (body, head)}
+# grouping with parentheses, and using a pipe. head, body indicates that head should appear first, and then body
+# but we could also write this using an interleave connector, like this:
+# root = element root {head & body} The ampersand (or interleave connector) means that these elements can appear in any order.
+# better yet, we DON'T need the interleave connector at all. Think of it this way: 
+# root = element root {(head | body)*}
+
+head = element head {title}
+title = element title {text}
+body = element body {chapter}
+
+chapter = element chapter {mixed {(paragraph | listing)*}}
+
+listing = element list {item+}
+# We've got a problem here because "list" is a reserved word in Relax-NG. 
+# We have a couple of workarounds. One is to "escape" the reserved word with a backslash, like this: \list
+# Or we can just give it a different label, and call it "listing" as we've done here. 
+# Either way is fine, and you can still use the word "list" as the name of the element in your rule. 
+
+item = element item {mixed {listing*}}
+paragraph = element paragraph {mixed {(name | date | location)*}}
+name = element name {text}
+date = element date {(when | (from, to)), text}
+#Notice how we've used grouping here! Our date element can either have a single @when attribute, or it must have a pair of attributes, @from and @to, to indicate a span of time.
+datePattern = (xsd:date | xsd:gYearMonth | xsd:gYear)
+when = attribute when {datePattern}
+from = attribute from {datePattern}
+to = attribute to {datePattern}
+location = element location {text, type}
+type = attribute type {"astron" | "atmos" | "ocean" | "river" | "lake" | "island" | "mount" | "liminal" | "divinity"}
+
+# * means zero or more (optional AND repeatable: the most flexible representation)
+# + means 1 or more times. you MUST have at least one of these, and may have more than one
+# ? zero or 1, this is optional, but if it occurs, it can only be there ONCE. (Use the * if you want it to be able to occur more than once.)
+# nothing at all: this must appear, and only once. 
+
+#comment tag
+# 
+#
+#
