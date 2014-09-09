@@ -5,12 +5,10 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = root
 
 root = element root {(head | body)*}
-#root = element root {(head, body) | (body, head)}
-# grouping with parentheses, and using a pipe. head, body indicates that head should appear first, and then body
-# but we could also write this using an interleave connector, like this:
-# root = element root {head & body} The ampersand (or interleave connector) means that these elements can appear in any order.
-# better yet, we DON'T need the interleave connector at all. Think of it this way: 
-# root = element root {(head | body)*}
+# So, ask yoourself: How is this different from the following?  root = element root {head, body} 
+# Literally the rule as we've written it (with the grouping and the pipe) means the same thing as: 
+# root = element root {(head, body) | (body, head)}
+
 
 head = element head {title}
 title = element title {text}

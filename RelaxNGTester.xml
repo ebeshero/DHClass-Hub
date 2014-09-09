@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="ExampleRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="ExampleRelaxNGex.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
    <head><title>Text</title></head>
     <body>
