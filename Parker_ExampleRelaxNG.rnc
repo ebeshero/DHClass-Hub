@@ -1,0 +1,12 @@
+start = root
+root = element root {newspaperTitle, seriesTitle, headLine+, articleBody}
+newspaperTitle = element newspaperTitle {mixed {date, price}}
+seriesTitle = element seriesTitle {text}
+headLine = element headLine {mixed {buzzWord*}}
+buzzWord = element buzzWord {text}
+articleBody = element articleBody {mixed {buzzWord*}}
+date = element date {(when | (from, to)), text} 
+ when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear} 
+ from = attribute from {xsd:date | xsd:gYearMonth | xsd:gYear} 
+ to = attribute to {xsd:date | xsd:gYearMonth | xsd:gYear} 
+ price = element price {text}
