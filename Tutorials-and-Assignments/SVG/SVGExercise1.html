@@ -1,0 +1,107 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      <title>SVG Exercise 1</title>
+   </head>
+   
+   
+   
+   <body>
+      <!--#include virtual="top.html" -->
+      	
+      		
+      <h1><span class="banner">SVG Exercise 1</span></h1>
+      		
+      		
+      		
+      			
+      				
+      <p>Your homework exercise is to draw a bar graph "by hand" in SVG to compare the sizes
+         of three Pacific islands. (And since we're thinking about Pacific islands, just for
+         fun we've found an SVG map of Tahiti and Mo'orea to illustrate this page: Try resizing
+         your browser window and watch as the map scales up and down!)
+      </p>
+      			
+      <p>Here's the data you need to graph--<b>the areas in square miles of three Polynesian islands:</b> 
+         				
+      </p>
+      <div id="outline">
+         					
+         <ul>
+            						
+            <li>Tahiti 404 sq mi; </li>
+            					
+            <li>Raiatea 65 sq mi; </li>
+            					
+            <li>Tongatapu 100 sq mi</li>
+         </ul>
+         				
+      </div>
+      			
+      <div id="explan">
+         				<img src="TahitiMoorea.svg" alt="SVG map of Tahiti and Mo'orea islands" width="75%" height="75%" />
+         			
+      </div>
+      			
+      <p><b>Here's what you need to do:</b></p>
+      			
+      <ol>
+         <li>Make a bar graph that has an x axis and a y axis, using the SVG <span class="code">:&lt;line&gt;</span> element.
+         </li>
+         				
+         <li>Now, make three bars of different colors using the SVG <span class="code">&lt;rect&gt;</span> element. Experiment with size and scale of your bars for viewing on a web browser!
+         </li> 
+         				
+         <li>Finally, use the SVG <span class="code">&lt;text&gt;</span> element to put labels on the axes or the bars to indicate the island names and the
+            numerical values. Position text across the top to give your graph a title that indicates
+            what we're seeing: the relative size in square miles of three Pacific islands.
+         </li>
+      </ol>
+      			
+      <p><a href="http://tutorials.jenkov.com/svg/text-element.html">Read about how to work with the SVG <span class="code">&lt;text&gt;</span></a> element, orienting text direction, setting font size, etc. For example, try making
+         vertical text, and adjusting the spacing between letters. (Overall, we really like
+         this site, <a href="http://tutorials.jenkov.com/svg/index.html">Jakob Jenkov's tutorial on SVG</a>, as it seems better organized and more informative than <a href="http://w3schools.com/svg/default.asp">the one at w3schools</a>--but feel free to explore both!)
+      </p>
+      
+      			
+      			
+      <h3>The Weirdness of the Y-Axis in SVG coordinate space</h3>
+      			
+      			
+      <p>Remember, as we saw in class, in SVG the y-axis is upside-down! Low y-values close
+         to zero sit near the top, and as y values increase, we move <b>down</b> the screen. This means that if you draw your chart using positive y values, the way
+         you'd draw it on a sheet on graph paper, the bars will grow downwards instead of upwards,
+         and their baseline will be at the top, not the bottom.
+      </p>
+      			
+      			
+      <p>If you want to draw a vertical bar graph the usual way with the bottom along an x-axis,
+         here's a way you can do it: Say you want to graph two bars, one with a height of 25
+         and the other with a height of 50. Make rectangles with heights of 25 and 50, but
+         set the shorter bar at a y position that's 25 units MORE than the longer one. Try
+         making your baseline be at 50, and run your long bar UP THE SCREEN to 0. Then make
+         your short bar go from 50 up to 25. (This may be easier to visualize by drawing it
+         on a piece of paper with a pencil, and labelling the values, realizing you've got
+         to deal with the y-axis backwards.
+      </p> 
+      			
+      			
+      <p>We'll eventually be handling this y-axis weirdness in other ways as we make SVG from
+         XQuery, but for this exercise, just to learn your way around SVG, we'd like you to
+         "hand-code" your graph this way. 
+      </p>
+      			
+      	
+      	
+   </body>
+   
+   
+   
+   
+</html>

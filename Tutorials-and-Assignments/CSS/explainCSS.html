@@ -1,0 +1,386 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      
+      		
+      
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      		
+      
+      <title>Explain CSS</title>
+      	
+      
+   </head>
+   
+   
+   	
+   
+   <body>
+      <!--#include virtual="top.html" -->
+    
+      		
+      
+      <h1><span class="banner">Introduction to Cascading Stylesheets (CSS)</span></h1>
+      			
+      
+      <!--<h3> for subheadings when you need them.</h3>-->
+      			
+      
+      <p>Here we offer a very basic orientation to styling HTML elements with Cascading
+         				Stylesheets (CSS), with emphasis on learning how to write the code and associate
+         it
+         				with an XHTML (or HTML) file. This is designed to follow our <a href="explainHTML.html">Introduction to XHTML (and HTML)</a>. After the basic
+         				orientation, we provide links to resources with comprehensive information on CSS
+         				code, resources that we rely on as we style our own projects.
+         
+      </p>
+      			
+      
+      <p>As HTML developed in the 1990s, more and more tags were added to control display and
+         				layout: Presentation features like color coding, font size, font weight, etc,
+         were
+         				built into an increasingly bloated language (as in, HTML 3.2 was ailing from
+         				“code bloat”). To resolve the problem <a href="http://www.w3.org/Consortium/">the
+            					W3C (World Wide Web Consortium)</a> developed CSS as a form of code designed to
+         				be held in a separate file, and to control presentation elements across multiple
+         				pages or whole sites. The idea was to streamline HTML, to keep it simple and
+         				readable, and also to make it easy to change the style of pages quickly and
+         				efficiently. 
+         
+      </p>
+      			
+      
+      <p>CSS is not the only means to style HTML. We’ll also be learning to write XSLT
+         				(eXtensible Stylesheet Language Transformation) which is a powerful XML-based
+         				stylesheet system for generating HTML and XML. XSLT has powers that CSS lacks,
+         				specifically to remix, extract, and even rename elements from one file to generate
+         				entirely new files. By contrast, CSS is fairly simple: You write it to identify
+         HTML
+         				elements and indicate something to be done with them: to give them a specific
+         color,
+         				or a width, or a margin, etc. In our projects we use both XSLT and CSS together
+         to
+         				build and design our sites.
+         
+      </p>
+      			
+      
+      <h3>How to Write CSS</h3>
+      			
+      
+      <p>To begin a new CSS document in &lt;oXygen/&gt;, <strong>go to File → New → New
+            					Document, and choose CSS</strong>. You'll open a blank file into which you can
+         				start writing CSS rules as we describe below. Sometimes it helps to start with
+         				someone else’s CSS code to get a sense of how it works. Try taking a look at
+         					<a href="explain.css">our CSS for this page</a>, and if you like, save the
+         				CSS file locally ihe same file directory with this very XHTML page you are reading.
+         				You can then play around with altering our CSS rules, and viewing the effects
+         				locally in your web browser. (Can you change the background color for a portion
+         of
+         				the page?)
+         
+      </p>
+      			
+      
+      <p>First of all, think about your approach, working from the top level elements down:
+         				Work from the root “down” through the tree (like how we write schema
+         				rules). The difference from writing schemas is that <strong>we don’t have to
+            					write rules for every element</strong> and <strong>our rules can be written in
+            					any order</strong> (though it helps make the code human-readable to keep it
+         				organized in something like the order of the HTML elements). One thing to realize
+         is
+         				that if you place a style on a top-level element, like, say, to establish a text
+         				color on the whole &lt;body&gt; element, that will control ALL the text in all the
+         				“children” and “grandchildren” and
+         				“great-grandchildren” (etc.) elements nested inside &lt;body&gt;. This
+         				is a handy property of CSS called <strong>inheritance</strong>.
+         
+      </p>
+      			
+      
+      <p>You can always borrow someone else’s stylesheet rules if you admire a color
+         				or something of the layout. CSS is often easy to adapt and retool from sites you
+         				discover on the web, just by right-clicking to view the page source (or selecting
+         				view page source from your browser menu options), because the link to the associated
+         				stylesheet makes it available to read and download from the page source view.
+         Even
+         				more conveniently, CSS resources make default styles available for download, like
+      	<a href="http://www.csszengarden.com/">CSS Zen Garden</a>. But as you learn to write
+         				CSS, we expect you will find it as addictive as we do, in the fun obsession of
+         				designing a lovely site all your own.
+         
+      </p>
+      			
+      
+      <h3>CSS Statements</h3>
+      			
+      
+      <p>CSS statements take this basic form, with a <span class="red">selector</span>
+         				followed a statement in curly braces <span class="code">{ }</span> containing a
+         					<span class="purple">property</span>, and a <span class="green">value</span>: 
+         
+      </p>
+      			
+      
+      <div class="code">
+         				<span class="red">body</span> { <br />
+         				<span class="purple">background-color:</span>
+         				<span class="green">#CC9966</span>;<br />
+         				<span class="purple">color:</span>
+         				<span class="green">#70003D</span>;<br />
+         				<span class="purple">font-family:</span>
+         				<span class="green">arial, helvetica, sans-serif</span>;<br /> } 
+         
+      </div>
+      			
+      
+      <p>Notice how each property and value expression is separated by a mandatory semicolon
+         (
+         					<strong>;</strong> )! You don't have to stack the curly braces as we did, but
+         				it's conventional to do that because it makes it easy to add new properties and
+         				values line by line, making it easy to read. We've specified the following
+         				properties for the <span class="code">body</span> element (and by the
+         					<strong>inheritance</strong> rule) all the descendent elements within <span class="code">body</span>:
+         
+      </p>
+      			
+      
+      <ul>
+         				
+         
+         <li>The background color will be a particular hexadecimal color value (a value made
+            					of three 2-digit numbers in the base-16 hexadecimal system, which combines
+            					digits and letters. These designate a color by <strong>RGB</strong> factors: The
+            					first two numbers indicate the red values, the second two indicate green values,
+            					and the last two indicate blue. and letters representing red, green, and blue
+            					(RGB) color values.
+            
+         </li>
+         				
+         
+         <li>The "color" indicates the font color, again designated with a hexadecimal value
+            					here. (Other color value systems are fine, too. We're just used to the
+            					hexadecimal system, and working with this <a href="http://www.w3schools.com/tags/ref_colormixer.asp">this handy HTML
+               						Color Mixer</a> which generates hexadecimal color values.
+            
+         </li>
+         				
+         
+         <li>The font is defined, and notice it's a font-family, with a first choice, a
+            					second, and a third choice. It's a good practice to designate font families in
+            					CSS in case a particular browser doesn't know a font you want to use. The
+            					browser can default to another that you specific is part of the same
+            					“family.” 
+            
+         </li>
+         			
+         
+      </ul>
+      			
+      
+      <p>You can fine-tune your selection of elements and attributes together using
+         					<strong>pseudo-selectors</strong>. We demonstrate this in the following example,
+         				courtesy of Obdurodon. If you wanted a particular rule to style only the <span class="code">&lt;title type="poem"&gt;</span> elements when there are other
+         				kinds of title elements present, you would need to specify the <span class="code">@type="poem"</span> in your CSS rule, using a pseudo-selector inside square
+         				brackets <span class="code">[ ]</span>. In this handy rule, we specify that the
+         				contents of this element be surrounded by typographic (curly) quotation marks
+         so we
+         				do not have to find the special characters for those in writing the HTML: 
+         
+      </p>
+      			
+      
+      <div class="code"> title<span class="red">[type = "poem"]</span>: before {<br /> content
+         				: "“";<br /> }<br /> title<span class="red">[type = "poem"]</span>: after {<br />
+         				content : "”";<br /> } 
+         
+      </div>
+      			
+      
+      <p>This is an unusual statement for another reason: We can specify what we want to
+         				appear <span class="code">before</span> and <span class="code">after</span> an
+         				element, using the syntax we’ve modelled here. 
+         
+      </p>
+      			
+      
+      <p>You can make up your own element and attribute names and decide on acceptable values
+         				in your XML schema, but you can’t make up XHTML element names or CSS properties
+         or
+         				acceptable values. E.g., if you try to set the color of an element to
+         				“OutrageousNeonYellow!”, that setting will be ignored. You can look up the legal
+         				properties and values from <a href="#resources">our Resources section below</a>.
+         
+      </p>
+      			
+      
+      <h3>Associating a CSS File with an HTML File</h3>
+      			
+      
+      <p>When we write a separate CSS file to style an HTML file, we need to
+         					<strong>associate</strong> it with the HTML by placing a special &lt;:link&gt;
+         				element inside the &lt;head&gt; element. The code looks like this, and we recommend
+         				simply copying and pasting this into your own &lt;head&gt; element and replacing the
+         				dummy.css filename with the name of your own CSS file:
+         
+      </p>
+      			
+      
+      <div class="code"> &lt;link rel="stylesheet" type="text/css" href="style.css"/&gt; </div>
+      			
+      
+      <p>Here's what the various parts of this element indicate: <span class="code">@rel</span> says what kind of link association this is: stylesheet is but one
+         				option. <span class="code">@type</span> indicates the kind of stylesheet, text-based
+         				CSS (as, again, there are others in the known web universe). Finally, we have
+         the
+         					<span class="code">@href</span>, which you might remember as the same attribute
+         				used on the HTML element <span class="code">&lt;a&gt;</span> to indicate a link
+         				address. This is the part where you specify the name of your file, which depends
+         on
+         				its location and its name.
+         
+      </p>
+      			
+      
+      <p><em>A note on mindful file management:</em> We recommend you save your stylesheets in
+         				the same directory with your HTML, because then you simply indicate the filename.
+         				Sometimes people stash their stylesheets in a subdirectory (a folder within the
+         web
+         				folder) and name it, for example, css: If you do that, you just need to create
+         a
+         				path to the file in your link statement, indicating the directory name, a forward
+         				slash and the filename: e.g., <span class="code">href="css/style.css"</span>. The
+         				value of the @href attribute can also be a URL, that is, a web address, as in
+         <span class="code">href="http://www.pitt.edu/~ebb8/index.css"</span> .<span class="smaller">You can actually write CSS to style XML for web presentation! If
+            					you want to give it a try, the way you associate the files is a little
+            					different: To attach CSS to XML in &lt;oXygen/&gt;, select Document → XML
+            					Document → Associate XSLT/CSS Stylesheet and navigate to the CSS file.
+            					&lt;oXygen/&gt; then inserts a line near the top of your document to make the
+            					file association. </span></p>
+      			
+      
+      <h3><a id="resources">Resources,</a> Tutorials, and References
+         
+      </h3>
+      			
+      
+      <p>We're not being lazy here; it's just that there are wonderful resources on the World
+         				Wide Web that cover every rule for CSS writing! Our goal with this page was to
+         				orient you to the basics of the syntax, so you can then find your way just as
+         we do,
+         				consulting the following (and finding your own great CSS resources):
+         
+      </p>
+      			
+      
+      <h3>CSS Tutorials and Samples:</h3>
+      			
+      
+      <ul>
+         				
+         
+         <li>
+            <b><a href="http://www.w3schools.com/css/">w3schools CSS Tutorial and
+                  							Reference</a></b>: Essential! This is our first stop for hunting how to
+            					write CSS rules for anything. We recommend that you continue from our basic
+            					introduction by taking <a href="http://www.w3schools.com/css/css_intro.asp">the
+               						w3schools CSS tutorial</a>, or if you prefer, the tutorial we list
+            					next:
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://learnlayout.com/">Learn CSS Layout</a></b> A different, and
+            					stylistically more lovely CSS tutorial.
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://www.csszengarden.com/">CSS Zen Garden</a></b> The same page
+            					is completely transformed by multiple CSS stylesheets: great for ideas on site
+            					layout!
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://dh.obdurodon.org/class-and-span.html">Using <span class="code">&lt;span&gt;</span> and <span class="code">&lt;class&gt;</span> to style your HTML</a></b>: From Obdurodon,
+            					and especially useful for our projects. Shows the abbreviated syntax for coding
+            					with the <span class="code">@class</span> attribute.
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://dh.obdurodon.org/html_layouts/">Website layouts</a></b>: A
+            					helpful Obdurodon tutorial on how to use the HTML <span class="code">&lt;div&gt;</span> element with various CSS properties to control the
+            					layout of a web page.
+            
+         </li>
+         			
+         
+      </ul>
+      			
+      
+      <h4>Color Tutorials and References:</h4>
+      			
+      
+      <ul>
+         				
+         
+         <li>
+            
+            <h3><a href="http://www.tomjewett.com/colors/index.html">Tom Jewett's Color
+                  							Tutorial:</a></h3> Very thorough explanation of color usage and
+            					variability on the World Wide Web and different browsers, monitors, etc.
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437">An Introduction to Color Theory for Web Designers</a></b>: Good advice
+            					and examples here to help you think of color schemes for your sites.
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://paletton.com/">Paletton's Palette Creator</a></b>: A helpful tool that follows color theory to help you generate good combinations
+            of colors, and mocking them up on sample websites
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://www.w3schools.com/html/html_colorvalues.asp">w3Schools
+                  							Reference on HTML Color Values</a></b>
+            
+         </li>
+         				
+         
+         <li>
+            <b><a href="http://www.colorcodehex.com/online-color-mixer.html">ColorCodeHex
+                  							Online Color Mixer</a></b>
+            
+         </li>
+         			
+         
+      </ul>
+      		
+      	
+      
+   </body>
+   
+   
+   
+   
+   
+</html>

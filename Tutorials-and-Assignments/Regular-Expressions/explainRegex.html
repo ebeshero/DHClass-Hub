@@ -1,0 +1,515 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      		
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      		
+      <title>Regex Intro</title>
+      	
+   </head>
+   
+   
+   	
+   <body>
+      <!--#include virtual="top.html" -->
+      		
+      			
+      <h1><span class="banner">Autotagging with Regular Expressions (Regex)</span></h1>
+      			
+      			
+      			
+      			
+      <h3>Regular Expression Matching (Regex)</h3>
+      			
+      <p>When we need to convert plain text or other digital text files into XML, we look for
+         strategies to convert patterns into markup. For example, there may be clear signals
+         in the text to show us divisions between sections (as in chapter breaks in a book,
+         or act and scene divisions in a play), and we might be able to tell from patterns
+         of line breaks where paragraph divisions fall. To help us identify, match, and locate
+         all of these in a file at once (instead of one at a time), we use <strong>regular expressions</strong>, which are basically <em>patterns to match strings of text</em>. There are many slightly different varieties of regular expressions used in different
+         coding and programming environments, and we will be using one of these that is standard
+         for our XML editing work and the &lt;oXygen/&gt; editor we are using.
+      </p>
+      			
+      <p>We use regular expression matching in what we call <em>up-conversion</em> from text to XML, and we also use it sometimes when we write XSLT to transform XML-to-XML,
+         when we need to add markup based on particular patterns we can locate in the text.
+         (For example, we might find that all the dates in a document are written in the same
+         format and wrapped in square brackets, and we can quickly use regular expression matching
+         to distinguish dates from other kinds of square-bracketed material by identifying
+         the brackets and a pattern of numbers and hyphens. We locate and alter those dates
+         with regular expressions either while coding an XML file or in up-converting a plain
+         text file.)
+      </p>
+      			
+      <p>In &lt;oXygen/&gt;, look at the Find/Replace window, select the checkbox next to “Regular
+         Expressions” in the Options menus, and try typing a backslash character ( <span class="code">\</span> ) into the Find window to bring up a short scrollable list of regular expression
+         patterns. There are many others we can use, and we tend to look these up and deploy
+         them as needed (rather than memorizing a long list). We use this handy <a href="http://www.regular-expressions.info/quickstart.html">Regular Expressions Info Quick Start Guide</a> very frequently, and it’s a great place for you to start learning and looking up
+         regular expression patterns. The regex expressions we are listing on this page are
+         those we use frequently in our projects. There are other convenient listings online,
+         such as <a href="http://regexlib.com/CheatSheet.aspx">The Regular Expression Library at RegExLib.com</a> , or <a href="http://en.wikipedia.org/wiki/Regular_expression">Wikipedia’s Regular Expression page</a> which may also be helpful. In the next section, we’ll discuss some basic starting
+         points and procedures we commonly use in our <em>up-conversion</em> work.
+      </p>
+      		
+      		
+      <h3>Autotagging: Up-conversion from Plain Text</h3>
+      			
+      <p>When we begin converting text files to XML, we start in the &lt;oXygen/&gt; window, and
+         we try to show all the special formatting characters in the document. In &lt;oXygen/&gt;,
+         go to <strong>Options -&gt; Preferences -&gt; Editor: Whitespaces:</strong> and mark to <strong>Show TAB and SPACE marks</strong>. 
+      </p>
+      			
+      <p>We then go to the Find/Replace window (CTRL+F on a PC computer, or on the “Find” dropdown
+         menu), and <strong>do the following:</strong></p>
+      			
+      <ul>
+         				
+         <li>Select Case sensitive</li>
+         					
+         <li>Select Wrap around</li> 
+         				
+         <li>Select Regular expression</li> 
+         			
+         <li>Important: At least at first, we suggest you <strong>deselect</strong> "Dot matches all." The “dot” represents any character, and it can be very powerful
+            or a little unwieldy! When “Dot matches all” is selected, it includes newline characters,
+            and so if you wrote <span class="code">.+</span> to match more than one character, it could match an entire document, what we call
+            a <em>greedy match</em>. When we deselect “dot matches all,” it matches any character within a line, and
+            is typically easier to maneuver! That said, there will be times that "Dot matches
+            all" is useful, in combination with other expressions.
+         </li>
+         			
+      </ul>
+      			
+      <p>We typically do the following in the Find/Replace window, first working on changing
+         special characters not permitted in XML content, <strong>working with ampersands first</strong>. (The order is important here, because you don’t want to change ampersands twice
+         when you’re working on the angle bracket characters (if you have them). If you do
+         the angle brackets first, you then leave those new ampersand characters designating
+         the left and right brackets open for conversion when you only want the real ampersands
+         by themselves. Make sense?)
+      </p>
+      			
+      <ol>
+         				
+         <li>Change &amp; to &amp;amp; </li>
+         				
+         <li>Then change &lt; to &amp;lt; and &gt; to &amp;gt;</li>
+         				
+         <li>Look for ways to condense multiple blank lines, but only after analyzing your document
+            and determining which ones should be kept as markers of, say, section breaks:
+            					We typically look for something like this, hunting for “newline” characters,
+            <span class="code">\n</span>: <br />
+            					<span class="code">\n{3,} or \n\n\n+</span> in the Find window, and replace with <span class="code">\n\n</span>, or whatever makes sense to you!
+            				
+         </li>
+         				
+         <li>While it may make the must sense to save this for last, you will need to (manually)
+            <strong>add a root element</strong> to surround everything and make an XML file.
+         </li>
+         			
+      </ol>
+      			
+      <h4>Useful Regex Pattern Symbols:</h4>
+      			
+      <ul>
+         				
+         <li><span class="code">\n</span> =new line character (in RegEx)  Example: replace \n with &lt;/item&gt;\n&lt;item&gt;
+         </li>
+         					
+         <li><span class="code">\t</span> = select tab
+         </li>
+         					
+         <li><span class="code">\s</span> = selects any white-space character (including tabs and new lines). In the Replace
+            window, use the space-bar to insert spaces.
+         </li>
+         					
+         <li><span class="code">\d</span> = select digit
+         </li>
+         					
+         <li><span class="code">\D</span> = select non-digit (note upper-case)
+         </li>
+         					
+         <li><span class="code">\w </span>= select word (or alphanumeric) character, either a letter or a number
+         </li>
+         					
+         <li><span class="code">\W</span> = select non-word character (note upper-case)
+         </li>
+         					
+         <li><span class="code">^ </span>= beginning of line.
+         </li>
+         					
+         <li><span class="code">$</span> =end of a line
+         </li>
+         				
+         <li><span class="code">.</span> = the dot: Matches any character except new line. Selects any character within a
+            line as long (<strong>as long as you do NOT check “dot matches all”</strong> in Find &amp; Replace. If “dot matches all,” this will select line breaks too.)
+         </li>
+         				
+         				
+         			
+      </ul>
+      			
+      			
+      <h4>Indicating How Many, Either <span class="code">|</span> Or, and Character Sets <span class="code">[ ]</span>:
+      </h4>
+      			
+      		
+      <ul>
+         
+         			
+         <li><span class="code">?</span> = used after a character, picks up zero or 1 of it: so <span class="code">colou?r</span> matches both “color” and “colour”
+         </li>
+         			
+         			
+         <li><span class="code">*</span> =used after a character, picks up zero or more of it: (the character may or may not
+            be there, and maybe there’s more than one of it). So <span class="code">\w\s\d*</span> picks up a letter followed by a space, as well as a letter followed by a space and
+            a number. 
+         </li>
+         			
+         			
+         <li><span class="code">+</span> =used after a character, picks up 1 or more of it: For example, <span class="code">\d+</span> picks up either one or more digits, 2 and 25 and 65746, etc.
+         </li>
+         			
+         			
+         <li><span class="code">|</span> = (the pipe): selects one OR the other:  <span class="code">grey|gray</span> or <span class="code">gr(e|a)y</span> are each patterns that will match either grey or gray.
+         </li>
+         			
+         			
+         <li><span class="code">[ ]</span> matches any ONE character enclosed. Example: <span class="code">[0-9]</span> will select the first single digit from 0-9 that it finds. <span class="code">[IVXLC]+</span> is handy for picking up one or more Roman Numerals, but be careful because this will
+            also pick up "I" when it’s not a Roman Numeral but the first-person pronoun: (I, as
+            in myself). <span class="code">[^IVXLC]</span> will select anything but these characters.
+         </li>
+         		
+      </ul>
+      			
+      <h4>Escaping Regex's Special Characters (When You Need To Find a Square Bracket, Period,
+         Asterisk, Question Mark, Etc.)
+      </h4>
+      		     
+      <p>Because characters like square brackets, asterisks, and question marks have special
+         meaning in regular expressions, in order to search for a literal square bracket, asterisk,
+         or question mark, you need to <em>escape</em> the regex character by using a backslash ( <span class="code">\</span> ). The following characters need to be escaped with a backslash if you need to find
+         the literal character in your text:
+      </p>
+      			
+      <ul>
+         				
+         <li>the backslash itself: ( <span class="code">\</span> )
+         </li>
+         			
+         <li>the caret ( <span class="code">^</span> )
+         </li>
+         				
+         <li>the dollar sign ( <span class="code">$</span> )
+         </li>
+         				
+         <li>the pipe ( <span class="code">|</span> )
+         </li>
+         				
+         <li>the dot ( <span class="code">.</span> )
+         </li>
+         				
+         <li>the question mark ( <span class="code">?</span> )
+         </li>
+         				
+         <li>the asterisk ( <span class="code">*</span> )
+         </li>
+         				
+         <li>the opening and closing parentheses ( <span class="code">(</span> and <span class="code">)</span> )
+         </li>
+         				
+         <li>the opening square bracket ( <span class="code">[</span> ), and the opening curly brace ( <span class="code">{</span> )
+         </li>
+         			
+      </ul>
+      			
+      <p>So, for example, in order to search for a string of alphanumeric characters followed
+         by a literal period, we would write the following expression:
+      </p>
+      			
+      <div class="code">
+         				<span class="code">\w+\.</span>
+         			
+      </div>
+      			
+      <p>The "backslash w plus" looks up any one or more alphaumeric characters, and the backslash
+         dot looks for the literal period. This might look a little confusing at first, since
+         we use the backslash to introduce specific kinds of regular expression characters
+         (<span class="code">\d</span>, <span class="code">\w</span>, etc.). It might help to think of using the backslash as an escape character whenever
+         you need to locate a character that means something special on its own in regular
+         expressions. 
+      </p>
+      		
+      			
+      <h4>How to Use Parenthetical Grouping in the Find Window and Select Groups with Backreferences
+         in the Replace Window:
+      </h4>
+      			
+      <p>When we group patterns in the Find window with parentheses, we can use <strong>backreferences</strong> to select parenthetical groupings by number in the Replace window. We apply a set
+         of <strong>capturing parentheses</strong> to isolate some parts of a pattern we find, if we want to exclude the rest when we
+         go to replace.
+      </p>
+      			
+      <ul>	
+         <li><span class="code">( )</span> matches and captures all text enclosed. Groups a collection of characters together
+            in the “Find” window so you can select it in the “Replace” window. We presume here
+            that you set these parenthetical groups side by side, rather than nest them inside
+            each other, so that the groupings read from left to right. 
+         </li>
+         				
+         <li><span class="code">\1</span> =under “Replace with”, this represents the first instance of text captured using
+            ( ), above, under “Text to find”.
+         </li>
+         				
+         <li><span class="code">\2</span> =second ( ) instance captured, as above   
+         </li>
+         				
+         <li><span class="code">\3</span> =third ( ) instance captured, as above, etc...
+         </li>
+         				
+         <li><span class="code">\0</span> =capture the entire match regardless of parentheses.
+         </li>
+      </ul>
+      			
+      <p>Note that you can use backreferences in any order, and repeat them as needed when
+         you are making replacements, so you can thoroughly remix the regex patterns you’ve
+         grouped! For examples of backreferencing, see <a href="http://www.regular-expressions.info/backref.html">the Regular-expressions.info page on the subject</a>.
+      </p>
+      			
+      			
+      			
+      <p>For example, I’ve just gone hunting through our <a href="ForsterGeorgComplete.xml">Georg Forster voyage file</a> to see if I can find all the references to days that take this verbal form: the 23rd
+         of April (or the 15th, the 2nd, or the 3rd of whatever month and/or year). Let’s say
+         I wanted to isolate only the numbers and not the letters (as in, simply, 23, 15, 2,
+         3), and wrap those in an element I’ll call <span class="code">&lt;day&gt;</span>, and then I also want to keep the rest of that text to immediately follow? What I
+         want to do is change this form: <strong>23rd</strong>, into this: <span class="code">&lt;day&gt;</span>23<span class="code">&lt;/day&gt;</span><strong>rd</strong> . That’s a perfect opportunity to use parenthetical grouping in Find and Replace,
+         like this:
+         			
+      </p>
+      		
+      <div class="code">	
+         <ul>
+            				
+            <li><strong>Find window:</strong> <span class="code">(\d\d*)([a-z]+)</span>
+               				
+               <p>Notice how we’re applying parentheses here to isolate the numerical portion, and then
+                  a second set to surround the lower-case character set.
+               </p>
+               				
+            </li>
+            				
+            <li><strong>Replace window:</strong> <span class="code">&lt;day&gt;\1&lt;/day&gt;\2</span>
+               				
+               <p>Here, I indicate that the “day” element is to sit around the first parenthetical grouping
+                  I’ve isolated: just the numbers. Then I give the second parenthetical grouping that’s
+                  going to sit right outside. This works in my markup to help me hold only the numerical
+                  portion of the date inside a handy XML element.
+               </p>
+            </li>
+            			
+         </ul>
+      </div>
+      			
+      <p>Note that you might want to use parentheses for reasons other than capturing and backreferencing.
+         For example, you might group a series of options marked with vertical pipes ( <span class="code">|</span> ) inside a parenthetical group in order to set this group of options apart from the
+         rest of your non-optional regex pattern. In this case, you’re using <strong>non-capturing parentheses</strong>, but you can hold capturing parentheses inside, and when you refer to them, you still
+         refer to them working from left to right, from inside the non-capturing parentheses.
+         This can get a little complicated, and we refer you to the Regular-Expressions.info
+         page on <a href="http://www.regular-expressions.info/branchreset.html">"Branch Reset Groups"</a> for details and examples.
+      </p>
+      			
+      <h3>Thinking Your Way Through an Autotagging Challenge:</h3>
+      		
+      			
+      <p>There’s no single <em>one</em> way to do autotagging on a file: There are always options! Here are some hints:
+      </p>
+      			
+      <ol>
+         <li>When you begin, one of the things you do is analyze the structure of the document
+            (do a “document analysis”) to notice what regular patterns you can find. You don’t
+            want to be working on this line by line from the top to the bottom, because the point
+            of autotagging is to collect all the <strong>related</strong> kinds of things across the whole document. Instead, the big decision you need to
+            make is whether to work from the <strong>outside in</strong>, or the <strong>inside out</strong>. 
+            			
+            <p>In other words, do you try to capture all the big outer elements first (the ones that
+               hold most of the other elements inside), and then work your way in? Or go the other
+               way, and start from the inside elements (all the items inside the lists, for example)?
+               Either approach can work, and much depends on the patterns you spot as you analyze
+               your text file.
+            </p>
+         </li>
+         			
+         <li>Sometimes you “munge” your file accidentally and need to take steps backward, or start
+            over with a fresh copy of the file--that has happened to us! It can be frustrating--take
+            a break and try it again. (It’s also very rewarding when you get it just right!)
+         </li>
+         			
+         <li>Try a <strong>close-open</strong> strategy: Quite often, the place where you open a new element is ALSO the place where
+            an old element closes. Can you do two things at once? Look for opportunities to close
+            a tag when you open a new one (or vice versa).
+         </li>
+         				
+         <li>When you work on autotagging, you usually do some work at the top and/or bottom of
+            your file to change or eliminate a few things at the start or toward the end of your
+            process. For example, if you try the <strong>close-open</strong> strategy to indicate at the start of a <span class="code">&lt;list&gt;</span> element where the previous <span class="code">&lt;list&gt;</span> ended, you’d write the code like this: <span class="code">&lt;/list&gt;&lt;list&gt;[regex pattern here]</span>. When you’ve made your replacements, you’ll always have an extra closing <span class="code">&lt;/list&gt;</span> tag ahead of your first <span class="code">&lt;list&gt;</span> element, but you can easily just manually delete this one rogue tag when you’re cleaning
+            up your file.
+         </li>
+         				
+         <li>When up-converting to XML, think about whether you really need or want to preserve
+            things in your text files that function as <strong>pseudo-markup</strong>, that is, things that functioned like structural markup to indicate things like quotations,
+            section divisions, separators between paragraphs. XML tags can be used to mark all
+            these things, and you can apply HTML and CSS later to add dividers as you wish when
+            you publish this in electronic form. But keep in mind as you analyze and convert your
+            documents that you don’t really need to preserve formatting for the sake of preserving
+            it. Remember that you want your XML markup (your tags themselves) to hold meaningful
+            information about the structure and content of your document, so you do not really
+            need to include the pseudo-markup in the original text. Systematically removing that
+            pseudo-markup is part of your up-conversion process.
+         </li>
+         			
+      </ol>
+      			
+      <h4>Some useful patterns:</h4>
+      			
+      <ul>
+         <li><span class="code">(a|b)</span> a or b
+         </li>
+         			
+         <li><span class="code">x{2,}</span> two or more x’s
+         </li>
+         			
+         <li><span class="code">p{3}</span>	Exactly 3 p’s
+         </li>
+         			
+         <li><span class="code">q{3,}</span>	3 or more q’s
+         </li>
+         			
+         <li><span class="code">B{3,5}</span> 3, 4 or 5 B’s
+         </li>
+         				
+         <li><span class="code">^(.+)$</span> Since a caret ( <span class="code">^</span> ) indicates the start of a line, and the dollar sign ( <span class="code">$</span> ) indicates the end of a line, and the <span class="code">.+</span> indicates the presence of some characters inside, this pattern selects lines that
+            contain text (and ignores any lines that are empty). You could run a Replace to work
+            with the capturing parentheses and wrap that content inside an element that makes
+            sense (like <span class="code">&lt;item&gt;</span>). In the Replace window, we’d write <span class="code">&lt;item&gt;\1&lt;/item&gt;</span> to tag the text inside the line.
+         </li>
+         				
+         			
+         <li><span class="code">^[IVX]+\. .+$</span>  =beginning of a line, any roman numeral less than 50, exactly one literal period,
+            exactly one literal space character, then all characters up to the end of the line
+         </li>
+         			
+         <li>\<span class="code">s\s</span> Find any sequence of two white-space characters (space, tab, new-line). If you’re
+            running a Find and Replace, you might replace these multiple white-space characters
+            with a single <span class="code">\s</span>, or use the spacebar.
+         </li>
+         				
+         <li><strong>Replacing line breaks:</strong>: Match the <span class="code">\n</span> (or newline character) in order to "consume" and replace a linebreak. It won’t work
+            to try to replace <span class="code">^</span>  and <span class="code">$</span>, which indicate the start and end of lines, because these are not characters that
+            can be replaced; they are merely <em>anchors</em> or indicators.  
+         </li>
+         				
+         <li>Read about how to write a <strong>Lookahead</strong> and <strong>Lookbehind</strong> regex, to look for a pattern of something ahead or behind of a character, or something
+            that is NOT ahead or behind a character. Read about it and look at examples on <a href="http://www.regular-expressions.info/lookaround.html">the Regular-Expressions.info guide to "Lookaround."</a></li>
+         			
+      </ul>
+      			
+      				
+      			
+      <h3>Regular Expressions in XPath and XSLT</h3>
+      			
+      <p>There are XPath functions dedicated to matching and converting regular expressions:
+         These include the following:
+      </p>
+      				
+      <ul>
+         					
+         <li><span class="code">matches()</span>: This takes two arguments: you designate a first string, and then a second that indicates
+            a particular pattern you’re trying to find inside it. For example, if you were looking
+            in all the paragraphs of a document coded with &lt;p&gt; to find any paragraphs that contain
+            at least a single digit): 
+            						
+            <div class="code">//p[matches(., "\d")]</div>
+            						
+            					
+            <p>Remember, the dot in the XPath indicates that you’re looking at the string of text
+               inside each paragraph in turn, and that is the first string. Then the second string
+               is the  regular expression pattern <span class="code">\d</span>, which indicates a pattern to search for any numerical digit inside the string of
+               text in the paragraph.
+            </p>
+            						
+            <p>Note: There are three other related XPath functions that work like <span class="code">matches()</span>, only these work on literal strings, not regex patterns. We include them here because
+               you may find them useful to think about in connection with matches():
+            </p>
+            					
+            <ul>
+               						
+               <li><span class="code">contains()</span>: Tests whether the first string contains a particular <strong>literal string</strong>. To adapt our example above, say we are looking for all the paragraphs that contain
+                  a mention of the specific year 1995. We’d use <span class="code">contains()</span> much like we’d write <span class="code">matches()</span>, but this time using the literal characters. 
+                  							
+                  <div class="code">//p[contains(., "1995")]</div>
+                  							
+                  <p>(Note: You can actually write matches() to look for a literal string as well as a
+                     regex pattern, since one kind of regex actually is a literal string. So, of these
+                     two, matches() is the more adaptable XPath function, and contains() can only match
+                     on literal strings.)
+                  </p>
+               </li>
+               						
+               <li><span class="code">starts-with()</span>: Tests whether the first string <em>starts with</em> a particular literal string.
+               </li>
+               						
+               <li><span class="code">ends-with()</span>: Tests whether the first string <em>ends with</em> a particular literal string.
+               </li>
+               					
+            </ul>
+            					
+            					
+         </li> 
+         					
+         <li><span class="code">replace()</span>: This function has three parts in its parenthetical expression: <span class="code">replace(string, regex, replacement-string)</span>, and works like this, for example, if we wanted to go look in any <span class="code">&lt;author&gt;</span> element for capital letters, and replace them all with literal asterisk characters:
+            					
+            <div class="code">//author/replace(., "[A-Z]", "*")</div>
+            						
+            <p>Here, the regex pattern is described in the middle expression to define the pattern
+               we’re looking for, and it’s a defined <em>character set</em>: This says, look for any single character from the set <span class="code">[A-Z]</span> and replace it with a “splat” or an asterisk. When I ran this XPath expression on
+               our <a href="ForsterGeorgComplete.xml">ForsterGeorgComplete.xml file</a>, I converted <strong>Forster, Georg</strong> in an author tag to <strong>*orster, *eorg</strong>. (Fortunately this was just a tester XPath, and it didn’t change the string of text
+               in my file, just in the XPath results window.)
+            </p>
+            					
+         </li>
+         					
+         <li><span class="code">tokenize()</span>: This one is extremely handy for fine-tuning XML markup: We use the <span class="code">tokenize()</span> function for a sort of surgical precision in our documents, to break patterns into
+            parts (or “tokens”), by dividing on a particular regex pattern: <span class="code">tokenize(string, regex-pattern)</span>, and the output breaks my string into parts that I can grab and work with. For example,
+            I’ll go looking for <span class="code">&lt;author&gt;</span> elements again to grab their text, and <strong>tokenize</strong> it on white space, defined as a regex pattern by <span class="code">\s+</span>:
+            					
+            						
+            <div class="code">//author/tokenize(., "\s+")</div>
+            						
+            <p>When I run this in the XPath window, I return (among other things), a list that separates
+               “George” from “Forster.”. (When we tokenize on white space, it’s a good idea to work
+               in the option for <em>one or more</em> spaces, in case we have a line break as well as a space character separating two
+               parts of a thing.)
+            </p>
+            					
+         </li>
+         
+         			
+      </ul>
+      			
+      <p>In XSLT, there is an element, <span class="code">xsl:analyze-string</span> that we use for manipulating regular expressions, and you can read more about it
+         in the Michael Kay book if you have it, or on the Obdurodon site’s <a href="http://dh.obdurodon.org/analyze-string.html">tutorial on using analyze-string</a>.
+      </p>
+      			
+      		
+      		
+      	
+   </body>
+   
+   
+   
+   
+</html>

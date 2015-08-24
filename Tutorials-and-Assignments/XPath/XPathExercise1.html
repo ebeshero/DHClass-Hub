@@ -1,0 +1,110 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      <title>XPath Exercise 1</title>
+   </head>
+   
+   
+   
+   <body>
+      <!--#include virtual="top.html" -->
+      		
+      			
+      <h1><span class="banner">XPath Exercise 1</span></h1>
+      			
+      			
+      			
+      			
+      			
+      <p>First of all, download the XML file I have linked here: <a href="ForsterGeorgComplete.xml">ForsterGeorgComplete.xml</a>.
+         				Open the file in oXygen and work with the XPath 2.0 Window. Respond to the XPath
+         questions below in a text file, and <a href="http://courseweb.pitt.edu">upload to
+            			Courseweb</a> for this assignment when you're finished.  (Please use an attachment! If you paste
+         your answer into
+         			the text box, CourseWeb may munch the angle brackets.) Some of these
+         			tasks are thought-provoking, and even difficult. If you get stuck, do
+         			the best you can, and if you can’t get a working answer, give the
+         			answers you tried and explain where they failed to get the results you
+         			wanted. Sometimes doing that will help you figure out what’s wrong,
+         			and even when it doesn’t, it will help us identify the difficult
+         			moments. These tasks require the use of path expressions, predicates,
+         			and the functions count() and not(), but they should not require any
+         			other XPath functions. There may be more than one possible answer. You may find
+         our introductory guide <a href="explainXPath.html">"Follow the XPath!"</a> a helpful resource as you proceed.<br /><br />
+         		
+         			With the Georg Forster file open in oXygen and using the XPath 2.0
+         			browser window in oXygen, construct XPath expressions that will do the
+         			following. <b>Be sure to give the FULL XPath expression you used in
+            				your answer, and don't just report your results.</b> This way, if the
+         			answer is incorrect, we can help explain what went wrong.
+      </p>
+      			
+      			
+      <ol>
+         <li>Like most of the long voyage publications, Georg Forster's voyage
+            			account is produced in multiple books, and inside each books we find
+            			multiple chapters. Both books and chapters are coded with <span class="code">&lt;div&gt;</span>
+            				elements. Take a look at the outline view of the document before you
+            				begin to familiarize yourself with the structure of this file, and
+            				answer the following:
+            				
+            <ul>
+               <li>How can XPath tell apart the books from the chapters?</li>
+               				
+               <li>What XPath would find ONLY the books in the file?</li>
+               				
+               <li>What XPath would find ONLY the chapters in the file?</li>
+               				
+               <li>What XPath would find  ONLY the chapters in Book 2?<br /><br /></li>
+            </ul>
+         </li>
+         				
+         				
+         				
+         <li>Look at the outline structure of the document to help you with
+            					these: What's the XPath to identify the <span class="code">&lt;head&gt;</span> element inside a
+            					chapter <span class="code">&lt;div&gt;</span>? How would we locate a <span class="code">&lt;l&gt;</span> (or line) element inside a
+            					chapter <span class="code">&lt;div&gt;</span>?<br /><br /></li>
+         						
+         						
+         <li>Georg Forster used a lot of footnotes in his document: These are
+            							coded inside <span class="code">&lt;ref&gt;</span> elements throughout the body paragraphs of the
+            							text. What's the XPath to locate all the notes in the document?<br /><br /></li>
+         							
+         				
+         <li>We've encoded lots of <span class="code">&lt;placeName&gt;</span> elements in this document to
+            								mark names of places, and these may occur in lots of positions.
+            								Sometimes they're in the <span class="code">&lt;head&gt;</span> elements that start the book or
+            					chapter divs, positioned inside lines of texts (coded with <span class="code">&lt;l&gt;</span>). Most
+            					often they're nested in the body paragraphs (<span class="code">&lt;p&gt;</span>), and they're
+            											frequently coded in Forsters notes, which you've just located.
+            											
+            											
+            <ul>
+               <li>What's the XPath to determine the number of placeNames that appear
+                  												inside ONLY the <span class="code">&lt;head&gt;</span> elements, and not in the rest of the document?
+                  												(Notice where these are located in the heads).
+               </li>
+               												
+               <li>What's the XPath to find the placeNames that are only mentioned in the notes?</li>
+               												
+               <li>What's the XPath to find the placeNames that are only mentioned in
+                  												the notes of Book I? How many of these are there?<br /><br /></li>
+            </ul>
+         </li>
+      </ol>
+      			
+      							
+      	
+   </body>
+   
+   
+   
+   
+</html>

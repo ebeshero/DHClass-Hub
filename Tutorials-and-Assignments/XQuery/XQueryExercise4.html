@@ -1,0 +1,144 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      <title>XQuery Exercise 4</title>
+   </head>
+   
+   
+   
+   <body>
+      <!--#include virtual="top.html" -->
+      	
+      			
+      				
+      <h1><span class="banner">XQuery Exercise 4</span></h1>
+      				
+      				
+      				
+      	
+      				
+      <p>This exercise builds on our earlier exercises, and involves a little more practice
+         with XPath expressions to retrieve a little more complex information.  We’ll work
+         with the Pacific Poetry collection for this exercise. Here’s how to locate this collection
+         in eXist on our Greensburg DH/DS Sandbox server: <span class="code">collection('/db/pacific/literary')</span>.
+      </p>
+      				
+      				
+      <p>	IMPORTANT: You’ll need to <b>declare the TEI namespace </b>at the top of any XQuery you run (in the line just under "xquery version "3.0";).
+         Here’s the line you need for that:
+      </p>
+      				              
+      <div class="code">declare default element namespace "http://www.tei-c.org/ns/1.0";</div>
+      			
+      <ol>
+         				
+         <li>This time, we’d like you to build an index of all the distinct people mentioned in
+            the poetry files in this collection. We would like you to retrieve the names from
+            within the <span class="code">&lt;text&gt; </span>element of the our TEI files to identify all the distinct people only in the 18th-century
+            texts. (Looking inside the <span class="code">&lt;text&gt;</span> element eliminates the names of the students and professors working on the project,
+            so you only return the historical 18th-century people.) Your output will be an HTML
+            table to hold information about which poems mention these people, and where they are
+            mentioned. 
+            					
+            					
+            <p><strong>How to retrieve all the personal names:</strong> Personal names are coded in two ways in the Pacific poetry files:
+            </p>
+            					
+            <ul> 
+               <li>as <span class="code">persName</span> elements,
+               </li> 
+               				  
+               <li>inside an attribute value on another element, like this: <span class="code">&lt;rs type="person" ana="supplied_name_here"&gt;</span>.
+               </li>
+            </ul>
+            
+            					
+            <p>In TEI, "rs" is a multi-purpose element meaning "referencing string," and we’ve used
+               this to code references to people when their names aren’t given. We’ve used the @ana
+               attribute in rs to hold names we’ve supplied. If we want to collect all the distinct
+               references to people’s names in our poetry collection, we will need to retrieve information
+               from both <span class="code">persName</span> as well as from the <span class="code">@ana</span> attribute in all the rs elements we’ve marked as type="person". So for number 1,
+               your task is to make an XQuery FLWOR to retrieve <strong>all the distinct-values of personal names from BOTH locations, and return them in
+                  alphabetical order</strong>.
+            </p> 
+            <p><strong>**You’ll be needing some hints for this: </strong><br /></p>
+            					
+            <ul>
+               <li><span class="code">@ana</span> may well be in use in other elements, so be sure you’re precisely locating the <span class="code">@ana</span> connected to <span class="code">rs[@type="person"]</span><br />
+                  				 
+               </li>
+               						
+               <li>To combine results of two different XPath expressions, whether in distinct-values,
+                  or in the stage before it when you’re collecting all the names, you’ll need to define
+                  a variable that lets you group things together using parentheses and a comma like
+                  this:  
+                  							
+                  <div class="code">let $allMyPeeps := ($people1, $people2)</div> 
+               </li>
+               						
+               <li>We recommend defining one variable to identify all the contents of <span class="code">persName</span>, and use the function <span class="code">normalize-space()</span> to take out extra spaces inside the contents of persName. Then define another variable
+                  to capture the contents of the <span class="code">@ana</span> attribute on <span class="code">rs[@type="person"]</span> with a <span class="code">string()</span> function at the end, since (as you may recall from previous exercises) XQuery won't
+                  simply output the value of an attribute but requires a <span class="code">string()</span> function to do that.  Remember that later on, you’ll need to work with a range variable
+                  to match up an XPath location for each result of your list of distinct-values.
+               </li>
+               						
+               					
+            </ul>
+            					<strong>Paste your XQuery expressions so far in a text file and save them </strong>for this homework. Continue in eXide.<br /><br />
+            							
+         </li>
+         				
+         <li><strong>Correlate each distinct personal name you retrieved in the collection with information
+               specific to each poem in the collection (making use of a range variable in a for statement).
+               </strong>
+            					(For some of these you’ll want to use the <span class="code">string-join((), ", ")</span> function to contain a list of results together in an HTML table cell or list item.)
+            Build FLWOR expressions and find good ways to position HTML elements (working with
+            a combination of tables and lists) to create a webpage, using tables and/or lists
+            as you wish and as make to hold the following information.<br />
+            					
+            <ol class="d">
+               					
+               <li>the poem title</li>
+               						
+               <li>the line numbers in which the person appears  Start your list item with the words
+                  <strong>"Line number:"</strong> and use <span class="code">string-join((), ", ")</span> in the event that you pull up multiple results
+               </li>
+               						
+               <li>the paragraph positions (if there are any) in which the person appears.<br />
+                  (These paragraphs are coded as <span class="code">&lt;p&gt;</span> in our main 18th-century text, and we can return them by their position number, using
+                  the position function: <span class="code">position()</span>.) Start your list item with the words <b>"Paragraph position:"</b> and (again) use <span class="code">string-join((), ", ")</span> in the event that you pull up multiple results. 
+                  						  <br />
+                  						  <br />
+                  						
+               </li>
+               					
+            </ol>
+            				
+         </li>
+         				
+         <li>
+            				
+            					  Finally, upload your text file with XQuery expressions, your HTML, and your
+            CSS at the Courseweb upload for this assignment. As you're working on this in stages,
+            upload each stage to Courseweb for XQuery Ex 4. 
+            				
+            			  
+         </li>
+         			
+      </ol>
+      		
+      		
+      							
+      	
+   </body>
+   
+   
+   
+   
+</html>

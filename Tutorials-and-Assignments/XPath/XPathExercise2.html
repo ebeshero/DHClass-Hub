@@ -1,0 +1,119 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      		
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      		
+      <title>XPath Exercise 2</title>
+      	
+   </head>
+   
+   
+   	
+   <body>
+      <!--#include virtual="top.html" -->
+      		
+      			
+      <h1><span class="banner">XPath Exercise 2</span></h1>
+      			
+      			
+      			
+      			
+      <p>Again for this exercise, we'll be working with our XML of Georg Forster's voyage
+         				narrative. Download the XML file I have linked here: <a href="ForsterGeorgComplete.xml">ForsterGeorgComplete.xml</a>. Open the file in
+         				oXygen and work with the XPath 2.0 Window. Respond to the XPath questions below
+         in a
+         				text file, and <a href="http://courseweb.pitt.edu">upload to Courseweb</a> for this
+         				assignment when you're finished. (Please use an attachment! If you paste your
+         answer
+         				into the text box, CourseWeb may munch your brackets.) Some of these tasks are
+         				thought-provoking, and even difficult. If you get stuck, do the best you can,
+         and if
+         				you can’t get a working answer, give the answers you tried and explain where they
+         				failed to get the results you wanted. Sometimes doing that will help you figure
+         out
+         				what’s wrong, and even when it doesn’t, it will help us identify the difficult
+         				moments.
+      </p>
+      			
+      <p>These tasks require the use of <b>path expressions, predicates, and the functions
+            					count(), not(), name(), and distinct-values()</b>, but they should not require
+         				any other XPath functions. There may be more than one possible answer. You may
+         find
+         				class notes and our introductory guide <a href="explainXPath.html">"Follow the
+            					XPath!"</a> a helpful resource as you proceed. With the Georg
+         				Forster file open in oXygen and using the XPath 2.0 browser window in oXygen,
+         				construct XPath expressions that will do the following. <b>Be sure to give the FULL
+            					XPath expression you used in your answer, and don't just report your
+            					results.</b> This way, if the answer is incorrect, we can help explain what went
+         				wrong.
+      </p>
+      			
+      <p>Georg Forster often took note of when latitude and longitude coordinates were
+         				measured during his trip with Captain Cook. We've spent some time capturing and
+         				coding these (with help from regular expressions!), and now we can use XPath to
+         work
+         				with our geographic coordinates. We've used <span class="code">&lt;geo
+            					select="lat"&gt;</span> for latitude readings, and <span class="code">&lt;geo
+            					select="lon"&gt;</span> for longitude readings.
+      </p>
+      			
+      <ol>
+         				
+         <li>Write an XPath expression to locate all the geo elements in Book I that contain
+            					latitude measurements. How many are there (only in Book I)? Check the number
+            in
+            					the oXygen result window (Description line) if you like. Be careful if you use
+            					the count() function here that you're getting only the count in Book I.
+         </li>
+         				
+         <li>These latitude measurements you've just looked up are all held inside
+            					paragraphs, or the <span class="code">&lt;geo select="lat"&gt;</span> element.
+            					What would you add to the previous XPath expression to return the paragraphs
+            					that hold latitude measurements in Book I? Give your complete XPath expression
+            					here. 
+         </li>
+         				
+         <li>Write an XPath expression to find the first paragraph in Book III, Chapter 1
+            					that contains a latitude reading. What's the number of this paragraph as coded
+            					in the file?
+         </li>
+         				
+         <li>Write an XPath to bring up all the paragraphs in this WHOLE file that contain
+            					both latitude AND longitude readings. How many of these paragraphs are
+            					there?
+         </li>
+         				
+         <li>Are there any paragraphs in this WHOLE file that do NOT have a latitude
+            					measurement, but DO have a longitude? What XPath expression reveals these? And
+            					how many of these paragraphs are there? <br /><br /></li>
+         
+         
+         
+         				
+         <li>Explain why the following two XPath expressions return different results. Run
+            					each XPath expression, review the results, and explain what you think each
+            					expression is returning. 
+            <ul>
+               						
+               <li><span class="code">//p[geo]/placeName[1]</span></li>
+               						
+               <li><span class="code">(//p[geo]/placeName)[1]</span><br /><br /></li>
+               					
+            </ul>
+         </li>
+         			
+      </ol>
+      		
+      	
+   </body>
+   
+   
+   
+   
+</html>

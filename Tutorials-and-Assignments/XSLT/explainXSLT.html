@@ -1,0 +1,491 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      		
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      		
+      <title>XSLT Intro</title>
+      	
+   </head>
+   
+   
+   	
+   <body>
+      <!--#include virtual="top.html" -->
+      		
+      			
+      <h1><span class="banner">Introducing XSLT</span></h1>
+      			
+      			
+      			
+      			
+      <h3>XSLT: eXtensible Stylesheet Language: Transformations</h3>
+      			
+      <p>XSLT is designed to transform XML into other kinds of XML, including HTML. First
+         				designed in 1999, it co-evolved with XPath, with working groups at the W3 Consortium
+         				collaborating on both. By 2007, both XPath and XSLT were well integrated together,
+         				which made XSLT a very powerful transformation language, capable of executing
+         very
+         				precise manipulations and functions in remixing XML documents. That is really
+         what
+         				XSLT is for: It is called a <em>stylesheet language</em>, which might remind you of
+         					<a href="explainCSS.html">CSS (Cascading Stylesheets)</a>, CSS is very limited
+         				by comparison with XSLT. CSS cannot change the order of elements or the content
+         of a
+         				document, but instead simply styles the elements already in place, as its functions
+         				are limited to presentation and display. XSLT, by contrast, can generate new kinds
+         				of documents from a base XML file, and was designed to translate one form of XML
+         				into another form (as, for example: XML to XHTML, TEI to XHTML, XML to SVG (scalable
+         				vector graphics, a form of XML that plots lines and shapes), or XML to KML (or
+         					<em>Keyhole Markup Language</em>, a form of XML designed for plotting placemarks
+         				and routes on Google Earth and other map interfaces.
+      </p>
+      			
+      <p>XSLT is a kind of XML document, with a single root element, <span class="code">&lt;xsl:stylesheet&gt;</span> that contains some very important attributes that
+         				define what the XSLT is transforming, from what and into what. Following that
+         is an
+         					<span class="code">&lt;xsl:output&gt;</span> statement that sets rules for the
+         				output document. Then the rest of the document is typically a series of <span class="code">&lt;xsl:template&gt;</span> rules, which are written to
+         					<strong>match</strong> on particular elements of the input document. The way
+         				XSLT does this is different from most programming languages, which describe a
+         set
+         				order or procedure. By contrast, XSLT is a <em>declarative language</em>, which
+         				means that its template rules <em>declare</em> what to do in the event a particular
+         				element shows up in the document: The rules seek to match specific scenarios:
+         If
+         				there is a <span class="code">&lt;name&gt;</span> element, and a template rule to
+         				match, <span class="code">&lt;template match="name"&gt;</span>, the rule will
+         				“fire” and generate output according to scenario you have written in the
+         				template. (So, for example, you might write a template rule that matches on all
+         					<span class="code">&lt;name&gt;</span> elements in an XML file, and outputs them
+         				all in an HTML list. Inside an <span class="code">&lt;xsl:template&gt;</span> is
+         				typically an <span class="code">&lt;xsl:apply-templates&gt;</span> rule which
+         				effectively calls on one or more of the elements in a file to be match the next
+         				appropriate template for them.
+      </p>
+      			
+      <p>To get started writing an XSLT file in &lt;oXygen/&gt; go to File→New Document,
+         				and choose XSLT. Typically we write and run XSLT in oXygen using the “XSLT
+         				debugger” view, which we show you in the graphic below. In that view, we
+         				choose an input file and an XSLT file to run, select a kind of output, and produce
+         				it in the output window on the right: 
+      </p>
+      			
+      <div class="wideImage"><img src="oXygenXSLTscrn1.png" alt="screen capture in oXygen of XSLT debugger" /></div>
+      			
+      <h3>XSLT’s Built-in Rules</h3>
+      			
+      <p>You don’t have to write any rules at all in XSLT. You could simply write a stylesheet
+         				with no template rules, and it would output all of the plain text of your document.
+         				That’s because XSLT has built-in rules that by default with output text nodes
+         				of all elements. The built-in rules start at the root of the element, and unless
+         				they are told to stop or diverted by template rules they will walk the whole XML
+         				tree and output any text they find. 
+      </p>
+      			
+      <h3>XSLT Stylesheet and Output Elements</h3>
+      			
+      <p>If you open an XSLT stylesheet in &lt;oXygen/&gt;, as of late 2014 you will see this
+         				opening and root element. We will usually need to alter this a little: 
+      </p>
+      			
+      <div class="code"> &lt;?xml version="1.0" encoding="UTF-8"?&gt;<br /> &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"<br />
+         				<span class="indent">xmlns:xs="http://www.w3.org/2001/XMLSchema"</span><br />
+         				<span class="indent">xmlns:math="http://www.w3.org/2005/xpath-functions/math"</span><br />
+         				<span class="indent">exclude-result-prefixes="xs math"</span><br />
+         				<span class="indent">version="3.0"&gt;</span><br />
+         				<br /> &lt;/xsl:stylesheet&gt; 
+      </div>
+      			
+      <p>The part of this we need to alter are the <span class="code">@xmlns</span>
+         				attributes, usually to add something more. These are the <strong>namespace</strong>
+         				declarations, which indicate the namespaces of the file from which we are reading
+         				(our input XML document), and the output we are writing to (XML or HTML, etc).
+         When
+         				things go very badly wrong in XSLT and no output is generated at all, it is nearly
+         				always a namespace issue: you may have forgotten to include the appropriate
+         				namespaces! For example, in our work on the Digital Mitford project, and in some
+         of
+         				your homework exercises, you will need to be reading from the TEI namespace and
+         be
+         				outputting to XHTML: To do that you must add the appropriate attributes to the
+         <span class="code">&lt;xsl:stylesheet&gt;</span>, indicating that TEI is the default
+         					<strong>XPath namespace</strong> and that the XHTML namespace applies as well.
+         				Here is our series of declarations:
+      </p>
+      			
+      <div class="code"> &lt;?xml version="1.0" encoding="UTF-8"?&gt;<br /> &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"<br />
+         				<span class="indent"><span class="code">xpath-default-namespace="http://www.tei-c.org/ns/1.0"</span></span><br />
+         				<span class="indent">xmlns:xs="http://www.w3.org/2001/XMLSchema"</span><br />
+         				<span class="indent">xmlns:math="http://www.w3.org/2005/xpath-functions/math"</span><br />
+         				<span class="indent">exclude-result-prefixes="xs math"</span><br />
+         				<span class="indent"><span class="code">xmlns="http://www.w3.org/1999/xhtml"</span></span><br />
+         				<span class="indent">version="3.0"&gt;</span><br />
+         				<br /> &lt;/xsl:stylesheet&gt; 
+      </div>
+      			
+      <p>Of course we don’t bother to memorize this, and typically copy and paste the
+         				namespace values from one file to the next (or by consulting pages like this
+         				one)!
+      </p>
+      			
+      <h4>The Output Statement</h4>
+      			
+      <p>We need to write another “top-level” statement (an immediate child of
+         				the root element) that indicates the kind of output the XSLT file is generating.
+         				(This is necessary to output a valid HTML 5 document written in XML syntax.) The
+         					<span class="code">&lt;xsl:output/&gt;</span> element is self-closing, and its
+         				first attribute, <span class="code">@method</span> needs to designate one of the
+         				following options as its value: "xml" (which is the default), "xhtml", "html",
+         and
+         				"text". We set "xml" here when outputting HTML 5 to avoid validation errors in
+         our output. There are other attributes to place
+         				on the output statement, which we’ll explain by walking through this
+         				example:
+      </p>
+      			
+      <div class="code"> &lt;xsl:output method="xml" encoding="utf-8" indent="yes"<br />
+         				doctype-system="about:legacy-compat"/&gt; 
+      </div>
+      			
+      <p>The method is set to xml . We set <span class="code">@encoding</span> to utf-8,
+         				because it’s the <a href="http://en.wikipedia.org/wiki/UTF-8">universal
+            					Unicode character set</a>, the most widely compatible character set for use on
+         				the World Wide Web. We usually set <span class="code">@indent</span> to "yes" (and
+         				the other legal value is "no"): This controls whether long lines of text in your
+         				output may be “wrapped” or indented on new lines, which typically makes
+         				them easier for humans to read. The last attribute, <span class="code">@doctype-system</span>, must be set to generate an HTML 5 doctype declaration in your output. <span class="smaller">(This precise setting of the @doctype-system attribute is currently, as of December
+            2014, the easiest way in XSLT to generate the current doctype statement for HTML 5,
+            and the “about:legacy-compat” part of it is actually for compatibility with software
+            that outputs HTML rather than compatibility with browsers.)</span></p>
+      			
+      <h4>White Space: Preserve or Destroy</h4>
+      			
+      <p>The last top-level elements we need to tell you about are for controlling white space
+         				in your output. These are optional, but occasionally really necessary depending
+         on
+         				the output you need and the state of your source file: 
+      </p>
+      			
+      <div class="code"> &lt;xsl:strip-space elements="day month year"/&gt;<br /><br />
+         				&lt;xsl:preserve-space elements="p li name"/&gt; 
+      </div>
+      			
+      <p>Use <span class="code">xsl:strip-space</span> to remove white space inside the
+         				elements in the list. Notice that the attribute (<span class="code">@elements</span>) takes a space-delimited list of element names. The idea is that
+         				you may need to remove extra spaces in the text of some of your elements, such
+         as
+         				new-line characters and indentations at beginnings of lines, so you use strip-space
+         				to systematically remove them all. By contrast, you’d use <span class="code">xsl:preserve-space</span> to keep the white space.
+      </p>
+      			
+      <p>Usually we don’t need these elements, but when you need it, you will know, because
+         				your output will have too much white space, or your formatting will be all
+         				wrong.
+      </p>
+      			
+      <h3>Template Rules</h3>
+      			
+      <p>The main part of the XSLT stylesheet are its template rules. When you write an <span class="code">xsl:template</span>, you specify an <span class="code">@match</span> attribute which calls out to particular elements. The value of
+         				@match can be described as <em>“XPath-like”</em>: it’s not really a full
+         				XPath expression, but it uses XPath syntax. This is because we do not designate
+         the
+         				template <span class="code">@match</span> to walk down the XML document tree. No.
+         				Instead, the elements <em>come to the template rule</em>, and if you were to write a
+         				full XPath expression with the leading // to designate walking down from the root,
+         				that would have no effect. With xsl:template rules, the elements in the input
+         XML
+         				are matched out of context with their hierarchy. For example, if you have written
+         a
+         				template match for <span class="code">&lt;xsl:template match="div"&gt;</span>, that
+         				rule is going to “fire” any time a <span class="code">div </span>comes
+         				by from the source document. 
+      </p>
+      			
+      <p>That can be really useful if we want a template rule to match all the divs in the
+         				hierarchy and treat them the same way. But usually that is not what we want. This
+         is
+         				where the <em>“XPath-like”</em> syntax comes in: In the Hamlet XML file
+         				we sometimes work with in homework exercises, you may want to process Acts (<span class="code">&lt;div&gt;</span> elements directly under the <span class="code">&lt;body&gt;</span>) differently from Scenes (<span class="code">&lt;div&gt;</span> elements directly under Acts), and so, using XPath-like
+         				syntax for <span class="code">@match</span>, you can write one template rule for
+         					<span class="code">match="body/div"</span> and another for <span class="code">match="div/div"</span>. You can also use predicates; for example, to process
+         				only Hamlet’s speeches, you can write a rule for <span class="code">xsl:template
+            					match="sp[@who eq ’Hamlet’]"</span>. Those template rules will only match on
+         				special cases as they come up.
+      </p>
+      			
+      <p>To write a complete template rule, you have to call for a particular kind of node
+         in
+         				your document (usually an element, but maybe other things), and then you have
+         to do
+         				some action with it. The action usually creates output nodes, and then goes on
+         to
+         					<strong>apply templates</strong> to the children of the current context node
+         				that has come by. So, to output a line of poetry in the form of an HTML paragraph,
+         				just to preserve the lines, you could write the following template rule:
+      </p>
+      			
+      <div class="code"> &lt;xsl:template match="line"&gt;<br />
+         				<span class="indent">&lt;p&gt;</span><br />
+         				<span class="indentMore">&lt;xsl:apply-templates/&gt;</span><br />
+         				<span class="indent">&lt;/p&gt;</span><br /> &lt;/xsl:template&gt;<br />
+         			
+      </div>
+      			
+      <p>Here is what happens when this rule fires: A <span class="code">&lt;line&gt;</span>
+         				element drifts by this template rule and is caught by the <span class="code">@match</span> attribute. The template takes its contents (basically consumes
+         				the node), and in its place it outputs an HTML <span class="code">&lt;p&gt;</span>.
+         				What’s inside that <span class="code">&lt;p&gt;</span> element generates its
+         				contents: <span class="code">&lt;xsl:apply-templates/&gt;</span> by itself with no
+         				attributes says, process the contents of this element it is consuming. <span class="code">&lt;xsl:apply-templates/&gt;</span> will process the contents of
+         					<span class="code">&lt;line&gt;</span> and pass its child nodes on to the
+         				templates that apply to them. 
+      </p>
+      			
+      <p>You might want to process something in particular in a template rule, to direct <span class="code">&lt;xsl:apply-templates/&gt;</span> to a next element that you want
+         				to be consumed in this particular position: perhaps something specific you would
+         want to see
+         				next within the HTML element you are constructing, to restrict what comes next.
+         For example, say you are working with our <a href="ForsterGeorgComplete.xml">Georg Forster Pacific Voyage text coded in TEI</a>, and you only want output a list of place names (coded with <span class="code">&lt;placeName&gt;</span> in each chapter, inside an HTML unordered list (coded with an outer <span class="list">ul</span> and an inner series of <span class="list">li</span> (list items), with an outer list containing the Chapter headings and an inner list
+         for each chapter holding the <span class="code">&lt;placeName&gt;</span> elements within it. For this transformation from TEI we are going to need three template
+         rules, to sit at different levels of our stylesheet. Here’s how we handled it:
+      </p>
+      			
+      			
+      <div class="code">
+         				&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br />
+         				&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"<br />
+         					<span class="indent">xmlns:xs="http://www.w3.org/2001/XMLSchema"</span><br />
+         					<span class="indent">xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs
+            math"</span><br />
+         					<span class="indent">xmlns="http://www.w3.org/1999/xhtml" version="3.0"</span><br />
+         					<span class="indent">xpath-default-namespace="http://www.tei-c.org/ns/1.0"&gt;</span><br />
+         				
+         				&lt;xsl:output method="xhtml" indent="yes" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/&gt;<br />
+         					
+         					<span class="code">&lt;xsl:template match="/"&gt;</span><br />
+         					<span class="indent">&lt;html&gt;</span><br />
+         				<span class="indentMore">&lt;head&gt;</span><br />
+         				<span class="indentEvMore">&lt;title&gt;Places Mentioned in Georg Forster Account&lt;/title&gt;</span><br />
+         				<span class="indentMore">&lt;/head&gt;</span><br />
+         				<span class="indent">&lt;body&gt;</span><br />
+         				<span class="indentMore">&lt;h1&gt;Places Listed in Each Chapter of Georg Forster’s Voyage Record&lt;/h1&gt;</span><br />
+         								
+         				<span class="indentMore">&lt;ul&gt;</span><br />
+         				<span class="code"><span class="indentEvMore">&lt;xsl:apply-templates select="//text/body//div[@type=’chapter’]"/&gt;</span></span><br />
+         				<span class="indentMore">&lt;/ul&gt;</span><br />
+         				<span class="indent">&lt;/body&gt;</span><br />
+         							
+         				<span class="indent">&lt;/html&gt;</span><br />
+         							<span class="code">&lt;/xsl:template&gt;</span><br />
+         					
+         					<span class="code">&lt;xsl:template match="div[@type='chapter']"&gt;</span><br />
+         						
+         				<span class="indent">&lt;li&gt;</span><br />
+         							<span class="code"><span class="indentMore">&lt;xsl:apply-templates select="head/l"/&gt;</span></span><br />
+         							
+         				<span class="indentMore">&lt;ul&gt;</span><br />
+         							<span class="code"><span class="indentMore">&lt;xsl:apply-templates select=".//placeName"/&gt;</span></span><br />
+         				<span class="indentMore">&lt;/ul&gt;</span><br />	
+         							<span class="indent">&lt;/li&gt;</span><br />
+         						
+         						<span class="code">&lt;/xsl:template&gt;</span><br />
+         					
+         					<span class="code">&lt;xsl:template match="placeName"&gt;</span><br />
+         					
+         					<span class="indentMore">&lt;li&gt;<span class="code">&lt;xsl:apply-templates/&gt;</span>&lt;/li&gt;</span><br />
+         					
+         						
+         						&lt;/xsl:template&gt;<br />
+         						&lt;/xsl:stylesheet&gt; 			
+         			
+      </div>
+      			
+      <p>In the stylesheet above, notice that the <span class="code">@select</span> attribute on <span class="code">xsl:apply-templates</span> is a <strong>literal XPath expression</strong>. In the template rule matching <span class="code">div @type="chapter"</span> we see two ways of stepping down into a literal XPath from the current context node,
+         whatever it is. In the first <span class="code">xsl:apply-templates @select</span>, we step into a child node and then down another path step to the child of head:
+         <span class="code">head/l</span>. In the second <span class="code">xsl:apply-templates @select</span>, we use the "dot" notation to indicate the current context node, which is very important
+         because our <span class="code">//</span> descendent axis notation would otherwise be read as starting from the root of the
+         XML tree and heading all the way down, rather than reading within a specific chapter!
+         <span class="code">xsl:apply-templates @select</span> is a literal XPath expression, quite unlike what we described with the <em>“XPath-like”</em> syntax in
+         				the template’s <span class="code">@match</span>.
+      </p>
+      			
+      <h4>Calculating and Outputting XPath Functions</h4>
+      			
+      <p>If we wanted to calculate a <span class="code">count()</span> or take the <span class="code">distinct-values()</span> of a series of output elements, or calculate and output <span class="code">string-length()</span> of a node, or otherwise execute XPath functions, we would write something like this:
+         <span class="code">&lt;xsl:value-of select="count(placeName)"/&gt;</span>, to deliver the <strong>calculated value</strong> of something. We would use this in place of our usual <span class="code">&lt;xsl:apply-templates/&gt;</span></p>
+      			
+      <h4>Totally suppressing a node:</h4>
+      			
+      <p>One way not to output anything for an element is to write an empty template rule for
+         it! For example, you could ensure that none of your paragraphs were ever output if
+         you wrote the following:
+      </p> 
+      				
+      <div class="code">&lt;xsl:template match="p"/&gt;
+         				
+         				
+         				
+      </div>
+      			
+      <p>This works to suppress the built-in rule to output text when no rules are defined,
+         and effectively suppresses your paragraphs. 
+      </p>
+      			
+      			
+      		
+      <h4>XSLT Processing: Understanding the Difference between <span class="code">@match</span> and <span class="code">@select</span>:
+      </h4>
+      			
+      <p>Use <span class="code">@match</span> only when we’re defining a template rule.
+      </p>  
+      			
+      <div class="code">	&lt;xsl:template <span class="code">match="a-pattern-wherever-it-is-that-we-want-to-match"</span>&gt;<br />
+         
+         					<span class="indent">INSIDE HERE we do stuff to process what we’ve matched, and we instruct XSLT what to
+            do next from this point in the document.</span><br />
+         					
+         					&lt;/xsl:template/&gt;<br />
+         				
+      </div>
+      			
+      <p>We use <span class="code">@select</span> in the internal part, on one of two XSLT elements: <span class="code">&lt;xsl:apply-templates/&gt;</span> or <span class="code">&lt;xsl:value-of/&gt;</span>.
+      </p>
+      				
+      				
+      				
+      			
+      <div class="code">			&lt;xsl:template match="something-wherever-it-is-that-we-want-to-match"&gt;
+         					
+         					
+         					<span class="indent">&lt;NEW-ELEMENT&gt;  &lt;!--this is the new element we want to show up in the transformed document--&gt;</span><br />
+         					<span class="indentMore">&lt;xsl:apply-templates <span class="code">select="something-related-by-XPath-to-this-point-we’ve-matched</span>&gt;</span><br />
+         				<span class="indent">&lt;/NEW-ELEMENT&gt;</span>
+         				&lt;/xsl:template&gt;
+      </div>
+      				
+      			
+      <p>We don’t have to use <span class="code">@select</span> at all! We could simply go with <span class="code">&lt;xsl:apply-templates/&gt;</span> if we want to duplicate ALL the contents of the thing we’ve matched in this place.
+         We use <span class="code">@select</span> when we need to be <strong>selective</strong> about what we’re going to process at the points of our match. So, let’s think about
+         this with a couple of examples, one that uses <span class="code">&lt;xsl:apply-templates/&gt;</span> with NO <span class="code">@select</span> attribute, and one that uses <span class="code">@select</span>.
+      </p>
+      				
+      			
+      <p><strong>Example 1: simple <span class="code">&lt;xsl:apply-templates/&gt;</span>  (no <span class="code">@select</span>):</strong></p>
+      				
+      				
+      <div class="code">
+         					&lt;xsl:template match="div/div//head"&gt;<br />
+         					
+         					<span class="indent">&lt;h1&gt; &lt;xsl:apply-templates/&gt; &lt;/h1&gt;</span><br />
+         					
+         					&lt;/xsl:template&gt;
+         				
+      </div>
+      				
+      				
+      			
+      <p>This template rule makes an <span class="code">@match</span> on something "XPath-like":  We use XPath syntax to define it, but notice that it
+         is NOT a full XPath expression, because we can’t see where it originates: we haven’t
+         defined a path down to it from the root element. But what we’re doing is looking for
+         a pattern, wherever it turns up in the XML tree: wherever we see a <span class="code">div/div//head</span> (or a head element that sits in a configuration like this), go match on it, whether
+         it appears up near the root element, or down inside a body paragraph).  When we are
+         there, the rule says, output an &lt;h1&gt; HTML element (for a top-level heading in HTML),
+         and inside output the full contents of our XML &lt;head&gt; element, and then go on and
+         process any children of head by the other template rules I’ve written in this XSLT
+         file: Apply templates from this point on down the XML tree.
+      </p>
+      					
+      					
+      <p>vs.</p>
+      			
+      <p><strong>Example 2: <span class="code">&lt;xsl:apply-templates select=".//something"&gt;</span>  using <span class="code">@select</span> (when and why we do it):</strong></p>
+      						
+      			
+      <div class="code">&lt;xsl:template match="placeName"&gt;<br />
+         							
+         							<span class="indent">&lt;strong&gt; &lt;xsl:apply-templates select="@ref"/&gt; &lt;/strong&gt;</span><br />
+         							
+         							&lt;/xsl:template&gt;
+      </div>
+      						
+      			
+      <p>This rule says, first of all, make a template <span class="code">@match</span> on <strong>any</strong> <span class="code">placeName</span>, wherever it appears in my XML input file. When you are there, <span class="code">&lt;xsl:apply-templates select="@ref"&gt;</span> says, go and process <strong>selectively</strong>: We don’t want the whole output here: What we want is ONLY the contents of the @ref
+         attribute sitting on <span class="code">&lt;placeName ref="Someplace"&gt;text-content-here &lt;/placeName&gt;</span>.  The template rule will go and read the contents of the <span class="code">@ref</span> attribute and output it here in the transformed HTML, wrapped in a <span class="code">&lt;strong&gt;</span> element to present it as bold. <span class="code">&lt;xsl:apply-templates select="@ref"&gt;</span> also says "go and apply the other template rules on this sheet to any children of
+         <span class="code">placeName</span> (if there are any).
+      </p>
+      							
+      							
+      <p>Think of <span class="code">@select</span> this way:
+      </p>
+      			
+      <div class="code">	&lt;xsl:apply-templates select="XPath-from-this-point"&gt; </div>
+      			
+      <p>Wherever our template rule has matched, the <span class="code">apply-templates @select</span> expresses <strong>a definite XPath from that point</strong>—usually to a child element or to an attribute, or to some specific point that you
+         want to process so that you <strong>don’t</strong> output the full content of the thing the template has matched on.  Use <span class="code">@select</span> when you want to define very specific output.
+      </p>
+      			
+      			
+      <h3>Sample Files:</h3>
+      			
+      <h4>Identity Transformation Stylesheet: Add line numbers to Shakespeare’s Sonnets</h4>
+      			
+      <ul>
+         <li><a href="shakesSonnets.xml">Original XML file of Shakespeare’s Sonnets</a> [Click to download, save the file, and open in &lt;oXygen/&gt;.]
+         </li>
+         				
+         <li><a href="SonnetIDTransform.xsl">XSLT Identity Transformation Sheet</a> [Click to download, save the file, and open in &lt;oXygen/&gt;.]
+         </li>
+      </ul>
+      			
+      			
+      <h4>Transforming Shakespeare’s Sonnets to HTML</h4>
+      			
+      <ul>
+         				
+         <li><a href="shakesSonnetsLineNumbers.xml">Shakespeare’s Sonnets with Line Numbers</a> [Click to download, save the file, and open in &lt;oXygen/&gt;.]
+         </li>
+         				
+         <li><a href="XSLT-XMLtoHTML-Model.xslt">XSLT Transformation with lots of comments inside!</a> [Click to download, save the file, and open in &lt;oXygen/&gt;.]
+         </li>
+         				
+         <li><a href="XSLT-Intro-Handoutcolor.pdf">Handout in PDF form</a></li>
+         				
+         			
+      </ul>
+      			
+      			
+      <h3>What’s Next: More on XSLT</h3>
+      			
+      <p>Please continue by reading and consulting the following pages on Obdurodon as you
+         work on XSLT homework exercises. You will likely want to come back to review them
+         later (as we do ourselves)!
+      </p>
+      			
+      <ul>
+         				
+         <li>Example XSLT Task: <a href="http://dh.obdurodon.org/count-acts-in-hamlet.html">Counting Speeches per Act in Hamlet, and Outputting to an HTML Table</a></li>
+         				
+         <li><a href="http://dh.obdurodon.org/algorithms.html">Thinking in Algorithms</a></li>
+         				
+         <li><a href="http://dh.obdurodon.org/xslt-basics-2.html">Conditionals, and Push and Pull in XSLT</a></li>
+         				
+         <li><a href="http://dh.obdurodon.org/avt.html">Attribute Value Templates in XSLT</a></li>
+         				
+         <li><a href="http://dh.obdurodon.org/modal-xslt.html">Modal XSLT</a></li>
+         			
+      </ul>
+      			
+      		
+      	
+   </body>
+   
+   
+   
+   
+</html>

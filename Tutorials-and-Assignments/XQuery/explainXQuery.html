@@ -1,0 +1,381 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      <title>XQuery and eXist</title>
+   </head>
+   
+   
+   
+   <body>
+      <!--#include virtual="top.html" -->
+      		
+      		  
+      <h1><span class="banner">XQuery and the eXist XML Database</span></h1>
+      		  
+      		  
+      		  
+      			
+      			
+      <h3>What's an XML database and how does it work? </h3>
+      			
+      <p>XQuery is one of the XML family of languages, and it builds on what you've learned
+         of XPath. We use XQuery to work with databases of stored and indexed XML files. XML
+         databases  basically work by storing XML files and building "persistent indexes" for
+         them--and this indexing capacity makes it quick and efficient to search for elements,
+         attribute values (and the other things we've been doing with XPath expressions) across
+         collections of files, by effectively reviewing the index that the database builds
+         for each file, so that the computer doesn't have to review the entire file. Basically
+         the index stores the tree-structure of XML in the database memory, and makes it available
+         for quick retrieval through XQuery. 
+      </p>
+      			
+      <h3>How to Access our eXist XML database: </h3>
+      			
+      <p>For our class and the Pacific project, we're working with a particular XML database
+         called eXist, and it's installed on our private sandbox server only accessible to
+         members of our class group through a secure login. To work on homework exercises and
+         on project development, <strong>here's how to access eXist:</strong></p>
+      		  
+      <p>eXist is available right now in two "places", in the same way you access our Digital
+         Sandbox for developing your project websites:
+      </p>
+      		  
+      <ol>
+         <li>In our campus computer labs, without an sremote login: <a href="http://x1.digital.greensburg.pitt.edu:8080/exist/apps/dashboard/index.html       ">http://x1.digital.greensburg.pitt.edu:8080/exist/apps/dashboard/index.html</a><br /></li>
+         
+         <li>On your OWN computers with a wireless or wired connections. (Please test this ASAP
+            following the instructions below to make sure it works for you.)
+         </li>       
+         
+      </ol>
+      	      
+      <p>To begin, you need to use the secure login, "Network Connect"--our private passageway
+         to eXist. If you're enrolled in this class, you've been granted access. Here's what
+         to do: 
+      </p>
+      
+      <ol>
+         
+         <li>Open <b>Internet Explorer</b> or <b>Firefox</b>, and go to <a href="http://sremote.pitt.edu">http://sremote.pitt.edu</a> . (Network Connect won't be fully functional in other browsers.) If you can't get
+            in through Explorer, try the Firefox browser.
+         </li>
+         
+         <li>With "Network Connect" selected, log in with your Pitt userid and password (the same
+            that you use for e-mail and for your Pitt web space)
+         </li>
+         
+         <li>After you log in, you'll see a link to <b>"Firewall-GBG-DH-DIGITAL-SANDBOX-NetworkConnect."</b> Click on this to bring up a new screen with the words "Network Connect" again--this
+            time with a "Start" button. <b>Click on the Start Button, and wait</b> until Network Connect seems to have run.
+         </li>
+         
+         <li>Once you've done this, you may open ANY web browser (or a new tab in this browser)
+            and go to this link to our eXist XML database:<br /><b><a href="http://x1.digital.greensburg.pitt.edu:8080/exist/apps/dashboard/index.html ">http://x1.digital.greensburg.pitt.edu:8080/exist/apps/dashboard/index.html</a></b>
+            
+         </li>
+         
+         <li>Here, you may log in locally with:
+            
+            <ul>
+               
+               <li>id: your Pitt userid </li>
+               
+               <li>password: dhclass </li>
+               
+            </ul>
+            <br />
+            (After you log in for the first time, change the password to whatever you want.) 
+            
+         </li>
+         
+         <li>Open <b>eXide</b> to work on XQuery. 
+         </li>
+         
+         
+      </ol>
+      
+      
+      <p> </p>
+      
+      <h3>How the database is organized: </h3>
+      			
+      <p>eXist is set up like a file directory with a hierarchical order--a little like a massive
+         XML file with subfiles! So there's a single root directory called <strong>"db"</strong>, with subfolders containing folders (or collections), which may in turn contain their
+         own subfolders (more collections), and finally files.  I've installed a copy of our
+         Georg Forster XML file here, in a collection called "voyages," inside a directory
+         called "pacific", which is so its address is <span class="code">/db/pacific/voyages/ForsterGeorgComplete.xml</span> . 
+      </p>
+      			
+      <p>As we work on project development, you may find that you want to upload your own collection
+         of XML files into eXist, and we'll walk you through how to do that. This is different
+         from uploading files to publish on your web space, which makes them publicly viewable
+         but doesn't build index files or let you collect, extract, and remix your coding using
+         XQuery. 
+      </p>
+      		  
+      <h3>XQuery for a Single Document vs. a Collection:</h3>
+      			
+      <p>XQuery uses XPath expressions to find its way through its index of files. It can work
+         on one file, or on a whole collection, thus:
+      </p>
+      			
+      <ul>
+         
+         <li>The <span class="code">doc()</span> function in XQuery finds a single document, and inside the parentheses goes the path
+            to the document within the database, including the filename. To retrieve our Georg
+            Forster XML file, use: <span class="code">doc('/db/pacific/voyages/ForsterGeorgComplete.xml')</span> . <br /><br /> 
+         </li>
+         
+         <li>The <span class="code">collection()</span> function finds a directory (or collection) that holds XML files. We've uploaded two
+            other voyage files to sit in the same collection with our Georg Forster file, and
+            we can run a  query of the ENTIRE group of files, instead of looking through each,
+            one by one. To query this collection of files, we use <span class="code">collection('/db/pacific/voyages')</span>.<br /><br /> 
+         </li>
+         
+         <li>To return a complete single document so you can browse through its coding and structure,
+            write an expression in this form: 
+            <span class="code">doc('/db/pacific/voyages/ForsterGeorgComplete.xml')/* </span>  <br />
+            <br />
+            
+         </li>
+         
+         <li>Try accessing other files in this same collection space: HwksV2Ch4-8PNum.xml and cookVoy2Pnum.xml<br />
+            <br />
+            
+         </li>
+         
+         <li>To write comments (or "comment out" some lines in XQuery), use <span class="code">(: comment :) </span></li>
+         
+      </ul>
+      
+      
+      <p>Actually, both <span class="code">doc()</span> and <span class="code">collection()</span> are XPath functions, and we'll be adding more XPath, once you've designated the document
+         or collection: You can write path expressions, use predicates, functions, walk up
+         and down axes. This works if the files in your collection are coded (at least structurally)
+         in the same or similar ways.
+      </p>
+      
+      <h3>The TEI and XQuery: Declaring the TEI Namespace</h3>
+      
+      <p>Speaking of coding in the same or similar ways, we need to introduce you to the Text
+         Encoding Initiative, or TEI. This a language of XML with designated rules and tag
+         sets for coding digital versions of literary, linguistic, historical, and cultural
+         texts, and it represents an international standard for coding work consistently for
+         long-term, sustainable archives. TEI is also a community (of which I'm a member),
+         and people serve on its ruling Council to make judgment calls on best practices and
+         coding guidelines. We use TEI to build digital archives that can "talk to" each other
+         around the world, and follow recognizable, standard patterns. We *could* make up our
+         own XML tag sets, but when coding cultural resources, it's a Good Idea to make your
+         work accessible, so its easy for others to access and, say, load into databases to
+         run XQuery for analyzing it, or studying it, or connecting it wiht other comparable
+         texts in other archives! We'll talk more about TEI structure and coding, and give
+         you some experience with it. (To read more, <a href="http://www.tei-c.org/index.xml">here's the TEI's home site</a>.) For now, you can quickly tell if one of our files is coded in TEI from its root
+         element: <span class="code">&lt;TEI&gt;</span> .
+      </p>
+      
+      <p>XQuery needs something called a <b>namespace declaration</b> when we use the TEI, in order to properly follow its index and in order to follow
+         the schema rules for TEI (to determine if your file is <b>valid</b> as a TEI document). Similarly, we use a namespace declaration for html, to say there
+         are certain rules governing the relationship of tags, their organization, etc.  When
+         we query our TEI files, we'll need to include the following namespace declaration
+         as the first statement of our XQuery: <span class="code">declare default element namespace "http://www.tei-c.org/ns/1.0";<br />
+            </span></p>
+      
+      <p>Here are examples of some XQuery expressions on collections of TEI files:</p>
+      
+      <p><span class="code">declare default element namespace "http://www.tei-c.org/ns/1.0";<br />
+            collection('/db/pacific/literary')//titleStmt/title</span></p>
+      
+      <p><span class="code">declare default element namespace "http://www.tei-c.org/ns/1.0";<br />
+            collection('/db/pacific/literary')/distinct-values(.//body//persName)</span></p>
+      
+      <h3><a id="FLWOR"></a>"FLWOR" Expressions in XQuery
+      </h3>
+      
+      <p>"Flower" or FLWOR expressions are a powerful tool in XQuery, letting us work in more
+         complex ways with querying and remixing information in files and collections--sometimes
+         both in the same expression! Here's a primer on FLWOR (or really, LFWOR!):
+      </p>
+      
+      
+      <p>
+         <span class="code">"Let":</span> establishes variables which may be single values or arrays of multiple values (single
+         or multiple)<br />
+         <br />
+         <span class="code">"For":</span> establishes a <i>range variable</i> that moves step by step from one value to the next and the next in a long list of
+         values defined by a a Let statement. (single ONLY)<br />
+         <br />
+         <span class="code">"Where"</span> (optional): filtering; analogous to predicates<br />
+         <span class="code">"Order by"</span> (optional): alphabatize, etc. Always appears after "Where"<br />
+         <br />
+         <span class="code">"Return"</span>: generates output          
+      </p>
+      
+      
+      <p> <b>A really, really simple little FLWOR:</b></p>
+      
+      <p><span class="code"> let $hamlet := doc('/db/shakespeare/plays/hamlet.xml')<br />
+            return $hamlet   </span></p>
+      
+      <p><b>Examples of two related FLWOR Expressions, to demonstrate the use of "For" and "Where"</b></p>
+      
+      
+      <p>1.  (no "For" statement here):<br />
+         <span class="code">
+            declare default element namespace "http://www.tei-c.org/ns/1.0";
+            <br />
+            </span><span class="code">let $cook := doc('/db/pacific/voyages/cookVoy2Pnum.xml')<br />
+            </span><span class="code"> let $p := $cook//p[geo]
+            <br />
+            let $geo := $cook//p/geo
+            <br />
+            let $countlat := count ($geo[@select="lat"])
+            <br />
+            let $countlon := count ($geo[@select="lon"])
+            <br />
+            where $countlat gt $countlon
+            <br />
+            return $p</span></p>
+      
+      <p>2. Using a "For" statement:<br />
+         <br />
+         <span class="code">declare default element namespace "http://www.tei-c.org/ns/1.0";<br />
+            let $cook := doc('/db/pacific/voyages/cookVoy2Pnum.xml') <br />
+            let $P := $cook//p[geo]<br />
+            let $geo := $cook//p/geo<br />
+            let $countlat := count ($geo[@select="lat"])<br />
+            let $countlon := count ($geo[@select="lon"])<br />
+            for $p in $P  </span><br />
+         <span>(:</span> to show the use of a range variable with <span class="code">for</span>, try commenting this last line out, and changing the return expression to give <span class="code">$P/@n</span> :)<br />
+         <span class="code">
+            where $countlat gt $countlon<br />
+            return string-join(('paragraph',$p/@n),':') 
+            </span> <br />
+         <br />
+         (: Note use of the string-join function, with its separator. Also notice which parts
+         of it take the <b>single-quotes</b> <span class="code">' '</span>, and which parts don't! The single quotes,  <span class="code">' '</span> , allow you to indicate you want some literal text to be returned here. Without it,
+         the computer thinks you're referring to an XPath expression. :) <br />
+         
+      </p>
+      
+      <p><b><a id="Order"></a>The "O" in the FLWOR: Order:<br />
+            </b>
+         The "Order" statement in the FLWOR is optional, but when you use it, it must follow
+         a Where statement, and immediately precede the "Return." A default is to sort a list
+         of results in alphabetical order, so, for example:
+      </p>
+      
+      <p><span class="code"> order by $a </span></p>
+      
+      <p>organizes results in alphabetical order sorted by the whatever is indicate in the
+         variable $a. <br />
+         There are more complex ways to set up an order to organize results. You can order
+         by descending (to get reverse alphabetical order): <span class="code">order by $a descending</span>  <br />
+         Or order a set results according to their numerical position or count, in ascending
+         or descending order.
+      </p>
+      
+      <h3><a id="Curly"></a>Building New HTML or XML with XQuery: Using Curly Braces: <span class="code">{ }</span></h3>
+      
+      <p>To add HTML or XML markup to the XQuery output, add the elements where needed to produce
+         conformant code. However, these elements are passive, or non-functional  when executing
+         XQuery commands. So we use curly-braces<span class="code"> { } </span>to enclose any XPath or XQuery statements that we want to execute in XQuery, to separate
+         them from the HTML or XML markup elements. Inside html elements, when we need to do
+         some calculation or refer to a variable we defined in XQuery, we use the curly-braces
+         again. We'll work on some examples in class. Here's one example that may be helpful
+         as a reference point, showing how to make an html page with a table of two columns,
+         making a list of two related variable results side by side. The resulting html file
+         is coded to display a table of the distinct characters (&lt;SPEAKERS&gt;)in <i>Hamlet</i> from our Shakespeare collection, next to a count of their speeches (&lt;SPEECH&gt;) in
+         the play. We've highlighted the position of the curly-braces in the example:
+      </p>
+      
+      <p>&lt;html&gt;<br />
+         &lt;head&gt;&lt;title&gt;Title&lt;/title&gt;&lt;/head&gt;<br />
+         &lt;body&gt;<br />
+         &lt;table&gt;
+         <br />
+         <span class="code">{</span><br />
+         let $hamlet := doc('/db/shakespeare/plays/hamlet.xml')<br />
+         let $speeches := $hamlet//SPEECH<br />
+         let $speakers := $hamlet//SPEAKER<br />
+         <br />
+         let $distinctsp := distinct-values($speakers)<br />
+         for $sp in $distinctsp<br />
+         let $count := count($speeches[SPEAKER = $sp])<br />
+         order by $count descending<br />
+         return<br />
+         <br />
+         &lt;tr&gt;<br />
+         &lt;td&gt;<span class="code">{$sp}</span>&lt;/td&gt;<br />
+         &lt;td&gt;<span class="code">{$count}</span>&lt;/td&gt;<br />
+         &lt;/tr&gt;<br />
+         <span class="code">}</span><br />
+         &lt;/table&gt;
+         <br />
+         &lt;/body&gt;<br />
+         &lt;/html&gt;
+      </p>
+      
+      <h3><a id="Strings"></a>  Working with Strings: 
+      </h3>
+      
+      <p>Example using XPath functions:<br />
+         USEFUL LIST OF FUNCTIONS: <strong>see part III on Strings here</strong>: <a href="http://dh.obdurodon.org/functions.html">http://dh.obdurodon.org/functions.html</a></p>
+      
+      <p>MODEL: Generating a list of characters in Shakespeare plays in alphabetical order:<br />
+         <a href="http://dh.obdurodon.org/shakespeare-characters.html">http://dh.obdurodon.org/shakespeare-characters.html</a></p>
+      
+      <p><span class="code">let $hamlet := doc('/db/shakespeare/plays/hamlet.xml')<br />
+            let $speakers := distinct-values($hamlet//SPEAKER) <br />
+            for $speaker in $speakers<br />
+            let $speakerLength := string-length($speaker)<br />
+            where ends-with($speaker,'O')<br />
+            (:order by string-length($speaker):)  (:commenting out! :)<br />
+            order by $speakerLength<br />
+            <br />
+            (:return $speaker:) (:commenting out! :)<br />
+            return concat ($speaker, ' has ', $speakerLength , ' characters')</span><br />
+         
+      </p>
+      
+      <p>Example inserting HTML formatting into results: NOTE use of curly braces { } :<br />
+         <br />
+         &lt;html&gt;<br />
+         &lt;head&gt;&lt;title&gt;Title&lt;/title&gt;&lt;/head&gt;<br />
+         &lt;body&gt;<span class="code"> {<br />
+            let $hamlet := doc('/db/shakespeare/plays/hamlet.xml')<br />
+            let $speakers := distinct-values($hamlet//SPEAKER)<br />
+            for $speaker at $pos in $speakers                                           &lt;-- sets
+            position value $pos<br />
+            let $speakerLength := string-length($speaker)<br />
+            where ends-with($speaker,'O')<br />
+            order by $speakerLength<br />
+            return &lt;p&gt;{concat ($speaker, '#', $pos, ' has ', $speakerLength , ' characters')}&lt;/p&gt;<br />
+            }</span><br />&lt;/body&gt;<br />  &lt;/html&gt;
+      </p>
+      
+      <h3>Links to Some Excellent XQuery Resources:</h3>
+      
+      <ul>
+         
+         <li><a href="http://en.wikibooks.org/wiki/XQuery">XQuery Wikibook</a>: some examples here are specific to working in eXist, and some are in more general
+            usage.
+         </li>
+         
+         <li><a href="http://www.xquery.com/tutorials/guided-tour/">XQuery: A Guided Tour</a>, and especially <a href="http://www.xquery.com/tutorials/guided-tour/combine-restructure-nodes.html">their discussion of FLWOR expressions</a>.
+         </li>
+         
+         
+      </ul>
+      					
+      	
+   </body>
+   
+   
+   
+   
+</html>

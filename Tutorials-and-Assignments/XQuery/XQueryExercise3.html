@@ -1,0 +1,385 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      <title>XQuery Exercise 3</title>
+   </head>
+   
+   
+   
+   <body>
+      <!--#include virtual="top.html" -->
+      	
+      	
+      <h1><span class="banner">XQuery Exercise 3</span></h1>
+      	
+      	
+      	
+      		
+      <h2>Using XQuery and XSLT Together to Produce KML for Mapping</h2>
+      	
+      <!--	<img src="keyhole.png" alt="keyhole image"/>-->
+      		
+      <p>With this exercise, you will gain experience with extracting data from multiple files,
+         and with processing it in multiple stages of transformation, a kind of “pipeline”
+         or chain of files we’ll create in both XQuery and XSLT. You’ll also gain experience
+         with producing <strong>KML (Keyhole Markup Language)</strong> to view in Google Earth or Google Maps. KML was developed as a form of XML to store
+         and process location information with geospatial coordinates for visualization, and
+         its odd name, “Keyhole,” is an homage to the early 1960s Key Hole spy satellites (so
+         named because they were being used to see into secret areas during the Cold War, like
+         peering furtively through a keyhole into a private room). Our view of the Google Earth
+         globe and the extensive zooming and panning visibility available in Google Maps is
+         reliant on satellite imaging technology that allows us to pan back from a distance
+         to view continents or pull up close to a 3-dimensional street view.
+      </p>
+      		
+      <h3>Anatomy of a KML file:</h3>
+      		
+      <p>A KML file has the following basic structure. (There are many more elements that you
+         may use, but for our purposes this is just a simple form of the file thanks to <a href="https://developers.google.com/kml/documentation/kml_tut">the Google Developers KML Documentation Tutorial</a> with some small adjustments, and represents the bare minimum to work with):
+      </p>
+      		
+      <div class="code">
+         			&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br />
+         			&lt;kml xmlns="http://earth.google.com/kml/2.2"&gt;<br />
+         			&lt;Placemark&gt;<br />
+         			&lt;name&gt;Simple placemark&lt;/name&gt;<br />
+         			<span class="indent">&lt;description&gt;Attached to the ground. Intelligently places itself 
+            				at the height of the underlying terrain.&lt;/description&gt;</span><br />
+         			<span class="indentMore">&lt;Point&gt;</span><br />
+         			<span class="indentEvMore">&lt;coordinates&gt;-122.0822035425683,37.42228990140251,0&lt;/coordinates&gt;</span><br />
+         			<span class="indentMore">&lt;/Point&gt;</span><br />
+         			&lt;/Placemark&gt;<br />
+         			&lt;/kml&gt;
+         		
+      </div>
+      		
+      <p>There are a couple of available namespace definitions for KML: One is the Google namespace
+         we indicate here and use in this assignment. The other is the default actually listed
+         in the Google Developers’ tutorial pages and that currently is set in &lt;oXygen/&gt; when
+         you open a new KML file (look in New → Framework Templates): That namespace is <span class="code">&lt;kml xmlns="http://www.opengis.net/kml/2.2"&gt; </span>, and while it’s fine to use that in your projects, for our purposes we are using
+         the Google namespace for consistency with the GPS lookup tool we are using in this
+         exercise. When working with generating your own KML and coordinating with a lookup
+         service as we are doing here, it is important to <strong>keep an eye on namespace consistency</strong> given the multiple namespaces available.
+      </p>
+      			
+      <h3>Overview of the assignment:</h3>
+      			
+      <ol>
+         				
+         <li>First, we need to extract the distinct locations tagged in a batch of XML project
+            files. We have uploaded for this purpose a collection of files from this semester's
+            Church Schism project into eXist, accessible from <span class="code">collection('/db/Schism')/*</span>. We will extract all the distinct values of the element <span class="code">&lt;location&gt;</span> in use in these files, and we need to generate our output in a string-joined list
+            with a line-break separator, so each name appears on a separate line in our plain
+            text output.  
+            				
+         </li>
+         				
+         <li>We need the data in this format to input into a web form at <strong>GPS VIsualizer</strong>: <a href="http://www.gpsvisualizer.com/geocoder/">http://www.gpsvisualizer.com/geocoder/</a>, which will look up and output latitude and longitude coordinate data for each line
+            of text. You will need to use a map API key to process more than five locations at
+            a time, and for our class purposes we have set up a key to Bing Maps API that you
+            may use (copy the full line below): 
+            					
+            <div class="code">AlmOJ6eCoH-qzIkqle1JVPo1O8FHE4IANZ0mxTB0tga19_AuZQec5ynrhFUZmjol</div>
+            				<span class="smaller">The keys to Bing, Open Maps, and Google Maps permit individuals to process info for
+               some hundreds or perhaps a thousand places per day, and are a sort of filter to prevent
+               abuse and overload of map APIs. You may wish to sign up for your own Basic key for
+               use in your projects. </span>
+            				
+         </li>
+         				
+         <li>We can output a KML file from the GPS Visualizer site, and save it to work with it.
+            We will make some changes to it so that it includes more information that we will
+            extract via XQuery from the Church Schism project files. For this assignment, we would
+            like to capture the text of the paragraphs surrounding each location, so that this
+            text appears in place marks on our maps.
+         </li>
+         				
+         <li>We return to XQuery to output a file we will call <strong>Placeography.kml</strong>, which follows a very simple structure of a KML document: just location names and
+            descriptions. so you will output the distinct-values of <span class="code">&lt;location&gt;</span> again, followed by the <strong>first paragraph</strong> in the project files that holds this location information. (We can’t easily accommodate
+            all the paragraphs that hold this place name, so for our purposes, we’ll simplify
+            matters and just return only the first paragraph that introduces the location.)  It
+            will have the following structure (including sample output here):
+            				
+            <div class="code">
+               					&lt;kml&gt;<br />
+               					<span class="indent">&lt;Placemark&gt;</span><br />
+               					<span class="indentMore">&lt;name&gt;Allegheny County&lt;/name&gt;</span><br />
+               					<span class="indentMore">&lt;description&gt;An Allegheny County court awarded the Episcopal Diocese of Pittsburgh
+                  more than $15 million in endowments, bank accounts and other assets that a secessionist
+                  diocese had sought to retain.
+                  								of the Court of Common Pleas in Allegheny County ruled yesterday that the
+                  assets -- although not necessarily buildings and land titled in the name of the parishes
+                  that seceded -- belong to the  Diocese of Pittsburgh of the  Church of the United
+                  States of America. Due to the litigation, the financial services firm  froze diocesan
+                  trust funds pending a decision by an Allegheny County Common Pleas judge. The 600-member
+                  Church of the Ascension was denied more than $30,000 in promised grants, most of which
+                  were intended to start a mission church.
+                  								&lt;/description&gt;</span><br />
+               					<span class="indent">&lt;/Placemark&gt;</span><br />
+               					&lt;/kml&gt;
+               					
+               				
+            </div>
+            					For the purposes of this homework exercise, when you output this KML file, <strong>name it Placeography.kml</strong> (just for ease of reference to this assignment page). In your projects you may want
+            to handle your data extraction differently than we do here (not necessarily outputting
+            whole paragraphs, but perhaps other kinds of information correlated to the locations
+            you want to plot on a map). In any case, you will want to think about what kinds of
+            information you want to feature in the KML <span class="code">description</span> element.	
+            				
+         </li>
+         				
+         <li>Now, we turn to &lt;oXygen/&gt; to write XSLT. We have some automatically generated KML
+            that contains information we need to plot our maps, and we have a simple Placeography.kml.
+            We are going to write an <strong>identity transformation</strong> stylesheet that will pull the two files together. We will show you how to do that
+            below. 
+         </li>
+         				
+         <li>We output our KML file from this identity transformation, save it and open it in &lt;oXygen/&gt;
+            to be sure it is well-formed and valid. Then we input it into either Google Earth
+            (if you have installed it on your computer or access it on our computer lab machines),
+            or into Google Maps (for which you will need to access your Google account). To import
+            a KML file into Google Earth, <a href=" http://www.igismap.com/upload-kml-file-google-map/">follow these instructions</a>. Here is <a href="https://www.google.com/maps/d/edit?mid=zInhk3q5XEGA.k4w5KlEZWuPU">a view of sample output from this assignment: what this should look like when you're
+               done</a>.  
+         </li>
+         				
+         			
+      </ol>
+      		
+      		
+      <h3>Help with the details:</h3>
+      		
+      <ol>
+         			
+         <li>The first task, to output plain text with distinct location names simply involves
+            using <span class="code">distinct-values()</span> in a way that you’ve done before. (To be sure that you are getting the correct results,
+            if you do a count() of all the distinct location names coded as of now in the Schism
+            project files, the number should be 46.) But there’s something unusual in this task
+            that you’ve not seen before: We want to output a new location on each line of plain
+            text output, using the <span class="code">string-join()</span> function. Usually when we use <span class="code">string-join()</span>, we indicate a comma or some form of punctuation as our separator character for the
+            second argument of the function. This time, we’re using a special ASCII character
+            code for a <strong>line feed:</strong> <span class="code">&amp;#10;</span> . Position this in your string-join() (using quotation marks) just as you would any
+            other separator character. <span class="smaller">(Or you could define it as a variable in XQuery, and then when you call the variable
+               inside <span class="code">string-join()</span>, don’t use the quotation marks.)</span> <strong>Copy this XQuery into a text file to save, as one of the files you will upload to
+               Courseweb for this homework assignment.</strong></li>
+         			
+         <li>For the second task, highlight and copy all your output from the eXide returns window,
+            and paste your list of location names into <a href="http://www.gpsvisualizer.com/geocoder/">the GPS Visualizer tool</a> (after inputting the Bing Maps Key), be sure you have selected Bing Maps as your
+            source (so you can use my key) and click the green “Start geocoding” button. Wait
+            for the results to come out in the text window: You will see lists of latitude and
+            longitude pairs followed by place names and other information.
+         </li> 
+         <li>
+            				We would like to output this information as a KML document that we can transform
+            for ourselves in &lt;oXygen/&gt;. To do that, click on the link to the right of the output
+            box labelled in green in square brackets: <strong>[more map options]</strong>.
+            <ul>
+               				
+               <li>This brings up a page titled <strong>“Convert your GPS data for use in Google Earth.”</strong> In the “General map parameters” area, <strong>change the Output file type</strong> on the dropdown menu from the default .kmz (zipped) to the form we want: <strong>.kml (uncompressed)</strong>. Notice that you can make adjustments here to your output data. The KML file you
+                  create will be something you can import into Google Earth or Google Maps or other
+                  mapping software if you would like to see what you have produced so far. As you learn
+                  more about how to fine-tune your KML output and control the look of your maps in mapping
+                  software, you may find you want to make some adjustments on this screen to your output,
+                  or code other things yourself working in &lt;oXygen/&gt;. (Feel free to tinker with the
+                  default icon and icon color, etc.)
+               </li>
+               				
+               <li>When you are ready, click the button in the lower right of your screen: “Create KML
+                  file.” You will see a file is generated with a long name (beginning with today’s date)
+                  and a .kml extension. Click to download and save the file in a folder into which you
+                  will save other files related to this mapping assignment. (You will need to save your
+                  XSLT in this folder, as well as one other KML file you are about to produce. It is
+                  important that all of these files are sitting in the same directory in relation to
+                  each other, for us to process them together.)
+               </li>
+               				
+            </ul>
+            			
+         </li>
+         			
+         			
+         <li>You have produced one KML file, or rather you have let the GPS Visualizer do it for
+            you. Now, we want to create a very simple KML file of our own. Go back into eXist,
+            and this time, write a new XQuery file (building on the previous XQuery that you wrote,
+            if you like). This time, we need to output a file that contains KML’s structure of
+            &lt;placeMark&gt; elements, with two elements inside: a &lt;name&gt; element and a &lt;description&gt;
+            element. You have learned to write XQuery to output HTML, with a root element at the
+            top and bottom, and curly braces <strong>{ }</strong> to set off the XQuery FLWOR statements and their itemized output. This time, you
+            need to produce <span class="code">kml</span> output, which is much simpler than HTML. Create a root element at the top of your
+            file: <span class="code">&lt;kml&gt;</span>, and close it at the end of your file: <span class="code">&lt;/kml&gt;</span>. In between, set up your curly braces <span class="code">{ }</span>, and write a FLWOR with a <span class="code">return</span> statement in this form:
+            				
+            <div class="code">
+               					&lt;kml&gt;<br />
+               					<strong>{</strong><br />
+               					(: FLWOR  statements  :)<br />
+               					
+               					return<br />
+               					
+               					<span class="indent">&lt;Placemark&gt;</span><br />
+               					<span class="indentMore">&lt;name&gt;{&lt;!--something here to process in XQuery!--&gt; }&lt;/name&gt;</span><br />
+               					<span class="indentMore">&lt;description&gt;{&lt;!--something here to process in XQuery!--&gt;}
+                  						&lt;/description&gt;</span><br />
+               					<span class="indent">&lt;/Placemark&gt;</span><br />
+               					<strong>}</strong><br />
+               					&lt;/kml&gt;
+               					
+               				
+            </div>
+            			
+            <ul>
+               <li>Your FLWOR statement will need to output, in the kml <span class="code">name</span> element, <strong>each one of the <span class="code">distinct-values()</span> of the <span class="code">location</span> element</strong> (using that range variable you worked with in the previous XQuery Exercise 2). 
+               </li>
+               				
+               <li>In the <span class="code">description</span> element you need to define a variable that will look up for *each* of the location
+                  names in that distinct-values list (using that range variable still), the <strong>very first paragraph</strong> (coded as <span class="code">&lt;p&gt;</span> in the XML files of the Schism collection. Return the <span class="code">string()</span> value of that paragraph so we don't bother with its tags: we just want its plain
+                  text.
+               </li>
+               <li> When you are generating output that makes sense, <strong>copy and paste your XQuery into a text file with something new in the title (like
+                     Beshero-Schism-pt2) and save it to upload to Courseweb </strong>as part of this homework assignment. Also, you now need to copy and paste that code
+                  into a new KML file in &lt;oXygen/&gt;: To do this, in &lt;oXygen/&gt; go to New, and look in
+                  the Framework Templates folder for the KML folder. Open the file, and change its top
+                  line, because it will be pointing a different KML namespace than the files we are
+                  generating. Delete the top namespace line and replace it with the following:
+                  					
+                  <div class="code">&lt;kml xmlns="http://earth.google.com/kml/2.2"&gt;</div>
+                  				Now, paste into this new file, after the new namespace line, the KML output you
+                  generated in eXide, making sure you have included your root element. <span class="smaller">(When you paste you might leave in the default kml root element, so it's easy to accidentally
+                     double these, and an easy problem to fix.)</span> Save your new KML file (for the purposes of our assignment) as <strong>Placeography.kml</strong> in the same folder with the KML file you generated with the GPS Visualizer.
+               </li>
+               			
+            </ul>
+            			
+         </li>
+         			
+         <li>Now, you have made not one, but two KML files! We want to take that <span class="code">description</span> element you generated, with the <span class="code">p[1]</span> output and merge it with the KML file that you generated from the GPS Visualizer.
+            We will do that using XSLT to write an <strong>Identity Transformation</strong> stylesheet. You will be transforming the GPS Visualizer KML into a new and slightly
+            modified KML, that draws from your second KML file. This will introduce you to some
+            coding in XSLT that you have not seen before, a kind of coding that resembles what
+            we do with drawing on multiple files in XQuery. In XSLT, too, you can work with multiple
+            files. Because this is new and unusual, we want to show you how it works, so we give
+            you our code with comments. (Here are links to: 
+            <ul>
+               <li><a href="KML-IDTransform.xsl">our KML to KML Identity Transformation XSLT file</a>, so you can download the file and open it in &lt;oXygen/&gt;, and
+               </li>
+               				
+               <li><a href="KMLtoKMLExplainbw.pdf">a printable PDF document copy</a> of the code, with our comments highlighted.)
+               </li>
+               			
+            </ul>  We hope that you will be able to apply this in your files. 
+            			
+            <div class="code">
+               				&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br />
+               				&lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"<br />
+               					xmlns:xs="http://www.w3.org/2001/XMLSchema"<br />
+               				<strong>xpath-default-namespace="http://earth.google.com/kml/2.2"</strong><br />
+               					xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs
+               math"<br />
+               					<strong>xmlns="http://earth.google.com/kml/2.2"</strong><br />
+               					
+               					version="3.0"&gt;<br />
+               					<span class="smaller">&lt;!--ebb: This is an identity-transformation stylesheet designed to transform KML into
+                  KML, and to draw from a second KML file to import information.--&gt;<br />
+                  						&lt;!--ebb: Note that we need to add an XPath default namespace for KML (for input)
+                  and an xmlns for the output KML, too. All files we're processing need to be in KML
+                  format: note the two separate declarations of KML in the &lt;xsl:stylesheet&gt; element.
+                  (The output method has to be xml because there's no recognized "kml" value for the
+                  @method on xsl:output.)
+                  							--&gt;</span><br />
+               					
+               					&lt;xsl:output method="xml" indent="yes"/&gt;<br />
+               					
+               				<strong>&lt;xsl:variable name="PO" select="document('Placeography.kml')" as="document-node()"/&gt;</strong><br />
+               				<span class="smaller">&lt;!--ebb: This variable actually invokes a second document that we're going to pull
+                  into this transformation! We will be able to process and mingle information from more
+                  than one file by establishing variables like this, set at the document node (or root
+                  element) of the file. We'll invoke it below using $PO. --&gt;</span><br />
+               				&lt;xsl:template match="node() | @*"&gt;<br />
+               				<span class="indent">&lt;xsl:copy&gt;</span><br />
+               				<span class="indentMore">&lt;xsl:apply-templates select="node() | @*"/&gt;</span><br />
+               				<span class="indent">&lt;/xsl:copy&gt;</span><br />
+               				&lt;/xsl:template&gt;<br />
+               				<span class="smaller">&lt;!--ebb: This code (above) matches and copies all the elements of the KML file, and
+                  essentially makes this an Identity Transformation stylesheet.--&gt;</span><br /><br />
+               				&lt;xsl:template match="description"&gt;<br />
+               				<span class="indent">&lt;name&gt;&lt;xsl:value-of select="."/&gt;&lt;/name&gt;</span><br />
+               				&lt;/xsl:template&gt;<br />
+               					<span class="smaller">&lt;!--ebb: In the initial output from GPS Visualizer, we discover that the contents
+                  of the &lt;description&gt; element contains a little more detail than the original value
+                  we input for &lt;name&gt;. So we write a template rule to match on &lt;description&gt; and output
+                  it as &lt;name&gt;, and we'll suppress the original &lt;name&gt; element from appearing in the
+                  output with the next template rule. --&gt;</span><br />
+               					
+               					
+               					&lt;xsl:template match="Placemark/name"&gt;<br />
+               						
+               				<span class="indent">&lt;description&gt;</span>  <br />
+               				<strong><span class="indentMore">&lt;xsl:value-of select="$PO//name[. = current()]/following-sibling::description"/&gt;</span><br /></strong>
+               				<span class="indent">&lt;/description&gt;</span><br />
+               						
+               						&lt;/xsl:template&gt;<br />
+               					
+               				<span class="smaller">&lt;!--ebb: Initially we wrote this:<br />
+                  				&lt;xsl:template match="name"&gt;<br />
+                  				&lt;/xsl:template&gt;<br />
+                  That line is basically an empty template match, so it matches on name and makes it
+                  so nothing comes out.
+                  But we decided we wanted to add a new &lt;description&gt; element, pulling from Cassie's
+                  and Ryan's XML markup, to collect the text immediately surrounding the location name.
+                  So with this template rule we're invoking a second file, signalled by the variable
+                  $PO which we defined at the top of our XSLT document. Note that we are establishing
+                  a match-up here between the two files, so we need to use both dot (.) and current()
+                  to be very precise about our match-up: The dot (.) refers to *wherever you are at
+                  the moment in your current path* so it's in-the-moment, here, referring to the most
+                  immediate reference point: the $PO//name. We need current() to signal where we are
+                  with the template match, the current context node of the template match in our main
+                  import file from the GPS Visualizer. 
+                  --&gt;</span><br />
+               					
+               					
+               					&lt;/xsl:stylesheet&gt;	
+               				
+               				
+               				
+               			
+            </div>
+            			
+            			
+            			
+            			
+         </li>
+         			
+         <li>Do number six as described in the overview above, and experiment with importing it
+            into Google Earth or Google Maps: Do you see the output? Can you click on the placeMarks
+            to view the paragraphs you extracted from the project files? 
+            <ul>
+               <li>Again, to import a KML file into Google Maps, <a href=" http://www.igismap.com/upload-kml-file-google-map/">follow these instructions</a>. To view in Google Earth, simply open Google Earth and open the file within it.
+               </li>  
+               <li>Upload your two XQuery files, and each of the KML files you generated (three of them)
+                  to Courseweb for this assignment. Voila!
+               </li> 
+            </ul>
+         </li>
+         		
+      </ol>
+      		
+      		
+      <h3>For more on mapping with KML:</h3>
+      		
+      <p>To learn more about how to work with KML and its many options for laying out and connecting
+         points, drawing shapes on maps, using image overlays, etc., see the <a href="https://developers.google.com/kml/documentation/kml_tut">Google Developers KML Tutorial</a>. There are a few options for <a href="http://dh.obdurodon.org/kml-gadget.html">embedding Google Earth</a> or Google Maps on a website using iframes (for Google Maps, find the embed link on
+         the webpage). We’ll help you with this, but first spend some time looking at map output
+         in various views and decide what views make the most sense for your project.
+      </p>
+      		
+      	
+   </body>
+   
+   
+   
+   
+</html>

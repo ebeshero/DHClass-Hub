@@ -1,0 +1,510 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      		
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      		
+      <title>Explain XHTML</title>
+      	
+   </head>
+   
+   
+   	
+   <body>
+      <!--#include virtual="top.html" -->
+      		
+      	
+      			
+      <h1>Introduction to XHTML (and HTML)</h1>
+      			
+      			
+      <!--<h3> for subheadings when you need them.</h3>-->
+      		
+      				
+      <div class="imageAlt"><img src="w3chqsm.jpg" alt="W3C Headquarters in Cambridge, Mass." /><span class="smaller">The
+            						headquarters of <a href="http://www.w3.org/Consortium/">the W3C</a> at the
+            						MIT campus in Cambridge, Massachusetts.</span></div>
+      						
+      <p>In our course, at the point we expect you’ll be reading this, you
+         						have been writing and planning XML documents. By now you’re accustomed
+         						to writing well-formed XML code, as well as writing rules to constrain what
+         						elements, attributes, and content you want an XML file to contain. So far,
+         						your writing of code has followed <strong>syntax</strong> rules for
+         						well-formedness, leaving the naming and content of your elements and
+         						attributes up to you, <a href="explainRNG.html">to control with your own
+            							schema rules</a>. We now turn to orient you to <strong>HTML</strong> (or
+         							<strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup
+         							<strong>L</strong>anguage), which has its origins in the concept of
+         						“hypertexts” as <strong>linkable</strong> (or
+         						“hyperlinked”) documents, and developed into markup controlling
+         						the presentation of pages to be networked and shared on the World Wide Web
+         						(W3).
+      </p>
+      			
+      <p>In writing HTML, we work within a standardized set of element and attribute names
+         				designed to be read by web browsers. XHTML (and the other forms of HTML that
+         				we’ll tell you about) all rely on standards formulated by the <a href="http://www.w3.org/Consortium/">World Wide Web Consortium</a> (abbreviated
+         					<strong>W3C</strong>), an organization founded in 1994 to develop open-source,
+         				platform-independent schema for coding and best practices around the world for
+         				sharing and displaying in web browsers. A web browser is software designed to
+         share
+         				and display documents and other resources on the World Wide Web accessed through
+         the
+         				internet. A web browser (like Chrome, Firefox, Safari) is considered
+         				“standards-compliant” when it supports the coding approved by the W3C
+         				for the creation of web pages, their styling, their linking to other sites, their
+         				representation of metadata, and their dynamic features to be customized by site
+         				visitors. Those curious to read about the history of HTML and the origins of the
+         				World Wide Web (and the much earlier origins of the Internet) can read more at
+         <a href="http://www.livinginternet.com/">LivingInternet.com</a> (a wonderfully
+         				extensive resource), or this concise and witty walk through: <a href="http://www.rackspace.com/blog/internet-history-html-evolution/">“Internet History: HTML Code Evolution 1.0 to 5.0.”</a></p>
+      			
+      <p>This guide orients you to <strong>XHTML</strong> (or e<strong>X</strong>tensible
+         					<strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup
+         					<strong>L</strong>anguage), which at the time of this writing is the most
+         				strictly defined content model for hypertexts. XHTML requires XML syntax using
+         the
+         				hierarchical, nested elements and the start and end tags that you are familiar
+         with
+         				from writing XML. XHTML is the form of HTML used by the W3C on their site
+         				pages, and it has served as the long-term recommendation for precise code designed
+         				to be <strong>interoperable</strong> with other XML data formats, such as SVG
+         				(Scalable Vector Graphics—which you’ll later be learning to draw and code).
+         					<strong>Interoperability</strong> is term referring to a technology’s
+         				capacity to communicate effectively with a different kind of technology. HTML
+         and
+         				the World Wide Web were first developed in the early 1990s in an attempt to make
+         				various information retrieval structures speak to each other in an interoperable
+         				way, and XHTML, due to its strict syntax control, effectively maximizes the
+         				interoperability of HTML, which is especially important for those of us developing
+         				XML-based projects with a public face on the World Wide Web.
+      </p>
+      			
+      <h3>Basic Requirements of XHTML</h3>
+      			
+      <p><strong>Valid XHTML 5 syntax</strong> requires the following structure,
+         				beginning with a <span class="code">&lt;!DOCTYPE&gt;</span> declaration: 
+      </p>
+      		
+      <div class="code"> &lt;?xml version="1.0" encoding="UTF-8"?&gt;<br /> &lt;!DOCTYPE html&gt;<br /> &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;<br />
+         				<span class="indent">&lt;head&gt;</span><br />
+         				<span class="indentMore">&lt;title&gt;A Title Here&lt;/title&gt;</span><br />
+         				<span class="indent">&lt;/head&gt;</span><br />
+         				<span class="indent">&lt;body&gt;<br /></span>
+         				<span class="indent">&lt;/body&gt;</span><br /> &lt;/html&gt;<br />
+         			
+      </div>
+      			
+      <p>The <span class="code">&lt;!DOCTYPE&gt;</span> and namespace declarations tell the web browser what
+         				version of HTML you’re working with. 
+         				&lt;oXygen/&gt; inserts this declaration for us when we choose it from the
+         				“Framework Template” list: To open a new XHTML file with the current doctype and
+         namespace declarations, look in
+         				&lt;oXygen/&gt; under <strong>File → New → Framework Templates
+            					→ (scroll to XHTML in the alphabetized list) → XHTML 5.</strong>
+         			
+      </p>
+      			
+      <p>You’ll recognize our root element, which is always <span class="code">&lt;html&gt;</span> and must always indicate an XML name space as an attribute:
+         				the <span class="code">xmlns="http://www.w3.org/1999/xhtml"</span> part. Literally,
+         				this points from your root &lt;html&gt; element to the published standards set by
+         				the W3 consortium for XHTML. <span class="smaller">Note: &lt;oXygen/&gt; comes with
+            					up-to-date W3 schemas to validate that the code you’re writing is good,
+            					strict XHTML, but if you weren’t working in &lt;oXygen/&gt;, or if
+            					you’re just curious about whether a site you find on the web is valid, you
+            					can always use the <a href="http://validator.w3.org/">W3C Markup Validation
+               						Service</a>.</span>
+         			
+      </p>
+      			
+      <p>The <span class="code">head</span> element is always required and must contain a
+         					<span class="code">title</span> element, but note that this does not display on
+         				the browser page (though it often appears in the tabs above the browser window).
+         					<strong>The part of your web page that displays in the browser is coded within
+            					the <span class="code">body</span> element.</strong>
+         			
+      </p>
+      			
+      <p>You really don’t need many elements to build a website, so we are introducing a
+         				simple selection that we find ourselves always using in our pages (including the
+         				course pages you’re reading). For more, we recommend the <a href="http://www.w3schools.com/html/">w3schools site</a> as a useful ready
+         				reference to look up HTML elements, see how they display in browsers, as well
+         as how
+         				to style them using <a href="http://www.w3schools.com/css/default.asp">Cascading
+            					Stylesheets (CSS)</a> code which we’ll be covering, too, in our <a href="explainCSS.html">Introduction to CSS</a>. 
+      </p>
+      			
+      <p>To get a view of how most of the elements we’re discussing fit together on a
+         				web page, try selecting “View Page Source” (by right-clicking in your
+         				browser window, or locating it in your browser menu options.
+      </p>
+      			
+      <h3>Block-Level Body Elements</h3>
+      			
+      <p><strong>Block-level</strong> elements are the major structural components of an XHTML
+         				page, and usually we do not nest these inside each other: They are discrete
+         				“blocks” formatted for distinct display on a page. Each of these
+         				elements opens on its own line and closes before the next block-level element
+         opens.
+         				Block-level elements are the only permitted children of the HTML root element,
+         and
+         				they include headings, paragraphs, lists, and tables. 
+      </p>
+      			
+      <h4>Headings</h4>
+      			
+      <p>Heading elements are for title and section headings throughout your page. HTML
+         				defines six levels of headings, with the idea that the first level is usually
+         the
+         				largest and strongest, and others get smaller and smaller. The heading tags are:
+         					<span class="code">&lt;h1&gt;</span>, <span class="code">&lt;h2&gt;</span>,
+         					<span class="code">&lt;h3&gt;</span>, <span class="code">&lt;h4&gt;</span>,
+         					<span class="code">&lt;h5&gt;</span>, and <span class="code">&lt;h6&gt;</span>.
+         				The idea is to use these in order, so that you typically only use <span class="code">&lt;h1&gt;</span> once to give the title of the whole page, and then use <span class="code">&lt;h2&gt;</span> for major sections and <span class="code">&lt;h3&gt;</span> for subsections (etc.) Have a look at <a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings">this
+            					visual example from w3schools</a> to see how these six elements typically
+         				display in a browser.
+      </p>
+      			
+      <h4>Paragraphs</h4>
+      			
+      <p>Body paragraphs are simply coded with <span class="code">&lt;p&gt;</span> elements.
+         				See <a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1">w3schools visual example</a> of code and browser display. 
+      </p>
+      			
+      <h4>Lists</h4>
+      			
+      <p>Lists are made with two elements, one nested inside the other: A list needs a
+         				“wrapper” (or container) element that indicates it’s a list and
+         				what kind of list (and that’s the block level part): The wrapper element is
+         				either &lt;ol&gt; for an “ordered” (or numbered) list, or &lt;ul&gt; for
+         				an “unordered” or bulleted list. (Whether your list is numbered or
+         				bulleted depends entirely on the wrapper element.) Inside that single wrapper
+         we
+         				have multiple “items” coded with <span class="code">&lt;li&gt;</span>
+         				elements (for “list item”). Here’s a sample of coding for an
+         				unordered list, followed by an example of its visual display in the browser:
+      </p>
+      			
+      <div class="code"> &lt;ul&gt;<br />
+         				<span class="indent">&lt;li&gt;apples&lt;/li&gt;<br /></span>
+         				<span class="indent">&lt;li&gt;oranges&lt;/li&gt;<br /></span>
+         				<span class="indent">&lt;li&gt;bananas&lt;/li&gt;<br /></span> &lt;/ul&gt; 
+      </div>
+      			
+      <p>Here’s the browser display of the coding above:</p>
+      			
+      <ul>
+         				
+         <li>apples</li>
+         				
+         <li>oranges</li>
+         				
+         <li>bananas</li>
+         			
+      </ul>
+      			
+      <p>If I change my wrapper element from &lt;ul&gt; to &lt;ol&gt;, I generate an ordered
+         				(numbered) list: 
+      </p>
+      			
+      <ol>
+         				
+         <li>apples</li>
+         				
+         <li>oranges</li>
+         				
+         <li>bananas</li>
+         			
+      </ol>
+      			
+      <p>(You’re probably noticing how much extra spacing I have in my unordered list:
+         				That’s because I have styled my unordered lists with CSS code to be
+         				“padded” with extra spaces on my course pages. Here’s <a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists4">a visual
+            					example from w3schools</a> so you can see a default (unstyled) browser view. Try
+         				editing the code on the w3schools page to turn the unordered list into an ordered
+         				list!
+      </p>
+      			
+      <h4>Tables</h4>
+      			
+      <p>Tables are a little more complicated: These are made with three nested elements:</p>
+      			
+      <ol>
+         				
+         <li><span class="code">&lt;table&gt;</span>: This is the “wrapper”
+            					block-level element on the outside that defines the table. We can place an
+            					attribute called "border" on table to outline it and each of its internal cells:
+            						<span class="code">&lt;table border="1"&gt;</span>
+            				
+         </li>
+         				
+         <li><span class="code">&lt;tr&gt;</span>: Table row elements which define each
+            					horizontal row of a table. 
+         </li>
+         				
+         <li><span class="code">&lt;td&gt;</span> or <span class="code">&lt;th&gt;</span>:
+            					Inside each table row are individual table cells (called “td” for
+            					“table data”). You can designate “heading” cells, which
+            					is styled with a little more emphasis, using <span class="code">&lt;th&gt;</span> (or “table header” cell).
+         </li>
+         			
+      </ol>
+      			
+      <p>This may seem odd, but there isn't an element for wrapping columns in a table.
+         				Instead, columns are created by stacking the individual <span class="code">td</span>
+         				cells inside their <span class="code">tr</span> rows. If a table row has five cells
+         				inside, you have a table with five columns.
+      </p>
+      			
+      <p>Here is a sample of code for an HTML table, outlined with a border, and containing
+         				three rows and three columns. In the first row, we've designated the table cells
+         to
+         				be ( <span class="code">th</span> ) for headings, followed by a couple of rows
+         				containing ordinary <span class="code">td</span> cells.
+      </p>
+      			
+      <div class="code"> &lt;table border="1"&gt;<br />
+         				<span class="indent">&lt;tr&gt;</span><br />
+         				<span class="indentMore">&lt;th&gt;Row 1, left column (heading
+            					cell)&lt;/th&gt;</span><br />
+         				<span class="indentMore">&lt;th&gt;Row 1, middle column (heading
+            					cell)&lt;/th&gt;</span><br />
+         				<span class="indentMore">&lt;th&gt;Row 1, right column (heading
+            					cell)&lt;/th&gt;</span><br />
+         				<span class="indent">&lt;/tr&gt;</span><br />
+         				<span class="indent">&lt;tr&gt;</span><br />
+         				<span class="indentMore">&lt;td&gt;Row 2, left column&lt;/td&gt;</span><br />
+         				<span class="indentMore">&lt;td&gt;Row 2, left column&lt;/td&gt;</span><br />
+         				<span class="indentMore">&lt;td&gt;Row 2, left column&lt;/td&gt;</span><br />
+         				<span class="indent">&lt;/tr&gt;</span><br />
+         				<span class="indent">&lt;tr&gt;</span><br />
+         				<span class="indentMore">&lt;td&gt;Row 3, left column&lt;/td&gt;</span><br />
+         				<span class="indentMore">&lt;td&gt;Row 3, left column&lt;/td&gt;</span><br />
+         				<span class="indentMore">&lt;td&gt;Row 3, left column&lt;/td&gt;</span><br />
+         				<span class="indent">&lt;/tr&gt;</span><br /> &lt;/table&gt; 
+      </div>
+      			
+      <p>Here's a visual display of the table coding above:</p>
+      			
+      <table>
+         				
+         <tr>
+            					
+            <th>Row 1, left column (heading cell)</th>
+            					
+            <th>Row 1, middle column (heading cell)</th>
+            					
+            <th>Row 1, right column (heading cell)</th>
+            				
+         </tr>
+         				
+         <tr>
+            					
+            <td>Row 2, left column</td>
+            					
+            <td>Row 2, left column</td>
+            					
+            <td>Row 2, left column</td>
+            				
+         </tr>
+         				
+         <tr>
+            					
+            <td>Row 3, left column</td>
+            					
+            <td>Row 3, left column</td>
+            					
+            <td>Row 3, left column</td>
+            				
+         </tr>
+         
+         			
+      </table>
+      			
+      <h3>In-line Body Elements</h3>
+      			
+      <p>In-line elements are used inside the block-level elements, to set apart certain
+         				passages with emphasis, or to link out to other pages, or display an image or
+         render
+         				a multimedia file in the browser. We use the following in-line elements most
+         				frequently in our work:
+      </p>
+      			
+      <ul>
+         				
+         <li><strong>Bolding:</strong> Two choices: <span class="code">&lt;b&gt;</span> or
+            						<span class="code">&lt;strong&gt;</span>. One of these simply indicates
+            					bold, while the other is an example of a <strong>semantic</strong> element,
+            					which we like to use when we want to convey emphasis.
+         </li>
+         				
+         <li><b><em>Italics:</em></b> Again, two choices (with similar significance): <span class="code">&lt;i&gt;</span> or <span class="code">&lt;em&gt;</span>. The
+            					semantic element here is <span class="code">&lt;em&gt;</span>, again to indicate
+            					real <em>emphasis</em>. We use the <span class="code">&lt;i&gt;</span> element
+            					for titles of books, movies, etc, where we would typically italicize a title,
+            as
+            					in Mary Shelley's novel, <i>Frankenstein</i>. The output is really the same, but
+            					the underlying code can carry some meaning behind the presentational
+            					display.
+         </li>
+         				
+         <li><b>Links:</b> Use the “anchor” element <span class="code">&lt;a&gt;</span> to wrap text to make a clickable link, and define the
+            					target of the link with the <span class="code">@href</span> attribute, like this
+            					(code view followed by browser display):<br /><br />
+            					
+            <div class="code"> &lt;p&gt;Here's some text inside a paragraph with a &lt;a
+               						href="http://www.pitt.edu/~ebb8/DHDS/"&gt;clickable link to our course
+               						homepage&lt;/a&gt;. And then some more text.&lt;/p&gt;
+            </div>
+            					
+            <p>Here's some text inside a paragraph with a <a href="http://www.pitt.edu/~ebb8/DHDS/">clickable link to our course
+                  							homepage</a>. And then some more text.
+            </p>
+            				
+         </li>
+         				
+         <li><b>Images:</b>
+            					<span class="code">&lt;img/&gt;</span> with its required <span class="code">@src</span> and <span class="code">@alt</span> attributes. Image elements
+            					are distinct from other in-line elements because they are <strong>empty</strong>
+            					(or self-closing) elements: they contain only attribute content, not textual
+            					content. 
+            <div class="code"> &lt;img src="sandbox.jpg" alt="image of a
+               						sandbox"/&gt; 
+            </div>
+            					
+            <p>To make an image display in your web page is a little like coding a link: You
+               						have to point to a target using the <span class="code">@src</span> attribute
+               						and set its value to indicate a separate image file, and you have to set the
+               							<span class="code">@alt</span> attribute to some text that serves as a
+               						stand-in for the image, a W3C requirement in case the image does not display
+               						in the browser, as for example in braille browsers or browsers with text to
+               						speech recognition for the visually impaired. The image file might be
+               						sitting in the same local directory with your web page, as in the example
+               						above. Or we can point to an image at some other file or address on the
+               						World Wide Web, like this: 
+            </p>
+            					
+            <div class="code"> &lt;img
+               						src="wolf_and_eagle.jpg"
+               						alt="Leonardo Da Vinci's drawing of the Allegory of the Wolf and the
+               						Eagle"/&gt; 
+            </div>
+            					
+            <p>Sources like Wikimedia Commons provide public domain images with information
+               						on their sources, so we recommend browsing here. (Notice <a href="http://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Allegory_with_wolf_and_eagle.jpg">the kinds of information Wikimedia Commons makes available</a> about
+               						the Da Vinci image in our example.) 
+            </p>
+            				
+         </li>
+         			
+      </ul>
+      			
+      <h3>Generic Block and Inline Body Elements: (div and span)</h3>
+      			
+      <p>You should know about two more extremely versatile HTML elements. These are used to
+         				block off portions of your document to format in a precise way, such as to create
+         				boxes sitting side by side on your page (as we did above to set a text next to
+         an
+         				image). These are extremely useful for styling with CSS, as <a href="explainCSS.html">you'll be learning shortly</a>. Here are the generic
+         				elements that we frequently use:
+      </p>
+      			
+      <ul>
+         				
+         <li><span class="code">&lt;div&gt;</span>: The div element lets you wrap a portion
+            					of your page in a block-level division, perhaps to style in a particular way
+            or
+            					locate in a particular space on your page. We've used <span class="code">div</span> elements all over this page to organize it visually. We
+            					typically use an <span class="code">@class</span> attribute to designate
+            					particular kinds of divs, to designate divs that hold images, or divs that hold
+            					blocks of display code, for example. Example: <span class="code">&lt;div
+               						class="inner-box"&gt;</span>
+            				
+         </li>
+         				
+         <li><span class="code">&lt;span&gt;</span>: The span element is our in-line generic
+            					element for grabbing and highlighting significant spans of text that we want
+            to
+            					stand out, perhaps with color coding. We've used the <span class="code">&lt;span&gt;</span> element on this page and on our other guide pages to
+            					highlight the code snippets we show you in-line, and again we typically use an
+            						<span class="code">@class</span> attribute to classify different kinds of
+            					spans. Example: <span class="code">&lt;span class="code-snippet"&gt;</span></li>
+         			
+      </ul>
+      			
+      <h3>Editing and Uploading Your XHTML Pages: Working with Server Space</h3>
+      			
+      <p>You can edit XHTML pages and save them, together with their associated image and
+         				stylesheet (and other) files, in a directory all together to be viewed in a web
+         				browser. That directory could be on your own personal computer (and while you
+         are
+         				first developing pages you might simply save files on your local computer even
+         				disconnected from the internet to view in a web browser while you're drafting,
+         				though of course any content you have linked to on remote locations on the World
+         				Wide Web will not load if you are not online). Typically we create web pages to
+         have
+         				a public-facing presence on the World Wide Web, or at least to have a community
+         				presence on an intranet (shared within a firewall while a site is under
+         				development). To make our pages available to others to access requires uploading
+         				them to a web server using <strong>F</strong>ile <strong>T</strong>ransfer
+         					<strong>P</strong>rotocol (FTP), a standard rule system for exchanging files
+         				between computers over a network. Various security measures have been developed
+         to
+         				guard web servers from invasive hacking attacks, so that many web servers require
+         					<strong>S</strong>ecure <strong>F</strong>ile <strong>T</strong>ransfer
+         					<strong>P</strong>rotocol (SFTP) and nearly always require registration and
+         				authentication with a username and password. SFTP can be accessed <a href="http://www.computerhope.com/jargon/c/commandi.htm">from command line</a>,
+         				though more frequently people tend to use one of several freely available SFTP
+         				software clients with a GUI (Graphical User Interface) that stores your site
+         				connection information and, on connection, shows the files in your computer and
+         the
+         				files on the remote server, making it easy to upload and download. (We've posted
+         				information on <a href="http://www.pitt.edu/~ebb8/DHDS/Fall2014-DHSyll.html">several
+            					SFTP clients </a>on our course syllabus.) When XHTML pages are uploaded on a web
+         				server, they are given a specific <strong>URL</strong>, or <strong>U</strong>niform
+         					<strong>R</strong>esource <strong>L</strong>ocator, otherwise known as a website
+         				address, and it usually begins with <strong>http://</strong> followed by a a
+         				distinct locator for the web browser and your files on it, as in
+         					<strong>http://www.pitt.edu/~ebb8/DHDS/Fall2014-DHSyll.html</strong>. 
+      </p>
+      			
+      <p>By convention, the first page you place in a particular website folder is designated
+         				your <strong>index.html</strong> page. You don't have to have an index.html, but if
+         				you do, the main page of your site can be abbreviated to the name of the site
+         				directory holding the web files, like this one for my personal Pitt homepage:
+         						<strong><a href="http://www.pitt.edu/~ebb8/">http://www.pitt.edu/~ebb8/</a></strong> . By default, when given that address,
+         				the web browser retrieves the index.html file I have placed in that space, and
+         if it
+         				doesn't find one it generates an error. (The site address leads to exactly the
+         same
+         				place as <strong>http://www.pitt.edu/~ebb8/index.html</strong> .)
+      </p>
+      			
+      <p>If you are a student enrolled in our course at Pitt-Greensburg, we have shown you
+         (or
+         				are about to show you) how to access our class’s Sandbox server space with our
+         					<a href="SremoteSandboxInstruct.pdf">sremote (firewall) service</a> together
+         				with <a href="https://courseweb.pitt.edu">SFTP (instructions posted on Courseweb
+            					Announcements)</a> so that you can access your personal folder to upload files
+         				through an SFTP client and then view those files in a web browser. As with most
+         				colleges and universities, students, faculty, and staff across the Pitt system
+         have
+         				access to public-facing personal web space, which we encourage you to learn about
+         				and set up on your space following <a href="http://technology.pitt.edu/Documents/network/web-sites/afs_web.pdf">Pitt's
+            					posted instructions</a>. Enrolled students in our course will use our intranet
+         				Sandbox server space for XHTML related homework exercises and project website
+         				development.
+      </p>
+      		
+      	
+   </body>
+   
+   
+   
+   
+</html>

@@ -1,0 +1,224 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+   	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="explain.css" />
+      <title>XQuery Exercise 5</title>
+   </head>
+   
+   
+   
+   <body>
+      <!--#include virtual="top.html" -->
+      	
+      			
+      				
+      <h1><span class="banner">XQuery Exercise 5</span></h1>
+      				
+      				
+      				
+      	
+      				
+      <p>This assignment involves developing XQuery to run on your own project files, and so
+         it has two parts:
+      </p>
+      				
+      <ol>
+         					
+         <li>Part 1: Each project team works together to prepare a collection of well-formed XML
+            files to contribute to our eXist collection. (You do not have powers to upload files
+            directly into eXist, but I can do this for you: Prepare your files in either a GitHub
+            repository or your Box folder, and signal me from your collection (or make it so I
+            have a link to your collection). We’ll then review your files, create collections,
+            and make these available for you to work with in Part 2 of the assignment.
+         </li>
+         					
+         <li>Part 2: Develop a query to output something interesting, either from your project
+            or someone else’s project. We have uploaded some of your project team files into eXist,
+            with collection and document addresses in the list below. Remember that to see the
+            content of the document, you need to append <span class="code">/*</span> to the path. For example, <span class="code">doc('/db/youtube/comments_nbc_hacker.xml')</span> will find the YouTube team’s  document but it won’t render it, while <span class="code">doc('/db/youtube/comments_nbc_hacker.xml')</span> will retrieve the root element (and all its contents). None of our files is using
+            a special namespace like the TEI, so we don’t need to declare a default element namespace
+            for this exercise.
+            					
+            <div class="code">
+               						
+               <ul>
+                  							
+                  <li><span class="code">collection('/db/churchSchism')</span>/
+                     							
+                     <ul>
+                        								
+                        <li><span class="code">doc('/db/churchSchism/ChurchesHealSplit.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/churchSchism/DioceseSecession.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/churchSchism/EpiscSplit.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/churchSchism/JudgeDispute.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/churchSchism/WomanLeader.xml')</span></li>
+                        								
+                        							
+                     </ul>
+                     							
+                     							
+                     							
+                  </li>
+                  							
+                  <li><span class="code">collection('/db/ohara')</span>
+                     							
+                     <ul>
+                        								
+                        <li><span class="code">doc('/db/ohara/AveMariaFOH.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/ohara/McDermottOHaraMusicPoem.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/ohara/McDermottOHaraPoemRevision.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/ohara/AnimalsFOH.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/ohara/McDermottOHaraSongPoem.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/ohara/TodayFOH.xml')</span></li>
+                        							
+                     </ul>
+                     							
+                     							
+                  </li>
+                  							
+                  <li><span class="code">collection('/db/youtube')</span>
+                     							
+                     <ul>
+                        								
+                        <li><span class="code">doc('/db/youtube/comments_nbc_hacker.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/youtube/comments_nbc_cats.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/youtube/comments_youtube_creepyfish.xml')</span></li>
+                        								
+                        <li><span class="code">doc('/db/youtube/comments_youtube_mayday.xml')</span></li>
+                        							
+                     </ul>
+                     							
+                     							
+                  </li>
+                  						
+               </ul>
+               						
+               					
+            </div>
+            					
+         </li>
+         				
+      </ol>
+      				
+      <h2>Part 1</h2>
+      				
+      <p> As you are preparing your files to query, consider the kinds of information you want
+         to be able to draw from them and how you might want to visualize this: in lists, tables,
+         SVG graphs, maps, or network charts.
+      </p>
+      <p> You have seen a strategy for mapping with <a href="XQueryExercise3.html">XQuery Exercise 3</a>, which first involves processing plain-text string-joined output. For processing
+         a network analysis in <a href="http://www.cytoscape.org/">Cytoscape</a>, you will want to think about what kinds of information you might like to network
+         together: Are you curious about how people share an association with a particular
+         place, event, publication, use of language? A network analysis can connect any kind
+         of thing together based on some kind of shared association. Output to process for
+         networking will need to be in plain text either separated by commas or tabs, in this
+         basic form:
+      </p>
+      				
+      <div class="code">Node	Edge(Connector)	Node</div>
+      				
+      <p>The separator between these can be either a comma and a space: (<span class="code">, </span>) or a tab character: ( <span class="code">&amp;#x9;</span> )
+      </p>
+      				
+      <p>You need a way to identify each node, what forms the basis of a connection, and each
+         of its connected nodes singly in turn. This may be a little tricky to output: In the
+         simplest, most adaptablee output, you want to output each node-edge-node connection
+         singly, with each connection listed on a new line. So one node with 16 connections
+         would be listed on 16 lines, a new line for each connection. For more on this, with
+         an example of my data output for the Thalaba project, see my <a href="http://ebeshero.github.io/thalaba/cytosc.html">XML-to-Cytoscape tutorial page</a> under development on my Thalaba site.
+      </p>
+      		
+      <h2>Part 2</h2>
+      				
+      <p>To complete part 2 of this assignment, select a document from one of the project team
+         collections, and open it in eXist to review its structure and coding. (You may work
+         with your own project files or someone else’s as you wish. Then using eXide, develop
+         XQuery to explore either the whole collection or a document within it, and extract
+         and format something interesting. Your XQuery should be more developed and sophisticated
+         than just a simple XPath, so you need to do more than list the contents of a single
+         element, and should make use of XQuery to quantify something, collect related kinds
+         of information, chart something, etc. It is up to you to determine something interesting
+         to output. Begin by formulating a question or goal, and work gradually toward achieving
+         it. Keep in mind the following: 
+      </p>
+      				
+      <ul>
+         					
+         <li>XQuery expressions can be simple XPath expressions or more complex FLWOR structures,
+            but for this assignment you need something more sophisticated than a single, simple
+            XPath expression.
+         </li>
+         					
+         <li>If you embed XQuery inside an HTML element, you need to wrap it in curly braces. If
+            you don’t, you’ll output the literal text that you typed, instead of the results of
+            intepreting it as XQuery. For example, <span class="code">&lt;p&gt;$i&lt;/p&gt;</span> outputs a literal dollar sign and a literal letter i inside <span class="code">&lt;p&gt;</span> tags, which is unlikely to be what you want. To output the value of the variable
+            <span class="code">$i</span>, use <span class="code">&lt;p&gt;{$i}&lt;/p&gt;</span> instead.
+         </li>
+         					
+         <li>The FLWOR <span class="code">return</span> statement returns a <strong>single <em>sequence</em></strong> of some kind. A sequence must be some single thing, such as a number, or a string
+            (as in, for example a <span class="code">string-join()</span>), or an XML element (which may contain other elements inside). If you want to return
+            more than one item in the return statement, you have to treat them as a single sequence
+            in some way, whether with a <span class="code">string-join()</span> and/or a <span class="code">concat()</span> (to concatenate strings together if they coordinate together). You can also bind
+            multiple results together using XML or HTML tags nested inside a single element. Finally,
+            one very simple and handy way to combine results is by wrapping them in parentheses
+            and separating with commas. Notice, for example, that the following return will fire
+            an error: 
+            					
+            <div class="badCode">
+               						let $i := 1<br />
+               						return<br />
+               						&lt;h2&gt;Here is a title&lt;/h2&gt;<br />
+               						&lt;p&gt;Here is a paragraph&lt;/p&gt;
+               					
+            </div>
+            						
+            <p>The above return code is problematic because it returns two different things, an <span class="code">&lt;h2&gt;</span> element and a <span class="code">&lt;p&gt;</span> element. The code below, however, is just fine with XQuery:
+            </p>
+            						
+            <div class="code">
+               							let $i := 1<br />
+               							return<br />
+               							<span class="code">(</span>&lt;h2&gt;Here is a title&lt;/h2&gt;<span class="code">,</span><br />
+               							&lt;p&gt;Here is a paragraph&lt;/p&gt;<span class="code">)</span><br />
+               							
+               						
+            </div>
+            						
+            <p>This works because it returns a united <strong>sequence</strong> of two elements. You could also achieve this by nesting the two elements within an
+               outer parent element.
+            </p>
+            					
+         </li>
+         					
+         <li>Note: These project files are all under development, so they may be inconsistently
+            marked up. They are definitely well-formed XML, so they can be explored wtih XPath
+            and XQuery. Happy exploring! We hope your work with this assignment helps you each
+            (as individual students) contribute something interesting and valuable to our current
+            projects.
+         </li>
+         				
+      </ul>
+      							
+      	
+   </body>
+   
+   
+   
+   
+</html>
