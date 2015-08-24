@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <!--ebb: Need to rewrite XSLT to calculate dates from start to end of term. Non XSLT solution: To begin for a new year, autogenerate a list of dates and days of week in Excel (start with manually entering the first week's dates, and add +7 to each; format as ISO dates. 
+            Paste in template xml file and autotag day and week divs. 
+            Then manually correct with holidays and Fall Break, etc.-->
+         <titleStmt>
+            <title>Syllabus: Coding and Digital Archives</title>
+            <author>Elisa E. Beshero-Bondar</author>
+            <author>Gregory H. Bondar</author>
+            <sponsor>The University of Pittsburgh at Greensburg</sponsor>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date from="2015-08" to="2015-12">Fall
+                  2015</date>. P5.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>University of Pittsburgh at Greensburg</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2014</date>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Fall 2015 is the third time a version of this course has been taught, and this is the
+               second XML edition of the syllabus. The first edition of this course syllabus was in
+               Fall 2013, in HTML only at <ptr target="http://www.pitt.edu/~ebb8/DHDS/"/>.</p>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="courseID" style="outer">
+            <head>Coding and Digital Archives</head>
+            <p>Humanities 1030 / Social Sciences 1031</p>
+            <div type="logo">
+               <head>
+                  <graphic url="blue-eye-icon-transMed.png" mimeType="image/png"/>
+                  <desc>Pitt-Greensburg Digital Studies Logo: I Code!</desc>
+               </head>
+            </div>
+
+            <div type="meetTimes">
+               <p>
+                  <hi rend="em">Autumn 2015:</hi> Classes meet M W F 10:30 - 11:20 AM, 116 Cassell
+                  Hall</p>
+            </div>
+            <div type="CRN">
+               <p>Course Enrollment and Electives Info: </p>
+               <list>
+                  <item>Hum 1030: (Digital Humanities) course registration number:
+                        <idno>21120</idno>
+                  </item>
+                  <item>Socsci 1031: (Digital Studies) course registration number:
+                        <idno>24531</idno>
+                  </item>
+                  <item>Satisfies a core course requirement for <ref target="http://greensburg.pitt.edu/academics/info/digital-studies">Pitt-Greensburg's Digital Studies Certificate</ref>
+                  </item>
+                  <item>Fulfills HM, NS, and SS General Electives at Pitt-Greensburg</item>
+               </list>
+            </div>
+            <div type="faculty">
+               <head>Instructors</head>
+               <p>co-taught by: <ref target="http://www.pitt.edu/~ebb8/">Prof. Elisa
+                     Beshero-Bondar</ref>; email: ebb8 at pitt.edu and <ref target="http://www.personal.psu.edu/ghb1/">Prof. Gregory Bondar</ref>; email:
+                  ghb2 at pitt.edu</p>
+               <p>Elisa's Office Hours in <hi rend="em">FOB 204</hi>
+               </p>
+               <list>
+                  <!--ebb: check this!-->
+                  <item>Wed. 11:30 AM -12:30 PM</item>
+                  <item>Thurs. 3-6 PM</item>
+                  <item>and by appointment</item>
+               </list>
+               <p>Greg's Office Hours in <hi rend="em">FOB 104</hi>
+               </p>
+               <!--ebb: Check with Greg about this! -->
+               <list>
+                  <item>Mon. 11:30 AM - 12:30 PM</item>
+                  <item>Mon., Wed., and Fri. 2 - 3 PM</item>
+                  <item>and by appointment</item>
+               </list>
+
+            </div>
+            <div type="online">
+               <head>Administrative:</head>
+               <list>
+                  <item>
+                     <ref target="http://newtfire.org/dh/CDA.html">Course Website:
+                        http://newtfire.org/dh/CDA.html</ref> Home of our syllabus and schedule.</item>
+                  <!--ebb: UPDATE with Discussion Board Info-->
+                  <item>Course Discussion Board: To Be
+                     Announced<!--<ref target="https://groups.google.com/forum/#!categories/pitt-greensburg-dhds"> (Google Group): https://groups.google.com/forum/#!categories/pitt-greensburg-dhds</ref>--></item>
+
+
+                  <item>
+                     <ref target="https://courseweb.pitt.edu">Courseweb:
+                        https://courseweb.pitt.edu</ref> To submit homework assignments and read
+                     private course announcements</item>
+                  <item>
+                     <ref target="http://dh.obdurodon.org/file-naming_conventions.html">File-Naming Conventions for Courseweb Homework Submissions</ref>
+                     <note> (courtesy of Obdurodon)</note>
+                  </item>
+                  <item>
+                     <ref target="https://pitt.box.com">Pitt's Box Environment:
+                        https://pitt.box.com</ref> for collaboration on projects</item>
+                  <item>Server Access Instructions for Web Project Development: To Be Announced
+                     <!--<ref target="SremoteSandboxInstruct.pdf">Pitt-Greensburg's Digital Sandbox Access Instructions</ref>: for Web Project Development--></item>
+
+               </list>
+
+            </div>
+            <div type="projects">
+               <head>Course Projects</head>
+               <list>
+                  <item>
+                     <ref target="projectGuide.html">Guidelines for Projects Developed in This
+                        Course</ref>
+                  </item>
+                  <item>
+                     <ref target="studentProjects.html">Student Course Projects</ref>
+                  </item>
+               </list>
+            </div>
+            <div type="guides">
+               <head>
+                  <ref target="index.html">Explanatory Guides</ref>
+               </head>
+               <list>
+
+                  <item>
+                     <ref target="explainXML.html">Introduction to XML</ref>
+                  </item>
+                  <item>
+                     <ref target="explainRNG.html">Guide to Schema Writing with Relax
+                     NG</ref>
+                  </item>
+                  <item>
+                     <ref target="explainHTML.html">Introduction to XHTML (and HTML)</ref>
+                  </item>
+                  <item>
+                     <ref target="explainCSS.html">Introduction to Cascading Stylesheets
+                        (CSS)</ref>
+                  </item>
+                  <item>
+                     <ref target="explainXPath.html">Follow the XPath!</ref>
+                  </item>
+                  <item>
+                     <ref target="explainRegex.html">Regular Expression Matching
+                     (Regex)</ref>
+                  </item>
+                  <item>
+                     <ref target="explainXSLT.html">Introduction to XSLT</ref>
+                  </item>
+                  <item>SVG Tutorials, Editors, and Ideas: <list>
+                        <item>
+                           <ref target="http://tutorials.jenkov.com/svg/index.html">Jakob
+                              Jenkov's SVG Tutorial</ref>: very thorough and handy reference</item>
+
+                        <item>
+                           <ref target="http://www.w3schools.com/svg/svg_intro.asp">w3 schools
+                              SVG tutorial</ref>: a quick introduction, but not so thorough at the
+                           Jenkov tutorial</item>
+                        <item>
+                           <ref target="http://www.math.wsu.edu/kcooper/M300/svgcheat.php">SVG
+                              Cheat Sheet</ref>
+                        </item>
+                        <item>Obdurodon: <ref target="http://dh.obdurodon.org/svg-embedding.xhtml">How to Embed SVG in an XHTML Page</ref>
+                        </item>
+                        <item>
+                           <ref target="http://www.carto.net/svg/samples/xslt/">carto:net: Using
+                              XSLT to create SVG Content</ref>: We do all this in oXygen, but this
+                           shows an alternative command-line processing of XSLT. </item>
+                        <item>
+                           <ref target="http://www.mathsisfun.com/geometry/unit-circle.html">Geometry of a Circle</ref> (for help if you want to plot points or
+                           wedges on a circle). </item>
+                     </list>
+                     <list>
+                        <item>Editors: (good for some freeform work): <ref target="http://svg-edit.googlecode.com/svn/branches/2.5.1/editor/svg-editor.html">Google Code Online SVG Editor</ref>
+                        </item>
+                        <item>
+                           <ref target="http://inkscape.org/en/">Inkscape</ref>: free SVG
+                           software</item>
+                     </list>
+                     <list>
+                        <item>Ideas: <ref target="http://en.wikipedia.org/wiki/Diagram">Wikipedia's
+                              page on diagrams</ref>
+                        </item>
+                        <item>
+                           <ref target="http://en.wikipedia.org/wiki/Chart">Wikipedia on
+                              charts</ref>
+                        </item>
+
+                     </list>
+                  </item>
+                  <item>
+                     <ref target="explainXQuery.html">XQuery and the eXist XML
+                     Database</ref>
+                  </item>
+                  <item>Javascript Resources: <list>
+                        <item>
+                           <ref target="http://dh.obdurodon.org/javascript.html">Introduction to
+                              Javascript</ref>
+                        </item>
+                        <item>
+                           <ref target="http://dh.obdurodon.org/javascript/classListToggle.xhtml">Javascript Toggling with classList and switch</ref>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <ref target="http://ebeshero.github.io/thalaba/cytosc.html">Introduction to
+                        Network Analysis and Cytoscape for XML Coders</ref>
+                  </item>
+                  <item>Mapping</item>
+
+
+               </list>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="description" style="main">
+            <head>Coding and Digital Archives: Course Description</head>
+            <p>This course is all about doing interesting things with texts using computers and
+               digital technology. We think of "texts" as the transmittable, sharable forms of human
+               creativity made out of language, and we interface with a particular text in multiple
+               ways through print and electronic "documents." When we refer to a "document," we mean
+               a specific instance of a text, and much of our work will be in experimenting with the
+               structures of texts in digital document formats, accessing them through scripts we
+               write in computer code—scripts that in themselves a form of text, readable both by
+               humans and machines. </p>
+            <p> Your professors are scholars and teachers of humanities, not computer programmers by
+               trade, and we teach this course from our backgrounds (in literature and anthropology,
+               respectively). We teach this course to share coding methods that are highly useful to
+               us in our fields, with an emphasis on working with texts as artifacts of human
+               culture shaped primarily with words and letters—the forms of "written" language
+               transferable to many media (including image and sound) that we can study with
+               computer modelling tools that we design for ourselves based on the questions we ask.
+               We work with computers in this course as precision instruments that help us to read
+               and process great quantities of information, and that lead us to make significant
+               connections, ask new kinds of questions, and build models and interfaces to change
+               our reading and thinking experience as people curious about human history, culture,
+               and creativity. </p>
+            <p>The course is designed to be interdisciplinary and practical, with an emphasis on
+               learning through "hands-on" experience. Our emphasis in this course is primarily
+               analytical: to apply computer technologies to represent and investigate cultural
+               materials. As we design projects together, you will gain practical experience in
+               editing and you will certainly fine-tune your precision in writing and thinking. We
+               will be working primarily with eXtensible Markup Language (XML) because it is a
+               powerful tool for modelling texts that we can adapt creatively to our interests and
+               questions. XML represents a standard in adaptability and human-readability in digital
+               code, and it works together with related technologies with which you will gain
+               working experience: You'll learn how to write XPath expressions: a formal language
+               for searching and extracting information from XML code which serves as the basis for
+               transforming XML into many publishable forms, using XSLT and XQuery. You'll learn to
+               write XSLT: a programming "stylesheet" transforming language designed to convert XML
+               to publishable formats, as well as XQuery, a query (or search) language for
+               extracting information from XML files bundled collectively. You will learn how to
+               design your own systematic coding methods to work on projects, and how to write your
+               own rules in schema languages (like Schematron and Relax-NG) to keep your projects
+               organized and prevent errors. You'll gain experience with an international XML
+               language called TEI (after the Text Encoding Initiative) which serves as the
+               international standard for coding digital archives of cultural materials. Since one
+               of the best and most widely accessible ways to publish XML is on the worldwide web,
+               you'll gain working experience with HTML code (a markup language that is a kind of
+               XML) and styling HTML with Cascading Stylesheets (CSS). We will do all of this with
+               an eye to your understanding how coding works—and no longer relying without question
+               on expensive commercial software as the "only" available solution, because such
+               software is usually not designed with our research questions in mind. </p>
+            <p>We think you'll gain enough experience at least to become a little dangerous, and at
+               the very least more independent as investigators and makers who wield computers as
+               fit instruments for your own tasks. Your success will require patience, dedication,
+               and regular communication and interaction with us, working through assignments on a
+               daily basis. Your success will NOT require perfection, but rather your regular
+               efforts throughout the course, your documenting of problems when your coding doesn't
+               yield the results you want. Homework exercises are a back-and-forth, intensive
+               dialogue between you and your instructors, and we plan to spend a great deal of time
+               with you individually over these as we work together. Our guiding principle in
+               developing assignments and working with you is that the best way for you to learn and
+               succeed is through regular practice as you hone your skills. Our goal is not to make
+               you expert programmers (as we are far from that ourselves)! Rather, we want you to
+               learn how to manipulate coding technologies for your own purposes, how to track down
+               answers to questions, how to think your way algorithmically through problems and find
+               good solutions.</p>
+         </div>
+         <div type="objectives" style="main">
+            <head>Learning Objectives:</head>
+            <list>
+               <item>Work with Texts as Artifacts—As Physical and Virtual Objects: <list>
+
+                     <item>Generate "digital surrogates": digitally represent facsimiles of rare
+                        manuscripts and other kinds of documents, and make their content digitally
+                        searchable.</item>
+                     <item>Reflect and write on the issues and problems with digital representation,
+                        as well as the capacity of the digital medium to enhance or add dimensions
+                        to a physical text.</item>
+
+                     <item>Learn and practice coding in eXtensible Markup Language (XML) and related
+                        coding technologies: to "mark up," process, and extract information about
+                        the structure, physical condition, and cultural contexts of textual
+                        artifacts.</item>
+                  </list>
+               </item>
+               <item>Gain Experience with Information Retrieval, "Distant Reading," and Autotagging
+                  Techniques: <list>
+                     <item>Write code to apply searching and data extraction methods through
+                        multiple kinds of pattern-matching algorithms, including forms of regular
+                        expression matching. Take conventional boolean searches and library database
+                        searches to new levels.</item>
+                     <item>Apply "mining" and "drilling" methods associated with "distant reading"
+                        to apply computers to read and design more and differently than we could do
+                        "manually" or with unassisted eyes and brains. </item>
+                     <item>Learn how to "autotag" enormous texts or collections of texts, for
+                        practical results: to code the structure of enormous texts from a distance,
+                        in order to navigate them and make them accessible through distant
+                        reading.</item>
+                     <item>Reflect on and test the strong and weak points of "distant reading" and
+                        processing methods: (What do we learn, and what is at stake in current
+                        applications of digital "distant reading"?)</item>
+
+                  </list>
+               </item>
+               <item>Gain Project Design and Editing Experience: <list>
+                     <item>Gain digital editing experience with proposing, designing, and
+                        contributing to one or more digital research projects, applying coding to
+                        the preserving, sharing, and investigating of textual resources</item>
+                     <item>Transform XML code into publishable web formats, to build or contribute
+                        to a project website.</item>
+                     <item>Design navigation elements, and build visual aids and models (such as
+                        timelines and tree diagrams) from texts: to generate charts and images from
+                        extracted data</item>
+                     <item>Gain experience with plotting digital maps and charts, working with
+                        historical maps, layered maps, and Google Earth</item>
+                  </list>
+               </item>
+               <item>Last but not least: Discover that you read and write with "new eyes," with
+                  greater precision and agility, thanks to your adventures in working with digital
+                  texts!</item>
+            </list>
+         </div>
+         <div type="courseMtls" style="main">
+            <head>Required Course Materials: Software and Box Access You'll Need:</head>
+            <p>Download and install the following software on your own personal computer(s). These
+               are available in our campus computing labs, too.</p>
+            <list type="numbered">
+               <item>
+                  <hi rend="em">All students:</hi>
+                  <ref target="http://www.oxygenxml.com/">&lt;oXygen/&gt;</ref>. The University of
+                  Pittsburgh has purchased a site license for this software, which is installed in
+                  the Pitt computer labs on multiple campuses, and it's in use in courses here at
+                  Greensburg and at Oakland. The license also permits students enrolled in the
+                  course to install the software on their home computers (for course-related use
+                  only). When installing this on your own computers, <hi rend="em">you will need the
+                     license key</hi>, which we have posted on our course Announcements section of
+                     <ref target="https://courseweb.pitt.edu">Courseweb</ref>.</item>
+               <item>All students require a good means of secure file transfer (SFTP) for homework
+                  assignments and projects (also available in the campus computer labs). There are
+                  several good options available. We recommend you download and install on your own
+                  computers one (or more) of the following, depending on your platform: (Feel free
+                  to experiment with these and others!) <list>
+                     <item>
+                        <hi rend="em">Windows users:</hi> one of the following—the functionality
+                        is similar: <list>
+                           <item>
+                              <ref target="http://www.wm.edu/offices/it/services/software/licensedsoftware/webeditingsftp/sshsecureshell/index.php">SSH Secure Shell Client</ref>
+                              <note> (this one is the most ad-free experience)</note>
+                           </item>
+                           <item>
+                              <ref target="http://winscp.net/eng/download.php">WinSCP</ref>
+                              <note> (This is the one Greg and I "grew up" using over the
+                                 years)</note>
+                           </item>
+                           <item> or <ref target="https://filezilla-project.org/download.php?show_all=1">FileZilla</ref>
+                              <note> (a great tool, but be wary of accepting its bundled ad offers
+                                 as you install!)</note>
+                           </item>
+                        </list>
+                     </item>
+                     <item>
+                        <hi rend="em">Mac users:</hi>
+                        <list>
+                           <item>
+                              <ref target="http://fetchsoftworks.com/fetch/">Fetch</ref>
+                              (students may obtain free licenses at <ref target="http://fetchsoftworks.com/fetch/free">http://fetchsoftworks.com/fetch/free</ref>)</item>
+                           <item>or <ref target="https://filezilla-project.org/download.php?show_all=1">FileZilla</ref>
+                              <note>(a great tool, but be wary of accepting its bundled ad offers as
+                                 you install!)</note>
+                           </item>
+                        </list>
+                     </item>
+                     <item>
+                        <hi rend="em">Linux users:</hi> You probably don't need to install
+                        anything, but look at how your system handles secure file transfer (SFTP).
+                           <note>(FileZilla or other clients designed for Linux
+                           environments.)</note>
+                     </item>
+                  </list>
+               </item>
+            </list>
+         </div>
+         <div type="optionalTexts" style="main">
+            <head>Optional Texts (Helpful Reference Guides):</head>
+            <list>
+               <item>
+                  <bibl>
+                     <author>Michael Kay</author>, <title>XSLT 2.0 and XPath 2.0: Programmer's
+                        Reference</title>, <edition>4th edition</edition>
+                     <publisher>(Wiley Publishing</publisher>, <date>2008</date>) <idno>ISBN-13:
+                        978-0-470-19274-0</idno>
+                  </bibl>
+                  <note> This is really THE authoritative word
+                     on XSLT and XPath, written by a designer of the official W3C specifications of
+                     XSLT 2.0 that we're using. We are learning from this book ourselves and consult
+                     it frequently! We're not requiring that you buy it, but we recommend it to have
+                     a powerful reference at your fingertips and for learning more on your own.
+                     There's a kindle edition available but poorly designed for searching, so we
+                     (actually) prefer the hardcover print edition. If you're going to purchase it,
+                     be sure you pick up the current edition (not the earlier ones).</note>
+               </item>
+               <item>
+                  <bibl>
+                     <title>The Web Design Pocket Guide Boxed Set</title> (includes 3 books:
+                     The HTML Pocket Guide, The JavaScript Pocket Guide, and The CSS Pocket Guide)
+                        <author>Authors: Bruce Hyslop, Lenny Burdette, and Chris Casciano</author>
+                     <publisher>(Pearson / Peachpit Pocket Guides</publisher>, <date>2010</date>).
+                        <idno>ISBN-13: 978-0321743749</idno>
+                  </bibl>
+                  <note> You can probably locate
+                     much of the content of these books online, on sites like <ref target="http://www.w3schools.com/">w3schools.com</ref> (which we use
+                     ourselves), but we've discovered that sometimes it's handy to have print
+                     reference guides around when working on computer projects!</note>
+               </item>
+
+            </list>
+         </div>
+         <div type="grading" style="main">
+            <head>Grading:</head>
+            <div type="homework">
+               <head>Homework Exercises (35%):</head>
+               <p>Regular homework exercises are key to the active learning process in this course.
+                  Each day will involve some small assignment, building to the larger course
+                  projects. Students must complete (on time) at least 90% of each homework component
+                  (coding assignments, short response papers, blog postings and responses, in order
+                  to pass the course. For students who complete the 90% requirement, the homework
+                  taken all together, is worth 35% of your course grade.</p>
+               <div type="coding">
+                  <p>
+                     <hi rend="em">Coding assignments:</hi> These are assignments you'll complete by
+                     writing code to achieve a specified result by applying a coding method you are
+                     learning. Often, there will be multiple ways of accomplishing the task. You
+                     will receive lots of feedback from us, in the form of posted results and
+                     individual commentary on your assignments as needed. If you don't achieve the
+                     result you want, you may still receive full credit so long as you have made a
+                     serious attempt to describe your process, what else you tried, what results you
+                     expected vs. what results you got, and what you think went wrong. Documenting
+                     problems is key to the learning process, and sometimes the documentation
+                     process helps lead you to the solution and always helps your learning
+                     process.</p>
+               </div>
+               <div type="papers">
+                  <p>
+                     <hi rend="em">Response papers:</hi> We'll assign short response papers (about 1
+                     to 2 pages) to online readings or as evaluations of significant digital
+                     humanities web projects and resources. Your response should do more than
+                     summarize the article or site (which you could just do by skimming or reading
+                     the first paragraph), but should demonstrate a thoughtful reflection on
+                     specific ideas and issues. When evaluating a web resource, don't simply praise
+                     or condemn it without going into details about why a key component is effective
+                     or poorly designed. Good response papers demonstrate care and reflection, and
+                     you may choose to respond to the overarching ideas of a piece, or to selected
+                     details of specific interest. </p>
+               </div>
+               <div type="blogPost">
+                  <p>
+                     <hi rend="em">Project postings:</hi> These will begin on our discussion board
+                     after you have formed teams to work on the course project. As you work on
+                     course projects in teams, we expect that each team (not each individual
+                     student) will post a project update, usually by Friday of a given week. These
+                     postings should be brief status reports about your project work: what you've
+                     accomplished in the preceding week, what problems you're facing, what you've
+                     been learning, resources you've been discussing, and should conclude by
+                     discussing what you plan to do the following week.</p>
+               </div>
+               <div type="blogResponse">
+                  <p>
+                     <hi rend="em">Project responses:</hi> Again, these begin after you have formed
+                     project teams. Each student (not each team this time) must post one response to
+                     a blog posting by some other team, usually due on a Monday (or the class period
+                     following the team project posts). These responses can be brief but for credit
+                     (and to be useful) they need to be thoughtful: something more than "good work!"
+                     or "very interesting!" Respond to something specific in teh blog: make a
+                     suggestion, offer a critique, ask or answer a question, discuss how something
+                     in the blog post gave you an idea for your project, share a resource you've
+                     found that may be helpful for the others.</p>
+               </div>
+            </div>
+            <div type="participation">
+               <head>Participation: In Class and on the Discussion Board (15%):</head>
+               <p> Coding and programming in real life is a social activity, and professionals in
+                  the real world aren't "know-it-all" experts who work alone, but rather are tuned
+                  into discussion boards and regularly ask and answer questions to stay sharp and to
+                  learn from their community. In this class, we want you to work together and talk
+                  to each other and your instructors as your community resource, so we have built
+                  this into our course participation grade as a formal expectation. <hi rend="em">Beginning by week two, we'll expect each student to post at least once per
+                     week on our online class discussion board</hi>, and we strongly encourage you
+                  to do more than this minimum. Ask questions, make suggestions, share helpful
+                  resources you've found. Help each other out by trying to answer questions (and
+                  read the instructor posts too as we wade in to help). Your instructors will likely
+                  be dominating the class time as we model concepts and methods, so the discussion
+                  boards give you all a good space to form into a coding community to help each
+                  other and reflect together. Also, if you have a question about an assignment, <hi rend="em">always think of the discussion board as your first resource</hi> to
+                  check for helpful hints and to post your questions, because others may have the
+                  same question and answers are best shared! Of course you may e-mail us, but we
+                  really prefer you go the discussion board first, and doing so is, after all, worth
+                  course credit as your participation grade.</p>
+            </div>
+            <div type="exams">
+               <head>Quizzes and Tests (15%):</head>
+               <p>As scheduled throughout the course there will be several (probably about six to
+                  eight) short quizzes and tests that will take roughly half of the class period
+                  time. These will ask you to demonstrate your knowledge of coding practices and
+                  vocabulary learned in an immediately preceding portion of the course. We will drop
+                  your lowest two scores on these exams. (No make-up exams are given: see course
+                  policies below.) </p>
+            </div>
+            <div type="final-project">
+               <head>Project (35%):</head>
+               <p> Within the first three weeks of the course, we will familiarize you with some of
+                  our ongoing projects and their associated research questions. These include the
+                     <ref target="http://pacific.pitt.edu">Digital Archives and Pacific Cultures
+                     Site</ref>, <ref target="http://mitford.pitt.edu">the Digital Mitford
+                     Archive</ref>, and a site presenting <ref target="http://www.pitt.edu/~ebb8/EmilyDickinson16/1601.html">manuscript
+                     variants in Emily Dickinson's Fascicle 16</ref>. We will also assign you to
+                  propose a project based on a text or set of texts that interest you and suggest a
+                  promising research question to explore with our coding methods, and we'll respond
+                  to these to help you refine your ideas. We'll ask you all to read each other's
+                  refined proposals, and the class as a whole (working with the instructors) will
+                  select which of these we want to pursue through the term, and form groups to begin
+                  work. Development of the project will involve doing a careful document analysis,
+                  developing a coding plan and rules to follow, coding your text(s), and developing
+                  programs to address your research question. It will also involve designing a
+                  project site to represent your research questions, the texts and your processing
+                  of them, as well as to share your coding scripts and to reflect on the results of
+                  your investigation. We will post milestones you must meet for the projects
+                  throughout the term. Project teams must meet 90% of the project milestone due
+                  dates in order to receive a passing grade. It is expected that project teams meet
+                  regularly (each week), check in with the instructors, and delegate tasks to each
+                  other. Reporting on project progress is required as part of the regular homework
+                  assignments for the course. Teams are encouraged to meet with us instructors
+                  during (or outside) our scheduled office hours. In the last few weeks of the
+                  course, almost all of your course work outside class will be devoted to project
+                  development, applying the methods you've been learning across the semester.</p>
+            </div>
+            <div type="scale">
+               <head>Grading Scale:</head>
+               <p>Grades are posted on Courseweb, and follow this standard scale: A: 93-100%, A-:
+                  90-92%, B+: 87-89%, B: 83-86%, B-: 80-82%, C+: 77-79%, C: 73-76%, C-: 70-72%, D+:
+                  67-69%, D: 60-66%, F: 59% and below. In taking the course on a S / NC (pass-fail)
+                  basis, students must earn a C to receive Satisfactory credit. We give G grades
+                  (incomplete) at our discretion and only in conformity with the guidelines in the
+                  Pitt-Greensburg Bulletin: <ref target="http://www.bulletins.pitt.edu/greensburg/upg-academicpolicies.htm#Anchor-Grading-9431">http://www.bulletins.pitt.edu/greensburg/upg-academicpolicies.htm#Anchor-Grading-9431</ref>.</p>
+            </div>
+         </div>
+         <div type="policies" style="main">
+            <head>Course Policies:</head>
+            <p>Each day we are covering material that builds on earlier material and assignments, so
+               your success depends upon regular attendance and completing each assignment on
+               time.</p>
+            <div type="daily">
+               <head>Attendance:</head>
+               <p> We strictly require your attendance, as it is not only a setback to yourself but
+                  to the entire class and the success of our projects if students are repeatedly
+                  absent. Students must attend at least 90% of our class meetings in order <hi rend="em">to pass</hi> the course. Late arrival—particularly a pattern of
+                  repeated late arrivals—may be counted as absences at our discretion. Attendance
+                  will be recorded for every class, and each student can earn percentage points
+                  added towards their total course grade based on the following scale: Zero or one
+                  absence: +3 pts; Two absences: +2 pts; Three or more: +0 pts. To earn credit, you
+                  must be present in the classroom by the beginning of class, until class is
+                  dismissed. For your own sanity, do not miss two consecutive classes. If you are
+                  experiencing a genuine emergency or crisis, alert us and provide documentation.
+                  (We do not want you to attend class if you have a fever or flu-like symptoms! If
+                  you wish to be excused from two or more consecutive class meetings due to your own
+                  documented illness, please contact one of the following: the Office of the Vice
+                  President for Academic Affairs, Prof. Wes Jamison (724-836-9988 or jamison at
+                  pitt.edu), our Campus Health Center (Nurse Patty or Pamela Reed, 724-836-9947 or
+                  upgdoc at pitt.edu), or the Director of Counseling, Gayle Pamerleau (gaylep at
+                  pitt.edu), who can then officially alert all of your professors.</p>
+            </div>
+            <div type="deadlines">
+               <head>Deadlines:</head>
+               <p> Your daily homework for this course is time-sensitive! Coding assignments,
+                  response papers, and other homework exercises must be uploaded to CourseWeb (or to
+                  Box, or the Sandbox server as specified), by the date and time indicated by the
+                  instructors. Homework assignments will be posted online to our class DHDS website
+                  and linked from our schedule, so students who miss class are nevertheless expected
+                  to consult the schedule and submit assignments on time. Because we post and share
+                  answers to homework exercises after submission deadlines, we will not accept late
+                  homework submissions. In order to pass the course, students must submit at least
+                  90% of the regular homework assignments, and complete at least 90% of the work in
+                  each component of the course.</p>
+            </div>
+            <div type="makeUp">
+               <head>Exam Policy:</head>
+               <p> Similarly, because we will be posting answers or sharing them in class, we do not
+                  give make-up examinations. However, we will drop your lowest two exam scores for
+                  the class, so that you may miss up to two exams without penalty.</p>
+            </div>
+            <div type="courtesy">
+               <head>Classroom Courtesy:</head>
+               <p>Our class is fast paced, and requires that we all be making the best use we can of
+                  our in-person class sessions. Arriving late and leaving early disrupts the
+                  important collective mental activity of class. So does in-class texting and
+                  checking your cell phone. While class is in progress, talking disruptively,
+                  leaving the classroom, texting or using a cell phone or computer, reading a
+                  newspaper, or other distracting behavior will be actively discouraged, and may
+                  result in a deduction in your Participation grade. Please respect what we do in
+                  the classroom: attend class regularly, and come prepared to contribute your
+                  questions and ideas.</p>
+            </div>
+            <div type="email">
+               <head>E-mail:</head>
+               <p>Each student is issued a University email address (username@pitt.edu) upon
+                  admission. This email address may be used by the University for official
+                  communication with students. Students are expected to read email sent to this
+                  account on a regular basis. Failure to read and react to University communications
+                  in a timely manner does not absolve the student from knowing and complying with
+                  the content of the communications. The University provides an email forwarding
+                  service that allows students to read their email via other service providers
+                  (e.g., Hotmail, AOL, Yahoo). Students who choose to forward their email from their
+                  pitt.edu address to another address do so at their own risk. If email is lost as a
+                  result of forwarding, it does not absolve the student from responding to official
+                  communications sent to their University email address. To forward email sent to
+                  your University account, go to http://accounts.pitt.edu, log into your account,
+                  click on Edit Forwarding Addresses, and follow the instructions on the page. Be
+                  sure to log out of your account when you have finished. (For the full Email
+                  Communication Policy, go to <ref target="http://www.bc.pitt.edu/policies/policy/09/09-10-01.html">http://www.bc.pitt.edu/policies/policy/09/09-10-01.html</ref>.)</p>
+            </div>
+
+
+            <div type="integrity">
+               <head>Academic Integrity</head>
+               <p>
+                  <hi rend="em">Source Citation and Plagiarism:</hi> One goal of our course is to
+                  reflect on how best to cite sources in digital contexts. We will consider how and
+                  why such citations differ from documenting printed texts. We will also consider
+                  the ease and frequency with which digital texts and graphics are plagiarized on
+                  the worldwide web, and discuss how the omission of source citations detracts from
+                  the authority of a digital information resource. We expect you to practice mindful
+                  source citation, and plagiarism on your part will have very serious
+                  consequences.</p>
+               <p>Plagiarism falsely represents another source’s words or ideas as your own, and, if
+                  you commit plagiarism in this course, you will receive a final course grade of F
+                  and be reported to the Vice President of Academic Affairs. Representing the voice
+                  of another individual as your own voice constitutes plagiarism, however generous
+                  that person may be in “helping” you with an assignment. Turning in an assignment
+                  generated collectively under the name of a single individual is considered
+                  plagiarism. <hi rend="em">When instructed to collaborate on a project, project
+                     collaborators share collective authorship and should identify themselves
+                     directly as a team.</hi> To avoid plagiarism, cite your sources whenever you
+                  quote, paraphrase, or summarize material, or use digital images from any outside
+                  source (including websites, articles, books, course readings, Courseweb postings,
+                  or someone else’s notes). When using the “copy” and “paste” features as you read
+                  and research, be sure that you are carefully marking that these passages are
+                  unprocessed from their source, so that you know to process it later. Forgetting to
+                  do so not only produces sloppy work but (whether you intended it or not) results
+                  in a false representation. As long as you make a good faith and clear effort to
+                  cite your sources, you will not be faulted for plagiarism, but your work will be
+                  penalized if citations are inaccurate, unclear, or lack important information.
+                  Cheating on exams or exercises will also receive a final course grade of F and
+                  will be reported to the Vice President of Academic Affairs.</p>
+            </div>
+            <div type="disability">
+               <head>Disability Services:</head>
+               <p>If you have a disability for which you are or may be requesting an accommodation,
+                  you are encouraged to contact both your instructor and the Director of the
+                  Learning Resources Center, Dr. Lou Ann Sears, Room 240 Millstein Library Building
+                  (724) 836-7098 (voice) or los3 at pitt.edu as early as possible in the term.
+                  Learning Resources Center will verify your disability and determine reasonable
+                  accommodations for this course.</p>
+            </div>
+         </div>
+         <div type="resources">
+            <head>Resources</head>
+            <p>We gratefully acknowledge <ref target="http://dh.obdurodon.org/">David Birnbaum's
+                  Digital Humanities course</ref> as our starting point and resource for much of our
+               development. Other useful resources include:</p>
+            <list>
+               <item>
+                  <ref target="https://exam.obdurodon.org/">eXam Center</ref>: a learning
+                  resource for quizzing yourself on coding that we're learning in class. <note>(We
+                     need to arrange for you to have individual accounts here to sign in and take
+                     the quizzes.)</note>
+               </item>
+               <item>
+                  <ref target="http://www.mulberrytech.com/papers/schematron-Philly.pdf">Schematron: an intro guide</ref>
+               </item>
+               <item>
+                  <ref target="http://programminghistorian.org/lessons/">The Programming
+                     Historian (full collection of tutorials)</ref>
+               </item>
+               <item>
+                  <ref target="http://programminghistorian.org/lessons/topic-modeling-and-mallet">Getting Started with Topic Modelling and MALLET</ref>
+               </item>
+               <item>
+                  <ref target="http://www.naturalearthdata.com/">Natural Earth (mapping
+                     resource)</ref>
+               </item>
+            </list>
+         </div>
+         <div type="extProjects">
+            <head>Projects and Sites That Inspire Us</head>
+            <list>
+               <item>
+                  <ref target="http://obdurodon.org">Obdurodon</ref>: where we learned what we
+                  can teach, and where we're still learning...</item>
+               <item>
+                  <ref target="http://mapoflondon.uvic.ca/index.htm">Map of Early Modern
+                     London</ref>
+               </item>
+               <item>
+                  <ref target="http://lordbyron.cath.lib.vt.edu/index.php?choose=About">Lord
+                     Byron and His Times</ref>
+               </item>
+               <item>
+                  <ref target="http://shelleygodwinarchive.org/">The Shelley-Godwin
+                  Archive</ref>
+               </item>
+               <item>
+                  <ref target="http://jetson.unl.edu:8080/cocoon/tokenx/index.html?file=../xml/base.xml">TokenX: a text visualization, analysis, and play tool</ref>
+               </item>
+               <item>
+                  <ref target="http://homes.cs.washington.edu/~jheer//files/zoo/">A Tour Through
+                     the Visualization Zoo</ref> (Lots of fascinating approaches to visualizing
+                  information in dynamic graphs and maps)</item>
+               <item>
+                  <ref target="https://www.youtube.com/watch?v=Xe1TZaElTAs">Clay Shirky on Love,
+                     Internet Style</ref> (9 minutes of Youtube inspiration: on what lasts, and why
+                  community matters in our digital worlds.)</item>
+
+            </list>
+         </div>
+
+
+         <div type="schedule">
+            <head>Coding and Digital Archives: Schedule</head>
+            <div type="week" n="1">
+               <div type="day">
+                  <head>
+                     <date when="2015-08-31">M 08-31</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-02">W 09-02</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-04">F 09-04</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="2">
+               <div type="day">
+                  <head>
+                     <date when="2015-09-07">M 09-07</date>
+                  </head>
+                  <div type="inclass">
+                     <p>
+                        <hi>Labor Day Holiday: No classes.</hi>
+                     </p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-09">W 09-09</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-11">F 09-11 <note>drop-add period ends</note>
+                     </date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="3">
+               <div type="day">
+                  <head>
+                     <date when="2015-09-14">M 09-14</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-16">W 09-16</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-18">F 09-18</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="4">
+               <div type="day">
+                  <head>
+                     <date when="2015-09-21">M 09-21</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-23">W 09-23</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-25">F 09-25</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="5">
+               <div type="day">
+                  <head>
+                     <date when="2015-09-28">M 09-28</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-09-30">W 09-30</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-02">F 10-02</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="6">
+               <div type="day">
+                  <head>
+                     <date when="2015-10-05">M 10-05</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-07">W 10-07</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-09">F 10-09</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="7">
+               <div type="day">
+                  <head>
+                     <date when="2015-10-12">M 10-12</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-14">W 10-14</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-16">F 10-16</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="8">
+               <div type="day">
+                  <head>
+                     <date when="2015-10-19">M 10-19</date>
+                  </head>
+                  <div type="inclass">
+                     <p>
+                        <hi>Fall Break: Monday classes meet on Tuesday this week.</hi>
+                     </p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-20">T 10-20</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-21">W 10-21</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-23">F 10-23</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="9">
+               <div type="day">
+                  <head>
+                     <date when="2015-10-26">M 10-26</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-28">W 10-28</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-10-30">F 10-30</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="10">
+               <div type="day">
+                  <head>
+                     <date when="2015-11-02">M 11-02</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-11-04">W 11-04</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-11-06">F 11-06</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="11">
+               <div type="day">
+                  <head>
+                     <date when="2015-11-09">M 11-09</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-11-11">W 11-11</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-11-13">F 11-13</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="12">
+               <div type="day">
+                  <head>
+                     <date when="2015-11-16">M 11-16</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-11-18">W 11-18</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-11-20">F 11-20</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="13">
+               <div type="day">
+                  <head>
+                     <date when="2015-11-23">M 11-23</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-11-25">W 11-25 to F 11-27</date>
+                  </head>
+                  <div type="inclass">
+                     <p>
+                        <hi>Thanksgiving Recess: No Classes.</hi>
+                     </p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+   
+         
+     
+            <div type="week" n="14">
+               <div type="day">
+                  <head>
+                     <date when="2015-11-30">M 11-30</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-12-02">W 12-02</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-12-04">F 12-04</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week" n="15">
+               <div type="day">
+                  <head>
+                     <date when="2015-12-07">M 12-07</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-12-09">W 12-09</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+               <div type="day">
+                  <head>
+                     <date when="2015-12-11">F 12-11 (Last Day of Classes)</date>
+                  </head>
+                  <div type="inclass">
+                     <p>. . . .</p>
+                  </div>
+                  <div type="assign">
+                     <p>. . . .</p>
+                  </div>
+               </div>
+            </div>
+            <div type="week">
+               <div type="day"><head><date>Thurs. 12/17 by 11:59 PM</date></head>
+               <div type="assign">
+                  <p>
+                     <hi>Projects due.</hi>
+                  </p>
+               </div>
+            </div></div>
+
+         </div>
+
+
+      </body>
+   </text>
+</TEI>
