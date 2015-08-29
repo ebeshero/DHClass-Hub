@@ -2,7 +2,9 @@ DHClass-Hub
 ===========
 
 Welcome to the Pitt-Greensburg DH Class Hub! This is a repository to help introduce and orient students to the GitHub collaboration environment, and accompanies the course website posted at <a href="http://newtfire.org/dh/">http://newtfire.org/dh/</a>.
-* Now that you're here, you should try to "clone" this repository on your local computer.
+
+* Now that you're here, you should try to "clone" this repository on your local computer. 
+* Read and follow the instructions here to get started with GitHub: <a href="http://dh.obdurodon.org/github.xhtml">http://dh.obdurodon.org/github.xhtml</a>
 
 * In order for you to participate in this shared class space, to add files, open issues, and join the discussions here, I need to add you as a collaborator. Set up your own GitHub account and write to me to tell me how to find you. 
 
