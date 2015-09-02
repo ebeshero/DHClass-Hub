@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+<title type="soup">Gazpacho Recipe</title>
+<heading><cookTime minutes="25">Prep time: 25 minutes</cookTime>
+<yield servings="8">Yield: Serves 8</yield></heading>
+
+<heading>Ingredients</heading>
+<ingredientList>
+<quantity value="6">6</quantity> <ingredient class="vegetable" type="tomatoe" quality="ripe">ripe tomatoes</ingredient> <quantity weightPounds="3">(about 3 lbs)</quantity>, <preparation>peeled and chopped</preparation> <quantity cups="6">(yielding about 6 cups)</quantity>
+<quantity value="1">1</quantity> <ingredient class="vegetable" type="onion">red onion</ingredient>, <preparation>finely chopped</preparation> <quantity cups="1.25">(about 1 1/4 cups)</quantity>
+<quantity value="1">1</quantity> <ingredient class="vegetable" type="cucumber">cucumber</ingredient>, <preparation>peeled, seeded, chopped</preparation> <quantity cups="1">(about 1 cup)</quantity>
+<!-- rjp: you get the jist -->1 sweet red bell pepper (or green) seeded and chopped (about 1 cup)
+2 stalks celery, chopped (about 1 cup)
+1-2 Tbsp chopped fresh parsley
+2 Tbsp chopped fresh chives
+1 clove garlic, minced (about 1 teaspoon)
+1/4 cup red wine vinegar
+1/4 cup olive oil
+1 Tbsp freshly squeezed lemon juice
+2 teaspoons sugar <option type="toTaste">(more may be needed to balance out the acidity of the tomatoes, add to taste)</option>
+Salt and fresh ground pepper <option toTaste>to taste</option>
+6 or more drops of Tabasco sauce <option type="toTaste">to taste</option>
+1 teaspoon Worcestershire sauce <option type="vegetarian">(omit for vegetarian option)</option>
+2 cups tomato juice <option type="alternative">(or 1 15-ounce can crushed tomatoes if you don't have tomato juice)</option>
+</ingredientList>
+<method>Method</method>
+<processSteps>
+<ol>
+<li>Place all ingredients in a large bowl. Use an immersion blender or blend in batches, to desired smoothness. We prefer our gazpacho somewhat chunky, so only pulse a few times in the blender.</li>
+<li>Adjust seasonings to taste.</li>
+<li>Place in a non-reactive container (tomatoes are acidic) to store. Chill several hours or overnight to allow the flavors to blend.</li>
+</ol>
+</processSteps>
+
+
+Read more: http://www.simplyrecipes.com/recipes/gazpacho/#ixzz3kanEz2Vk</recipe>
