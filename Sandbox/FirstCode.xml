@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <title recipe="gazpacho"></title>
+    <head>Gazpacho Soup Recipe</head>
+    <time minutes="25"></time> <serving_size quantity="8"></serving_size>
+    
+    <Ingredients><head>Ingredients</head>
+    <chopped><fruit><tomatoes measurement="6_cups"></tomatoes></fruit>
+    <vegetable type="red"> <onion measurement="1/4_cups"></onion></vegetable>
+    <seeded><cucumber measurement="1_cup">peeled</cucumber>
+    <pepper measurement="1_cup">sweet red bell or green</pepper></seeded>
+    <celery measurement="1_cup"></celery>
+    <herb><parsley measurement="1-2_tbsp"></parsley>
+    <chives measurement="2_tbsp"></chives></herb></chopped>
+    <minced><garlic measurement="1_tsp"></garlic></minced>
+    <liquid><cup measurement="1/4"><vinegar type="red_wine"></vinegar>
+    <oil type="olive"></oil></cup>
+    <juice><lemon measurement="1_tbsp"></lemon>
+    <tomato measurement="2_cups"></tomato></juice></liquid>
+    <seasoning measurement="to_taste">
+    <sugar/>
+    <salt/>
+    <pepper type="fresh_ground"></pepper>
+        <sauce type="tabasco"></sauce>
+   <sauce type="worcestershire"></sauce> <alternative type="vegetarian">(omit for vegetarian option)</alternative></seasoning>
+    <juice type="tomato"><measurement quantity ="2_cups"></measurement></juice> <alternative>(or 1 15-ounce can crushed tomatoes if you don't have tomato juice)</alternative></Ingredients>
+     Method
+    <preparation>Place all ingredients in a large bowl. Use an immersion blender or blend in batches, to desired smoothness. We prefer our gazpacho somewhat chunky, so only pulse a few times in the blender.
+    Adjust seasonings to taste.
+    Place in a non-reactive container (tomatoes are acidic) to store. Chill several hours or overnight to allow the flavors to blend.
+    </preparation>
+    <link>Read more: http://www.simplyrecipes.com/recipes/gazpacho/#ixzz3kQvnIrJV</link>
+    
+</root>
