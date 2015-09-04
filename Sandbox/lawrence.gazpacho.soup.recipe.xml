@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe type="soup">
+<heading>Gazpacho Recipe</heading>
+<prep time="25 minutes" yield="serves 8 people"/> 
+<ingredients>
+<heading>Ingredients</heading>
+<vegetable type="tomato" quantitiy="6"> ripe (about 3 lbs), peeled and chopped (yielding about 6 cups)</vegetable>
+<vegetable type="red onion" quantity="1"> finely chopped (about 1 1/4 cups)</vegetable>
+<vegetable type="cucumber" quantitiy="1"> peeled, seeded, chopped (about 1 cup)</vegetable>
+<vegetable type="sweet red bell pepper" quantity="1">(or green) seeded and chopped (about 1 cup)</vegetable>
+<vegetable type="celery stalk" quantity="2"> chopped (about 1 cup)</vegetable>
+<herb type="fresh parsley" quantity="1-2 Tbsp"> chopped </herb>
+<herb type="fresh chives" quantity="2Tbsp">chopped </herb>
+<vegetable type="garlic" quantity="1 clove"> minced (about 1 teaspoon)</vegetable>
+<liquid type="red wine vinegar" quantity="1/4 cup"/>
+<liquid type="olive oil" quantity="1/4 cup"/>
+<liquid type="freshley squeezed lemon juice" quantity="1Tbsp"/>
+<dry type="sugar" quantity="2tsp"> (more may be needed to balance out the acidity of the tomatoes, add to taste)</dry>
+<dry type="salt and pepper" quantity="to taste"/>
+<sauce type="tabasco" quantity="6 or more drops to taste"/>
+<sauce type="worcestershire" quantity="1 tsp"> (omit for vegetarian option)</sauce>
+<liquid type="tomato juice" quantity="2 cups">(or 1 15-ounce can crushed tomatoes if you don't have tomato juice)</liquid></ingredients>
+
+<directions> <heading>Method</heading>
+<step number="1">Place all ingredients in a large bowl. Use an immersion blender or blend in batches, to desired smoothness. We prefer our gazpacho somewhat chunky, so only pulse a few times in the blender.</step>
+<step number="2">Adjust seasonings to taste.</step>
+<step number="3">Place in a non-reactive container (tomatoes are acidic) to store. Chill several hours or overnight to allow the flavors to blend.</step>
+</directions>
+</recipe>
