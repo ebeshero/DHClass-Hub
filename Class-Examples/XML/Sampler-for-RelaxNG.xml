@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <head>
+        <date when="2015-09-10"></date>
+        <writer>Elisa Beshero-Bondar</writer>
+        <recipient>DH students</recipient>
+    </head>
+    <body>
+        <p>jfskdlfjadksl;sfj;l  jfkdla fjdkl;  jfdlkajf kld;a 
+            <name type="person">Somebody's name</name>. . . jdskd;fl jdaskdl; fjk
+            <name type="place">Somewhere Out There</name>
+           
+        </p>
+        <p>sstu djfkl a;sdj kl</p>
+        <p>Ssjakdlf;jaskl;fj kld;ajf ;l</p>
+        
+        <close>
+            Yours truly,
+            <signature>Me</signature>
+        </close>
+    </body>
+    
+</xml>
