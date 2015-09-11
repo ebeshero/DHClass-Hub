@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Parker_9-10-14_RelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="Parker_simpleSampleRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <subjectLine>to <persName>Percy Bysshe Shelley</persName>, <address>Ravenna</address>, <date
             when="1821-04-26">April 26, 1821</date></subjectLine>
