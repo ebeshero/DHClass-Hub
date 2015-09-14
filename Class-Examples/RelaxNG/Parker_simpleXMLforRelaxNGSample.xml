@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Parker_simpleSampleRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
-<root>
+
+
+<letter>
     <subjectLine>to <persName>Percy Bysshe Shelley</persName>, <address>Ravenna</address>, <date
             when="1821-04-26">April 26, 1821</date></subjectLine>
 
@@ -41,4 +43,4 @@
         alone?</postScript>
 
     <!--rjp: the following note resides at the bottom of the website page where this text was ripped from (The child Byron refers to was Allegra, his daughter with Shelley's sister-in-law Claire Clairmont.)-->
-</root>
+</letter>
