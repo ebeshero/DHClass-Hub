@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="zabelsky_09-11_xml-04Rev.rnc" type="application/relax-ng-compact-syntax"?>
+<!--2015-09-13 ebb: See the line above this? It shows that I've associated a schema. Be 
+sure you know how to do that! I've associated the Revised schema. Notice all the red bars in
+oXygen: Those are validation error warnings, mostly being going off because we need more
+rules in your schema to account for all your elements and attributes. There's more work to do here: see if you can complete writing all the rules you need in Relax-NG!-->
+
 <article>
     <title>Speith regains No. 1 despite missing cut</title>
     
