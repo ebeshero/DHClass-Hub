@@ -16,4 +16,11 @@ name = element name {\list, text}
 area= element area {\list, text}
 \list = attribute list {text}
 
-# ebb: 2015-09-13: Ryan: I've taken the liberty of correcting your code so the schema is green, and I just saved this with a different file name. Notice that rules for attributes only contain one thing, and that can either be text or a data type like a number (xsd:int). You might want to use xsd:int for the attributes that contain numerical values, in fact. We made your syntax right, but when we associate this schema with your XML, there are lots and lots of validation errors, and that's because you have more work to do to define rules for more elements and attributes. Sync your GitHub so you can access the files locally on your computer, and keep on going on this schema file: See if you can finish writing all the rules you need for your XML to be valid. 
+# ebb: 2015-09-13: Ryan: I've taken the liberty of correcting your code so the schema is green, 
+# and I just saved this with a different file name. Notice that rules for attributes only contain one thing, 
+# and that can either be text or a data type like a number (xsd:int). You might want to use xsd:int for the
+# attributes that contain numerical values, in fact. We made your syntax right, but when we associate this
+# schema with your XML, there are lots and lots of validation errors, and that's because you have more 
+# work to do to define rules for more elements and attributes. Sync your GitHub so you can access the files 
+# locally on your computer, and keep on going on this schema file: 
+# See if you can finish writing all the rules you need for your XML to be valid. 
