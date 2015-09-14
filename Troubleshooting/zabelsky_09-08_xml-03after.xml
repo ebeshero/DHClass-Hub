@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article>
+    <title>Speith regains No. 1 despite missing cut</title>
+    
+    <authors person="Tom_Layman Boston_Herald">2</authors>
+    
+    <series completion="PGA"/>
+    
+    <p sentence="0"><published today="2015-09-08"><time posted="6:08a.m."></time></published></p>
+        
+    
+    <p sentence="1"><area list="Norton_Mass." count="1"/>
+        <!-- ghb 2015-09-10: Uh oh! You closed your paragraph element before adding your attribute! Also, white-space inside an attribute means "and", so use camelCase
+            or an underscore to join together multiple words like this : nortonMass or Norton_Mass. Usually, other punctuation is not necessary indide an attribute, either. 
+        Alternatively you could carry the city and state in two separate attributes: city="Norton" state="Mass".
+        -->
+        NORTON, Mass. -- If golf is a fickle thing then you should see what the rankings
+        for the No. 1 player in the world have been like lately. </p>
+    
+    <p sentence="1"><name list="Rory_McIlroy Jordan_Speith">2</name>
+        <!-- ghb 2015-09-10: Here, because you actually want two vales inside this attribute, try writing it like this instead:
+            list="Rory_McIlroy Jordan_Speith"
+            -->
+        Take the back-and-forth between Rory McIlroy and Jordan Spieth.</p>
+   
+    <p sentence="2"><name list="Rory_McIlroy Jordan_Speith">2</name><course name="TPC Boston">1</course>
+        <events described="Deutchsche Bank Championship">1</events> 
+        Spieth didn't get anything going for the second week in a row and missed the cut at the 
+        Deutsche Bank Championship by 2 strokes. McIlroy played poorly, but at least was still 
+        playing on Labor Day at TPC Boston.</p>
+    
+    <p sentence="1"><name list="Rory_McIlroy Jordan_Speith">2</name>
+        Even without Spieth playing the final two rounds and McIlroy finishing with a 5-under 66 to get to
+        3-under for the four days, it is Spieth who will be ranked No. 1 in the world because McIlroy couldn't 
+        leapfrog basically an entire field of golfers yesterday.</p>
+    
+    <p sentence="3"><name list="Rory_McIlroy Jordan_Speith">2</name>
+        <events described="The_Barclays FedEx_Cup_playoffs">2</events>
+        If you think that's strange, just think about how McIlroy reclaimed the No. 1 ranking before the week 
+        started. He sat out The Barclays and Spieth played poorly, missing the first cut of the FedEx Cup
+        playoffs. The world golf rankings are based on a two-year rolling period.</p>
+    
+    <p sentence="1">
+        Got a Popsicle headache yet?</p>
+    
+    <p sentence="5"><name list="Rory_McIlroy">1</name>
+        "I don't see any other way," McIlroy said. "You can do it on a one-year point system. I think two
+        years is a reflection of how you played. At the end of the day it's just about playing and playing well.
+        I don't know any way we could determine the best player in the world if you go on majors or number of 
+        wins in the season."</p>
+    
+    <p sentence="2"><name list="Rory_McIlroy">1</name><events described="FedExCup playoff">1</events>
+        McIlroy showed signs that he might be coming out of his slow return from an ankle injury. He said
+        he's not too focused on the No. 1 ranking, focusing more on just playing well the rest of the way
+        in the FedEx Cup playoffs. </p>
+    
+    <p sentence="2"><name list="Rory McIlroy">1</name>
+        "I'd love to play well next week and get myself into the top five going into Atlanta," McIlroy said.
+        "That's still the goal."</p>
+      
+    
+</article>
+
+<!-- ghb ebb 2015-09-10: Check Minus. We see you've selected a complex document for this, and we like that you have applied your markup to code information about speakers and events. 
+    But there are some problems here, as noted in the comments above! You had some difficulty with formatting yout attributes by including excessive
+    white-space and punctuation, and sevearl of your attributes are hanging outside of the element tags and are actually in the text node, which means they WILL NOT BE PARSED (or READ) by the computer as 
+    attributes. (We notice this has been an error in previous assignments, and we know you've corrected it in the past, so we're surprised to still see the error here.
+    Finally, in a document like this, it is useful to group related elements together in a "head" and "body" element, for example, just inside the 
+    "root" element. We encourage you to revise and resubmit this assignment to perfect your understanding of these concepts. -->

@@ -1,0 +1,18 @@
+start = article
+article = element article {title, authors+, series, published, p+}
+title = element title {text}
+authors = element authors {person, text}
+person = attribute person {text}
+series = element series {completion, text}
+completion = attribute completion {text}
+p = element p {sentence, text, published}
+sentence = attribute sentence {text, published}
+published = element published {today, text, time, posted, text}
+today = attribute today {text}
+time = element time {posted, text}
+posted= attribute posted {text}
+
+p = element p {sentence, text, area}
+sentence = attribute sentence {text, area}
+area= element area {listed, text}
+
