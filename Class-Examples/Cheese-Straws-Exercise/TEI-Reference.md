@@ -12,5 +12,7 @@
 
 * [**Chapter 10: Manuscript Description**](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html)
 
+* [**Chapter 13: Names, Dates, People, and Places**](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html)
+
 * [**TEI P5 Guidelines: The Whole Set**](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
 
