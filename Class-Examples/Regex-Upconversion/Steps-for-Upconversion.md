@@ -50,6 +50,7 @@ Try the dot. Uh oh--that won't work either! It's too "greedy" a match.
 Try the character we may or may not have, with a ? after it: picks up zero or one of this! (Sound familiar?)
 
 -?\w+
+
 [A-Z]\w+-?\w+,\s[A-Z]{2}
 
 Think about how we want to tag this. Try something like <place><city>...<city>, <state>...<state></place> to bind the info together. For this, how do we set up
