@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The History of and the Recipe for <name type="recipe">Cheese Straws</name></title>
+            <author ref="#ST">Stacey Triplette</author>
+            <author ref="#NFSS">Nancy Frances Seats Sisk</author>
+            <editor ref="#nll">Nicole L. Lottig</editor>
+            
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+                  <persName ref="#nll">Nicole L. Lottig</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Photo of <persName ref="#NFSS">Nancy Frances Seats Sisk</persName>'s written recipe card from <persName ref="#ST">Stacy Triplette</persName>'s cellphone. <persName ref="#ST">Stacy Triplette</persName>'s write up about the history and the substitutions on <name type="website">GitHub</name>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="GitHub">GitHub</repository>
+               </msIdentifier>
+               <head>Cheese Straws Recipe</head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>My grandmother wrote this 3 X 5 <material>recipe card</material> <date when="1980">around 1980</date> and gave it to me at <date when="2014-12-25">Christmas in 2014</date>. I took this <material>photo</material> to prove to <persName ref="#NFSS" type="nickname">Nana</persName> that I 
+                           could make her recipe my way and it would look exactly the same.
+                           <ptr target="https://github.com/ebeshero/DHClass-Hub/blob/master/Class-Examples/Cheese-Straws-Exercise/Cheese-Straws-Photo.jpg"/>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#ST" medium="type">The first part of this document is a cumputer-generated, typed paragraph written by Stacy Triplette about the cheese straws recipe and her family's history.</handNote>
+           <handNote corresp="#NFSS" medium="black pen">The second part of this document is a recipe for cheese straws written on a 3x5 notecard by Nancy Frances Seats Sisk.  Note <persName ref="#NFSS" type="nickname">Nana</persName>'s handwriting. 
+              It's very typical for her era, and she was known to have only average penmanship.  There may be more to this recipe because we see "(over)" written at the bottom right of the recipe card. </handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <p>Nancy Frances Seats Sisk's spelling and punctuation are retained.  Some of Stacy Triplette's text is pulled out of the paragraph to be used as document descriptions in the header.</p>
+     </encodingDesc>
+     <revisionDesc>
+        <listChange>
+           <change when="2014" who="#ST">When I make this recipe hipster style, <list type="substitution"><item n="1">I substitute unsalted butter for the <name type="brand">Parkay</name></item><item n="2"> and replace the <name type="brand">Kraft</name> cheese with the nicest, sharpest cheddar I can find. </item><item n="3">I reduce cooking time to <measure quantity="10" unit="minute">10 minutes</measure>, </item><item n="4">and I quadruple the recipe to 
+              get a full tupperware container. </item><item n="5">Instead of red pepper flakes I use <name type="brand">Sriracha</name> or my hometown hot 
+                 sauce, <name type="brand">Texas Pete</name>, made in <placeName type="city">Winston-Salem, NC</placeName>.</item></list>
+           </change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <div type="background">
+           <head>Cheese Straws</head>
+           <docAuthor ref="#ST"><forename type="first">Stacey</forename> <surname>Triplette</surname><ptr target="https://github.com/ebeshero/DHClass-Hub/blob/master/Class-Examples/Cheese-Straws-Exercise/Cheese%20-Straws-Context.txt"/></docAuthor>
+           <p>
+              This is my <persName ref="#NFSS" type="nickname">Nana</persName>'s <name type="recipe">cheese straw</name> recipe. <persName ref="NFSS"><forename type="first">Nancy</forename> <forename type="middle">Frances</forename> <surname>Seats</surname> <surname>Sisk</surname></persName> was born in <date type="birth" when="1928">1928</date> in 
+              <placeName type="city">Lewisville, NC</placeName> to a family that owned a small farm and a <placeName type="store">Mom and Pop store</placeName> (literally: my great-
+              grandparents were actually known to customers and family as <persName ref="#ES" type="nickname">Mom</persName> and <persName type="nickname">Pop</persName>). This is my 
+              great grandmother <persName ref="#ES"><forename type="first">Ethel</forename> <surname>Seats</surname></persName>'s recipe modified by my grandmother (called <persName ref="#NFSS"><forename type="nickname">Frances</forename></persName> or <persName type="nickname">Fanny</persName>) for the <date from="1950" to="1979">1950s-1970s</date> taste 
+              for processed food. For that era, everything from a national brand seemed better than local 
+              alternatives. <name type="recipe">Cheese straws</name> are a <placeName type="city">Winston-Salem, NC</placeName> favorite. They are spicy cheese cookies, 
+              bizarre but delicious. I grew up eating <name type="recipe">cheese straws</name> as party snacks, particularly around <date when="--12-25">Christmas</date>. 
+              <persName ref="#NFSS" type="nickname">Nana</persName> gives my dad, <persName ref="#RKT"><forename type="first">Richard</forename> <forename type="middle">K.</forename> <surname>Triplette</surname></persName> (born <date type="birth" when="1952">1952</date>) a full  <name type="brand">Tupperware</name> container of these every <date when="--12-25">Christmas</date> as his present.
+                <persName ref="#NFSS" type="nickname">Nana</persName> 
+              graduated from a <name type="school">Winston-Salem</name> high school at a time when this was a major accomplishment, 
+              especially for a woman from a rural family. Some of the girls among my <persName ref="#NFSS" type="nickname">Nana</persName>'s eleven siblings graduated 
+              high school, but only one of the boys, her younger brother <persName ref="#WS"><forename type="first">Worth</forename></persName>, was allowed to stay in school. He eventually
+              became a high school teacher. <persName ref="#NFSS" type="nickname">Nana</persName>'s other brothers worked on the farm and then joined the army, leaving school around the sixth grade. <persName ref="#NFSS" type="nickname">Nana</persName> worked as a hairstylist <date from="1950" to="2000">from the 1950's up until c. 2000</date>. She married my grandfather, <persName ref="#VS"><forename type="first">Victor</forename> <surname>Sisk</surname></persName>, who did not have a high school degree. <persName ref="#VS"><forename type="first">Victor</forename></persName> served as an army radio operator during <name type="war">WWI</name> and afterward found a job as plant manager in a typical
+              a textile company, <name type="company">The Salem Company</name> (later <name type="company">Lucia</name>). My mom, <persName ref="#KST"><forename type="first">Kathy</forename> <surname>Sisk</surname> <surname>Triplette</surname></persName>, born <date type="birth" when="1951">1951</date>, is their first of two daughters.
+           </p>
+        </div>
+        <div type="recipe">
+           <docAuthor>Nancy Frances Seats Sisk<ptr target="https://github.com/ebeshero/DHClass-Hub/blob/master/Class-Examples/Cheese-Straws-Exercise/Cheese-Straws-Photo.jpg"/></docAuthor>
+           <head>Cheese Straws</head>
+               
+              <list type="ingredients">
+                 <item><measure quantity="1" unit="cup" commodity="grated cheese">1-cup</measure> <name type="brand">Kraft</name>. Med or Sharp grated cheese. <emph>I use Sharp</emph></item>
+                 <item><measure quantity="8" unit="tablespoon" commodity="margarine">1-Stick</measure> <name type="brand">Parkay</name> Margarine</item>
+                 <item><measure quantity="1" unit="cup" commodity="flour">1-Cup</measure> flour (plain)</item>
+                 <item>I add <measure quantity="1/8" commodity="red pepper">1/8 teaspoon</measure> red pepper after I double
+                 this recipe.</item>
+              </list>
+               
+            
+                  <p>
+                     <list>
+                        <item n="1">Mix ingredients.</item> <item n="2">Knead into a ball. It
+                        should be moist. Knead like making bread
+                        dough.</item> <item n="3">Shape into very small balls.</item> <item n="4">Use a
+                        fork and mash two ways.</item> <item n="5">Put on cookie sheet
+                        after spraying with oil</item><item n="6">and cook at <measure unit="degrees">350°</measure> for
+                        <measure quantity="15" unit="minute">fifteen minutes</measure>.</item> <item n="7">Check. You might have to cook
+                        <measure quantity="2" unit="minute">2</measure> or <measure quantity="3" unit="minute">3</measure> more minutes.</item> <item n="8">Let cool.</item> <item n="9">Place in
+                        container.</item></list> I always <measure quantity="2" unit="recipe"><emph>double</emph> recipe</measure>, sometimes <measure quantity="3" unit="recipe"><emph>triple</emph></measure>
+                                                                        (over)</p>
+            </div>
+         
+      </body>
+     <back>
+        <listPerson>
+           <person xml:id="ST">
+              <persName>
+                 <forename>Stacy</forename>
+                 <surname>Triplette</surname>
+              </persName>
+           </person>
+           <person xml:id="NFSS">
+              <persName>
+                 <forename>Nancy</forename>
+                 <forename>Frances</forename>
+                 <surname>Seats</surname>
+                 <surname>Sisk</surname>
+              </persName>
+              <persName type="nickname">Nana</persName>
+              <persName type="nickname">Frances</persName>
+              <persName type="nickname">Fanny</persName>
+           </person>
+           <person xml:id="ES">
+              <persName>
+                 <forename>Ethel</forename>
+                 <surname>Seats</surname>
+              </persName>
+              <persName type="nickname">Mom</persName>
+           </person>
+           <person xml:id="RKT">
+              <persName>
+                 <forename>Richard</forename>
+                 <forename>K.</forename>
+                 <surname>Triplette</surname>
+              </persName>
+           </person>
+           <person xml:id="WS">
+              <persName>
+                 <forename>Worth</forename>
+              </persName>
+           </person>
+           <person xml:id="VS">
+              <persName>
+                 <forename>Victor</forename>
+                 <surname>Sisk</surname>
+              </persName>
+           </person>
+           <person xml:id="KST">
+              <persName>
+                 <forename>Kathy</forename>
+                 <surname>Sisk</surname>
+                 <surname>Triplette</surname>
+              </persName>
+           </person>
+           <person xml:id="nll">
+              <persName>Nicole L. Lottig</persName>
+           </person>
+        </listPerson>
+     </back>
+  </text>
+</TEI>
+
+<!-- nll 2015-09-22: I tried my best on the header section.  I feel like TEI is easier to grasp now that I know how to look certain ideas
+up in the TEI master handbook!  Also, I tried my best in adding the personography to the back part of the text section, and I tried to 
+fix my body section as well!  Thank you for all of the advice and the encouragment Dr. B!!-->
+
+
