@@ -7,16 +7,16 @@ Think about what is occuring most often. Need to bound speaker with lines also n
 
 1. In order to find and tag speeches:
 
-	Find: \n[A-Z]{2}.+?:
-	Replace: </sp><sp>\0
+	Find: `\n[A-Z]{2}.+?:`
+	Replace: `</sp><sp>\0`
 
 2. Finding Square Brackets [  ] 
 
-	Find: \[.+\] ---need to escape the 				character
+	Find: `\[.+\]` ---need to escape the character
 
 3. Finding Parenthesis (   )
 
-	Find: \(.+\) ---need to escape the 				character
+	Find: `\(.+\)` ---need to escape the character
 
 	
 	
