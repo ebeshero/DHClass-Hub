@@ -1,6 +1,6 @@
 #In-Class Example: XPath 10/9/15
 
-###[Playing with the Mitford Site Index](https://github.com/ebeshero/DHClass-Hub/blob/master/Class-Examples/XPath/si-modified.xml)
+##### [Playing with the Mitford Site Index](https://github.com/ebeshero/DHClass-Hub/blob/master/Class-Examples/XPath/si-modified.xml)
 
 Familiarize with the Document using the oXygen  Outline view
 
@@ -10,7 +10,7 @@ Familiarize with the Document using the oXygen  Outline view
 
 ##Using XPath:
 
-Know we are looking in div type="historical people"
+ Know we are looking in div type="historical people"
 
 * in XPath - 
 
@@ -18,7 +18,7 @@ Know we are looking in div type="historical people"
 
 gets 324 results - this is a start
 
-Know we are looking for forename George and surname Miford and want to return information inside of the element 
+ Know we are looking for forename George and surname Miford and want to return information inside of the element 
 
 * in XPath - 
 
@@ -27,7 +27,7 @@ Know we are looking for forename George and surname Miford and want to return in
 gives us the 3 xml IDs of people with surname Mitford
 
 Dot `.` delimits. 
-Without the dot the `//` goes all the way back to the root element whereas we want 
+Without the dot the `//` goes all the way back to the root element whereas we want the surnames to be caught on the person element.
 
 * in XPath - 
 
