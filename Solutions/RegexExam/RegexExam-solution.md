@@ -10,7 +10,7 @@ Also there are no groups of blank lines exceeding 2 (\n{2}).
 
 ## Your Tasks:   
 
-Find all of the speeches (hint: this was an in-class example) and tag all of the speeches and their corresponding speakers. Use <sp> for speech and <spkr> for speaker. Record all of your Find and Replace expressions and any alterations you made.   
+Find all of the speeches (hint: this was an in-class example) and tag all of the speeches and their corresponding speakers. Use `<sp>` for speech and `<spkr>` for speaker. Record all of your Find and Replace expressions and any alterations you made.   
 
 **Solution:**  
 
@@ -23,9 +23,9 @@ Find all of the speeches (hint: this was an in-class example) and tag all of the
 **Then tagging speakers inside of speeches**  
 
 **Find: `<sp>(\n[A-Z]{2}.+?:)`**  
-**Replace: `<sp><spkr>\1</spkr>`**    
+**Replace: `<spkr>\1</spkr><sp>`**    
 
-Find all of the stage directions in parenthesis (hint: this was also an in-class example). Tag all of the stage directions with <sd> removing the pseudo-markup a.k.a. the parentheses. Record all of your Find and Replace expressions and any alterations you made.   
+Find all of the stage directions in parenthesis (hint: this was also an in-class example). Tag all of the stage directions with `<sd>` removing the pseudo-markup a.k.a. the parentheses. Record all of your Find and Replace expressions and any alterations you made.   
 
 **Solution:**  
 
