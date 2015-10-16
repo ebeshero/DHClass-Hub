@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--RJP: 2015-10-16: We changed the code for several placeNames that contain the text "Taheitee". We found that the previous version of this text had other elements sitting inside of the placeName element besides the just the text for the name of the places. In the future we need to be sure other placeNames don't have a similar coding error.-->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader type="text">
       <fileDesc>
@@ -7360,12 +7362,12 @@
                      other persons of distinction on his side were slain. A peace was soon after
                      concluded with <persName>
                         <emph rend="italic">O-Too</emph>
-                     </persName> the king of <placeName>O-Taheitee<ref target="#edn76">
+                     </persName> the king of <placeName>O-Taheitee</placeName><ref target="#edn76">
                            <note xml:id="edn76" anchored="true"> Called <emph rend="italic"
                                  >Outou</emph> in <persName>Hawkesworth</persName>, vol. II. p. 154.
                            </note>
                         </ref>
-                     </placeName>, who, after <persName>Tootahàh's</persName> decease, had assumed
+                     , who, after <persName>Tootahàh's</persName> decease, had assumed
                      the power of the sovereignty, of which before he had only enjoyed the title.
                      Old <persName>Aheatua</persName>, according to <persName>Tuahow's</persName>
                      account, died but a few months after this peace, and his son, of the same name,
@@ -7456,8 +7458,8 @@
 
                   <p n="314">
                      <persName>O-Aheatua</persName>, the king of
-                        <placeName>O-Taheitee-eeteespan&gt;</placeName>, <placeName>(Little
-                        Taheitee)</placeName> which is otherwise called
+                     <placeName>O-Taheitee-eetee</placeName>, (<placeName>Little Taheitee</placeName>)
+                     which is otherwise called
                         <placeName>Tiarraboo</placeName>, was a youth of seventeen or eighteen years
                      of age, well-made, about five feet six inches high, and likely to grow taller.
                      His countenance was mild, but unmeaning; and rather expressed some sign of fear
@@ -7654,12 +7656,12 @@
                      excepted, and of that there were but small remains in the lavas which we picked
                      up; but the mountains may perhaps contain some iron-ore rich enough for fusion.
                      As to the piece of salt-petre, as big as an egg, which <persName>Captain
-                        Wallis</persName> mentions as a product of <placeName>Taheitee<ref
+                        Wallis</persName> mentions as a product of <placeName>Taheitee</placeName><ref
                            target="#edn78">
                            <note xml:id="edn78" anchored="true"> See
                                  <persName>Hawkesworth</persName>, vol. I. p. 457. </note>
                         </ref>
-                     </placeName>, with all respect for his nautical abilities, I beg leave to doubt
+                     , with all respect for his nautical abilities, I beg leave to doubt
                      of its existence; since native salt-petre has never yet been found in solid
                      lumps, as appears from Cronstedt's Mineralogy.</p>
 
@@ -8541,11 +8543,11 @@
                      perfectly restored, and we did not feel the least remaining inconvenience from
                      the fatiguing journey of the day. <persName>Captain Wallis</persName> mentions
                      a similar instance of the excellence of this remedy, and of the beneficence of
-                     the inhabitants of <placeName>Taheitee<ref target="#edn93">
+                     the inhabitants of <placeName>Taheitee</placeName><ref target="#edn93">
                            <note xml:id="edn93" anchored="true"> See
                                  <persName>Hawkesworth</persName>, vol. I. p. 463. </note>
                         </ref>
-                     </placeName>; and <persName>Osbeck</persName>, in his voyage to
+                     ; and <persName>Osbeck</persName>, in his voyage to
                         <placeName>China</placeName>, describes this operation as a common practice
                      among Chinese barbers, who are said to be very expert at it<ref target="#edn94">
                         <note xml:id="edn94" anchored="true"> See <persName>Osbeck's</persName> and
@@ -15721,13 +15723,13 @@
                      convinced us in a few moments, that it was much more considerable than we had
                      hitherto supposed. The result of a most moderate computation gave us one
                      hundred and twenty thousand persons in the two peninsulas of
-                           <placeName>Taheitee<ref target="#edn178">
+                     <placeName>Taheitee</placeName><ref target="#edn178">
                            <note xml:id="edn178" anchored="true"> This calculation was afterwards
                               confirmed to be very low, when we saw the fleet of the smallest
                               district, which amounted to forty-four war-canoes, besides twenty or
                               five and twenty of a smaller size. </note>
                         </ref>
-                     </placeName>.</p>
+                     .</p>
 
                   <p n="592">The number of districts in both peninsulas amounts to forty-three; we
                      assumed at a medium, that each could equip only twenty war-canoes, and we
@@ -18474,8 +18476,8 @@
                      prepare their victuals, and some earthern pots which seemed to have been long
                      in use. The great abundance of their arms, does not agree with their
                      good-nature and hospitable disposition, unless they quarrel with their next
-                     neighbours, like the people of <placeName>Taheitee and the </placeName>Society
-                     Islands. But they seemed to have spent too much time in ornamenting their
+                     neighbours, like the people of <placeName>Taheitee</placeName> and the <placeName>Society
+                        Islands</placeName>. But they seemed to have spent too much time in ornamenting their
                      clubs, to have frequent occasion to use them.</p>
 
                   <p n="683">At day-break the next morning we unmoored and set sail, standing
@@ -18930,7 +18932,7 @@
                      Taheitian Tayo (friend).14 The greater part of them were however armed with
                      bows and arrows, and a few with spears; being thus prepared, at all events,
                      both for peace and war. By degrees they ventured near the ship, and received a
-                     few pieces of <placeName>Taheitee cloth</placeName>, which they eagerly
+                     few pieces of <placeName>Taheitee</placeName> cloth, which they eagerly
                      accepted. Presently they handed up some of their arrows in exchange; at first
                      such as were pointed with wood only, but soon after even such as were armed
                      with points of bone, and daubed with a black gummy stuff, on which account we
