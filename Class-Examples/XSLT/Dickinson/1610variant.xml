@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fascicle 16: Poem 10 (J 608: 1862/1890)</title>
+            <author>Emily Dickinson</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1610</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><title>Poem 10 (J 608: 1862/1890)</title></head>
+         <lg>
+            <l>Afraid! Of whom am I afraid?</l>
+            <l>Not Death—for who is He?</l>
+            <l>The Porter of my father's Lodge</l>
+            <l>As much abasheth me!</l>
+         </lg>
+         <lg>
+            <l>Of Life? 'Twere odd I fear thing</l>
+            <l>That comprehendeth me</l>
+            <l>In one or <app>
+                  <rdg wit="var0">two existences</rdg>
+                  <rdg wit="var1">more—existences</rdg>
+               </app>
+            </l>
+            <l><app>
+                  <rdg wit="var0">Just as the case may be</rdg>
+                  <rdg wit="var1">As Deity decree—</rdg>
+               </app>
+            </l>
+         </lg>
+         <lg>
+
+            <l>Of Resurrection? Is the East</l>
+            <l>Afraid to trust the Morn</l>
+            <l>With her fastidious forehead?</l>
+            <l>As soon impeach my Crown!</l>
+         </lg>
+      </body>
+   </text>
+</TEI>
