@@ -40,5 +40,9 @@
         
     </xsl:template>
     
+    <xsl:template match="ref">
+        <a href="{@target}"><xsl:apply-templates/></a>
+    </xsl:template>
+    
     
 </xsl:stylesheet>
