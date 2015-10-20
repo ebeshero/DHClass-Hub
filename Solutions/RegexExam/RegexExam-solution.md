@@ -25,17 +25,18 @@ Find all of the speeches (hint: this was an in-class example) and tag all of the
 **Find: `<sp>(\n[A-Z]{2}.+?:)`**  
 **Replace: `<spkr>\1</spkr><sp>`**    
 
+** Manually correct `PIERSON (OFF-MIKE):` **
+
 Find all of the stage directions in parenthesis (hint: this was also an in-class example). Tag all of the stage directions with `<sd>` removing the pseudo-markup a.k.a. the parentheses. Record all of your Find and Replace expressions and any alterations you made.   
 
 **Solution:**  
 
-**Finding Parenthesis (   )**  
+**Finding Parentheses (   )**  
 
-**Find: `\((.+)\)`**
+**Find: `\(([A-Z]{2,}.+?)\)`**
 **Replace: `<sd>\1</sd>`**
 
 Make sure there is a root directory.  
 
 Upload BOTH your text file containing your clearly-labelled Find & Replace regex statements and your up-converted War of the Worlds text to Courseweb.   
 
-**Find the solution XML [Here](https://github.com/ebeshero/DHClass-Hub/blob/master/Solutions/RegexExam/RegexExam-solutionXML.xml)**
