@@ -1,0 +1,2632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Charts for S1</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>To copy</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>To copy</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="table">
+            <head>Chapter 1. </head>
+            <fs corresp="#M0_p1_c1">
+               <f name="southey" n="9" ana="0.44">
+                  <string>Not many years after the passion of our
+                     Redeemer</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>No muchos años después de la passión de nuestro redentor y salvador Jesuchristo:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c2">
+               <f name="southey" n="12" ana="0">
+                  <string>there was a Christian King in the lesser
+                  Britain, by name Garinter,</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>fue un rey christiano en la pequeña Bretaña por nombre llamado Garinter:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c3">
+               <f name="southey" n="15" ana="0.07">
+                  <string> who being in the law of truth, was of much
+                  devotion and good ways.</string>
+               </f>
+               <f name="montalvo" n="16">
+                  <string>el cual siendo en la ley de la verdad de mucha devoción y buenas maneras acompañado.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c4">
+               <f name="southey" n="11" ana="0">
+                  <string>This King had two Daughters by a noble Lady
+                  his wife.</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>Este rey ovo dos hijas en una noble dueña su muger:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c5">
+               <f name="southey" n="17" ana="0">
+                  <string>The eldest was married to Languines King of Scotland; she was called
+                     the Lady of the Garland,</string>
+               </f>
+               <f name="montalvo" n="17">
+                  <string>y la mayor casada con Languines rey de Escocia y fue llamada la dueña de la Guirnalda:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c6">
+               <f name="southey" n="4" ana="3.5">
+                  <string> because her husband</string>
+               </f>
+               <f name="montalvo" n="18">
+                  <string>porque el Rey su marido nunca la consintió cubrir sus hermosos cabellos sino de una muy rica guirnalda/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c7">
+               <f name="southey" n="9" ana="-0.33">
+                  <string> taking great pleasure to behold her
+                  beautiful tresses,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>tanto era pagado de los ver.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c6">
+               <f name="southey" n="11" ana="0.64">
+                  <string> would have them covered only with a
+                  chaplet of flowers.</string>
+               </f>
+               <f name="montalvo" n="18">
+                  <string>porque el Rey su marido nunca la consintió cubrir sus hermosos cabellos sino de una muy rica guirnalda/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c8">
+               <f name="southey" n="6" ana="0.17">
+                  <string>Agrayes and Mabilia were their children,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>De quien fueron engendrados Agrajes y Mabilia/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c9">
+               <f name="southey" n="13" ana="0.46">
+                  <string>a Knight and Damsel of whom in this history
+                  much mention is made.</string>
+               </f>
+               <f name="montalvo" n="19">
+                  <string>que assí de uno como cavallero y de ella como donzella en esta gran historia mucha mención se haze.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c10">
+               <f name="southey" n="9" ana="0.89">
+                  <string>
+                  Elisena the other daughter was far more
+                     beautiful,</string>
+               </f>
+               <f name="montalvo" n="17">
+                  <string>La otra fija que Elisena fue llamada en gran cantidad mucho más hermosa que la primera fue.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c11">
+               <f name="southey" n="12" ana="-0.08">
+                  <string>and although she had been demanded in
+                  marriage by many great Princes,</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>E comoquiera que de muy grandes príncipes en casamiento demandada fuesse:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c12">
+               <f name="southey" n="20" ana="0.15">
+                  <string>yet she would wed with none, but for her
+                  solitary and holy life was commonly called the Lost Devotee
+                  </string>
+               </f>
+               <f name="montalvo" n="23">
+                  <string>nunca con ninguno de ellos casar le plugo antes su retraimiento y sancta vida dieron causa a que todos beata perdida la llamassen:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="26">
+                  <string>La Beata perdida. Methodist, Puritan, or
+                        the Elect, would perhaps express the meaning of Beata, which is in common use, if they were not sectarian
+                     words.</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c13">
+               <f name="southey" n="11" ana="-0.36">
+                  <string>, because it was
+                  considered that for one of such rank,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>considerando que persona de tan gran guisa:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c14">
+               <f name="southey" n="4" ana="0">
+                  <string>gifted with such beauty</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>dotada de tanta hermosura:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c15">
+               <f name="southey" n="8" ana="-0.25">
+                  <string>and sought in marriage by so many
+                     chiefs,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>de tantos grandes por matrimonio demandada:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c16">
+               <f name="southey" n="7" ana="0.29">
+                  <string>this way of life was not fitting.</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>no le era conveniente tal estilo de vida tomar.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c17">
+               <f name="southey" n="8" ana="0.25">
+                  <string>King Garinter who was somewhat striken in
+                     years,</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>Pues este dicho rey Garinter siendo en assaz crecida hedad:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c18">
+               <f name="southey" n="4" ana="2.5">
+                  <string>took delight in hunting.</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>por dar descanso a su ánimo algunas vezes a monte y a caça iva.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c19">
+               <f name="southey" n="13" ana="0.08">
+                  <string>It happened one day, that having gone from
+                  his town of Alima
+                  </string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>Entre las cuales saliendo un día desde una villa suya que Alima se llamava/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="3">
+                  <string>to the chace,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c20">
+               <f name="southey" n="3" ana="0.67">
+                  <string>and being separated</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>siendo desviado de las armadas/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c21">
+               <f name="southey" n="12" ana="-0.08">
+                  <string>from his people, as he went along the
+                  forest saying his prayers,</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>y de los caçadores andando por la floresta sus horas rezando:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c22">
+               <f name="southey" n="13" ana="0.23">
+                  <string>he saw to the left a brave battle of one
+                  Knight against two.</string>
+               </f>
+               <f name="montalvo" n="16">
+                  <string>vio a su siniestra una brava batalla de un solo cavallero que con dos se combatía:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c23">
+               <f name="southey" n="14" ana="-0.36">
+                  <string>Soon had he knowledge of the twain, in
+                  that they were his own vassals,</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>él conoció los dos cavalleros que sus vassallos eran:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c24">
+               <f name="southey" n="4" ana="1.25">
+                  <string>who being proud men</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>que por ser muy sobervios y de malas maneras:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c25">
+               <f name="southey" n="12" ana="-0.08">
+                  <string>and of powerful lineage had often by their
+                  evil customs offended him.</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>y muy emparentados muchos enojos de ellos avía rescebido .</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c26">
+               <f name="southey" n="23" ana="0.26">
+                  <string>Who the third was he knew not, but not
+                  relying so much in the worth of the one, as he feared the two,</string>
+               </f>
+               <f name="montalvo" n="29">
+                  <string>Mas aquel que con ellos se combatía no lo pudo couocer y no se fiando tanto en la bondad del uno que el miedo de los dos le quitasse/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c27">
+               <f name="southey" n="7" ana="-0.14">
+                  <string>he drew aside and waited the event,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>apartándose de ellos la batalla mirava:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="5">
+                  <string>which sorted to such effect,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c28">
+               <f name="southey" n="12" ana="0.25">
+                  <string>as by the hand of that one the others were
+                  both slain.</string>
+               </f>
+               <f name="montalvo" n="15">
+                  <string>en fin de la cual por mano de aquel los dos fueron vencidos y muertos.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c29">
+               <f name="southey" n="3" ana="2">
+                  <string>This done </string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>Esto fecho el cavallero se vino contra el rey:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="4">
+                  <string>
+                  the Stranger
+                  </string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c29">
+               <f name="southey" n="5" ana="0.8">
+                  <string> came towards the King,</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>Esto fecho el cavallero se vino contra el rey:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c30">
+               <f name="southey" n="5" ana="0.2">
+                  <string>and seeing him alone, said,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>y como solo lo viesse díxole.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c31">
+               <f name="southey" n="13" ana="0.08">
+                  <string>
+                  Gentle Sir, what country is
+                  this wherein Knights Errant are thus assailed?</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>Buen hombre qué tierra es esta que assí son los cavalleros andantes salteados?</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c32">
+               <f name="southey" n="3" ana="0.33">
+                  <string>The King replied,</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>El rey le dixo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c33">
+               <f name="southey" n="5" ana="2.8">
+                  <string>Marvel not at this, Knight,</string>
+               </f>
+               <f name="montalvo" n="19">
+                  <string>No os maravilléis de esso cavallero que assí como en las otras tierras ay buenos cavalleros y malos/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c34">
+               <f name="southey" n="5" ana="0">
+                  <string> for our Country yields</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>assí los ay en esta/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c33">
+               <f name="southey" n="8" ana="1.38">
+                  <string> as others do, both good and bad:</string>
+               </f>
+               <f name="montalvo" n="19">
+                  <string>No os maravilléis de esso cavallero que assí como en las otras tierras ay buenos cavalleros y malos/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c35">
+               <f name="southey" n="8" ana="0.75">
+                  <string>as for these men, they have often
+                     offended,</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>y estos que dezís no solamente a muchos han fecho grandes males y desaguisados:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c36">
+               <f name="southey" n="17" ana="0.29">
+                  <string>even against their Lord and King, who
+                  could do no justice upon them, because of their kindred,</string>
+               </f>
+               <f name="montalvo" n="22">
+                  <string>mas aun al mismo rey su señor sin que de ellos justicia hazer pudiesse por ser muy emparentados han hecho enormes agravios:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c37">
+               <f name="southey" n="9" ana="0.22">
+                  <string>and also because they harboured in this
+                  covered mountain.</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>y también por esta montaña tan espessa donde se acogían.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c39">
+               <f name="southey" n="5" ana="1.8">
+                  <string>This King you speak of,</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>Pues a esse rey que dezís vengo yo a buscar de luenga tierra:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c38">
+               <f name="southey" n="1" ana="3">
+                  <string>replied</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>El cavallero le dixo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="3">
+                  <string>
+                  the Stranger,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c39">
+               <f name="southey" n="9" ana="0.56">
+                  <string>I come to seek him from a far land,</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>Pues a esse rey que dezís vengo yo a buscar de luenga tierra:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c40">
+               <f name="southey" n="8" ana="0.12">
+                  <string>and bring him tidings from a dear
+                     friend.</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>y le traigo nuevas de un su gran amigo:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c41">
+               <f name="southey" n="14" ana="-0.14">
+                  <string>If you know where he may be found, I pray
+                  you tell me.
+               </string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>y si sabéis dónde hallarlo pueda ruégoos que me lo digáis.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c42">
+               <f name="southey" n="3" ana="0.33">
+                  <string>The King answered,</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>El rey le dixo:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c43">
+               <f name="southey" n="13" ana="-0.15">
+                  <string>
+                  Befall what may, I shall not
+                  fail to speak what is true.</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>Comoquier que acontezca no dexaré de os dezir la verdad:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c44">
+               <f name="southey" n="4" ana="1.5">
+                  <string>I am the King.</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>sabed ciertamente que yo soy el rey que demandáis.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c45">
+               <f name="southey" n="33" ana="-0.12">
+                  <string>The Knight then loosing his shield and
+                  helmet gave them to his Squire, and went to embrace Garinter, saying that he was
+                  King Perion of Gaul who had long desired to know him.</string>
+               </f>
+               <f name="montalvo" n="29">
+                  <string>El cavallero quitando el escudo y yelmo y dándolo a su escudero lo fue a abraçar diziendo ser el rey Perión de Gaula que mucho le avía desseado conoscer.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c46">
+               <f name="southey" n="13" ana="-0.15">
+                  <string>Greatly were these Kings contented that
+                  their meeting was in such a manner,</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>Mucho fueron alegres estos dos reyes en se aver assí juntado:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c47">
+               <f name="southey" n="7" ana="1.86">
+                  <string>and conferring together they took their
+                     way</string>
+               </f>
+               <f name="montalvo" n="20">
+                  <string>y bablando en muchas cosas se fueron a la parte donde los caçadores eran para se acoger a la villa:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="6">
+                  <string>through the wood towards the city,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c48">
+               <f name="southey" n="8" ana="0.75">
+                  <string>when suddenly a Hart ran before them
+                     which</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>pero antes les sobrevino un ciervo que de las armadas muy cansado se colara/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="4">
+                  <string>had escaped the toils.</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c49">
+               <f name="southey" n="9" ana="1.33">
+                  <string>They followed at full speed, thinking to
+                  kill it,</string>
+               </f>
+               <f name="montalvo" n="21">
+                  <string>tras el cual los reyes ambos al más correr de sus cavallos fueron pensándolo matar mas de otra manera les acaeció/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c50">
+               <f name="southey" n="12" ana="0.33">
+                  <string>but a Lion springing from a thicket before
+                  them, seized the Hart,</string>
+               </f>
+               <f name="montalvo" n="16">
+                  <string>que saliendo de unas espessas matas un león delante de ellos el ciervo alcançó y mató:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c51">
+               <f name="southey" n="9" ana="-0.11">
+                  <string>and having torn it open with his mighty
+                     claws,</string>
+               </f>
+               <f name="montalvo" n="8">
+                  <string>y aviéndole abierto con sus muy fuertes uñas/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c52">
+               <f name="southey" n="6" ana="0.5">
+                  <string>stood fiercely looking at the
+                     Kings.</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>bravo y mal continente contra los reyes se mostrava.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c54">
+               <f name="southey" n="5" ana="1.8">
+                  <string>
+                  Fierce as you are,</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>Pues no estaréis tan sañudo/ que parte de la caça no nos dexéis:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c53">
+               <f name="southey" n="3" ana="2">
+                  <string>said King Perion,</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>Y como assí el rey Perión le viesse dixo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c54">
+               <f name="southey" n="9" ana="0.56">
+                  <string>
+                   you shall leave us part of the
+                     game!</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>Pues no estaréis tan sañudo/ que parte de la caça no nos dexéis:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c55">
+               <f name="southey" n="10" ana="-0.3">
+                  <string>and he took his arms and alighted from his
+                     horse,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>y tomando sus armas descendió del cavallo/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c56">
+               <f name="southey" n="18" ana="-0.28">
+                  <string>who being affrighted at the wild beast
+                  would not go near him, and placing his shield before him</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>que adelante espantado del fuerte león ir no quería poniendo su escudo delante/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c57">
+               <f name="southey" n="7" ana="0.29">
+                  <string>went towards the Lion sword in
+                     hand.</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>la espada en la mano al León se fue/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c58">
+               <f name="montalvo" n="14">
+                  <string>que las grandes bozes que el rey Garinter le dava no lo
+                        pudieron estorvar. </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c59">
+               <f name="southey" n="9" ana="0.11">
+                  <string>The Lion left his prey and came against
+                     him,</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>El león assimismo dexando la presa contra él se vino:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c60">
+               <f name="southey" n="2" ana="5">
+                  <string>they closed,</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>y juntándose ambos teniéndole el león debaxo en punto de le matar:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="2">
+                  <string>and Perion</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c60">
+               <f name="southey" n="9" ana="0.33">
+                  <string>at the moment when he was under the
+                     beast</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>y juntándose ambos teniéndole el león debaxo en punto de le matar:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="4">
+                  <string>and in most danger,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c61">
+               <f name="southey" n="6" ana="2.33">
+                  <string>thrust his sword into his belly.</string>
+               </f>
+               <f name="montalvo" n="20">
+                  <string>no perdiendo el rey su gran esfuerço hiriéndole con su espada por el vientre lo hizo caer muerto ante sí:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="5">
+                  <string>When Garinter saw him fall,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c62">
+               <f name="southey" n="4" ana="1.5">
+                  <string>he said within himself</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>de que el rey Garinter mucho espantado entre sí dezía.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c63">
+               <f name="southey" n="14" ana="-0.14">
+                  <string>not without cause is that Knight famed to
+                  be the best in the world.</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>No sin causa tiene aquel fama del mejor cavallero del mundo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="1">
+                  <string>Meanwhile</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c64">
+               <f name="southey" n="15" ana="0.07">
+                  <string>their train came up, and then was their
+                  prey and venison laid on two horses</string>
+               </f>
+               <f name="montalvo" n="16">
+                  <string>Esto hecho recogida toda la compaña hizo en dos palafrenes cargar el león y el ciervo:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c65">
+               <f name="southey" n="6" ana="0.33">
+                  <string> and carried to the City.</string>
+               </f>
+               <f name="montalvo" n="8">
+                  <string>y llevarlos a la villa con gran plazer.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c66">
+               <f name="southey" n="7" ana="0.14">
+                  <string>The Queen being advised of her
+                     guest</string>
+               </f>
+               <f name="montalvo" n="8">
+                  <string>Donde siendo de tal huésped la reina avisada:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c68">
+               <f name="southey" n="2" ana="1.5">
+                  <string>they found</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>y las mesas puestas hallaron:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c67">
+               <f name="southey" n="4" ana="0.75">
+                  <string>the palace richly adorned,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>los palacios de grandes y ricos atavíos/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c68">
+               <f name="southey" n="5" ana="0">
+                  <string> and the tables covered.</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>y las mesas puestas hallaron:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c69">
+               <f name="southey" n="7" ana="0.29">
+                  <string>At the highest the Kings seated
+                     themselves:</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>en la una más alta se sentaron los reyes:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c70">
+               <f name="southey" n="10" ana="-0.1">
+                  <string>at the other
+                  sate the Queen with Elisena her daughter,</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>y en otra junto con ella Elisena su hija:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c71">
+               <f name="southey" n="14" ana="-0.07">
+                  <string>and there were they served, as in the
+                  house of such a man beseemed.</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>y allí fueron servidos como en casa de tan buen hombre ser devía.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c72">
+               <f name="southey" n="11" ana="0">
+                  <string>Then being in that solace, as that
+                  Princess was so beautiful</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>Pues estando en aquel solaz como aquella infanta tan hermosa fuesse:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c73">
+               <f name="southey" n="7" ana="0">
+                  <string>and King Perion on his part equal,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>y el rey Perión por el semejante:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c74">
+               <f name="montalvo" n="16">
+                  <string>y la fama de sus grandes cosas en armas por todas las
+                        partes del mundo divulgadas/ </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c75">
+               <f name="southey" n="21" ana="-0.1">
+                  <string>in that hour and point they so regarded
+                  each other, that her great modesty and holy life could not now avail,</string>
+               </f>
+               <f name="montalvo" n="19">
+                  <string>en tal punto y hora se miraron que las gran honestidad y sancta vida de ella no pudo tanto/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c76">
+               <f name="southey" n="10" ana="0">
+                  <string>but that she was taken with great and
+                  incurable love;</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>que de incurable y muy gran amor presa no fuesse:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c77">
+               <f name="southey" n="6" ana="0">
+                  <string>and the King in like manner,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>y el rey assimesmo de ella:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c78">
+               <f name="southey" n="8" ana="0.62">
+                  <string>though till then his heart had been
+                     free,</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>que hasta entonces su coraçón sin ser sojuzgado a otra ninguna libre tenía:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c79">
+               <f name="southey" n="15" ana="0.13">
+                  <string>so that during the meal both the one and
+                  the other appeared absent in thought.</string>
+               </f>
+               <f name="montalvo" n="17">
+                  <string>de guisa que assí el uno como el otro estuvieron todo el comer casi fuera de sentido.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c80">
+               <f name="southey" n="12" ana="0">
+                  <string>When the tables were removed, the Queen
+                  would depart to her chamber;</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>Pues alçadas las mesas la reina se quiso acoger a su cámara:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c80.1">
+               <f name="southey" n="18" ana="0">
+                  <string>Elisena rising dropt a ring from her
+                  lap, which she had taken off when she wash'd her hands,</string>
+               </f>
+               <f name="montalvo" n="18">
+                  <string>y levantándose Elisena cayóle de la falda un muy hermoso anillo que para se lavar del dedo quitara/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c81">
+               <f name="southey" n="7" ana="0.71">
+                  <string>and in her confusion of mind
+                     forgotten.</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>y con la gran turbación no tuvo acuerdo de lo allí tornar/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c82">
+               <f name="southey" n="4" ana="0">
+                  <string>She stooped for it</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>y baxóse por tomarlo:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c83">
+               <f name="southey" n="6" ana="1">
+                  <string>and Perion who was near her</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>mas el rey Perión que cabe ella estava quiso se lo dar:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="2">
+                  <string>stooped also,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c84">
+               <f name="southey" n="5" ana="0.4">
+                  <string>so that their hands met,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>assí que las manos llegaron|a una sazón:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c85">
+               <f name="southey" n="7" ana="0.14">
+                  <string>and he taking her hand prest it.</string>
+               </f>
+               <f name="montalvo" n="8">
+                  <string>y el rey tomóle la mano y apretósela.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="1">
+                  <string>She</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c86">
+               <f name="southey" n="2" ana="1">
+                  <string>coloured deeply</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>Elisena tornó muy colorada:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c87">
+               <f name="southey" n="7" ana="1.14">
+                  <string>and thanked the King for his
+                     service.</string>
+               </f>
+               <f name="montalvo" n="15">
+                  <string>y mirando al Rey con ojos amorosos le dixo passito que le agradescía aquel servicio.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c88">
+               <f name="southey" n="4" ana="0.25">
+                  <string>Ah, Lady, said he,</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>Ay señora dixo él:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c89">
+               <f name="southey" n="6" ana="-0.33">
+                  <string>it shall not be the last,</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>no será el postrimero:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c90">
+               <f name="southey" n="10" ana="0.3">
+                  <string>for all my life shall be spent in your
+                     service.</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>mas todo el tiempo de mi vida será empleado en vos servir.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c91">
+               <f name="southey" n="7" ana="0.43">
+                  <string>She followed her mother, but so
+                     disturbed</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>Ella se fue tras su madre con tan gran alteración/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c92">
+               <f name="southey" n="5" ana="0.2">
+                  <string>that her sight was dizzy,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>que casi la vista perdida llevava/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c93">
+               <f name="southey" n="8" ana="1.88">
+                  <string>and now not able to endure her
+                     feelings</string>
+               </f>
+               <f name="montalvo" n="23">
+                  <string>de lo cual se siguió que esta infanta no pudiendo sufrir aquel nuevo dolor que con tanta fuerça al viejo pensamiento vencido avía:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="3">
+                  <string>she went and</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c94">
+               <f name="southey" n="6" ana="0.17">
+                  <string>discovered them to the damsel </string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>descubrió su secreto a una donzella suya/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c96">
+               <f name="southey" n="3" ana="0.33">
+                  <string>
+                  Darioleta
+                  </string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>que Darioleta avía nombre/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c95">
+               <f name="southey" n="4" ana="0">
+                  <string>in whom she confided,</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>de quien mucho fiava:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c97">
+               <f name="southey" n="22" ana="0.14">
+                  <string>and with tears from her eyes and from her
+                  heart, besought her to find out if King Perion loved any other woman.</string>
+               </f>
+               <f name="montalvo" n="25">
+                  <string>y con lágrimas de sus ojos y más del coraçón le demandó consejo en cómo podría saber si el rey Perión otra muger alguna amasse:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c98 #M0_p1_c99">
+               <f name="montalvo" n="27">
+                  <string>y si aquel tan amoroso semblante que a ella mostrado
+                        avía/ si le viniera en la manera y con aquella fuerça que en su
+                        coraçón avía sentido. </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c100">
+               <f name="southey" n="5" ana="1.8">
+                  <string>Darioleta suprized at this
+                     alteration,</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>La donzella espantada de mudança tan súpita en persona tan desviada de auto semejante:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c101">
+               <f name="southey" n="5" ana="6.8">
+                  <string>pitied and comforted her mistress,</string>
+               </f>
+               <f name="montalvo" n="39">
+                  <string>aviendo piedad de tan piadosas lágrimas le dixo.Señora bien veo yo que según la demasiada passión que aquel tirano amor en vos ha puesto que no ha dexado en vuestro juizio lugar donde consejo ni razón aposentados ser puedan:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c102 #M0_p1_c103 #M0_p1_c104 #M0_p1_c105">
+               <f name="montalvo" n="40">
+                  <string>y por esto siguiendo yo/ no a lo que a vuestro servicio devo: mas a la voluntad y obediencia/ haré aquello que mandáis por la vía más honesta que
+                        mi poca discreción y mucha gana de os servir hallar pudieren.
+                     </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c106">
+               <f name="southey" n="6" ana="1.33">
+                  <string>and went to King Perion's chamber.</string>
+               </f>
+               <f name="montalvo" n="14">
+                  <string>Entonces partiéndose de ella se fue contra la cámara donde el rey Perión posava:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c107">
+               <f name="southey" n="18" ana="0">
+                  <string>She found his Squire at the door with the King's garments which he was about to
+                  give him;</string>
+               </f>
+               <f name="montalvo" n="18">
+                  <string>y halló su escudero a la puerta con los paños que le quería dar de vestir y díxole.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c108">
+               <f name="southey" n="2" ana="2.5">
+                  <string>
+                  friend,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>Amigo id vos a hacer ál:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c107">
+               <f name="southey" n="2" ana="8">
+                  <string>said she,</string>
+               </f>
+               <f name="montalvo" n="18">
+                  <string>y halló su escudero a la puerta con los paños que le quería dar de vestir y díxole.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c108">
+               <f name="southey" n="6" ana="0.17">
+                  <string>go you about your other affairs,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>Amigo id vos a hacer ál:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c109">
+               <f name="southey" n="7" ana="0.57">
+                  <string>for I must wait upon your
+                     master</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>que yo quedaré con vuestro señor y le daré recaudo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c110">
+               <f name="southey" n="4" ana="2.25">
+                  <string>The Squire, thinking it</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>El escudero pensando que aquello por más honra se hazía dióle los paños/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="6">
+                  <string>was the custom of the country,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c110">
+               <f name="southey" n="4" ana="2.25">
+                  <string>gave her the garments</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>El escudero pensando que aquello por más honra se hazía dióle los paños/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c111">
+               <f name="southey" n="3" ana="0.33">
+                  <string>and went away.</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>y partióse de allí.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c112">
+               <f name="southey" n="11" ana="0.18">
+                  <string>She then entered the chamber where the
+                  King was in bed.</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>La donzella entró en la cámara do el rey estava en su cama:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c113">
+               <f name="southey" n="8" ana="1.25">
+                  <string>He, who had seen her converse with
+                     Elisena</string>
+               </f>
+               <f name="montalvo" n="18">
+                  <string>y como la vido conosció ser aquella con quien avía visto más que con otra a Elisena hablar/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c114">
+               <f name="southey" n="12" ana="1.08">
+                  <string>confidently, now hoped that she might
+                  bring some remedy to his passion,</string>
+               </f>
+               <f name="montalvo" n="25">
+                  <string>como que en ella más que en otra alguna se fiava y creyó que no sin algún remedio para sus mortales desseos allí era venida:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c115">
+               <f name="southey" n="7" ana="-0.14">
+                  <string>and said to her all in trembling,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>y estremeciéndosele el coraçón le dixo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c116">
+               <f name="southey" n="6" ana="0.33">
+                  <string>
+                  fair friend, what demand
+                     ye?</string>
+               </f>
+               <f name="montalvo" n="8">
+                  <string>Buena donzella qué es lo que quereis?</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c117">
+               <f name="southey" n="8" ana="-0.25">
+                  <string>
+               
+                  I bring you wherewith to
+                  cloathe yourself</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>Daros de vestir dixo ella.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c118">
+               <f name="southey" n="10" ana="0">
+                  <string>
+                  That should be for my
+                     heart, said Perion, 
+                  </string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>Esso al coraçón avía de ser dixo él/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c119">
+               <f name="southey" n="10" ana="0.1">
+                  <string>which is now stript and naked of all my
+                     joy</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>que de plazer y alegría muy despojado y desnudo está.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c120">
+               <f name="southey" n="3" ana="1">
+                  <string>
+                  As how?</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>En qué manera dixo ella?</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c121">
+               <f name="southey" n="11" ana="0.18">
+                  <string>
+                  Thus, quoth he, coming into
+                  this land with entire liberty,</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>En que viniendo yo a esta tierradixo el rey con entera libertad:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c122">
+               <f name="southey" n="20" ana="0.4">
+                  <string>and apprehending nothing but the chance
+                  of arms, here in this house I have been wounded by a mortal wound,</string>
+               </f>
+               <f name="montalvo" n="28">
+                  <string>solamente temiendo las aventuras que de las armas ocurrirme podían no sé en qué forma entrando en esta casa de estos vuestros señores soy llagado de herida mortal:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c123">
+               <f name="southey" n="10" ana="0.2">
+                  <string>for which if you fair Damsel, can procure
+                  me remedy,</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>y si vos buena donzella alguna melezina para ella me procurassedes/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c124">
+               <f name="southey" n="5" ana="0.4">
+                  <string>you shall be well recompensed</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>de mí seríades muy bien galardonada.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c125">
+               <f name="montalvo" n="28">
+                  <string>
+                        Cierto señor
+                            dixo ella por muy contenta me ternía en hazer servicio a tan alto
+                        hombre y tan buen cavallero como vos sois si supiesse en qué.
+                     </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c126">
+               <f name="southey" n="8" ana="0.88">
+                  <string>He then charged her not to
+                  discover him</string>
+               </f>
+               <f name="montalvo" n="15">
+                  <string>Si me vos prometéis dixo el rey como leal donzella de lo no descubrir:</string>
+               </f>
+               <f name="type" select="report">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c127">
+               <f name="southey" n="5" ana="0">
+                  <string>but where it was requisite,</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>sino allí donde es razón/</string>
+               </f>
+               <f name="type" select="report">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c128 #M0_p1_c129 #M0_p1_c130 #M0_p1_c131 #M0_p1_c132">
+               <f name="montalvo" n="35">
+                  <string>yo os lo diré.
+                     
+                        Dezidlo sin recelo
+                            dixo ella: que enteramente por mí guardado os será.
+                     
+                        Pues amiga señora
+                            dixo él: dígovos que en fuerte hora yo miré la gran hermosura de
+                        Elisena vuestra señora: </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c133">
+               <f name="southey" n="7" ana="0.86">
+                  <string>and told her his love for Elisena.</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>que atormentado de cuitas y congoxas soy hasta en punto de la muerte:</string>
+               </f>
+               <f name="type" select="report">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c134 #M0_p1_c135 #M0_p1_c136 #M0_p1_c137 #M0_p1_c138">
+               <f name="montalvo" n="38">
+                  <string>en la cual si algún remedio no hallo no se me podrá
+                            escusar.
+                     La donzella, que el coraçón de su señora enteramente en
+                        este caso sabía/ como ya arriba oistes
+                        : cuando esto oyó fue muy alegre/ y díxole. </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c139">
+               <f name="southey" n="16" ana="0.62">
+                  <string>Then said Darioleta,
+                  my Lord, promise me on the faith of a
+                  King and a Knight,</string>
+               </f>
+               <f name="montalvo" n="26">
+                  <string>Mi señor si me vos prometéis como Rey en todo guardar la verdad a que más que ninguno otro que lo no sea obligado sois:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c140">
+               <f name="southey" n="13" ana="0.85">
+                  <string>that you will take to wife my Lady
+                  Elisena, when time shall serve,</string>
+               </f>
+               <f name="montalvo" n="24">
+                  <string>y como cavallero que según vuestra fama por la sostener tantos afanes y peligros avrá passado de la tomar por muger cuando fuere tiempo/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c141">
+               <f name="southey" n="15" ana="-0.2">
+                  <string>and right soon will I bring ye, where not
+                  only your heart shall be satisfied,</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>yo la porné en parte donde no solamente vuestro coraçón satisfecho sea:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c142">
+               <f name="southey" n="22" ana="0">
+                  <string>but hers also, who, it may be, is in as
+                  much or more thought and dolour than you, with the same wound.</string>
+               </f>
+               <f name="montalvo" n="22">
+                  <string>mas el suyo que tanto o por ventura más que él es en cuita y en dolor de essa mesma llaga herido:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c143">
+               <f name="southey" n="2" ana="2">
+                  <string>But without</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>y si esto no se haze/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="2">
+                  <string>this promise</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c144">
+               <f name="southey" n="5" ana="-0.2">
+                  <string>you shall never win her.</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>ni vos la cobraréis/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c145">
+               <f name="montalvo" n="12">
+                  <string>ni yo creeré ser vuestras palabras de leal y honesto
+                        amor salidas.
+                     </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c146">
+               <f name="southey" n="9" ana="0.44">
+                  <string>The King whose will was already disposed
+                  by God</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>El rey que en su voluntad estava ya empremida la permissión de Dios:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c147">
+               <f name="montalvo" n="10">
+                  <string>para que de esto se siguiesse lo que adelante
+                        oiréis: </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c149">
+               <f name="southey" n="8" ana="0.12">
+                  <string>that that which ensued might come to
+                     pass,</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>y poniendo la mano diestra en la cruz dixo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c148">
+               <f name="southey" n="7" ana="0">
+                  <string>took his sword which was by him,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>tomó la espada que cabe sí tenía/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c110">
+               <f name="southey" n="11" ana="0.18">
+                  <string>and laying his right hand upon the cross
+                  of its hilt,</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>El escudero pensando que aquello por más honra se hazía dióle los paños/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="3">
+                  <string>pronounced these words,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c150">
+               <f name="southey" n="22" ana="0.05">
+                  <string>
+                  I swear by this Cross, and this
+                  Sword wherewith I received the order of Knighthood, to perform whatever you shall
+                     require</string>
+               </f>
+               <f name="montalvo" n="23">
+                  <string>Yo juro en esta cruz y espada con que la orden de cavallería rescebí de hazer esso que vos donzella me pedís/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c151">
+               <f name="southey" n="4" ana="1.5">
+                  <string>for the Lady Elisena</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>cada que por vuestra señora Elisena demandado me fuere.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c152">
+               <f name="southey" n="10" ana="-0.3">
+                  <string>
+                  Be you then of good
+                     cheer, said she, 
+                  </string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>Pues ahora holgad dixo ella/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c153">
+               <f name="southey" n="7" ana="-0.14">
+                  <string>for I also will effect my
+                     promise</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>que yo cumpliré lo que dixe:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c154">
+               <f name="southey" n="5" ana="0.8">
+                  <string>Darioleta returned to the Princess</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>Y partiéndose de él se tornó a su señora:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c155">
+               <f name="southey" n="7" ana="0.14">
+                  <string>and told her how she had sped;</string>
+               </f>
+               <f name="montalvo" n="8">
+                  <string>y contándole lo que con el Rey concertara/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c156 #M0_p1_c157 #M0_p1_c158">
+               <f name="montalvo" n="31">
+                  <string>muy grande alegría en su ánimo puso: y abraçándola le dixo. 
+                        Mi verdadera amiga
+                        cuando veré yo la hora que en mis braços tenga aquel que por señor me avéis
+                            dado.
+                     </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c160">
+               <f name="southey" n="2" ana="9">
+                  <string>you know,</string>
+               </f>
+               <f name="montalvo" n="20">
+                  <string>Ya sabéis señora cómo aquella cámara en que el rey Perión está tiene una puerta que a la huerta sale:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c159">
+               <f name="southey" n="2" ana="3.5">
+                  <string>said she,</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>Yo os lo diré dixo ella .</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c160">
+               <f name="southey" n="16" ana="0.25">
+                  <string>that in the chamber where King Perion
+                  lodgeth there is a door opening to the garden,</string>
+               </f>
+               <f name="montalvo" n="20">
+                  <string>Ya sabéis señora cómo aquella cámara en que el rey Perión está tiene una puerta que a la huerta sale:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c161">
+               <f name="southey" n="7" ana="0.43">
+                  <string>whence your father used to go out,</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>por donde vuestro padre algunas vezes se sale a recrear/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c162">
+               <f name="southey" n="10" ana="-0.3">
+                  <string>and which at this present is covered with
+                  the hangings;</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>que con las cortinas agora cubierta está/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c163">
+               <f name="southey" n="6" ana="0">
+                  <string>but I have the key thereof,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>de que yo la llave tengo/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c164">
+               <f name="montalvo" n="10">
+                  <string>pues cuando el Rey de allí salga yo la abriré: </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c166">
+               <f name="southey" n="5" ana="1">
+                  <string>and we can go in</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>por allí podremos entrar sin que de ninguno sentidas seamos:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c167">
+               <f name="montalvo" n="14">
+                  <string>y cuando sazón sea de salir yo vos llamaré y tornaré a
+                        vuestra cama.
+                     </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c165">
+               <f name="southey" n="10" ana="-0.1">
+                  <string>at night, when all in the palace are at
+                     rest</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>y siendo tan noche que los del palacio sossieguen/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c168">
+               <f name="southey" n="8" ana="0.5">
+                  <string>When Elisena heard this she was highly
+                     contented,</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>Elisena que esto oyó fue atónita de plazer que no pudo hablar/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c169">
+               <f name="southey" n="5" ana="0">
+                  <string>but recollecting herself, she
+                     replied,</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>y tornando en sí díxole.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c170">
+               <f name="montalvo" n="9">
+                  <string>
+                        Mi amiga en vos dexo
+                        toda mi hazienda: </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c171">
+               <f name="southey" n="8" ana="-0.12">
+                  <string>
+                  how shall this be brought to
+                     pass,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>mas cómo se hará lo que dezís/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c172">
+               <f name="southey" n="12" ana="0">
+                  <string>seeing that my father will lodge in the
+                  chamber with King Perion?</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>que mi padre está dentro en la cámara con el rey Perión:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c173">
+               <f name="montalvo" n="9">
+                  <string>y si lo sintiesse seríamos todos en gran
+                            peligro.
+                     </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c174">
+               <f name="southey" n="6" ana="1.17">
+                  <string>
+                  Leave that to me </string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>Esso dixo la donzella dexad a mí que yo lo remediaré.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c175">
+               <f name="southey" n="5" ana="0.4">
+                  <string>and with that they parted.</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>Con esto se partieron de su hablar:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c176">
+               <f name="montalvo" n="20">
+                  <string>y passaron aquel día los reyes y la reina y la infanta
+                        Elisena en su comer y cenar como ante. </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c177">
+               <f name="southey" n="14" ana="-0.07">
+                  <string>When it was night Darioleta drew aside
+                  the Squire of Perion, and asked him</string>
+               </f>
+               <f name="montalvo" n="13">
+                  <string>Y cuando fue noche Darioleta apartó el escudero del rey Perión y díxole.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c178">
+               <f name="southey" n="6" ana="0.5">
+                  <string>if he was of gentle birth.</string>
+               </f>
+               <f name="montalvo" n="9">
+                  <string>Ay amigo dezidme si sois hombre hidalgo.</string>
+               </f>
+               <f name="type" select="report">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c179">
+               <f name="southey" n="5" ana="0">
+                  <string>
+                  Aye, said he,
+                  </string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>Sí soy dixo él/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c180">
+               <f name="southey" n="5" ana="0">
+                  <string>the son of a Knight!</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>y aún hijo de cavallero/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c181">
+               <f name="southey" n="4" ana="0.25">
+                  <string>but why ask ye?</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>mas por qué lo preguntáis?</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c183">
+               <f name="southey" n="6" ana="0.17">
+                  <string>
+                  for the desire I
+                     have,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>porque querría saber de vos una cosa:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c182">
+               <f name="southey" n="2" ana="2.5">
+                  <string>quoth she,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>Yo vos lo diré dixo ella:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c183">
+               <f name="southey" n="4" ana="0.75">
+                  <string>to know one thing,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>porque querría saber de vos una cosa:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c184">
+               <f name="southey" n="17" ana="0">
+                  <string>which I beseech you by the faith you owe
+                  to God and to the King your master,</string>
+               </f>
+               <f name="montalvo" n="17">
+                  <string>ruégoos por la fe que a Dios devéis y al rey vuestro señor me la digáis.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c185 #M0_p1_c186 #M0_p1_c187 #M0_p1_c188 #M0_p1_c189 #M0_p1_c190 #M0_p1_c191">
+               <f name="montalvo" n="53">
+                  <string>
+                        Por Sancta María
+                            dixo él/
+                     toda cosa que yo supiere vos diré/ con tal que no sea en daño de mi señor.
+                     
+                        Esso vos otorgo yo
+                            dixo la donzella: que ni vos preguntaré en daño suyo/ ni vos terníades razón de que me la dezir: mas lo que yo quiero saber es/ </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="5">
+                  <string>not to hide from me.</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c192">
+               <f name="southey" n="9" ana="0.67">
+                  <string>Who is the Lady whom your Master loveth
+                     best?</string>
+               </f>
+               <f name="montalvo" n="15">
+                  <string>que me digáis cuál es la Donzella que vuestro señor ama de estremado amor.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c193">
+               <f name="southey" n="2" ana="4">
+                  <string>
+               </string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>Mi señor dixo él ama a todas en general/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c194">
+               <f name="southey" n="5" ana="2">
+                  <string>and none as you mean</string>
+               </f>
+               <f name="montalvo" n="15">
+                  <string>mas cierto no le conozco ninguna que él ame de la guisa que dezís.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c195">
+               <f name="southey" n="7" ana="0.57">
+                  <string>While they thus talked Garinter came
+                     nigh,</string>
+               </f>
+               <f name="montalvo" n="11">
+                  <string>En esto hablando llegó el rey Garinter donde ellos estavan hablando:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c196">
+               <f name="southey" n="8" ana="-0.12">
+                  <string>who seeing Darioleta in conference with
+                  Perion's Squire,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>y vio a Darioleta con el escudero:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c197">
+               <f name="southey" n="4" ana="0">
+                  <string>called her and asked</string>
+               </f>
+               <f name="montalvo" n="4">
+                  <string>y llamándola le dixo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c198">
+               <f name="southey" n="7" ana="0.71">
+                  <string>what he had to say to her.</string>
+               </f>
+               <f name="montalvo" n="12">
+                  <string>Tú qué tienes que hablar con el escudero del rey.</string>
+               </f>
+               <f name="type" select="report">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c199">
+               <f name="southey" n="5" ana="0.6">
+                  <string>
+                  In sooth my Lord,</string>
+               </f>
+               <f name="montalvo" n="8">
+                  <string>Por Dios señor yo os lo diré:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c200">
+               <f name="montalvo" n="15">
+                  <string>él me llamó y me dixo que su señor ha por costumbre de
+                        dormir solo/ </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="4">
+                  <string>
+                  quoth she, 
+                  </string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c22">
+               <f name="southey" n="6" ana="1.67">
+                  <string>he tells me that his Master</string>
+               </f>
+               <f name="montalvo" n="16">
+                  <string>vio a su siniestra una brava batalla de un solo cavallero que con dos se combatía:</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="5">
+                  <string>is wont to be alone,</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c201">
+               <f name="southey" n="12" ana="-0.17">
+                  <string>and certainly I think he will feel
+                  himself embarrassed by your company</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>y cierto que siente mucho empacho con vuestra compañía.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c202">
+               <f name="montalvo" n="6">
+                  <string>El rey se partió de ella/ </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs>
+               <f name="southey" n="3">
+                  <string>Garinter hearing that</string>
+               </f>
+               <f name="type" select="add">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c203">
+               <f name="southey" n="6" ana="0.17">
+                  <string>went to King Perion and said,</string>
+               </f>
+               <f name="montalvo" n="7">
+                  <string>y fuesse al Rey Perión y dixole.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c204">
+               <f name="southey" n="17" ana="0.18">
+                  <string>
+                  My Lord I have many affairs
+                  to settle, and must rise at the hour of matins,</string>
+               </f>
+               <f name="montalvo" n="20">
+                  <string>Mi señor yo tengo muchas cosas de librar en mi hazienda/ y levántome a la hora de los maitines/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c205">
+               <f name="southey" n="7" ana="-0.14">
+                  <string>and that you may not be disturbed,</string>
+               </f>
+               <f name="montalvo" n="6">
+                  <string>y por no vos dar enojo/</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c206">
+               <f name="southey" n="9" ana="0.11">
+                  <string> you had better be alone in your
+                     chamber.</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>tengo por bien que quedéis solo en la cámara.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c207">
+               <f name="southey" n="3" ana="0.67">
+                  <string>King Perion replied,</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>El rey Perión le dixo.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c208">
+               <f name="southey" n="9" ana="0.11">
+                  <string>
+                  do as shall seem best to your
+                     liking</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>Hazed señor en ello como os más pluguiere.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c209">
+               <f name="montalvo" n="7">
+                  <string>
+                        Assí plaze a mí dixo
+                            él.
+                     </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c210">
+               <f name="southey" n="23" ana="0.09">
+                  <string>Then Garinter understood that Darioleta
+                  had told him rightly of his guest's inclination, and ordered his bed to be removed
+                  from Perion's apartment.</string>
+               </f>
+               <f name="montalvo" n="25">
+                  <string>Entonces conoció él que la donzella le dixera verdad y mandó a sus reposteros que luego sacassen su cama de la Cámara del rey Perión.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c211">
+               <f name="montalvo" n="16">
+                  <string>Cuando Darioleta vio que assí en efecto viniera lo que
+                        desseava fuesse a Elisena su
+                        señora: </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c212">
+               <f name="southey" n="7" ana="-0.29">
+                  <string>These tidings Darioleta carried to her
+                     mistress,</string>
+               </f>
+               <f name="montalvo" n="5">
+                  <string>y contóselo todo como passara.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="M0_p1_c213 #M0_p1_c214 #M0_p1_c215 #M0_p1_c216 #M0_p1_c217 #M0_p1_c218 #M0_p1_c219 #M0_p1_c220 #M0_p1_c221 #M0_p1_c222">
+               <f name="montalvo" n="80">
+                  <string>
+                        Amiga señora dixo ella: agora creo pues que Dios assí lo endereça/ que esto que al presente yerro paresce: adelante será algún gran servicio suyo: y dezidme lo que haremos que la gran alegría que tengo
+                        me quita gran parte del juizio.
+                     
+                        Señora dixo la donzella/
+                     hagamos esta noche lo que concertado está/ que la puerta de la cámara que os dixe: que yo la tengo abierta. 
+                        Pues a vos dexo el
+                        cargo de me llevar cuando tiempo fuere. </string>
+               </f>
+               <f name="type" select="omission">
+                  <string>Comments</string>
+               </f>
+            </fs>
+            <fs corresp="#M0_p1_c223">
+               <f name="southey" n="11" ana="-0.09">
+                  <string>and they waited the hour when all should
+                  retire to sleep.</string>
+               </f>
+               <f name="montalvo" n="10">
+                  <string>Assí estuvieron ellas hasta que todos se fueron a dormir.</string>
+               </f>
+               <f name="type" select="indefinite">
+                  <string>Comments</string>
+               </f>
+            </fs>
+         </div>
+      </body>
+   </text>
+</TEI>
