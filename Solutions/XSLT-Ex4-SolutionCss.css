@@ -1,0 +1,34 @@
+.headLine
+{
+    font-weight: bold;
+    color: black;
+    background:yellow;
+}
+
+.company
+{
+    font-weight:bold
+}
+.neutral
+{
+    color:blue;   
+}
+.good
+{
+    color: green;
+}
+.bad
+{
+    color: red;
+}
+
+.nellVoice, .mascVoice, .femVoice
+{
+    font-size: 14px;
+    font-style:italic;
+}
+
+.dialogue
+{
+    border:dot-dash;
+}
