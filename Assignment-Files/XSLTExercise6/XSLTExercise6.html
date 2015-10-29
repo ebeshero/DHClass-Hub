@@ -1,0 +1,164 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="explain.css" />
+        <title>XSLT Exercise 6</title>
+    </head>
+    
+    
+    
+    <body>
+        <!--#include virtual="top.html" -->
+        
+        
+        <h1><span class="banner">XSLT Exercise 6</span></h1>
+        <h3>The input collection on our DHClass-Hub</h3>
+        <p>You will be working with same digitized XML collection of Emily Dickinson's poems that you worked with in the last assignment, the collection we posted on our DHClass-Hub GitHub. If you need a new copy of the files, please refer to <a href="XSLTExercise5.html">our instructions on the previous exercise</a> for accessing them by syncing, cloning, and copying the directory out of your local GitHub directory. You will be building on our <a href="XSLTExercise5.html">XSLT Exercise 5</a>, and you can take your stylesheet from that assignment and modify it for this one.</p>        
+        <h3>Overview of the assignment</h3>
+        <p>For your last assignment you used the XSLT <code>@mode</code> attribute to create a table
+            of contents for the Dickinson poems in Fascicle 16, using the poem number and first line of each poem as a
+            surrogate for the title (since they don’t have real titles). Our output for that previous assignment is at <a
+                href="dickinson-5.html">http://newtfire.org/dh/dickinson-5.html</a>.</p>
+        <h3>What’s a table of contents good for anyway?</h3>
+        <p>In a digital edition, we can just do a full-text search and scroll in the browser, so we
+            don’t really need a table of contents at all. We can search for a poem by number, we can
+            search for the text of the first line, or we can search for a memorable
+            phrase. But suppose we want to produce a paper edition, where the only organized access
+            our users will get is the organization we decide to give them. What would be a useful
+            table of contents or index?</p>
+        <p>A table of contents in the same order as the full text (numerical order), which is what
+            we produced in the last assignment, duplicates the ordering information in the plain
+            text. How useful is that? If we want to find a poem with a low number, we already know
+            without a table of contents that we should look near the beginning. On the other hand,
+            it’s very common in published poetry collections to include an index of first lines,
+            sorted in alphabetical order, so that a user who remembers just the first line of a poem
+            can find it easily. It is a little less common to sort the order of a series of poems by an interesting feature inside them, but since one of our interests in digitizing this collection is to study Dickinson's use of variants, we would also like to sort the poems by a count of the variants in each, so that the poems with the highest number of variants come first in the sort order.</p>
+        <p>For this assignment we’re going to enhance our output from the last assignment in the
+            following ways:</p>
+        <ul>
+            <li>We’re going to create links between the items in the table of contents and the
+                poems, so that you can click on a poem's identifying information and be taken immediately to the
+                corresponding poem.</li>
+            <li>We’re going to produce a list of the poems organized by the total number of the variants that Dickinson marked in them, from most variants to least variants.</li>
+            <li>We’re then going to alphabetize our list of first lines, so that the table of contents
+                will be sorted alphabetically, instead of in numerical order.</li>
+          
+        </ul>
+        <p>Our HTML output for this assignment is at <a href="dickinson-6.html"
+            >http://newtfire.org/dh/dickinson-6.html</a>.</p>
+        <h3>The tools we need</h3>
+        <p>To create links between the first lines in the table of contents and the poems in the
+            full text section of the page below we’re going to use <dfn>attribute value
+                templates</dfn> (AVT). If you haven’t done so already, you should read about AVTs at
+            <a href="http://dh.obdurodon.org/avt.xhtml">http://dh.obdurodon.org/avt.xhtml</a>.</p>
+        <p>To sort the table of contents we’re going to use <code>&lt;xsl:sort&gt;</code>.</p>
+        <p>When we sort the first lines, they won’t sort correctly for a quirky reason. We’re going
+            to fix that using the XPath <code>translate()</code> function, which we discuss
+            below.</p>
+        <h3>How HTML linking works</h3>
+        <p>The <code>&lt;li&gt;</code> items in the table of contents should include
+            <code>&lt;a&gt;</code> (<q>anchor</q>) elements, which is how HTML identifies a
+            clickable link. An anchor that is a clickable link has an <code>@href</code> attribute,
+            which points to the target to which you want to move when you click on the link. For
+            example, the table of contents might contain the following list item for Poem 6:</p>
+        <pre>&lt;li&gt;<code>&lt;a href="#p1606"&gt;</code>&lt;strong&gt;Poem 6 (J 281: 1861/1935)&lt;/strong&gt;<code>&lt;/a&gt;</code>: 
+               1: 'Tis so appalling—it exhilarates— &lt;br /&gt; [Variants: 4]&lt;/li&gt;</pre>
+        <p>HTML <code>&lt;a&gt;</code> elements that have <code>@href</code> attributes normally
+            appear blue and underlined in the web browser, to advertise that they are links. The
+            <dfn>target</dfn> of a link can be any element that has an <code>@id</code>
+            attribute that identifies it uniquely. (This is why you need to use a hashtag (<code>#</code>) in the <code>@href</code> on the Table of Contents that links to an <code>@id</code>, because the <code>#</code> indicates you are pointing to the unique identifier that follows.) If you click on this line in the browser, the
+            window will scroll to the element elsewhere in the document that has an <code>@id</code>
+            attribute with the value <q>p1606</q>. In our case, we’ve assigned that
+            <code>@id</code> attribute value to the <code>&lt;h2&gt;</code> for that poem in
+            the main body:</p>
+        <pre>&lt;h2 id="p1606"&gt;Poem 6 &lt;/h2&gt;</pre>
+        <h3>Adding links to your output</h3>
+        <p>You should first read Obdurodon’s page on <a href="http://dh.obdurodon.org/avt.xhtml">Attribute value templates
+            (AVT)</a>, which describes a strategy you can use to create a unique <code>@id</code>
+            attribute for each poem. For this task we gave our poems <code>@id</code> values
+            that were a concatenation of the letter <q>p</q> and the distinct identifying number given in the <code>idno</code> element in the TEI header of each poem file: <q>1606</q> for Poem 6. We attached those <code>@id</code>
+            attributes to the <code>&lt;h2&gt;</code> elements that we used as titles for each
+            poem in the body of our page, e.g., <code>&lt;h2 id="p1606"&gt;</code>. Meanwhile,
+            in the table of contents at the top we created <code>&lt;a&gt;</code> elements with
+            <code>@href</code> attributes that point to these <code>@id</code> values. <em>The
+                value of the <code>@href</code> attribute must begin with a leading <q>#</q>
+                character, but that <q>#</q> must not be part of the value of the <code>@id</code>
+                attribute to which it points.</em> For example,</p>
+        <pre>&lt;li&gt;<code>&lt;a href="#p1606"&gt;</code>&lt;strong&gt;Poem 6 (J 281: 1861/1935)&lt;/strong&gt;<code>&lt;/a&gt;</code>: 
+               1: 'Tis so appalling—it exhilarates— &lt;br /&gt; [Variants: 4]&lt;/li&gt;</pre>
+        <p>means if the user clicks on the linked content in this list item, the browser will scroll to the line that reads
+            <code>&lt;h2 id="p1606"&gt;</code> in the main body of the page. <em>Remember:
+                the value of the <code>@href</code> attribute begins with <q>#</q>, but the value of
+                the corresponding <code>@id</code> attribute on the <code>&lt;h2&gt;</code> element
+                you want to scroll to doesn’t.</em></p>
+        <p>Armed with that information, you can take your answer to the main assignment and, using
+            AVTs, modify it to create the <code>&lt;a&gt;</code> elements with the
+            <code>@href</code> attributes and the <code>@id</code> attributes for the
+            targets.</p>
+        <h3>Sorting</h3>
+        <p>An index of first lines in a collection of poems is usually alphabetized, because that’s
+            how humans look things up in that kind of list. We want to make an alphabetized list by first line, as well as sorted list by count of the variant phrases we have marked in these poems, so we wish to do two kinds of sorting in this assignment: one that is alphabetical and the other based on numbers derived from a <code>count()</code>.
+            To learn how to sort your table of
+            contents before you output it, start by looking up <code>&lt;xsl:sort&gt;</code> at <a
+                href="http://www.w3schools.com/xsl/xsl_sort.asp"
+                >http://www.w3schools.com/xsl/xsl_sort.asp</a> or in Michael Kay. So far, if we’ve
+            wanted to output, say, our table of contents in the order in which they occur in the
+            document, we’ve used a self-closing empty element to select them with something like
+            <code>&lt;xsl:apply-templates select="$dickinsonColl//body"/&gt;</code>. We’ve also said,
+            though, that the self-closing empty element tag is informationally identical to writing
+            the start and end tags separately with nothing between them, that is,
+            <code>&lt;xsl:apply-templates
+                select="$dickinsonColl//body&gt;&lt;/xsl:apply-templates&gt;</code>. To cause the elements being
+            processed to be sorted first, you need to use this alternative notation, with separate
+            start and end tags, because you need to put the <code>&lt;xsl:sort&gt;</code> element
+            between the start and end tags. If you use the first notation, the one with a single
+            self-closing tag, there’s no <q>between</q> in which to put the
+            <code>&lt;xsl:sort&gt;</code> element. In other words, you want something like:</p>
+        <pre>&lt;xsl:apply-templates select="$dickinsonColl//body"&gt;
+  &lt;xsl:sort/&gt;
+&lt;/xsl:apply-templates/&gt;</pre>
+        <p>As written, the preceding will sort the <code>&lt;body&gt;</code> elements
+            alphabetically by their text value. As you’ll see at the sites mentioned above, though,
+            it’s also possible to use the <code>@select</code> attribute on
+            <code>&lt;xsl:sort&gt;</code> to sort a set of items by properties other than
+            alphabetic order of their textual content, which is what we will be doing in sorting on a <code>count()</code> of the <code>&lt;rdg&gt;</code> elements that we used to signal variant words and phrases in Dickinson’s text.</p>
+        <!--<h3>After the sort</h3>-->
+    <!--    <p>At this point we’d make other adjustments in the output. The original table of contents
+            begins with a roman numeral, but if you’re going to sort the table of contents, you want
+            the text of the first line of the poem at the left side of the line, not preceded by the
+            roman numeral, so that you can see the alphabetic order easily. Putting the roman
+            numeral first would make it harder to discern the alphabetization, since the user
+            wouldn’t be able to see it by just glancing down the left margin. For that reason, you
+            should now adjust the output to put the roman numeral after the text of the line, in
+            parentheses.</p>-->
+        <h3>Using <code>translate()</code> to fix the alphabetical sort order</h3>
+        <p>If you sort the first lines alphabetically according to their textual value, there will
+            be two errors. The first lines of Poem 6 and Poem 9, <q>'Tis so appalling—it exhilarates—</q> and <q>'Twas just this time, last year, I died.</q>, will show up first because in the internal representation of
+            characters in the computer, the single straight apostrophe is <q>alphabetically</q>
+            earlier than all of the letters. We can fix this by using <code>translate()</code> to
+            strip the apostrophe for sorting purposes, but not for rendering. That is, we can sort
+            as if there were no apostrophe, while still printing the apostrophe when we render the
+            line.</p>
+        <p>We can’t easily translate away an apostrophe, though, because quotation marks have
+            special meaning in XPath. For the purpose of this assignment, you can ignore these two
+            missorted lines or let the apostrophe be sorted first. If you’re feeling ambitious, though, read Michael Kay’s answer at <a
+                href="http://p2p.wrox.com/xslt/50152-how-do-you-translate-apostrophe.html"
+                >http://p2p.wrox.com/xslt/50152-how-do-you-translate-apostrophe.html</a> and see
+            whether you can apply it to fixing this problem.</p>
+        <p>Another Optional Challenge, for either of the table of contents or the body output, or both: You may have observed in your HTML output that some of our titles are inconsistently formatted. Some poem numbers have a period after them, and some only white space before the parenthetical information that summarizes each poem's publication history. You might see if you can find a way to:
+            a) output only the poem and its number in the part of the document where you reproduce the poems, and/or
+            b) remove the rogue period from the output, using the <code>replace()</code> function, which takes three arguments (for "finding a needle in a haystack" and then changing or removing it): an XPath leading to a string you want to alter (your "haystack"), a regular expression for the "needle" you want to find and change, and whatever you wish to convert it to (including nothing, to delete it). Read about <code>replace()</code> in the Strings section of <a href="http://dh.obdurodon.org/functions.xhtml">The XPath functions we use the most</a> and learn about its syntax by looking it up in the index of the Michael Kay book.</p>
+        <h3>Finishing touches</h3>
+        <p>Some lists of first lines of poetry put quotation marks around the lines. We haven’t done
+            that in our solution, but if you’d like to add it, you should use the HTML
+            <code>&lt;q&gt;</code> (<q>quoted text</q>) element, instead of outputting the raw
+            quotation marks as plain text.</p>
+        <p>Oh, and did we mention CSS? Can you attach a CSS stylesheet to your output to make it
+            look more interesting than what you get by default in a web browser? See if you can find an interesting way to style the <code>&lt;span&gt;</code> elements surrounding the variants.</p>
+        
+    </body>
+</html>
