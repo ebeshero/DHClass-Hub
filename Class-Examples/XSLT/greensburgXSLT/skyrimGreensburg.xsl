@@ -36,8 +36,7 @@
                 onto one line. -->
                 <xsl:value-of
                     select="
-                    normalize-space(concat(upper-case(substring(., 1, 1)), substring(., 2)))
-                    "
+                    normalize-space(concat(upper-case(substring(., 1, 1)), substring(., 2)))"
                 />
             </a>
         </li>
