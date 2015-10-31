@@ -1,0 +1,24 @@
+body {
+background-color: #B4D6B4; 
+color: #031B3F; 
+font-family: arial, helvetica, sans-serif; 
+padding:15px; line-height:1.4em;
+text-align: center;
+}
+
+div[id="ContentsV"]{
+    text-align:left
+}
+
+div[id="ContentsA"]{
+    text-align:left
+}
+
+span[class]{
+font-weight: bold;
+text-decoration: underline;
+background-color: yellow;
+padding-right: 50px;
+padding-left: 50px;
+
+}
