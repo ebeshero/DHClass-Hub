@@ -1,0 +1,185 @@
+
+<?xml-model href="../Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <div type="newspaperArticle">
+
+        <head>
+            <newspaperTitle>Chicago Times
+                <date when="1888-08-03">Morning, August 3, 1888</date>
+                Price <num type="price" amount=".02">2 Cents</num>
+            </newspaperTitle>
+
+            <seriesTitle>City Slave Girls</seriesTitle>
+
+            <headLine>While Among <placeName type="city">Chicago</placeName>’s Weak Serfs <ref
+                    to="nellNelson">The Times’ Lady Reporter</ref> Finds <persName>Mr.
+                    Goss</persName>’ “Good <nationality nation="undefined"
+                >Jew</nationality>.”</headLine>
+
+            <headLine>Holding Her Nose, She Gazes Upon All Kinds of <desc of="workingClass"
+                    >Soul-and-Body Starving Wretchedness</desc>.</headLine>
+            <headLine><workingConditions category="workDesc">In a Small, Dirty Room Filled with A
+                    Crowd of Women</workingConditions>
+                <workingConditions category="negative">Life Seems Like a Hideous
+                    Dream</workingConditions>.</headLine>
+            <headLine>To Save Space, These Unshackled Servants of Greed Are Compelled to Take Short
+                Stitches.</headLine>
+            <headLine><workingConditions category="negative">Even Pins Are Not Given to the
+                    Employee</workingConditions> and the <workingConditions category="negative"
+                    >Girls Have to Use Their Underclothing for
+                Towels</workingConditions>.</headLine>
+        </head>
+
+        <articleBody>Two weeks ago <persName>Rev. Mr. Gross</persName> preached a sermon relative to
+            the morals and progress of the working woman. Among other things he referred to a “good
+            Jew” who, having the comfort of the hundred odd girls in his <company
+                name="unidentified">cloak factory</company> at heart, “provided every day for <desc
+                of="workingClass"><num type="cost" amount=".01">1 cent</num> a substantial
+                lunch</desc>.” I sent the reverend gentleman a note, inclosing a stamp for the
+            address of the “good <nationality nation="undefined">Jew</nationality>” and in reply
+            came the name of <persName>H. Zimmerman</persName>, <location type="address">233 Monroe
+                street</location>. On went <desc of="workingClass">poverty’s respectable
+            rags</desc>, and off I posted for shop-work and a penny spread. The elevator carried me
+            to the top of the building where every week thousands of
+                <factoryItem>jackets</factoryItem>, <factoryItem>sacques</factoryItem>,
+                <factoryItem>circulars</factoryItem>, <factoryItem>dolmans</factoryItem>, and
+                <factoryItem>cloaks</factoryItem> are turned out to supply the country trade of the
+            northwest. Here in a <workingConditions category="negative">crowded room, with low
+                ceiling and dingy walls, poorly ventilated and insufficiently
+                lighted</workingConditions>, <workingConditions category="negative">sit between
+                eighty and 150 young girls surrounded from Monday morning until Saturday noon by the
+                ceaseless clatter of the sewing-machines in an atmosphere so thick that it can be
+                cut with a knife</workingConditions>. <workingConditions category="negative">The
+                machines are run by steam, and notwithstanding the great buckram fans overhead that
+                revolve with a crackling noise the ceiling is so low</workingConditions> and the
+                <workingConditions category="negative">air so hot as to be positively stifling to
+                the initiated</workingConditions>. There is the <workingConditions
+                category="negative">smell of dye from brown, blue, and black cloaks coupled with the
+                still more offensive odor from the “English plaids”</workingConditions>;
+                <workingConditions category="workDesc">along the pressing-table are the gas stoves
+                where irons are heated and where the girls sponge and press collars and seams, each
+                operation attended with a little cloud of steam and a stuffy, scorching smell that
+                blows about and around the whizzing fans</workingConditions>; <workingConditions
+                category="negative">clouds of lint from the textures in hand covers everything it
+                constantly being inhaled by the sewers</workingConditions>. Then, too, there is
+                the<workingConditions category="negative"> smell of rancid machine
+                oil</workingConditions>; the <workingConditions category="negative">overpowering
+                exhalations from so many perspiring and unkempt persons and an occasional whiff from
+                the six or seven toilets closets</workingConditions>, all powerful facts of one
+            might smell that must be smelled to be appreciated. <workingConditions
+                category="negative">The <person who="employer" gender="male">“good Jew”</person> had
+                all the windows open, but the place was so strong I almost
+                fainted</workingConditions>. I have a seat in the middle of the room and a <num
+                type="cost" amount=".35">35 cent</num>
+            <factoryItem>Norfolk</factoryItem> to make. <workingConditions category="negative">It is
+                so dark that I can hardly see my stitches as I thread to sleeve hole with black
+                muslin.</workingConditions> The <person who="forePerson" gender="female"
+                >forewoman</person> can’t see either till she takes the work over to the window to
+            examine it, and returns with a gratifying, <femVoice who="forePerson"
+                connotation="positive">“Guess that it will do.”</femVoice>
+            <workingConditions category="negative">We are so crowded along the line of tables that
+                the girls are told to “take short threads,”</workingConditions> and
+                <workingConditions category="negative">I duck my head every time the <desc
+                    of="workingClass">pale-faced, hollow-eyed girl</desc> at my left pulls her
+                needle out, to escape being hit</workingConditions>. She has only been able to make
+            three <num type="cost" amount=".50">50 cent</num>
+            <factoryItem>long cloaks</factoryItem> in five days and says: <dialogue><femVoice
+                    who="workingGirl" connotation="intimidated">“You won’t mind my taking long
+                    threads; will you, if I don’t hit you?”</femVoice>
+                <nellVoice connotation="positive"><workingConditions category="camaraderie">I tell
+                        her to pull away and offer to fell the bottom hem on her cloak to which she
+                        agrees.</workingConditions></nellVoice></dialogue>
+            <desc of="workingClass">She has on a cheap jersey waist, a calico skirt, and the little
+                but of underwear that shows at her neck where she has opened her collar is as black
+                almost as her jersey. Her shoes are broken and one of the uppers is mended with
+                black thread. She lives with her folks and has “a lot of little brothers and
+                sisters, but the ‘Q’ strikes have put them all out” so that she hasn’t bought
+                anything for herself this year except a hat at the Fair.</desc>
+            <dialogue><nellVoice connotation="prayer">“Do you go to church?”</nellVoice> I ask.
+                    <femVoice who="workingGirl">“What’d I go to church for?”</femVoice>
+                <!--Not sure what connotation should go with the above and below nellVoice. Could this be prayer simply because she is talkign about church? Or is descriptionnNeutral good enough?-->
+                <nellVoice connotation="prayer">“For the music and the sermon.”</nellVoice>
+                <femVoice who="workingGirl">“I want a seat, though, and <desc of="workingClass">I’d
+                        rather ride down to the shop and back than pay <num type="price"
+                            amount=".10">10 cents</num> to get in the pew</desc>.”</femVoice>
+                <nellVoice connotation="pity">A poor little creature, bony and grimy, and wild-eyed
+                    as the “marchioness” goes down on her hands and knees and turns out the dust in
+                    the cracks of the floor with the eye of her needle.</nellVoice>
+                <femVoice>“I’m huntin’ for pins,”</femVoice> she says, <femVoice>“to fix on the
+                    braid.”</femVoice>
+                <nellVoice connotation="descriptionNeutral">“Doesn’t <persName>Zimmerman</persName>
+                    provide you with pins?”</nellVoice>
+                <femVoice who="workingGirl" connotation="negative">“Indeed he doesn’t; nor with
+                    nothin’ else but fannin’ and what’s the good of fans in an
+                oven?”</femVoice></dialogue> The child turns up the pins some of them bent, and puts
+            them first in her mouth to straighten them and then in the bosom of her dress <femVoice
+                who="workingGirl" connotation="prayer">humming to herself, “Rock of
+                Ages.”</femVoice> At the expiration of the hunt a new difficulty befalls her. The
+            needle’s eye is stuffed as she says and in an effort to remove the filling off goes the
+            head optic and all. <workingConditions category="camaraderie">Nobody has another to lend
+                and I give her mine.</workingConditions> She says she is <persName>Pat</persName>
+            and the daughter of a <location type="streetName">Twelfth street</location> teamster.
+            Her mother is living and <livingConditions category="descriptionNeutral">she and her
+                brother <femVoice who="workingGirl">“help the family
+                along.”</femVoice></livingConditions>
+            <femVoice who="workingGirl" connotation="negative">“Yes, I went to school and learned
+                numbers and geography, but I can’t sew very well. <workingConditions
+                    category="wageDesc">The <person who="forePerson" gender="female"
+                        >forelady</person> says that’s why I don’t make more. I got <num type="wage"
+                        amount="2.75">$2.75</num> one week, but I don’t know how much I’ll earn this
+                    week. I used to be in the Fair and they gave me <num type="wage" amount="2"
+                        >$2</num> runnin’—checks</workingConditions> I didn’t like it there, because
+                I never got home till 8 at night and the boys was guyin’ us all the
+                time.”</femVoice> At noon time <workingConditions category="negative">the girls
+                crowded into the wash-room and those unable to reach the already wrining-wet towel
+                that hung near the sink dried on their dresses.</workingConditions> I saw a tall
+            young <nationality nation="Germany">German</nationality> woman wash her arms and neck
+            and shake off the water as well as she could with the palms of her hands before putting
+            on her dress waist again. Another, a girl of 14, who wore a plaid skirt and an old
+            velvet jacket, dried her hands on her underclothing. <workingConditions
+                category="negative">The lunch the <person who="employer" gender="male">“good
+                    Jew”</person> served consisted of a cup of black coffee that was neither
+                nutritious nor fragrant, and minus cream and sugar, for which the girls paid <num
+                    type="cost" amount=".2">2 cents</num> a cup. Then there were cuts of pie at <num
+                    type="cost" amount=".5">5 cents</num>each, which delicacy, architecturally
+                speaking, had two stories, substantially built, with a water-proof inner lining of
+                fruit mucilage. The top crust had bubbled up in the baking till it was a warty as
+                tripe, and tenacity of the under dough would have sufficed for hinging a cellar
+                door.</workingConditions>
+            <nellVoice connotation="sarcasmWit">This is certainly not the lunch <persName>Rev. Mr.
+                    Gross</persName> referred to in his sermon, but it’s the only one the girls in
+                the <company name="identified"><persName>Zimmerman</persName> factory</company> knew
+                anything about. </nellVoice>
+            <nellVoice connotation="offended">However profitable the menu may have been to the firm
+                it was anguish to many of the hungry toilers unable to procure it.</nellVoice>
+            <desc of="workingClass">We girls who had no money to invest in the appetizing (?) viands
+                sat by, begging with our eyes and following with melting mouths every morsel on its
+                way down the throats of our neighbors.</desc>
+            <desc of="workingClass">One of us, a mite of a girl, wan-faced and hectic, who had been
+                watching the mastication of a well-fed machine-hand, waited till the leathery
+                strangle of peach-paste had almost disappeared and then asked to consumer to
+                    <femVoice who="workingGirl" connotation="woe">“give her the
+                crust.”</femVoice></desc> When the well-fed party said “naw” the child called her a
+            “dirty beggar” and laid her little head on her arm for a nap. <workingConditions
+                category="wageDesc">I went out to buy a needle and some day when it rains and the
+                wind is never weary I shall send in a bill for the <num type="wage" amount=".20">20
+                    cents</num>
+                <persName>H. Zimmerman</persName> owes me on a cotton-back
+                Norfolk.</workingConditions>
+            <workingConditions category="negative">Only a half hour was allowed for the noon rest
+                during which the girls washed and combed, trimmed their finger-nails with scissors,
+                and talked, or went to sleep.</workingConditions>
+            <workingConditions category="negative">All hands were on deck at 7:30 in the morning, in
+                which manner and the 5:30 hour of closing the Saturday half-hour was made good to
+                the firm.</workingConditions> Many of the girls told me they made ten
+                <factoryItem>cloaks</factoryItem> a week which averaged <num type="cost"
+                amount=".30">30 cents</num> apiece. <workingConditions category="positive">Work was
+                good, the season covering 10 months of the year.</workingConditions>
+            <workingConditions category="negative">A number of men at work on the <factoryItem>long
+                    cloaks</factoryItem> had chairs at the side of the girls and knew well enough
+                personally I did not polish them for they were saturated with tobacco fumes and
+                smelled a foul, sweaty, sickening odor. </workingConditions> -Nell
+            Nelson</articleBody>
+        <!--SD: The end of this article scan featured what seemed to be letter's to the editor with reactions to this series. Coding them in the future may prove useful to the site and to the project as a whole.-->
+    </div>
+</root>

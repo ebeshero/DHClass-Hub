@@ -1,0 +1,249 @@
+
+<?xml-model href="../Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <div type="newspaperArticle">
+        <head>
+            <newspaperTitle>Chicago Times
+                <date when="1888-08-02">Morning, August 2, 1888</date>.
+                Price <num type="price" amount=".02">2 Cents</num>
+            </newspaperTitle>
+            <seriesTitle>City Slave Girls</seriesTitle>
+
+            <headLine>“The Times” Lady Reporter, in the Guise of a Factory Bondwoman, Is Insulted by
+                a Scoundrel.</headLine>
+            <headLine>Accosted by a Well-Dressed Brute Who Tries to Thrust His Blighting Friendship
+                on Her.</headLine>
+            <headLine><desc of="upperClass">Human Monsters Who Lure from Virtue’s Path</desc> the
+                    <desc of="workingClass">Half-Starved Victims of Man’s
+                Cupidity</desc>.</headLine>
+            <headLine>
+                <workingConditions category="wageDesc">Manufacturers Who Pay Their Serfs the Miserly
+                    Sum of <num type="wage" amount=".80">Eighty Cents</num> for Making a Dozen
+                        <factoryItem>Shirts</factoryItem>.</workingConditions>
+            </headLine>
+            <headLine>A Big Collar and Cad Maker of Troy N.Y Astonished at the State of Affairs in
+                    <placeName type="city">Chicago</placeName>.</headLine>
+        </head>
+        <articleBody>On Thursday morning when I started to renew my factory life I discovered after
+            getting on a South-side car that I did not have a cent in my pocket. In putting on my
+            shop-girl disguise I had left my purse at home. When the conductor asked for the fair I
+            had none to give him. It was very hot, the clouds threatened rain, and the shop was at
+            so great a distance that I did not feel as if I could walk. I concluded to throw myself
+            on the generosity of <person gender="male">the conductor</person> and told him I had
+            forgotten my purse. He looked ugly and told me to get off. Just as he placed his whistle
+            to his lips to signal the gripman to stop a <person gender="male">distinguished,
+                well-dressed man</person> paid my fare. I thanked him for his courtesy and told him
+            if he would give me his card I would send him the money he had so kindly paid. He smiled
+            and said:<mascVoice connotation="positive"> “A mere bagatelle miss, and not worth
+                mentioning.”</mascVoice> At<location type="streetName"> Eighteenth street</location>
+            I left the car to go to a vestmaker’s place at <location type="address">2155 Archer
+                avenue</location>. I was crossing the three points where <location type="streetName"
+                >State and Nineteenth streets intersect</location> when who should come abreast but
+            my benefactor. <desc of="upperClass">Instead of raising his hat he jauntily cocked his
+                left eye and came so close to me that the sleeve of my “never-rip” jersey was
+                pressed against the waist-line of his light-gray suit.</desc>
+            <dialogue><mascVoice connotation="sexual">“Aha, here we are again!”</mascVoice> Although
+                I distinctly heard every word of his remark I said: <nellVoice
+                    connotation="offended">“I beg your pardon,”</nellVoice> with as much of the
+                Newport chill as I could affect. <mascVoice connotation="sexual">“Come, come,
+                    now,”</mascVoice> he said with increased gayety, moving his waistband still
+                closer to my jersey. <nellVoice connotation="sarcasmWit">“Oh, you are the gentleman
+                    to whom I am indebted for car-fare. You want your money I suppose; if you will
+                    give me your card I will write you an order.”</nellVoice>
+                <mascVoice>“Do you work in this neighborhood?”</mascVoice>
+                <nellVoice>“No sir.”</nellVoice>
+                <mascVoice>“Where, then?”</mascVoice>
+                <nellVoice>“No place.”</nellVoice>
+                <mascVoice>“Where are you going?”</mascVoice>
+                <nellVoice>“For work.”</nellVoice>
+                <mascVoice>“What kind?”</mascVoice>
+                <nellVoice>“Any kind. May I have your card? I am in something of a
+                    hurry.”</nellVoice>
+                <mascVoice>“Mayn’t I have yours?”</mascVoice> he asked. <nellVoice
+                    connotation="sarcasmWit">“Certainly; I haven’t my case, but if you will lend me
+                    a pencil I will write you one.”</nellVoice>
+                <mascVoice connotation="sexual">“With pleasure, my dear.”</mascVoice>
+                <nellVoice connotation="sarcasmWit">“You are mistaken, sir. That is not my
+                    name.”</nellVoice>
+                <mascVoice connotation="sexual">“Ha, ha, ha! I see you are a little mischievous, but
+                    for all that you are my dear,”</mascVoice> producing three inches of Faber.
+                    <nellVoice connotation="sarcasmWit">“A card please?”</nellVoice>
+                <mascVoice>“Bless me, I had forgotten,”</mascVoice> and the natty-sack-coat was
+                ransacked for a suitable card. <mascVoice>“Ah, here—this will do, I hope, in lieu of
+                    something more conventional,”</mascVoice> carefully placing on my sewing-box a
+                small card with the address down. I reversed the pasteboard and read on the back:
+                    <persName>DR. Charles Gilman Smith.</persName> Office Hours _________
+                Residence___________ <nellVoice>“<persName>Dr. Smith</persName>! I know him quite
+                    well.”</nellVoice>
+                <mascVoice connotation="negative">“Oh, you do, eh?”</mascVoice> in a tone that left
+                no doubt that his stock in me had dropped. I wrote: <nellVoice
+                    connotation="sarcasmWit">Reporter. <ref to="theTimes">The
+                    Times.</ref></nellVoice> and handed it to my companion, who read it with eyes
+                that seemed to have been wired open. While he crushed the doctor’s card in his left
+                hand his right pulled out a splendid gold watch, and with a most abrupt <mascVoice
+                    connotation="intimidated">“Didn’t think it was so late, have an engagement at
+                    9:45,”</mascVoice> was off with more alacrity than is conducive to grace. I
+                looked after him, admiring the cut of his coat, the swing of his trousers, the
+                polish of his shoes, and the magnificent carriage of head and shoulders, and
+                thought: <nellVoice connotation="prayer">“May the lord deliver us working
+                    girls.”</nellVoice></dialogue> I also thought that I should like to meet my car
+            friend when I had my suffocating well off and my good clothes on. Won’t <persName>Dr.
+                Smith</persName> inveigle him to his <location type="streetName">State
+                street</location> office and present me? I was to give him back his nickel and lead
+            pencil. When I reached the shop at <location type="address">2155 Archer
+                avenue</location> the tailor told me he only wanted one
+                <occupation>vestmaker</occupation> and had hired her two hours ago, I then went over
+            on <location type="streetName">Cottage Grove avenue</location>, borrowed <num
+                type="cost" amount=".25">25 cents</num> from my dressmaker and rode down to
+                <location type="streetName">Lake street</location> to get work in a <company
+                name="unidentified">feather duster factory</company>. There may have been work, but
+            there was no elevator and I was too hot and tired to go up five flights of stairs to
+            look for it. I chose a <company name="unidentified">cigar factory</company> on <location
+                type="streetName">Randolph near Dearborn street</location> with but three pairs of
+            stairs to climb and learned in the salesroom that they had all the help they needed. I
+            tried <persName>Gomez</persName> across the street, who had no work, but enough goodness
+            of heart to give me a chair and a letter to two cigarmakers of his nationality. I went
+            to see <persName>F. Garcia</persName> at <location type="address">20th Clark
+                street</location>. He asked me if I could “strip” and I told him I could. When he
+            wanted to know where I had worked I owned up that I didn’t know anything at all about
+            the business but was anxious to learn and get work. He didn’t know <mascVoice>“how a
+                sewing girl would do at the ‘fillers’ but you might go and talk with some of the
+                help, for you may not be satisfied to try even.”</mascVoice> He showed me the way
+            across the hall to an empty room. <workingConditions category="negative">The floor was
+                littered with rags and paper and the dust was heavy on the walls and wood-work and
+                in one corner was a good-sized ash-pile</workingConditions>.
+                <persName>Garcia</persName> rapped for entrance, but there was so much noise within
+            that the door remained fast. When the <nationality nation="Spain">Spaniard</nationality>
+            left me I turned the knob and came upon <workingConditions category="negative">a big boy
+                who was tickling his laborers. The girls were flying around the empty room and their
+                pursuer had both screeching. The fun came to a stop the moment I went
+                in</workingConditions> and the young people gladly told me all I cared to know about
+            the business. All they did was to “strip” – just pull the stem or mid-rib from the leaf
+            and put it in a “book-filler.” <workingConditions category="wageDesc">I could get <num
+                    type="wage" amount="4.00">$4</num> a week and steady work and the next year <num
+                    type="wage" amount="5.00">$5</num>.</workingConditions>
+            <person who="workingGirl" gender="female">My informant, a little girl of 15 years, has
+                been in the shop two years and earned <num type="wage" amount="5.30">$5.30</num> a
+                week. She told me she was the oldest hand in the shop: that she could “strip” as
+                fast as a man, and put the ribbon bands about the cigars before they were
+                boxed.</person>
+            <workingConditions category="workDesc">At 12:15 o’clock I went into the shop and was
+                given a chair in front of a barrel filled with inches of tobacco called “hands” and
+                lined with gunny-cloth. There was a little tin pail of brown water for wetting I
+                don’t know what near my chair, and on the other side a pine board three feet long
+                and sixteen inches wide. When the tobacco leaves were stripped and laid on the board
+                it was thubbed a “book-filler” and carried off to the next room. In the shop with
+                this were some eighteen men or more rolling the “fillers,” putting on the wrappers,
+                shaping the cigars with a broad knife and seeming the ends.</workingConditions>
+            Along the tables some of the men were smoking and others chewing, some with their hats
+            on and all in the shirt-sleeves. <desc of="workingClass">There were <nationality
+                    nation="Africa">negroes</nationality>, <nationality nation="Sweden"
+                    >Swedes</nationality>, a <nationality nation="China">Chinaman</nationality>,
+                    <nationality nation="Germany">Germans</nationality>, and <nationality
+                    nation="Spain">Spaniards</nationality>, whose influence on the lives of the
+                young girls, while not really harmful, could hardly be called beneficial.</desc> I
+            stripped leaves enough to enable me to take the social condition of the inmates,
+                <workingConditions category="negative">the bad light impure
+                atmosphere</workingConditions>, <workingConditions category="negative">the choking
+                smell of the tobacco</workingConditions>, and the photographs and prints cut from
+            sensational papers that were tacked on the <workingConditions category="negative"
+                >smoke-stained walls</workingConditions>. From the <company name="unidentified"
+                >cigar factory</company> I went to the <company name="identified">Excelsior
+                Underwear Company</company>, <location type="address">199 and 201 Fifth
+                avenue</location> and sat for half an hour while the <person who="forePerson"
+                gender="female">forewoman</person> scolded a <person who="workingGirl"
+                gender="female">pale-faced girl who wore mourning</person>. She had brought back a
+            dozen chemises for which the house paid <num type="wage" amount="2.00">$2</num>, but the
+            work was soiled in the making—machine oil having wet the cotton – and the forewoman
+            refused to take it. <dialogue><femVoice who="workingGirl" connotation="woe">“What shall
+                    I do?”</femVoice> She asked the woman, with a voice as sad as her face.
+                    <femVoice who="forePerson" connotation="angry">“What does anybody do with dirty
+                    things? You will have to pay for laundering the garments of the greasy sewing
+                    and clean the thread.”</femVoice></dialogue> Then the <person who="workingGirl"
+                gender="female">girl</person> was left alone by the <person who="forePerson"
+                >manager</person>, who went up to the other end of the counter to get trimmings for
+            six dozen <factoryItem>chemises</factoryItem> that a tall young <nationality
+                nation="Sweden">Swede</nationality> girl was waiting for. <desc of="upperClass">The
+                forewoman wore a blue dress of plaid design with a Marseilles vest buttoned in it,
+                and of seven rings on her left hand six were set with what appeared to be diamonds.
+                She had jewels at her chin and in her ears and hair.</desc> She measured off the
+            lace edgings and the tape insertion and gave minute directions about the fullness and
+            the finish. The six dozen garments were bundled up by <persName>Mr. Hyman</persName>,
+            the proprietor, and the elevator carried her and her load to the pavement below.
+                <livingConditions category="descriptionNeutral">The seamstress told me she lived at
+                home</livingConditions> and <workingConditions category="wageDesc">with the help of
+                her mother made <num type="wage" amount="12.00">$12</num> a
+            week</workingConditions>. <dialogue><femVoice>“It is very hard work though,”</femVoice>
+                she said <femVoice>"We sew day and night. I had rather do it than work down in a
+                    shop for I have more self-respect. <desc of="workingClass">All the girls are not
+                        good, and very few are in a position to go with respectable people. They go
+                        with bad company and their language is bad. Sometimes in the winter they
+                        dance till daylight and go from the hall to the shop. I don’t blame them.
+                        The life of a girl who had nothing to depend on but her needle is a best a
+                        hard one.</desc> Still I don’t like to be with a crowd of factory girls if I
+                    can help it. <workingConditions category="negative">The manager and
+                        superintendent obliged to be strict</workingConditions>, but <desc
+                        of="upperClass">very seldom make any distinction in the treatment of a nice
+                        girl and one who is not so nice. I don’t think I can tell you how many ways
+                        there are to insult a girl. I have had a foreman just give me a look as I
+                        passed in to my machine or handed in my sewing that made me wish I was
+                        dead.</desc>
+                    <workingConditions category="negative">Then there are the spiteful things the
+                        girls say about you and the cutting remarks of the forewoman that make you
+                        feel like fainting.</workingConditions>
+                    <workingConditions category="negative">The cashier may have a grudge and if he
+                        doesn’t hold your wages back till all the other hands are paid hell will
+                        throw it at you, make you take ragged bills, or give – ‘you a week’s pay in
+                        change.’</workingConditions> A cashier in a <location type="streetName"
+                        >Jackson street</location>
+                    <company name="unidentified">cravat factory</company> once rubbed his hand
+                    across my chin <mascVoice connotation="sexual">“to feel my
+                        whiskers,”</mascVoice> he said, and <workingConditions category="negative"
+                        >because I got angry and said I would report him he saved up all the silver
+                        that had holes and plugs and made me take it</workingConditions>.
+                        <workingConditions category="wageDesc">My salary was <num type="wage"
+                            amount="3.25">$3.25</num> that week, and some of the silver couldn’t
+                        pass. I took it to a bank and the cashier was kind enough to give me good
+                        money for it.</workingConditions> Plenty of times the forewoman has had me
+                    discharged for being “stuck up.”</femVoice></dialogue>
+            <workingConditions category="wageDesc"> Prices here range from <num type="wage"
+                    amount=".20">20 cents</num> to <num type="price" amount="2.00">$2</num> a dozen.
+                It depends on the material. <factoryItem>Children’s drawers</factoryItem> pay <num
+                    type="wage" amount=".20">20 cents</num> a dozen, but there are no button holes
+                to work. Some shirts are <num type="price" amount="2.00">$2</num> some <num
+                    type="price" amount="4.00">$4</num> and some <num type="price" amount="1.70"
+                    >$1.70</num> but most of them only pay <num type="wage" amount=".20">20
+                    cents</num>. Everything is done by machine including button holes and gussets.
+                The bosoms and bands are ready to go in. <factoryItem>Corset-covers</factoryItem>
+                pay <num type="wage" amount=".40">40 cents</num>and
+                    <factoryItem>chemises</factoryItem>
+                <num type="wage" amount=".20">20 cents</num> each, but they have to be trimmed and
+                the holes worked by hand. This is a mean shop, so far as prices go, but they are all
+                alike in that particular.</workingConditions>
+            <workingConditions category="negative">You have to find your own
+                thread</workingConditions> and <workingConditions category="negative">you are
+                constantly being suspected of keeping back short ends of
+                trimmings</workingConditions>. I asked the <person who="forePerson" gender="female"
+                >forewoman</person> for stitching and was given <factoryItem>shirts</factoryItem> at
+                <num type="wage" amount=".80">80 cents</num> a dozen to do. I had to pay <num
+                type="cost" amount=".50">50 cents</num> for the use of the machine and <num
+                type="cost" amount=".25">25 cents</num> for a spindle of thread. I told the
+            forewoman I had left my purse at home, but she said it was <femVoice who="forePerson"
+                >“alright you can have it taken out of your wages."</femVoice> I asked her what the
+            machine cost, but she doesn’t know, and when I ventured that the expiration of the
+            patient had reduced the old place <num type="cost" amount="15.00">$15</num> to about
+                <num type="cost" amount="12.00">$12</num> she told me she <femVoice>“reckoned I
+                didn’t know what I was talking about.”</femVoice>
+            <workingConditions category="descriptionNeutral">The room where we worked was about
+                eighteen feet wide and ten feet deep with toilet closets built out from the walls.
+                The machines encircled the three walls and in the middle of the floor were the boxes
+                of work.</workingConditions>
+            <workingConditions category="wageDesc">One girl was stitching wrist-bands, another had
+                button-hole machine and was getting <num type="wage" amount=".50">50 cents</num> a
+                hundred. A third was making <factoryItem>tucked drawers</factoryItem> at <num
+                    type="wage" amount=".20">20 cents</num> a dozen and I had a
+                    <factoryItem>shirt</factoryItem> at <num type="wage" amount=".60">60 cents</num>
+                which I failed to finish all three hours, being unable to manage a
+                machine.</workingConditions> -<ref to="nellNelson">Nell Nelson</ref>. </articleBody>
+    </div>
+</root>

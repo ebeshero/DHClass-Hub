@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poem 7. (J 282: 1861/1929)</title>
+            <author>Emily Dickinson</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1607</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><title>Poem 7. (J 282: 1861/1929)</title></head>
+         <lg>
+            <l>How noteless Men and Pleiads, stand,</l>
+            <l>Until a sudden sky</l>
+            <l>Reveals the fact that One is rapt</l>
+            <l>Forever from the Eye—</l>
+         </lg>
+         <lg>
+            <l>Members of the Invisible,</l>
+            <l>Existing while we stare,</l>
+            <l>In Leagueless Opportunity,</l>
+            <l>O'ertakeless, as the Air—</l>
+         </lg>
+         <lg>
+            <l>Why didn't we <app>
+                  <rdg wit="var0">detain Them?</rdg>
+                  <rdg wit="var1">retain Them?</rdg>
+                  <rdg wit="var2">detain it?</rdg>
+               </app>
+            </l>
+            <l>The Heavens with a smile,</l>
+            <l>Sweep by our disappointed Heads</l>
+            <l><app>
+                  <rdg wit="var0">Without a syllable—</rdg>
+                  <rdg wit="var1">But deign no syllable</rdg>
+               </app>
+            </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

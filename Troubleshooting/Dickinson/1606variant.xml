@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poem 6 (J 281: 1861/1935)</title>
+            <author>Emily Dickinson</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1606</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><title>Poem 6 (J 281: 1861/1935)</title></head>
+         <lg>
+            <l>'Tis so appalling—it exhilarates— </l>
+            <l>
+               <app>
+                  <rdg wit="var0">So over Horror, it half Captivates—</rdg>
+                  <rdg wit="var1">So over Horror, it dumb fascinates—</rdg>
+               </app>
+            </l>
+            <l>The Soul stares after it, secure— </l>
+            <l>
+               <app>
+                  <rdg wit="var0">To know the worst, leaves no dread more—</rdg>
+                  <rdg wit="var1">A Sepulchre, fears frost, no more—</rdg>
+               </app>
+            </l>
+         </lg>
+         <lg>
+            <l>To scan a Ghost, is faint— </l>
+            <l>But grappling, conquers it— </l>
+            <l>How easy Torment, now— </l>
+            <l>Suspense kept sawing so— </l>
+         </lg>
+         <lg>
+            <l>The Truth, is Bald, and Cold— </l>
+            <l>But that will hold— </l>
+            <l>If any are not sure— </l>
+            <l>We show them—prayer— </l>
+            <l>But we, who know, </l>
+            <l>Stop hoping, now— </l>
+         </lg>
+         <lg>
+            <l>Looking at Death, is Dying— </l>
+            <l>Just let go the Breath— </l>
+            <l>And not the pillow at your Cheek </l>
+            <l>So Slumbereth— </l>
+         </lg>
+         <lg>
+            <l>Others, Can wrestle— </l>
+            <l>Yours, is done— </l>
+            <l>And so of Woe, bleak dreaded—come, </l>
+            <l>It sets the Fright at liberty— </l>
+            <l>And Terror's free— </l>
+            <l>Gay, Ghastly, Holiday! </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

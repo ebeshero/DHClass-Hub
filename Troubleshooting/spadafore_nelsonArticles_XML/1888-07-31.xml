@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Parker_NellNelsonProject_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <div type="newspaperArticle">
+        <head>
+            <newspaperTitle> Chicago Times
+                <date when="1888-07-31">Monday Morning, July 31, 1888</date>
+                Price <num type="price" amount=".02">2 CENTS</num>
+            </newspaperTitle>
+
+            <seriesTitle>CITY SLAVE GIRLS</seriesTitle>
+            <headLine>Further Details of the Factory Investigation Conducted by "The Times'" Lady
+                Reporter.</headLine>
+
+            <headLine>A Cloak Concern Where Nothing but Fear of the Law Seems to Prevent the Use of
+                Lash.</headLine>
+
+            <headLine>A Sickly Child of Fifteen Compelled to Work Nine and a Half Hours for Sixteen
+                Cents.</headLine>
+
+            <headLine>The Unfortunate Insulted and Abused by Their Employer and Humiliated by the
+                Forewoman.</headLine>
+
+            <headLine>Eighty Cents a Week for Laboring from 7:30 in the Morning Until 5:30 in the
+                Evening.</headLine>
+        </head>
+
+        <articleBody> I did not realize the ignominios position of respectable poverty till I went
+            to Ellinger's cloak factory, 282 Madison street, where labor is bondage, the laborer a
+            slave, and flesh and blood cheaper than needles and thread. Corporations said to be
+            without heart, but this concern is a commercial inquisition. It puts its help on the
+            plane of slavery and nothing but civil law prevents the use of the lash. The factory is
+            on the third floor of the large brick building at the east end of Madison street bridge
+            on the south side of the street. Elevator? Not much. An elevator is a luxury and
+            luxuries have no place at Ellinger's. You will be short of breath when you reach the top
+            of the fourth flight, but in recovering you have time to take in the surroundings -- a
+            great barn of a place, with the single charm of good, light. There is plenty of vacant
+            room, but the women are huddled together, elbows touching, along the line of machines.
+            Beneath the west windows flows the river; at the south end of the room, not ten feet
+            from the crowded table, is a tier of closets, and on hot days the combined odor of the
+            two is shocking. Nobody in his employ dare complain about smells, cold, heat, work,
+            wages, or rules. But whoever heard of martyrs complaining? My experience began at 7:30
+            a.m. and lasted just three hours. When I climbed the dusty stairs I took a ten-minute
+            rest at the top. Everybody was at work but a hungry-looking man about 27 years old, with
+            skin the color of a Russia turnip and thin, peaked features. He was dressed in a pair of
+            heelless slippers, a white shirt, and a pair of short pants that Willonghby, Hill &amp;
+            Co. pay 18 cents for making. Neither collar, vest, coat, nor suspenders burdened his
+            emaciated form. He moved among the workers with a cat-like tread, his shoulders drooping
+            and his knees opening and shutting with a sort of accordion movement at every step. He
+            passed me several times as I stood at the desk and eyed me so unpleasantly that I turned
+            my back to him. After waiting at the desk for three-quarters of an hour I asked the
+            clerk, a sweet little girl of 16 years, with pretty red cheeks and dark eyelashes and
+            hair, for work, and was told to wait till the forelady came round. A dozen girls were
+            waiting, too, some with cloaks, others with check-books and tickets, and a few with
+            hand-made fringe. The fringe-girl I spoke to. She told me she received 5 cents a yard
+            for making an imitation of seal-ball fringe, such as winter cloaks are trimmed with. She
+            had a piece three yards and a quarter long that had taken her all the previous day to
+            make. Here was a child of 15 working nine and a half hours a day for a competence of 16
+            <unclear/> cents. Will the Prairie avenue woman who, at the suggestion of Mrs. Ormison
+            Chant, is trying to find one hundred girls who are earning less than 28 cents a days
+            please enter Maggie W--- on the list, and will the women of the Protective agency, who
+            want a new field of inquiry, call and see this slim, snake-gaited, jaundice-faced
+            creature who has charge of this human mill. Maggie's fringe being measured and her book
+            checked she was given another box of material and went off to weave it into
+            tasel-trimming. The girl who took her place would not be interviewed. She "didn't know
+            how much stitchers earned and wouldn't tell nobody how much a week she could make." She
+            was, possibly, 25 years old, with a deathly pale face, and looked as though she hadn't
+            eaten any breakfast. Her successor was less reticent. "I'm here since May, but I don't
+            like it; the boss is a horrid thing. Him and the forelady watchs us all the time, and
+            they don't give us hardly any work. I can only make one cloak a day: some pays 30 cents,
+            some 40 cents, and some 50 cents. Yesterday I had only 60 cents coming to me for two
+            days. Are you long here? Oh, you won't stay. They search your bag and your pocket when
+            you go home nights to see if you have any thread or pieces about you." Before I had a
+            chance to talk with another unfortunate the little rosy-cheeked clerk told me "it's
+            against the rules for new hands to stand here. You must go over by the stairs and wait
+            till the forelady comes." I smiled at the pretty child and she rewarded me by bringing a
+            chair to me a few minutes later. All means of communication being cut off I amused
+            myself making sketches of the shirted, slippered, sleuth-like creature as he passed.
+            This pastime was interrupted by the appearance of a fat woman. She had on a black sateen
+            suit tha tfitted her puffy figure like the raiment of a well-boiled suet pudding. She
+            carried herself like a drum-major on dress parade and by way of ornaments wore a gold
+            watch with a double coil of gold chain at her belt, gold earrings, a gold breast pin,
+            gold cuff-buttons, and two gold rings. Bigger than bust or bustle was the woman's head I
+            discovered when Iasked: "Are you the forewoman?" "Forelady, yes. What do you want?"
+            "Work" "What can you do?" "Sew." "Where have you been working?" "NeverRip company" "Want
+            to stitch?" "No, I would rather finish." "Give your name to the clerk." I complied and
+            was entered on his book as the resident of a vacant lot on Monroe street. The forewoman
+            selected a bundle as big as a Kainschatka baby from a mountain of bundles and said:
+            "Here, go over there and wait till I come." "How much do you pay for thi sclass of
+            work?" "I don't know. It seems to me you're mighty particular." "If you don't know who
+            does?" I asked. "You make me dizzy," she said, dropping the bundle and giving me a look
+            of intense disgust. She took a small book from her pocket containing the price-list and
+            asked me what number. "I don't know." "Look." "Where?" "You'll come down a peg or two
+            before long," and with a groan she bent over the bundle at her feet, flushed
+            apoplectically, and said "360." Referring again to her price-list: "Them's 65 cents,"
+            and left me. I raised that 65-cent <unclear/> clusterand with my arms folded about the
+            fuzzy, ill-smelling thing, moved "down there," as directed, and halted at the edge of a
+            huge rag-box. Here I stood for twenty minutes, when the forewoman came aft and bade me
+            "this way." I pursued. There was a halt about the middle of the shop and I seized it for
+            a "scoop." "How many girls have you here?" "Never counted them." "What can experienced
+            cloak hands earn a day?" "Never asked them." "How much of your salary is for
+            politeness?" "You can sit here," pointing to a cane chair with half the seat gone. "That
+            girl with the black dress will do your stitching, the one at the end of the second table
+            will bind the seams, and Annie down there in the brown calico - she's fixing the machine
+            now - will give you any help," and she was off. "I beg your pardon, did I understand you
+            to say I would get 65 cents for making this cloak?" following her. "Now you're just a
+            little too fresh. If you don't want the work, say so." "I do want the work, but I want
+            to know what it will pay first." "This is a 65-cent cloak. Do you get that through your
+            head? The stitcher gets 20 cents, the binder gets 15 cents, and you get 30 cents for
+            finishing if the work is right. If it isn't, you get out." I thanked her and was alone.
+            Here I thought lay my fortune. Thirty cents for making a long cloth cloak, after the
+            seams were stitched. It had t obe trimmed down the back gores, around the collar, cuffs,
+            and pockets with mohair plush: the sleeves had to go in, eighteen buttons sewed on,
+            eighteen holes worked, and all the seams and edges faced with black muslin. Thirty
+            cents! To save my life I couldn't have finished the garment in ten hours. I was just
+            reaching that conclusion when the forewoman appeared with a small book, two checks, and
+            a piece of tailor's chalk as big as a dime. "Your number is 180: chalk it on all these
+            pieces and if you lose any you will be fined." "How much?" "How much? You cheeky thing!
+            The cost of the cloth and the cutter's time. That's how much. Give this check to the
+            binder and that one to the stitcher." "Will you please tell me how this side gore goes?"
+            "Go to Annie. I ain't here to learn you how to sew." "May I have a needle?" "Furnish
+            your own needles." "May I have basting cotton?" "There ain't any. You have to wait till
+            it gets here." I gave a girl a penny for a needle and stole some thread from an
+            absentee's stock. Then I waited fifteen minutes while the binder got through and basted
+            up the scams for the stitcher. That much done I got to work on the plush. The forewoman
+            passed by and told me I was not "showing" enough fur. Go over to the sample and look at
+            the work." She sneered when I asked where the samples were, but a neighnor volunteered
+            the information. There was no sample on the rack and I stepped over to inform the
+            forewoman, who curtly told me it was none of her affair. "Will you please tell me how
+            wide to make this trimming?" "Go to Annie." Poor Annie was doctoring a machine and said
+            "in a minute." On her way to me three stitchers implored her to look at their miserable
+            implements and I waited patiently till I caught sight of the forewoman looking at her
+            bangs in a handglass. Apologizing for the intrusion I asked her if the sample had come
+            yet. "No." "I wish you would kindly show me how wide to make this trimming." "Go to
+            Annie, I told you." "Annie is too busy. She's mending machines." "Well, I won't be
+            bothered with you?" "What's the reason you won't?" "Cause I won't." "Well you will. Tell
+            me how wide you want this plush or I will see Mr. Ellinger." "See him. I don't care.
+            There he is," pointing to the snaky, half-starved creature whose shanks I had been
+            sketching and on whom I had scornfully turned my back. </articleBody>
+    </div>
+
+
+</root>
