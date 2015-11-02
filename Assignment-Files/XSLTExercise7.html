@@ -1,0 +1,64 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="explain.css" />
+        <title>XSLT Exercise 7</title>
+    </head>
+    
+    
+    
+    <body>
+        <!--#include virtual="top.html" -->
+        
+        
+        <h1><span class="banner">XSLT Exercise 7</span></h1>
+        <h3>The texts</h3>
+        <p>For this assignment, we set you free to write XSLT on your own project files. Alternatively, you may choose to work on files prepared by another team, or with TEI XML files you have discovered and downloaded from the <a href="http://digitalmitford.org">Digital Mitford</a> (including the full <a href="http://digitalmitford.org/si.xml">Digital Mitford Site Index</a>) or the <a href="http://pacific.pitt.edu">Digital Archives and Pacific Cultures project</a>. As a resource for XML files, <a href="https://github.com/RJP43/CitySlaveGirls-ChicagoDailyTimes1888">here is the GitHub for the Nell Nelson project</a> and <a href="https://github.com/ebeshero/EmilyDickinson16">here is the GitHub for the Emily Dickinson project</a>. Because the XML texts for all of these projects are under development, they may be inconsistently or incompletely marked up. As long as they are well formed, however, they can be explored with XML tools, including XSLT. While you are welcome to use XML files from any of these sources, we will be especially pleased to see you do something interesting with your own project XML files to begin building interesting and useful pages for your projects.</p>
+        <h3>The assignment</h3>
+        <p>Select an XML file from one of the projects and spend a few minutes looking at it to
+            familiarize yourself with its overall structure. (Notice whether it’s in a namespace and change your stylesheet template accordingly!)
+            Visit the project site to learn more about the general project. You may use your own XML
+            files or someone else’s. Download an XML file from whichever project you choose into
+            &lt;oXygen/&gt;.</p>
+        <h3>Advice in case you need it: Downloading files from GitHub</h3>
+        <p>The easiest way to download a file from GitHub is to clone the project onto your own
+            machine, which will copy all files, and then open the file you need. If you want to
+            download just one file (which is all you need for this assignment), <em>you can’t just
+                right-click and download</em> because you’ll download a version with extraneous
+            GitHub specific markup mixed into the file, which will render the file unusable for your
+            purposes. What you can do instead is</p>
+      <ol>  <li>Connect to the repo in a browser;</li> 
+          <li>Click on the file you want, which will display its contents;</li>
+          <li>Click on the button labeled <q>Raw</q> at the top of the code window, which will display its contents without
+            any extraneous GitHub-specific material; and</li> 
+          <li>Either right-click and do a <q>Save as</q> or select all the text in the window, copy it to the clipboard, and paste it
+            into a new XML document in &lt;oXygen/&gt;.</li></ol>
+        <h3>What to do with the file or collection once you’ve downloaded it</h3>
+        <p>Transform the XML into some form of HTML using XSLT, whether that’s a reading view or
+            some sorts of lists or tables or other reports. You should decide yourself on the type
+            of output you would find interesting or useful, but so that you’ll gain practice with
+            some of the techniques we’ve introduced recently, your transformation must require
+            meaningful use of <strong>at least two of the following:</strong></p>
+        <ul>
+            <li>Conditional: an <code>&lt;xsl:if&gt;</code> and/or <code>&lt;xsl:choose&gt;</code>
+                statement(s) (see <a href="http://dh.obdurodon.org/xslt-basics-2.xhtml">XSLT, part 2: conditionals and push
+                    and pull</a>)</li>
+            <li>An <code>&lt;xsl:for-each&gt;</code> statement (see <a href="http://dh.obdurodon.org/xslt-basics-2.xhtml"
+                >XSLT, part 2: conditionals and push and pull</a>)</li>
+            <li>Attribute value templates (see <a href="http://dh.obdurodon.org/avt.xhtml">Attribute value templates
+                (AVT)</a>)</li>
+            <li>Modal XSLT (see <a href="http://dh.obdurodon.org/modal-xslt.html">Modal XSLT</a>)</li>
+            <li>Linking (see <a href="http://newtfire.org/dh/XSLTExercise6.html">XSLT Exercise 6</a>)</li>
+        </ul>
+        <p>Please upload your XSLT and the XML to CourseWeb. You do not have to upload the HTML
+            output of your transformation (we’re going to run the transformation and generate the
+            HTML ourselves anyway). If your HTML is going to be styled with CSS, though, be sure
+            that your XSLT generates the necessary &lt;link&gt; element inside HTML document, and
+            upload the CSS file along with the XSLT.</p>
+        
+    </body>
+</html>
