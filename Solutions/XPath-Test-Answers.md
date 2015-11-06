@@ -18,7 +18,7 @@ min(//placeName[contains(.,"Taheitee")]/string-length())
 *You get Taheitee with 8 characters*
 
 //placeName[contains(.,"Taheitee")][string-length()= min(//placeName[contains(.,"Taheitee")]/string-length())]   
-*If you wanted to take it further and get the XPath location of all the shortest you would do this expression with 173 Results, all spelled Taheitee*
+*To find the shortest name, which is "Taheitee"*
 
 Longest:  
 (distinct-values(//placeName[contains(.,"Taheitee")]/string-length()))   
@@ -28,7 +28,7 @@ max(//placeName[contains(.,"Taheitee")]/string-length())
 *You get a result with 16 characters*
 
 //placeName[contains(.,"Taheitee")][string-length()= min(//placeName[contains(.,"Taheitee")]/string-length())]   
-*If you wanted to take it further and get the XPath location of all the longest, you would do this expression with 1 Result: spelled O-Taheitee-eetee*
+*To find the longest name, which is "O-Taheitee-eetee"*
 
 
 
