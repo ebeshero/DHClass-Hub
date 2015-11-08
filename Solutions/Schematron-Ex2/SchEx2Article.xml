@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="SchematronEx2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="SchEx2-ebb-Solution.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<journal>
+    <issue>
+        <article>
+            <title>My favorite XPath function</title>
+            <author>Eric Gratta</author>
+            <date>2012-09-05</date>
+            <content>
+                <p>You can do anything with tokenize(). You can divide
+                    text into words, breaking on white space, on punctuation, or in
+                    any other way that meets your needs. You can even use tokenize()
+                    in a nested context, perhaps breaking on white space and then,
+                    within each white-space-delimited word, on hyhpens. How cool is
+                    that!</p>
+            </content>
+        </article>
+        <article>
+            <title>Reflections on tokenize()</title>
+            <author>David J. Birnbaum</author>
+            <date>2012-10-10</date>
+            <content>
+                <p>Gratta’s attention to tokenize() is misplaced. matches() is much more useful.</p>
+                <p>Sometimes, though, contains() alone is enough.
+                    You can do anything with tokenize(). You can divide
+                    text into words, breaking on white space, on punctuation, or in
+                    any other way that meets your needs. You can even use tokenize()
+                    in a nested context, perhaps breaking on white space and then,
+                    within each white-space-delimited word, on hyhpens. How cool is
+                    that!</p>
+            </content>
+        </article>
+        <article>
+            <title>On the relative merits of tokenize() and matches()</title>
+            <author>Eric Gratta</author>
+            <date>2012-10-23</date>
+            <content>
+                <p>No way matches() is as cool as tokenize()!</p>
+            </content>
+        </article>
+    </issue>
+</journal>
