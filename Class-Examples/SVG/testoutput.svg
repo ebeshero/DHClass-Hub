@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+   <g transform="translate(70, 525)">
+      <line x1="20"
+            x2="20"
+            y1="0"
+            y2="-500"
+            stroke="black"
+            stroke-width="1"/>
+      <line x1="20"
+            x2="900"
+            y1="0"
+            y2="0"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="5" y="0" text-anchor="middle">0</text>
+      <text x="5" y="-350" text-anchor="middle">50</text>
+      <line x1="70"
+            y1="0"
+            x2="70"
+            y2="-175"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="70" y="20" text-anchor="middle"> Ch.
+                        1</text>
+      <line x1="140"
+            y1="0"
+            x2="140"
+            y2="-224"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="140" y="20" text-anchor="middle"> Ch.
+                        2</text>
+      <line x1="210"
+            y1="0"
+            x2="210"
+            y2="-322"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="210" y="20" text-anchor="middle"> Ch.
+                        3</text>
+      <line x1="280"
+            y1="0"
+            x2="280"
+            y2="-259"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="280" y="20" text-anchor="middle"> Ch.
+                        4</text>
+      <line x1="350"
+            y1="0"
+            x2="350"
+            y2="-364"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="350" y="20" text-anchor="middle"> Ch.
+                        5</text>
+      <line x1="420"
+            y1="0"
+            x2="420"
+            y2="-427"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="420" y="20" text-anchor="middle"> Ch.
+                        6</text>
+      <line x1="490"
+            y1="0"
+            x2="490"
+            y2="-147"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="490" y="20" text-anchor="middle"> Ch.
+                        7</text>
+      <line x1="560"
+            y1="0"
+            x2="560"
+            y2="-280"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="560" y="20" text-anchor="middle"> Ch.
+                        8</text>
+      <line x1="630"
+            y1="0"
+            x2="630"
+            y2="-399"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="630" y="20" text-anchor="middle"> Ch.
+                        9</text>
+      <line x1="700"
+            y1="0"
+            x2="700"
+            y2="-0"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="700" y="20" text-anchor="middle"> Ch.
+                        10</text>
+      <line x1="770"
+            y1="0"
+            x2="770"
+            y2="-0"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="770" y="20" text-anchor="middle"> Ch.
+                        11</text>
+      <line x1="840"
+            y1="0"
+            x2="840"
+            y2="-63"
+            color="black"
+            stroke="black"
+            stroke-width="3"/>
+      <text x="840" y="20" text-anchor="middle"> Ch.
+                        12</text>
+   </g>
+</svg>
