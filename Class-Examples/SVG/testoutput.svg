@@ -14,7 +14,13 @@
             stroke="black"
             stroke-width="1"/>
       <text x="5" y="0" text-anchor="middle">0</text>
+      <text x="5" y="-70" text-anchor="middle">10</text>
+      <text x="5" y="-140" text-anchor="middle">20</text>
+      <text x="5" y="-210" text-anchor="middle">30</text>
+      <text x="5" y="-280" text-anchor="middle">40</text>
       <text x="5" y="-350" text-anchor="middle">50</text>
+      <text x="5" y="-420" text-anchor="middle">60</text>
+      <text x="5" y="-490" text-anchor="middle">70</text>
       <line x1="70"
             y1="0"
             x2="70"
@@ -23,7 +29,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="70" y="20" text-anchor="middle"> Ch.
-                        1</text>
+                            1</text>
       <line x1="140"
             y1="0"
             x2="140"
@@ -32,7 +38,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="140" y="20" text-anchor="middle"> Ch.
-                        2</text>
+                            2</text>
       <line x1="210"
             y1="0"
             x2="210"
@@ -41,7 +47,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="210" y="20" text-anchor="middle"> Ch.
-                        3</text>
+                            3</text>
       <line x1="280"
             y1="0"
             x2="280"
@@ -50,7 +56,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="280" y="20" text-anchor="middle"> Ch.
-                        4</text>
+                            4</text>
       <line x1="350"
             y1="0"
             x2="350"
@@ -59,7 +65,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="350" y="20" text-anchor="middle"> Ch.
-                        5</text>
+                            5</text>
       <line x1="420"
             y1="0"
             x2="420"
@@ -68,7 +74,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="420" y="20" text-anchor="middle"> Ch.
-                        6</text>
+                            6</text>
       <line x1="490"
             y1="0"
             x2="490"
@@ -77,7 +83,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="490" y="20" text-anchor="middle"> Ch.
-                        7</text>
+                            7</text>
       <line x1="560"
             y1="0"
             x2="560"
@@ -86,7 +92,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="560" y="20" text-anchor="middle"> Ch.
-                        8</text>
+                            8</text>
       <line x1="630"
             y1="0"
             x2="630"
@@ -95,7 +101,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="630" y="20" text-anchor="middle"> Ch.
-                        9</text>
+                            9</text>
       <line x1="700"
             y1="0"
             x2="700"
@@ -104,7 +110,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="700" y="20" text-anchor="middle"> Ch.
-                        10</text>
+                            10</text>
       <line x1="770"
             y1="0"
             x2="770"
@@ -113,7 +119,7 @@
             stroke="black"
             stroke-width="3"/>
       <text x="770" y="20" text-anchor="middle"> Ch.
-                        11</text>
+                            11</text>
       <line x1="840"
             y1="0"
             x2="840"
@@ -122,6 +128,6 @@
             stroke="black"
             stroke-width="3"/>
       <text x="840" y="20" text-anchor="middle"> Ch.
-                        12</text>
+                            12</text>
    </g>
 </svg>
