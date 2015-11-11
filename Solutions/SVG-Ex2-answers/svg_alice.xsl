@@ -34,7 +34,7 @@
             <xsl:value-of select="@which"/></text>
   
         
-        <xsl:if test="./following-sibling::*">
+        <xsl:if test="./following-sibling::chapter">
             <line x1="{$xPos}" y1="-{$yPos}" x2="{$xPos2}" y2="-{$yPos2}" color="black" stroke="black" stroke-width="4"/>
             </xsl:if>
       
