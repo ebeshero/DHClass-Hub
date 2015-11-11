@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+   <g transform="translate(60, 575)">
+      <text x="375" y="-550" text-anchor="middle">Number of Quotes by Alice in Each Chapter of "Alice in Wonderland"</text>
+      <line x1="20"
+            x2="20"
+            y1="0"
+            y2="-450"
+            stroke="black"
+            stroke-width="1"/>
+      <line x1="20"
+            x2="750"
+            y1="0"
+            y2="0"
+            stroke="black"
+            stroke-width="1"/>
+      <text x="5" y="0" text-anchor="middle">0</text>
+      <text x="5" y="-60" text-anchor="middle">10</text>
+      <text x="5" y="-120" text-anchor="middle">20</text>
+      <text x="5" y="-180" text-anchor="middle">30</text>
+      <text x="5" y="-240" text-anchor="middle">40</text>
+      <text x="5" y="-300" text-anchor="middle">50</text>
+      <text x="5" y="-360" text-anchor="middle">60</text>
+      <text x="5" y="-420" text-anchor="middle">70</text>
+      <text x="60" y="30" text-anchor="middle"> Ch.
+            1</text>
+      <line x1="60"
+            y1="-150"
+            x2="120"
+            y2="-192"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="60" cy="-150" r="6" fill="red"/>
+      <text x="57" y="-180">25</text>
+      <text x="120" y="30" text-anchor="middle"> Ch.
+            2</text>
+      <line x1="120"
+            y1="-192"
+            x2="180"
+            y2="-276"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="120" cy="-192" r="6" fill="red"/>
+      <text x="117" y="-222">32</text>
+      <text x="180" y="30" text-anchor="middle"> Ch.
+            3</text>
+      <line x1="180"
+            y1="-276"
+            x2="240"
+            y2="-222"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="180" cy="-276" r="6" fill="red"/>
+      <text x="177" y="-306">46</text>
+      <text x="240" y="30" text-anchor="middle"> Ch.
+            4</text>
+      <line x1="240"
+            y1="-222"
+            x2="300"
+            y2="-312"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="240" cy="-222" r="6" fill="red"/>
+      <text x="237" y="-252">37</text>
+      <text x="300" y="30" text-anchor="middle"> Ch.
+            5</text>
+      <line x1="300"
+            y1="-312"
+            x2="360"
+            y2="-366"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="300" cy="-312" r="6" fill="red"/>
+      <text x="297" y="-342">52</text>
+      <text x="360" y="30" text-anchor="middle"> Ch.
+            6</text>
+      <line x1="360"
+            y1="-366"
+            x2="420"
+            y2="-126"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="360" cy="-366" r="6" fill="red"/>
+      <text x="357" y="-396">61</text>
+      <text x="420" y="30" text-anchor="middle"> Ch.
+            7</text>
+      <line x1="420"
+            y1="-126"
+            x2="480"
+            y2="-240"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="420" cy="-126" r="6" fill="red"/>
+      <text x="417" y="-156">21</text>
+      <text x="480" y="30" text-anchor="middle"> Ch.
+            8</text>
+      <line x1="480"
+            y1="-240"
+            x2="540"
+            y2="-342"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="480" cy="-240" r="6" fill="red"/>
+      <text x="477" y="-270">40</text>
+      <text x="540" y="30" text-anchor="middle"> Ch.
+            9</text>
+      <line x1="540"
+            y1="-342"
+            x2="600"
+            y2="-0"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="540" cy="-342" r="6" fill="red"/>
+      <text x="537" y="-372">57</text>
+      <text x="600" y="30" text-anchor="middle"> Ch.
+            10</text>
+      <line x1="600"
+            y1="-0"
+            x2="660"
+            y2="-0"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="600" cy="-0" r="6" fill="red"/>
+      <text x="597" y="-30">0</text>
+      <text x="660" y="30" text-anchor="middle"> Ch.
+            11</text>
+      <line x1="660"
+            y1="-0"
+            x2="720"
+            y2="-54"
+            color="black"
+            stroke="black"
+            stroke-width="4"/>
+      <circle cx="660" cy="-0" r="6" fill="red"/>
+      <text x="657" y="-30">0</text>
+      <text x="720" y="30" text-anchor="middle"> Ch.
+            12</text>
+      <circle cx="720" cy="-54" r="6" fill="red"/>
+      <text x="717" y="-84">9</text>
+   </g>
+</svg>
