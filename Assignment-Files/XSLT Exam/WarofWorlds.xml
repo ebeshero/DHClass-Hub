@@ -11,14 +11,14 @@
             the website <ref target="http://www.playscripts.com"/></copyRight>
     </headerInfo>
     <body>
-    <sp><spkr> MERC ANNOUNCER:</spkr> The Columbia Broadcasting System and its affiliated stations
+    <sp><spkr>MERC ANNOUNCER:</spkr> The Columbia Broadcasting System and its affiliated stations
         present Orson Welles and the Mercury Theatre on the Air in a radio play by Howard Koch
         suggested by the H.G. Wells Novel "The War of the Worlds." <stage>MUSIC: MERCURY THEATRE
             MUSICAL THEME</stage>
     </sp>
-    <sp><spkr> MERC ANNOUNCER:</spkr> Ladies and gentlemen: the director of the Mercury Theatre and
+    <sp><spkr>MERC ANNOUNCER:</spkr> Ladies and gentlemen: the director of the Mercury Theatre and
         star of these broadcasts, Orson Welles . . . </sp>
-    <sp><spkr> ORSON WELLES:</spkr> We know now that in the early years of the twentieth century
+    <sp><spkr>ORSON WELLES:</spkr> We know now that in the early years of the twentieth century
         this world was being watched closely by intelligences greater than man's and yet as mortal
         as his own. We know now that as human beings busied themselves about their various concerns
         they were scrutinized and studied, perhaps almost as narrowly as a man with a microscope
@@ -33,7 +33,7 @@
         Business was better. The war scare was over. More men were back at work. Sales were picking
         up. On this particular evening, October 30, the Crossley service estimated that thirty-two
         million people were listening in on radios. </sp>
-    <sp><spkr> ANNOUNCER:</spkr> . . .for the next twenty-four hours not much change in temperature.
+    <sp><spkr>ANNOUNCER:</spkr> . . .for the next twenty-four hours not much change in temperature.
         A slight atmospheric disturbance of undetermined origin is reported over Nova Scotia,
         causing a low pressure area to move down rather rapidly over the northeastern states,
         bringing a forecast of rain, accompanied by winds of light gale force. Maximum temperature
@@ -42,12 +42,12 @@
         will be entertained by the music of Ramon Raquello and his orchestra. <stage>MUSIC: SPANISH
             THEME SONG [A TANGO] . . . FADES</stage>
     </sp>
-    <sp><spkr> ANNOUNCER THREE:</spkr> Good evening, ladies and gentlemen. From the Meridian Room in
+    <sp><spkr>ANNOUNCER THREE:</spkr> Good evening, ladies and gentlemen. From the Meridian Room in
         the Park Plaza in New York City, we bring you the music of Ramon Raquello and his orchestra.
         With a touch of the Spanish. Ramon Raquello leads off with "La Cumparsita." <stage>PIECE STARTS
             PLAYING</stage>
     </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> Ladies and gentlemen, we interrupt our program of dance music
+    <sp><spkr>ANNOUNCER TWO:</spkr> Ladies and gentlemen, we interrupt our program of dance music
         to bring you a special bulletin from the Intercontinental Radio News. At twenty minutes
         before eight, central time, Professor Farrell of the Mount Jennings Observatory, Chicago,
         Illinois, reports observing several explosions of incandescent gas, occurring at regular
@@ -58,10 +58,10 @@
         Raquello, playing for you in the Meridian Room of the Park Plaza Hotel, situated in downtown
         New York. <stage>MUSIC PLAYS FOR A FEW MOMENTS UNTIL PIECE ENDS . . . SOUND OF APPLAUSE</stage>
     </sp>
-    <sp><spkr> ANNOUNCER THREE:</spkr> Now a tune that never loses favor, the ever-popular "Star
+    <sp><spkr>ANNOUNCER THREE:</spkr> Now a tune that never loses favor, the ever-popular "Star
         Dust." Ramon Raquello and his orchestra . . . <stage>MUSIC</stage>
     </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> Ladies and gentlemen, following on the news given in our
+    <sp><spkr>ANNOUNCER TWO:</spkr> Ladies and gentlemen, following on the news given in our
         bulletin a moment ago, the Government Meteorological Bureau has requested the large
         observatories of the country to keep an astronomical watch on any further disturbances
         occurring on the planet Mars. Due to the unusual nature of this occurance, we have arranged
@@ -70,12 +70,12 @@
         Jersey. We return you until then to the music of Ramon Raquello and his orchestra. <stage>MUSIC
             . . .</stage>
     </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> We are now ready to take you to the Princeton Observatory at
+    <sp><spkr>ANNOUNCER TWO:</spkr> We are now ready to take you to the Princeton Observatory at
         Princeton where Carl Phillips, or commentator, will interview Professor Richard Pierson,
         famous astronomer. We take you now to Princeton, New Jersey. <stage>ECHO CHAMBER. FX: TICK-TOCK
             SOUND</stage>
     </sp>
-    <sp><spkr> PHILLIPS:</spkr> Good evening, ladies and gentlemen. This is Carl Phillips, speaking
+    <sp><spkr>PHILLIPS:</spkr> Good evening, ladies and gentlemen. This is Carl Phillips, speaking
         to you from the observatory at Princeton. I am standing in a large semi-circular room, pitch
         black except for an oblong split in the ceiling. Through this opening i can see a sprinkling
         of stars that cast a kind of frosty glow over the intricate mechanism of the huge telescope.
@@ -85,51 +85,51 @@
         his ceaseless watch of the heavens, Professor Pierson may be interrupted by telephone or
         other communications. During this period he is in constant touch with the astronomical
         centers of the world . . . Professor, may I begin our questions? </sp>
-    <sp><spkr> PIERSON:</spkr> At any time, Mr. Phillips. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Professor, would you please tell our radio audience exactly what you
+    <sp><spkr>PIERSON:</spkr> At any time, Mr. Phillips. </sp>
+    <sp><spkr>PHILLIPS:</spkr> Professor, would you please tell our radio audience exactly what you
         see as you observe the planet Mars through your telescope? </sp>
-    <sp><spkr> PIERSON:</spkr> Nothing unusual at the moment, Mr. Phillips. A red disk swimming in a
+    <sp><spkr>PIERSON:</spkr> Nothing unusual at the moment, Mr. Phillips. A red disk swimming in a
         blue sea. Transverse stripes across the disk. Quite distinct now because Mars happens to be
         the point nearest the earth . . . in opposition, as we call it. </sp>
-    <sp><spkr> PHILLIPS:</spkr> In your opinion, what do these transverse stripes signify, Professor
+    <sp><spkr>PHILLIPS:</spkr> In your opinion, what do these transverse stripes signify, Professor
         Pierson? </sp>
-    <sp><spkr> PIERSON:</spkr> Not canals, I can assure you, Mr. Phillips, although that's the
+    <sp><spkr>PIERSON:</spkr> Not canals, I can assure you, Mr. Phillips, although that's the
         popular conjecture of those who imagine Mars to be inhabited. From a scientific viewpoint
         the stripes are merely the result of atmospheric conditions peculiar to the planet. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Then you're quite convinced as a scientist that living intelligence
+    <sp><spkr>PHILLIPS:</spkr> Then you're quite convinced as a scientist that living intelligence
         as we know it does not exist on Mars? </sp>
-    <sp><spkr> PIERSON:</spkr> I'd say the chances against it are a thousand to one. </sp>
-    <sp><spkr> PHILLIPS:</spkr> And yet how do you account for those gas eruptions occurring on the
+    <sp><spkr>PIERSON:</spkr> I'd say the chances against it are a thousand to one. </sp>
+    <sp><spkr>PHILLIPS:</spkr> And yet how do you account for those gas eruptions occurring on the
         surface of the planet at regular intervals? </sp>
-    <sp><spkr> PIERSON:</spkr> Mr. Phillips, I cannot account for it. </sp>
-    <sp><spkr> PHILLIPS:</spkr> By the way, Professor, for the benefit of our listeners, how far is
+    <sp><spkr>PIERSON:</spkr> Mr. Phillips, I cannot account for it. </sp>
+    <sp><spkr>PHILLIPS:</spkr> By the way, Professor, for the benefit of our listeners, how far is
         Mars from earth? </sp>
-    <sp><spkr> PIERSON:</spkr> Approximately forty million miles. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Well, that seems a safe enough distance. <stage>OFF MIKE</stage> Thank
+    <sp><spkr>PIERSON:</spkr> Approximately forty million miles. </sp>
+    <sp><spkr>PHILLIPS:</spkr> Well, that seems a safe enough distance. <stage>OFF MIKE</stage> Thank
         you. <stage>PAUSE</stage>
     </sp>
-    <sp><spkr> PHILLIPS:</spkr> Just a moment, ladies and gentlemen, someone has just handed
+    <sp><spkr>PHILLIPS:</spkr> Just a moment, ladies and gentlemen, someone has just handed
         Professor Pierson a message. While he reads it, let me remind you that we are speaking to
         you from the observatory in Princeton, New Jersey, where we are interviewing the world-
         famous astronomer, Professor Pierson . . . One moment, please. Professor Pierson has passed
         me a message which he has just received . . . Professor, may I read the message to the
         listening audience? </sp>
-    <sp><spkr> PIERSON:</spkr> Certainly, Mr. Phillips </sp>
-    <sp><spkr> PHILLIPS:</spkr> Ladies and gentlemen, I shall read you a wire addressed to Professor
+    <sp><spkr>PIERSON:</spkr> Certainly, Mr. Phillips </sp>
+    <sp><spkr>PHILLIPS:</spkr> Ladies and gentlemen, I shall read you a wire addressed to Professor
         Pierson from Dr. Gray of the National History Museum, New York. "9: 15 P.M. eastern standard
         time. Seismograph registered shock of almost earthquake intensity occurring within a radius
         of twenty miles of Princeton. Please investigate. Signed, Lloyd Gray, Chief of Astronomical
         Division" . . . Professor Pierson, could this occurrence possibly have something to do with
         the disturbances observed on the planet Mars? </sp>
-    <sp><spkr> PIERSON:</spkr> Hardly, Mr. Phillips. This is probably a meteorite of unusual size
+    <sp><spkr>PIERSON:</spkr> Hardly, Mr. Phillips. This is probably a meteorite of unusual size
         and its arrival at this particular time is merely a coincidence. However, we shall conduct a
         search, as soon as daylight permits. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Thank you, Professor. Ladies and gentlemen, for the past ten minutes
+    <sp><spkr>PHILLIPS:</spkr> Thank you, Professor. Ladies and gentlemen, for the past ten minutes
         we've been speaking to you from the observatory at Princeton, bringing you a special
         interview with Professor Pierson, noted astronomer. This is Carl Phillips speaking. We are
         returning you now to our New York studio. <stage>FADE IN PIANO PLAYING</stage>
     </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> Ladies and gentlemen, here is the latest bulletin from the
+    <sp><spkr>ANNOUNCER TWO:</spkr> Ladies and gentlemen, here is the latest bulletin from the
         Intercontinental Radio News. Toronto, Canada: Professor Morse of McGill University reports
         observing a total of three explosions on the planet Mars, between the hours of 7: 45 P.M.
         and 9: 20 P.M., eastern standard time. This confirms earlier reports received from American
@@ -143,10 +143,10 @@
         Brooklyn, where Bobby Millette and his orchestra are offering a program of dance music.
             <stage>SWING BAND FOR TWENTY SECONDS . . . THEN CUT</stage>
     </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> We take you now to Grovers Mill, New Jersey. <stage>CROWD NOISES .
+    <sp><spkr>ANNOUNCER TWO:</spkr> We take you now to Grovers Mill, New Jersey. <stage>CROWD NOISES .
             . . POLICE SIRENS</stage>
     </sp>
-    <sp><spkr> PHILLIPS:</spkr> Ladies and gentlemen, this is Carl Phillips again, at the Wilmuth
+    <sp><spkr>PHILLIPS:</spkr> Ladies and gentlemen, this is Carl Phillips again, at the Wilmuth
         farm, Grovers Mill, New Jersey. Professor Pierson and myself made the eleven miles from
         Princeton in ten minutes. Well, I . . . I hardly know where to begin, to paint for you a
         word picture of the strange scene before my eyes, like something out of a modern "Arabian
@@ -156,44 +156,44 @@
         have struck on its way down. What I can see of the . . . object itself doesn't look very
         much like a meteor, at least not the meteors I've seen. It looks more like a huge cylinder.
         It has a diameter of . . . what would you say, Professor Pierson? </sp>
-    <sp><spkr> PIERSON <stage>OFF-MIKE</stage>:</spkr> What's that? </sp>
-    <sp><spkr> PHILLIPS:</spkr> What would you say . . . what is the diameter? </sp>
-    <sp><spkr> PIERSON:</spkr> About thirty yards. </sp>
-    <sp><spkr> PHILLIPS:</spkr> About thirty yards . . . The metal on the sheath is . . . well, I've
+    <sp><spkr>PIERSON:</spkr><stage>OFF-MIKE</stage> What's that? </sp>
+    <sp><spkr>PHILLIPS:</spkr> What would you say . . . what is the diameter? </sp>
+    <sp><spkr>PIERSON:</spkr> About thirty yards. </sp>
+    <sp><spkr>PHILLIPS:</spkr> About thirty yards . . . The metal on the sheath is . . . well, I've
         never seen anything like it. The color is sort of yellowish-white. Curious spectators now
         are pressing close to the object in spite of the efforts of the police to keep them back.
         They're getting in front of my line of vision. Would you mind standing to one side, please? </sp>
-    <sp><spkr> POLICEMAN:</spkr> One side, there, one side. </sp>
-    <sp><spkr> PHILLIPS:</spkr> While the policemen are pushing the crowd back, here's Mr. Wilmuth,
+    <sp><spkr>POLICEMAN:</spkr> One side, there, one side. </sp>
+    <sp><spkr>PHILLIPS:</spkr> While the policemen are pushing the crowd back, here's Mr. Wilmuth,
         owner of the farm here. He may have some interesting facts to add . . . Mr. Wilmuth, would
         you please tell the radio audience as much as you remember of this rather unusual visitor
         that dropped in your backyard? Step closer, please. Ladies and gentlemen, this is Mr.
         Wilmuth. </sp>
-    <sp><spkr> WILMUTH:</spkr> Well, I was listenin' to the radio. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Closer and louder please. </sp>
-    <sp><spkr> WILMUTH:</spkr> Pardon me?! </sp>
-    <sp><spkr> PHILLIPS:</spkr> Louder, please, and closer. </sp>
-    <sp><spkr> WILMUTH:</spkr> Yes, sir -- I was listening to the radio and kinda drowsin'. That
+    <sp><spkr>WILMUTH:</spkr> Well, I was listenin' to the radio. </sp>
+    <sp><spkr>PHILLIPS:</spkr> Closer and louder please. </sp>
+    <sp><spkr>WILMUTH:</spkr> Pardon me?! </sp>
+    <sp><spkr>PHILLIPS:</spkr> Louder, please, and closer. </sp>
+    <sp><spkr>WILMUTH:</spkr> Yes, sir -- I was listening to the radio and kinda drowsin'. That
         Professor fellow was talkin' about Mars, so I was half dozin' and half . . . </sp>
-    <sp><spkr> PHILLIPS:</spkr> Yes, yes, Mr. Wilmuth. Then what happened? </sp>
-    <sp><spkr> WILMUTH:</spkr> As I was sayin', I was listenin' to the radio kinda halfways . . . </sp>
-    <sp><spkr> PHILLIPS:</spkr> Yes, Mr. Wilmuth, and then you saw something? </sp>
-    <sp><spkr> WILMUTH:</spkr> Not first off. I heard something. </sp>
-    <sp><spkr> PHILLIPS:</spkr> And what did you hear? </sp>
-    <sp><spkr> WILMUTH:</spkr> A hissing sound. Like this: SSSSSSS . . . kinda like a fourt' of July
+    <sp><spkr>PHILLIPS:</spkr> Yes, yes, Mr. Wilmuth. Then what happened? </sp>
+    <sp><spkr>WILMUTH:</spkr> As I was sayin', I was listenin' to the radio kinda halfways . . . </sp>
+    <sp><spkr>PHILLIPS:</spkr> Yes, Mr. Wilmuth, and then you saw something? </sp>
+    <sp><spkr>WILMUTH:</spkr> Not first off. I heard something. </sp>
+    <sp><spkr>PHILLIPS:</spkr> And what did you hear? </sp>
+    <sp><spkr>WILMUTH:</spkr> A hissing sound. Like this: SSSSSSS . . . kinda like a fourt' of July
         rocket. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Yes, then what? </sp>
-    <sp><spkr> WILMUTH:</spkr> Turned my head out the window and would have swore I was to sleep and
+    <sp><spkr>PHILLIPS:</spkr> Yes, then what? </sp>
+    <sp><spkr>WILMUTH:</spkr> Turned my head out the window and would have swore I was to sleep and
         dreamin.' </sp>
-    <sp><spkr> PHILLIPS:</spkr> Then what? </sp>
-    <sp><spkr> WILMUTH:</spkr> I seen a kinda greenish streak and then zingo! Somethin' smacked the
+    <sp><spkr>PHILLIPS:</spkr> Then what? </sp>
+    <sp><spkr>WILMUTH:</spkr> I seen a kinda greenish streak and then zingo! Somethin' smacked the
         ground. Knocked me clear out of my chair! </sp>
-    <sp><spkr> PHILLIPS:</spkr> Well, were you frightened, Mr. Wilmuth? </sp>
-    <sp><spkr> WILMUTH:</spkr> Well, I -- I ain't quite sure. I reckon I -- I was kinda riled. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Thank you, Mr. Wilmuth. Thank you. </sp>
-    <sp><spkr> WILMUTH:</spkr> Want me to tell you some more? </sp>
-    <sp><spkr> PHILLIPS:</spkr> No . . . That's quite all right, that's plenty. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Ladies and gentlemen, you've just heard Mr. Wilmuth, owner of the
+    <sp><spkr>PHILLIPS:</spkr> Well, were you frightened, Mr. Wilmuth? </sp>
+    <sp><spkr>WILMUTH:</spkr> Well, I -- I ain't quite sure. I reckon I -- I was kinda riled. </sp>
+    <sp><spkr>PHILLIPS:</spkr> Thank you, Mr. Wilmuth. Thank you. </sp>
+    <sp><spkr>WILMUTH:</spkr> Want me to tell you some more? </sp>
+    <sp><spkr>PHILLIPS:</spkr> No . . . That's quite all right, that's plenty. </sp>
+    <sp><spkr>PHILLIPS:</spkr> Ladies and gentlemen, you've just heard Mr. Wilmuth, owner of the
         farm where this thing has fallen. I wish I could convey the atmosphere . . . the background
         of this . . . fantastic scene. Hundreds of cars are parked in a field in back of us. Police
         are trying to rope off the roadway leading to the farm. But it's no use. They're breaking
@@ -206,28 +206,28 @@
             PAUSE</stage> . . . Do you hear it? It's a curious humming sound that seems to come from
         inside the object. I'll move the microphone nearer. <stage>PAUSE</stage> Now we're not more then
         twenty-five feet away. Can you hear it now? Oh, Professor Pierson! </sp>
-    <sp><spkr> PIERSON:</spkr> Yes, Mr. Phillips? </sp>
-    <sp><spkr> PHILLIPS:</spkr> Can you tell us the meaning of that scraping noise inside the thing? </sp>
-    <sp><spkr> PIERSON:</spkr> Possibly the unequal cooling of its surface. </sp>
-    <sp><spkr> PHILLIPS:</spkr> I see, do you still think it's a meteor, Professor? </sp>
-    <sp><spkr> PIERSON:</spkr> I don't know what to think. The metal casing is definitely
+    <sp><spkr>PIERSON:</spkr> Yes, Mr. Phillips? </sp>
+    <sp><spkr>PHILLIPS:</spkr> Can you tell us the meaning of that scraping noise inside the thing? </sp>
+    <sp><spkr>PIERSON:</spkr> Possibly the unequal cooling of its surface. </sp>
+    <sp><spkr>PHILLIPS:</spkr> I see, do you still think it's a meteor, Professor? </sp>
+    <sp><spkr>PIERSON:</spkr> I don't know what to think. The metal casing is definitely
         extraterrestrial . . . not found on this earth. Friction with the earth's atmosphere usually
         tears holes in a meteorite. This thing is smooth and, as you can see, of cylindrical shape. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Just a minute! Something's happening! Ladies and gentlemen, this is
+    <sp><spkr>PHILLIPS:</spkr> Just a minute! Something's happening! Ladies and gentlemen, this is
         terrific! This end of the thing is beginning to flake off! The top is beginning to rotate
         like a screw! The thing must be hollow! </sp>
-    <sp><spkr> VOICES:</spkr> She's movin'! Look, the darn thing's unscrewing! Keep back, there!
+    <sp><spkr>VOICES:</spkr> She's movin'! Look, the darn thing's unscrewing! Keep back, there!
         Keep back, I tell you! Maybe there's men in it trying to escape! It's red hot, they'll burn
         to a cinder! Keep back there. Keep those idiots back! <stage>SUDDENLY THE CLANKING SOUND OF A
             HUGE PIECE OF FALLING METAL</stage>
     </sp>
-    <sp><spkr> VOICES:</spkr> She's off! The top's loose! Look out there! Stand back! </sp>
-    <sp><spkr> PHILLIPS:</spkr> Ladies and gentlemen, this is the most terrifying thing I have ever
+    <sp><spkr>VOICES:</spkr> She's off! The top's loose! Look out there! Stand back! </sp>
+    <sp><spkr>PHILLIPS:</spkr> Ladies and gentlemen, this is the most terrifying thing I have ever
         witnessed . . . Wait a minute! Someone's crawling out of the hollow top. Someone or . . .
         something. I can see peering out of that black hole two luminous disks . . are they eyes? It
         might be a face. It might be . . . <stage>SHOUT OF AWE FROM THE CROWD</stage>
     </sp>
-    <sp><spkr> PHILLIPS:</spkr> Good heavens, something's wriggling out of the shadow like a gray
+    <sp><spkr>PHILLIPS:</spkr> Good heavens, something's wriggling out of the shadow like a gray
         snake. Now it's another one, and another. They look like tentacles to me. There, I can see
         the thing's body. It's large, large as a bear and it glistens like wet leather. But that
         face, it . . . Ladies and gentlemen, it's indescribable. I can hardly force myself to keep
@@ -239,10 +239,10 @@
         me as I talk. I'll have to stop the description until I can take a new position. Hold on,
         will you please, I'll be right back in a minute. <stage>FADE INTO PIANO</stage>
     </sp>
-    <sp><spkr> ANNOUNCER:</spkr> We are bringing you an eyewitness account of what's happening on
+    <sp><spkr>ANNOUNCER:</spkr> We are bringing you an eyewitness account of what's happening on
         the Wilmuth farm, Grovers Mill, New Jersey. <stage>MORE PIANO</stage> We now return you to Carl
         Phillips at Grovers Mill. </sp>
-    <sp><spkr> PHILLIPS:</spkr> Ladies and gentlemen <stage>Am I on?</stage>. Ladies and gentlemen, here I
+    <sp><spkr>PHILLIPS:</spkr> Ladies and gentlemen <stage>Am I on?</stage>. Ladies and gentlemen, here I
         am, back of a stone wall that adjoins Mr. Wilmuth's garden. From here I get a sweep of the
         whole scene. I'll give you every detail as long as I can talk. As long as I can see. More
         state police have arrived They're drawing up a cordon in front of the pit, about thirty of
@@ -254,16 +254,16 @@
         know what that means . . . what anything means!. . . Wait! Something's happening!
             <stage>HISSING SOUND FOLLOWED BY A HUMMING THAT INCREASES IN INTENSITY</stage>
     </sp>
-    <sp><spkr> PHILLIPS:</spkr> A humped shape is rising out of the pit. I can make out a small beam
+    <sp><spkr>PHILLIPS:</spkr> A humped shape is rising out of the pit. I can make out a small beam
         of light against a mirror. What's that? There's a jet of flame springing from the mirror,
         and it leaps right at the advancing men. It strikes them head on! Good Lord, they're turning
         into flame! <stage>SCREAMS AND UNEARTHLY SHRIEKS</stage>
     </sp>
-    <sp><spkr> PHILLIPS:</spkr> Now the whole field's caught fire. <stage>EXPLOSION</stage> The woods . .
+    <sp><spkr>PHILLIPS:</spkr> Now the whole field's caught fire. <stage>EXPLOSION</stage> The woods . .
         . the barns . . . the gas tanks of automobiles . . . it's spreading everywhere. It's coming
         this way. About twenty yards to my right . . . <stage>DEAD SILENCE</stage>
     </sp>
-    <sp><spkr> ANNOUNCER:</spkr> Ladies and gentlemen, due to circumstances beyond our control, we
+    <sp><spkr>ANNOUNCER:</spkr> Ladies and gentlemen, due to circumstances beyond our control, we
         are unable to continue the broadcast from Grovers Mill. Evidently there's some difficulty
         with our field transmission. However, we will return to that point at the earliest
         opportunity. In the meantime, we have a late bulletin from San Diego, California. Professor
@@ -272,12 +272,12 @@
         disturbances on the surface of the planet. We now continue with our piano interlude.
             <stage>PIANO . . . THEN CUT</stage>
     </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> Ladies and gentlemen, I have just been handed a message that
+    <sp><spkr>ANNOUNCER TWO:</spkr> Ladies and gentlemen, I have just been handed a message that
         came in from Grovers Mill by telephone. Just a moment. At least forty people, including six
         state troopers lie dead in a field east of the village of Grovers Mill, their bodies burned
         and distorted beyond all possible recognition. The next voice you hear will be that of
         Brigadier General Montgomery Smith, commander of the state militia at Trenton, New Jersey. </sp>
-    <sp><spkr> SMITH:</spkr> I have been requested by the governor of New Jersey to place the
+    <sp><spkr>SMITH:</spkr> I have been requested by the governor of New Jersey to place the
         counties of Mercer and Middlesex as far west as Princeton, and east to Jamesburg, under
         martial law. No one will be permitted to enter this area except by special pass issued by
         state or military authorities. Four companies of state militia are proceeding from Trenton
@@ -298,7 +298,7 @@
         hear will be that of Professor Pierson, brought to you by direct wire. Professor Pierson.
             <stage>FEEDBACK. THEN FILTERED VOICE</stage>
     </sp>
-    <sp><spkr> PIERSON:</spkr> Of the creatures in the rocket cylinder at Grovers Mill, I can give
+    <sp><spkr>PIERSON:</spkr> Of the creatures in the rocket cylinder at Grovers Mill, I can give
         you no authoritative information -- either as to their nature, their origin, or their
         purposes here on earth Of their destructive instrument I might venture some conjectural
         explanation. For want of a better term, I shall refer to the mysterious weapon as a heat
@@ -308,7 +308,7 @@
         parallel beam against any object they choose, by means of a polished parabolic mirror of
         unknown composition, much as the mirror of a lighthouse projects a beam of light. That is my
         conjecture of the origin of the heat ray . . . </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> Thank you, Professor Pierson. Ladies and gentlemen, here is a
+    <sp><spkr>ANNOUNCER TWO:</spkr> Thank you, Professor Pierson. Ladies and gentlemen, here is a
         bulletin from Trenton. It is a brief statement informing us that the charred body of Carl
         Phillips has been identified in a Trenton hospital. Now here's another bulletin from
         Washington, D.C. Office of the director of the National Red Cross reports ten units of Red
@@ -318,13 +318,13 @@
         quiet in the pit, and no sign of life appearing from the mouth of the cylinder . . . And
         now, ladies and gentlemen, we have a special statement from Mr. Harry McDonald, vice-
         president in charge of operations. </sp>
-    <sp><spkr> MC DONALD:</spkr> We have received a request from the militia at Trenton to place at
+    <sp><spkr>MC DONALD:</spkr> We have received a request from the militia at Trenton to place at
         their disposal our entire broadcasting facilities. In view of the gravity of the situation,
         and believing that radio has a responsibility to serve in the public interest at all times,
         we are turning over our facilities to the state militia at Trenton. </sp>
-    <sp><spkr> ANNOUNCER TWO:</spkr> We take you now to the field headquarters of the state militia
+    <sp><spkr>ANNOUNCER TWO:</spkr> We take you now to the field headquarters of the state militia
         near Grovers Mill, New Jersey. </sp>
-    <sp><spkr> CAPTAIN:</spkr> This is Captain Lansing of the signal corps, attached to the state
+    <sp><spkr>CAPTAIN:</spkr> This is Captain Lansing of the signal corps, attached to the state
         militia now engaged in military operations in the vicinity of Grovers Mill. Situation
         arising from the reported presence of certain individuals of unidentified nature is now
         under complete control. The cylindrical object which lies in a pit directly below our
@@ -344,7 +344,7 @@
         . . . kind of shield-like affair rising up out of the cylinder . . . It's going higher and
         higher. Why, it's standing on legs . . . actually rearing up on a sort of metal framework.
         Now it's reaching above the trees and the searchlights are on it. Hold on! </sp>
-    <sp><spkr> ANNOUNCER:</spkr> Ladies and gentlemen, I have a grave announcement to make.
+    <sp><spkr>ANNOUNCER:</spkr> Ladies and gentlemen, I have a grave announcement to make.
         Incredible as it may seem, both the observations of science and the evidence of our eyes
         lead to the inescapable assumption that those strange beings who landed in the Jersey
         farmlands tonight are the vanguard of an invading army from the planet Mars. The battle
@@ -363,7 +363,7 @@
         this time martial law prevails throughout New Jersey and eastern Pennsylvania. We take you
         now to Washington for a special broadcast on the National Emergency . . . the Secretary of
         the Interior . . . </sp>
-    <sp><spkr> SECRETARY:</spkr> Citizens of the nation: I shall not try to conceal the gravity of
+    <sp><spkr>SECRETARY:</spkr> Citizens of the nation: I shall not try to conceal the gravity of
         the situation that confronts the country, nor the concern of your government in protecting
         the lives and property of its people. However, I wish to impress upon you -- private
         citizens and public officials, all of you -- the urgent need of calm and resourceful action.
@@ -372,7 +372,7 @@
         faith in God we must continue the performance of our duties each and every one of us, so
         that we may confront this destructive adversary with a nation united, courageous, and
         consecrated to the preservation of human supremacy on this earth. I thank you. </sp>
-    <sp><spkr> ANNOUNCER:</spkr> You have just heard the secretary of the Interior speaking from
+    <sp><spkr>ANNOUNCER:</spkr> You have just heard the secretary of the Interior speaking from
         Washington. Bulletins too numerous to read are piling up in the studio here. We are informed
         the central portion of New Jersey is blacked out from radio communication due to the effect
         of the heat ray upon power lines and electrical equipment. Here is a special bulletin from
@@ -400,53 +400,53 @@
         please. Ladies and gentlemen, we've run special wires to the artillery line in adjacent
         villages to give you direct reports in the zone of the advancing enemy. First we take you to
         the battery of the 22nd Field Artillery, located in the Watchtung Mountains. </sp>
-    <sp><spkr> OFFICER:</spkr> Range, thirty-two meters. </sp>
-    <sp><spkr> GUNNER:</spkr> Thirty-two meters. </sp>
-    <sp><spkr> OFFICER:</spkr> Projection, thirty-nine degrees. </sp>
-    <sp><spkr> GUNNER:</spkr> Thirty-nine degrees. </sp>
-    <sp><spkr> OFFICER:</spkr> Fire! <stage>BOOM OF HEAVY GUN . . . PAUSE</stage>
+    <sp><spkr>OFFICER:</spkr> Range, thirty-two meters. </sp>
+    <sp><spkr>GUNNER:</spkr> Thirty-two meters. </sp>
+    <sp><spkr>OFFICER:</spkr> Projection, thirty-nine degrees. </sp>
+    <sp><spkr>GUNNER:</spkr> Thirty-nine degrees. </sp>
+    <sp><spkr>OFFICER:</spkr> Fire! <stage>BOOM OF HEAVY GUN . . . PAUSE</stage>
     </sp>
-    <sp><spkr> OBSERVER:</spkr> One hundred and forty yards to the right, sir. </sp>
-    <sp><spkr> OFFICER:</spkr> Shift range . . . thirty-one meters. </sp>
-    <sp><spkr> GUNNER:</spkr> Thirty-one meters </sp>
-    <sp><spkr> OFFICER:</spkr> Projection . . . thirty-seven degrees. </sp>
-    <sp><spkr> GUNNER:</spkr> Thirty-seven degrees. </sp>
-    <sp><spkr> OFFICER:</spkr> Fire! <stage>BOOM OF HEAVY GUN . . . PAUSE</stage>
+    <sp><spkr>OBSERVER:</spkr> One hundred and forty yards to the right, sir. </sp>
+    <sp><spkr>OFFICER:</spkr> Shift range . . . thirty-one meters. </sp>
+    <sp><spkr>GUNNER:</spkr> Thirty-one meters </sp>
+    <sp><spkr>OFFICER:</spkr> Projection . . . thirty-seven degrees. </sp>
+    <sp><spkr>GUNNER:</spkr> Thirty-seven degrees. </sp>
+    <sp><spkr>OFFICER:</spkr> Fire! <stage>BOOM OF HEAVY GUN . . . PAUSE</stage>
     </sp>
-    <sp><spkr> OBSERVER:</spkr> A hit, sir! We got the tripod of one of them. They've stopped. The
+    <sp><spkr>OBSERVER:</spkr> A hit, sir! We got the tripod of one of them. They've stopped. The
         others are trying to repair it. </sp>
-    <sp><spkr> OFFICER:</spkr> Quick, get the range! Shift thirty meters. </sp>
-    <sp><spkr> GUNNER:</spkr> Thirty meters. </sp>
-    <sp><spkr> OFFICER:</spkr> Projection . . . twenty-seven degrees. </sp>
-    <sp><spkr> GUNNER:</spkr> Twenty-seven degrees. </sp>
-    <sp><spkr> OFFICER:</spkr> Fire! <stage>BOOM OF HEAVY GUN . . . PAUSE</stage>
+    <sp><spkr>OFFICER:</spkr> Quick, get the range! Shift thirty meters. </sp>
+    <sp><spkr>GUNNER:</spkr> Thirty meters. </sp>
+    <sp><spkr>OFFICER:</spkr> Projection . . . twenty-seven degrees. </sp>
+    <sp><spkr>GUNNER:</spkr> Twenty-seven degrees. </sp>
+    <sp><spkr>OFFICER:</spkr> Fire! <stage>BOOM OF HEAVY GUN . . . PAUSE</stage>
     </sp>
-    <sp><spkr> OBSERVER:</spkr> Can't see the shell land, sir. They're letting off a smoke. </sp>
-    <sp><spkr> OFFICER:</spkr> What is it? </sp>
-    <sp><spkr> OBSERVER:</spkr> A black smoke, sir. Moving this way. Lying close to the ground. It's
+    <sp><spkr>OBSERVER:</spkr> Can't see the shell land, sir. They're letting off a smoke. </sp>
+    <sp><spkr>OFFICER:</spkr> What is it? </sp>
+    <sp><spkr>OBSERVER:</spkr> A black smoke, sir. Moving this way. Lying close to the ground. It's
         moving fast. </sp>
-    <sp><spkr> OFFICER:</spkr> Put on gas masks. <stage>PAUSE. VOICES NOW MUFFLED</stage> Get ready to
+    <sp><spkr>OFFICER:</spkr> Put on gas masks. <stage>PAUSE. VOICES NOW MUFFLED</stage> Get ready to
         fire. Shift twenty-four meters. </sp>
-    <sp><spkr> GUNNER:</spkr> Twenty-four meters. </sp>
-    <sp><spkr> OFFICER:</spkr> Projection, twenty-four degrees. </sp>
-    <sp><spkr> GUNNER:</spkr> Twenty-four degrees. </sp>
-    <sp><spkr> OFFICER:</spkr> Fire! <stage>BOOM</stage>
+    <sp><spkr>GUNNER:</spkr> Twenty-four meters. </sp>
+    <sp><spkr>OFFICER:</spkr> Projection, twenty-four degrees. </sp>
+    <sp><spkr>GUNNER:</spkr> Twenty-four degrees. </sp>
+    <sp><spkr>OFFICER:</spkr> Fire! <stage>BOOM</stage>
     </sp>
-    <sp><spkr> OBSERVER:</spkr> Still can't see, sir. The smoke's coming nearer. </sp>
-    <sp><spkr> OFFICER:</spkr> Get the range. <stage>COUGHS</stage>
+    <sp><spkr>OBSERVER:</spkr> Still can't see, sir. The smoke's coming nearer. </sp>
+    <sp><spkr>OFFICER:</spkr> Get the range. <stage>COUGHS</stage>
     </sp>
-    <sp><spkr> OBSERVER:</spkr> Twenty-three meters. <stage>COUGHS</stage>
+    <sp><spkr>OBSERVER:</spkr> Twenty-three meters. <stage>COUGHS</stage>
     </sp>
-    <sp><spkr> OFFICER:</spkr> Twenty-three meters. <stage>COUGHS</stage>
+    <sp><spkr>OFFICER:</spkr> Twenty-three meters. <stage>COUGHS</stage>
     </sp>
-    <sp><spkr> GUNNER:</spkr> Twenty-three meters<stage>COUGHS</stage>
+    <sp><spkr>GUNNER:</spkr> Twenty-three meters<stage>COUGHS</stage>
     </sp>
-    <sp><spkr> OBSERVER:</spkr> Projection, twenty-two degrees. <stage>COUGHING</stage>
+    <sp><spkr>OBSERVER:</spkr> Projection, twenty-two degrees. <stage>COUGHING</stage>
     </sp>
-    <sp><spkr> OFFICER:</spkr> Twenty-two degrees <stage>FADE-IN COUGHING) (CUT TO SOUND OF AIRPLANE
+    <sp><spkr>OFFICER:</spkr> Twenty-two degrees <stage>FADE-IN COUGHING) (CUT TO SOUND OF AIRPLANE
             MOTOR</stage>
     </sp>
-    <sp><spkr> COMMANDER:</spkr> Army bombing plane, V-8-43, off Bayonne, New Jersey, Lieutenant
+    <sp><spkr>COMMANDER:</spkr> Army bombing plane, V-8-43, off Bayonne, New Jersey, Lieutenant
         Voght, commanding eight bombers. Reporting to Commander Fairfax, Langham Field . . . This is
         Voght, reporting to Commander Fairfax, Langham Field . . . Enemy tripod machines now in
         sight. Reinforced by three machines from the Morristown cylinder . . . Six altogether. One
@@ -462,24 +462,24 @@
             bombs. Only one thing left . . . drop on them, plane and all. We're diving on the first
             one. Now the engine's gone! Eight . . . (PLANE GOES DOWN</stage>
     </sp>
-    <sp><spkr> OPERATOR ONE:</spkr> This is Bayonne, New Jersey, calling Langham Field . . . This is
+    <sp><spkr>OPERATOR ONE:</spkr> This is Bayonne, New Jersey, calling Langham Field . . . This is
         Bayonne, New Jersey, calling Langham Field . . . Come in, please . . . </sp>
-    <sp><spkr> OPERATOR TWO:</spkr> This is Langham Field . . . Go ahead . . . </sp>
-    <sp><spkr> OPERATOR ONE:</spkr> Eight army bombers in engagement with enemy tripod machines over
+    <sp><spkr>OPERATOR TWO:</spkr> This is Langham Field . . . Go ahead . . . </sp>
+    <sp><spkr>OPERATOR ONE:</spkr> Eight army bombers in engagement with enemy tripod machines over
         Jersey flats. Engines incapacitated by heat ray. All crashed. One enemy machine destroyed.
         Enemy now discharging heavy black smoke in direction of -- </sp>
-    <sp><spkr> OPERATOR THREE:</spkr> This is Newark, New Jersey . . . This is Newark, New Jersey .
+    <sp><spkr>OPERATOR THREE:</spkr> This is Newark, New Jersey . . . This is Newark, New Jersey .
         . . Warning! Poisonous black smoke pouring in from Jersey marshes. Reaches South street. Gas
         masks useless. Urge population to move into open spaces . . .automobiles use Routes 7, 23,
         24 . . . Avoid congested areas. Smoke now spreading over Raymond Boulevard . . . </sp>
-    <sp><spkr> OPERATOR FOUR:</spkr> 2 X 2 L . . . calling C Q . . . 2 X 2 L . . . calling C Q . . .
+    <sp><spkr>OPERATOR FOUR:</spkr> 2 X 2 L . . . calling C Q . . . 2 X 2 L . . . calling C Q . . .
         2 X 2 L . . . calling 8 X 3 R . . . Come in, please . . . </sp>
-    <sp><spkr> OPERATOR FIVE:</spkr> This is 8 X 3 R . . . coming back at 2 X 2 L. </sp>
-    <sp><spkr> OPERATOR FOUR:</spkr> How's reception? How's reception? K, please <stage>PAUSE</stage>
+    <sp><spkr>OPERATOR FIVE:</spkr> This is 8 X 3 R . . . coming back at 2 X 2 L. </sp>
+    <sp><spkr>OPERATOR FOUR:</spkr> How's reception? How's reception? K, please <stage>PAUSE</stage>
         Where are you, 8 X 3 R? What's the matter? Where are you? <stage>BELLS RINGING OVER CITY
             GRADUALLY DIMINISHING</stage>
     </sp>
-    <sp><spkr> NY ANNOUNCER:</spkr> I'm speaking from the roof of the Broadcasting Building, New
+    <sp><spkr>NY ANNOUNCER:</spkr> I'm speaking from the roof of the Broadcasting Building, New
         York City. <stage>PAUSE, AS IF HE ISN'T SURE HE'S ON THE AIR</stage> I'm speaking from the roof of
         the Broadcasting Building, New York City. The bells you hear are ringing to warn the people
         to evacuate the city as the Martians approach. Estimated in last two hours three million
@@ -504,17 +504,17 @@
         use. They're falling like flies. Now the smoke's crossing Sixth Avenue . . . Fifth Avenue .
         . . one hundred yards away . . . it's fifty feet . . . <stage>BODY FALLS</stage>
     </sp>
-    <sp><spkr> OPERATOR FOUR:</spkr> 2 X 2 L calling C Q . . . 2 X 2 L calling C Q . . . 2 X 2 L
+    <sp><spkr>OPERATOR FOUR:</spkr> 2 X 2 L calling C Q . . . 2 X 2 L calling C Q . . . 2 X 2 L
         calling C Q . . . New York Isn't there anyone on the air? Isn't there anyone on the air?
         Isn't there anyone . . . 2 X 2 L -- </sp>
-    <sp><spkr> MERC ANNOUNCER:</spkr> You're listening to a CBS presentation of Orson Welles and the
+    <sp><spkr>MERC ANNOUNCER:</spkr> You're listening to a CBS presentation of Orson Welles and the
         Mercury Theatre on the Air in an original dramatization of "The War of the Worlds" by H.G.
         Wells. The performance will continue after a brief intermission. This is the Columbia . . .
         Broadcasting System MUSIC </sp>
-    <sp><spkr> ANNOUNCER:</spkr> "The War of the Worlds," by H.G. Wells, starring Orson Welles and
+    <sp><spkr>ANNOUNCER:</spkr> "The War of the Worlds," by H.G. Wells, starring Orson Welles and
         the Mercury Theatre on the Air. <stage>MUSIC UP -- DRAMATIC, LONELY THEME</stage>
     </sp>
-    <sp><spkr> PIERSON:</spkr> As I set down these notes on paper, I'm obsessed by the thought that
+    <sp><spkr>PIERSON:</spkr> As I set down these notes on paper, I'm obsessed by the thought that
         I may be the last living man on earth. I have been hiding in this empty house near Grovers
         Mill -- a small island of daylight cut off by the black smoke from the rest of the world.
         All that happened before the arrival of these monstrous creatures in the world now seems
@@ -554,61 +554,61 @@
         humbled by some whim of the advancing Martians. Presently, with an odd feeling of being
         watched, I caught sight of something crouching in a doorway. I made a step towards it, and
         it rose up and bacame a man! -- a man, armed with a large knife. </sp>
-    <sp><spkr> STRANGER:</spkr>
+    <sp><spkr>STRANGER:</spkr>
         <stage>OFF MIKE) Stop. . . (CLOSER</stage> where did you come from? </sp>
-    <sp><spkr> PIERSON:</spkr> I come from . . . many places. A long time ago from Princeton. </sp>
-    <sp><spkr> STRANGER:</spkr> Princeton, huh? That's near Grovers Mill! </sp>
-    <sp><spkr> PIERSON:</spkr> Yes. </sp>
-    <sp><spkr> STRANGER:</spkr> Grovers Mill. . . <stage>LAUGHS AS AT A GREAT JOKE</stage> There's no food
+    <sp><spkr>PIERSON:</spkr> I come from . . . many places. A long time ago from Princeton. </sp>
+    <sp><spkr>STRANGER:</spkr> Princeton, huh? That's near Grovers Mill! </sp>
+    <sp><spkr>PIERSON:</spkr> Yes. </sp>
+    <sp><spkr>STRANGER:</spkr> Grovers Mill. . . <stage>LAUGHS AS AT A GREAT JOKE</stage> There's no food
         here. This is my country. . . all this end of town down to the river. There's only food for
         one. . . Which way are you going? </sp>
-    <sp><spkr> PIERSON:</spkr> I don't know. I guess I'm looking for -- for people. </sp>
-    <sp><spkr> STRANGER:</spkr>
+    <sp><spkr>PIERSON:</spkr> I don't know. I guess I'm looking for -- for people. </sp>
+    <sp><spkr>STRANGER:</spkr>
         <stage>NERVOUSLY</stage> What was that? Did you hear something just then? </sp>
-    <sp><spkr> PIERSON:</spkr> Only a bird . . . <stage>AMAZED</stage> A live bird! </sp>
-    <sp><spkr> STRANGER:</spkr> You get to know that birds have shadows these days. . . Say, we're
+    <sp><spkr>PIERSON:</spkr> Only a bird . . . <stage>AMAZED</stage> A live bird! </sp>
+    <sp><spkr>STRANGER:</spkr> You get to know that birds have shadows these days. . . Say, we're
         in the open here. Let's crawl into this doorway and talk. </sp>
-    <sp><spkr> PIERSON:</spkr> Have you seen any . . . Martians? </sp>
-    <sp><spkr> STRANGER:</spkr> Naah. They've gone over to New York. At night the sky is alive with
+    <sp><spkr>PIERSON:</spkr> Have you seen any . . . Martians? </sp>
+    <sp><spkr>STRANGER:</spkr> Naah. They've gone over to New York. At night the sky is alive with
         their lights. Just as if people were still livin' in it. By daylight you can't see them.
         Five days ago a couple of them carried somethin' big across the flats from the airport. I
         believe they're learning how to fly. </sp>
-    <sp><spkr> PIERSON:</spkr> Fly! </sp>
-    <sp><spkr> STRANGER:</spkr> Yeah, fly. </sp>
-    <sp><spkr> PIERSON:</spkr> Then it's all over with humanity. Stranger, there's still you and I.
+    <sp><spkr>PIERSON:</spkr> Fly! </sp>
+    <sp><spkr>STRANGER:</spkr> Yeah, fly. </sp>
+    <sp><spkr>PIERSON:</spkr> Then it's all over with humanity. Stranger, there's still you and I.
         Two of us left. </sp>
-    <sp><spkr> STRANGER:</spkr> They got themselves in solid; they wrecked the greatest country in
+    <sp><spkr>STRANGER:</spkr> They got themselves in solid; they wrecked the greatest country in
         the world. Those green stars, they're probably falling somewhere every night. They've only
         lost one machine. There isn't anything to do. We're done. We're licked. </sp>
-    <sp><spkr> PIERSON:</spkr> Where were you? You're in a uniform. </sp>
-    <sp><spkr> STRANGER:</spkr> Yeah, what's left of it. I was in the militia -- national guard. . .
+    <sp><spkr>PIERSON:</spkr> Where were you? You're in a uniform. </sp>
+    <sp><spkr>STRANGER:</spkr> Yeah, what's left of it. I was in the militia -- national guard. . .
         That's good! Wasn't any war any more than there's war between men and ants. </sp>
-    <sp><spkr> PIERSON:</spkr> And we're eat-able ants. I found that out. . . What will they do with
+    <sp><spkr>PIERSON:</spkr> And we're eat-able ants. I found that out. . . What will they do with
         us? </sp>
-    <sp><spkr> STRANGER:</spkr> I've thought it all out. Right now we're caught as we're wanted. The
+    <sp><spkr>STRANGER:</spkr> I've thought it all out. Right now we're caught as we're wanted. The
         Martian only has to go a few miles to get a crowd on the run. But they won't keep doing
         that. They'll begin catching us systematic-like -- keeping the best and storing us in cages
         and things. They haven't begun on us yet! </sp>
-    <sp><spkr> PIERSON:</spkr> Not begun! </sp>
-    <sp><spkr> STRANGER:</spkr> Not begun! All that's happened so far is because we don't have sense
+    <sp><spkr>PIERSON:</spkr> Not begun! </sp>
+    <sp><spkr>STRANGER:</spkr> Not begun! All that's happened so far is because we don't have sense
         enough to keep quiet. . . botherin' them with guns and such stuff and losing our heads and
         rushing off in crowds. Now instead of our rushing around blind we've got to fix ourselves up
         -- fix ourselves up according to the way things are NOW. Cities, nations, civilization,
         progress. . . done. </sp>
-    <sp><spkr> PIERSON:</spkr> But if that's so, what is there to live for? </sp>
-    <sp><spkr> STRANGER:</spkr> Well, there won't be any more concerts for a million years or so,
+    <sp><spkr>PIERSON:</spkr> But if that's so, what is there to live for? </sp>
+    <sp><spkr>STRANGER:</spkr> Well, there won't be any more concerts for a million years or so,
         and no nice little dinners at restaurants. If it's amusement you're after, I guess the
         game's up. </sp>
-    <sp><spkr> PIERSON:</spkr> And what is there left? </sp>
-    <sp><spkr> STRANGER:</spkr> Life. . . that's what! I want to live. Yeah, and so do you. We're
+    <sp><spkr>PIERSON:</spkr> And what is there left? </sp>
+    <sp><spkr>STRANGER:</spkr> Life. . . that's what! I want to live. Yeah, and so do you. We're
         not going to be exterminated. And I don't mean to be caught, either, and tamed, and
         fattened, and bred, like an ox. </sp>
-    <sp><spkr> PIERSON:</spkr> What are you going to do? </sp>
-    <sp><spkr> STRANGER:</spkr> I'm going on. . . right under their feet. I got a plan. We men as
+    <sp><spkr>PIERSON:</spkr> What are you going to do? </sp>
+    <sp><spkr>STRANGER:</spkr> I'm going on. . . right under their feet. I got a plan. We men as
         men are finished. We don't know enough. We gotta learn plenty before we've got a chance. And
         we've got to live and keep free while we learn, see? I've thought it all out, see. </sp>
-    <sp><spkr> PIERSON:</spkr> Tell me the rest. </sp>
-    <sp><spkr> STRANGER:</spkr> Well, it isn't all of us that were made for wild beasts, and that's
+    <sp><spkr>PIERSON:</spkr> Tell me the rest. </sp>
+    <sp><spkr>STRANGER:</spkr> Well, it isn't all of us that were made for wild beasts, and that's
         what it's got to be. That's why I watched YOU. All these little office workers that used to
         live in these houses -- they'd be no good. They haven't any stuff to 'em. They just used to
         run off to work. I've seen hundreds of 'em, running wild to catch their commuter train in
@@ -617,24 +617,24 @@
         on Sundays, worried about the hereafter. The Martians will be a godsend for those guys. Nice
         roomy cages, good food, careful breeding, no worries. After a week or so chasing about the
         fields on empty stomachs they'll come and be glad to be caught. </sp>
-    <sp><spkr> PIERSON:</spkr> You've thought it all out, haven't you? </sp>
-    <sp><spkr> STRANGER:</spkr> You bet I have! And that isn't all. These Martians will make pets of
+    <sp><spkr>PIERSON:</spkr> You've thought it all out, haven't you? </sp>
+    <sp><spkr>STRANGER:</spkr> You bet I have! And that isn't all. These Martians will make pets of
         some of 'em, train 'em to do tricks. Who knows? Get sentimental over the pet boy who grew up
         and had to be killed. . . And some, maybe, they'll train to hunt us. </sp>
-    <sp><spkr> PIERSON:</spkr> No, that's impossible. No human being. . . </sp>
-    <sp><spkr> STRANGER:</spkr> Yes they will. There's men who'll do it gladly. If one of them ever
+    <sp><spkr>PIERSON:</spkr> No, that's impossible. No human being. . . </sp>
+    <sp><spkr>STRANGER:</spkr> Yes they will. There's men who'll do it gladly. If one of them ever
         comes after me, why. . . </sp>
-    <sp><spkr> PIERSON:</spkr> In the meantime, you and I and others like us. . . where are we to
+    <sp><spkr>PIERSON:</spkr> In the meantime, you and I and others like us. . . where are we to
         live when the Martians own the earth? </sp>
-    <sp><spkr> STRANGER:</spkr> I've got it all figured out. We'll live underground. I've been
+    <sp><spkr>STRANGER:</spkr> I've got it all figured out. We'll live underground. I've been
         thinking about the sewers. Under New York are miles and miles of 'em. The main ones are big
         enough for anybody. Then there's cellars, vaults, underground storerooms, railway tunnels,
         subways. You begin to see, eh? And we'll get a bunch of strong men together. No weak ones;
         that rubbish -- out. </sp>
-    <sp><spkr> PIERSON:</spkr> And you meant me to go? </sp>
-    <sp><spkr> STRANGER:</spkr> Well, I gave you a chance, didn't I? </sp>
-    <sp><spkr> PIERSON:</spkr> We won't quarrel about that. Go on. </sp>
-    <sp><spkr> STRANGER:</spkr> And we've got to make safe places for us to stay in, see, and get
+    <sp><spkr>PIERSON:</spkr> And you meant me to go? </sp>
+    <sp><spkr>STRANGER:</spkr> Well, I gave you a chance, didn't I? </sp>
+    <sp><spkr>PIERSON:</spkr> We won't quarrel about that. Go on. </sp>
+    <sp><spkr>STRANGER:</spkr> And we've got to make safe places for us to stay in, see, and get
         all the books we can -- science books. That's where men like you come in, see? We'll raid
         the museums, we'll even spy on the Martians. It may not be so much we have to learn before
         -- just imagine this: four or five of their own fighting machines suddenly start off -- heat
@@ -642,13 +642,13 @@
         learned the way how. It may even be in our time. Gee! Imagine having one of them lovely
         things with it's heat ray wide and free! We'd turn it on Martians, we'd turn it on men. We'd
         bring everybody down to their knees. </sp>
-    <sp><spkr> PIERSON:</spkr> That's your plan? </sp>
-    <sp><spkr> STRANGER:</spkr> You, and me, and a few more of us we'd own the world. </sp>
-    <sp><spkr> PIERSON:</spkr> I see. . . </sp>
-    <sp><spkr> STRANGER:</spkr>
+    <sp><spkr>PIERSON:</spkr> That's your plan? </sp>
+    <sp><spkr>STRANGER:</spkr> You, and me, and a few more of us we'd own the world. </sp>
+    <sp><spkr>PIERSON:</spkr> I see. . . </sp>
+    <sp><spkr>STRANGER:</spkr>
         <stage>FADING OUT</stage> Say, what's the matter? . . . Where are you going? </sp>
-    <sp><spkr> PIERSON:</spkr> Not to your world. . . Goodbye, stranger. . . </sp>
-    <sp><spkr> PIERSON:</spkr> After parting with the artilleryman, I came at last to the Holland
+    <sp><spkr>PIERSON:</spkr> Not to your world. . . Goodbye, stranger. . . </sp>
+    <sp><spkr>PIERSON:</spkr> After parting with the artilleryman, I came at last to the Holland
         Tunnel. I entered that silent tube anxious to know the fate of the great city on the other
         side of the Hudson. Cautiously I came out of the tunnel and made my way up Canal Street. I
         reached Fourteenth Street, and there again were black powder and several bodies, and an evil
@@ -689,7 +689,7 @@
         clean-cut, hard, and silent, under the dawn of that last great day. <stage>MUSIC SWELLS UP AND
             OUT</stage>
     </sp>
-    <sp><spkr> ORSON WELLES:</spkr> This is Orson Welles, ladies and gentlemen, out of character to
+    <sp><spkr>ORSON WELLES:</spkr> This is Orson Welles, ladies and gentlemen, out of character to
         assure you that The War of The Worlds has no further significance than as the holiday
         offering it was intended to be. The Mercury Theatre's own radio version of dressing up in a
         sheet and jumping out of a bush and saying Boo! Starting now, we couldn't soap all your
@@ -701,11 +701,11 @@
         inhabitant of the pumpkin patch, and if your doorbell rings and nobody's there, that was no
         Martian. . .it's Hallowe'en. <stage>MERCURY THEATRE THEME UP FULL, THEN DOWN</stage>
     </sp>
-    <sp><spkr> ANNOUNCER:</spkr> Tonight the Columbia Broadcasting System and its affiliated
+    <sp><spkr>ANNOUNCER:</spkr> Tonight the Columbia Broadcasting System and its affiliated
         stations coast-to-coast have brought you "The War of the Worlds," by H.G. Wells, the
         seventeenth in its weekly series of dramatic broadcasts featuring Orson Welles and the
         Mercury Theatre on the Air. Next week we present a dramatization of three famous short
-        stories. . . . This is the Columbia Broadcasting System.</sp>
-    <stage>THEME UP TO FINISH</stage>
+        stories. . . . This is the Columbia Broadcasting System.
+        <stage>THEME UP TO FINISH</stage></sp>
     </body>
 </root>
