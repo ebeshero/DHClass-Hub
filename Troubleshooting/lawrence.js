@@ -9,6 +9,6 @@ function show_hide() {
     tableOfValues.style.visibility = "hidden";
 	}
 	else {
-	  tableOfValues.style.visibility = "visible"
+	  tableOfValues.style.visibility = "visible";
 	}
 }
