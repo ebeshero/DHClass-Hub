@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Chapter 1: Female Labor</title>
+            <title level="m">The White Slaves of Free America</title>
+            <author>John T. McEnnis</author>
+            <editor>Rebecca Parker</editor>
+            <!--ebb: Editorial pseudo-markup added for simplicity, where we alter the source text of the original to separate out distinct questions and response-->
+         </titleStmt>
+         <publicationStmt>
+            <p><!--Flesh out element content --></p>
+         </publicationStmt>
+         <sourceDesc>
+           <p> <!--Flesh out element content --></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="table">
+            <head>SANITARY CONDITION OF WORKSHOPS AND FACTORIES.</head>
+           <fs xml:id="QA1">
+              <f name="question">
+                 <string>Is there free circulation of air through and about the building in which you work?</string> 
+              </f>
+              <f name="note">One says where she is employed there are 100 women and small girls who work in a cellar without ventilation, and gas and electric lights burning all day.</f>
+              
+              <f name="response" select="Yes" n="468"/>
+               <f name="response" select="No" n="249"/>
+              <f name="response" select="Blank" n="93"/>
+           </fs>
+           <fs xml:id="QA2">
+              <f name="question">
+                 <string>Are there offensive odors in the rooms occupied by employes[?]</string>
+              </f>
+              <f name="response" select="Yes" n="342"/>
+              <f name="response" select="No" n="233"/>
+              <f name="response" select="Blank" n="235"/>
+           </fs>
+            <fs xml:id="QA3">
+               <f name="question">
+                  <string>[If there are offensive odors in the rooms], from what causes?</string>
+               </f>
+               <f name="response" select="water_closet" n="81"/>
+               <f name="response" select="other_causes" n="73"/>
+            </fs>
+          
+            <fs xml:id="QA4">
+               <f name="question">
+                  <string>Are there facilities for washing?</string>
+               </f>
+              <f name="note">Fourteen answered yes, but if caught washing are fined.</f>
+               <f name="response" select="Yes" n="460"/>
+               <f name="response" select="No" n="124"/>
+               <f name="response" select="Blank" n="226"/>
+               <f name="response" select="Yes_but_fined" n="14"/>
+            </fs>
+         
+            <fs xml:id="QA5">
+               <f name="question">
+                  <string>Are seats provided, as prescribed by law?</string>
+               </f>
+               <f name="response" select="Yes" n="320"/>
+               <f name="response" select="No" n="192"/>
+               <f name="response" select="Blank" n="298"/>
+            </fs>
+            <fs xml:id="QA6">
+               <f name="question">
+                  <string>Are employes furnished with pure drinking water?</string>
+               </f>
+               <f name="note">In some cases where they have ice water in the summer the employes are assessed or made to pay a stated sum per season.</f>
+               <f name="response" select="Yes" n="527"/>
+               <f name="response" select="No" n="102"/>
+               <f name="response" select="Blank" n="181"/>
+            </fs>
+            <fs xml:id="QA7">
+               <f name="question">
+                  <string>Does the work require the employes to stoop over?</string>
+               </f>
+               <f name="response" select="Yes" n="587"/>
+               <f name="response" select="No" n="116"/>
+               <f name="response" select="Blank" n="107"/>
+            </fs>
+            <fs xml:id="QA8">
+               <f name="question">
+                  <string>Are there proper and separate facilities for change of dress by males and females?</string>
+               </f>
+               <f name="note">A number answer that they change in the water-closet.</f>
+               <f name="response" select="Yes" n="354"/>
+               <f name="response" select="No" n="221"/>
+               <f name="response" select="Blank" n="235"/>
+            </fs>
+            <fs xml:id="QA9">
+               <f name="question">
+                  <string>Are there separate water-closets for males and females[?]</string>
+               </f>
+               <f name="note">Yes, but very poor and not pleasant to enter.</f>
+               <f name="note">In sight of male employer, and another case not fit to use, and a breeding-place of disease.</f>
+               <f name="response" select="Yes" n="509"/>
+               <f name="response" select="No" n="126"/>
+               <f name="response" select="Blank" n="175"/>
+            </fs>
+            <fs xml:id="QA10">
+               <f name="question">
+                  <string>Are there stairways from the windows outside?</string>
+               </f>
+               <f name="response" select="Yes" n="350"/>
+               <f name="response" select="No" n="318"/>
+               <f name="response" select="Blank" n="148"/>
+            </fs>
+            <fs xml:id="QA11">
+               <f name="question">
+                  <string>Are the rooms supplied with water pipes?</string>
+               </f>
+               <f name="response" select="Yes" n="265"/>
+               <f name="response" select="No" n="385"/>
+               <f name="response" select="Blank" n="165"/>
+            </fs>
+            <fs xml:id="QA12">  <f name="question">
+               <string>Are there hose attachments?</string>
+            </f>
+               <f name="response" select="Yes" n="224"/>
+               <f name="response" select="No" n="375"/>
+               <f name="response" select="Blank" n="218"/></fs>
+            <fs xml:id="QA13">
+               <f name="question">
+                  <string>Are employees compelled to stand or sit at their work?</string>
+               </f>
+               <f name="note">Some are fined if caught sitting, and in some instances must furnish their own seats.</f>
+               <f name="response" select="Sit" n="469"/>
+               <f name="response" select="Stand" n="175"/>
+               <f name="response" select="Optional" n="67"/>
+               <!--2015-10-09 ebb: I've reversed the order of these from the original table to keep related information together.-->
+               <f name="response" select="Blank" n="99"/>
+            </fs>
+            <fs xml:id="QA14">
+               <f name="question">
+                  <string>Are there water tanks and buckets on each floor?</string>
+               </f>
+               <f name="response" select="Yes" n="236"/>
+               <f name="response" select="No" n="387"/>
+               <f name="response" select="Blank" n="198"/>
+            </fs>
+            
+            
+         </div>   
+      </body>
+  </text>
+</TEI>

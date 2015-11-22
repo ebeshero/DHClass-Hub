@@ -1,0 +1,32 @@
+/* 2015-11-21 ebb: A CSS to control positioning of SVG with HTML table elements, 
+balanced on left and right of a screen, to be used with JavaScript 
+to show/hide particular rows of a table. */
+body {background-color: #B4D6B4; color: #031B3F; font-family: arial, helvetica, sans-serif; 
+padding:15px; line-height:1.4em}
+div#svg {width: 65%; float: left}
+div#graphTable {width: 35%; float: left; }
+/*div#otherTables {width:100%; float:left;}*/
+div#otherTables {vertical-align:-500px;}
+
+td {text-align:center; }
+td.table1Question {text-align:left;}
+td.question {text-align:left;}
+td.Blank {background-color:#33C2CC;}
+td.No {background-color:#FF99A3;}
+td.Yes_but_fined {background-color:#FFFB81;}
+td.Yes_but_fined:empty {visibility:hidden;}
+td.Yes {background-color:#59FFAD;}
+
+table#graphData tr[id] {display: none; height:100px; width:300px;}
+table#graphData tr[id="QA1"] {display: table-row;}
+
+span.instructions {font-style:italic; color:#cc0000;}
+.id {width:20px;}
+.table1Question {width:800px; height:50px;}
+.Yes {width:20px;}
+.Yes_but_fined {width:20px;}
+.No {width:20px;}
+.Blank {width:20px;}
+.Total {width:20px;}
+
+img {position:relative; top:-200px;}

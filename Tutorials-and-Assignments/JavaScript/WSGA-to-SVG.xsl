@@ -4,6 +4,7 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg">
+    <!--Initially prepared for SVG Homework Exercise by Alex Mielnicki. Thanks, Alex! -->
     <!-- RJP: comment left on courseweb by Alex: I hope you like it, I worked especially hard on this one :) -->
     <xsl:output method="xml" indent="yes"/>
     
@@ -17,8 +18,6 @@
     <xsl:variable name="left" select="70"/>
     <xsl:variable name="barStart" select="$left + 17"/>
     <xsl:variable name="barWidth" select="700"/>
-    <!--ebb: This $barWidth is one value we could adjust to take up less space on the screen. We'll also
-    need to alter the legend. -->
     
     <!--***End Global Variables***-->
 
@@ -46,7 +45,7 @@
                 <!--***Start Bar Definition***-->
                 <xsl:for-each select="//fs[f/@select='Yes']">
                     <xsl:sort select="f[@select='Blank']/@n div sum(f/@n)" order="ascending"/>
-                    <g id="svg-{@xml:id}">
+                    <g id="svg-{@xml:id}" class="bars">
                         <!--2015-11-20 ebb: I'm adding a <g> element here to bundle the bars and text for each question all together 
                             and identify it with a distinct id. Note: If I want to integrate this with an HTML table that
                         has <tr> elements with @id attributes on them, HTML won't permit me to reuse the same @id. I need
