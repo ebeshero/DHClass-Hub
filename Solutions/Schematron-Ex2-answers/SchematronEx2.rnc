@@ -1,9 +1,0 @@
-start = journal
-journal = element journal { issue+ }
-issue = element issue { article+ }
-article = element article { title, author, date, content }
-content = element content { p+ }
-title = element title { text }
-author = element author { text }
-date = element date { xsd:date }
-p = element p { text } 
