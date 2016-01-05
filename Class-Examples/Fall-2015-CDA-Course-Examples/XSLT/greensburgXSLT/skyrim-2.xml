@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="skyrim.rnc" type="application/relax-ng-compact-syntax"?>
+<skyrim>
+    <!--Original verison by Jean Romanowski 2012-01-20.
+        Modified for use as an XSLT homework assignment by djb, gk, jec 2012-02-11.
+        
+        This is yet another Skyrim book. I like them. I picked this book because, as a player, 
+        I really truly enjoyed it. Most players of Oblivion (Skyrim's predecessor, which occurred 
+        in the same world, but 200 years earlier) would; it actually recaps the main quest of the 
+        previous game, from the perspective of a historian. The nature of Bethesda games allows 
+        for a great amount of player freedom, and so some details of this book could be correct 
+        for how one player experienced it, but completely inaccurate when describing another 
+        player's game. This is why the hero's alignment and loyalty is left neutral; many players 
+        choose to be evil, and may have ignored the main quest entirely. For this markup, I chose 
+        to highlight all the events in the main quest which would stick out to an Oblivion player 
+        interested to see how his hero's saga has been told. -->
+    <cast>
+        <character id="UrielSeptim" loyalty="empire blades" alignment="good"/>
+        <character id="hero" loyalty="neutral" alignment="neutral"/>
+        <character id="Jauffre" loyalty="empire blades" alignment="good"/>
+        <character id="MartinSeptim" loyalty="empire blades" alignment="good"/>
+        <character id="MehrunesDagon" loyalty="daedra" alignment="evil"/>
+        <character id="MankarCamoran" loyalty="daedra MythicDawn" alignment="evil"/>
+        <faction id="MythicDawn" alignment="evil"/>
+        <faction id="blades" alignment="good"/>
+        <faction id="daedra" alignment="evil"/>
+        <faction id="empire" alignment="good"/>
+        <faction id="DarkBrotherhood" alignment="neutral"/>
+    </cast>
+    <cover>
+        <title>The Oblivion Crisis</title>
+        <attribution>by <author>Praxis Sarcorum</author>, Imperial Historian</attribution>
+        <subtitle>A summary of the events stemming from <QuestEvent>the assassination of <character
+                    ref="UrielSeptim">Emperor Uriel Septim VII</character></QuestEvent></subtitle>
+    </cover>
+    <body>
+        <paragraph>At the turning of the Fourth Age, in the year 3E 433, <QuestEvent>the <character
+                    ref="UrielSeptim">Emperor Uriel Septim VII</character> was
+                assassinated</QuestEvent> and <QuestEvent>the <QuestItem>Amulet of Kings</QuestItem>
+                was destroyed</QuestEvent>. This set in motion a chain of events that would bring
+            down an empire and change forever the relationship between man and the gods.</paragraph>
+
+        <paragraph><QuestEvent>The <faction ref="MythicDawn">assassins</faction> first attacked the
+                    <character ref="UrielSeptim">Emperor</character></QuestEvent> in the
+                <location>White Gold Tower</location>. While the <faction ref="blades"
+                >Blades</faction> held <faction ref="MythicDawn">them</faction> back,
+                <QuestEvent>the <character ref="UrielSeptim">Emperor</character> made <character
+                    ref="UrielSeptim">his</character> way down to the
+                <location>dungeons</location></QuestEvent>, to a <location>secret escape
+                route</location> built into <location>one of the prison cells</location>. For
+            reasons known only to <character ref="UrielSeptim">himself</character>, the <character
+                ref="UrielSeptim">Emperor</character>
+            <QuestEvent>pardoned the fortunate <character ref="hero"
+                >prisoner</character></QuestEvent> in that <location>cell</location>. Some say the
+                <character ref="hero">prisoner</character> reminded <character ref="UrielSeptim"
+                >him</character> of a childhood friend. Others say it was a <QuestEvent>moment of
+                prophecy</QuestEvent>. Whatever the case, the <character ref="hero"
+                >prisoner</character> came to play a fateful role in the history of the
+                <location>Empire</location> and <location>Tamriel</location> - surely a sign that
+            the gods themselves were at work.</paragraph>
+
+        <paragraph>The pursuing <QuestEvent><faction ref="MythicDawn">assassins</faction> killed the
+                    <faction ref="blades">Blades</faction> bodyguards</QuestEvent> in a relentless
+            series of sneak attacks. Eventually <QuestEvent><faction ref="MythicDawn">they</faction>
+                struck down the <character ref="UrielSeptim">Emperor</character>
+                <character ref="UrielSeptim">himself</character></QuestEvent>. Before <character
+                ref="UrielSeptim">he</character> fell, <QuestEvent><character ref="UrielSeptim"
+                    >Uriel Septim VII</character> gave the <QuestItem>Amulet of Kings</QuestItem> to
+                the <character ref="hero">prisoner</character></QuestEvent>, who somehow
+                <QuestEvent>made it out of the <location>Imperial sewers</location></QuestEvent> and
+            into the light of day.</paragraph>
+
+        <paragraph>The assassination is now known to have been the work of a group of <faction
+                ref="MythicDawn">daedric cultists</faction> known as the <faction ref="MythicDawn"
+                >Mythic Dawn</faction>. (Those who still suspect the <faction ref="DarkBrotherhood"
+                >Dark Brotherhood</faction> should consider two facts: first, they would have only
+            needed a single assassin, not a small army of them; second, the <faction
+                ref="DarkBrotherhood">Dark Brotherhood</faction> would never be so foolish as to
+                <QuestEvent>effectively declare war on the Empire</QuestEvent> and thus ensure their
+            complete destruction. Witness the eventual fate of the <faction ref="MythicDawn">Mythic
+                Dawn</faction>.)</paragraph>
+
+        <!---A small note about the inclusion of an effective declaration of war on the Empire as a quest event: in Skyrim, the main quest for the Dark Brotherhood is to assassinate the Emperor of Tamriel. This amused me, so I included it.-->
+
+        <paragraph>The <QuestItem>Amulet of Kings</QuestItem> next surfaced at <location>Weynon
+                Priory</location> near <location type="city">Chorrol</location>. <character
+                ref="Jauffre">Jauffre</character>, secret <epithet ref="Jauffre">Grandmaster of the
+                    <faction ref="blades">Blades</faction></epithet> and head of the
+                <location>priory</location>, <QuestEvent>took possession of the
+                    <QuestItem>amulet</QuestItem></QuestEvent>. <QuestEvent>The <character
+                    ref="hero">messenger</character> was sent off to <location type="city"
+                    >Kvatch</location></QuestEvent> to find a lowly <character ref="MartinSeptim"
+                >priest</character> named <character ref="MartinSeptim">Martin</character>.
+            Unbeknownst even to <character ref="MartinSeptim">himself</character>, <character
+                ref="MartinSeptim">Martin</character> was the bastard son of <character
+                ref="UrielSeptim">Uriel Septim VII</character>, and the last heir to the Ruby
+            Throne. <character ref="MartinSeptim">He</character> alone could use the
+                <QuestItem>Amulet of Kings</QuestItem> to light the Dragonfires that wards the
+            barrier between <location>Tamriel</location> and <location>Oblivion</location>, and save
+            the world from the <faction ref="MythicDawn">Mythic Dawn</faction> plot.</paragraph>
+
+        <paragraph><QuestEvent>The <character ref="hero">prisoner</character> arrived at <location
+                    type="city">Kvatch</location></QuestEvent> to find <location type="city"
+                >it</location> overrun by <faction ref="daedra">daedra</faction> that had poured in
+            from a newly-opened Oblivion Gate, the start of the Empire-spanning devastation of the
+            Oblivion Crisis. How <QuestEvent>the <character ref="hero">prisoner</character> closed
+                the gate</QuestEvent> is not recorded. Once closed, <character ref="MartinSeptim"
+                >Martin</character> and the surviving <location type="city">Kvatch</location>
+            <faction ref="empire">guardsmen</faction> drove back the <faction ref="daedra"
+                >daedra</faction>.</paragraph>
+
+        <paragraph>Now known as the <epithet ref="hero">Hero of <location type="city"
+                    >Kvatch</location></epithet>, <QuestEvent>the <character ref="hero"
+                    >prisoner</character> and <character ref="MartinSeptim">Martin</character>
+                returned to <location>Weynon Priory</location></QuestEvent>, only to find the
+                <location>priory</location> sacked and the <QuestItem>Amulet</QuestItem> taken.
+                <character ref="Jauffre">Jauffre</character> survived the attack, however, and
+                <QuestEvent>the <character ref="hero Jauffre MartinSeptim">three of them</character>
+                made their way to <location>Cloud Ruler Temple</location></QuestEvent>, bastion of
+            the <faction ref="blades">Blades</faction>. This secret <location>fortress</location> in
+            the <location>mountains</location> outside <location type="city">Bruma</location> is
+            where <character ref="MartinSeptim">Martin</character> was held safe while
+                <QuestEvent>the <epithet ref="hero">Hero of <location type="city"
+                    >Kvatch</location></epithet> searched for the lost
+                <QuestItem>Amulet</QuestItem></QuestEvent>.</paragraph>
+
+        <paragraph>Knowing only that a mysterious group called the <faction ref="MythicDawn">Mythic
+                Dawn</faction> was behind the <QuestEvent>assassination and theft of the
+                    <QuestItem>Amulet</QuestItem></QuestEvent>, <QuestEvent>the <epithet ref="hero"
+                    >Hero of <location type="city">Kvatch</location></epithet> was sent to locate
+                the <faction ref="MythicDawn">cult</faction></QuestEvent>. With the help of
+                <character>Baurus</character>, a <faction ref="blades">Blade</faction> in the
+            service of the <character ref="UrielSeptim">Emperor</character>, <character
+                ref="MartinSeptim hero Jauffre">they</character> somehow <QuestEvent>used the
+                    <QuestItem>Commentaries on the Mysterium Xarxes</QuestItem></QuestEvent>,
+            esoteric works by the madman <character ref="MankarCamoran">Mankar Camoran</character>,
+            to direct <character ref="MartinSeptim hero Jauffre">them</character> to the <faction
+                ref="MythicDawn">Mythic Dawn</faction>'s secret <location>lair</location>. Scholars
+            familiar with the <QuestItem>Commentaries</QuestItem> claim the location is not directly
+            mentioned in <QuestItem>them</QuestItem>. How <character ref="MartinSeptim hero Jauffre"
+                >they</character> did this remains a mystery.</paragraph>
+
+        <paragraph>No official records exist of how <QuestEvent>the <epithet ref="hero">Hero of
+                        <location type="city">Kvatch</location></epithet> penetrated the <faction
+                    ref="MythicDawn">Mythic Dawn</faction>'s <location>lair</location></QuestEvent>
+            near <location>Lake Arrius</location>. There is a bardic tale that claims the <character
+                ref="hero">Hero</character> used <QuestEvent>trickery and disguise</QuestEvent>, but
+            that is just speculation.What was discovered there is that <character
+                ref="MankarCamoran">Mankar Camoran</character> was behind the <faction
+                ref="MythicDawn">Mythic Dawn</faction>, and that the <faction ref="MythicDawn"
+                >group</faction> worshiped the daedric prince <character ref="MehrunesDagon"
+                >Mehrunes Dagon</character>. <character ref="MankarCamoran">Mankar
+                Camoran</character> believed <character ref="MankarCamoran">himself</character> to
+            be a direct descendant of the <character>Camoran Usurper</character>, the infamous
+            pretender to the throne of <location>Valenwood</location>.</paragraph>
+
+        <paragraph>Somehow <QuestEvent>the <character ref="hero">Hero</character> escaped with the
+                    <QuestItem>Mysterium Xarxes itself</QuestItem></QuestEvent>, the holy book of
+            the <faction ref="MythicDawn">Mythic Dawn cult</faction>. <character ref="MankarCamoran"
+                >Mankar Camoran</character> fled to <location>Oblivion</location> with the
+                <QuestItem>Amulet of Kings</QuestItem>. With some effort and great risk to
+                <character ref="MartinSeptim">his</character> sanity, <QuestEvent><character
+                    ref="MartinSeptim">Martin</character> deciphered the Mysterium
+                Xarxes</QuestEvent> and intended to use <QuestItem>it</QuestItem> to open a gateway
+            to <character ref="MankarCamoran">Mankar Camoran</character> in order to recover the
+                <QuestItem>Amulet of Kings</QuestItem>.</paragraph>
+
+        <paragraph>Before <character ref="MartinSeptim">Martin</character> could perform the ritual
+            to open the gateway, <QuestEvent><character ref="MehrunesDagon">Mehrunes
+                    Dagon</character> opened an Oblivion Gate outside <location type="city"
+                    >Bruma</location></QuestEvent>. <QuestEvent>The <epithet ref="hero">Hero of
+                        <location type="city">Kvatch</location></epithet> saved the <location
+                    type="city">city</location> and <character ref="MartinSeptim">Martin</character>
+                by entering the gate and closing it</QuestEvent> before a <faction ref="daedra"
+                >daedric siege engine</faction> could destroy <location type="city">Bruma</location>
+            and <location>Cloud Ruler Temple</location>. Many songs and stories have been told of
+            this battle and I will not retell them here. The <epithet ref="hero">Hero of <location
+                    type="city">Kvatch</location></epithet> was now also known as the <epithet
+                ref="hero">Savior of <location type="city">Bruma</location></epithet>.</paragraph>
+
+        <paragraph>With the <location type="city">city</location> and <location>Cloud Ruler
+                Temple</location> safe, <QuestEvent><character ref="MartinSeptim">Martin</character>
+                opened the portal to <character ref="MankarCamoran">Mankar Camoran</character>'s
+                    "<location>Paradise</location>"</QuestEvent>. The details of what transpired in
+            this <location>place</location> have not been recorded. All that is known is that
+                <QuestEvent>the <epithet ref="hero">Savior of <location type="city"
+                    >Bruma</location></epithet> travelled to this <location>Paradise</location>,
+                killed <character ref="MankarCamoran">Mankar Camoran</character>, and returned with
+                the <QuestItem>Amulet of Kings</QuestItem></QuestEvent>.</paragraph>
+
+        <paragraph>With the <QuestItem>Amulet</QuestItem> in hand, <QuestEvent><character
+                    ref="MartinSeptim">Martin Septim</character> presented <character
+                    ref="MartinSeptim">himself</character> to the <faction ref="empire">Elder
+                    Council</faction> to be crowned <epithet ref="MartinSeptim">Emperor of all
+                        <location>Tamriel</location></epithet></QuestEvent>. Once crowned <character
+                ref="MartinSeptim">he</character> planned to relight the Dragonfires and seal
+                <location>Tamriel</location> from <location>Oblivion</location>. In a last-ditch
+            attempt to stop <character ref="MartinSeptim">him</character>, <QuestEvent><character
+                    ref="MehrunesDagon">Mehrunes Dagon</character> launched an assault on the
+                    <location type="city">Imperial City</location>, opening several Oblivion Gates
+                within the <location type="city">capital</location> itself</QuestEvent>. Uncrowned,
+                <character ref="MartinSeptim">Martin</character> joined the battle in the <location
+                type="city">city streets</location>.</paragraph>
+
+        <paragraph><QuestEvent><character ref="MehrunesDagon">Mehrunes Dagon himself</character>
+                left <location>Oblivion</location> and entered
+                <location>Tamriel</location></QuestEvent>, breaking the covenant. Only the unlit
+            Dragonfires allowed this to be possible. Now that the barrier was ripped asunder, it was
+            too late to relighting the Fires. <character ref="MartinSeptim">Martin
+                Septim</character> chose to make the ultimate sacrifice - <QuestEvent><character
+                    ref="MartinSeptim">he</character> shattered the <QuestItem>Amulet of
+                    Kings</QuestItem> to become the <character ref="MartinSeptim">avatar of the god
+                    Akatosh</character> and do battle with <character ref="MehrunesDagon">Mehrunes
+                    Dagon</character></QuestEvent>.</paragraph>
+
+        <paragraph>Records of this battle vary wildly. What we do know is that
+                    <QuestEvent><character ref="MehrunesDagon">Mehrunes Dagon</character> was
+                defeated and sent back to <location>Oblivion</location></QuestEvent>.
+                <QuestEvent>The <character ref="MartinSeptim">avatar of Akatosh</character> was
+                turned to stone</QuestEvent> and can be seen to this day in the <location>Temple of
+                the One</location> in the <location type="city">Imperial City</location>. With the
+                <QuestItem>Amulet</QuestItem> gone, the Dragonfires quenched, and the last
+            Dragonblood Emperor dead, the barrier to <location>Oblivion</location> is sealed
+            forever.</paragraph>
+    </body>
+</skyrim>

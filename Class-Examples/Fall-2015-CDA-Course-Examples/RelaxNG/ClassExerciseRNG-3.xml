@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="RNG-ClassExercise3.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <heading addressee="David_Garnett"/>
+    <heading address="52_Tavistock_Square,_W.C.1"/>
+    
+   <heading date="1926-05-05"/>
+    
+   <introduction addressee="Bunny" aka="David_Garnett">Dear Bunny,</introduction>
+    <body><txt paragraph="first">I write from this doomed city and I have great doubts that this will
+    reach you. We had arranged, before this horror [The General Strike], to
+    stay with <name>Dadie</name> at <location>Cambridge</location> on the <time date="1926-05-21">21st</time>—God knows what will have
+    happened by then. But let us come later, if its possible. We very much
+    want to.</txt>
+    
+    <txt paragraph="second">There has been such confusion here <situation>(all helpers in the Press fled)</situation> that
+    we couldn't send you <name>Viola</name> [Tree's Castles in the Air]; now parcels aren't
+    taken. But we will send directly it is possible again:</txt>
+    
+    <txt paragraph="third">Well—I like <animal type="snakes"/>: so far as human feelings are left me. After <time>2 days</time>
+    of worrying and doing nothing, and talking and listening in, one is scarcely
+    a <animal type="worm"/>, let alone a<animal type="bird"/>. <question>What happens to you in the country?</question></txt></body>
+    
+   <closing>Yr
+    <signature signed="Virginia_Wolf">VW</signature></closing>
+    
+</letter>

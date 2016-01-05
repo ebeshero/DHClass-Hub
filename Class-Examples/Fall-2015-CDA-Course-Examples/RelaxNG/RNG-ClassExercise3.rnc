@@ -1,0 +1,27 @@
+start = letter
+letter = element letter {heading+, introduction, body, closing}
+heading = element heading {addressee | address | date}
+addressee = attribute addressee {"David_Garnett"|"Bunny"}
+address = attribute address {"52_Tavistock_Square,_W.C.1"}
+date = attribute date {"1926-05-05"|"1926-05-21"}
+introduction = element introduction {addressee, aka, text}
+aka = attribute aka {"David_Garnett"}
+body = element body {txt+} 
+txt = element txt {paragraph, text, mixed{situation*, name*, location*, animal*, time*, animal*, question*}}
+# ebb Give this some thought: Sure, this rule works with your current XML file, but do you REALLY want each of the elements in your mixed sytnax
+# block to apppear in that particular order, if they appear? 
+
+paragraph = attribute paragraph {"first"|"second"|"third"}
+# ebb Think about whether you might want an actual number here, and see what you'd type here for a datatype!
+
+name = element name {text}
+location = element location {text}
+time = element time {date*, text}
+situation = element situation {text}
+animal = element animal {type}
+question = element question {text}
+type = attribute type {"snakes"|"worm"|"bird"}
+closing = element closing {text, signature}
+signature = element signature {signed, text}
+signed = attribute signed {"Virginia_Wolf"}
+

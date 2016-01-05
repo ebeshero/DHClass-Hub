@@ -1,0 +1,22 @@
+To see white space and hard returns:
+Options-Preferences-Editor-Then click Show TAB/NBSP/EQL/EOF marks and Show SPACE marks.
+
+Analyze Document. 
+Notice Structure - Speaker, Line, Stage Direction.
+Think about what is occuring most often. Need to bound speaker with lines also need to keep stage directions out as different/separate unit of text to tag.
+
+1. In order to find and tag speeches:
+
+	Find: `\n[A-Z]{2}.+?:`
+	Replace: `</sp><sp>\0`
+
+2. Finding Square Brackets [  ] 
+
+	Find: `\[.+\]` ---need to escape the character
+
+3. Finding Parenthesis (   )
+
+	Find: `\(.+\)` ---need to escape the character
+
+	
+	

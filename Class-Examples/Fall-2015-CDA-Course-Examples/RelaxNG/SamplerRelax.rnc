@@ -1,0 +1,23 @@
+start = xml
+xml = element xml {head, body}
+head = element head {date, writer, recipient} 
+date = element date {when, text}
+when = attribute when {text}
+
+writer = element writer {text}
+recipient = element recipient {text}
+
+
+
+
+body = element body {p+, close}
+p = element p {mixed {(name | date)*}}
+name = element name {text, type}
+type = attribute type {"person" | "place" }
+
+
+close = element close {mixed{signature}}
+signature = element signature {text}
+
+
+
