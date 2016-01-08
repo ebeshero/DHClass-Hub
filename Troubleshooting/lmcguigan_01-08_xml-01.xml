@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receipe type="soup">
+    <amount cups="6"> <food item="fruit"> 6 ripe tomatoes (about 3 lbs), peeled and chopped (yielding about 6 cups)</food></amount>
+    <amount item="1"><food item="vegitable">1 red onion, finely chopped (about 1 1/4 cups)</food>
+    <food item="vegitable"> 1 cucumber, peeled, seeded, chopped (about 1 cup)</food>
+    <food item="vegitable">1 sweet red bell pepper (or green) seeded and chopped (about 1 cup)</food></amount>
+    <amount item="2"> <food item="vegitable">  2 stalks celery, chopped (about 1 cup)</food></amount>
+   <tablespoon amount="1-2">  <seasoning> 1-2 Tbsp chopped fresh parsley</seasoning>
+    <seasoning> 2 Tbsp chopped fresh chives</seasoning>
+       <seasoning item="fruit"> 1 Tbsp freshly squeezed lemon juice</seasoning></tablespoon> 
+    <teaspoon amount="1-2"> <seasoning> 1 clove garlic, minced (about 1 teaspoon)</seasoning>
+        <seasoning> 1 teaspoon Worcestershire sauce (omit for vegetarian option)</seasoning>
+    2 teaspoons sugar (more may be needed to balance out the acidity of the tomatoes, add to taste) </teaspoon>
+    <seasoning> Salt and fresh ground pepper to taste</seasoning>
+    <seasoning> 6 or more drops of Tabasco sauce to taste</seasoning>
+        <amount cups=".25"> <seasoning>1/4 cup red wine vinegar</seasoning>
+            <seasoning> 1/4 cup olive oil</seasoning></amount>
+    <amount cups="2"><food> 2 cups tomato juice (or 1 15-ounce can crushed tomatoes if you don't have tomato juice)</food></amount>
+</receipe>

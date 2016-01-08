@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Recipe>
+    <ingredients>
+        <Tomatoes prep="peeled, chopped" quality="ripe" quantity="6 cups"> Tomatoes</Tomatoes>
+        <Onion prep="finely chopped" quantity="1 1/4 cups"> Red Onion</Onion>
+        <Cucumber prep="peeled, seeded, chopped" quantity="1 cup"> Cucumber</Cucumber>
+        <BellPepper prep="seeded, chopped" quantity="1 cup"> Red Bell Pepper</BellPepper>
+        <Celery prep="chopped" quantity="1 cup"> Celery</Celery>
+        <Parsley prep="chopped" quality="fresh" quantity="1-2 tbsp"> Parsley</Parsley>
+        <Chives prep="chopped" quality="fresh" quantity="2 tbsp"> Chives</Chives>
+        <Garlic prep="minced" quality="clove" quantity="1 teaspoon"> Garlic</Garlic>
+        <Vinegar quantity="1/4 cup"> Red Wine Vinegar</Vinegar>
+        <Oil quantity="1/4 cup"> Olive Oil</Oil>
+        <Lemon prep="freshly squeezed" quantity="1 tblp"> Lemon Juice</Lemon>
+        <Sugar quantity="2 teaspoons, adjust to taste"> Sugar</Sugar>
+        <Salt quantity="to taste"> Salt</Salt>
+        <Pepper prep="freshly ground" quantity="to taste"> Pepper</Pepper>
+        <Tobasco quantity="6 drops, to taste"> Tobaco Sauce</Tobasco>
+        <Worcetershire quantity="1 teaspoon"> Worcetershire Sauce</Worcetershire>
+        <Tomatoejuice quantity="2 cups"> Tomatoe Jucie
+            <Dicedtomatoes altertnative="may replace tomatoe juice if none is available" quantity="1 15-ounce can"> Diced Tomatoes</Dicedtomatoes>
+        </Tomatoejuice>
+    </ingredients>
+    <Method> Place all ingredients in a large bowel. Use an immersion blender or blend in batches, to desired smoothness. We prefer our gazpacho somewhat chunky, so only pulse a few times in blender. Adjust seasonings to taste. Place in non-reactive container (tomatoes are acidic) to store. Chill several hours or overnight to allow flavors to blend.</Method>
+</Recipe>
