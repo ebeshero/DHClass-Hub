@@ -19,7 +19,7 @@
         <signature><persName ref="#hj">H Jacobs</persName></signature> 
     
     <publicationInformation>
-        <records><placeName type="region" region="New England">New England</placeName> Hospital Records</records>,
-        <collection><persName ref="#ss">Sophia Smith</persName> Collection</collection>, <orgName type="college" name="Smith College">Smith College</orgName>, <placeName type="city" city="Northampton" state="Massachusetts">Northampton, Massachusetts</placeName>
+        <records><placeName type="region" region="NewEngland">New England</placeName> Hospital Records</records>,
+        <collection><persName ref="#ss">Sophia Smith</persName> Collection</collection>, <orgName type="college" name="SmithCollege">Smith College</orgName>, <placeName type="city" city="Northampton" state="Massachusetts">Northampton, Massachusetts</placeName>
     </publicationInformation>
 </document>
