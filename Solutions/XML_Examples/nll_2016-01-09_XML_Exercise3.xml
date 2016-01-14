@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="song">
+    <title>We Didn't Start the Fire</title>
+    <artist type="singer" ref="#bj"><persName>Billy Joel</persName></artist>
+    
+    <lg>
+        <l n="1"><persName type="americanPresident" ref="#ht">Harry Truman</persName>, <persName type="actress" ref="#dd">Doris Day</persName>, Red <placeName type="country" country="China">China</placeName>, <persName type="singer" ref="#jr">Johnnie Ray</persName></l>
+        <l n="2"><placeName type="region" region="South_Pacific">South Pacific</placeName>, <persName type="radioCommentator" ref="#ww">Walter Winchell</persName>, <persName type="baseballPlayer" ref="#jd">Joe DiMaggio</persName></l>
+    </lg>
+    
+    <lg>
+        <l n="3"><persName type="AmericanSenator" ref="#jm">Joe McCarthy</persName>, <persName type="americanPresident" ref="#rn">Richard Nixon</persName>, <brand type="car">Studebaker</brand>, television</l>
+        <l n="4"><placeName type="country" country="North_Korea">North Korea</placeName>, <placeName type="country" country="South_Korea">South Korea</placeName>, <persName type="actress" ref="mm">Marilyn Monroe</persName></l>
+    </lg>
+    
+    <lg>
+        <l n="5"><persName type="criminals" ref="#r">Rosenbergs</persName>, H-bomb, <orgName type="band">Sugar Ray</orgName>, <placeName type="village" village="Panmunjom">Panmunjom</placeName></l>
+        <l n="6"><persName type="actor" ref="#mb">Brando</persName>, <production type="play" author="Oscar_Hammerstein_II" name="The_King_and_I">"The King and I"</production> and <literature type="novel" author="J_D_Salinger" name="The_Catcher_in_the_Rye">"The Catcher in the Rye"</literature></l>
+    </lg>
+    
+    <lg>
+        <l n="7"><persName type="americanPresident" ref="#de">Eisenhower</persName>, vaccine, <event type="coronation" when="1952-02-06" where="England"><placeName type="country" country="England">England</placeName>'s got a new <persName type="queen" name="Queen_Elizabeth_2" ref="#qe2">queen</persName></event></l>
+        <l n="8"><brand type="clothing">Marciano</brand>, <persName type="pianist" ref="#wl">Liberace</persName>, <persName type="philosopher" ref="#gs">Santayana</persName> goodbye</l>
+    </lg>
+    
+    <lg type="chorus">
+        <l n="9">We didn't start <event type="revolution">the fire</event></l>
+        <l n="10">It was always burning</l>
+        <l n="11">Since the <place>world</place>'s been turning</l>
+        <l n="12">We didn't start <event type="revolution">the fire</event></l>
+        <l n="13">No we didn't light it</l>
+        <l n="14">But we tried to fight it</l>
+    </lg>
+    
+    <lg>
+        <l n="15"><persName type="sovietUnionCommunistGeneral" ref="#js">Joseph Stalin</persName>, <persName type="sovietPolitician" ref="#gm">Malenkov</persName>, <persName type="egyptianPresident" ref="#gan">Nasser</persName> and <persName type="russianComposer" ref="#sp">Prokofiev</persName></l>
+        <l n="16"><persName type="businessMagnate" ref="#jdr">Rockefeller</persName>, <persName type="baseballPlayer" ref="#rc">Campanella</persName>, <placeName type="groupOfCountries">Communist Bloc</placeName></l>
+    </lg>
+    
+    <lg>
+        <l n="17"><persName type="attorney" ref="#rmc">Roy Cohn</persName>, <persName type="argentinianPresident" ref="#jdp">Juan Peron</persName>, <persName type="conductor" ref="#at">Toscanini</persName>, <substance type="Polyethylene terephthalate">Dacron</substance></l>
+        <l n="18"><event type="attack" when="1954" where="Vietnam"><placeName type="city" city="DienBienPhu" country="Vietnam">Dien Bien Phu</placeName> falls</event>, <music type="song" name="Rock_Around_the_Clock" artist="Bill_Haley">"Rock Around the Clock"</music></l>
+    </lg>
+    
+    <lg>
+        <l n="19"><persName type="theoreticalPhysicist" ref="#ae">Einstein</persName>, <persName type="actor" ref="#jbd">James Dean</persName>, <event type="baseball" when="1955" where="New_York"><placeName type="city" city="Brooklyn" state="NewYork" country="United_States">Brooklyn</placeName>'s got a winning team</event></l>
+        <l n="20"><persName type="americanPolitician" ref="#dc">Davy Crockett</persName>, <production type="broadwayMusical" actorWhoPlayedPeterPan="maryMartin">Peter Pan</production>, <persName type="singer" ref="#eap">Elvis Presley</persName>, <orgName type="themePark" location="California">Disneyland</orgName></l>
+    </lg>
+    
+    <lg>
+        <l n="21"><persName type="actress" ref="#bamb">Bardot</persName>, <placeName type="city" city="Budapest" country="Hungary">Budapest</placeName>, <placeName type="state" state="Alabama" country="United_States">Alabama</placeName>, <persName type="russianPolitician" ref="#nsk">Khrushchev</persName></l>
+        <l n="22"><persName type="actress" ref="#gpk">Princess Grace</persName>, <literature type="novel" author="Grace_Metalious" name="Peyton_Place">"Peyton Place"</literature>, <event type="crisis" when="1956-07-26" where="Egypt">trouble in the <placeName type="canal" country="Egypt">Suez</placeName></event></l>
+    </lg>
+    
+    <lg type="chorus">
+        <l n="23">We didn't start <event type="revolution">the fire</event></l>
+        <l n="24">It was always burning</l>
+        <l n="25">Since the <place>world</place>'s been turning</l>
+        <l n="26">We didn't start <event type="revolution">the fire</event></l>
+        <l n="27">No we didn't light it</l>
+        <l n="28">But we tried to fight it</l>
+    </lg>
+    
+    <lg>
+        <l n="29"><placeName type="city" city="LittleRock" state="Arkansas" country="United_States">Little Rock</placeName>, <persName type="poet" ref="#blp">Pasternak</persName>, <persName type="baseballPlayer" ref="#mcm">Mickey Mantle</persName>, <persName type="writer" ref="#jk">Kerouac</persName></l>
+        <l n="30"><object type="satellite">Sputnik</object>, <persName type="chinesePolitician" ref="#cel">Chou En-Lai</persName>, <production type="film" name="Bridge_on_the_River_Kwai">"Bridge on the River Kwai"</production></l>
+    </lg>
+    <!--2016-01-13: nll:  I'm turning this in, but it isn't finished yet.  I will have it done by the end of the day.-->
+    <lg>
+        <l n="31"><placeName type="country" country="Lebanon">Lebanon</placeName>, <persName type="frenchPresident" ref="#cdg">Charles de Gaulle</persName>, <placeName type="state" state="California" country="United_States">California</placeName> baseball</l>
+        <l n="32"><event type="murder" from="1958-01-21" to="1958-01-29"><persName type="criminal" ref="crs">Starkweather</persName> homicide</event>, <group>children of <substance type="medication">thalidomide</substance></group></l>
+    </lg>
+    
+    <lg>
+        <l n="33"><persName type="singer" ref="#chh">Buddy Holly</persName>, <production type="film" name="Ben_Hur">"Ben Hur"</production>, <event type="flyingMonkey" when="1959-05-28">space monkey</event>, <group where="New_York">Mafia</group></l>
+        <l n="34"><brand type="Wham-O!">Hula hoops</brand>, <persName type="cubanPrimeMinister" ref="#facr">Castro</persName>, <event type="quit" when="1959"><brand type="car">Edsel</brand> is a no-go</event></l>
+    </lg>
+    
+    <lg>
+        <l n="35"><orgName type="band">U2</orgName>, <persName type="koreanPolitician" ref="#sr">Syngman Rhee</persName>, <event type="crime" when="1960" where="United_States">payola</event> and <persName type="americanPresident" ref="#jfk">Kennedy</persName></l>
+        <l n="36"><persName type="singer" ref="#cc">Chubby Checker</persName>, <production type="film" name="Psycho">"Psycho"</production>, <group where="Belgium">Belgians</group> in the <placeName type="country" country="Congo" >Congo</placeName></l>
+    </lg>
+    
+    <lg type="chorus">
+        <l n="37">We didn't start <event type="revolution">the fire</event></l>
+        <l n="38">It was always burning</l>
+        <l n="39">Since the <place>world</place>'s been turning</l>
+        <l n="40">We didn't start <event type="revolution">the fire</event></l>
+        <l n="41">No we didn't light it</l>
+        <l n="42">But we tried to fight it</l>
+    </lg>
+    
+    <lg>
+        <l n="43"><persName type="writer" ref="#eh">Hemingway</persName>, <persName type="germanNazi" ref="#oae">Eichmann</persName>, <literature type="novel" author="Robert_A_Heinlein" name="Stranger_in_a_Strage_Land">"Stranger in a Strange Land"</literature></l>
+        <l n="44"><persName type="singer" ref="#bd">Dylan</persName>, <placeName type="city" city="Berlin" country="Germany">Berlin</placeName>, <event type="attack" from="1960" to="1961" where="Cuba">Bay of Pigs invasion</event></l>
+    </lg>
+    
+    <lg>
+        <l n="45"><production type="film">"Lawrence of Arabia"</production>, <event type="popculture" when="1962" where="England">British Beatlemania</event></l>
+        <l n="46"><orgName type="university" name="University_of_Mississippi">Ole Miss</orgName>, <persName type="astronaut" ref="#jhg">John Glenn</persName>, <persName type="boxer" ref="#sl">Liston</persName> beats <persName type="boxer" ref="#fp">Patterson</persName></l>
+    </lg>
+    
+    <lg>
+        <l n="47"><persName type="pope" ref="#pp">Pope Paul</persName>, <persName type="activist" ref="#mx">Malcolm X</persName>, <event type="scandal" when="1963" where="England">British politician sex</event></l>
+        <l n="48"><event type="assassination" when="1963" where="Dallas_Texas"><persName type="americanPresident" ref="#jfk">JFK</persName>, blown away</event>, what else do I have to say</l>
+    </lg>
+    
+    <lg type="chorus">
+        <l n="49">We didn't start <event type="revolution">the fire</event></l>
+        <l n="50">It was always burning</l>
+        <l n="51">Since the <place>world</place>'s been turning</l>
+        <l n="52">We didn't start <event type="revolution">the fire</event></l>
+        <l n="53">No we didn't light it</l>
+        <l n="54">But we tried to fight it</l>
+    </lg>
+    
+    <lg>
+        <l n="55"><substance>Birth control</substance>, <persName type="vietnameseLeader" ref="#hcm">Ho Chi Minh</persName>, <persName type="americanPresident" ref="#rn">Richard Nixon</persName> back again</l>
+        <l n="56"><event type="spaceExploration" when="1969-07-16">Moonshot</event>, <event type="musicFestival" from="1969-08-15" to="1969-08-18" where="Bethel_NewYork">Woodstock</event>, <event type="scandal" when="1972" where="Washington_DC">Watergate</event>, <music type="genre">punk rock</music></l>
+        <l n="57"><persName type="israeliPrimeMinister" ref="#mb">Begin</persName>, <persName type="americanPresident" ref="#rr">Reagan</persName>, <placeName type="country" country="Palestine">Palestine</placeName>, <event type="planeHijacking" when="1976">terror on the airline</event></l>
+        <l n="58"><event type="revolution" when="1979" where="Iran"><group where="Iran">Ayatollah</group>'s in <placeName type="country" country="Iran">Iran</placeName></event>, <event type="invasion" when="1979" where="Afghanistan"><group where="Russia">Russians</group> in <placeName type="country" country="Afghanistan">Afghanistan</placeName></event></l>
+    </lg>
+    
+    <lg>
+        <l n="59"><production type="televisionShow" name="Wheel_of_Fortune">"Wheel of Fortune"</production>, <persName type="astronaut" ref="#sr">Sally Ride</persName>, <event type="death" from="1984" to="1991"><music type="genre">heavy metal</music> suicide</event></l>
+        <l n="60"><event type="foreignTrade" from="1970s" to="1980s">oreign debts</event>, <group type="veterans" where="United_States">homeless vets</group>, <disease type="acquiredImmuneDeficiencySyndrome" cause="humanImmunodeficiencyVirus">AIDS</disease>, <substance type="crackCocaine">crack</substance>, <persName type="criminal" ref="#bg">Bernie Goetz</persName></l>
+        <l n="61"><event type="environmentalDisaster" when="1988" where="New_Jersey" name="Syringe_Tide">Hypodermics on the shores</event>, <event type="protest" when="1989" where="China"><placeName type="country" country="China">China</placeName>'s under martial law</event></l>
+        <l n="62"><event type="popculture" brand="Pepsi_Coke" when="1989">Rock and roller cola wars</event>, I can't take it anymore</l>
+    </lg>
+    
+    <lg type="chorus">
+        <l n="63">We didn't start <event type="revolution">the fire</event></l>
+        <l n="64">It was always burning</l>
+        <l n="65">Since the <place>world</place>'s been turning</l>
+        <l n="66">We didn't start <event type="revolution">the fire</event></l>
+        <l n="67">But when we are gone</l>
+        <l n="68">Will it still burn on, and on, and on, and on</l>
+    </lg>
+    
+    <lg type="chorus">
+        <l n="69">We didn't start <event type="revolution">the fire</event></l>
+        <l n="70">It was always burning</l>
+        <l n="71">Since the <place>world</place>'s been turning</l>
+        <l n="72">We didn't start <event type="revolution">the fire</event></l>
+        <l n="73">No we didn't light it</l>
+        <l n="74">But we tried to fight it</l>
+    </lg>
+    
+    <lg type="chorus">
+        <l n="75">We didn't start <event type="revolution">the fire</event></l>
+        <l n="76">It was always burning</l>
+        <l n="77">Since the <place>world</place>'s been turning</l>
+        <l n="78">We didn't start <event type="revolution">the fire</event></l>
+        <l n="79">No we didn't light it</l>
+        <l n="80">But we tried to fight it</l>
+    </lg>
+</document>
