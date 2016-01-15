@@ -1,0 +1,8 @@
+start = play 
+play = element play {heading, body}
+heading = element heading {title, year}
+title = element title {text}
+year = element year {xsd:int}
+body = element body {quote*}
+quote = element quote {speaker, text}
+speaker = attribute speaker {text}
