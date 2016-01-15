@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ourTutorialEx.rnc" type="application/relax-ng-compact-syntax"?>
 <play>
     <heading>
         <title>The Importance of Being Ernest</title>
         <year>1895</year>
     </heading>
-    <body>
-        <quote speaker="Algernon">I don’t know that I am much interested in your family life, Lane.</quote>
-        <quote speaker="Lane">No, sir; it is not a very interesting subject. I never think of it myself.</quote>
+    <body>tesx tejhksal fjdklafj kdlsa; fj'lk
+        <quote speaker="Algernon">I don’t know that I am much interested in your family life,
+            Lane.</quote>
+        <quote speaker="Lane">No, sir; it is not a very intereting subject. I never think of it
+            myself.</quote>
     </body>
 </play>
