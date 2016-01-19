@@ -7,6 +7,7 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
     <xsl:variable name="nelsonColl" select="collection('.//spadafore_nelsonArticles_XML')"/>
+    <!-- this is the assignment we need to make the XSLT for-each-group tutorial out of -->
     <!-- ras: This is working over a batch of files that I modified (for consistency in my xslt table of contents) from the Nell Nelson Project -->
 
     <xsl:template match="/">
