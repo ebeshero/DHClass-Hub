@@ -1,0 +1,9 @@
+start = article
+article = element article{title, \div+}
+title = element title {type?, empty}
+\div = element div {type, p+}
+type = attribute type {xmlid | "headlines" | "articleBody"}#rjp:question posed for Dr. B: we need to solve this so to be sure it is correct on the tutorial (we wonder if we would have to make it so that type only links with the data type, but why?)
+xmlid = attribute xml:ID {xsd:ID}#rjp:we want to get rid of this line to match how we would do any other data type, but the tutorial tells us this is how we do it; yet, we get an error
+p = element p {mixed{(date | said)*}}
+date = element date{empty}
+said = element said {empty}

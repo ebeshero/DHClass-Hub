@@ -1,4 +1,5 @@
-﻿<root>
+﻿<?xml-model href="InClassExample_1-20.rnc" type="application/relax-ng-compact-syntax"?><!-- this is our associated schema line -->
+<root>
                         MAKING TIDIES AT SIXTY CENTS A DOZEN AND PAYING THREE DOLLARS FOR THE PRIVILEGE.
                         A POOR GIRL WHO WORKED FROM JANUARY TO JULY TO MAKE FIFTEEN DOLLARS.
 
