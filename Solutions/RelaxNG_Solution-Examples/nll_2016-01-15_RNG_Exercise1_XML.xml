@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="nll_2016-01-15_RNG_Exercise1.rnc" type="application/relax-ng-compact-syntax"?>
+<document type="personalLetter">
+    <title type="information">Letter from <persName ref="#hj">Harriet Jacobs</persName> to <persName ref="#ec">Ednah Cheney</persName></title> 
+    
+    <head><placeName type="city" city="Edenton">Edenton</placeName>, <date when="1867-04-25">April 25th</date></head> 
+    <salutation>Dear <persName ref="#ec">Mrs Cheney</persName></salutation> 
+    <body>
+        <p>I felt I would like to write you a line from my old home. I am sitting under the old roof twelve feet from the spot where I suffered all the crushing weight of slavery. thank <persName ref="#god">God</persName> the bitter cup is drained of its last dreg. there is no more need of hiding places to conceal slave Mothers. yet it was little to purchase the blessings of freedom. I could have worn this poor life out there to save my Children from the misery and degradation of Slavery.</p> 
+        <p>I had long thought I had no attachment to my old home. as I often sit here and think of those I loved of their hard struggle in life -- their unfaltering love and devotion toward myself and Children. I love to sit here and think of them. they have made the few sunny spots in that dark life sacred to me.</p> 
+        <p>I cannot tell you how I feel in this place. the change is so great I can hardly take it all in<added by="publicationEditor">[.]</added> I was born here, and amid all these new born blessings, the old dark cloud comes over me, and I find it hard to have faith in rebels.</p> 
+        <p>the past <season type="winter">winter</season> was very severe for this region of Country<added by="publicationEditor">[.]</added> it caused much suffering, and the freedmen with but few exceptions were cheated out of their crop of cotton. their contract masters shiped it for them, and when they ask for a settlement, they are answered I am daily expecting the returns. these men have gone to work cheerfully, planted another crop without the returns to live on until their present crop is made. many of the large plantations of the once wealthy Planter, is worked under the control of Colored Men. the Owners let <added by="publicationEditor">[rent]</added> their Plantations to the freedmen in prefference to the poor Whites. they believe the Negro determined to make money, and they will get the largest portion of it. last years experience I think will be a proffitable lesson<added by="publicationEditor">[.]</added> many will learn to act for themselves. Negro suffrage is making a stir in this place. the rebels are striving to make these people feel they are their true friends, and they must not be led astray by the <group type="yankee">Yankees</group>. the freedmen ask if <persName ref="#al">Abraham Lincoln</persName> led them astray, that his friends is their friends his enemies their enemies.</p> 
+        <p>I have spent much of my time on the Plantations distrubuting seed and trying to teach the women to make <group type="yankee">Yankee</group> gardens. they plant everything to mature in the <season type="summer">summer</season>, like their corn and cotton fields. I have hunted up all the old people, done what I could for them. I love to work for these old people. many of them I have known from Childhood</p> 
+        <p>there is one School in <placeName type="city" city="Edenton">Edenton</placeName> well attended. on some of the Plantations there is from 15 to 25 Chrildren that cannot attend School, the distance is so far. some of the freedmen are very anxious to establish Plantation schools, as soon as the more advanced Schools, can send out teachers. many of the freedmen are willing and will sustain their teachers. at present there is a great revival in the colored Churches. the Whites say the Niggers sung and prayed until they got their freedom, and they are not satisfied. now they are singing and praying for judgment. the white members of the <orgName type="church" class="Baptist">Baptist Church</orgName> invited the colored members to their Church, to help them sing and pray. I assure you they have done it with a will. I never saw such a state of excitement<added by="publicationEditor">[.]</added> the Churches have been open night and day. these people have time to think of their souls, now they are not compelled to think for the Negro.</p></body> 
+    <closing>
+        my love to <persName ref="#d">Miss Daisy</persName> <added by="publicationEditor">[Cheny's daughter]</added>. I send her some Jassmine blossoms<added by="publicationEditor">[.]</added> tell her they bear the fragrance of freedom. 
+        Yours Truly 
+    </closing>
+    <signature><persName ref="#hj">H Jacobs</persName></signature> 
+    
+    <publicationInformation>
+        <records><placeName type="region" region="New_England">New England</placeName> Hospital Records</records>,
+        <collection><persName ref="#ss">Sophia Smith</persName> Collection</collection>, <orgName type="college" name="Smith_College">Smith College</orgName>, <placeName type="city" city="Northampton" state="Massachusetts">Northampton, Massachusetts</placeName>
+    </publicationInformation>
+</document>
