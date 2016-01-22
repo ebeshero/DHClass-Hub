@@ -1,0 +1,22 @@
+
+#this is what a comment looks like
+start = newspaperArticle
+newspaperArticle = element newspaperArticle {head, body} 
+head = element head {titleLine, headLine+} 
+titleLine = element titleLine {mixed{(newspaper, date), num?, series}}
+newspaper = element newspaper {text} 
+date = element date {when, text}
+when = attribute when {xsd:date}
+num = element num {amount, text}
+amount = attribute amount {xsd:decimal}
+series = element series {text}
+headLine = element headLine {n, mixed {(newspaper | num)*}}
+n = attribute n {xsd:int}
+body = element body {p+}
+p = element p {mixed {(company | address | description)*}} 
+company = element company {text}
+address = element address {type, text}
+type = attribute type {"exact"|"general"} 
+description = element description {mixed{(company|address)*}}
+
+
