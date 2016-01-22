@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="RelaxNG_Testebb.rnc" type="application/relax-ng-compact-syntax"?>
+<newspaperArticle>
+    <head>
+        <titleLine><newspaper>Chicago Times</newspaper><date when="1888-07-30">Monday Morning, July 30, 1888</date>
+            Price <num amount=".02">2 CENTS</num>
+            <series>CITY SLAVE GIRLS</series>
+        </titleLine>
+            <headLine n="1">Further Details of the Factory Investigation Conducted by "<newspaper>The Times</newspaper>'" Lady Reporter.</headLine>
+            
+            <headLine n="2">A Cloak Concern Where Nothing but Fear of the Law Seems to Prevent the Use of Lash.</headLine>
+            
+            <headLine n="3">A Sickly Child of Fifteen Compelled to Work Nine and a Half Hours for <num amount=".16">Sixteen Cents</num>.</headLine>
+            
+            <headLine n="4">The Unfortunate Insulted and Abused by Their Employer and Humiliated by the Forewoman.</headLine>
+            
+            <headLine n="5"><num amount=".80">Eighty Cents</num> a Week for Laboring from 7:30 in the Morning Until 5:30 in the Evening.</headLine>
+    </head>
+    <body>
+        <p>I did not realize the ignominious position of respectable poverty till I went to <company>Ellinger's cloak factory</company>, <address type="exact">282  Madison street</address>, <description>where labor is bondage, the laborer a slave, and flesh and blood cheaper than needles and thread</description>. Corporations said to be without heart, but this concern is a commercial inquisition. <description>It puts its help on the plane of slavery and nothing but civil law prevents the use of the lash</description>.</p>
+        <p>The factory is on the <description>third floor of the large brick building at the <address type="general">east end of Madison street bridge on the south side of the street</address></description>. Elevator? Not much. <description>An elevator is a luxury and luxuries have no place at <company>Ellinger's</company>.</description> You will  be short of breath when you reach the top of the fourth flight, but in recovering you have time to take in the surroundings -- <description>a great barn of a place, with the single charm of good, light. There is plenty of vacant room, but the women are huddled together, elbows touching, along the line of machines. Beneath the west windows flows the river; at the south end of the room, not ten feet from the crowded table, is a tier of closets, and on hot days the combined odor of the two is shocking.</description><description>Nobody in his employ dare complain about smells, cold, heat, work, wages, or rules</description>. But whoever heard of martyrs complaining?</p>
+    </body>
+</newspaperArticle>

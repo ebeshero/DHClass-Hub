@@ -1,0 +1,26 @@
+#remind check plus/minus
+#project proposals?
+#discuss robust vs brittle solutions
+
+
+#this is what a comment looks like
+start = newspaperArticle
+newspaperArticle = element newspaperArticle 
+head = element head  
+titleLine = element titleLine 
+newspaper = element newspaper  
+date = element date 
+when = attribute when 
+num = element num 
+amount = attribute amount 
+series = element series 
+headLine = element headLine 
+n = attribute n 
+body = element body 
+p = element p 
+company = element company 
+address = element address 
+type = attribute type 
+description = element description 
+
+
