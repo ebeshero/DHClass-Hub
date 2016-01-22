@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="lmcguigan_01-22_schema-02.rnc" type="application/relax-ng-compact-syntax"?>
+<document type="personalLetter">
+    <head>
+        <recipient>To <persName ref="EdwardSackvilleWest"> Edward Sackville
+            West</persName></recipient>
+
+        <placeName type="city" city="London">
+            <orgName type="newspaper" name="TheHogarthPress">The Hogarth Press</orgName>, 52
+            Tavistock Square, London, W.C.1</placeName>
+
+        <date when="1926-05-17">Monday [17 May 1926]</date>
+    </head>
+
+
+
+
+    <body>Dear <persName ref="EdwardSackvilleWest">Eddy</persName>, 
+        
+        <p>
+            Yes, do come to tea here on
+            Thursday, <time when="5:00">5 o'clock </time>. For a novelist you show a feeble and
+            perverted psychology. Any thing less like my and<persName ref="Leonard">
+                Leonard's</persName> conversation I can't imagine. Did <persName ref="Leonard"
+                >Leonard</persName> ever persuade me to accept an invitation? "Well, you're a damned
+            fool if you do." thats his style:—mine is unprintable. but, in this case, flattering to
+            you.
+        </p>
+    </body>
+
+
+
+    <close>Your <persName ref="VirginiaWoolf">Virginia Woolf</persName></close>
+
+
+
+    <postScriptum>It is really (now I come to think of it) extremely good and kind of you to ask
+        me.</postScriptum>
+</document>
