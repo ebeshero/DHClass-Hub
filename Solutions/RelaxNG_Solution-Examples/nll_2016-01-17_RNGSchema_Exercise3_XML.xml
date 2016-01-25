@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="nll_2016-01-17_RNGSchema_Exercise3.rnc" type="application/relax-ng-compact-syntax"?>
+<document type="poem">
+    <head>
+        <title>[Lying in bed I think about you]</title>
+        BY <persName type="author" ref="#jBeckman">JOSHUA BECKMAN</persName>
+    </head>
+    <body>
+        <lg>
+            <l n="1"><verb>Lying</verb> in bed I <verb>think</verb> about you<punct type="comma">,</punct></l>
+            <l n="2">your <adj connotation="neg">ugly</adj> <adj connotation="neg">empty</adj> <adj connotation="neg">airless</adj> apartment</l>
+            <l n="3">and your eyes<punct type="period">.</punct> It’<verb>s</verb> noon<punct type="comma">,</punct> and <adj connotation="neg">tired</adj></l>
+            <l n="4">I <verb>look</verb> into the rest of the <adj connotation="pos">awake</adj> day</l>
+            <l n="5"><adj connotation="neg">incapable</adj> of even awe<punct type="comma">,</punct> just</l>
+            <l n="6">a presence of particle and wave<punct type="comma">,</punct></l>
+            <l n="7">just that <adj connotation="neg">closed</adj> and <adj connotation="neg">deliberate</adj></l>
+            <l n="8"><adj connotation="none">human</adj> observance<punct type="period">.</punct> Your <adj connotation="none">thin</adj> fingers</l>
+            <l n="9">and the dissolution of <adj connotation="none">all</adj> ability<punct type="period">.</punct> <verb>Lay</verb></l>   
+            <l n="10">open now to only me that <adj connotation="none">white</adj> body<punct type="comma">,</punct></l>
+            <l n="11">and I <verb>will</verb><punct type="comma">,</punct> as the <adj connotation="neg">awkward</adj> butterfly<punct type="comma">,</punct></l>
+            <l n="12"><verb>land</verb> quietly upon you<punct type="period">.</punct> A grace and</l>
+            <l n="13">staying<punct type="period">.</punct> A sight and ease<punct type="period">.</punct> A spell</l>
+            <l n="14"><adj connotation="pos">entangled</adj><punct type="period">.</punct> A span<punct type="period">.</punct> I <verb>am</verb> inside you<punct type="period">.</punct></l>
+            <l n="15">And so both <verb>projected</verb><punct type="comma">,</punct> we <verb>are</verb> now</l>
+            <l n="16">part of a garden<punct type="comma">,</punct> that <verb>is</verb> part of a</l>   
+            <l n="17">landscape<punct type="comma">,</punct> that <verb>is</verb> part of a world</l>
+            <l n="18">that no one <verb>believes</verb> in<punct type="period">.</punct></l>
+        </lg>
+    </body>
+</document>
+<!-- 2016-01-17: nll: I'm trying to see if I have good English grammar knowledge...we'll see!-->

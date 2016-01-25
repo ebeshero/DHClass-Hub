@@ -1,0 +1,15 @@
+start = document
+document = element document {type, (head, body)}
+type = attribute type {text}
+head = element head {mixed {(title, persName)}}
+title = element title {text}
+persName = element persName {type, ref, text}
+ref = attribute ref {"#jBeckman"}
+body = element body {lg+}
+lg = element lg {l+}
+l = element l {(n), mixed {(verb | adj | punct)*}}
+n = attribute n {xsd:int}
+verb = element verb {text}
+adj = element adj {connotation, text}
+connotation = attribute connotation {"neg" | "pos" |"none"}
+punct = element punct {type, text}
