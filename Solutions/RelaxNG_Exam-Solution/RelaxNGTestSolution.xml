@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="RelaxNGTestSolution.rnc" type="application/relax-ng-compact-syntax"?>
+<article>
+    <head>
+        <title>Poll: <persName candidate="rep">Trump</persName>, <persName candidate="dem">Sanders</persName> remain on top in New Hampshire</title>
+        <by>By <persName>David Wright</persName></by>
+        <date when="2016-01-26"/>
+    </head>
+    <body>
+        <p>A new poll of New Hampshire voters has underscored the staying power of the
+            anti-establishment campaigns that are animating voters in both parties, with <persName candidate="rep">Donald
+                Trump</persName> leading Republicans and <persName candidate="dem">Bernie Sanders</persName> ahead of <persName candidate="dem">Hillary Clinton</persName>.</p>
+        <p>According to the poll from Franklin Pierce University and the Boston Herald, <persName candidate="rep">Donald Trump</persName>
+            has maintained his lead in the first primary contest state, leading the GOP field by far
+            with <percent value="33">33%</percent> support — nearly <percent value="20">20 points</percent> ahead of his closest rival, <persName candidate="rep">Ted Cruz</persName>.</p>
+        <p>The Republican field is crowded behind <persName candidate="rep">Trump</persName>, with <persName candidate="rep">Cruz</persName> cementing his place as the
+            leading alternative to the current front-runner. <persName candidate="rep">Cruz</persName> registers <percent value="14">14%</percent> support, ahead of
+            <persName candidate="rep">John Kasich</persName>, recently endorsed by influential regional newspaper the Boston Globe, with
+            <percent value="12">12%</percent>, and <persName candidate="rep">Jeb Bush</persName> at <percent value="9">9%</percent>.</p>
+        <p><persName candidate="rep">Marco Rubio</persName> is in fifth place with <percent value="8">8%</percent> support, trailed by <persName candidate="rep">Chris Christie</persName> with <percent value="7">7%</percent>, and
+            <persName candidate="rep">Carly Fiorina</persName> with <percent value="5">5%</percent>. <persName candidate="rep">Ben Carson</persName> and <persName candidate="rep">Rand Paul</persName> round out the only other candidates
+            attracting meaningful support with <percent value="4">4%</percent> and <percent value="3">3%</percent> respectively.</p>
+        <p>Meanwhile, <persName candidate="dem">Sanders</persName> continues to lead the Democratic race there with <percent value="55">55%</percent> support to
+            <persName candidate="dem">Clinton</persName>'s <percent value="39">39%</percent>. <persName candidate="dem">Martin O'Malley</persName> polls at just <percent value="2">2%</percent>.</p>
+    </body>
+</article>
