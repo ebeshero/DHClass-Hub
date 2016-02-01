@@ -1,0 +1,11 @@
+Work fron inside-out (vs. outside-in) or really, find the easiest handles!
+1. Manually remove meta-data and back-matter. (Keep in projects?)
+2. Find: &, >, <
+   Replace: If necessary, &amp;, &gt;, &lt, respectively.
+3. Find: \n{3,}
+   Replace: \n\n
+4. Find: \n\n(.+) (not dot matches all)
+   Replace: </p>\n<p>\1 Manually tag the close/opening of the first and last tags.
+5. Find: ^<p>(DAY THE\s.+)</p>$
+   Replace: </div><div type="day"><title>\1</title> Manually fix the div tags.
+6. Manually wrap in root tag.
