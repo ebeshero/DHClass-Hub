@@ -1,0 +1,13 @@
+start = article
+article = element article {head, body}
+head = element head {title, by, date}
+title = element title {mixed {persName*}}
+persName = element persName {candidate?, text}
+candidate = attribute candidate {"rep"|"dem"|"indep"}
+by = element by {mixed {persName+}}
+date = element date {when, empty}
+when = attribute when {xsd:date}
+body = element body {p+}
+p = element p {mixed {(persName|percent)*}}
+percent = element percont {value, text}
+value = attribute value {xsd:int}

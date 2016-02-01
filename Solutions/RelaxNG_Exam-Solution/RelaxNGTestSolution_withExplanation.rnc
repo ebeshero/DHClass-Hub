@@ -1,0 +1,36 @@
+#We need to start somewhere; this document is missing a starting point:
+#start = article
+
+article = element article {mixed {head, body}} # not a formedness error: the element article only contains elements (no text) and therefore does not need the mixed syntax:
+#article = element article {head, body}
+
+head = element head (title, by, date) #the parentheses need to be curly braces:
+#head = element head {title, by, date}
+
+title = attribute title {mixed {persName*}} #title is an element, not an attribute:
+#title = element title {mixed {persName*}}
+
+persName = element persName {candidate, text} # not all people are candidates; there may or may not be a candidate attribute on a persName element:
+#persName = element persName {candidate?, text}
+
+candidate = attribute candidate {"rep","dem","indep"} #the comma doesn't make sense; no one can run as a republican, independent, AND a democrat; attribute values represent distinct choices:
+#candidate = attribute candidate {"rep" | "dem" | "indep"}
+
+by = element by {mixed {persName+}}
+date = element date {when, text} #date is a self-closing element:
+#date = element date {when, empty}
+
+when = attribute when {text} #not a formedness error: text is acceptable, and so is "2016-01-26", but the best solution is to use a datatype:
+#when = attribute when {#xsd:date}
+
+body = element body {p*} #not a formedness error: this is technically correct, but the best solution is to use a plus repetition indicator because at least one paragraph is expected within a body of text:
+#body = element body {p+}
+
+p = element p {mixed {(persName,percent)*}} #the ',' seperator is incorrect; this implies that the specific order of persName AND THEN percent may or may not appear anywhere within the mixed content of element p:
+# p = element p {mixed {(persName | percent)*}}
+
+percent = element percont {value, text} # percent is misspelled:
+# percent = element percent {value, text}
+
+value = attribute value {"xsd:int"} #text is acceptable, and so is listing out all of the given values, but the best solution is to use a datatype; what's wrong here? the datatype is wrapped in quotation marks:
+#value = attribute value {xsd:int}
