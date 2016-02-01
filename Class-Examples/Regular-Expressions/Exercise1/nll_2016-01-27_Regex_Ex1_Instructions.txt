@@ -1,0 +1,32 @@
+Nicole Lottig--2016-01-29--Regex Exercise 1:
+
+1. First I deleted all of the unnecessary front and back matter.
+2. I searched for the reserved characters (&, <, >  IN THIS ORDER):
+	Find: &  <  >  (NONE WERE FOUND)
+	Replace if there were any: &amp;  &lt;  &gt;
+	***You have to find and replace these characters in this order because the ampersand is in the code for the greater than and less than signs!  If you did tried to find the ampersand last, it would find and change all of the less than and greater than code that you just fixed!***
+3. I got rid of more than two newlines:
+	Find: \n{3,}
+	Replace if there were any: \n\n
+4. I surrounded the paragraphs with p tags:
+	Find: \n\n
+	Replace: </p>\n\n<p>
+5. I added a p tag at the end of the document. I didn't add a p tag to the beginning of the document because I know I would end up taking it out and the end anyway.
+6. I surrounded the chapter titles in title tags:
+	Find: ^<p>([VXI]+\..+?)</p>$  (Dot matches all)
+	Replace: <title>\1</title>
+7. I surrounded the chapter text in chapter elements:
+	Find: ^(<title>.+?</title>)$  (Dot matches all)
+	Replace: </chapter>\n\n<chapter>\1
+8. I tidied up a bit, such as taking the chapter tags out from the beginning and adding a closing chapter tag at the end of the document.
+9. I found all of the quotes and surrounded them in quote tags:
+	Find: "(.+?)"  (Dot matches all)
+	Replace: <quote>\1</quote>
+10. Because the chapter titles in the table of contents were spaced out, I highlighted them, changed the scope in my Find/Replace box to "Only selected lines", and got rid of the spaces:
+	Find: ^\s+
+	Replace: [nothing entered here]
+11. I then kept "Only selected lines" checked and wrapped the chapter titles in title tags:
+	Find: ^([VXI]+\..+?)$  (Dot matches all)
+	Replace: <title>\1</title>
+12. I cleaned up the document by getting rid of the word 'by', taking out the p tags around the title, author, and table of contents, surrounding the title in title elements, surrounding the author in author elements, surrounding 'Table of Contents' in toc elements, and surrounding the entire document in a book root element.
+13. I saved the document as an XML file to check for weel-formedness.
