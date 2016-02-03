@@ -1,0 +1,32 @@
+Nicole Lottig--Regex Exercise 2--01-28-2016
+
+1. I searched for the reserved characters (&, <, >  IN THIS ORDER):
+	Find: &  <  > (They were already fixed when I downloaded the text document)
+	Replace if there were any: &amp;  &lt;  &gt;
+2. I checked I for more than two newlines:
+	Find: \n{3,} (none were found)
+	Replace: \n\n
+3. I surrounded the paragraphs with p tags:
+	Find: \n\n
+	Replace: </p>\n\n<p>
+4. I deleted a p tag at the end of the document and deleted the p end tag before the title.
+5. I surrounded all of the different chapters within each book in chapter tags:
+	Find: ^\n<p>(CHAP\.\s[IXCVL]+.+?)</p>$ (Dot matches all)
+	Replace: </chapter>\n\n<chapter>\1
+6. I moved the end chapter tags to before the books:
+	Find: ^\n<p>(BOOK\s[IXCVL]+\.)</p>(\n</chapter>)  (Dot matches all)
+	Replace: \2\n\1
+7. I added the end chapter tag at the end of Chapter 8 of the third Book and got rid of the end chapter tag at the beginning of the document.
+8. I surrounded the different books in book tags:
+	Find: BOOK\s[IXCVL]+\.
+	Replace: </book>\n\n<book>\0
+9. I got rid of the end book tag before Book 1 and added one at the end of Book 3.
+10. I surrounded the dates that were in square brackets in date tags, which then got rid of the square brackets:
+	Find: \[(.+?)\] (Dot matches all)
+	Replace: <date>\1</date>
+11. I surrounded "A VOYAGE round the WORLD" in title tags, since it occurs three times:
+	Find: ^<p>(A\s[A-Z]+\s[a-z]+\s[a-z]+\s[A-Z]+\.)</p>$
+	Replace: 
+12. I cleaned up a little:
+	Surrounded the entire document in document tags.
+13. I saved the file as an xml to check for well-formedness.
