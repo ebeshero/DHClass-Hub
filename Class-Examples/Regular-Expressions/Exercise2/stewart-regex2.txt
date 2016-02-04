@@ -1,0 +1,25 @@
+1. I searches for special characters &, <, and >, all of which were absent or already replaced.
+2. To remove extra blank lines:
+   Find: \n{3,}
+   Replace: \n\n
+3. To tag paragraphs:
+   Find: \n\n
+   Replace: </p>\n\n\<p> and manually removed the two extra tags.
+4. To tag the head divisions:
+   Find:^<p>(CHAP\. [IVX]+\..+?)</p> with "dot matches all"
+   Replace: <head>\1</head>
+5. To tag chapter divisions:
+   Find: ^(<head>)(CHAP\. [IVX]+\.)(</p>)?
+   Replace: \1<l>\2</l>
+6. To tag the descriptions under the titles:
+   Find: (</l>\n\n)<p> After finishing this step, I forgot if I used "dot matches all, but the way I did it selected what I needed.
+   Replace: \1
+   Find: (</l>\n+)([A-Z].+?)(</head>) with "dot matches all"
+   Replace: \1<l>\2</l>\3
+7. To tag book divisions:
+   Find: <p>(BOOK [I]+\.)</p>
+   Replace: <head>\1</head>
+8. To tag dates:
+   Find: \[(.+?)\] with "dot matches all"
+   Replace: <date>\1</date>
+9. I manually added the root element.
