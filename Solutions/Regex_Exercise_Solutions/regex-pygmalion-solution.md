@@ -34,7 +34,7 @@ Replace: `</p>\n<p>`
 format those properly. 
 
 
-`5.` We now want to convert our speech acts that are tagged as <p> to speech and speaker elements. We can do this by finding <p> tags in which the first thing is a name in all 
+`5.` We now want to convert our speech acts that are tagged as `<p>` to speech and speaker elements. We can do this by finding <p> tags in which the first thing is a name in all 
 capitals, followed by an arbitrary amount of speech.
 
 
