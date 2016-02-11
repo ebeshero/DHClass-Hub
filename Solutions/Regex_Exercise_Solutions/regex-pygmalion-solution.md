@@ -38,16 +38,16 @@ format those properly.
 capitals, followed by an arbitrary amount of speech.
 
 
-Find: `<p>([A-Z.\- ]{2,}[A-Z]{2,})([ .].+?)</p>`
+Find: `<p>([A-z.\- ]{2,}[A-Z]{2,})([ .].+?)</p>`
 
 Replace: `<speech><speaker>\1</speaker>\2</speech>` 
 
 
 The expression for matching names is contained within the first set of paragraphs. It is by necessity a bit complex, so 
-here is a breakdown: We begin with a character class containing the range of capital letters A-Z, as well as the literal period, the dash character, and a space. **Note** there are some complexities here with escaping characters: 
+here is a breakdown: We begin with a character class containing the range of capital AND lower-case letters A-z, as well as the literal period, the dash character, and a space. **Note** there are some complexities here with escaping characters: 
 The dot actually does NOT need to be escaped, because it is already understood as a literal period by virtue of being within a class. 
 The dash, however, usually has the purpose of establishing a range in a character 
-class, so it DOES need to be escaped. We need the period, the dash, and the space to match characters that sometimes enter in pairs or groups, such as MRS. HIGGINS and THE PARLOR-MAID. 
+class, so it DOES need to be escaped. We need the period, the dash, and the space to match characters that sometimes enter in pairs or groups, such as MRS. HIGGINS and THE PARLOR-MAID. And (surprisingly) we discover that we need to include lower-case letters to capture one instance of Miss EYNSFORD HILL, so that is why we included lower-case characters in the set. 
 We say that this must be *at least two characters long* with the numerical bound `{2,}` so that we avoid matching strings that are shorter than 
 we want. Then, we use the character class `[A-Z]` to say that this must *end* in at least two capital letters, so that we avoid getting matches such as "FREDDY. I" (
 where Freddy's first utterance in the speech act is "I," which would otherwise be matched). We then match all of the text up to the closing `<p>` tags, group
