@@ -67,7 +67,7 @@ After doing this, we need to go and delete
  the extra closing <act> tag at the beginning and add in the required closing <act> tag at the end. 
 
 
-`7.` Next we search for stage directions:
+`7.` Next we search for stage directions, with "Dot matches all" turned on, because some of these spill over multiple lines!
 
 Find: `\[.+?\]`
 
