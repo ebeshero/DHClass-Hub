@@ -9,9 +9,12 @@
          <assert test="xs:date(.//tei:date/@when) gt xs:date(preceding-sibling::tei:div[@type='day'][1]//tei:date/@when)">
              The date inside a div designating a day on this syllabus must be later than the immediately preceding day on the syllabus.
          </assert>
+     
          
      </rule>
+     
 
  </pattern>
+    
     
 </schema>
