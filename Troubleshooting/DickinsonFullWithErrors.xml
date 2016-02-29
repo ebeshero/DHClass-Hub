@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="lmcguigan_02-24_schematron02.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fascicle 16</title>
+            <author>Emily Dickinson</author>
+            <editor>Brooke Lawrence</editor>
+            <editor>Alexander Mielnicki</editor>
+            <editor>Nicole Lottig</editor>
+            <editor>Brooke Stewart</editor>
+            <sponsor><orgName>newtFire.org</orgName>: a home for digital humanities projects at the
+                  <orgName>Pittsburgh Supercomputing Center</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Fascicle 16: Dickinson's variants and published versions.</p>
+            <p>This born-digital XML project was repurposed and corrected with permission from
+               Michele Ierardi's source files <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"
+               />.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="df16">
+                  <bibl>
+                     <title>ORIGINAL POEMS</title>
+                     <author>Emily Dickinson</author>
+                  </bibl>
+               </witness>
+               <witness xml:id="var0">
+                  <desc>'var0' is the first variant text/line listed in Dickinson's
+                     manuscript.</desc>
+               </witness>
+               <witness xml:id="var1">
+                  <desc>'var1' is the second variant text/line listed in Dickinson's
+                     manuscript.</desc>
+               </witness>
+               <witness xml:id="var2">
+                  <desc>'var2' is the third variant text/line listed in Dickinson's
+                     manuscript.</desc>
+               </witness>
+               <witness xml:id="poems1">
+                  <bibl>
+                     <title>Poems, First Series</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Mabel loomis Todd and Thomas Wentworth Higginson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Roberts Brothers</publisher>
+                     <date>1890</date>
+                     <ref target="http://www.ibiblio.org/ebooks/Dickinson/Dickinson_Poems1.htm">oems
+                        by Emily Dickinson, First Series (html version)</ref>
+                  </bibl>
+               </witness>
+               <witness xml:id="poems2">
+                  <bibl>
+                     <title>Poems, Second Series</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Thomas Wentworth Higginson and Mabel Loomis Todd</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Roberts Brothers</publisher>
+                     <date>1891</date>
+                     <ref target="http://www.ibiblio.org/ebooks/Dickinson/Dickinson_Poems2.htm#copy"
+                        >Poems by Emily Dickinson, Second Series (html version)</ref>
+                  </bibl>
+               </witness>
+               <witness xml:id="poems3">
+                  <bibl>
+                     <title>Poems, Third Series</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Mabel Loomis Todd</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1896</date>
+                     <ref target="http://catalog.hathitrust.org/Record/100654113">Hathi Trust
+                        Digital Library</ref>
+                  </bibl>
+               </witness>
+               <witness xml:id="ce">
+                  <bibl>
+                     <title>The Poems of Emily Dickinson: Centenary Edition</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Martha Dickinson Bianchi and Alfred Leete Hampson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1930</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="fh">
+                  <bibl>
+                     <title>Final Harvest: Emily Dickinson's Poems</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Thomas H. Johnson</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1961</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="fp">
+                  <bibl>
+                     <title>Further Poems</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Martha Dickinson Bianchi</editor>
+                     <pubPlace>Boston</pubPlace>
+                     <publisher>Little, Brown and Company</publisher>
+                     <date>1929</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="am">
+                  <bibl>
+                     <title>Atlantic Monthly</title>
+                     <author>Enily Dickinson</author>
+                     <date>February 1929</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="bm">
+                  <bibl>
+                     <title>Bolts of Melody: New Poems of Emily Dickinson</title>
+                     <author>Emily Dickinson</author>
+                     <editor>Mabel Loomis Todd and Millicent Todd Bingham</editor>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>Harper and Brothers</publisher>
+                     <date>1945</date>
+                  </bibl>
+               </witness>
+               <witness xml:id="lSD">
+                  <bibl>
+                     <title>LETTER TO SISTER-IN-LAW</title>
+                     <author>Emily Dickinson</author>
+                  </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem">
+            <head>
+               <title>Poem 1 (J 327: 1862/1891)</title>
+            </head>
+            <lg>
+               <l n="1">Before I got my eye put out<app>
+                     <rdg wit="#df1">—</rdg>
+                     <rdg wit="#ce #poems2">,</rdg>
+                  </app>
+               </l>
+               <l n="2">I liked as well to see<app>
+                     <rdg wit="#fh">—</rdg>
+                  </app>
+               </l>
+               <l n="3">As other <app>
+                     <rdg wit="#df16 #fh">Creatures,</rdg>
+                     <rdg wit="#ce #poems2">creatures</rdg>
+                  </app> that have <app>
+                     <rdg wit="#df16">Eyes—</rdg>
+                     <rdg wit="#fh">Eyes</rdg>
+                     <rdg wit="#ce #poems2">eyes,</rdg>
+                  </app>
+               </l>
+               <l n="4">And know no other way<app>
+                     <rdg wit="#df16 #fh">—</rdg>
+                     <rdg wit="#ce #poems2">.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">But were it told to me<app>
+                     <rdg wit="#df16">, Today,</rdg>
+                     <rdg wit="#fh">—Today—</rdg>
+                     <rdg wit="#ce #poems2">, to-day,</rdg>
+                  </app>
+               </l>
+               <l n="6">That I might have the <app>
+                     <rdg wit="#df16">Sky</rdg>
+                     <rdg wit="#fh #ce #poems2">sky</rdg>
+                  </app>
+               </l>
+               <l n="7">For mine<app>
+                     <rdg wit="#df16 #ce #poems2">,</rdg>
+                     <rdg wit="#fh">—</rdg>
+                  </app> I tell you that my <app>
+                     <rdg wit="#df16 #fh">Heart</rdg>
+                     <rdg wit="#ce #poems2">heart</rdg>
+                  </app>
+               </l>
+               <l n="8">Would split, for size of me<app>
+                     <rdg wit="#df16 #fh">—</rdg>
+                     <rdg wit="#ce #poems2">.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="9">
+                  <app>
+                     <rdg wit="#df16 #fh">The Meadows—mine—</rdg>
+                     <rdg wit="#c2 #poems2">The meadows mine, the mountains mine,—</rdg>
+                  </app>
+               </l>
+               <l n="10">
+                  <app>
+                     <rdg wit="#df16 #fh">The Mountains—mine—</rdg>
+                  </app>
+               </l>
+               <l n="11">
+                  <app>
+                     <rdg wit="#df16 #fh">All Forests—Stintless Stars—</rdg>
+                     <rdg wit="#ce #poems2">All forests, stintless stars,</rdg>
+                  </app>
+               </l>
+               <l n="12">As much of <app>
+                     <rdg wit="#df16">noon, as I could take—</rdg>
+                     <rdg wit="#fh">Noon as I could take</rdg>
+                     <rdg wit="#ce #poems2">noon as I could take</rdg>
+                  </app>
+               </l>
+               <l n="13">Between my finite <app>
+                     <rdg wit="#df16">Eyes—</rdg>
+                     <rdg wit="#fh">eyes—</rdg>
+                     <rdg wit="#ce #poems2">eyes.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="14">
+                  <app>
+                     <rdg wit="#df16 #fh">The Motions of the Dipping Birds—</rdg>
+                     <rdg wit="#ce #poems2">The motions of the dipping birds,</rdg>
+                  </app>
+               </l>
+               <l n="15">The <app>
+                     <rdg wit="#var0 #df16">Lightning's jointed Road—</rdg>
+                     <rdg wit="#ce #poems2">lightning's jointed road,</rdg>
+                     <rdg wit="#var1 #fh #df16">Morning's Amber Road—</rdg>
+                  </app>
+               </l>
+               <l n="16">
+                  <app>
+                     <rdg wit="#df16 #fh">For mine—to look at when I liked</rdg>
+                     <rdg wit="#ce #poems2">For mine to look at when I liked,</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#fh #ce #poems2">—</rdg>
+                  </app>
+               </l>
+               <l n="17">The <app>
+                     <rdg wit="#df16 #ce #poems2">news</rdg>
+                     <rdg wit="#fh">News</rdg>
+                  </app> would strike me dead<app>
+                     <rdg wit="#df16 #fh">—</rdg>
+                     <rdg wit="#ce">!</rdg>
+                     <rdg wit="#poems2"> !</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="18">
+                  <app>
+                     <rdg wit="#df16 #fh">So safer—guess—</rdg>
+                     <rdg wit="#ce #poems2">So, safer, guess, </rdg>
+                  </app>with just my soul</l>
+               <l n="19">Upon the <app>
+                     <rdg wit="#df16">window pane</rdg>
+                     <rdg wit="#fh">Window pane—</rdg>
+                     <rdg wit="#ce #poems2">window-pane</rdg>
+                  </app>
+               </l>
+               <l n="20">Where other <app>
+                     <rdg wit="#df16 #f5">Creatures</rdg>
+                     <rdg wit="#ce #poems2">creatures</rdg>
+                  </app> put their <app>
+                     <rdg wit="#df16">Eyes</rdg>
+                     <rdg wit="#fh">eyes—</rdg>
+                     <rdg wit="#ce #poems2">eyes,</rdg>
+                  </app>
+               </l>
+               <l n="21">Incautious<app>
+                     <rdg wit="#fh #df16">—</rdg>
+                     <rdg wit="#ce #poems2"> </rdg>
+                  </app>of the <app>
+                     <rdg wit="#df16 #fh">Sun—</rdg>
+                     <rdg wit="#ce #poems2">sun.</rdg>
+                  </app>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 2. (J 607: 1862/1929)</title>
+            </head>
+            <lg>
+               <l n="1">Of nearness to her <app>
+                     <rdg wit="#df16">Sundered Things</rdg>
+                     <rdg wit="#fh">sundered Things</rdg>
+                     <rdg wit="#fp #am #ce">sundered things</rdg>
+                  </app>
+               </l>
+               <l n="2">The Soul has special times<app>
+                     <rdg wit="#df16 #fh">—</rdg>
+                     <rdg wit="#fp #am #ce">,</rdg>
+                  </app>
+               </l>
+               <l n="3">When Dimness<app>
+                     <rdg wit="#df16 #fh">—</rdg>
+                     <rdg wit="#ce #fp #am"> </rdg>
+                  </app>looks the <app>
+                     <rdg wit="#df16 #fh">Oddity—</rdg>
+                     <rdg wit="#fp">oddity,</rdg>
+                     <rdg wit="#am #ce">Oddity,</rdg>
+                  </app>
+               </l>
+               <l n="4">
+                  <app>
+                     <rdg wit="#df16 #fh">Distinctness—easy—seems—</rdg>
+                     <rdg wit="#ce #fp #am">Distinctness easy seems.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">The <app>
+                     <rdg wit="#df16 #fh">Shapes</rdg>
+                     <rdg wit="#fp #am #ce">shapes</rdg>
+                  </app> we <app>
+                     <rdg wit="#df16 #fh">buried, dwell about,</rdg>
+                     <rdg wit="#ce">buried dwell about</rdg>
+                     <rdg wit="#fp #am">buried dwell about.</rdg>
+                  </app>
+               </l>
+               <l n="6">Familiar<app>
+                     <rdg wit="#df16 #fh">,</rdg>
+                     <rdg wit="#am #ce #fp"> </rdg>
+                  </app> in the <app>
+                     <rdg wit="#df16 #fh">Rooms—</rdg>
+                     <rdg wit="#ce #fp #am">rooms,</rdg>
+                  </app>
+               </l>
+               <l n="7">Untarnished by the <app>
+                     <rdg wit="#df16 #fh">Sepulchre,</rdg>
+                     <rdg wit="#ce #am">sepulchre</rdg>
+                     <rdg wit="#fp">sepulcher</rdg>
+                  </app>
+               </l>
+               <l n="8">
+                  <app>
+                     <rdg wit="#var0 #fh #df16">The</rdg>
+                     <rdg wit="#var1 #ce #fp #am #df16">Our</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#df16 #fh">Mouldering Playmate comes—</rdg>
+                     <rdg wit="#ce #fp #am">moldering playmate comes</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="9">In just the <app>
+                     <rdg wit="#df16 #fh">Jacket that he wore—</rdg>
+                     <rdg wit="#ce #fp #am">jacket that he wore,</rdg>
+                  </app>
+               </l>
+               <l n="10">Long buttoned in the <app>
+                     <rdg wit="#df16 #fh">Mold</rdg>
+                     <rdg wit="#ce #fp #am">mold,</rdg>
+                  </app>
+               </l>
+               <l n="11">
+                  <app>
+                     <rdg wit="#df16 #fh">Since we—old mornings, Children—played—</rdg>
+                     <rdg wit="#ce #fp #am">Since we, old mornings, children played,</rdg>
+                  </app>
+               </l>
+               <l n="12">
+                  <app>
+                     <rdg wit="#df16 #fh">Divided—by a world—</rdg>
+                     <rdg wit="#ce #fp #am">Divided by a world.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="13">
+                  <app>
+                     <rdg wit="#df16 #fh">The Grave yields back her Robberies—</rdg>
+                     <rdg wit="#fp #ce #am">The grave yields back her robberies,</rdg>
+                  </app>
+               </l>
+               <l n="14">
+                  <app>
+                     <rdg wit="#df16 #fh">The Years, our pilfered Things—</rdg>
+                     <rdg wit="#fp #ce #am">The years are pilfered things,</rdg>
+                  </app>
+               </l>
+               <l n="15">
+                  <app>
+                     <rdg wit="#df16 #fh">Bright Knots of Apparitions</rdg>
+                     <rdg wit="#ce #fp #am">Bright knots of apparitions</rdg>
+                  </app>
+               </l>
+               <l n="16">Salute us<app>
+                     <rdg wit="#fh">,</rdg>
+                  </app> with their wings—</l>
+            </lg>
+            <lg>
+               <l n="17">
+                  <app>
+                     <rdg wit="#df16 #fh">As we—it were—that perished—</rdg>
+                     <rdg wit="#fp #ce #am">As we it were that perished,</rdg>
+                  </app>
+               </l>
+               <l n="18">
+                  <app>
+                     <rdg wit="#df16 #fh">Themself—had just remained till we rejoin them—</rdg>
+                     <rdg wit="#fp #ce #am">Themselves had just remained</rdg>
+                  </app>
+               </l>
+               <l n="19">
+                  <app>
+                     <rdg wit="#df16 #fh">And 'twas they, and not ourself</rdg>
+                     <rdg wit="#am #fp">Till we rejoin them,</rdg>
+                     <rdg wit="#fp">And 'twas They, and not Ourselves</rdg>
+                     <rdg wit="#ce">Till we rejoin them, and 'twas They</rdg>
+                  </app>
+               </l>
+               <l n="20">
+                  <app>
+                     <rdg wit="#am">And't was They, and not Ourselves</rdg>
+                  </app>
+               </l>
+               <l n="21">
+                  <app>
+                     <rdg wit="#df16 #fp #fh #am">That mourned.</rdg>
+                     <rdg wit="#ce">And not Ourselves that mourned.</rdg>
+                  </app>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 3 (J 279: 1861/1896)</title>
+            </head>
+            <lg>
+               <l n="1">Tie the <app>
+                     <rdg wit="#df16 #fh">Strings</rdg>
+                     <rdg wit="#poems3 #ce">strings</rdg>
+                  </app> to my <app>
+                     <rdg wit="#df16 #fh">Life, My</rdg>
+                     <rdg wit="#ce #poems3">life, my</rdg>
+                  </app> Lord, </l>
+               <l n="2">
+                  <app>
+                     <rdg wit="#df16 #fh">Then, I am ready to go!</rdg>
+                     <rdg wit="#ce #poems3">Then I am ready to go!</rdg>
+                  </app>
+               </l>
+               <l n="3">Just <app>
+                     <rdg wit="#fh #ce #poems3">a</rdg>
+                  </app> look at the <app>
+                     <rdg wit="#df16 #fh">Horses</rdg>
+                     <rdg wit="#ce">horses</rdg>
+                     <rdg wit="#poems3">horses</rdg>
+                  </app>—</l>
+               <l n="4">Rapid! That will do!</l>
+            </lg>
+            <lg>
+               <l n="5">Put me <app>
+                     <rdg wit="#df16 #fh #poems3">in</rdg>
+                  </app> on the <app>
+                     <rdg wit="#var0 #fh #ce #poems3 #df16">firmest </rdg>
+                     <rdg wit="#var1 #df16">tightest </rdg>
+                     <rdg wit="#var2 #df16">highest—</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#df16 #fh">side—</rdg>
+                     <rdg wit="#poems3 #ce">side,</rdg>
+                  </app>
+               </l>
+               <l n="6">
+                  <app>
+                     <rdg wit="#df16 #fh">So I shall never fall—</rdg>
+                     <rdg wit="#ce #poems3">So I shall never fall;</rdg>
+                  </app>
+               </l>
+               <l n="7">For we must ride to the Judgment<app>
+                     <rdg wit="#df16 #fh">—</rdg>
+                     <rdg wit="#ce #poems3">,</rdg>
+                  </app>
+               </l>
+               <l n="8">
+                  <app>
+                     <rdg wit="#var0 #fh #df16">And it's partly, down Hill—</rdg>
+                     <rdg wit="#var1 #df16">And it's many a mile—the Hills—</rdg>
+                     <rdg wit="#ce #poems3">And it's partly down hill.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="9">But <app>
+                     <rdg wit="#df16">never I</rdg>
+                     <rdg wit="#ce #fh #poems3">never I</rdg>
+                  </app> mind the <app>
+                     <rdg wit="#var0 #df16">steepest</rdg>
+                     <rdg wit="#var1 #df16">Bridges</rdg>
+                     <rdg wit="#fh">steepest—</rdg>
+                     <rdg wit="#ce #poems3">bridges,</rdg>
+                  </app>
+               </l>
+               <l n="10">
+                  <app>
+                     <rdg wit="#df16 #fh">And never I mind the Sea—</rdg>
+                     <rdg wit="#ce #poems3">And never I mind the sea;</rdg>
+                  </app>
+               </l>
+               <l n="11">Held fast in <app>
+                     <rdg wit="#df16 #fh">Everlasting Race—</rdg>
+                     <rdg wit="#ce #poems3">everlasting race</rdg>
+                  </app>
+               </l>
+               <l n="18">
+                  <app>
+                     <rdg wit="#df16 #fh">By my own Choice, and Thee—</rdg>
+                     <rdg wit="#ce #poems3">By my own choice and thee.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="13">
+                  <app>
+                     <rdg wit="#df16 #fh">Goodbye to the Life I used to live—</rdg>
+                     <rdg wit="#ce #poems3">Good-by to the life I used to live,</rdg>
+                  </app>
+               </l>
+               <l n="14">
+                  <app>
+                     <rdg wit="#df16 #fh">And the World I used to know—</rdg>
+                     <rdg wit="#ce #poems3">And the world I used to know;</rdg>
+                  </app>
+               </l>
+               <l n="15">
+                  <app>
+                     <rdg wit="#df16 #fh">And kiss the Hills, for me, just once—</rdg>
+                     <rdg wit="#ce #poems3">And kiss the hills for me, just once;</rdg>
+                  </app>
+               </l>
+               <!--asm 2015-12-13:  Interpreted transcriptions to include line previously left out-->
+               <l n="16">
+                  <app>
+                     <rdg wit="#var0 #fh #df16">Then—</rdg>
+                     <rdg wit="#var1 #ce #poems3 #df16">Now</rdg>
+                  </app> I am ready to go!</l>
+               <l n="17">
+                  <app>
+                     <rdg wit="#var0 #df16">And it's many a mile—the Hills</rdg>
+                     <rdg wit="#var1 #df16">And it's many a mile—Bridges</rdg>
+                     <rdg wit="#var2 #df16">Here's a keepsake for the Hills</rdg>
+                  </app>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 11 (J 446: 1862/1914)</title>
+            </head>
+            <lg>
+               <l n="1">
+                  <app>
+                     <rdg wit="#df16">He</rdg>
+                     <rdg wit="#lSD #ce">I</rdg>
+                  </app> showed <app>
+                     <rdg wit="#df16">me Hights </rdg>
+                     <rdg wit="#lSD">her Hights </rdg>
+                     <rdg wit="#ce">her heights</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#df16">I</rdg>
+                     <rdg wit="#ce #lSD">she</rdg>
+                  </app> never saw—</l>
+               <l n="2">"<app>
+                     <rdg wit="#df16">Would'st Climb</rdg>
+                     <rdg wit="#lSD">Would'st Climb,</rdg>
+                     <rdg wit="#ce">Wouldst climb?</rdg>
+                  </app>" <app>
+                     <rdg wit="#df16">—He said?</rdg>
+                     <rdg wit="#lSD ">I said?</rdg>
+                     <rdg wit="#ce">I said,</rdg>
+                  </app>
+               </l>
+               <l n="3">
+                  <app>
+                     <rdg wit="#df16">I said,</rdg>
+                     <rdg wit="#lSD">She said—</rdg>
+                     <rdg wit="#ce">She said</rdg>
+                  </app> "Not so"—</l>
+               <l n="4">"With <app>
+                     <rdg wit="#lSD">
+                        <emph rend="underline">me</emph>—</rdg>
+                     <rdg wit="#df16">me—</rdg>
+                     <rdg wit="#ce">me?</rdg>
+                  </app>" <app>
+                     <rdg wit="#df16">He said—</rdg>
+                     <rdg wit="#lSD">I said—</rdg>
+                     <rdg wit="#ce">I said,</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#df16">"With me"?</rdg>
+                     <rdg wit="#lSD">With <emph rend="underline">me</emph>?</rdg>
+                     <rdg wit="#ce">"With me?"</rdg>
+                  </app>
+               </l>
+               <l n="5">
+                  <app>
+                     <rdg wit="#df16">He</rdg>
+                     <rdg wit="#lSD #ce">I</rdg>
+                  </app> showed <app>
+                     <rdg wit="#df16">me</rdg>
+                     <rdg wit="#lSD #ce">her</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#df16 #lSD">Secrets—</rdg>
+                     <rdg wit="#ce">secrets</rdg>
+                  </app>
+               </l>
+               <l n="6">
+                  <app>
+                     <rdg wit="#df16 #lSD">Morning's Nest—</rdg>
+                     <rdg wit="#ce">Morning's nest,</rdg>
+                  </app>
+               </l>
+               <l n="7">The<app>
+                     <rdg wit="#df16 #lSD">Rope the</rdg>
+                     <rdg wit="#ce">rope that</rdg>
+                  </app> Nights were put across—</l>
+               <l n="8">
+                  <app>
+                     <rdg wit="#df16">"And now, Would'st have me for a Guest"?</rdg>
+                     <rdg wit="#lSD">"And <emph rend="underline">now</emph>—"Would'st have me for a
+                        Guest"?</rdg>
+                     <rdg wit="#ce">And <emph rend="italicized">now</emph>, "Wouldst have me for a
+                        Guest?"</rdg>
+                  </app>
+               </l>
+               <l n="9">
+                  <app>
+                     <rdg wit="#df16">I</rdg>
+                     <rdg wit="#lSD #ce">She</rdg>
+                  </app> could not find <app>
+                     <rdg wit="#df16">my "Yes".</rdg>
+                     <rdg wit="#lSD">her Yes—</rdg>
+                     <rdg wit="#ce">her yes—</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="10">And then, <app>
+                     <rdg wit="#df16">He</rdg>
+                     <rdg wit="#ce #lSD">I</rdg>
+                  </app> brake <app>
+                     <rdg wit="#df16">His Life—And lo,</rdg>
+                     <rdg wit="#lSD">my life—And Lo,</rdg>
+                     <rdg wit="#ce">my life, and Lo!</rdg>
+                  </app>
+               </l>
+               <l n="11">A <app>
+                     <rdg wit="#df16">light for me,</rdg>
+                     <rdg wit="#lSD">Light, for her,</rdg>
+                     <rdg wit="#ce">light for her,</rdg>
+                  </app> did solemn glow<app>
+                     <rdg wit="#df16">—</rdg>
+                     <rdg wit="#lSD #ce">,</rdg>
+                  </app>
+               </l>
+               <l n="12">
+                  <app>
+                     <rdg wit="#df16">The steadier, as my face withdrew—</rdg>
+                     <rdg wit="#lSD #ce">The larger, as her face withdrew—</rdg>
+                  </app>
+               </l>
+               <l n="13">And <app>
+                     <rdg wit="#df16">could I further "No"?</rdg>
+                     <rdg wit="#lSD">
+                        <emph rend="underline">could</emph> she, futher, "No"?</rdg>
+                     <rdg wit="#ce">could she, further, "No?"</rdg>
+                  </app>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 4 (J 241: 1861/1890)</title>
+            </head>
+            <lg>
+               <l n="1">I like a look of <app>
+                     <rdg wit="#df16 #fh">Agony</rdg>
+                     <rdg wit="#poems1 #ce">agony</rdg>
+
+                  </app>,</l>
+               <l n="2">Because I know it's true<app>
+                     <rdg wit="#df16 #fh">—</rdg>
+                     <rdg wit="#poems1 #ce">;</rdg>
+                  </app>
+               </l>
+               <l n="3">Men do not sham <app>
+                     <rdg wit="#df16 #fh">Convulsion</rdg>
+                     <rdg wit="#poems1 #ce">convulsion</rdg>
+                  </app>,</l>
+               <l n="4">Nor simulate<app>
+                     <!--asm 12-6-2015: I pulled the "a" into the variations, because the comma being outside of the 
+                  variant and having a separate <app> element was really screwing me up. I think it makes sense
+                  how it is now, and does not distrub the differences. Since Final Harvest has the comma, the entire
+                  section after the comma is the variant. -->
+                     <rdg wit="#df16"> a Throe—</rdg>
+                     <rdg wit="#fh">, a Throe—</rdg>
+                     <rdg wit="#poems1 #ce"> a throe.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">
+                  <app>
+                     <rdg wit="#var0 #df16">
+                        <del rend="strikethrough">Death comes</del>
+                     </rdg>
+                  </app>
+               </l>
+               <l n="6">The Eyes glaze once<app>
+                     <rdg wit="#df16">—and—that is Death—</rdg>
+                     <rdg wit="#poems1 #ce">, and that is death.</rdg>
+                     <rdg wit="#fh">—and that is Death—</rdg>
+                  </app>
+               </l>
+               <l n="7">Impossible to feign</l>
+               <l n="8">
+                  <app>
+                     <rdg wit="#df16 #fh">The Beads upon the Forehead</rdg>
+                     <rdg wit="#poems1 #ce">The beads upon the forehead</rdg>
+                  </app>
+               </l>
+               <l n="9">By homely <app>
+                     <rdg wit="#df16 #fh">Anguish</rdg>
+                     <rdg wit="#poems1 #ce">anguish</rdg>
+                  </app> strung.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 5 (J 280: 1861/1896)</title>
+            </head>
+            <lg>
+               <l n="1">I felt a <app>
+                     <rdg wit="#df16 #fh">Funeral, in my Brain,</rdg>
+                     <rdg wit="#poems3 #ce">funeral in my brain,</rdg>
+                  </app>
+               </l>
+               <l n="2">
+                  <app>
+                     <rdg wit="#df16 #fh">And Mourners to and fro</rdg>
+                     <rdg wit="#poems3 #ce">And mourners, to and fro,</rdg>
+                  </app>
+               </l>
+               <l n="3">
+                  <app>
+                     <rdg wit="#df16 #fh">Kept treading—treading—till it seemed</rdg>
+                     <rdg wit="#poems3 #ce">Kept treading, treading, till it seemed</rdg>
+                  </app>
+               </l>
+               <l n="4">
+                  <app>
+                     <rdg wit="#df16 #fh">That Sense was breaking through—</rdg>
+                     <rdg wit="#poems3 #ce">That sense was breaking through.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">And when they all were seated,</l>
+               <l n="6">
+                  <app>
+                     <rdg wit="#df16 #fh">A Service, like a Drum—</rdg>
+                     <rdg wit="#poems3 #ce">A service like a drum</rdg>
+                  </app>
+               </l>
+               <l n="7">Kept <app>
+                     <rdg wit="#df16 #fh">beating—beating—</rdg>
+                     <rdg wit="#poems3 #ce">beating, beating,</rdg>
+                  </app>till I thought</l>
+               <l n="8">
+                  <app>
+                     <rdg wit="#df16 #fh">My Mind was going numb—</rdg>
+                     <rdg wit="#poems3 #ce">My mind was going numb.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="9">And then I heard them lift a <app>
+                     <rdg wit="#df16 #fh">Box</rdg>
+                     <rdg wit="#poems3 #ce">box,</rdg>
+                  </app>
+               </l>
+               <l n="10">
+                  <app>
+                     <rdg wit="#df16 #fh">And creak across my</rdg>
+                     <rdg wit="#poems3 #ce">And creak across my</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#df16 #fh"> Soul</rdg>
+                     <rdg wit="#poems3 #ce"> soul</rdg>
+                  </app>
+               </l>
+               <l n="11">With those same <app>
+                     <rdg wit="#df16 #fh">Boots of lead, again,</rdg>
+                     <rdg wit="#poems3 #ce">boots of lead, again.</rdg>
+                  </app>
+               </l>
+               <l n="12">
+                  <app>
+                     <rdg wit="#df16 #fh">Then Space—began to toll,</rdg>
+                     <rdg wit="#poems3 #ce">Then space bagan to toll</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="13">As all the <app>
+                     <rdg wit="#df16 #fh">Heavens were a Bell,</rdg>
+                     <rdg wit="#poems3 #ce">heavens were a bell,</rdg>
+                  </app>
+               </l>
+               <l n="14">
+                  <app>
+                     <rdg wit="#df16 #fh">And Being, but an Ear,</rdg>
+                     <rdg wit="#ce #poems3">And Being but an ear,</rdg>
+                  </app>
+               </l>
+               <l n="15">
+                  <app>
+                     <rdg wit="#df16 #fh">And I, and Silence, some strange Race</rdg>
+                     <rdg wit="#poems3 #ce">And I and silence some strange race,</rdg>
+                  </app>
+               </l>
+               <l n="16">
+                  <app>
+                     <rdg wit="#df16 #fh">Wrecked, solitary, here—</rdg>
+                     <rdg wit="#poems3 #ce">Wrecked, solitary, here.</rdg>
+                  </app>
+               </l>
+               <label xml:id="poems3End"/>
+               <label xml:id="ceEnd"/>
+            </lg>
+            <lg>
+               <l n="17">And then a Plank in Reason, broke, </l>
+               <l n="18">And I dropped down, and down—</l>
+               <l n="19">And hit a World, at every <app>
+                     <rdg wit="#var0 #fh #df16">plunge,</rdg>
+                     <rdg wit="#var1 #df16">Crash—</rdg>
+                  </app>
+               </l>
+               <l n="20">And <app>
+                     <rdg wit="#var0 #fh #df16">Finished </rdg>
+                     <rdg wit="#var1 #df16">Got through—</rdg>
+                  </app>knowing—then—</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 6 (J 281: 1861/1935)</title>
+            </head>
+            <lg>
+               <l n="1">'Tis so appalling—it exhilarates—</l>
+               <l n="2">So over Horror, <app>
+                     <rdg wit="#var0 #fh #df16">it half Captivates—</rdg>
+                     <rdg wit="#var1 #df16">it dumb fascinates—</rdg>
+                  </app>
+               </l>
+               <l n="3">The Soul stares after it, secure—</l>
+               <l n="4">
+                  <app>
+                     <rdg wit="#var0 #df16">To know the worst, leaves no dread more—</rdg>
+                     <rdg wit="#var1 #fh #df16">A Sepulchre, fears frost, no more—</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">To scan a Ghost, is faint—</l>
+               <l n="6">
+                  <app>
+                     <rdg wit="#df16">But grappling, Conquers it—</rdg>
+                     <rdg wit="#fh">But grappling, conquers it—</rdg>
+                  </app>
+               </l>
+               <l n="7">
+                  <app>
+                     <rdg wit="#df16">How Easy Torment, now—</rdg>
+                     <rdg wit="#fh">How easy, Torment, now—</rdg>
+                  </app>
+               </l>
+               <l n="8">Suspense kept sawing so—</l>
+            </lg>
+            <lg>
+               <l n="9">The Truth, is Bald, and Cold—</l>
+               <l n="10">But that will hold—</l>
+               <l n="11">If any are not sure—</l>
+               <l n="12">We show them—prayer—</l>
+               <l n="13">But we, who know,</l>
+               <l n="14">Stop hoping, now—</l>
+            </lg>
+            <lg>
+               <l n="15">Looking at Death, is Dying—</l>
+               <l n="16">Just let go the Breath—</l>
+               <l n="17">And not the pillow at your Cheek</l>
+               <l n="18">So Slumbereth—</l>
+            </lg>
+            <lg>
+               <l n="19">Others, Can wrestle—</l>
+               <l n="20">Yours, is done—</l>
+               <l n="21">And so of Woe, bleak dreaded—come,</l>
+               <l n="22">It sets the Fright at liberty—</l>
+               <l n="23">And Terror's free—</l>
+               <l n="24">Gay, Ghastly, Holiday!</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 7. (J 282: 1861/1929)</title>
+            </head>
+            <lg>
+               <l n="1">
+                  <app>
+                     <rdg wit="#df16 #fh">How noteless Men, and Pleiads, stand,</rdg>
+                     <rdg wit="#ce #df16">How noteless men and Pleiads stand</rdg>
+                     <rdg wit="#fp">How noteless men and</rdg>
+                  </app>
+               </l>
+               <l n="2">
+                  <app>
+                     <rdg wit="#fp">Pleiads stand</rdg>
+                  </app>
+               </l>
+               <l n="3">Until a sudden sky</l>
+               <l n="4">Reveals the fact that <app>
+                     <rdg wit="#df16 #fh">One is rapt</rdg>
+                     <rdg wit="#fp #ce">one is wrapt</rdg>
+                  </app>
+               </l>
+               <l n="5">Forever from the <app>
+                     <rdg wit="#df16 #fh">Eye—</rdg>
+                     <rdg wit="#fp #ce">eye.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="6">Members of the Invisible,</l>
+               <l n="7">
+                  <app>
+                     <rdg wit="#df16 #fh">Existing, while we stare,</rdg>
+                     <rdg wit="#fp #ce">Existing while we stare</rdg>
+                  </app>
+               </l>
+               <l n="8">
+                  <app>
+                     <rdg wit="#df16 #fh">In Leagueless Opportunity,</rdg>
+                     <rdg wit="#fp #ce">In leagueless opportunity</rdg>
+                  </app>
+               </l>
+               <l n="9">
+                  <app>
+                     <rdg wit="#df16 #fh">O'ertakeless, as the Air—</rdg>
+                     <rdg wit="#fp #ce">O'er-take-less as the air.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="10">Why didn't we <app>
+                     <rdg wit="#var0 #fh #df16">detain Them?</rdg>
+                     <rdg wit="#var1 #df16">retain Them?</rdg>
+                     <rdg wit="#var2 #df16">detain it?</rdg>
+                     <rdg wit="#fp #ce">detain them?</rdg>
+                  </app>
+               </l>
+               <l n="11">The Heavens with a <app>
+                     <rdg wit="#df16 #fh">smile,</rdg>
+                     <rdg wit="#fp #ce">smile</rdg>
+                  </app>
+               </l>
+               <l n="12">
+                  <app>
+                     <rdg wit="#df16 #fh">Sweep by our disappointed Heads</rdg>
+                     <rdg wit="#ce">Sweep by our disappointed heads,</rdg>
+                     <rdg wit="#fp">Sweep by our disappointed</rdg>
+                  </app>
+               </l>
+               <l n="13">
+                  <app>
+                     <rdg wit="#fp">Heads,</rdg>
+                  </app>
+               </l>
+               <l n="14">
+                  <app>
+                     <rdg wit="#var0 #fh #df16">Without a syllable—</rdg>
+                     <rdg wit="#var1 #fp #ce #df16">But deign no syllable.</rdg>
+                  </app>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 8 (J 242: 1861/1945)</title>
+            </head>
+            <lg>
+               <l n="1">When we stand on the tops of <app>
+                     <rdg wit="#df16">Things—</rdg>
+                     <rdg wit="#bm">things</rdg>
+                  </app>
+               </l>
+               <l n="2">And like the <app>
+                     <rdg wit="#df16">Trees, look down—</rdg>
+                     <rdg wit="#bm">trees look down,</rdg>
+                  </app>
+               </l>
+               <l n="3">The smoke all cleared away from <app>
+                     <rdg wit="#df16">it—</rdg>
+                     <rdg wit="#bm">it</rdg>
+                  </app>
+               </l>
+               <l n="4">And <app>
+                     <rdg wit="#df16">Mirrors on the scene—</rdg>
+                     <rdg wit="#bm">[sunset] on the scene</rdg>
+                     <!--bas: There's a footnote here that says "sunset" was used to fill in a blank in the copy of the poem made by Mrs. Todd, as there was no copy in Emily's handwriting available at the time.-->
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">Just laying <app>
+                     <rdg wit="#df16">light—no</rdg>
+                     <rdg wit="#bm">light, no</rdg>
+                  </app> soul will wink</l>
+               <l n="6">Except it have the <app>
+                     <rdg wit="#df16">flaw—</rdg>
+                     <rdg wit="#bm">flaw;</rdg>
+                  </app>
+               </l>
+               <l n="7">The <app>
+                     <rdg wit="#df16">Sound ones, like the Hills</rdg>
+                     <rdg wit="#bm">sound ones like the hills</rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#var0 #df16">—shall stand—</rdg>
+                     <rdg wit="#var1 #df16">—stand up—</rdg>
+                     <rdg wit="#bm">shall stand</rdg>
+                  </app>
+               </l>
+               <l n="8">No <app>
+                     <rdg wit="#df16">Lightning, </rdg>
+                     <rdg wit="#bm">lightning </rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#var0 #df16">scares away—</rdg>
+                     <rdg wit="#var1 #df16">drives away—</rdg>
+                     <rdg wit="#bm">drives away.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="9">The <app>
+                     <rdg wit="#df16">Perfect, nowhere be afraid—</rdg>
+                     <rdg wit="#bm">perfect nowhere be afraid,</rdg>
+                  </app>
+               </l>
+               <l n="10">They bear their</l>
+               <l n="11">
+                  <app>
+                     <rdg wit="#var0 #df16">dauntless Heads,</rdg>
+                     <rdg wit="#var1 #df16">fearless—Heads,</rdg>
+                     <rdg wit="#var2 #df16">tranquil—Heads,</rdg>
+                     <rdg wit="#bm">tranquil heads</rdg>
+                  </app>
+               </l>
+               <l n="12">When <app>
+                     <rdg wit="#df16">others, dare not </rdg>
+                     <rdg wit="#bm">others dare not </rdg>
+                  </app>
+                  <app>
+                     <rdg wit="#var0 #bm #df16">go at Noon,</rdg>
+                     <rdg wit="#var1 #df16">walk at noon,</rdg>
+                     <rdg wit="#bm">go at noon,</rdg>
+                  </app>
+               </l>
+               <l n="13">Protected by their <app>
+                     <rdg wit="#df16">deeds—</rdg>
+                     <rdg wit="#bm">deeds.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="14">The <app>
+                     <rdg wit="#df16">Stars</rdg>
+                     <rdg wit="#bm">stars</rdg>
+                  </app> dare shine occasionally</l>
+               <l n="15">Upon a spotted <app>
+                     <rdg wit="#df16">World—</rdg>
+                     <rdg wit="#bm">world,</rdg>
+                  </app>
+               </l>
+               <l n="16">
+                  <app>
+                     <rdg wit="#df16">And Suns, go surer, for their Proof,</rdg>
+                     <rdg wit="#bm">And suns go surer for their proof,</rdg>
+                  </app>
+               </l>
+               <l n="17">As if <app>
+                     <rdg wit="#var0 #df16">An Axle, held—</rdg>
+                     <rdg wit="#var1 #df16">A Muscle—held</rdg>
+                     <rdg wit="#bm">an axle held.</rdg>
+                  </app>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 9 (J 445: 1862/1896)</title>
+            </head>
+            <lg>
+               <l n="1">'Twas just this <app>
+                     <rdg wit="#df16 #fh"> time, last year, I died.</rdg>
+                     <rdg wit="#poems3 #ce">time last year I died.</rdg>
+                  </app>
+               </l>
+               <l n="2"> I know I heard the <app>
+                     <rdg wit="#df16 #fh">Corn,</rdg>
+                     <rdg wit="#poems3 #ce">corn,</rdg>
+                  </app>
+               </l>
+               <l n="3">When I was carried by the <app>
+                     <rdg wit="#df16 #fh">Farms—</rdg>
+                     <rdg wit="#poems3 #ce">farms,—</rdg>
+                  </app>
+               </l>
+               <l n="4">It had the <app>
+                     <rdg wit="#df16 #fh">Tassels on—</rdg>
+                     <rdg wit="#poems3 #ce">tassels on.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">I thought how yellow it would <app>
+                     <rdg wit="#df16 #fh">look—</rdg>
+                     <rdg wit="#poems3 #ce">look</rdg>
+                  </app>
+               </l>
+               <l n="6">When Richard went to <app>
+                     <rdg wit="#df16 #fh">mill—</rdg>
+                     <rdg wit="#poems3 #ce">mill ;</rdg>
+                  </app>
+               </l>
+               <l n="7">And <app>
+                     <rdg wit="#df16 #fh">then,</rdg>
+                     <rdg wit="#poems3 #ce">then</rdg>
+                  </app> I wanted to get out,</l>
+               <l n="8">But something held my will.</l>
+            </lg>
+            <lg>
+               <l n="9">I thought just how <app>
+                     <rdg wit="#df16 #fh">Red—Apples wedged</rdg>
+                     <rdg wit="#poems3 #ce">red apples wedged</rdg>
+                  </app>
+               </l>
+               <l n="10">The <app>
+                     <rdg wit="#df16 #fh">Stubble's joints between—</rdg>
+                     <rdg wit="#poems3 #ce">stubble's joints between ;</rdg>
+                  </app>
+               </l>
+               <l n="11">
+                  <app>
+                     <rdg wit="#df16">And Carts went</rdg>
+                     <rdg wit="#poems3 #ce">And carts went</rdg>
+                     <rdg wit="#fh">And the Carts</rdg>
+                  </app> stooping round the fields</l>
+               <l n="12">To take the Pumpkins <app>
+                     <rdg wit="#df16 #fh">in—</rdg>
+                     <rdg wit="#poems3 #ce">in.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="13">I wondered which would miss <app>
+                     <rdg wit="#df16 #fh">me, least,</rdg>
+                     <rdg wit="#poems3 #ce">me least,</rdg>
+                  </app>
+               </l>
+               <l n="14">And when <app>
+                     <rdg wit="#df16 #fh">Thanksgiving, came,</rdg>
+                     <rdg wit="#poems3 #ce">Thanksgiving came,</rdg>
+                  </app>
+               </l>
+               <l n="15">If <app>
+                     <rdg wit="#df16 #fh">Father'd</rdg>
+                     <rdg wit="#poems3 #ce">father'd</rdg>
+                  </app> multiply the <app>
+                     <rdg wit="#df16 #fh">plates—</rdg>
+                     <rdg wit="#poems3 #ce">plates</rdg>
+                  </app>
+               </l>
+               <l n="16">To make an even <app>
+                     <rdg wit="#df16 #fh">Sum—</rdg>
+                     <rdg wit="#poems3 #ce">sum.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="17">
+                  <app>
+                     <rdg wit="#df16 #fh">And would it blur the Christmas glee</rdg>
+                     <rdg wit="#poems3 #ce">And if my stocking hung too high,</rdg>
+                  </app>
+               </l>
+               <l n="18">
+                  <app>
+                     <rdg wit="#df16 #fh">My Stocking hang too high</rdg>
+                     <rdg wit="#poems3 #ce">Would it blur the Christmas glee,</rdg>
+                  </app>
+               </l>
+               <l n="19">
+                  <app>
+                     <rdg wit="#df16 #fh">For any Santa Claus to reach</rdg>
+                     <rdg wit="#poems3 #ce">That not a Santa Claus could reach</rdg>
+                  </app>
+               </l>
+               <l n="20">The <app>
+                     <rdg wit="#df16 #fh">Altitude of me—</rdg>
+                     <rdg wit="#poems3 #ce">altitude of me?</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="21">But this <app>
+                     <rdg wit="#df16 #fh">sort, grieved myself,</rdg>
+                     <rdg wit="#poems3 #ce">sort grieved myself, and so</rdg>
+                  </app>
+               </l>
+               <l n="22">
+                  <app>
+                     <rdg wit="#df16 #fh">And so, I thought the other way,</rdg>
+                     <rdg wit="#poems3 #ce">I thought how it would be</rdg>
+                  </app>
+               </l>
+               <l n="23">
+                  <app>
+                     <rdg wit="#df16 #fh">How</rdg>
+                     <rdg wit="#poems3 #ce">When</rdg>
+                  </app> just this time, some perfect <app>
+                     <rdg wit="#df16 #fh">year—</rdg>
+                     <rdg wit="#poems3 #ce">year,</rdg>
+                  </app>
+               </l>
+               <l n="24">
+                  <app>
+                     <rdg wit="#df16 #fh">Themself,</rdg>
+                     <rdg wit="#poems3 #ce">Themselves</rdg>
+                  </app> should come to <app>
+                     <rdg wit="#df16 #fh">me—</rdg>
+                     <rdg wit="#poems3 #ce">me.</rdg>
+                  </app>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>
+               <title>Poem 10 (J 608: 1862/1890)</title>
+            </head>
+            <lg>
+               <l n="1">
+                  <app>
+                     <rdg wit="#df16 #fh">Afraid!</rdg>
+                     <rdg wit="#poems1 #ce">Afraid?</rdg>
+                  </app> Of whom am I afraid?</l>
+               <l n="2">Not <app>
+                     <rdg wit="#df16 #fh">Death—for who is He?</rdg>
+                     <rdg wit="#poems1 #ce">death; for who is he?</rdg>
+                  </app>
+               </l>
+               <l n="3">The <app>
+                     <rdg wit="#df16 #fh">Porter</rdg>
+                     <rdg wit="#poems1 #ce">porter</rdg>
+                  </app> of my <app>
+                     <rdg wit="#df16 #fh">Father's Lodge</rdg>
+                     <rdg wit="#poems1 #ce">father's lodge</rdg>
+                  </app>
+               </l>
+               <l n="4">As much abasheth me<app>
+                     <rdg wit="#df16 #fh">!</rdg>
+                     <rdg wit="#poems1 #ce">.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="5">Of Life? 'Twere odd I fear <app>
+                     <rdg wit="#df16">thing</rdg>
+                     <rdg wit="#poems1 #ce">a thing</rdg>
+                     <rdg wit="#fh">[a] thing</rdg>
+                  </app>
+               </l>
+               <l n="6">That comprehendeth me</l>
+               <l n="7">In one or <app>
+                     <rdg wit="#var0 #fh #df16">two existences—</rdg>
+                     <rdg wit="#var1 #df16">more—existences</rdg>
+                     <rdg wit="#poems1 #ce">more existences</rdg>
+                  </app>
+               </l>
+               <l n="8">
+                  <app>
+                     <rdg wit="#var0 #df16">Just as the case may be—</rdg>
+                     <rdg wit="#var1 #fh #df16">As Deity decree—</rdg>
+                     <rdg wit="#poems1 #ce">At Deity's decree.</rdg>
+                  </app>
+               </l>
+            </lg>
+            <lg>
+               <l n="9">Of <app>
+                     <rdg wit="#df16 #fh">Resurrection</rdg>
+                     <rdg wit="#poems1 #ce">resurrection</rdg>
+                  </app>? Is the <app>
+                     <rdg wit="#df16 #fh">East</rdg>
+                     <rdg wit="#poems1 #ce">east</rdg>
+                  </app>
+               </l>
+               <l n="10">Afraid to trust the <app>
+                     <rdg wit="#df16 #fh">Morn</rdg>
+                     <rdg wit="#poems1 #ce">morn</rdg>
+                  </app>
+               </l>
+               <l n="11">With her fastidious forehead?</l>
+               <l n="12">As soon impeach my <app>
+                     <rdg wit="#df16 #fh">Crown</rdg>
+                     <rdg wit="#poems1 #ce">crown</rdg>
+                  </app>!</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
