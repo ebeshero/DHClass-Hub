@@ -23,13 +23,14 @@
                 <html>
                     <head><title>SOMETHING HERE</title></head>
                     <body>
-                <xsl:apply-templates select="$dickinsonColl//body"/>
- <!--ebb: Here's what is happening at this point. This apply-templates line is
+                        <xsl:apply-templates select="$dickinsonColl//body"/>
+                        <!--ebb: Here's what is happening at this point. This apply-templates line is
 SUPER important, because it's saying, "Apply templates in the rest of this file
 ONLY to the context I set RIGHT HERE. That means the REST of your template rules
 will only fire inside the dickinson collection folder, and that's what you want.
 You don't want to set the context here and then make the parser look up that variable
 over and over again in the template rules; apparently that causes problems! -->
+    
                     </body>
                     
                 </html>
