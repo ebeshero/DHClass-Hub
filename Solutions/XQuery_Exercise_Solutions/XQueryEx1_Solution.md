@@ -55,7 +55,7 @@ To write that in a FLWOR, we break this into pieces and we need to use a **"for"
 ````
  let $plays := collection('/db/shakespeare/plays')
   for $play in $plays
-  let $title := $plays/PLAY/TITLE
+  let $title := $play/PLAY/TITLE
   let $speaker := $play//SPEAKER
   let $countSpeaker := count(distinct-values($speaker))
   where $countSpeaker gt 40
@@ -70,7 +70,7 @@ a) To return only the title, you could have used `data()` or `string()` or `text
   let $plays := collection('/db/shakespeare/plays')
   for $play in $plays
   let $speaker := $play//SPEAKER
-  let $title := $plays/PLAY/TITLE
+  let $title := $play/PLAY/TITLE
   let $titleText := $title/text()
   let $countSpeaker := count(distinct-values($speaker))
   where $countSpeaker gt 40
