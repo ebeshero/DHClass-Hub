@@ -45,9 +45,10 @@ let $docTitles := $coll//teiHeader//titleStmt/title/string()
 let $allPeeps := $docBodies//persName/@ref/string()
 let $distinctPeeps := distinct-values($allPeeps)
 for $peep in $distinctPeeps
-let $FilesHoldingPeep := $docBodies[.//persName[@ref = $peep]]/base-uri()
+let $FilesHoldingPeep := $docBodies[descendant::persName[@ref = $peep]]/base-uri()
 where count($FilesHoldingPeep) gt 15
-order by count($FilesHoldingPeep) descending 
+order by $peep 
+(: order by count($FilesHoldingPeep) descending :) 
 return tokenize($peep, '#')[last()]
 ```` 
 We return 10 results, in reverse alphabetical order: Talfourd_Thos, Shakespeare, Russell_M, Palmer_CF, Mitford_Geo, Macready_Wm, MRM, James_Miss, Haydon, Elford_SirWm 
