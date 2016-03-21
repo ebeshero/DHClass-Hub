@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <g alignment-baseline="baseline" transform="translate(75, 525)">
+    <!--ebb: I decided to use the "transform" attribute here to use its special translate function.
+    The numbers in the parentheses refer to positive movement in X and Y directions, and when I
+    set this on a <g> element like this it shifts the entire group of elements inside over to the right by 75 pixels
+    and down the screen by 75 pixels. You didn't have to use this in this homework, but it's handy
+    when we plot SVG by calculating from 0, and making an adjustment. You might have noticed that if you plotted at 0,0, you couldn't see 
+    your y axis because it was along the very left of the screen, so instead of shifting these by hand, we
+    can just adjust the entire group of elements by as much as we need to make them show where we want 
+    them to.-->  
+           
+        <!--x axis: -->
+        <line x1="0" y1="0" x2="230" y2="0" style="stroke:black;"/>
+        <!--ebb: y axis:-->
+        <line x1="0" y1="0" x2="0" y2="-450" style="stroke:black;"/>
+        <text x="-15" y="-250" style="writing-mode: tb;">Square Miles</text><!-- rjp: This is the bare basic y-axis labeling.-->
+        
+        <rect x="10" y="-404" width="60" height="404" style="fill:turquoise; stroke:black;"/>
+        <text x="20" y="10" transform="rotate(90, 20, 10)">Tahiti: 404 sq. miles </text>
+        <!--ebb: Notice how I started the text 10 pixels *below* the graph. This text is rotated 75 degrees clockwise from the x and y coordinates 20, 10.
+       I did this just to show you how rotation works, since it's a neat effect! To rotate vertically, you could set the first number to 90 for 90 degrees:
+       <text x="20" y="10" transform="rotate(75, 20, 10)">Tahiti: 404 sq. miles </text>
+       
+       The simplest way to position text vertically is like this, using the @style attribute:
+       <text x="20" y="10" style="writing-mode: tb;">Tahiti: 404 sq. miles </text>
+       
+       tb means "top to bottom," and the understanding is that the x and y coordinates you give to text will define the top, where the text begins.
+        -->
+        
+        <rect x="80" y="-65" width="60" height="65" style="fill:orange; stroke:black;"/>
+        <!--Raiatea: 65 sq. miles-->
+        <!--ebb: For my x value, I added the following:
+            the x position of the previous rectangle + the width of the previous rectangle + 10 pixels as spacer
+           -->  
+        <text x="90" y="10" transform="rotate(75, 90, 10)">Raiatea: 65 sq. miles</text>
+        
+        <rect x="150" y="-100" width="60" height="100" style="fill:coral; stroke:black;"/>
+        <!--Tongatapu: 100 sq. miles-->
+        <text x="160" y="10" transform="rotate(75, 160, 10)">Tongatapu: 100 sq. miles</text>
+      
+      <!--ebb: Notice how we plotted these rectangle **from the top of the rectangle downward.** 
+         The height attribute on an SVG rectangle is a positive value (literally how high the rectangle is without reference to 
+         coordinate positions). The y is plotted from the TOP of the rectangle to run DOWN the screen. If having to enter those two height and y values 
+         on the SVG rectangle is annoying, you can always make a rectangle just by using a line element! You can just make a thick line using one of the 
+         style properties: stroke-width, like this:
+        
+        <line x1="5"  y1="0" x2="5" y2="-404" style="stroke:red;stroke-width:10"/>
+        
+        Here you have to enter a starting and ending pair of points for x and y, whereas 
+        with rectangle you only have to enter the x and y coordinates for the top left of your shape.
+        -->
+        
+       <text x="0" y="-475" style="font-family: Arial; font-size:24px; stroke:black; fill:coral;">
+           Relative Sizes in Square Miles of Three Pacific Islands
+       </text> 
+<!--ebb: Notice where I'm positioning this title text, so it sits just above the graph at a high negative value! 
+            A text-anchor attribute would let me set the x and y coordinates of text in the start, middle, or end. 
+            Without it the default value for x and y is the **bottom left** of where you want the text to begin. See the Jakob Jenkov tutorial 
+            for a good explanation of this and other nifty things you can do with the text element:
+        http://tutorials.jenkov.com/svg/text-element.html#text-anchor
+        -->
+        
+    
+        
+    </g>
+</svg>
