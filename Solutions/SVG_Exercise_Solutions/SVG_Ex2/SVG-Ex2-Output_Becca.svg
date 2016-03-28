@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="3000">
+    <g transform="translate(30, 100)">
+        <line x1="100" y1="0" x2="100" y2="2555" style="stroke-width:50; stroke:#646F58"/>
+        <g>
+            <line x1="50" y1="0" x2="200" y2="0" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="0">1818</text>
+            <circle cx="100" cy="0" r="1" fill="#FFFFFF"/>
+            <text x="210" y="0">Letters Coded in 1818 = 1</text>
+        </g>
+        <g>
+            <line x1="50" y1="365" x2="200" y2="365" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="365">1819</text>
+            <circle cx="100" cy="365" r="18" fill="#FFFFFF"/>
+            <text x="210" y="365">Letters Coded in 1819 = 18</text>
+        </g>
+        <g>
+            <line x1="50" y1="730" x2="200" y2="730" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="730">1820</text>
+            <circle cx="100" cy="730" r="10" fill="#FFFFFF"/>
+            <text x="210" y="730">Letters Coded in 1820 = 10</text>
+        </g>
+        <g>
+            <line x1="50" y1="1095" x2="200" y2="1095" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="1095">1821</text>
+            <circle cx="100" cy="1095" r="17" fill="#FFFFFF"/>
+            <text x="210" y="1095">Letters Coded in 1821 = 17</text>
+        </g>
+        <g>
+            <line x1="50" y1="1460" x2="200" y2="1460" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="1460">1822</text>
+            <circle cx="100" cy="1460" r="5" fill="#FFFFFF"/>
+            <text x="210" y="1460">Letters Coded in 1822 = 5</text>
+        </g>
+        <g>
+            <line x1="50" y1="1825" x2="200" y2="1825" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="1825">1823</text>
+            <circle cx="100" cy="1825" r="4" fill="#FFFFFF"/>
+            <text x="210" y="1825">Letters Coded in 1823 = 4</text>
+        </g>
+        <g>
+            <line x1="50" y1="2190" x2="200" y2="2190" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="2190">1824</text>
+            <circle cx="100" cy="2190" r="1" fill="#FFFFFF"/>
+            <text x="210" y="2190">Letters Coded in 1824 = 1</text>
+        </g>
+        <g>
+            <line x1="50" y1="2555" x2="200" y2="2555" style="stroke-width:5; stroke:black"/>
+            <text x="10" y="2555">1825</text>
+            <circle cx="100" cy="2555" r="4" fill="#FFFFFF"/>
+            <text x="210" y="2555">Letters Coded in 1825 = 4</text>
+        </g>
+    </g>
+</svg>

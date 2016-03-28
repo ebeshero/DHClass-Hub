@@ -1,0 +1,61 @@
+xquery version "3.0";
+declare default element namespace "http://www.w3.org/2000/svg"; 
+declare namespace tei="http://www.tei-c.org/ns/1.0";      
+declare variable $mitfordColl := collection ('/db/mitford');
+declare variable $lettersColl := collection('/db/mitford/letters');
+declare variable $letterFiles := $lettersColl/*;
+declare variable $letterDates := $lettersColl//tei:teiHeader//tei:msDesc//tei:head/tei:date/@when/tokenize(string(), '-')[1];
+declare variable $distinctYears := distinct-values($letterDates);
+declare variable $countYears := count($distinctYears);
+declare variable $maxYear := xs:integer(max($distinctYears));
+declare variable $minYear := xs:integer(min($distinctYears));
+declare variable $countingYears := $maxYear - $minYear;
+declare variable $dayInterval := $countingYears * 365;
+declare variable $HaydonLetters := $letterFiles[descendant::tei:titleStmt/tei:title/tei:persName/@ref="#Haydon"];
+declare variable $HaydonDates :=$HaydonLetters//tei:teiHeader//tei:msDesc//tei:head/tei:date/@when/string();
+declare variable $maxHaydon := max($HaydonDates);
+declare variable $minHaydon := min($HaydonDates);
+
+<svg width="800" height="3000">
+   <g transform="translate(30, 100)">
+    <text x="25" y="-50">Timeline of Digital Mitford's Encoded Correspondence of Mary Russell Mitford</text>
+      <line x1="100" y1="0" x2="100" y2="{$dayInterval}" style="stroke-width:50; stroke:#646F58"/>  
+      
+    
+         {
+            for $i in (0 to $countingYears)
+             let $hashInterval := $i * 365
+             let $date := $i + $minYear
+             let $lettersLink := $letterDates[xs:integer(tokenize(string(),'-')[1]) = $date]
+             let $countLetters := count($lettersLink)
+             return
+                <g>
+                <line x1="50" y1="{$hashInterval}" x2="200" y2="{$hashInterval}" style="stroke-width:5; stroke:black"/>
+                <text x="10" y="{$hashInterval}">{$date}</text>
+                <circle cx="100" cy="{$hashInterval}" r="{$countLetters}" fill="#FFFFFF"/>
+                <text x="210" y="{$hashInterval}">Letters Coded for {$date} = {$countLetters}</text>
+                </g>
+         }
+         {
+             
+             let $firstHYear := xs:integer(format-date($minHaydon, '[Y]'))
+             let $firstHDay := xs:integer(format-date($minHaydon, '[d]'))
+             let $lastHYear := xs:integer(format-date($maxHaydon, '[Y]'))
+             let $lastHDay := xs:integer(format-date($maxHaydon, '[d]'))
+             let $startDif := ($firstHYear - $minYear) * 365
+             let $HaydonStart := $startDif + $firstHDay
+             let $endDif := ($lastHYear - $minYear) * 365
+             let $HaydonEnd := $endDif + $lastHDay
+             return
+                 <g>
+                    <line x1="100" y1="{$HaydonStart}" x2="100" y2="{$HaydonEnd}" style="stroke-width:5; stroke:#C4D6B0;"/> 
+                    <line x1="100" y1="{$HaydonStart}" x2="150" y2="{$HaydonStart}" style="stroke-width:2; stroke:#C4D6B0;"/>
+                    <text x="160" y="{$HaydonStart}">Mitford's first correspondence with the artist Benjamin Robert Haydon: {$minHaydon}</text>
+                    <line x1="100" y1="{$HaydonEnd}" x2="150" y2="{$HaydonEnd}" style="stroke-width:2; stroke:#C4D6B0;"/>
+                    <text x="160" y="{$HaydonEnd}">Mitford's last correspondence with the artist Benjamin Robert Haydon: {$maxHaydon}</text>
+                    
+                 </g>
+             
+         }
+       </g>
+</svg>
