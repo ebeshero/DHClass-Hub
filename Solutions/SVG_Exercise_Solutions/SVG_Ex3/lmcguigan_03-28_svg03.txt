@@ -1,0 +1,54 @@
+xquery version "3.0";
+declare default element namespace "http://www.w3.org/2000/svg"; 
+declare namespace tei="http://www.tei-c.org/ns/1.0"; 
+declare variable $mitfordColl := collection ('/db/mitford');
+declare variable $lettersColl := collection('/db/mitford/letters');
+declare variable $letterFiles := $lettersColl/*;
+declare variable $letterDates := $lettersColl//tei:teiHeader//tei:msDesc//tei:head/tei:date/@when/tokenize(string(), '-')[1];
+declare variable $distinctYears := distinct-values($letterDates);
+declare variable $maxDistinctYear := max($distinctYears);
+declare variable $minDistinctYear := min($distinctYears);
+declare variable $integer := (xs:integer($maxDistinctYear) - xs:integer($minDistinctYear)) * 365;
+declare variable $yearSpan := xs:integer($maxDistinctYear) - xs:integer($minDistinctYear);
+declare variable $HaydonLetters := $letterFiles[descendant::tei:titleStmt/tei:title/tei:persName/@ref="#Haydon"];
+declare variable $HaydonDates :=$HaydonLetters//tei:teiHeader//tei:msDesc//tei:head/tei:date/@when/string();
+declare variable $maxHDate := max($HaydonDates);
+declare variable $minHDate := min($HaydonDates);
+declare variable $maxHYear := xs:integer(tokenize($maxHDate,'-')[1]);
+declare variable $minHYear := xs:integer(tokenize($minHDate,'-')[1]);
+declare variable $start := ($minHYear - xs:integer($minDistinctYear))*365;
+declare variable $end := ($maxHYear - xs:integer($minDistinctYear))*365;
+declare variable $newStart := xs:integer(format-date($minHDate, '[d001]')); 
+declare variable $newEnd := xs:integer(format-date($maxHDate, '[d001]'));
+
+
+<svg width="600" height="3000">
+    <g transform= "translate(30,100)">
+        <line x1="200" y1="0" x2="200" y2="{$integer}" style="stroke:blue; stroke-width:20;"/>
+       <line  x1="310" y1="{$start + $newStart}" x2="310" y2="{$end + $newEnd}" style="stroke:green; stroke-width:15;"/>
+
+
+
+
+{
+    for $i in (0 to $yearSpan)
+    let $dates := $i + xs:integer($minDistinctYear)
+    let $matches := $letterDates [xs:integer(tokenize(string(), '-')[1]) = $dates]
+    let $countMatches := count($matches)
+    return 
+    <g>
+ <line x1="170" y1="{$i*365}" x2="230" y2="{$i*365}" style="stroke:red;stroke-width:5"/>
+ <text x="130" y="{$i*365}"> {$dates} </text>
+ <circle  cx="200" cy="{$i*365}" r="{$countMatches}" stroke="black" stroke-width="2" fill="white">  </circle>
+ <text x="230"y="{$i*365}">{$countMatches} letter(s) </text>
+<text x="330" y="{$start + $newStart}"> First Letter: {$minHDate} </text>
+<text x="330" y="{$end + $newEnd}"> Last Letter: {$maxHDate} </text>
+<text x="290" y="780" style="writing-mode: tb;">Haydon Correspondence </text>
+</g>
+    
+
+
+    
+}
+</g>
+</svg>
