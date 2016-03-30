@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Digital Mitford: Visualizations</title>
+        <meta name="Description" content="Supported by the University of Pittsburgh at Greensburg and the Mary Russell Mitford Society."/>
+        <meta name="keywords" content="Mitford, Mary Russell Mitford, Digital Mitford, Digital Mary Russell Mitford, Digital Mary Russell Mitford Archive, Mitford Archive, digital edition, electronic edition, electronic text, Romanticism, Romantic literature, Victorianism, Victorian literature, humanities computing, electronic editing, Beshero-Bondar"/>
+        <link rel="stylesheet" type="text/css" href="mitfordVisual.css"/>
+        <script type="text/javascript" src="imagerotat.js" xml:space="preserve">***</script>
+    
+       
+    </head>
+    <body>  
+        
+        <div id="title"><h1>Visualizing the Worlds of Mary Mitford</h1>
+            <hr/></div> 
+        <div id="menubar">
+            <h3>Digital Mitford: The Mary Russell Mitford Archive</h3>
+           <ul> <li><a href="index.html">Welcome</a></li> 
+               <li><a href="about.html">About</a></li> 
+               <li><a href="bibliogType.html">Published Works</a></li>  <li><a href="lettersData.html">Manuscript Locations</a></li> 
+              <li> <a href="letters.html">Letters</a></li> 
+               <li><a href="visual.html">People, Places, and Networks</a></li> 
+               <li><a href="staff.html">Staff</a></li>  
+               <li><a href="workshop.html">Workshop Materials</a></li></ul>
+        </div>
+        
+        <div id="container">
+        <!-- <div id="images">
+             <img src="" id="rotator" alt="Mary Russell Mitford"/>
+         </div>-->
+      
+           
+            <div id="content">
+                
+                <p class="boilerplate"><span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar (ebb8 at
+                    pitt.edu) <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></span><span><strong>Last modified:
+                    </strong><script type="application/javascript">
+document.write(document.lastModified);
+</script></span></p>
+                <p>How many degrees of separation are there between Mary Russell Mitford, Jane Austen, Lord Byron, and the Shelley circle? Which books, periodicals, and works of art does Mitford write about most often in her letters and literary texts, and which titles does she most frequently discuss together? As we compile an XML database of files, working with Mitford&#8217;s correspondence and her published texts, we are constructing network analysis plots based on Mitford&#8217;s extensive range of contacts and her wide reading. We have plotted the following networks so far from our test-bed selection of Mitford's writings from ca. 1819 - 1825:</p>
+                <ul>
+                    <li><a href="#JA">Mitford's Jane Austen and Her First Neighbors</a></li>
+                    <li><a href="#Titles">Books, Periodicals, and Works of Art Mentioned Together in Mitford's Writings</a></li>
+                    
+                    
+                </ul>
+              <hr/>
+                <p id="JA">One of our earliest findings of interest is that Jane Austen is but one degree of separation from Lord Byron in Mitford's writings, as we demonstrate in the network graph below.</p><p>We begin with a network graph drawn from 70 edited TEI files and our prosopography data, looking at Mitford's references to her contemporary and regional neighbor, Jane Austen in letters and literary texts coded thus far for our archive, dated between 1819 and 1825. The network plot rendered below takes Jane Austen as its central node, and maps all individuals mentioned in the same files with her. These individuals (circular nodes on the graph) are are considered "first neighbors" in the network analysis. Our network analysis is larger than this, but we selected this view as a readable plot to illustrate the referentiality of Mitford's writings. As indicated below, we are plotting references to historical people and fictional characters. Our edge connections on the network (the lines drawn between the circular nodes) are color-coded to indicate the kind of writing in which Jane Austen is mentioned in conjunction with another individual: our plot marks connections made in Mitford's letters from 1819 to 1825 and her literary texts: Jane Austen is referenced (in the opening sketch, alongside naturalist <a href="http://viaf.org/viaf/61594716/#White,_Gilbert,_1720-1793">Gilbert White</a>--another regional neighbor from Selborne, Hampshire) in the first edition of <i>Our Village</i> (1824). References in that text are organized in the purple cluster of edges at the bottom of the graph. Click on the graph to view a zoomable and expandable version.</p>
+                <div class="graph">
+                    <a href="MRM-JA-Net.svg"><img src="MRM-JA-Net.svg" alt="network graph of people referenced with Jane Austen in 70 texts by Mary Russell Mitford from between 1819 to 1825" /></a>
+                    
+                </div>
+                
+              
+                <h3>Jane Austen Network Selection (alternative views of the small graph displayed here)</h3>
+                <a href="JA-N1.svg"><img src="JA-N1.svg" alt="alternative layout: network graph of people referenced with Jane Austen in 70 text by Mary Russell Mitford from between 1819 and 1825" /></a>           <p>The network graph above shows a little more detail than the preceding version. This graph indicates people most frequently referenced by giving them a larger node size (with the largest circular nodes representing the individuals with the most connections in the network, or the highest degree centrality). The coral-colored edges indicate connections formed in Mitford's fictional text, <cite>Our Village</cite>. Deep blue edges represent connections formed in Mitford's Introduction to her <cite>Dramatic Works</cite>. Written near the end of her life, Mitford reflects back on many people in the theater and art world of the 1820s in that text. Green edges indicate connections formed by mention within Mitford's letters, while the red edges show connections made by mutual mention in Mitford's personal journal of 1819 to 1823. The thickest (most weighted) edges on this graph, as on the preceding, indicate those that are most crucial to holding the network together, or the highest edge-betweenness in the network. These edges connect the nodes mutually referenced in Mitford's fiction, introduction to the <cite>Dramatic Works</cite>, and Mitford's personal writings.</p>       
+                <p>We plotted this graph in <a href="http://cytoscape.org/">Cytoscape</a>, and the full interactive Cytoscape files are available from <a href="https://github.com/ebeshero/mitford/tree/master/network-analysis/nov-2014-experiment">our project's Github directory</a>. The following files are available for viewing in Cytoscape:</p>
+                <ul>
+                          <!--  <li><a href="JA-N1/">Interactive Web View (moveable nodes and edges)</a> <span class="smaller">(This version lacks the color coding of the original graph.)</span></li>-->
+                          
+                            <li><a href="https://github.com/ebeshero/mitford/blob/master/network-analysis/nov-2014-experiment/MRM-JaneAustenNet.cys">Cytoscape file</a> <span class="smaller">(viewable with download from GitHub, and installation of <a href="http://cytoscape.org/">Cytoscape</a>.)</span> </li>
+                        
+                    <li><a href="https://github.com/ebeshero/mitford/blob/master/network-analysis/nov-2014-experiment/MRM.cys">Full Cytoscape session view</a> of the entire social network of named historical people and fictional characters referenced in the letters and other writings we have coded so far. <span class="smaller">This network is drawn from our coded files dating 1819 to 1827, and one outlier text from 1854 (Mitford&#8217;s Introduction to her <i>Dramatic Works</i>, which looks back on her early life and her experiences with the London theatre world of the 1820s). This network is very large and unwieldy at the moment for an interactive web view, so we will continue to display excerpts from it on these pages.
+                    </span>
+                    </li>
+                        </ul>
+                
+                <hr/>
+                <p id="Titles">From 88 pieces of writing by Mitford between ca. 1819 and 1825, a collection of letters and literary texts, we plotted Mitford's references to titles of published books and periodicals as well as works of art, based on how frequently particular titles are discussed together in the same piece of writing. The co-occurrence network below is plotted according to degrees of connectedness, to prioritize the handful of titles that Mitford references most frequently in conjunction with a vary wide range of other texts. Click on the graph to view a larger version in a separate window:</p>
+                <a href="CooccurrenceNetTitlesAll.png"><img src="CooccurrenceNetTitlesAll.png" alt="Co-occurrence Network of Titles referenced in 88 Texts by Mary Russell Mitford" width="100%"/></a> 
+                
+                <p>To view the plot in Cytoscape (<a href="http://cytoscape.org/">free to install</a>), download <a href="http://ebeshero.github.io/mrmTextsTitleHighestDegreeCentrality.cys">our dynamic session view</a> and open it in the software.</p>
+                
+             <p>Here is a filtered plot to highlight the six texts with the highest degree centrality and their first neighbors, a smaller network graph within the larger one plotted above. While the big ring of first neighbors is densely clustered, we can see from this plot helps to illuminate the intensive referentiality of her writing, as well as the titles that seemed to matter the most in her wide reading. Click on the graph to view a larger version in its own window:</p>
+  
+                <a href="SixTextsHighestDegreeMRM.png"><img src="SixTextsHighestDegreeMRM.png" alt="Six Texts Most Frequently Discussed in Mitford's Writings ca. 1819-1825" width="100%"/></a>
+                    
+                <p>To view this plot in Cytoscape, download and open <a href="http://ebeshero.github.io/mrmTextsTitleHighestDegreeCentrality.cys">our dynamic session view</a> in the software.</p>
+<hr/>
+                <p>A cautionary note: These networks are preliminary, based on the first 70 - 90 coded XML files with enough data to contribute to the plots. Our coding of Mitford's works is still progressing, and we will update these plots as our project develops. What you see here, though, are the beginnings of what will be a very detailed set of networks. Eventually hope to make our nodes and edges clickable as a way to lead readers into our archive.</p>
+                <p>As our editing and coding continues, we look forward to integrating network graphics with maps and diagrams to plot and connect the addresses and locations mentioned Mitford&#8217;s correspondence. While Franco Moretti has famously plotted circular structures of the walkable region depicted in Mitford&#8217;s <i>Our Village</i>, we plan to extend mapping to plot important places in the Mitford archive, and to Mitford&#8217;s use of space and place in her poetry, drama, and fiction. Since Mitford's correspondence covers a period of transition in the British postal service, we look forward to producing maps and timelines of England&#8217;s postal network and penny post system in the first half of the nineteenth-century, which will complement <a href="letters.html#postalGuide">our guide to reading and coding British postmarks</a>.</p> 
+                
+        </div>
+            
+        
+        </div>
+        
+
+        
+    </body>
+</html>
