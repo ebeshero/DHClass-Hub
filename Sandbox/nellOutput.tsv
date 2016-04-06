@@ -1,0 +1,267 @@
+155 Market street	address	2	178 Market street
+155 Market street	address	2	258 Rumsey st
+178 Market street	address	2	155 Market street
+178 Market street	address	2	258 Rumsey st
+258 Rumsey st	address	2	155 Market street
+258 Rumsey st	address	2	178 Market street
+Division street	something_else	0	other
+Eighteenth street	locRef	5	the three
+                            points where State and Nineteenth streets intersect
+Eighteenth street	locRef	5	Newport
+Eighteenth street	locRef	5	Cottage Grove avenue
+Eighteenth street	locRef	5	Lake street
+Eighteenth street	locRef	5	Jackson street
+2155 Archer
+                            avenue	address	5	State
+                            street
+2155 Archer
+                            avenue	address	5	2155
+                            Archer avenue
+2155 Archer
+                            avenue	address	5	on Randolph near Dearborn street
+2155 Archer
+                            avenue	address	5	20th Clark street
+2155 Archer
+                            avenue	address	5	199 and 201 Fifth avenue
+the three
+                            points where State and Nineteenth streets intersect	locRef	5	Eighteenth street
+the three
+                            points where State and Nineteenth streets intersect	locRef	5	Newport
+the three
+                            points where State and Nineteenth streets intersect	locRef	5	Cottage Grove avenue
+the three
+                            points where State and Nineteenth streets intersect	locRef	5	Lake street
+the three
+                            points where State and Nineteenth streets intersect	locRef	5	Jackson street
+Newport	locRef	5	Eighteenth street
+Newport	locRef	5	the three
+                            points where State and Nineteenth streets intersect
+Newport	locRef	5	Cottage Grove avenue
+Newport	locRef	5	Lake street
+Newport	locRef	5	Jackson street
+State
+                            street	address	5	2155 Archer
+                            avenue
+State
+                            street	address	5	2155
+                            Archer avenue
+State
+                            street	address	5	on Randolph near Dearborn street
+State
+                            street	address	5	20th Clark street
+State
+                            street	address	5	199 and 201 Fifth avenue
+2155
+                            Archer avenue	address	5	2155 Archer
+                            avenue
+2155
+                            Archer avenue	address	5	State
+                            street
+2155
+                            Archer avenue	address	5	on Randolph near Dearborn street
+2155
+                            Archer avenue	address	5	20th Clark street
+2155
+                            Archer avenue	address	5	199 and 201 Fifth avenue
+Cottage Grove avenue	locRef	5	Eighteenth street
+Cottage Grove avenue	locRef	5	the three
+                            points where State and Nineteenth streets intersect
+Cottage Grove avenue	locRef	5	Newport
+Cottage Grove avenue	locRef	5	Lake street
+Cottage Grove avenue	locRef	5	Jackson street
+Lake street	locRef	5	Eighteenth street
+Lake street	locRef	5	the three
+                            points where State and Nineteenth streets intersect
+Lake street	locRef	5	Newport
+Lake street	locRef	5	Cottage Grove avenue
+Lake street	locRef	5	Jackson street
+on Randolph near Dearborn street	address	5	2155 Archer
+                            avenue
+on Randolph near Dearborn street	address	5	State
+                            street
+on Randolph near Dearborn street	address	5	2155
+                            Archer avenue
+on Randolph near Dearborn street	address	5	20th Clark street
+on Randolph near Dearborn street	address	5	199 and 201 Fifth avenue
+20th Clark street	address	5	2155 Archer
+                            avenue
+20th Clark street	address	5	State
+                            street
+20th Clark street	address	5	2155
+                            Archer avenue
+20th Clark street	address	5	on Randolph near Dearborn street
+20th Clark street	address	5	199 and 201 Fifth avenue
+199 and 201 Fifth avenue	address	5	2155 Archer
+                            avenue
+199 and 201 Fifth avenue	address	5	State
+                            street
+199 and 201 Fifth avenue	address	5	2155
+                            Archer avenue
+199 and 201 Fifth avenue	address	5	on Randolph near Dearborn street
+199 and 201 Fifth avenue	address	5	20th Clark street
+Jackson street	locRef	5	Eighteenth street
+Jackson street	locRef	5	the three
+                            points where State and Nineteenth streets intersect
+Jackson street	locRef	5	Newport
+Jackson street	locRef	5	Cottage Grove avenue
+Jackson street	locRef	5	Lake street
+South Park	locRef	7	Fifteenth and Robey streets
+South Park	locRef	7	Englewood
+South Park	locRef	7	Bleeker street
+South Park	locRef	7	Lincoln park
+South Park	locRef	7	Thirteenth street
+South Park	locRef	7	Dearborn avenue
+Fifteenth and Robey streets	locRef	7	South Park
+Fifteenth and Robey streets	locRef	7	Englewood
+Fifteenth and Robey streets	locRef	7	Bleeker street
+Fifteenth and Robey streets	locRef	7	Lincoln park
+Fifteenth and Robey streets	locRef	7	Thirteenth street
+Fifteenth and Robey streets	locRef	7	Dearborn avenue
+Englewood	locRef	6	South Park
+Englewood	locRef	6	Fifteenth and Robey streets
+Englewood	locRef	6	Bleeker street
+Englewood	locRef	6	Lincoln park
+Englewood	locRef	6	Thirteenth street
+Englewood	locRef	6	Dearborn avenue
+Bleeker street	locRef	7	South Park
+Bleeker street	locRef	7	Fifteenth and Robey streets
+Bleeker street	locRef	7	Englewood
+Bleeker street	locRef	7	Lincoln park
+Bleeker street	locRef	7	Thirteenth street
+Bleeker street	locRef	7	Dearborn avenue
+Lincoln park	locRef	7	South Park
+Lincoln park	locRef	7	Fifteenth and Robey streets
+Lincoln park	locRef	7	Englewood
+Lincoln park	locRef	7	Bleeker street
+Lincoln park	locRef	7	Thirteenth street
+Lincoln park	locRef	7	Dearborn avenue
+Thirteenth street	locRef	7	South Park
+Thirteenth street	locRef	7	Fifteenth and Robey streets
+Thirteenth street	locRef	7	Englewood
+Thirteenth street	locRef	7	Bleeker street
+Thirteenth street	locRef	7	Lincoln park
+Thirteenth street	locRef	7	Dearborn avenue
+Dearborn avenue	locRef	7	South Park
+Dearborn avenue	locRef	7	Fifteenth and Robey streets
+Dearborn avenue	locRef	7	Englewood
+Dearborn avenue	locRef	7	Bleeker street
+Dearborn avenue	locRef	7	Lincoln park
+Dearborn avenue	locRef	7	Thirteenth street
+Chicago	something_else	0	other
+282  Madison street	address	2	east end of Madison street bridge on the south side of the street
+282  Madison street	address	2	Wabash avenue
+east end of Madison street bridge on the south side of the street	address	2	282  Madison street
+east end of Madison street bridge on the south side of the street	address	2	Wabash avenue
+Prairie avenue	locRef	2	Monroe street
+Prairie avenue	locRef	2	Blue Island avenue
+Monroe street	locRef	2	Prairie avenue
+Monroe street	locRef	2	Blue Island avenue
+Wabash avenue	address	2	282  Madison street
+Wabash avenue	address	2	east end of Madison street bridge on the south side of the street
+Blue Island avenue	locRef	2	Prairie avenue
+Blue Island avenue	locRef	2	Monroe street
+State street	locRef	5	Gross Park
+State street	locRef	5	West side
+State street	locRef	5	corner of Washington and Union streets
+State street	locRef	5	Garfield park
+State street	locRef	5	Carpenter street
+218 State street	address	5	218 STATE STREET, CHICAGO, ILL
+218 State street	address	5	218 STATE STREET, CHICAGO, Ill.
+218 State street	address	5	Market street
+218 State street	address	5	122 Market street
+218 State street	address	5	133 West Washington street
+Gross Park	locRef	5	State street
+Gross Park	locRef	5	West side
+Gross Park	locRef	5	corner of Washington and Union streets
+Gross Park	locRef	5	Garfield park
+Gross Park	locRef	5	Carpenter street
+West side	locRef	5	State street
+West side	locRef	5	Gross Park
+West side	locRef	5	corner of Washington and Union streets
+West side	locRef	5	Garfield park
+West side	locRef	5	Carpenter street
+218 STATE STREET, CHICAGO, ILL	address	5	218 State street
+218 STATE STREET, CHICAGO, ILL	address	5	218 STATE STREET, CHICAGO, Ill.
+218 STATE STREET, CHICAGO, ILL	address	5	Market street
+218 STATE STREET, CHICAGO, ILL	address	5	122 Market street
+218 STATE STREET, CHICAGO, ILL	address	5	133 West Washington street
+218 STATE STREET, CHICAGO, Ill.	address	5	218 State street
+218 STATE STREET, CHICAGO, Ill.	address	5	218 STATE STREET, CHICAGO, ILL
+218 STATE STREET, CHICAGO, Ill.	address	5	Market street
+218 STATE STREET, CHICAGO, Ill.	address	5	122 Market street
+218 STATE STREET, CHICAGO, Ill.	address	5	133 West Washington street
+Market street	address	5	218 State street
+Market street	address	5	218 STATE STREET, CHICAGO, ILL
+Market street	address	5	218 STATE STREET, CHICAGO, Ill.
+Market street	address	5	122 Market street
+Market street	address	5	133 West Washington street
+122 Market street	address	5	218 State street
+122 Market street	address	5	218 STATE STREET, CHICAGO, ILL
+122 Market street	address	5	218 STATE STREET, CHICAGO, Ill.
+122 Market street	address	5	Market street
+122 Market street	address	5	133 West Washington street
+133 West Washington street	address	5	218 State street
+133 West Washington street	address	5	218 STATE STREET, CHICAGO, ILL
+133 West Washington street	address	5	218 STATE STREET, CHICAGO, Ill.
+133 West Washington street	address	5	Market street
+133 West Washington street	address	5	122 Market street
+corner of Washington and Union streets	locRef	5	State street
+corner of Washington and Union streets	locRef	5	Gross Park
+corner of Washington and Union streets	locRef	5	West side
+corner of Washington and Union streets	locRef	5	Garfield park
+corner of Washington and Union streets	locRef	5	Carpenter street
+Garfield park	locRef	5	State street
+Garfield park	locRef	5	Gross Park
+Garfield park	locRef	5	West side
+Garfield park	locRef	5	corner of Washington and Union streets
+Garfield park	locRef	5	Carpenter street
+England	something_else	0	other
+Carpenter street	locRef	5	State street
+Carpenter street	locRef	5	Gross Park
+Carpenter street	locRef	5	West side
+Carpenter street	locRef	5	corner of Washington and Union streets
+Carpenter street	locRef	5	Garfield park
+CHICAGO	something_else	0	other
+Philadelphia	something_else	0	other
+34 to 38 East Randolphon R— street	address	6	the southwest corner of WessonW. and HobbieH. streets on the North side
+34 to 38 East Randolphon R— street	address	6	SedgwickS. street near Division
+34 to 38 East Randolphon R— street	address	6	269 and 271 South Paulina street
+34 to 38 East Randolphon R— street	address	6	193 and 195 West Monroe street
+34 to 38 East Randolphon R— street	address	6	520 West Madison street
+34 to 38 East Randolphon R— street	address	6	West Madison street
+the southwest corner of WessonW. and HobbieH. streets on the North side	address	6	34 to 38 East Randolphon R— street
+the southwest corner of WessonW. and HobbieH. streets on the North side	address	6	SedgwickS. street near Division
+the southwest corner of WessonW. and HobbieH. streets on the North side	address	6	269 and 271 South Paulina street
+the southwest corner of WessonW. and HobbieH. streets on the North side	address	6	193 and 195 West Monroe street
+the southwest corner of WessonW. and HobbieH. streets on the North side	address	6	520 West Madison street
+the southwest corner of WessonW. and HobbieH. streets on the North side	address	6	West Madison street
+SedgwickS. street near Division	address	6	34 to 38 East Randolphon R— street
+SedgwickS. street near Division	address	6	the southwest corner of WessonW. and HobbieH. streets on the North side
+SedgwickS. street near Division	address	6	269 and 271 South Paulina street
+SedgwickS. street near Division	address	6	193 and 195 West Monroe street
+SedgwickS. street near Division	address	6	520 West Madison street
+SedgwickS. street near Division	address	6	West Madison street
+269 and 271 South Paulina street	address	6	34 to 38 East Randolphon R— street
+269 and 271 South Paulina street	address	6	the southwest corner of WessonW. and HobbieH. streets on the North side
+269 and 271 South Paulina street	address	6	SedgwickS. street near Division
+269 and 271 South Paulina street	address	6	193 and 195 West Monroe street
+269 and 271 South Paulina street	address	6	520 West Madison street
+269 and 271 South Paulina street	address	6	West Madison street
+193 and 195 West Monroe street	address	6	34 to 38 East Randolphon R— street
+193 and 195 West Monroe street	address	6	the southwest corner of WessonW. and HobbieH. streets on the North side
+193 and 195 West Monroe street	address	6	SedgwickS. street near Division
+193 and 195 West Monroe street	address	6	269 and 271 South Paulina street
+193 and 195 West Monroe street	address	6	520 West Madison street
+193 and 195 West Monroe street	address	6	West Madison street
+520 West Madison street	address	6	34 to 38 East Randolphon R— street
+520 West Madison street	address	6	the southwest corner of WessonW. and HobbieH. streets on the North side
+520 West Madison street	address	6	SedgwickS. street near Division
+520 West Madison street	address	6	269 and 271 South Paulina street
+520 West Madison street	address	6	193 and 195 West Monroe street
+520 West Madison street	address	6	West Madison street
+West Madison street	address	6	34 to 38 East Randolphon R— street
+West Madison street	address	6	the southwest corner of WessonW. and HobbieH. streets on the North side
+West Madison street	address	6	SedgwickS. street near Division
+West Madison street	address	6	269 and 271 South Paulina street
+West Madison street	address	6	193 and 195 West Monroe street
+West Madison street	address	6	520 West Madison street
