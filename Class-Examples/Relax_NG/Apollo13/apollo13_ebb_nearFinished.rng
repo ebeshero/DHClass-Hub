@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <ref name="apollo13"/>
+  </start>
+  <define name="apollo13">
+    <element name="apollo13">
+      <ref name="nasadoc"/>
+      <ref name="head"/>
+      <ref name="body"/>
+    </element>
+  </define>
+  <define name="nasadoc">
+    <attribute name="nasadoc"/>
+  </define>
+  <define name="head">
+    <element name="head">
+      <ref name="crew"/>
+      <ref name="ground"/>
+    </element>
+  </define>
+  <define name="ground">
+    <element name="ground">
+      <ref name="CC"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="crew">
+    <element name="crew">
+      <ref name="CDR"/>
+      <ref name="CMP"/>
+      <ref name="LMP"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="CDR">
+    <attribute name="CDR">
+      <choice>
+        <value>James Lovell</value>
+        <value>Jack Swigert</value>
+        <value>Fred Haise</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="CMP">
+    <attribute name="CMP">
+      <choice>
+        <value>James Lovell</value>
+        <value>Jack Swigert</value>
+        <value>Fred Haise</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="LMP">
+    <attribute name="LMP">
+      <choice>
+        <value>James Lovell</value>
+        <value>Jack Swigert</value>
+        <value>Fred Haise</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="CC">
+    <attribute name="CC">
+      <choice>
+        <value>Jack Lousma</value>
+        <value>Joe Schmo</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="body">
+    <element name="body">
+      <zeroOrMore>
+        <choice>
+          <ref name="transmission"/>
+          <ref name="O2-tank-anomaly"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="transmission">
+    <element name="transmission">
+      <ref name="MET"/>
+      <ref name="com"/>
+    </element>
+  </define>
+  <!-- something's missing here? -->
+  <define name="MET">
+    <attribute name="MET">
+      <data type="time"/>
+    </attribute>
+  </define>
+  <!-- ebb I'm not sure this is the right datatype -->
+  <define name="com">
+    <attribute name="com">
+      <choice>
+        <value>CC</value>
+        <value>CMP</value>
+        <value>LMP</value>
+        <value>CDR</value>
+      </choice>
+    </attribute>
+  </define>
+  <define name="O2-tank-anomaly">
+    <element name="O2-tank-anomaly">
+      <empty/>
+    </element>
+  </define>
+</grammar>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+
+                <editor>Alexandra Drayton</editor>
+                <editor>Samantha Webb</editor>
+
+
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName>Samantha Webb</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain
+                    phrases describing the edition or version”: First digital edition in TEI, date:
+                    2 June 2013. P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+
+            </editionStmt>
+
+
+
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
+
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on public domain, Google-digitized text<bibl>
+                        <title>Our Village: Sketches of Rural Character and
+                            Scenery</title><edition>Third Edition</edition> by <author>Mary Russell
+                            Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B.
+                            Whittaker</publisher><placeName>Ave Maria
+                            Lane</placeName><date>1825</date>. </bibl> This text appears to be
+                    identical in pagination and content to the first edition published in 1824. </p>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+
+    </teiHeader>
+    <text>
+
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart>
+                    <titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A
+                        Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B.
+                        Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                        <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front>
+        <body>
+            <div type="sketch">
+                <head>WALKS IN THE COUNTRY.<lb/> THE COWSLIP-BALL.</head>
+                <p>May 16.—There are moments in life, when, without any visible or immediate cause,
+                    the spirits sink and fail, as it were, under the mere pressure of existence:
+                    moments of unaccountable depression, when one is weary of one’s very thoughts,
+                    haunted by images that will not depart—images many and various, but all painful;
+                    friends lost, or changed, or dead; hopes disappointed even in their
+                    accomplishment; fruitless regrets, powerless wishes, doubt and fear and
+                    self-distrust, and self-diapprobation. They who have known these feelings, (and
+                    who is there so happy as not to have known some of them?) will understand why
+                    Alfieri became powerless, and Froissart dull; and why even needle-work, that
+                    most effectual sedative, that grand soother and composer of woman’s distress,
+                    fails to comfort me to-day. I will go out into the air this cool pleasant
+                    afternoon, and try what that will do. I<pb n="133"/> fancy that exercise, or
+                    <!--2017-01-24 bas here. --> exertion of any kind, is the true specific for nervousness.
+                    “Fling but a stone, the giant dies.” I will go to the meadows, the beautiful
+                    meadows! and I will have my materials of happiness, Lizzy and May, and a basket
+                    for flowers, and we will make a cowslip-ball. “Did you ever see a cowslip-ball,
+                    my Lizzy?”—“No.”—“Come away, then; make haste! run, Lizzy!”</p>
+                <p>And on we go fast, fast! down the road, across the lea, past the workhouse, along
+                    by the great pond, till we slide into the deep narrow lane, whose hedges seem to
+                    meet over the water, and win our way to the little farm-house at the end.
+                    “Through the farm-yard, Lizzy; over the gate; never mind the cows; they are
+                    quiet enough.”—“I don’t mind ‘em,” said Miss Lizzy, boldly and truly, and with a
+                    proud affronted air, displeased at being thought to mind any thing, and showing
+                    by her attitude and manner some design of proving her courage by an attack on
+                    the largest of the herd, in the shape of a pull by the tail. “I don’t mind
+                    ‘em.”—“I know you don’t, Lizzy; but let them alone, and don’t chase the
+                    turkey-cock. Come to me, my dear!” and, for a wonder, Lizzy came.</p>
+                <p>In the meantime my other pet, May-flower, had also gotten into a scrape. She had
+                    driven about a huge unwieldy sow, till the animal’s grunting had disturbed the
+                    repose of a still more enormous Newfound<pb n="134"/>land dog, the guardian of
+                    the yard. Out he sallied growling from the depth of his kennel, erecting his
+                    tail, and shaking his long chain. May’s attention was instantly diverted from
+                    the sow to this new playmate, friend or foe, she cared not which; and he of the
+                    kennel, seeing his charge unhurt and out of danger, was at leisure to observe
+                    the charms of his fair enemy, as she frolicked round him, always beyond the
+                    reach of his chain, yet always with the natural instinctive coquetry of her sex,
+                    alluring him to the pursuit which she knew to be vain. I never saw a prettier
+                    flirtation. At last the noble animal, wearied out, retired to the inmost
+                    recesses of his habitation, and would not even approach her when she stood right
+                    before the entrance. “You are properly served, May. Come along, Lizzy. Across
+                    this wheat-field, and now over the gate. Stop! let me lift you down. No jumping,
+                    no breaking of necks, Lizzy! And here we are in the meadows, and out of the
+                    world. Robinson Crusoe, in his lonely island, had scarcely a more complete, or a
+                    more beautiful solitude.” </p>
+                <p>These meadows consist of a double row of small enclosures of rich grass-land, a
+                    mile or two in length, sloping down from high arable grounds on either side, to
+                    a little nameless brook that winds between them, with a course which in its
+                    infinite variety, clearness, and rapidity, seems to emulate the bold rivers of
+                        the<pb n="135"/> north, of whom, far more than of our lazy southern streams,
+                    our rivulet present a miniature likeness. Never was water more exquisitely
+                    tricksy:—now darting over the bright pebbles, sparkling and flashing in the
+                    light with a bubbling music, as sweet and wild as the song of the woodlark; now
+                    stretching quietly along, giving back the rich tufts of the golden
+                    marsh-marygolds which grow on its margin; now sweeping round a fine reach of
+                    green grass, rising steeply into a high mound, a mimic promontory, whilst the
+                    other side sinks softly away, like some tiny bay, and the water flows between,
+                    so clear, so wide, so shallow, that Lizzy, longing for adventure, is sure she
+                    could cross unwetted; now dashing through two sandbanks, a torrent deep and
+                    narrow, which May clears at a bound; now sleeping half-hidden beneath the alders
+                    and hawthorns and wild roses, with which the banks are so profusely and
+                    variously fringed, whilst flags<note type="author" anchored="true">Walking along
+                        these meadows one bright sunny afternoon, a year or two back, and rather
+                        later in the season, I had an opportunity of observing a curious
+                        circumstance in natural history. Standing close to the edge of the stream, I
+                        remarked a singular appearance on a large tuft of flags. It looked like
+                        bunches of flowers, the leaves of which seemed dark, yet transparent,
+                        intermingled with brilliant tubes of bright blue or shining green. On
+                        examining this phenomenon more closely, it turned out to be several clusters
+                        of dragon-flies, just emerged from their deformed crysalis state, and still
+                        torpid and motionless from the wetness of their filmy wings. Half an hour
+                        later we returned to the spot, and they were gone. We had seen them at the
+                        very moment when beauty was complete, and animation dormant. I have since
+                        found nearly a similar account of this curious process in Mr. Bingley’s very
+                        entertaining work, called “Animal Biography.”</note>, lilies, and other
+                    aquatic plants, almost cover<pb n="136"/> the surface of the stream. In good
+                    truth it is a beautiful brook, and one that Walton himself might have sitten by
+                    and loved, for trout are there; we see them as they dart up the stream, and hear
+                    and start at the sudden plunge when they spring to the surface for the summer
+                    flies. Izaac Walton would have loved our brook and our quiet meadows; they
+                    breathe the very spirit of his own peacefulness, a soothing quietude that sinks
+                    into the soul. There is no path through them, not one; we might wander a whole
+                    spring day, and not see a trace of human habitation. They belong to a number of
+                    small proprietors, who allow each other access through their respective grounds,
+                    from pure kindness and neighbourly feeling, a privilege never abused; and the
+                    fields on the other side of the water are reached by a rough plank, or a tree
+                    thrown across, or some such homely bridge. We ourselves possess one of the most
+                    beautiful; so that the strange pleasure of property, that instinct which makes
+                    Lizzy delight in her broken doll, and May in the bare bone which she has
+                    pilfered from the kennel of her recreant<pb n="137"/> admirer of Newfoundland,
+                    is added to the other charms of this enchanting scenery; a strange pleasure it
+                    is, when one so poor as I can feel it! Perhaps it is felt most by the poor, with
+                    the rich it may be less intense—too much diffused and spread out, becoming thin
+                    by expansion, like leaf-gold; the little of the poor may be not only more
+                    precious, but more pleasant to them: certain that bit of grassy and blossomy
+                    earth, with its green knolls and tufted bushes, its old pollards wreathed with
+                    ivy, and its bright and babbling waters, is very dear to me. But I must always
+                    have loved these meadows, so fresh, and cool, and delicious to the eye and to
+                    the tread, full of cowslips, and of all vernal flowers: Shakspeare’s Song of
+                    Spring bursts irrepressibly from our lips as we step on them: <quote>“<lg>
+                            <l>When daisies pied, and violets blue,</l>
+                            <l>And lady-smocks all silver white,</l>
+                            <l>And cuckoo-buds of yellow hue,</l>
+                            <l>Do paint the meadows with delight,</l>
+                            <l>The cuckoo then on every tree—</l>
+                        </lg>”</quote> “Cuckoo! cuckoo!” cried Lizzy, breaking in with her clear
+                    childish voice; and immediately, as if at her call, the real bird, from a
+                    neighbouring tree (for these meadows are dotted with timber like a park), began
+                    to echo my lovely little girl, “cuckoo! cuckoo!” I have a prejudice very
+                    unpastoral and unpoetical (but I<pb n="138"/> cannot help it, I have many such),
+                    against this “harbinger of spring.” His note is so monotonous, so melancholy;
+                    and then the boys mimic him; one hears “cuckoo! cuckoo!” in dirty streets,
+                    amongst smoky houses, and the bird is hated for faults not his own. But
+                    prejudices of taste, likings and dislikings, are not always vanquishable by
+                    reason; so, to escape the serenade from the tree, which promised to be of
+                    considerable duration, (when once that eternal song begins, on it goes ticking
+                    like a clock)—to escape that noise I determined to excite another, and
+                    challenged Lizzy to a cowslip-gathering; a trial of skill and speed, to see
+                    which should soonest fill her basket. My stratagem succeeded completely. What
+                    scrambling, what shouting, what glee from Lizzy! twenty cuckoos might have sung
+                    unheard whilst she was pulling her own flowers, and stealing mine, and laughing,
+                    screaming, and talking through all. </p>
+                <p>At last the baskets were filled, and Lizzy declared victor: and down we sate, on
+                    the brink of the stream, under a spreading hawthorn, just disclosing its own
+                    pearly buds, and surrounded with the rich and enamelled flowers of the wild
+                    hyacinth, blue and white, to make our cowslip-ball. Every one knows the process;
+                    to nip off the tuft of flowerets just below the top of the stalk, and hang each
+                    cluster nicely balanced across a riband, till you have a long string like a
+                        gar<pb n="139"/>land; then to press them closely together, and tie them
+                    tightly up. We went on very prosperously, considering; as people say of a young
+                    lady’s drawing, or a Frenchman’s English, or a woman’s tragedy, or of the poor
+                    little dwarf who works without fingers, or the ingenious sailor who writes with
+                    his toes, or generally of any performance which is accomplished by means
+                    seemingly inadequate to its production. To be sure we met with a few accidents.
+                    First, Lizzy spoiled nearly all her cowslips by snapping them off too short; so
+                    there was a fresh gathering; in the next place May overset my full basket, and
+                    sent the blossoms floating, like so many fairy favours, down the brook; then
+                    when we were going on pretty steadily, just as we had made a superb wreath, and
+                    were thinking of tying it together, Lizzy, who held the riband, caught a glimpse
+                    of a gorgeous butterfly, all brown and red and purple, and skipping off to
+                    pursue the new object, let go her hold; so all our treasures were abroad again.
+                    At last, however, by dint of taking a branch of alder as a substitute for Lizzy,
+                    and hanging the basket in a pollard-ash, out of sight of May, the cowslip-ball
+                    was finished. What a concentration of fragrance and beauty it was! golden and
+                    sweet to satiety! rich to sight, and touch, and smell! Lizzy was enchanted, and
+                    ran off with her prize, hiding amongst the trees in the very coyness of ecstacy,
+                    as if <pb n="140"/>any human eye, even mine, would be a restraint on her
+                    innocent raptures.</p>
+                <p>In the mean while I sate listening, not to my enemy the cuckoo, but to a whole
+                    concert of nightingales, scarcely interrupted by any meaner bird, answering and
+                    vying with each other in those short delicious strains which are to the ear as
+                    roses to the eye; those snatches of lovely sound which come across us as airs
+                    from heaven. Pleasant thoughts, delightful associations, awoke as I listened;
+                    and almost unconsciously I repeated to myself the beautiful story of the Lutist
+                    and the Nightingale, from Ford’s Lover’s Melancholy. Here it is. Is there in
+                    English poetry any thing finer? 
+                    <quote>“<lg>
+                            <l>Passing from Italy to Greece, the tales</l>
+                            <l>Which poets of an elder time have feign’d</l>
+                            <l>To glorify their Tempe, bred in me</l>
+                            <l>Desire of visiting Paradise.</l>
+                            <l>To Thessaly I came, and living private,</l>
+                            <l>Without acquaintance of more sweet companions</l>
+                            <l>Than the old inmates to my love, my thoughts,</l>
+                            <l>I day by day frequented silent groves</l>
+                            <l>And solitary walks. One morning early</l>
+                            <l>This accident enconnter’d me: I heard</l>
+                            <l>The sweetest and most ravishing contention</l>
+                            <l>That art and nature ever were at strife in.</l>
+                            <l>A sound of music touch’d mine ears, or rather</l>
+                            <l>Indeed entranced my soul; as I stole nearer,</l>
+                            <l>Invited by the melody, I saw</l>
+                            <l>This youth, this fair-faced youth, upon his lute</l>
+                            <pb n="141"/>
+                            <l>With strains of strange variety and harmony</l>
+                            <l>Proclaiming, as it seem’d, so bold a challenge</l>
+                            <l>To the clear choristers of the woods, the birds</l>
+                            <l>That as they flock’d about him, all stood silent,</l>
+                            <l>Wondering at what they heard, I wonder’d too,</l>
+                            <l>A nightingale,</l>
+                            <l>Nature’s best-skill’d musician, undertakes</l>
+                            <l>The challenge; and for every several strain</l>
+                            <l>The well-shaped youth could touch, she sang him down.</l>
+                            <l>He could not run divisions with more art</l>
+                            <l>Upon his quaking instrument than she,</l>
+                            <l>The nightingale, did with her various notes</l>
+                            <l>Reply to.</l>
+                            <l>Some time thus spent, the young man grew at last</l>
+                            <l>Into a pretty anger, that a bird,</l>
+                            <l>Whom art had never taught cliffs, moods, or notes,</l>
+                            <l>Should vie with him for mastery, whose study</l>
+                            <l>Had busied many hours to perfect practice.</l>
+                            <l>To end the controversy, in a rapture</l>
+                            <l>Upon his instrument he plays eo swiftly,</l>
+                            <l>So many voluntaries, and so quick,</l>
+                            <l>That there was a curiosity and cunning,</l>
+                            <l>Concord in discord, lines of differing method</l>
+                            <l>Meeting in one full centre of delight.</l>
+                            <l>The bird (ordain’d to be</l>
+                            <l>Music’s first martyr) strove to imitate</l>
+                            <l>These several sounds; which when her warbling throat</l>
+                            <l>Failed in, for grief down dropt she on his lute,</l>
+                            <l>And break her heart. It was the quaintest sadness</l>
+                            <l>To see the conqueror upon her hearse</l>
+                            <l>To weep a funeral elegy of tears.</l>
+                            <l>He look’d upon the trophies of his art,</l>
+                            <l>Then sigh’d, then wip’d his eyes; then sigh’d, and cry’d,</l>
+                            <pb n="142"/>
+                            <l>‘Alas! poor creature, I will soon revenge</l>
+                            <l>This cruelty upon the author of it.</l>
+                            <l>Henceforth this lute, guilty of innocent blood,</l>
+                            <l>Shall never more betray a harmless peace</l>
+                            <l>To an untimely end:’ and in that sorrow,</l>
+                            <l>As he was pashing it against a tree,</l>
+                            <l>I suddenly stept in.</l>
+                        </lg>”</quote></p>
+                <p> When I had finished the recitation of this exquisite passage, the sky, which had
+                    been all the afternoon dull and heavy, began to look more and more threatening;
+                    darker clouds, like wreaths of black smoke, flew across the dead leaden tint; a
+                    cooler, damper air blew over the meadows, and a few large heavy drops spalshed
+                    in the water. “We shall have a storm. Lizzy! May! where are ye? Quick, quick, my
+                    Lizzy! run, run! faster, faster!” </p>
+                <p>And off we ran; Lizzy not at all displeased at the thoughts of a wetting, to
+                    which indeed she is almost as familiar as a duck; May, on the other hand,
+                    peering up at the weather, and shaking her pretty ears with manifest dismay. Of
+                    all animals, next to a cat, a greyhound dreads rain. She might have escaped it;
+                    her light feet would have borne her home long before the shower; but May is too
+                    faithful for that, too true a comrade, understands too well the laws of good
+                    fellowship; so she waited for us. She did, to be sure, gallop on before, and
+                    then stop and look back, and beckon,<pb n="143"/> as it were, with some scorn in
+                    her black eyes at the slowness of our progress. We in the meanwhile got on as
+                    fast as we could, encouraging and reproaching each other. “Faster, my Lizzy! Oh
+                    what a bad runner!”—“ Faster, faster! Oh what a bad runner,” echoed my saucebox.
+                    “You are so fat, Lizzy, you make no way!”—“ Ah! who else is fat?” retorted the
+                    darling. Certainly her mother is right; I do spoil that child. </p>
+                <p>By this time we were thoroughly soaked, all three. It was a pelting shower, that
+                    drove through our thin summer clothing and poor May’s short glossy coat in a
+                    moment. And then, when we were wet to the skin, the sun came out, actually the
+                    sun, as if to laugh at our plight; and then, more provoking still, when the sun
+                    was shining, and the shower over, came a maid and a boy to look after us, loaded
+                    with cloaks and umbrellas enough to fence us against a whole day’s rain. Never
+                    mind! on we go, faster and faster; Lizzy obliged to be most ignobly carried,
+                    having had the misfortune to lose a shoe in the mud, which we left the boy to
+                    look after.</p>
+                <p>Here we are at home—dripping; but glowing and laughing, and bearing our calamity
+                    most manfully. May, a dog of excellent sense, went instantly to bed in the
+                    stable, and is at this moment over head and ears in straw; Lizzy is gone to bed
+                    too, coaxed into that wise measure by a promise of tea and toast, and of not<pb
+                        n="144"/> going home till to-morrow, and the story of Little Red
+                    Riding-Hood; and I am enjoying the luxury of dry clothing by a good fire. Really
+                    getting wet through now and then is no bad thing, finery apart; for one should
+                    not like spoiling a new pelisse or a handsome plume; but when there is nothing
+                    in question but a white gown and a straw bonnet, as was the case to-day, it is
+                    rather pleasant than not. The little chill refreshes, and our enjoyment of the
+                    subsequent warmth and drynessis positive and absolute. Besides, the stimulus and
+                    exertion do good to the mind as well as body. How melancholy I was all the
+                    morning! how cheerful I am now! Nothing like a shower-bath—a real shower-bath,
+                    such as Lizzy and May and I have undergone, to cure low spirits. Try it, my dear
+                    readers, if ever ye be nervous—I will answer for its success. <pb n="145"/></p>
+            </div>
+
+
+        </body>
+        <back/>
+    </text>
+</TEI>

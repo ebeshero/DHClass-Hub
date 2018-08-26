@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Akira ODD</title>
+            <author>Nick Pcsolar</author>
+            <author>Mark Raschiatore</author>
+            <author>Elisa Beshero-Bondar</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Prepared in TEI P5 for the Akira Project team on newtFire.org. GitHub
+               repository: <ref target="https://github.com/Pomilui/Akira_Page"/>. Date last worked
+               on: <date when="2018-03-14">14 March 2018</date></authority>
+            <availability>
+               <licence><!--Choose and identify a Creative Commons license for sharing your code. Look here: https://creativecommons.org/share-your-work/--></licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born Digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <schemaSpec ident="akiraODD" start="TEI" prefix="tei">
+            <!--The schemaSpec element contains all your schema information for customizing the TEI. Think of it as the "root" element of the schema, and it defines the start element of the TEI file.-->
+            <moduleRef key="tei"/>
+            <moduleRef key="core"/>
+            <moduleRef key="header"/>
+            <moduleRef key="namesdates"/>
+            <moduleRef key="textstructure"/>
+            <moduleRef key="drama"/>
+            <moduleRef key="corpus"/>
+            <!--ebb: For now, we're including all the elements in the above TEI modules complete. We can decide to exclude some later if we want to. -->
+            <elementSpec ident="milestone" module="core" mode="change">
+               <attList>
+                  <attDef ident="unit" mode="change" usage="opt"/>
+                  <!--ebb: The @unit attribute is usually required on the milestone element, but since you're using it to signal topical points in the document, I'm just making the unit optional. We can define more attributes and values to use here. -->
+               </attList>
+            </elementSpec>
+            <elementSpec ident="spGrp" module="drama" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="controlScene"/>
+                        <!--ebb: do you want to add other types of speech groups? No need, but this marks off the controlScenes so they are now coded as <spGrp type="controlScene">...</div>        
+                     Would you like other attributes on this spGrp?  
+                        -->
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+<elementSpec ident="spGrp" module="drama" mode="change">
+ <attList>
+    <attDef ident="who" mode="replace" usage="opt">
+       
+       <datatype>
+          <rng:text/>
+       </datatype>
+       <valList type="semi">
+          <valItem ident="#kaneda"/>
+          <valItem ident="#yamagata"/>
+          <valItem ident="#doctor"/>
+          <valItem ident="#tetsuo"/>
+          <valItem ident="#colonel"/>
+          <valItem ident="#akira"/>
+          <valItem ident="#colonel #doctor"/>
+          <valItem ident="#tetsuo #kaneda"/>
+          <valItem ident="#kiyoko #tetsuo #masaru #takashi"/>
+       </valList>
+    </attDef>
+    <!--2018-03-14 ebb: This is a list who appear in control scenes to dominate the scene and other characters, and sometimes VIE for control. Where they vie for control, we set a plural attribute value separated by white spaces. I can generate a schematron rule to test to break these on white spaces so you can set these as plural on the control scenes, separated by white spaces. BUT there's a limited number of combinations for people VYING for control.  -->
+ </attList>  
+   
+</elementSpec>
+
+            <elementSpec ident="sp" module="core" mode="change">
+         
+                  <!--ebb: This should make it possible for @from and @to to be used to hold time stretches on your sp elements. The dataRef here is making it mandatory that these be ISO formatted timespans.-->
+               <attList>
+                  <attDef ident="from" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef name="time"/>
+                     </datatype>
+                  </attDef>
+                  <attDef ident="to" mode="replace" usage="opt">
+                     <datatype>
+                        <dataRef name="time"/>
+                     </datatype>
+                  </attDef>
+                  <attDef ident="who" mode="replace" usage="req">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#council6 #council5"/>
+                        <valItem ident="#nezuguard"/>
+                        <valItem ident="#tankgun"/>
+                        <valItem ident="#nurseguard2"/>
+                        <valItem ident="#nurseguard1"/>
+                        <valItem ident="#clown4"/>
+                        <valItem ident="#takashi #kiyoko"/>
+                        <valItem ident="#kei #kiyoko"/>
+                        <valItem ident="#kaneda #kei"/>
+                        <valItem ident="#officer"/>
+                        <!--2018-03-19 ebb: I added the above entries to match the encoding in your script file. Are these correct? -->
+                        <valItem ident="#ryu"/>
+                        <valItem ident="#nlady"/>
+                        <valItem ident="#bartend"/>
+                        <valItem ident="#barcust"/>
+                        <valItem ident="#kaneda"/>
+                        <valItem ident="#yamagata"/>
+                        <valItem ident="#tetsuo"/>
+                        <valItem ident="#restgirl"/>
+                        <valItem ident="#restguy"/>
+                        <valItem ident="#takeyama"/>
+                        <valItem ident="#joker"/>
+                        <valItem ident="#hwpolice"/>
+                        <valItem ident="#moto1"/>
+                        <valItem ident="#moto2"/>
+                        <valItem ident="#moto3"/>
+                        <valItem ident="#moto4"/>
+                        <valItem ident="#soldier1"/>
+                        <valItem ident="#soldier2"/>
+                        <valItem ident="#kei"/>
+                        <valItem ident="#bystand1"/>
+                        <valItem ident="#bystand2"/>
+                        <valItem ident="#bystand3"/>
+                        <valItem ident="#bystand4"/>
+                        <valItem ident="#soldier2"/>
+                        <valItem ident="#soldier3"/>
+                        <valItem ident="#captain1"/>
+                        <valItem ident="#revoguy1"/>
+                        <valItem ident="#colonel"/>
+                        <valItem ident="#clown1"/>
+                        <valItem ident="#clown2"/>
+                        <valItem ident="#masaru"/>
+                        <valItem ident="#capsule1"/>
+                        <valItem ident="#takashi"/>
+                        <valItem ident="#sarge1"/>
+                        <valItem ident="#kai"/>
+                        <valItem ident="#officer1"/>
+                        <valItem ident="#officer2"/>
+                        <valItem ident="#revoguy2"/>
+                        <valItem ident="#bystand5"/>
+                        <valItem ident="#prisoner1"/>
+                        <valItem ident="#prisoner2"/>
+                        <valItem ident="#soldier3"/>
+                        <valItem ident="#senator"/>
+                        <valItem ident="#secretary"/>
+                        <valItem ident="#doctor"/>
+                        <valItem ident="#principal"/>
+                        <valItem ident="#coach"/>
+                        <valItem ident="#allcapsules"/>
+                        <valItem ident="#girl1"/>
+                        <valItem ident="#girl2"/>
+                        <valItem ident="#girl3"/>
+                        <valItem ident="#mitsuru"/>
+                        <valItem ident="#kaori"/>
+                        <valItem ident="#eiichi"/>
+                        <valItem ident="#nurse"/>
+                        <valItem ident="#clown3"/>
+                        <valItem ident="#kiyoko"/>
+                        <valItem ident="#docstaff"/>
+                        <valItem ident="#security"/>
+                        <valItem ident="#officer3"/>
+                        <valItem ident="#officer4"/>
+                        <valItem ident="#officer5"/>
+                        <valItem ident="#researchstaff1"/>
+                        <valItem ident="#researchstaff2"/>
+                        <valItem ident="#researchstaff3"/>
+                        <valItem ident="#spy1"/>
+                        <valItem ident="#spy2"/>
+                        <valItem ident="#nezu"/>
+                        <valItem ident="#miyako"/>
+                        <valItem ident="#protestpolice"/>
+                        <valItem ident="#council1"/>
+                        <valItem ident="#council2"/>
+                        <valItem ident="#headcouncil"/>
+                        <valItem ident="#council3"/>
+                        <valItem ident="#council4"/>
+                        <valItem ident="#council5"/>
+                        <valItem ident="#council6"/>
+                        <valItem ident="#council7"/>
+                        <valItem ident="#council8"/>
+                        <valItem ident="#labsecurity1"/>
+                        <valItem ident="#labassistant"/>
+                        <valItem ident="#labsecurity2"/>
+                        <valItem ident="#sewerpilot1"/>
+                        <valItem ident="#radiorelay"/>
+                        <valItem ident="#radio1"/>
+                        <valItem ident="#labswat"/>
+                        <valItem ident="#buildannounce"/>
+                        <valItem ident="#labsoldier1"/>
+                        <valItem ident="#labsoldiers"/>
+                        <valItem ident="#woundedsoldier"/>
+                        <valItem ident="#armysarge"/>
+                        <valItem ident="#soldier4"/>
+                        <valItem ident="#arrestofficer"/>
+                        <valItem ident="#helisoldier"/>
+                        <valItem ident="#tankcommand1"/>
+                        <valItem ident="#searchcommand"/>
+                        <valItem ident="#nezuassist"/>
+                        <valItem ident="#nezusoldier"/>
+                        <valItem ident="#tankcommand1"/>
+                        <valItem ident="#akirafan1"/>
+                        <valItem ident="#akirafan2"/>
+                        <valItem ident="#akirafan3"/>
+                        <valItem ident="#akiragun"/>
+                        <valItem ident="#akirafan4"/>
+                        <valItem ident="#naysay"/>
+                        <valItem ident="#newscast"/>
+                        <valItem ident="#viewer"/>
+                        <valItem ident="#viewers"/>
+                        <valItem ident="#akirafan5"/>
+                        <valItem ident="#tankcommand2"/>
+                        <valItem ident="#lasercommand"/>
+                        <valItem ident="#mobileradio"/>
+                        <valItem ident="#olympicguard1"/>
+                        <valItem ident="#olympicguard2"/>
+                        <valItem ident="#olympicannouncer"/>
+                        <valItem ident="#onlooker"/>
+                        <valItem ident="#solcontrol1"/>
+                        <valItem ident="#solcontrol2"/>
+                        <valItem ident="#schoolgirl1"/>
+                        <valItem ident="#schoolgirl2"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="ana" mode="replace" usage="opt">
+                     <!--ebb: Do you want to use @ana on sp when you want to indicate a character being controlled by another character? The same value list applies, unless you want to LIMIT this to ONLY the characters who are controlled by others. -->
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+
+                        
+                        <valItem ident="#kei"/>
+                        <valItem ident="#masaru"/>
+                        <valItem ident="#takashi"/>                    
+                        <valItem ident="#kiyoko"/>
+                       
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+
+         </schemaSpec>
+      </body>
+   </text>
+</TEI>

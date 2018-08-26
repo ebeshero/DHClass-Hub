@@ -1,0 +1,8 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = news
+news = element news {header, body}
+header = element header {headLine, image*,  byLine, info*, dateline}
+
+dateline = element dateline {mixed{place, date}}
+body = element body {(p | subHead)+}

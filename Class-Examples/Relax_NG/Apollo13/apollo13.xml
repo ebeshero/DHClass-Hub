@@ -1,0 +1,91 @@
+<?xml-model href="apollo13_ebb_.rnc" type="application/relax-ng-compact-syntax"?>
+<apollo13 nasadoc="techtranscript">
+        <head>
+                <!-- These are pages 128 and 129 from the 624-page "NASA APOLLO 13 TECHNICAL AIR-TO-GROUND VOICE TRANSCRIPTION" -->
+                <crew CDR="James Lovell" CMP="Jack Swigert" LMP="Fred Haise"/>
+                <ground CC="Jack Lousma"/>
+        </head>
+        <body>
+                <transmission MET="055:48:40" com="CC">Apollo 13, Houston. The next thing we'd like
+                        you to do is to - -</transmission>
+                <transmission MET="055:48:45" com="CMP">Go ahead.</transmission>
+                <transmission MET="055:48:46" com="CC">- - we'd like you to roll right to 060 and
+                        null your rates for photography of the Comet Bennett. To do that, we would
+                        like you to enable quads C and D. For the maneuver, use all your quads. And
+                        in precisely 1 minute, we'd like you to terminate the battery charge on
+                        battery B. One other request, we'd like to have you verify -
+                        -</transmission>
+                <transmission MET="055:49:12" com="CMP">Okay. Will do.</transmission>
+                <transmission MET="055:49:14" com="CC">One other request, we'd like you to verify
+                        your high gain configuration. We'd like to know what track mode, what
+                                <panel>SERVO</panel>, and what beam width.</transmission>
+                <transmission MET="055:49:25" com="CMP">Okay, Jack, during the TV, we were
+                                <panel>AUTO TRACK</panel>, <panel>NARROW BEAM WIDTH</panel>, and the
+                                <panel>PRIMARY ELECTRONICS</panel>. And we had a good lockup. Just
+                        after we started the maneuver, I was able to lock you up and get real good
+                        signal strength, and it just seemed that right there at about 239 degrees in
+                        yaw, that the signal strength would just drop off and yaw would go to zero
+                        and pitch would go to 90.</transmission>
+                <transmission MET="055:50:05" com="CC">Roger. We copy, and the TV show was
+                        great.</transmission>
+                <transmission MET="055:50:12" com="CMP">Okay, real fine. Okay, I'm going to maneuver
+                        to 060, 090, and 0.</transmission>
+                <transmission MET="055:50:31" com="CC">And, 13, we'd like you to check C-4
+                        thruster.</transmission>
+                <transmission MET="055:51:33" com="CMP">Okay, Jack. The battery charge has been
+                        terminated on the battery B.</transmission>
+                <transmission MET="055:51:38" com="CC">Roger. We see it, Jack. And we got a reading
+                        of minus 2 degrees on the docking index. We'd like to know it that's 2.0
+                        precise or if it's 2.1 or 1.9.</transmission>
+                <transmission MET="055:51:54" com="CMP">No. It's a minus 2.0
+                        precisely.</transmission>
+                <transmission MET="055:51:56" com="CC">Thank you.</transmission>
+                <transmission MET="055:52:58" com="CC">13, we've got one more item for you, when you
+                        get a chance. We'd like you to stir up your cryo tanks. In addition, I have
+                        shaft and trunnion - -</transmission>
+                <transmission MET="055:53:06" com="CMP">Okay.</transmission>
+                <transmission MET="055:53:07" com="CC">- - for looking at the Comet Bennett, if you
+                        need it.</transmission>
+                <transmission MET="055:53:12" com="CMP">Okay. Stand by.</transmission>
+                <O2-tank-anomaly/>
+                <transmission MET="055:55:19" com="LMP">Okay, Houston - -</transmission>
+                <transmission MET="055:55:20" com="CDR">I believe we've had a problem
+                        here.</transmission>
+                <transmission MET="055:55:28" com="CC">This is Houston. Say again,
+                        please.</transmission>
+                <transmission MET="055:55:35" com="CDR">Houston, we've had a problem. We've had a
+                                <MCandW>MAIN B BUS UNDERVOLT</MCandW>.</transmission>
+                <transmission MET="055:55:42" com="CC">Roger. MAIN B UNDERVOLT.</transmission>
+                <transmission MET="055:55:58" com="CC">Okay, stand by, 13. We're looking at
+                        it.</transmission>
+                <transmission MET="055:56:10" com="LMP">Okay. Right now, Houston, the voltage is -
+                        is looking good. And we had a pretty large bang associated with the CAUTION
+                        AND WARNING there. And as I recall, MAIN B was the one that had had an amp
+                        spike on it once before.</transmission>
+                <transmission MET="055:56:40" com="CC">Roger, Fred.</transmission>
+                <transmission MET="055:56:54" com="LMP">In the interim here, we're starting to go
+                        ahead and button up the tunnel again.</transmission>
+                <transmission MET="055:57:01" com="CC">Roger.</transmission>
+                <transmission MET="055:57:04" com="LMP">Yes. That jolt must have rocked the sensor
+                        on - see now - <panel>0^ QUANTITY 2</panel>. It - was oscillating down
+                        around 20 to 6O percent. Now it's full- scale high again.</transmission>
+                <transmission MET="055:57:22" com="CC">Roger.</transmission>
+                <transmission MET="055:57:30" com="CDR">And, Houston, we had a
+                                <MCandW>RESTART</MCandW> on our computer and we had a
+                                <panel>PGNCS</panel> light and the <panel>RESTART
+                        RESET</panel>.</transmission>
+                <transmission MET="055:57:37" com="CC">Roger. RESTART and a PGNCS light. RESET on a
+                        PGNCS, RESET - -</transmission>
+                <transmission MET="055:57:44" com="CDR">Okay. And we're looking at our S -
+                                <panel>SERVICE MODULE RCS HELIUM 1</panel>. We have - B is barber
+                        poled and D is barber poled, <panel>HELIUM 2</panel>, D is barber pole, and
+                                <panel>SECONDARY PROPELLANTS</panel>, I have A and C barber pole.
+                                <panel>BMAG temperatures</panel>?</transmission>
+                <transmission MET="055:58:07" com="LMP">Okay, <panel>AC 2</panel> is showing zip.
+                        I'm going to try to reconfigure on that, Jack.</transmission>
+                <transmission MET="055:58:13" com="CC">Roger.</transmission>
+                <transmission MET="055:58:25" com="LMP">Yes. We got a <MCandW>MAIN BUS A
+                                UNDERVOLT</MCandW> now, too, showing.</transmission>
+                <transmission MET="055:58:29" com="CC">MAIN A UNDERVOLT.</transmission>
+        </body>
+</apollo13>

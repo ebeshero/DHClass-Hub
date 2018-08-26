@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poem 4 (J 241: 1861/1890)</title>
+            <author>Emily Dickinson</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1604</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><title>Poem 4 (J 241: 1861/1890)</title></head>
+         <lg>
+            <l>I like a look of Agony,</l>
+            <l>Because I know it's true—</l>
+            <l>Men do not sham Convulsion,</l>
+            <l>Nor simulate a Throe—</l>
+         </lg>
+         <lg>
+            <l>
+               <app>
+                  <rdg wit="var0"><del rend="strikethrough">Death comes</del></rdg>
+               </app>
+            </l>
+            <l>The Eyes glaze once—and—that is Death—</l>
+            <l>Impossible to feign</l>
+            <l>The Beads upon the Forehead</l>
+            <l>By homely Anguish strung.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

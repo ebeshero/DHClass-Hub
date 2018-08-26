@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Poem 2. (J 607: 1862/1929)</title>
+            <author>Emily Dickinson</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Fascicle 16: Dickinson's variants and published versions</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository></repository>
+                  <idno>1602</idno></msIdentifier>
+            </msDesc>
+            <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><title>Poem 2. (J 607: 1862/1929)</title></head>
+         <lg>
+            <l>Of nearness to her Sundered Things</l>
+            <l>The Soul has special times—</l>
+            <l>When Dimness—looks the Oddity—</l>
+            <l>Distinctness—easy—seems—</l>
+         </lg>
+         <lg>
+            <l>The Shapes we buried, dwell about,</l>
+            <l>Familiar, in the Rooms—</l>
+            <l>Untarnished by the Sepulchre,</l>
+            <l>
+               <app>
+                  <rdg wit="var0">The</rdg>
+                  <rdg wit="var1">Our</rdg>
+               </app> Mouldering Playmate comes—</l>
+         </lg>
+         <lg>
+            <l>In just the Jacket that he wore—</l>
+            <l>Long buttoned in the Mold</l>
+            <l>Since we—old mornings, Children—played—</l>
+            <l>Divided by a world—</l>
+         </lg>
+         <lg>
+            <l>The Grave yields back her Robberies—</l>
+            <l>The Years, our pilfered Things—</l>
+            <l>Bright Knots of Apparitions</l>
+            <l>Salute us with their wings—</l>
+         </lg>
+         <lg>
+            <l>As we—it were—that perished—</l>
+            <l>Themself—had just remained till we rejoin them—</l>
+            <l>And 'twas they, and not ourself</l>
+            <l>That mourned.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

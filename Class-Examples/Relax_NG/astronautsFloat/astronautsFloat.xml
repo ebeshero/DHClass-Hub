@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="astronautsFloat.rnc" type="application/relax-ng-compact-syntax"?>
+<news>
+    <head>
+        <headLine>2 Astronauts Float Free in Space, 170 Miles Up</headLine>
+        <image>
+            <pic file="astroFloat.jpg"/>
+            <caption><person ref="#McCandless_B">Capt. Bruce McCandless</person> 2d working outside
+                the cargo bay of the shuttle.</caption>
+        </image>
+        <byLine>By <person ref="#Noble_J">John Noble</person></byLine>
+
+        <info>Special to The New York Times</info>
+        <dateLine><place>Houston</place><date when="1964-02-07">Feb. 7</date></dateLine>
+    </head>
+    <body>
+        <p>-- In a spectacle of bravery and beauty, two American astronauts flew out, up and away
+            from the space shuttle Challenger today. Free of any lifeline and propelled into the
+            dark void by tiny jets, they became, in effect, the first human satellites.</p>
+
+        <p>The successful test of the propulsion backpacks - a wireless high-wire act 170 miles
+            above the earth - was an important step toward future operations to repair and service
+            orbiting satellites and to assemble and maintain large space stations.</p>
+
+        <p>A second test by the same two space fliers, <person ref="#McCandless_B">Capt. Bruce
+                McCandless</person> 2d of the Navy and Lieut. Col. Robert L. Stewart of the Army, is
+            scheduled for Thursday morning. They are to practice grappling a large object rotating
+            at the end of the shuttle's mechanical arm, a dress rehearsal for a mission in April to
+            repair a crippled scientific satellite.</p>
+
+        <subHead>Success After Failures</subHead>
+
+        <p>The success of today's space-walking exercise was particularly sweet for the National
+            Aeronautics and Space Administration, coming as it did after days of repeated failures.
+            Two satellites deployed by the shuttle went off-course, and a target balloon burst to
+            disrupt another test for the satellite-repair mission.</p>
+
+        <p>All that was forgotten when, at 8:25 A.M. Eastern standard time, <person
+                ref="#McCandless_B">Captain McCandless</person> fired the jet thrusters of his bulky
+            white backpack to rise out of the Challenger's open cargo bay and move away, untethered
+            to the spaceship. He was orbiting the earth at the same velocity as the shuttle, 17,500
+            miles an hour. In the virtual vacuum of space, however, he sensed nothing of his speed.
+            The only sensation of motion he had came when he looked down at the rotating earth,
+            which was going by at four miles a second.</p>
+        <p> Beginning his excursion as the first free-flying human in space, <person
+                ref="#McCandless_B">Captain McCandless</person> joked: ''That may have been one
+            small step for Neil, but it's a heck of a big leap for me.''He was referring to the
+            words uttered by Neil A. Armstrong when he made the first human bootprint on the moon in
+            1969.</p>
+
+        <p><person ref="#McCandless_B">Captain McCandless</person> took his big leap while the
+            Challenger was passing over the Pacific Ocean, then in darkness. His movements were
+            deliberate, never more than one foot a second. He said he looked for but could see no
+            stars.</p>
+
+        <p>He headed out to 150 feet, a stiff figure with slightly spread legs, looking a little
+            like a puffy white gingerbread man. He then went out as far as 320 feet as he and the
+            shuttle, separate but not too far apart, flew over the continental United States in
+            daylight.</p>
+
+        <p>''This is neat,'' he said. Then, casting an eye downward, he remarked: ''Looks like
+            Florida. It is Florida!''</p>
+
+        <p>'It Really Is Beautiful'</p>
+
+        <p>He reported seeing clearly Cape Canaveral, where the mission began last Friday and where
+            it is scheduled to end Saturday. ''It really is beautiful,'' Captain McCandless said of
+            the panorama. By the time he returned to the shuttle, it was cruising over Africa. The
+            astronaut had spent an hour and a half testing and flying the jet-powered backpack,
+            known as the manned maneuvering unit. Except for a few minor ''shudders, rattles and
+            shakes,'' which Captain McCandless noted in certain firings, the maneuvering unit's
+            performance was smooth and all that the space agency had expected it to be. ''We sure
+            have a nice flying machine here,'' he said. </p>
+
+        <p>At all times, Captain McCandless and later Colonel Stewart were in sight of the
+            Challenger, and the crew on board had them in their sights. Vance D. Brand, the
+            commander, and Comdr. Robert L. Gibson of the Navy, the pilot, were ready, if necessary,
+            to steer the shuttle over and scoop up the space fliers in the cargo bay. And Dr. Ronald
+            E. McNair stood ready at the controls of the shuttle's 50-foot-long mechanical arm to
+            use it to pluck one of the men back to safety.</p>
+        <p> The need did not arise. John Cox, the flight director in the operations, said all the
+            equipment ''seemed to work better than anyone hoped for.''</p>
+        <p> At a news conference, Mr. Cox said, ''This was great confirmation that the plans made
+            for the Solar Max repair all work perfectly.''</p>
+
+        <p>Solar Max, formally known as the Solar Maximum Mission satellite, is the craft that
+            astronauts wearing propulsion backpacks hope to retrieve and repair on the next shuttle
+            flight, scheduled for early April. They plan to change defective electronics parts and,
+            if this revives the malfunctioning systems, redeploy the satellite.</p>
+
+        <p>Captain McCandless and Colonel Stewart worked for almost six hours, breathing oxygen from
+            the smaller pack built into their pressure suits. While Captain McCandless was out
+            flying, Colonel Stewart stepped into foot-restraints built into a metal plate that was
+            attached to the end of the mechanical arm. He had some trouble fitting his boots under
+            the metal toe bar and the into the metal heel cup.</p>
+
+        <subHead>Disruption of Schedule</subHead>
+
+        <p>This put him behind schedule, but he was able to perform some tasks working with tools
+            that would come in handy making satellite repairs. In the absence of gravity, the
+            foot-restraints kept him from being thrown into a spin or away from his task as he
+            turned the wrenches or other devices. </p>
+        <p>On future repair missions, astronauts expect to work in this way from the end of the
+            mechanical arm, much as workers in orchards and on power lines use the so-called cherry
+            pickers.</p>
+
+        <p>Later in the morning, after Captain McCandless returned and the maneuvering backpack was
+            refueled, Colonel Stewart got his chance to go overboard and fly. In about an hour's
+            time, he duplicated most of the same maneuvers, going out as far as 305 feet.</p>
+        <p> Returning to the shuttle, Colonel Stewart, a helicopter pilot before becoming an
+            astronaut, commented, ''The approach to Challenger was a little different than the
+            helicopter landings in Vietnam.''</p>
+        <p> Captain McCandless, meanwhile, was taking his turn working from the end of the
+            mechanical arm. ''O.K., Dr. McNair, throw the bolt,'' he radioed to the astronaut inside
+            the cabin, Dr. Ronald E. McNair, who was operating the robotic arm.</p>
+
+        <p>With his body extending straight out from the end of the arm, where his feet were fixed
+            to the restraints, Captain McCandless sometimes evoked images of the wing-walkers of
+            early aviation. But there was no breeze to flutter a silk scarf. And it was work he had
+            in mind, not a frolic, as the shuttle passed over Baja California.</p>
+
+        <p>The mechanical arm transported the astronaut within reach of a panel simulating the
+            electronics modules that astronauts must replace on Solar Max. Captain McCandless
+            practiced with tools to open, remove and replace those parts.</p>
+
+        <p>''You going to want the windows washed or anything while I'm out here?'' he joked.</p>
+
+        <subHead>Better Than Expected</subHead>
+
+        <p>Mr. Cox, the flight director, said the tests indicated that the fully extended robotic
+            arm provided a more stable work platform than had been expected. </p>
+        <p>In one real repair, the astronauts adjusted the setting of a switch on a scientific
+            instrument attached to a West German payload. This is the shuttle pallet satellite, a
+            re-usable platform carrying instruments and cameras. It will serve as the object,
+            attached to the mechanical arm, that Captain McCandless and Colonel Stewart are to hook
+            up to in Thursday's planned space-walking activities.</p>
+
+        <p>The astronauts also detached a malfunctioning television camera from the cargo bay,
+            brought it in for repairs and plan to re-install it at the beginning of <event
+                when="1964-06-24">Thursday's spacewalk</event>. The camera is expected to provide
+            more television coverage of the astronauts as they grapple with the rotating pallet
+            satellite at the end of the mechanical arm.</p>
+
+        <p>The mishaps were few and minor. Captain McCandless dropped the checklist attached to his
+            cuff and had to dump it into a small trash bag. And once, for reasons not quiet clear,
+            he uttered an expletive of frustration, which proved that he was indeed a human
+            satellite.</p>
+        <p> As the two astronauts returned to the shuttle airlock, about 1 P.M., Captain McCandless
+            said of the experience: ''It was a real thrill. A real honor to be out there.''</p>
+    </body>
+</news>

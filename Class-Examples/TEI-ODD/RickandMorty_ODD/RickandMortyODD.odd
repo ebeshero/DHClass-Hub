@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" version="2.9.1" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rick and Morty ODD</title>
+            <author>Dorothea Lint</author>
+            <author>Allyson Hall</author>
+            <author>Elisa Beshero-Bondar</author>
+         </titleStmt>
+         <publicationStmt><authority>Prepared in TEI P5 for the Rick and Morty Project team on newtFire.org. GitHub
+            repository: <ref target="https://github.com/dorothealint/Rick-and-Morty/"/>. Date last worked
+            on: <date when="2018-03-15">15 March 2018</date></authority>
+         <availability>
+            <licence><!--Choose and identify a Creative Commons license for sharing your code. Look here: https://creativecommons.org/share-your-work/--></licence>
+         </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <schemaSpec ident="rickandmortyODD" start="TEI" prefix="tei">
+            <!--ebb: The schemaSpec element contains all your schema information for customizing the TEI. Think of it as the "root" element of the schema, and it defines the start element of the TEI file.-->
+            <moduleRef key="tei"/>
+            <moduleRef key="core"/>
+            <moduleRef key="header"/>
+            <moduleRef key="namesdates"/>
+            <moduleRef key="textstructure"/>
+            <moduleRef key="drama"/>
+            <moduleRef key="corpus"/>
+            <!--ebb: For now, we're including all the elements in the above TEI modules complete. We can decide to exclude some later if we want to. -->
+            <elementSpec ident="spGrp" module="drama" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="convo"/>
+                        <valItem ident="attack"/>
+                        
+                        <!--ebb: do you want to add other types of speech groups? No need, but this marks off the controlScenes so they are now coded as <spGrp type="convo">...</div>        
+                     Would you like other attributes on this spGrp?  
+                        -->
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="speaker" module="core" mode="change">
+               <attList>
+                  <attDef ident="level" mode="add" usage="opt">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="main"/>
+                        <valItem ident="secondary"/>
+                        <valItem ident="dimensional"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="persName" module="namesdates" mode="change">
+               <attList>
+                  <attDef ident="level" mode="add" usage="opt">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="main"/>
+                        <valItem ident="secondary"/>
+                        <valItem ident="dimensional"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="ref" mode="replace" usage="rec">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#rick"/>
+                        <valItem ident="#morty"/>
+                        <valItem ident="#summer"/>
+                        <valItem ident="#jerry"/>
+                        <valItem ident="#beth"/>
+                        <valItem ident="#jennifer"/>
+                        <valItem ident="#tammy"/>
+                        <valItem ident="#squanchy"/>
+                        <valItem ident="#birdPerson"/>
+                        <valItem ident="#evilMorty"/>
+                        <valItem ident="#evilRick"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="sp" module="core" mode="change">
+ <attList>
+                  <attDef ident="who" mode="replace" usage="rec">
+                     <datatype>
+                        <rng:text/>
+                     </datatype>
+                     <valList type="closed">
+                        <valItem ident="#rick"/>
+                        <valItem ident="#morty"/>
+                        <valItem ident="#summer"/>
+                        <valItem ident="#jerry"/>
+                        <valItem ident="#beth"/>
+                        <valItem ident="#jennifer"/>
+                        <valItem ident="#tammy"/>
+                        <valItem ident="#squanchy"/>
+                        <valItem ident="#birdPerson"/>
+                        <valItem ident="#evilMorty"/>
+                        <valItem ident="#evilRick"/>
+                     </valList>
+                  </attDef></attList>
+            </elementSpec>
+            
+       <!--2018-03-15: ebb: Write a Schematron constraint that indicates for each distinct value of persName | speaker, there must be one and only one @level defined.     <constraintSpec>
+               
+            </constraintSpec>
+            -->
+            
+            
+            
+      </schemaSpec>
+      </body>
+  </text>
+</TEI>

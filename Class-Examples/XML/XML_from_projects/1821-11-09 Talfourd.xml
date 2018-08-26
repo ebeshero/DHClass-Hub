@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to <persName ref="#Talfourd_Thos">T.N. Talfourd</persName>1821 November 09</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#lmw">Lisa M. Wilson</editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#lmw">Lisa M. Wilson</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#ghb">[who?]</persName><!-- correct when proofed LMW -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: 27 May 2014. P5.</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <p>Reproduced by courtesy of the <placeName >The John Rylands University Library</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="#Rylands">The John Rylands University Library</repository>
+                  <collection>Mitford-Talfourd Correspondence: Letters from Mary Russell Mitford to Thomas Noon Talfourd: vol. 665</collection>
+                  <idno>JRL English MS 665 no. 5 Coles no. 18</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to T.N. Talfourd, <date when="1821-11-09">1821 November 9</date>. <!-- MRM dates this letter "Friday night" Coles dates it Nov. 9 based on MRM's diary. (Coles #18, p.111, note 1).  Nov. 9 was a Friday. LMW --> <!--DSCF6097, DSCF6098, DSCF6099 LMW --></head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support> 
+                           <p>Folio sheet of <material>paper</material> folded in half to form four
+                              quarto pages, with correspondence on 1-3, then folded in thirds twice more.</p>
+                        </support>
+                        <condition>
+                        <!--There is no image of page four, no address leaf, and Coles does not indicate that he has seen any page four or address leaf either.  LMW-->
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal> 
+                        <p>
+                        <!--There is no seal  LMW--></p>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="pencilRy"  medium="pencil">Someone cataloging the letters, apparently
+               other than Mitford, numbered each on page 1. This letter numbered 13.</handNote>
+         </handNotes>
+  </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            
+            <opener>
+               <dateline>
+                  <name type="place" ref="#ThreeMileCross">Three Mile Cross</name> 
+                  <date when="1821-11-09">Friday night</date>
+               </dateline>
+               <salute>My dear Sir</salute>
+            </opener>
+            
+            <p> Again &amp; again I thank you for your exquisite kindness.  I have just received <del rend="squiggles"><gap quantity="1" unit="word"/>Mr</del> your packet from <persName ref="#Newberry_J">Mr. Newberry</persName>, &amp; have read <persName ref="#Macready_Wm">Mr. Macready's</persName> letter with the hopeful spirit that you desire &amp; with the truest gratitude to him &amp; to you.  His discovery of the sex of the unlucky writer made me laugh in spite of my vexation--I believe I could as soon pass myself for 6 feet <!-- Coles has "illegible" here LMW --> high as write two lines which should be taken for a man's composition.  Nevertheless I have great confidence in his exertions--the greatest--the most undoubting--&amp; I am heartily glad to be rid of those puny sources of interest, on which one can never feel any real or comfortable reliance.  With <persName ref="#Macready_Wm">Mr. Macready</persName> &amp; <emph n="underline">You</emph> the <title ref="#Foscari_MRMplay">Play</title> <pb n="2"/>  will have every possible chance that its own weakness will allow it--far more than it deserves.  I shall immediately begin the new Catastrophe.  Must there not be an entirely new fifth Act?  Some part of the scene with the <persName ref="#Doge_F">Doge</persName> may remain--but the opening of the scene with <persName ref="#Cosmo">Cosmo</persName> &amp; that with <persName ref="#Camilla"></persName>Camilla, must not these be new as well as the conclusion?  Or will a little altering &amp; modifying do?  He must <del rend="squiggles"><gap quantity="1" unit="word"/><unclear/></del> have taken the poison before the beginning of the Act--And can we make him be sleeping so quietly afterwards? <del rend="squiggles"><gap quantity="1" unit="character"/><unclear/></del> And there must be through all his speeches a dark concealed consciousness of the coming death--I am afraid it must be quite new--but I will do my very best &amp; <persName ref="#Macready_Wm">Mr. Macready</persName> &amp; you can decide--you shall certainly have it by the middle of the week after next.  I wonder what <persName ref="#Byron">Lord Byron</persName>'s Catastrophe is!  We should steer clear of that at all events.  But we shall have plenty to chuse <choice><reg resp="lmw">choose</reg></choice> <pb n="3"/> out of that is one comfort.  I was not in the least disappointed, or disconcerted (except at that terrible "evidently a lady's") by <persName ref="#Macready_Wm">Mr. Macready</persName>'s opinion of the <title ref="#Foscari_MRMplay">Play</title>--mine has always been much lower--really much lower--not a mere piece of affectation to be contradicted or to look modest but an unfeigned &amp; settled impression--I was therefore not in the least surprised or startled at that--but astonished &amp; delighted beyond measure at the zeal &amp; energy with which he takes up the cause--this of course proceeds entirely from his friendship for you--&amp; the kind interest which you have the goodness to take in my poor <title ref="#Foscari_MRMplay">Foscari</title>--Oh you have no notion with what a delightful feeling of assurance I rely, not as you bid me on him only, but on him &amp; you.--If we reduce the <persName ref="#Doge_F">Doge</persName>'s part so much I suppose we must retain the old title--But that will be time enough to consider. by &amp; bye.--Once more a thousand thanks &amp; regards &amp; good wishes from all</p>
+            <closer>
+               <lb/> Ever most gratefully yours<signed><persName ref="#MRM">MRMitford.</persName></signed><lb/>
+            </closer>
+               
+             <postscript> 
+                <p>Pray excuse all my blots &amp; blunders--I had better not have written. but I could not help it--</p>
+            </postscript>   
+         </div>
+      </body>
+   </text>
+</TEI>
+            
+            
+           
+
+ 
+   
