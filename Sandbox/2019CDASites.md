@@ -3,18 +3,27 @@
 **Dr. B**
 * GitHub: [ebeshero](https://github.com/ebeshero)
 * Website: https://newtfire.org/
+* [Digital Mitford](https://digitalmitford.org/)
 
 **Kiara DeVore**
 * GitHub: [KSD32](https://github.com/KSD32)
 * Website: https://newtfire.org/~ksd32/
-* 2019 CDV Project: [Ulysses](https://github.com/frabbitry/Ulysses)
-* 2018 CDA Project: [Washington Papers](http://washington.newtfire.org/)
+* 2019 CDV Project:
+  * [Ulysses Site](https://ulysses.newtfire.org/)
+  * [Ulysses GitHub](https://github.com/frabbitry/Ulysses)
+* 2018 CDA Project: 
+  * [Washington Papers Site](http://washington.newtfire.org/)
+  * [Washington Papers GitHub](https://github.com/KSD32/George-Washington-Diaries-)
 
 **Alyssa Argento**
 * GitHub: [alnopa9](https://github.com/alnopa9)
 * Website: https://newtfire.org/~ama277/
-* 2019 CDV Project: [Banksy](http://banksy.newtfire.org/)
-* 2018 CDA Project: [Combe](http://combe.newtfire.org/)
+* 2019 CDV Project:
+  * [Banksy Site](http://banksy.newtfire.org/)
+  * [Banksy GitHub](https://github.com/alnopa9/Banksy)
+* 2018 CDA Project:
+  * [Combe Site](http://combe.newtfire.org/)
+  * [Combe GitHub](https://github.com/dorothealint/William_Combe_Works)
 
 **Connor Chinoy**
 * GitHub: [ChinoyIndustries](https://github.com/ChinoyIndustries)
