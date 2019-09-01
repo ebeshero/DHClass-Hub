@@ -33,7 +33,7 @@
 * GitHub: [amberpeddicord](https://github.com/amberpeddicord)
 * Website: tbd
 
-**Rob**
+**Robert Pernell**
 * GitHub: [bobbyfunks](https://github.com/bobbyfunks)
 * Website: tbd
 
@@ -41,7 +41,7 @@
 * GitHub: [jwa32](https://github.com/jwa32)
 * Website: tbd
 
-**Anthony**
+**Anthony Socci**
 * GitHub: [ads171](https://github.com/ads171)
 * Website: tbd
 
@@ -57,7 +57,7 @@
 * GitHub: [bairjon](https://github.com/bairjon)
 * Website: tbd
 
-**Shannon**
+**Shannon Dunn**
 * GitHub: [smdunn921](https://github.com/smdunn921)
 * Website: tbd
 
@@ -65,7 +65,7 @@
 * GitHub: [i-myers](https://github.com/i-myers)
 * Website: tbd
 
-**Lewis**
+**Lewis Abia-Nda**
 * GitHub: [lewisabia](https://github.com/lewisabia)
 * Website: tbd
 
@@ -73,7 +73,7 @@
 * GitHub: [haggis78](https://github.com/haggis78)
 * Website: tbd
 
-**Lauren**
+**Lauren McNeill**
 * GitHub: [lmcneil7](https://github.com/lmcneil7)
 * Website: tbd
 
