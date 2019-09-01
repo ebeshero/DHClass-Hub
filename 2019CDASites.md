@@ -55,12 +55,12 @@
 * GitHub: [lmcneil7](https://github.com/lmcneil7)
 * Website: tbd
 
-**Ian Meyers**
-* GitHub: [i-myers](https://github.com/i-myers)
-* Website: tbd
-
 **Dylan More**
 * GitHub: [dylanmore](https://github.com/dylanmore)
+* Website: tbd
+
+**Ian Myers**
+* GitHub: [i-myers](https://github.com/i-myers)
 * Website: tbd
 
 **Matt Nowakowski**
