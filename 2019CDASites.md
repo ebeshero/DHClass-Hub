@@ -1,5 +1,7 @@
 # GitHub Pages
 
+## Instructor Team
+
 **Dr. B**
 * GitHub: [ebeshero](https://github.com/ebeshero)
 * Website: https://newtfire.org/
@@ -25,6 +27,7 @@
   * [Combe Site](http://combe.newtfire.org/)
   * [Combe GitHub](https://github.com/dorothealint/William_Combe_Works)
 
+## Students
 
 **Lewis Abia-Nda**
 * GitHub: [lewisabia](https://github.com/lewisabia)
