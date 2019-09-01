@@ -25,24 +25,38 @@
   * [Combe Site](http://combe.newtfire.org/)
   * [Combe GitHub](https://github.com/dorothealint/William_Combe_Works)
 
-**Connor Chinoy**
-* GitHub: [ChinoyIndustries](https://github.com/ChinoyIndustries)
-* Website: tbd
 
-**Amber Peddicord**
-* GitHub: [amberpeddicord](https://github.com/amberpeddicord)
-* Website: tbd
-
-**Robert Pernell**
-* GitHub: [bobbyfunks](https://github.com/bobbyfunks)
+**Lewis Abia-Nda**
+* GitHub: [lewisabia](https://github.com/lewisabia)
 * Website: tbd
 
 **Jeshua Anderson**
 * GitHub: [jwa32](https://github.com/jwa32)
 * Website: tbd
 
-**Anthony Socci**
-* GitHub: [ads171](https://github.com/ads171)
+
+**Jonathon Bair**
+* GitHub: [bairjon](https://github.com/bairjon)
+* Website: tbd
+
+**Bill Campbell**
+* GitHub: [haggis78](https://github.com/haggis78)
+* Website: tbd
+
+**Connor Chinoy**
+* GitHub: [ChinoyIndustries](https://github.com/ChinoyIndustries)
+* Website: tbd
+
+**Shannon Dunn**
+* GitHub: [smdunn921](https://github.com/smdunn921)
+* Website: tbd
+
+**Lauren McNeill**
+* GitHub: [lmcneil7](https://github.com/lmcneil7)
+* Website: tbd
+
+**Ian Meyers**
+* GitHub: [i-myers](https://github.com/i-myers)
 * Website: tbd
 
 **Dylan More**
@@ -53,28 +67,16 @@
 * GitHub: [mattnowakowski](https://github.com/mattnowakowski)
 * Website: tbd
 
-**Jonathon Bair**
-* GitHub: [bairjon](https://github.com/bairjon)
+**Robert Pernell**
+* GitHub: [bobbyfunks](https://github.com/bobbyfunks)
 * Website: tbd
 
-**Shannon Dunn**
-* GitHub: [smdunn921](https://github.com/smdunn921)
+**Amber Peddicord**
+* GitHub: [amberpeddicord](https://github.com/amberpeddicord)
 * Website: tbd
 
-**Ian Meyers**
-* GitHub: [i-myers](https://github.com/i-myers)
-* Website: tbd
-
-**Lewis Abia-Nda**
-* GitHub: [lewisabia](https://github.com/lewisabia)
-* Website: tbd
-
-**Bill Campbell**
-* GitHub: [haggis78](https://github.com/haggis78)
-* Website: tbd
-
-**Lauren McNeill**
-* GitHub: [lmcneil7](https://github.com/lmcneil7)
+**Anthony Socci**
+* GitHub: [ads171](https://github.com/ads171)
 * Website: tbd
 
 **Alexis Williams**
