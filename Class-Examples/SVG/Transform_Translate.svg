@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--ebb: Note: oXygen has an SVG viewer in the Tools menu, but it's usually best to preview these files in a web browser. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc>Here's my cool SVG file</desc>
+    <!--ebb: The g element below is used for grouping SVG shapes. In this case, we made a grouping and then moved altered its position to move it 25 units to the right and 500 units down the screen. -->
+    <g alignment-baseline="baseline" transform="translate (5, 500)">
+        
+        
+        <line x1="25" y1="0" x2="700" y2="0" stroke="purple" stroke-width="5"/> 
+        
+        <line x1="25" x2="25" y1="2" y2="-200" stroke="red" stroke-width="5"/>
+        <rect x="50" y="-250" width="30" height="250" fill="aqua" />    
+        
+    </g>
+</svg>

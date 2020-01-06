@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+html{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+#banner{
+    width: 90%;
+    height: 200px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: black;
+    margin: auto;
+    border-radius: 25px;
+}
+img.banner{
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    height: 100%;
+}
+
+
+img.bannerIcons{
+    height: 100px;
+    width: 100px;
+     -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+img.cornerimg{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 999;
+    height: 40%;
+}
+div.body{
+    width: 90%;
+    background-color: black;
+    border-radius: 25px;
+    margin: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+div.bodycontainer{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    color: #00b0c7;
+    line-height: 200%;
+    font-size: 20px;
+}
+a{
+    font-family: 'Indie Flower', cursive;
+    color: #5ec049;
+    line-height: 200%;
+    font-size: 20px;
+}
+h2{
+    font-family: 'Nanum Brush Script', cursive;
+    color: #00b0c7;
+    text-shadow: 0 0 3px #c9de4f;
+    text-shadow: 0 0 5px #5ec049;
+    -webkit-text-stroke: 1px black;
+    font-size: 75px;
+    text-align: center;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.license{
+    font-family: 'Indie Flower', cursive;
+    color: #00b0c7;
+    text-align: center;
+    bottom: 0;
+    font-size: 20px;
+    background-color: black;
+    width: 60%;
+    border-radius: 25px;
+    margin: auto;
+}
+div#timeline{
+    margin: 0 auto;
+    text-align: center;
+}
+.img-with-text {
+    text-align: center;
+    margin: 0 auto;
+}
+.p-for-banner{
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}

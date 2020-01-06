@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C02d">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C02d</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C02d_app1">
+		             <rdgGrp xml:id="C02d_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app1_rg2"
+                       n="['i', 'may', 'there', 'discover', 'the', 'wondrous', 'power', 'which', 'attracts', 'the', 'needle;', 'and', 'may', 'regulate', 'a', 'thousand', 'celestial', 'observations,', 'that', 'require', 'only', 'this', 'voyage', 'to', 'render', 'their', 'seeming', 'eccentricities', 'consistent', 'for', 'ever.', 'i', 'shall', 'satiate', 'my', 'ardent', 'curiosity', 'with', 'the', 'sight', 'of', 'a', 'part', 'of', 'the', 'world', 'never', 'before', 'visited,', 'and', 'may', 'tread', 'a', 'land', 'never', 'before', 'imprinted', 'by', 'the', 'foot', 'of', 'man.', 'these', 'are', 'my', 'enticements,', 'and', 'they', 'are', 'sufficient', 'to', 'conquer', 'all', 'fear', 'of', 'danger', 'or', 'death,', 'and', 'to', 'induce', 'me', 'to', 'commence', 'this', 'laborious', 'voyage', 'with', 'the', 'joy', 'a', 'child', 'feels', 'when', 'he', 'embarks', 'in', 'a', 'little', 'boat,', 'with', 'his', 'holiday', 'mates,', 'on', 'an', 'expedition', 'of', 'discovery', 'up', 'his', 'native', 'river.', 'but,', 'supposing', 'all', 'these', 'conjectures', 'to', 'be', 'false,', 'you', 'cannot', 'contest', 'the', 'inestimable', 'benefit', 'which', 'i', 'shall', 'confer', 'on', 'all', 'mankind', 'to', 'the', 'last', 'generation,', 'by', 'discovering', 'a', 'passage', 'near', 'the', 'pole', 'to', 'those', 'countries,', 'to', 'reach', 'which', 'at', 'present', 'so', 'many', 'months', 'are', 'requisite;', 'or', 'by', 'ascertaining', 'the', 'secret', 'of', 'the', 'magnet,', 'which,', 'if', 'at', 'all', 'possible,', 'can', 'only', 'be', 'effected', 'by', 'an', 'undertaking', 'such', 'as', 'mine.&lt;p/&gt;&lt;p/&gt;these', 'reflections', 'have', 'dispelled', 'the', 'agitation', 'with', 'which', 'i', 'began', 'my', 'letter,', 'and', 'i', 'feel', 'my', 'heart', 'glow', 'with', 'an', 'enthusiasm', 'which', 'elevates', 'me', 'to', 'heaven;', 'for', 'nothing', 'contributes', 'so', 'much', 'to']">
+			               <rdg wit="f1818">I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks &lt;pb n="004" xml:id="F1818_v1_016"/&gt;in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.&lt;p eID="novel1_letter1_div1_p3"/&gt;&lt;p sID="novel1_letter1_div1_p4"/&gt;These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to </rdg>
+			               <rdg wit="f1823">I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he &lt;pb n="4" xml:id="F1823_v1_023"/&gt;embarks in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.&lt;p eID="novel1_letter1_div1_p3"/&gt;&lt;p sID="novel1_letter1_div1_p4"/&gt;These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to </rdg>
+			               <rdg wit="fThomas">I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks &lt;pb n="004" xml:id="F1818_v1_016"/&gt;in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.&lt;p eID="novel1_letter1_div1_p3"/&gt;&lt;p sID="novel1_letter1_div1_p4"/&gt;These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to </rdg>
+			               <rdg wit="f1831">I may there discover the wondrous power which attracts the needle; and may regulate a thousand celestial observations, that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part of the world never before visited, and may tread a land never before imprinted by the foot of man. These are my enticements, and they are sufficient to conquer all fear of danger or death, and to induce me to commence this laborious voyage with the joy a child feels when he embarks in a little boat, with his holiday mates, on an expedition of discovery up his native river. But, supposing all these conjectures to be false, you cannot contest the inestimable benefit which I shall confer on all mankind to the last generation, by discovering a passage near the pole to those countries, to reach which at present so many months are requisite; or by ascertaining the secret of the magnet, which, if at all possible, can only be effected by an undertaking such as mine.&lt;p eID="novel1_letter1_div1_p3"/&gt;&lt;p sID="novel1_letter1_div1_p4"/&gt;These reflections have dispelled the agitation with which I began my letter, and I feel my heart glow with an enthusiasm which elevates me to heaven; for nothing contributes so much to </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app2">
+		             <rdgGrp xml:id="C02d_app2_rg1" n="['tranquillise']">
+			               <rdg wit="f1831">tranquillise </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app2_rg2" n="['tranquillize']">
+			               <rdg wit="f1818">tranquillize </rdg>
+			               <rdg wit="f1823">tranquillize </rdg>
+			               <rdg wit="fThomas">tranquillize </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app3">
+		             <rdgGrp xml:id="C02d_app3_rg1"
+                       n="['the', 'mind', 'as', 'a', 'steady', 'purpose,—a', 'point', 'on', 'which', 'the', 'soul', 'may', 'fix', 'its', 'intellectual', 'eye.', 'this', 'expedition', 'has', 'been', 'the', 'favourite', 'dream', 'of', 'my', 'early', 'years.', 'i', 'have', 'read', 'with', 'ardour', 'the', 'accounts', 'of', 'the', 'various', 'voyages', 'which', 'have', 'been', 'made', 'in', 'the', 'prospect', 'of', 'arriving', 'at', 'the', 'north', 'pacific', 'ocean', 'through', 'the', 'seas', 'which', 'surround', 'the', 'pole.', 'you', 'may', 'remember,', 'that', 'a', 'history', 'of', 'all', 'the', 'voyages', 'made', 'for', 'purposes', 'of', 'discovery', 'composed', 'the', 'whole', 'of', 'our', 'good', 'uncle', 'thomas’s', 'library.', 'my', 'education', 'was', 'neglected,', 'yet', 'i', 'was', 'passionately', 'fond', 'of', 'reading.', 'these', 'volumes', 'were', 'my', 'study', 'day', 'and', 'night,', 'and', 'my', 'familiarity', 'with', 'them', 'increased', 'that', 'regret', 'which', 'i', 'had', 'felt,', 'as', 'a', 'child,', 'on', 'learning', 'that', 'my', 'father’s', 'dying', 'injunction', 'had', 'forbidden', 'my', 'uncle', 'to', 'allow', 'me', 'to', 'embark', 'in', 'a']">
+			               <rdg wit="f1818">the mind as a steady purpose,—a point on which the soul may fix its intellectual eye. This expedition has been the favourite dream of my &lt;pb n="005" xml:id="F1818_v1_017"/&gt;early years. I have read with ardour the accounts of the various voyages which have been made in the prospect of arriving at the North Pacific Ocean through the seas which surround the pole. You may remember, that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas’s library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father’s dying injunction had forbidden my uncle to allow me to embark in a </rdg>
+			               <rdg wit="f1823">the mind as a steady purpose,—a point on which the soul may fix its intellectual eye. This expedition has been &lt;pb n="5" xml:id="F1823_v1_024"/&gt;the favourite dream of my early years. I have read with ardour the accounts of the various voyages which have been made in the prospect of arriving at the North Pacific Ocean through the seas which surround the pole. You may remember, that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas’s library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father’s dying injunction had forbidden my uncle to allow me to embark in a </rdg>
+			               <rdg wit="fThomas">the mind as a steady purpose,—a point on which the soul may fix its intellectual eye. This expedition has been the favourite dream of my &lt;pb n="005" xml:id="F1818_v1_017"/&gt;early years. I have read with ardour the accounts of the various voyages which have been made in the prospect of arriving at the North Pacific Ocean through the seas which surround the pole. You may remember, that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas’s library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father’s dying injunction had forbidden my uncle to allow me to embark in a </rdg>
+			               <rdg wit="f1831">the mind as a steady purpose,—a point on which the soul may fix its intellectual eye. This expedition has been the favourite dream of my early years. I have read with ardour the accounts of the various voyages which have been made in the prospect of arriving at the North Pacific Ocean through the seas which surround the pole. You may remember, that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas’s library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father’s dying injunction had forbidden my uncle to allow me to embark in a </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app4">
+		             <rdgGrp xml:id="C02d_app4_rg1" n="['sea-faring']">
+			               <rdg wit="f1818">sea-faring </rdg>
+			               <rdg wit="f1823">sea-faring </rdg>
+			               <rdg wit="fThomas">sea-faring </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app4_rg2" n="['seafaring']">
+			               <rdg wit="f1831">seafaring </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app5">
+		             <rdgGrp xml:id="C02d_app5_rg1"
+                       n="['life.&lt;p/&gt;&lt;p/&gt;these', 'visions', 'faded', 'when', 'i', 'perused,', 'for', 'the', 'first', 'time,', 'those', 'poets', 'whose', 'effusions', 'entranced', 'my', 'soul,', 'and', 'lifted', 'it', 'to', 'heaven.', 'i', 'also', 'became', 'a', 'poet,', 'and', 'for', 'one', 'year', 'lived', 'in', 'a', 'paradise', 'of', 'my', 'own', 'creation;', 'i', 'imagined', 'that', 'i', 'also', 'might', 'obtain', 'a', 'niche', 'in', 'the', 'temple', 'where', 'the', 'names', 'of', 'homer', 'and']">
+			               <rdg wit="f1818">life.&lt;p eID="novel1_letter1_div1_p4"/&gt;&lt;p sID="novel1_letter1_div1_p5"/&gt;These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven. I also became a poet, &lt;pb n="006" xml:id="F1818_v1_018"/&gt;and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and </rdg>
+			               <rdg wit="f1823">life.&lt;p eID="novel1_letter1_div1_p4"/&gt;&lt;p sID="novel1_letter1_div1_p5"/&gt;These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven. I also became a poet, &lt;pb n="6" xml:id="F1823_v1_025"/&gt;and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and </rdg>
+			               <rdg wit="fThomas">life.&lt;p eID="novel1_letter1_div1_p4"/&gt;&lt;p sID="novel1_letter1_div1_p5"/&gt;These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven. I also became a poet, &lt;pb n="006" xml:id="F1818_v1_018"/&gt;and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and </rdg>
+			               <rdg wit="f1831">life.&lt;p eID="novel1_letter1_div1_p4"/&gt;&lt;p sID="novel1_letter1_div1_p5"/&gt;These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted &lt;pb n="5" xml:id="F1831_v_021"/&gt;it to heaven. I also became a poet, and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app6">
+		             <rdgGrp xml:id="C02d_app6_rg1" n="['shakespeare']">
+			               <rdg wit="f1818">Shakespeare </rdg>
+			               <rdg wit="fThomas">Shakespeare </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app6_rg2" n="['shakspeare']">
+			               <rdg wit="f1823">Shakspeare </rdg>
+			               <rdg wit="f1831">Shakspeare </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app7">
+		             <rdgGrp xml:id="C02d_app7_rg1"
+                       n="['are', 'consecrated.', 'you', 'are', 'well', 'acquainted', 'with', 'my', 'failure,', 'and', 'how', 'heavily', 'i', 'bore', 'the', 'disappointment.', 'but', 'just', 'at', 'that', 'time', 'i', 'inherited', 'the', 'fortune', 'of', 'my', 'cousin,', 'and', 'my', 'thoughts', 'were', 'turned', 'into', 'the', 'channel', 'of', 'their', 'earlier', 'bent.&lt;p/&gt;&lt;p/&gt;six', 'years', 'have', 'passed', 'since', 'i', 'resolved', 'on', 'my', 'present', 'undertaking.', 'i', 'can,', 'even', 'now,', 'remember', 'the', 'hour', 'from', 'which', 'i', 'dedicated', 'myself', 'to', 'this', 'great', 'enterprise.', 'i', 'commenced', 'by', 'inuring', 'my', 'body', 'to', 'hardship.', 'i', 'accompanied', 'the', 'whale-fishers', 'on', 'several', 'expeditions', 'to', 'the', 'north', 'sea;', 'i', 'voluntarily', 'endured', 'cold,', 'famine,', 'thirst,', 'and', 'want', 'of', 'sleep;', 'i', 'often', 'worked', 'harder', 'than', 'the', 'common', 'sailors', 'during', 'the', 'day,', 'and', 'devoted', 'my', 'nights', 'to', 'the', 'study', 'of', 'mathematics,', 'the', 'theory', 'of', 'medicine,', 'and', 'those', 'branches', 'of', 'physical', 'science', 'from', 'which', 'a', 'naval', 'adventurer', 'might', 'derive', 'the', 'greatest', 'practical', 'advantage.', 'twice', 'i', 'actually', 'hired', 'myself', 'as', 'an', 'under-mate', 'in', 'a', 'greenland', 'whaler,', 'and', 'acquitted', 'myself', 'to', 'admiration.', 'i', 'must', 'own', 'i', 'felt', 'a', 'little', 'proud,', 'when', 'my', 'captain', 'offered', 'me', 'the', 'second', 'dignity', 'in', 'the', 'vessel,', 'and', 'entreated', 'me', 'to', 'remain', 'with', 'the', 'greatest', 'earnestness;', 'so', 'valuable', 'did', 'he', 'consider', 'my', 'services.&lt;p/&gt;&lt;p/&gt;and', 'now,', 'dear', 'margaret,', 'do', 'i', 'not', 'deserve', 'to', 'accomplish', 'some', 'great', 'purpose?', 'my', 'life', 'might', 'have', 'been', 'passed', 'in', 'ease', 'and', 'luxury;', 'but', 'i', 'preferred', 'glory', 'to', 'every', 'enticement', 'that', 'wealth', 'placed', 'in', 'my', 'path.', 'oh,', 'that', 'some', 'encouraging', 'voice', 'would', 'answer', 'in', 'the', 'affirmative!', 'my', 'courage', 'and', 'my', 'resolution', 'is', 'firm;', 'but', 'my', 'hopes', 'fluctuate,', 'and', 'my', 'spirits', 'are', 'often', 'depressed.', 'i', 'am', 'about', 'to', 'proceed', 'on', 'a', 'long', 'and', 'difficult']">
+			               <rdg wit="f1818">are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent.&lt;p eID="novel1_letter1_div1_p5"/&gt;&lt;p sID="novel1_letter1_div1_p6"/&gt;Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my &lt;pb n="007" xml:id="F1818_v1_019"/&gt;nights to the study of mathematics, the theory of medicine, and those branches of physical science from which a naval adventurer might derive the greatest practical advantage. Twice I actually hired myself as an under-mate in a Greenland whaler, and acquitted myself to admiration. I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services.&lt;p eID="novel1_letter1_div1_p6"/&gt;&lt;p sID="novel1_letter1_div1_p7"/&gt;And now, dear Margaret, do I not deserve to accomplish some great purpose? My life might have been passed in ease and luxury; but I preferred glory to every enticement that wealth placed in my path. Oh, that some encouraging voice would answer in the affirmative! My courage and my resolution is firm; but my hopes fluctuate, &lt;pb n="008" xml:id="F1818_v1_020"/&gt;and my spirits are often depressed. I am about to proceed on a long and difficult </rdg>
+			               <rdg wit="f1823">are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent.&lt;p eID="novel1_letter1_div1_p5"/&gt;&lt;p sID="novel1_letter1_div1_p6"/&gt;Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my &lt;pb n="7" xml:id="Fv1_1823_026"/&gt;nights to the study of mathematics, the theory of medicine, and those branches of physical science from which a naval adventurer might derive the greatest practical advantage. Twice I actually hired myself as an under-mate in a Greenland whaler, and acquitted myself to admiration. I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services.&lt;p eID="novel1_letter1_div1_p6"/&gt;&lt;p sID="novel1_letter1_div1_p7"/&gt;And now, dear Margaret, do I not deserve to accomplish some great purpose? My life might have been passed in ease and luxury; but I preferred glory to every enticement that wealth placed in my path. Oh, that some encouraging voice would answer in the affirmative! My courage and my resolution is firm; but my hopes fluctuate, &lt;pb n="8" xml:id="F1823_v1_027"/&gt;and my spirits are often depressed. I am about to proceed on a long and difficult </rdg>
+			               <rdg wit="fThomas">are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent.&lt;p eID="novel1_letter1_div1_p5"/&gt;&lt;p sID="novel1_letter1_div1_p6"/&gt;Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my &lt;pb n="007" xml:id="F1818_v1_019"/&gt;nights to the study of mathematics, the theory of medicine, and those branches of physical science from which a naval adventurer might derive the greatest practical advantage. Twice I actually hired myself as an under-mate in a Greenland whaler, and acquitted myself to admiration. I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services.&lt;p eID="novel1_letter1_div1_p6"/&gt;&lt;p sID="novel1_letter1_div1_p7"/&gt;And now, dear Margaret, do I not deserve to accomplish some great purpose? My life might have been passed in ease and luxury; but I preferred glory to every enticement that wealth placed in my path. Oh, that some encouraging voice would answer in the affirmative! My courage and my resolution is firm; but my hopes fluctuate, &lt;pb n="008" xml:id="F1818_v1_020"/&gt;and my spirits are often depressed. I am about to proceed on a long and difficult </rdg>
+			               <rdg wit="f1831">are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent.&lt;p eID="novel1_letter1_div1_p5"/&gt;&lt;p sID="novel1_letter1_div1_p6"/&gt;Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my nights to the study of mathematics, the theory of medicine, and those branches of physical science from which a naval adventurer might derive the greatest practical advantage. Twice I actually hired myself as an under-mate in a Greenland whaler, and acquitted myself to admiration. I must own I felt a little proud, when my captain offered me the second dignity in the vessel, and entreated me to remain with the greatest earnestness; so valuable did he consider my services.&lt;p eID="novel1_letter1_div1_p6"/&gt;&lt;p sID="novel1_letter1_div1_p7"/&gt;And now, dear Margaret, do I not deserve to accomplish some great purpose? My life might have been passed in ease and luxury; but I preferred glory to every enticement that wealth placed in my path. Oh, that some encouraging voice would answer in the affirmative! My courage and my resolution is firm; but my hopes fluctuate, and my spirits are often depressed. I am about to proceed on a long and difficult </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app8">
+		             <rdgGrp xml:id="C02d_app8_rg1" n="['voyage,']">
+			               <rdg wit="f1831">voyage, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app8_rg2" n="['voyage;']">
+			               <rdg wit="f1818">voyage; </rdg>
+			               <rdg wit="f1823">voyage; </rdg>
+			               <rdg wit="fThomas">voyage; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app9">
+		             <rdgGrp xml:id="C02d_app9_rg1"
+                       n="['the', 'emergencies', 'of', 'which', 'will', 'demand', 'all', 'my', 'fortitude:', 'i', 'am', 'required', 'not', 'only', 'to', 'raise', 'the', 'spirits', 'of', 'others,', 'but', 'sometimes', 'to', 'sustain', 'my', 'own,', 'when']">
+			               <rdg wit="f1818">the emergencies of which will demand all my fortitude: I am required not only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
+			               <rdg wit="f1823">the emergencies of which will demand all my fortitude: I am required not only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
+			               <rdg wit="fThomas">the emergencies of which will demand all my fortitude: I am required not only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
+			               <rdg wit="f1831">the emergencies of which will demand all my fortitude: I am required not only to raise the spirits of others, but sometimes to sustain my own, when </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app10">
+		             <rdgGrp xml:id="C02d_app10_rg1" n="['theirs']">
+			               <rdg wit="f1831">theirs </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app10_rg2" n="['their’s']">
+			               <rdg wit="f1818">their’s </rdg>
+			               <rdg wit="f1823">their’s </rdg>
+			               <rdg wit="fThomas">their’s </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app11">
+		             <rdgGrp xml:id="C02d_app11_rg1"
+                       n="['are', 'failing.&lt;p/&gt;&lt;p/&gt;this', 'is', 'the', 'most', 'favourable', 'period', 'for', 'travelling', 'in', 'russia.', 'they', 'fly', 'quickly', 'over', 'the', 'snow', 'in', 'their', 'sledges;', 'the', 'motion', 'is', 'pleasant,', 'and,', 'in', 'my', 'opinion,', 'far', 'more', 'agreeable', 'than', 'that', 'of', 'an', 'english', 'stage-coach.', 'the', 'cold', 'is', 'not', 'excessive,', 'if', 'you', 'are']">
+			               <rdg wit="f1818">are failing.&lt;p eID="novel1_letter1_div1_p7"/&gt;&lt;p sID="novel1_letter1_div1_p8"/&gt;This is the most favourable period for travelling in Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach. The cold is not excessive, if you are </rdg>
+			               <rdg wit="f1823">are failing.&lt;p eID="novel1_letter1_div1_p7"/&gt;&lt;p sID="novel1_letter1_div1_p8"/&gt;This is the most favourable period for travelling in Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach. The cold is not excessive, if you are </rdg>
+			               <rdg wit="fThomas">are failing.&lt;p eID="novel1_letter1_div1_p7"/&gt;&lt;p sID="novel1_letter1_div1_p8"/&gt;This is the most favourable period for travelling in Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach. The cold is not excessive, if you are </rdg>
+			               <rdg wit="f1831">are failing.&lt;p eID="novel1_letter1_div1_p7"/&gt;&lt;p sID="novel1_letter1_div1_p8"/&gt;This is the most favourable period for travelling in Russia. They fly quickly over the snow in their sledges; the motion is pleasant, and, in my opinion, far more agreeable than that of an English stage-coach. The cold is not excessive, if you are </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app12">
+		             <rdgGrp xml:id="C02d_app12_rg1" n="['wrapped']">
+			               <rdg wit="f1831">wrapped </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app12_rg2" n="['wrapt']">
+			               <rdg wit="f1818">wrapt </rdg>
+			               <rdg wit="f1823">wrapt </rdg>
+			               <rdg wit="fThomas">wrapt </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app13">
+		             <rdgGrp xml:id="C02d_app13_rg1" n="['in']">
+			               <rdg wit="f1818">in </rdg>
+			               <rdg wit="f1823">in </rdg>
+			               <rdg wit="fThomas">in </rdg>
+			               <rdg wit="f1831">in </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app14">
+		             <rdgGrp xml:id="C02d_app14_rg1" n="['furs,', 'a']">
+			               <rdg wit="f1818">furs, a </rdg>
+			               <rdg wit="f1823">furs, a </rdg>
+			               <rdg wit="fThomas">furs, a </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app14_rg2" n="['furs,—a']">
+			               <rdg wit="f1831">furs,—a </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app15">
+		             <rdgGrp xml:id="C02d_app15_rg1"
+                       n="['dress', 'which', 'i', 'have', 'already', 'adopted;', 'for', 'there', 'is', 'a', 'great', 'difference', 'between', 'walking', 'the', 'deck', 'and', 'remaining', 'seated', 'motionless', 'for', 'hours,', 'when', 'no', 'exercise', 'prevents', 'the', 'blood', 'from', 'actually', 'freezing', 'in', 'your', 'veins.', 'i', 'have', 'no', 'ambition', 'to', 'lose', 'my', 'life', 'on', 'the', 'post-road', 'between', 'st.', 'petersburgh', 'and', 'archangel.&lt;p/&gt;&lt;p/&gt;i', 'shall', 'depart', 'for', 'the', 'latter', 'town', 'in', 'a', 'fortnight', 'or', 'three', 'weeks;', 'and', 'my', 'intention', 'is', 'to', 'hire', 'a', 'ship', 'there,', 'which', 'can', 'easily', 'be', 'done', 'by', 'paying', 'the', 'insurance', 'for', 'the', 'owner,', 'and', 'to', 'engage', 'as', 'many', 'sailors', 'as', 'i', 'think', 'necessary', 'among', 'those', 'who', 'are', 'accustomed', 'to', 'the', 'whale-fishing.', 'i', 'do', 'not', 'intend', 'to', 'sail', 'until', 'the', 'month', 'of']">
+			               <rdg wit="f1818">dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins. I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel.&lt;p eID="novel1_letter1_div1_p8"/&gt;&lt;p sID="novel1_letter1_div1_p9"/&gt;&lt;pb n="009" xml:id="F1818_v1_021"/&gt;I shall depart for the latter town in a fortnight or three weeks; and my intention is to hire a ship there, which can easily be done by paying the insurance for the owner, and to engage as many sailors as I think necessary among those who are accustomed to the whale-fishing. I do not intend to sail until the month of </rdg>
+			               <rdg wit="f1823">dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins. I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel.&lt;p eID="novel1_letter1_div1_p8"/&gt;&lt;p sID="novel1_letter1_div1_p9"/&gt;&lt;pb n="9" xml:id="F1823_v1_028"/&gt;I shall depart for the latter town in a fortnight or three weeks; and my intention is to hire a ship there, which can easily be done by paying the insurance for the owner, and to engage as many sailors as I think necessary among those who are accustomed to the whale-fishing. I do not intend to sail until the month of </rdg>
+			               <rdg wit="fThomas">dress which I have already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins. I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel.&lt;p eID="novel1_letter1_div1_p8"/&gt;&lt;p sID="novel1_letter1_div1_p9"/&gt;&lt;pb n="009" xml:id="F1818_v1_021"/&gt;I shall depart for the latter town in a fortnight or three weeks; and my intention is to hire a ship there, which can easily be done by paying the insurance for the owner, and to engage as many sailors as I think necessary among those who are accustomed to the whale-fishing. I do not intend to sail until the month of </rdg>
+			               <rdg wit="f1831">dress which I have &lt;pb n="6" xml:id="F1831_v_022"/&gt;already adopted; for there is a great difference between walking the deck and remaining seated motionless for hours, when no exercise prevents the blood from actually freezing in your veins. I have no ambition to lose my life on the post-road between St. Petersburgh and Archangel.&lt;p eID="novel1_letter1_div1_p8"/&gt;&lt;p sID="novel1_letter1_div1_p9"/&gt;I shall depart for the latter town in a fortnight or three weeks; and my intention is to hire a ship there, which can easily be done by paying the insurance for the owner, and to engage as many sailors as I think necessary among those who are accustomed to the whale-fishing. I do not intend to sail until the month of </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app16">
+		             <rdgGrp xml:id="C02d_app16_rg1" n="['june:']">
+			               <rdg wit="f1818">June: </rdg>
+			               <rdg wit="fThomas">June: </rdg>
+			               <rdg wit="f1831">June: </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app16_rg2" n="['june;']">
+			               <rdg wit="f1823">June; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app17">
+		             <rdgGrp xml:id="C02d_app17_rg1"
+                       n="['and', 'when', 'shall', 'i', 'return?', 'ah,', 'dear', 'sister,', 'how', 'can', 'i', 'answer', 'this', 'question?', 'if', 'i', 'succeed,', 'many,', 'many', 'months,', 'perhaps', 'years,', 'will', 'pass', 'before', 'you', 'and', 'i', 'may', 'meet.', 'if', 'i', 'fail,', 'you', 'will', 'see', 'me', 'again', 'soon,', 'or', 'never.&lt;p/&gt;&lt;p/&gt;farewell,', 'my', 'dear,']">
+			               <rdg wit="f1818">and when shall I return? Ah, dear sister, how can I answer this question? If I succeed, many, many months, perhaps years, will pass before you and I may meet. If I fail, you will see me again soon, or never.&lt;p eID="novel1_letter1_div1_p9"/&gt;&lt;p sID="novel1_letter1_div1_p10"/&gt;Farewell, my dear, </rdg>
+			               <rdg wit="f1823">and when shall I return? Ah, dear sister, how can I answer this question? If I succeed, many, many months, perhaps years, will pass before you and I may meet. If I fail, you will see me again soon, or never.&lt;p eID="novel1_letter1_div1_p9"/&gt;&lt;p sID="novel1_letter1_div1_p10"/&gt;Farewell, my dear, </rdg>
+			               <rdg wit="fThomas">and when shall I return? Ah, dear sister, how can I answer this question? If I succeed, many, many months, perhaps years, will pass before you and I may meet. If I fail, you will see me again soon, or never.&lt;p eID="novel1_letter1_div1_p9"/&gt;&lt;p sID="novel1_letter1_div1_p10"/&gt;Farewell, my dear, </rdg>
+			               <rdg wit="f1831">and when shall I return? Ah, dear sister, how can I answer this question? If I succeed, many, many months, perhaps years, will pass before you and I may meet. If I fail, you will see me again soon, or never.&lt;p eID="novel1_letter1_div1_p9"/&gt;&lt;p sID="novel1_letter1_div1_p10"/&gt;Farewell, my dear, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app18">
+		             <rdgGrp xml:id="C02d_app18_rg1" n="['excellent']">
+			               <rdg wit="f1831">excellent </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02d_app18_rg2" n="['excellent,']">
+			               <rdg wit="f1818">excellent, </rdg>
+			               <rdg wit="f1823">excellent, </rdg>
+			               <rdg wit="fThomas">excellent, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02d_app19">
+		             <rdgGrp xml:id="C02d_app19_rg1"
+                       n="['margaret.', 'heaven', 'shower', 'down', 'blessings', 'on', 'you,', 'and', 'save', 'me,', 'that', 'i', 'may', 'again', 'and', 'again', 'testify', 'my', 'gratitude', 'for', 'all', 'your', 'love', 'and', 'kindness.&lt;p/&gt;&lt;p/&gt;your', 'affectionate', 'brother,&lt;p/&gt;&lt;p/&gt;r.', 'walton.&lt;p/&gt;']">
+			               <rdg wit="f1818">Margaret. Heaven shower down blessings on you, and save me, that I may again and again testify my gratitude for all your love and kindness.&lt;p eID="novel1_letter1_div1_p10"/&gt;&lt;p sID="novel1_letter1_div1_p11"/&gt;Your affectionate brother,&lt;p eID="novel1_letter1_div1_p11"/&gt;&lt;p sID="novel1_letter1_div1_p12"/&gt;R. W&lt;hi sID="novel1_letter1_div1_p12_hi1"/&gt;ALTON&lt;hi eID="novel1_letter1_div1_p12_hi1"/&gt;.&lt;p eID="novel1_letter1_div1_p12"/&gt;&lt;pb n="010" xml:id="F1818_v1_022"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt; </rdg>
+			               <rdg wit="f1823">Margaret. Heaven shower down blessings on you, and save me, that I may again and again testify my gratitude for all your love and kindness.&lt;p eID="novel1_letter1_div1_p10"/&gt;&lt;p sID="novel1_letter1_div1_p11"/&gt;Your affectionate brother,&lt;p eID="novel1_letter1_div1_p11"/&gt;&lt;p sID="novel1_letter1_div1_p12"/&gt;R. W&lt;hi sID="novel1_letter1_div1_p12_hi1"/&gt;ALTON&lt;hi eID="novel1_letter1_div1_p12_hi1"/&gt;.&lt;p eID="novel1_letter1_div1_p12"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt; </rdg>
+			               <rdg wit="fThomas">Margaret. Heaven shower down blessings on you, and save me, that I may again and again testify my gratitude for all your love and kindness.&lt;p eID="novel1_letter1_div1_p10"/&gt;&lt;p sID="novel1_letter1_div1_p11"/&gt;Your affectionate brother,&lt;p eID="novel1_letter1_div1_p11"/&gt;&lt;p sID="novel1_letter1_div1_p12"/&gt;R. W&lt;hi sID="novel1_letter1_div1_p12_hi1"/&gt;ALTON&lt;hi eID="novel1_letter1_div1_p12_hi1"/&gt;.&lt;p eID="novel1_letter1_div1_p12"/&gt;&lt;pb n="010" xml:id="F1818_v1_022"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt; </rdg>
+			               <rdg wit="f1831">Margaret. Heaven shower down blessings on you, and save me, that I may again and again testify my gratitude for all your love and kindness.&lt;p eID="novel1_letter1_div1_p10"/&gt;&lt;p sID="novel1_letter1_div1_p11"/&gt;Your affectionate brother,&lt;p eID="novel1_letter1_div1_p11"/&gt;&lt;p sID="novel1_letter1_div1_p12"/&gt;R. W&lt;hi sID="novel1_letter1_div1_p12_hi1"/&gt;ALTON&lt;hi eID="novel1_letter1_div1_p12_hi1"/&gt;.&lt;p eID="novel1_letter1_div1_p12"/&gt;&lt;milestone n="1" type="end" unit="letter"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

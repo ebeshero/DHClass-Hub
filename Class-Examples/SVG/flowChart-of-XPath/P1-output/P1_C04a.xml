@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C04a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C04a</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C04a_app1">
+		             <rdgGrp xml:id="C04a_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app1_rg2"
+                       n="['letter', 'iii.to', 'mrs.', 'saville,', 'england.&lt;p/&gt;july', '7th,', '17—.&lt;p/&gt;&lt;p/&gt;my', 'dear', 'sister,&lt;p/&gt;&lt;p/&gt;i', 'write', 'a', 'few', 'lines', 'in', 'haste,', 'to', 'say', 'that', 'i', 'am', 'safe,', 'and', 'well', 'advanced', 'on', 'my', 'voyage.', 'this', 'letter', 'will', 'reach', 'england', 'by', 'a']">
+			               <rdg wit="f1818">&lt;milestone n="3" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter3_div3_head1"/&gt;LETTER III.&lt;head eID="novel1_letter3_div3_head1"/&gt;&lt;ab sID="novel1_letter3_div3_ab1"/&gt;&lt;hi sID="novel1_letter3_div3_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter3_div3_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter3_div3_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter3_div3_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter3_div3_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter3_div3_ab1_hi3"/&gt;&lt;ab eID="novel1_letter3_div3_ab1"/&gt;&lt;p sID="novel1_letter3_div3_p1"/&gt;July 7th, 17—.&lt;p eID="novel1_letter3_div3_p1"/&gt;&lt;p sID="novel1_letter3_div3_p2"/&gt;&lt;hi sID="novel1_letter3_div3_p2_hi1"/&gt;MY DEAR SISTER&lt;hi eID="novel1_letter3_div3_p2_hi1"/&gt;,&lt;p eID="novel1_letter3_div3_p2"/&gt;&lt;p sID="novel1_letter3_div3_p3"/&gt;I &lt;hi sID="novel1_letter3_div3_p3_hi1"/&gt;WRITE&lt;hi eID="novel1_letter3_div3_p3_hi1"/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+			               <rdg wit="f1823">&lt;pb n="18" xml:id="F1823_v1_037"/&gt;&lt;milestone n="3" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter3_div3_head1"/&gt;LETTER III.&lt;head eID="novel1_letter3_div3_head1"/&gt;&lt;ab sID="novel1_letter3_div3_ab1"/&gt;&lt;hi sID="novel1_letter3_div3_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter3_div3_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter3_div3_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter3_div3_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter3_div3_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter3_div3_ab1_hi3"/&gt;&lt;ab eID="novel1_letter3_div3_ab1"/&gt;&lt;p sID="novel1_letter3_div3_p1"/&gt;July 7th, 17—.&lt;p eID="novel1_letter3_div3_p1"/&gt;&lt;p sID="novel1_letter3_div3_p2"/&gt;&lt;hi sID="novel1_letter3_div3_p2_hi1"/&gt;MY DEAR SISTER&lt;hi eID="novel1_letter3_div3_p2_hi1"/&gt;,&lt;p eID="novel1_letter3_div3_p2"/&gt;&lt;p sID="novel1_letter3_div3_p3"/&gt;I &lt;hi sID="novel1_letter3_div3_p3_hi1"/&gt;WRITE&lt;hi eID="novel1_letter3_div3_p3_hi1"/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+			               <rdg wit="fThomas">&lt;milestone n="3" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter3_div3_head1"/&gt;LETTER III.&lt;head eID="novel1_letter3_div3_head1"/&gt;&lt;ab sID="novel1_letter3_div3_ab1"/&gt;&lt;hi sID="novel1_letter3_div3_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter3_div3_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter3_div3_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter3_div3_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter3_div3_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter3_div3_ab1_hi3"/&gt;&lt;ab eID="novel1_letter3_div3_ab1"/&gt;&lt;p sID="novel1_letter3_div3_p1"/&gt;July 7th, 17—.&lt;p eID="novel1_letter3_div3_p1"/&gt;&lt;p sID="novel1_letter3_div3_p2"/&gt;&lt;hi sID="novel1_letter3_div3_p2_hi1"/&gt;MY DEAR SISTER&lt;hi eID="novel1_letter3_div3_p2_hi1"/&gt;,&lt;p eID="novel1_letter3_div3_p2"/&gt;&lt;p sID="novel1_letter3_div3_p3"/&gt;I &lt;hi sID="novel1_letter3_div3_p3_hi1"/&gt;WRITE&lt;hi eID="novel1_letter3_div3_p3_hi1"/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+			               <rdg wit="f1831">&lt;milestone n="3" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter3_div3_head1"/&gt;LETTER III.&lt;head eID="novel1_letter3_div3_head1"/&gt;&lt;head sID="novel1_letter3_div3_head2"/&gt;&lt;hi sID="novel1_letter3_div3_head2_hi1"/&gt;To Mrs. Saville, England.&lt;hi eID="novel1_letter3_div3_head2_hi1"/&gt;&lt;head eID="novel1_letter3_div3_head2"/&gt;&lt;p sID="novel1_letter3_div3_p1"/&gt;July 7th, 17—.&lt;p eID="novel1_letter3_div3_p1"/&gt;&lt;p sID="novel1_letter3_div3_p2"/&gt;M&lt;hi sID="novel1_letter3_div3_p2_hi1"/&gt;Y DEAR&lt;hi eID="novel1_letter3_div3_p2_hi1"/&gt; S&lt;hi sID="novel1_letter3_div3_p2_hi2"/&gt;ISTER&lt;hi eID="novel1_letter3_div3_p2_hi2"/&gt;,&lt;p eID="novel1_letter3_div3_p2"/&gt;&lt;p sID="novel1_letter3_div3_p3"/&gt;I &lt;hi sID="novel1_letter3_div3_p3_hi1"/&gt;WRITE&lt;hi eID="novel1_letter3_div3_p3_hi1"/&gt; a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app2">
+		             <rdgGrp xml:id="C04a_app2_rg1" n="['merchant-man']">
+			               <rdg wit="f1818">merchant-man </rdg>
+			               <rdg wit="f1823">merchant-man </rdg>
+			               <rdg wit="fThomas">merchant-man </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app2_rg2" n="['merchantman']">
+			               <rdg wit="f1831">merchantman </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app3">
+		             <rdgGrp xml:id="C04a_app3_rg1"
+                       n="['now', 'on', 'its', 'homeward', 'voyage', 'from', 'archangel;', 'more', 'fortunate', 'than', 'i,', 'who', 'may', 'not', 'see', 'my', 'native', 'land,', 'perhaps,', 'for', 'many', 'years.', 'i', 'am,', 'however,', 'in', 'good', 'spirits:', 'my']">
+			               <rdg wit="f1818">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+			               <rdg wit="f1823">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+			               <rdg wit="fThomas">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+			               <rdg wit="f1831">now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app4">
+		             <rdgGrp xml:id="C04a_app4_rg1" n="['&lt;del&gt;men&lt;del&gt;crew']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter3_div3_p3_del1"/&gt;men&lt;del eID="novel1_letter3_div3_p3_del1"/&gt;crew </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app4_rg2" n="['men']">
+			               <rdg wit="f1818">men </rdg>
+			               <rdg wit="f1823">men </rdg>
+			               <rdg wit="f1831">men </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app5">
+		             <rdgGrp xml:id="C04a_app5_rg1" n="['are']">
+			               <rdg wit="f1818">are </rdg>
+			               <rdg wit="f1823">are </rdg>
+			               <rdg wit="fThomas">are </rdg>
+			               <rdg wit="f1831">are </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app6">
+		             <rdgGrp xml:id="C04a_app6_rg1"
+                       n="['&lt;del&gt;bold&lt;del&gt;gallant', 'fellows,', '&lt;del&gt;and', 'apparently&lt;del&gt;and', 'i', 'am']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter3_div3_p3_del2"/&gt;bold&lt;del eID="novel1_letter3_div3_p3_del2"/&gt;gallant fellows, &lt;del sID="novel1_letter3_div3_p3_del3"/&gt;and apparently&lt;del eID="novel1_letter3_div3_p3_del3"/&gt;&amp; I am </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app6_rg2" n="['bold,', 'and', 'apparently']">
+			               <rdg wit="f1818">bold, and apparently </rdg>
+			               <rdg wit="f1823">bold, and apparently </rdg>
+			               <rdg wit="f1831">bold, and apparently </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app7">
+		             <rdgGrp xml:id="C04a_app7_rg1"
+                       n="['firm', 'of', 'purpose;', 'nor', 'do', 'the', 'floating', 'sheets', 'of', 'ice', 'that', 'continually', 'pass', 'us,', 'indicating', 'the', 'dangers', 'of', 'the', 'region', 'towards', 'which', 'we', 'are', 'advancing,', 'appear', 'to', 'dismay', 'them.', 'we', 'have', 'already', 'reached', 'a', 'very', 'high', 'latitude;', 'but', 'it', 'is', 'the', 'height', 'of', 'summer,', 'and', 'although', 'not', 'so', 'warm', 'as', 'in', 'england,', 'the', 'southern', 'gales,', 'which', 'blow', 'us', 'speedily', 'towards', 'those', 'shores', 'which', 'i', 'so', 'ardently', 'desire', 'to', 'attain,', 'breathe', 'a', 'degree', 'of', 'renovating', 'warmth', 'which', 'i', 'had', 'not']">
+			               <rdg wit="f1818">firm of purpose; nor do the floating sheets of ice that continually pass us, indi&lt;pb n="019" xml:id="F1818_v1_031"/&gt;cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+			               <rdg wit="f1823">firm of purpose; nor do the floating sheets of ice that continually pass us, indi&lt;pb n="19" xml:id="F1823_v1_038"/&gt;cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+			               <rdg wit="fThomas">firm of purpose; nor do the floating sheets of ice that continually pass us, indi&lt;pb n="019" xml:id="F1818_v1_031"/&gt;cating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+			               <rdg wit="f1831">firm of purpose; nor do the floating sheets of ice that continually pass us, indicating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app8">
+		             <rdgGrp xml:id="C04a_app8_rg1"
+                       n="['expected.', 'the', 'appearance', 'of', 'the', 'sky', 'is', 'indiscribably', 'beautiful;', 'clear', 'by', 'day,', 'and', 'illuminated', 'at', 'night', 'by', 'the', 'aurora', 'borealis', '&lt;del&gt;w&lt;del&gt;', 'which', 'spreads', 'a', 'roseate', 'tinge', 'over', 'the', 'heavens,', 'and', 'over', 'the', 'sea', 'which', 'reflects', 'it’s', 'splendour.&lt;p/&gt;&lt;p/&gt;no']">
+			               <rdg wit="fThomas">expected. The appearance of the sky is indiscribably beautiful; clear by day, and illuminated at night by the Aurora Borealis &lt;del sID="novel1_letter3_div3_p3_add4_del1"/&gt;w&lt;del eID="novel1_letter3_div3_p3_add4_del1"/&gt; which spreads a roseate tinge over the heavens, &amp; over the sea which reflects it’s splendour.&lt;p eID="novel1_letter3_div3_p3"/&gt;&lt;p sID="novel1_letter3_div3_p4"/&gt;No </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app8_rg2" n="['expected.&lt;p/&gt;&lt;p/&gt;no']">
+			               <rdg wit="f1818">expected.&lt;p eID="novel1_letter3_div3_p3"/&gt;&lt;p sID="novel1_letter3_div3_p4"/&gt;No </rdg>
+			               <rdg wit="f1823">expected.&lt;p eID="novel1_letter3_div3_p3"/&gt;&lt;p sID="novel1_letter3_div3_p4"/&gt;No </rdg>
+			               <rdg wit="f1831">expected.&lt;p eID="novel1_letter3_div3_p3"/&gt;&lt;p sID="novel1_letter3_div3_p4"/&gt;No </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app9">
+		             <rdgGrp xml:id="C04a_app9_rg1"
+                       n="['incidents', 'have', 'hitherto', 'befallen']">
+			               <rdg wit="f1818">incidents have hitherto befallen </rdg>
+			               <rdg wit="f1823">incidents have hitherto befallen </rdg>
+			               <rdg wit="fThomas">incidents have hitherto befallen </rdg>
+			               <rdg wit="f1831">incidents have hitherto befallen </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app10">
+		             <rdgGrp xml:id="C04a_app10_rg1" n="['us']">
+			               <rdg wit="f1823">us </rdg>
+			               <rdg wit="f1831">us </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app10_rg2" n="['us,']">
+			               <rdg wit="f1818">us, </rdg>
+			               <rdg wit="fThomas">us, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app11">
+		             <rdgGrp xml:id="C04a_app11_rg1"
+                       n="['that', 'would', 'make', 'a', 'figure', 'in', 'a', 'letter.', 'one', 'or']">
+			               <rdg wit="f1818">that would make a figure in a letter. One or </rdg>
+			               <rdg wit="f1823">that would make a figure in a letter. One or </rdg>
+			               <rdg wit="fThomas">that would make a figure in a letter. One or </rdg>
+			               <rdg wit="f1831">that would make a figure in a letter. One or </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app12">
+		             <rdgGrp xml:id="C04a_app12_rg1" n="['two', 'stiff']">
+			               <rdg wit="f1818">two stiff </rdg>
+			               <rdg wit="f1823">two stiff </rdg>
+			               <rdg wit="f1831">two stiff </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app12_rg2" n="['two&lt;del&gt;stiff&lt;del&gt;hard']">
+			               <rdg wit="fThomas">two&lt;del sID="novel1_letter3_div3_p4_del1"/&gt;stiff&lt;del eID="novel1_letter3_div3_p4_del1"/&gt;hard </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app13">
+		             <rdgGrp xml:id="C04a_app13_rg1" n="['gales,', 'and', 'the']">
+			               <rdg wit="f1818">gales, and the </rdg>
+			               <rdg wit="f1823">gales, and the </rdg>
+			               <rdg wit="fThomas">gales, and the </rdg>
+			               <rdg wit="f1831">gales, and the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app14">
+		             <rdgGrp xml:id="C04a_app14_rg1" n="['&lt;del&gt;breaking&lt;del&gt;carrying', 'away']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter3_div3_p4_del2"/&gt;breaking&lt;del eID="novel1_letter3_div3_p4_del2"/&gt;carrying away </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app14_rg2" n="['breaking']">
+			               <rdg wit="f1818">breaking </rdg>
+			               <rdg wit="f1823">breaking </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app14_rg3" n="['springing']">
+			               <rdg wit="f1831">springing </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app15">
+		             <rdgGrp xml:id="C04a_app15_rg1" n="['of', 'a']">
+			               <rdg wit="f1818">of a </rdg>
+			               <rdg wit="f1823">of a </rdg>
+			               <rdg wit="fThomas">of a </rdg>
+			               <rdg wit="f1831">of a </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app16">
+		             <rdgGrp xml:id="C04a_app16_rg1" n="['leak,']">
+			               <rdg wit="f1831">leak, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app16_rg2" n="['mast,']">
+			               <rdg wit="f1818">mast, </rdg>
+			               <rdg wit="f1823">mast, </rdg>
+			               <rdg wit="fThomas">mast, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app17">
+		             <rdgGrp xml:id="C04a_app17_rg1"
+                       n="['are', 'accidents', 'which', 'experienced', 'navigators', 'scarcely', 'remember', 'to', 'record;', 'and', 'i', 'shall', 'be', 'well']">
+			               <rdg wit="f1818">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+			               <rdg wit="f1823">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+			               <rdg wit="fThomas">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+			               <rdg wit="f1831">are accidents which experienced navigators scarcely remember to record; and I shall be well </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app18">
+		             <rdgGrp xml:id="C04a_app18_rg1" n="['content']">
+			               <rdg wit="f1823">content </rdg>
+			               <rdg wit="f1831">content </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app18_rg2" n="['content,']">
+			               <rdg wit="f1818">content, </rdg>
+			               <rdg wit="fThomas">content, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app19">
+		             <rdgGrp xml:id="C04a_app19_rg1"
+                       n="['if', 'nothing', 'worse', 'happen', 'to', 'us', 'during', 'our', 'voyage.&lt;p/&gt;&lt;p/&gt;adieu,', 'my', 'dear', 'margaret.', 'be', 'assured,', 'that', 'for', 'my', 'own', 'sake,', 'as', 'well', 'as']">
+			               <rdg wit="f1818">if nothing worse happen to us during our voyage.&lt;p eID="novel1_letter3_div3_p4"/&gt;&lt;p sID="novel1_letter3_div3_p5"/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+			               <rdg wit="f1823">if nothing worse happen to us during our voyage.&lt;p eID="novel1_letter3_div3_p4"/&gt;&lt;p sID="novel1_letter3_div3_p5"/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+			               <rdg wit="fThomas">if nothing worse happen to us during our voyage.&lt;p eID="novel1_letter3_div3_p4"/&gt;&lt;p sID="novel1_letter3_div3_p5"/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+			               <rdg wit="f1831">if nothing worse happen to us during our voyage.&lt;p eID="novel1_letter3_div3_p4"/&gt;&lt;p sID="novel1_letter3_div3_p5"/&gt;Adieu, my dear Margaret. Be assured, that for my own sake, as well as </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app20">
+		             <rdgGrp xml:id="C04a_app20_rg1" n="['yours,']">
+			               <rdg wit="f1823">yours, </rdg>
+			               <rdg wit="f1831">yours, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04a_app20_rg2" n="['your’s,']">
+			               <rdg wit="f1818">your’s, </rdg>
+			               <rdg wit="fThomas">your’s, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04a_app21">
+		             <rdgGrp xml:id="C04a_app21_rg1"
+                       n="['i', 'will', 'not', 'rashly', 'encounter', 'danger.', 'i', 'will', 'be', 'cool,', 'persevering,', 'and', 'prudent.&lt;p/&gt;']">
+			               <rdg wit="f1818">I will not rashly encounter dan&lt;pb n="020" xml:id="F1818_v1_032"/&gt;ger. I will be cool, persevering, and prudent.&lt;p eID="novel1_letter3_div3_p5"/&gt; </rdg>
+			               <rdg wit="f1823">I will not rashly encounter danger. I will be cool, persevering, and prudent.&lt;p eID="novel1_letter3_div3_p5"/&gt; </rdg>
+			               <rdg wit="fThomas">I will not rashly encounter dan&lt;pb n="020" xml:id="F1818_v1_032"/&gt;ger. I will be cool, persevering, and prudent.&lt;p eID="novel1_letter3_div3_p5"/&gt; </rdg>
+			               <rdg wit="f1831">I will not rashly encounter danger. I will be cool, persevering, and prudent.&lt;p eID="novel1_letter3_div3_p5"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

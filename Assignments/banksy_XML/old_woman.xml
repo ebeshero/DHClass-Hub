@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Old Woman</title>
+                    <alternate>You looked better on MySpace</alternate>
+                    <date when="2006-08"/>
+                    <medium type="spray_paint"/>
+                    <location lat="34.0522" long="118.2437">Los Angeles, USA</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://us.canvasartrocks.com/blogs/posts/70529347-121-amazing-banksy-graffiti-artworks-with-locations">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This piece by Banksy appeared in Los Angeles in 2006 and clearly pokes fun at the large numbers of girls on MySpace who used flattering angles and photo editing to make themselves appear more attractive. 
+            It shows it from the old lady with the comment ‘You Looked Better on Myspace’.</desc>
+        <p>
+            <img src="old_woman.jpg" alt="Old Woman Banksy"/>
+            <title>Old Woman, Better on MySpace</title>
+            <credit>By: Dante DelPanio from Los Angeles, https://sites.psu.edu/delpianoenglish/2014/02/10/draft-paper-one/</credit>
+        </p>
+    </body>
+</root>

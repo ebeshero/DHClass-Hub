@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C08h">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C08h</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-04 16:58:37.992715 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C08h_app1">
+	              <rdgGrp xml:id="C08h_app1_rg1"
+                       n="['&lt;p/&gt;Such', 'were', 'the', 'professor’s', 'words—rather', 'let', 'me', 'say', 'such', 'the', 'words', 'of', 'fate,', 'enounced', 'to', 'destroy', 'me.', 'As', 'he', 'went', 'on,', 'I', 'felt', 'as', 'if', 'my', 'soul', 'were', 'grappling', 'with', 'a', 'palpable', 'enemy;', 'one', 'by', 'one', 'the', 'various', 'keys', 'were', 'touched', 'which', 'formed', 'the', 'mechanism', 'of', 'my', 'being:', 'chord', 'after', 'chord', 'was', 'sounded,', 'and', 'soon', 'my', 'mind', 'was', 'filled', 'with', 'one', 'thought,', 'one', 'conception,', 'one', 'purpose.', 'So', 'much', 'has', 'been', 'done,', 'exclaimed', 'the', 'soul', 'of', 'Frankenstein,—more,', 'far', 'more,', 'will', 'I', 'achieve:', 'treading', 'in', 'the', 'steps', 'already', 'marked,', 'I', 'will', 'pioneer', 'a', 'new', 'way,', 'explore', 'unknown', 'powers,', 'and', 'unfold', 'to', 'the', 'world', 'the', 'deepest', 'mysteries', 'of', 'creation.&lt;p/&gt;', '&lt;p/&gt;I', 'closed', 'not', 'my', 'eyes', 'that', 'night.', 'My', 'internal', 'being', 'was', 'in', 'a', 'state', 'of', 'insurrection', 'and', 'turmoil;', 'I', 'felt', 'that', 'order', 'would', 'thence', 'arise,', 'but', 'I', 'had', 'no', 'power', 'to', 'produce', 'it.', 'By', 'degrees,', 'after', 'the', 'morning’s', 'dawn,', 'sleep', 'came.', 'I', 'awoke,', 'and', 'my', 'yesternight’s', 'thoughts', 'were', 'as', 'a', 'dream.', 'There', 'only', 'remained', 'a', 'resolution', 'to', 'return', 'to', 'my', 'ancient', 'studies,', 'and', 'to', 'devote', 'myself', 'to', 'a', 'science', 'for', 'which', 'I', 'believed', 'myself', 'to', 'possess', 'a', 'natural', 'talent.']">
+	                 <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter3_div4_div3_p17"/&gt;Such were the professor’s words—rather let me say such the words of fate, enounced to destroy me. As he went on, I felt as if my soul were grappling with a palpable enemy; one by one the various keys were touched which formed the mechanism of my being: chord after chord was sounded, and soon my mind was filled with one thought, one conception, one purpose. So much has been done, exclaimed the soul of Frankenstein,—more, far more, will I achieve: treading in the steps already marked, I will pioneer a new way, explore unknown powers, and unfold to the world the deepest mysteries of creation.&lt;p eID="novel1_letter4_chapter3_div4_div3_p17"/&gt; &lt;p sID="novel1_letter4_chapter3_div4_div3_p18"/&gt;I closed not my eyes that night. My internal being was in a state of insurrection and turmoil; I felt that order would thence arise, but I had no power to produce it. By degrees, after the morning’s dawn, sleep came. I awoke, and my yesternight’s thoughts were as a dream. There only &lt;pb xml:id="F1831_v_051" n="35"/&gt;remained a resolution to return to my ancient studies, and to devote myself to a science for which I believed myself to possess a natural talent. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08h_app1_rg2"
+                       n="['&lt;p/&gt;i', 'departed', 'highly', 'pleased', 'with', 'the', 'professor', 'and', 'his']">
+			               <rdg wit="fMS">&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0028__main__11"/&gt;I departed highly pleased with &lt;lb n="c56-0028__main__12"/&gt; the professor and his </rdg>
+			               <rdg wit="f1818">&lt;p sID="novel1_letter4_chapter2_div4_div2_p15"/&gt;I departed highly pleased with the professor and his </rdg>
+			               <rdg wit="f1823">&lt;p sID="novel1_letter4_chapter2_div4_div2_p16"/&gt;I departed highly pleased with the professor and his </rdg>
+			               <rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter2_div4_div2_p15"/&gt;I departed highly pleased with the professor and his </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08h_app2">
+		             <rdgGrp xml:id="C08h_app2_rg1" n="['lecture']">
+			               <rdg wit="fMS">lecture </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08h_app2_rg2" n="['lecture,']">
+			               <rdg wit="f1818">lecture, </rdg>
+			               <rdg wit="f1823">lecture, </rdg>
+			               <rdg wit="fThomas">lecture, </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

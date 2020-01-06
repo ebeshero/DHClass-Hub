@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"/>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"/>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Tap Phoned</title>
+                    <date when="2011-07"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.5074" long="0.1278">London, UK</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.dailymail.co.uk/news/article-2023115/Oh--taps-phoned-Banksy-sprays-thoughts-phone-hacking-scandal.html">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>In July 2011, one story that dominated the British headlines was the phones and voicemails being hacked by journalists. 
+            This piece by banksy is a show to the population that an existing tap on the wall and proclaiming “Oh no.. my tap’s been phoned” by having the sound also on it.</desc>
+        <p>
+            <img src="tap_phoned.jpg" alt="Tap Phoned"/>
+            <title>Tap Phoned Banksy</title>
+            <credit>By: Matt Randal from London, https://www.widewalls.ch/10-banksy-street-artworks-in-london/</credit>
+        </p>
+    </body>
+</root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C06e">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C06e</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C06e_app1">
+		             <rdgGrp xml:id="C06e_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06e_app1_rg2"
+                       n="['You', 'would', 'not,', 'if', 'you', 'saw', 'him.', 'You', 'have', 'been', 'tutored', 'and', 'refined', 'by', 'books', 'and', 'retirement', 'from', 'the', 'world,', 'and', 'you', 'are,', 'therefore,', 'somewhat', 'fastidious;', 'but', 'this', 'only', 'renders', 'you', 'the', 'more', 'fit', 'to', 'appreciate', 'the', 'extraordinary', 'merits', 'of', 'this', 'wonderful', 'man.', 'Sometimes', 'I', 'have', 'endeavoured', 'to', 'discover', 'what', 'quality', 'it', 'is', 'which', 'he', 'possesses,', 'that', 'elevates', 'him', 'so', 'immeasurably', 'above', 'any', 'other', 'person', 'I', 'ever', 'knew.', 'I', 'believe', 'it', 'to', 'be', 'an', 'intuitive', 'discernment;', 'a', 'quick', 'but', 'never-failing', 'power', 'of', 'judgment;', 'a', 'penetration', 'into', 'the', 'causes', 'of', 'things,', 'unequalled', 'for', 'clearness', 'and', 'precision;', 'add', 'to', 'this', 'a', 'facility', 'of', 'expression,', 'and', 'a', 'voice', 'whose', 'varied', 'intonations', 'are', 'soul-subduing', 'music.&lt;p&gt;']">
+			               <rdg wit="f1831">You would not, if you saw him. You have been tutored and refined by books and retirement from the world, and you are, therefore, somewhat fastidious; but this only renders you the more fit to appreciate the extraordinary merits of this wonderful man. Sometimes I have endeavoured to discover what quality it is which he possesses, that elevates him so immeasurably above any other person I ever knew. I believe it to be an intuitive discernment; a quick but never-failing power of judgment; a penetration into the causes of things, unequalled for clearness and precision; add to this a facility of expression, and a voice whose varied intonations are soul-subduing music.&lt;p eID="novel1_letter4_div4_p33"/&gt;</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06e_app1_rg3"
+                       n="['if', 'you', 'do,', 'you', 'must', 'have', 'certainly', 'lost', 'that', 'simplicity', 'which', 'was', 'once', 'your', 'characteristic', 'charm.', 'yet,', 'if', 'you', 'will,', 'smile', 'at', 'the', 'warmth', 'of', 'my', 'expressions,', 'while', 'i', 'find', 'every', 'day', 'new', 'causes', 'for', 'repeating', 'them.&lt;p/&gt;']">
+			               <rdg wit="f1818">If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them.&lt;p eID="novel1_letter4_div4_p31"/&gt; </rdg>
+			               <rdg wit="f1823">If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them.&lt;p eID="novel1_letter4_div4_p31"/&gt; </rdg>
+			               <rdg wit="fThomas">If you do, you must have certainly lost that simplicity which was once your characteristic charm. Yet, if you will, smile at the warmth of my expressions, while I find every day new causes for repeating them.&lt;p eID="novel1_letter4_div4_p31"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

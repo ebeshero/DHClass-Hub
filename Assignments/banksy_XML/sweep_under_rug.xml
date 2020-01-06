@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Sweep it Under the Carpet</title>
+                    <alternate>Sweep it Under</alternate>
+                    <date when="2006"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.654815" long="-0.083699">London, UK</location>
+                    <ref target="http://www.banksy.co.uk/"></ref>
+                    <ref target="http://www.banksy.co.uk/out.asp"></ref>
+                    <ref target="https://www.independent.co.uk/news/uk/this-britain/banksy-takes-to-streets-to-highlight-aids-crisis-478417.html"></ref>
+                    <cause when="2006"> Aids/Health Issues in North London.</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>One of Banksy's recognisable pieces in 2006. It shows a woman dressed as a maid who is sweeping dirt under the cover of a brick wall. The piece is 
+            said to represent the   western world to deal with global issues such as the AIDS epidemic as being the main issue in 2006. On Chalk Fun Road in North London.</desc>
+        <p>
+            <img src="Sweep_It_Under_Carpet.jpg" alt="Sweep it Under the Rug Banksy"/>
+            <title>Sweep it Under the Rug</title>
+            <credit>By Loic Brochard from London, Sweep it Under the Carpet, http://brohardphotography.blogspot.com/2011/04/sweeping-it-under-carpet-banksy-london.html</credit>
+        </p>
+    </body>
+</root>

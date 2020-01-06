@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C06f">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C06f</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C06f_app1">
+		             <rdgGrp xml:id="C06f_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06f_app1_rg2" n="['&lt;p/&gt;august']">
+			               <rdg wit="f1818">&lt;p sID="novel1_letter4_div4_p32"/&gt;August </rdg>
+			               <rdg wit="f1823">&lt;p sID="novel1_letter4_div4_p32"/&gt;August </rdg>
+			               <rdg wit="fThomas">&lt;p sID="novel1_letter4_div4_p32"/&gt;August </rdg>
+			               <rdg wit="f1831">&lt;p sID="novel1_letter4_div4_p34"/&gt;&lt;pb n="17" xml:id="F1831_v_033"/&gt;August </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app2">
+		             <rdgGrp xml:id="C06f_app2_rg1" n="['19.']">
+			               <rdg wit="f1831">19. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06f_app2_rg2" n="['19th,']">
+			               <rdg wit="f1818">19th, </rdg>
+			               <rdg wit="f1823">19th, </rdg>
+			               <rdg wit="fThomas">19th, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app3">
+		             <rdgGrp xml:id="C06f_app3_rg1"
+                       n="['17—.&lt;p/&gt;&lt;p/&gt;yesterday', 'the', 'stranger', 'said', 'to', 'me,', '&#34;you', 'may', 'easily', 'perceive,', 'captain', 'walton,', 'that', 'i']">
+			               <rdg wit="f1818">17—.&lt;p eID="novel1_letter4_div4_p32"/&gt;&lt;p sID="novel1_letter4_div4_p33"/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+			               <rdg wit="f1823">17—.&lt;p eID="novel1_letter4_div4_p32"/&gt;&lt;p sID="novel1_letter4_div4_p33"/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+			               <rdg wit="fThomas">17—.&lt;p eID="novel1_letter4_div4_p32"/&gt;&lt;p sID="novel1_letter4_div4_p33"/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+			               <rdg wit="f1831">17—.&lt;p eID="novel1_letter4_div4_p34"/&gt;&lt;p sID="novel1_letter4_div4_p35"/&gt;Yesterday the stranger said to me, “You may easily perceive, Captain Walton, that I </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app4">
+		             <rdgGrp xml:id="C06f_app4_rg1" n="['have', 'suffered']">
+			               <rdg wit="f1818">have suffered </rdg>
+			               <rdg wit="f1823">have suffered </rdg>
+			               <rdg wit="f1831">have suffered </rdg>
+			               <rdg wit="fThomas">have suffered </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app5">
+		             <rdgGrp xml:id="C06f_app5_rg1"
+                       n="['great', 'and', 'unparalleled', 'misfortunes.', 'i', 'had', 'determined,']">
+			               <rdg wit="f1818">great and unparalleled misfortunes. I had determined, </rdg>
+			               <rdg wit="f1823">great and unparalleled misfortunes. I had determined, </rdg>
+			               <rdg wit="fThomas">great and unparalleled misfortunes. I had determined, </rdg>
+			               <rdg wit="f1831">great and unparalleled misfortunes. I had determined, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app6">
+		             <rdgGrp xml:id="C06f_app6_rg1" n="['at', 'one', 'time,']">
+			               <rdg wit="f1831">at one time, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06f_app6_rg2" n="['once,']">
+			               <rdg wit="f1818">once, </rdg>
+			               <rdg wit="f1823">once, </rdg>
+			               <rdg wit="fThomas">once, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app7">
+		             <rdgGrp xml:id="C06f_app7_rg1" n="['that', 'the', 'memory']">
+			               <rdg wit="f1818">that the memory </rdg>
+			               <rdg wit="f1823">that the memory </rdg>
+			               <rdg wit="fThomas">that the memory </rdg>
+			               <rdg wit="f1831">that the memory </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app8">
+		             <rdgGrp xml:id="C06f_app8_rg1" n="['of', 'these']">
+			               <rdg wit="f1818">of these </rdg>
+			               <rdg wit="f1823">of these </rdg>
+			               <rdg wit="f1831">of these </rdg>
+			               <rdg wit="fThomas">of these </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app9">
+		             <rdgGrp xml:id="C06f_app9_rg1"
+                       n="['evils', 'should', 'die', 'with', 'me;', 'but', 'you', 'have', 'won', 'me', 'to', 'alter', 'my', 'determination.', 'you']">
+			               <rdg wit="f1818">evils should die with me; but you have won me to alter my determination. You </rdg>
+			               <rdg wit="f1823">evils should die with me; but you have won me to alter my determination. You </rdg>
+			               <rdg wit="fThomas">evils should die with me; but you have won me to alter my determination. You </rdg>
+			               <rdg wit="f1831">evils should die with me; but you have won me to alter my determination. You </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app10">
+		             <rdgGrp xml:id="C06f_app10_rg1" n="['seek', 'for']">
+			               <rdg wit="f1818">seek for </rdg>
+			               <rdg wit="f1823">seek for </rdg>
+			               <rdg wit="f1831">seek for </rdg>
+			               <rdg wit="fThomas">seek for </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app11">
+		             <rdgGrp xml:id="C06f_app11_rg1"
+                       n="['knowledge', 'and', 'wisdom,', 'as', 'i', 'once', 'did;', 'and', 'i', 'ardently', 'hope', 'that', 'the', 'gratification']">
+			               <rdg wit="f1818">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+			               <rdg wit="f1823">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+			               <rdg wit="fThomas">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+			               <rdg wit="f1831">knowledge and wisdom, as I once did; and I ardently hope that the gratification </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app12">
+		             <rdgGrp xml:id="C06f_app12_rg1" n="['of', 'your']">
+			               <rdg wit="f1818">of your </rdg>
+			               <rdg wit="f1823">of your </rdg>
+			               <rdg wit="f1831">of your </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06f_app12_rg2" n="['ofyour']">
+			               <rdg wit="fThomas">ofyour </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app13">
+		             <rdgGrp xml:id="C06f_app13_rg1"
+                       n="['wishes', 'may', 'not', 'be', 'a', 'serpent', 'to', 'sting', 'you,', 'as', 'mine', 'has', 'been.', 'i', 'do', 'not', 'know', 'that']">
+			               <rdg wit="f1818">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+			               <rdg wit="f1823">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+			               <rdg wit="fThomas">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+			               <rdg wit="f1831">wishes may not be a serpent to sting you, as mine has been. I do not know that </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app14">
+		             <rdgGrp xml:id="C06f_app14_rg1" n="['the', 'relation']">
+			               <rdg wit="f1818">the relation </rdg>
+			               <rdg wit="f1823">the relation </rdg>
+			               <rdg wit="f1831">the relation </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06f_app14_rg2" n="['therelation']">
+			               <rdg wit="fThomas">therelation </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app15">
+		             <rdgGrp xml:id="C06f_app15_rg1" n="['of', 'my']">
+			               <rdg wit="f1818">of my </rdg>
+			               <rdg wit="f1823">of my </rdg>
+			               <rdg wit="fThomas">of my </rdg>
+			               <rdg wit="f1831">of my </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app16">
+		             <rdgGrp xml:id="C06f_app16_rg1" n="['disasters']">
+			               <rdg wit="f1831">disasters </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06f_app16_rg2" n="['misfortunes']">
+			               <rdg wit="f1818">misfortunes </rdg>
+			               <rdg wit="f1823">misfortunes </rdg>
+			               <rdg wit="fThomas">misfortunes </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app17">
+		             <rdgGrp xml:id="C06f_app17_rg1" n="['will', 'be', 'useful', 'to']">
+			               <rdg wit="f1818">will be useful to </rdg>
+			               <rdg wit="f1823">will be useful to </rdg>
+			               <rdg wit="fThomas">will be useful to </rdg>
+			               <rdg wit="f1831">will be useful to </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app18">
+		             <rdgGrp xml:id="C06f_app18_rg1" n="['you,']">
+			               <rdg wit="f1818">you, </rdg>
+			               <rdg wit="fThomas">you, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06f_app18_rg2" n="['you;']">
+			               <rdg wit="f1823">you; </rdg>
+			               <rdg wit="f1831">you; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app19">
+		             <rdgGrp xml:id="C06f_app19_rg1" n="['yet,']">
+			               <rdg wit="f1818">yet, </rdg>
+			               <rdg wit="f1823">yet, </rdg>
+			               <rdg wit="fThomas">yet, </rdg>
+			               <rdg wit="f1831">yet, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06f_app20">
+		             <rdgGrp xml:id="C06f_app20_rg1" n="['if']">
+			               <rdg wit="f1818">if </rdg>
+			               <rdg wit="f1823">if </rdg>
+			               <rdg wit="fThomas">if </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

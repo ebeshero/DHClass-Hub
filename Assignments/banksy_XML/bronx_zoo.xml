@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?> 
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>James Farley</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Bronx Zoo</title>
+                    <date when="2013"/>
+                    <medium type="spray_paint"/>
+                    <location lat="40.8295828" long="-73.9265212">New York, USA</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                        <ref target="https://www.businessinsider.com/banksy-yankee-stadium-leopard-2013-10">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This painting is of a leopard yawning while lounging on a railing at Yankee Stadium</desc>
+        <p>
+            <img src="bronx_zoo.jpeg" alt="Picture of a lounging leopard at Yankee Stadium"/>
+            <title>Bronx Zoo</title>
+            <credit>Julie Zeveloff is the author for the article.</credit>
+        </p>
+    </body>
+</root>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C02a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C02a</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C02a_app1">
+		             <rdgGrp xml:id="C02a_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02a_app1_rg2" n="['frankenstein;', 'or,', 'the', 'modern']">
+			               <rdg wit="f1818">&lt;milestone n="1" type="start" unit="novel"/&gt;&lt;pb xml:id="F1818_v1_013"/&gt;&lt;head sID="novel1_head1"/&gt;FRANKENSTEIN;&lt;head eID="novel1_head1"/&gt;&lt;head sID="novel1_head2"/&gt;&lt;hi sID="novel1_head2_hi1"/&gt;OR, THE&lt;hi eID="novel1_head2_hi1"/&gt;&lt;head eID="novel1_head2"/&gt;&lt;head sID="novel1_head3"/&gt;&lt;hi sID="novel1_head3_hi1"/&gt;MODERN </rdg>
+			               <rdg wit="fThomas">&lt;milestone n="1" type="start" unit="novel"/&gt;&lt;pb xml:id="F1818_v1_013"/&gt;&lt;head sID="novel1_head1"/&gt;FRANKENSTEIN;&lt;head eID="novel1_head1"/&gt;&lt;head sID="novel1_head2"/&gt;&lt;hi sID="novel1_head2_hi1"/&gt;OR, THE&lt;hi eID="novel1_head2_hi1"/&gt;&lt;head eID="novel1_head2"/&gt;&lt;head sID="novel1_head3"/&gt;&lt;hi sID="novel1_head3_hi1"/&gt;MODERN </rdg>
+			               <rdg wit="f1823">&lt;milestone n="1" type="start" unit="novel"/&gt;&lt;pb xml:id="F1823_v1_020"/&gt;&lt;head sID="novel1_head1"/&gt;FRANKENSTEIN;&lt;head eID="novel1_head1"/&gt;&lt;head sID="novel1_head2"/&gt;&lt;hi sID="novel1_head2_hi1"/&gt;OR&lt;hi eID="novel1_head2_hi1"/&gt;,&lt;head eID="novel1_head2"/&gt;&lt;head sID="novel1_head3"/&gt;THE MODERN </rdg>
+			               <rdg wit="f1831">&lt;milestone n="1" type="start" unit="novel"/&gt;&lt;pb xml:id="F1831_v_019"/&gt;&lt;head sID="novel1_head1"/&gt;FRANKENSTEIN;&lt;head eID="novel1_head1"/&gt;&lt;head sID="novel1_head2"/&gt;&lt;hi sID="novel1_head2_hi1"/&gt;OR&lt;hi eID="novel1_head2_hi1"/&gt;,&lt;head eID="novel1_head2"/&gt;&lt;head sID="novel1_head3"/&gt;THE MODERN </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02a_app2">
+		             <rdgGrp xml:id="C02a_app2_rg1" n="['prometheus., 'letter']">
+			               <rdg wit="f1818">PROMETHEUS.&lt;hi eID="novel1_head3_hi1"/&gt;&lt;head eID="novel1_head3"/&gt;&lt;milestone n="1" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter1_div1_head1"/&gt;LETTER </rdg>
+			               <rdg wit="f1823">PROMETHEUS.&lt;head eID="novel1_head3"/&gt;&lt;milestone n="1" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter1_div1_head1"/&gt;LETTER </rdg>
+			               <rdg wit="fThomas">PROMETHEUS.&lt;hi eID="novel1_head3_hi1"/&gt;&lt;head eID="novel1_head3"/&gt;&lt;milestone n="1" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter1_div1_head1"/&gt;LETTER </rdg>
+			               <rdg wit="f1831">PROMETHEUS.&lt;head eID="novel1_head3"/&gt;&lt;milestone n="1" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter1_div1_head1"/&gt;LETTER </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02a_app3">
+		             <rdgGrp xml:id="C02a_app3_rg1" n="['i.', 'to']">
+			               <rdg wit="f1823">I.&lt;head eID="novel1_letter1_div1_head1"/&gt;&lt;head sID="novel1_letter1_div1_head2"/&gt;&lt;hi sID="novel1_letter1_div1_head2_hi1"/&gt;To </rdg>
+			               <rdg wit="f1831">I.&lt;head eID="novel1_letter1_div1_head1"/&gt;&lt;head sID="novel1_letter1_div1_head2"/&gt;&lt;hi sID="novel1_letter1_div1_head2_hi1"/&gt;To </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C02a_app3_rg2" n="['i', 'to']">
+			               <rdg wit="f1818">I&lt;head eID="novel1_letter1_div1_head1"/&gt;&lt;ab sID="novel1_letter1_div1_ab1"/&gt;&lt;hi sID="novel1_letter1_div1_ab1_hi1"/&gt;To </rdg>
+			               <rdg wit="fThomas">I&lt;head eID="novel1_letter1_div1_head1"/&gt;&lt;ab sID="novel1_letter1_div1_ab1"/&gt;&lt;hi sID="novel1_letter1_div1_ab1_hi1"/&gt;To </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02a_app4">
+		             <rdgGrp xml:id="C02a_app4_rg1" n="['mrs.', 'saville,']">
+			               <rdg wit="f1818">Mrs.&lt;hi eID="novel1_letter1_div1_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter1_div1_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter1_div1_ab1_hi2"/&gt;, </rdg>
+			               <rdg wit="f1823">Mrs&lt;hi eID="novel1_letter1_div1_head2_hi1"/&gt;. S&lt;hi sID="novel1_letter1_div1_head2_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter1_div1_head2_hi2"/&gt;, </rdg>
+			               <rdg wit="fThomas">Mrs.&lt;hi eID="novel1_letter1_div1_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter1_div1_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter1_div1_ab1_hi2"/&gt;, </rdg>
+			               <rdg wit="f1831">Mrs. Saville, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02a_app5">
+		             <rdgGrp xml:id="C02a_app5_rg1" n="['england.&lt;p/&gt;', 'st.']">
+			               <rdg wit="f1823">&lt;hi sID="novel1_letter1_div1_head2_hi3"/&gt;England&lt;hi eID="novel1_letter1_div1_head2_hi3"/&gt;.&lt;head eID="novel1_letter1_div1_head2"/&gt;&lt;p sID="novel1_letter1_div1_p1"/&gt; St. </rdg>
+			               <rdg wit="f1818">&lt;hi sID="novel1_letter1_div1_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter1_div1_ab1_hi3"/&gt;&lt;ab eID="novel1_letter1_div1_ab1"/&gt;&lt;p sID="novel1_letter1_div1_p1"/&gt;St. </rdg>
+			               <rdg wit="fThomas">&lt;hi sID="novel1_letter1_div1_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter1_div1_ab1_hi3"/&gt;&lt;ab eID="novel1_letter1_div1_ab1"/&gt;&lt;p sID="novel1_letter1_div1_p1"/&gt;St. </rdg>
+			               <rdg wit="f1831">England.&lt;hi eID="novel1_letter1_div1_head2_hi1"/&gt;&lt;head eID="novel1_letter1_div1_head2"/&gt;&lt;p sID="novel1_letter1_div1_p1"/&gt;St. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C02a_app6">
+		             <rdgGrp xml:id="C02a_app6_rg1"
+                       n="['petersburgh,', 'dec.', '11th,', '17—.&lt;p/&gt;&lt;p/&gt;you', 'will', 'rejoice', 'to', 'hear', 'that', 'no', 'disaster', 'has', 'accompanied', 'the', 'commencement', 'of', 'an', 'enterprise', 'which', 'you', 'have', 'regarded', 'with', 'such', 'evil', 'forebodings.', 'i', 'arrived', 'here', 'yesterday;', 'and', 'my', 'first', 'task', 'is', 'to', 'assure', 'my', 'dear', 'sister', 'of', 'my', 'welfare,', 'and', 'increasing', 'confidence', 'in', 'the', 'success', 'of', 'my', 'undertaking.&lt;p/&gt;&lt;p/&gt;i', 'am', 'already', 'far', 'north', 'of', 'london;', 'and', 'as', 'i', 'walk', 'in', 'the', 'streets', 'of', 'petersburgh,', 'i', 'feel', 'a', 'cold', 'northern', 'breeze', 'play', 'upon', 'my', 'cheeks,', 'which', 'braces', 'my', 'nerves,', 'and', 'fills', 'me', 'with', 'delight.', 'do', 'you', 'understand', 'this', 'feeling?', 'this', 'breeze,', 'which', 'has', 'travelled', 'from', 'the', 'regions', 'towards', 'which', 'i', 'am', 'advancing,', 'gives', 'me', 'a', 'foretaste', 'of', 'those', 'icy', 'climes.', 'inspirited', 'by', 'this', 'wind', 'of', 'promise,', 'my', 'day', 'dreams', 'become', 'more', 'fervent', 'and', 'vivid.', 'i', 'try', 'in', 'vain', 'to', 'be', 'persuaded', 'that', 'the', 'pole', 'is', 'the', 'seat', 'of', 'frost', 'and', 'desolation;', 'it', 'ever', 'presents', 'itself', 'to', 'my', 'imagination', 'as', 'the', 'region', 'of', 'beauty', 'and', 'delight.', 'there,', 'margaret,', 'the', 'sun', 'is']">
+			               <rdg wit="f1818">Petersburgh, Dec. 11th, 17—.&lt;p eID="novel1_letter1_div1_p1"/&gt;&lt;p sID="novel1_letter1_div1_p2"/&gt;Y&lt;hi sID="novel1_letter1_div1_p2_hi1"/&gt;OU&lt;hi eID="novel1_letter1_div1_p2_hi1"/&gt; will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking.&lt;p eID="novel1_letter1_div1_p2"/&gt;&lt;p sID="novel1_letter1_div1_p3"/&gt;I am already far north of London; and as I walk in the streets of Peters&lt;pb n="002" xml:id="F1818_v1_014"/&gt;burgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is </rdg>
+			               <rdg wit="f1823">Petersburgh, Dec. 11th, 17—.&lt;p eID="novel1_letter1_div1_p1"/&gt;&lt;p sID="novel1_letter1_div1_p2"/&gt;Y&lt;hi sID="novel1_letter1_div1_p2_hi1"/&gt;OU&lt;hi eID="novel1_letter1_div1_p2_hi1"/&gt; will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking.&lt;p eID="novel1_letter1_div1_p2"/&gt;&lt;p sID="novel1_letter1_div1_p3"/&gt;I am already far north of London; and as I walk in the streets of Peters&lt;pb n="2" xml:id="F1823_v1_021"/&gt;burgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is </rdg>
+			               <rdg wit="fThomas">Petersburgh, Dec. 11th, 17—.&lt;p eID="novel1_letter1_div1_p1"/&gt;&lt;p sID="novel1_letter1_div1_p2"/&gt;Y&lt;hi sID="novel1_letter1_div1_p2_hi1"/&gt;OU&lt;hi eID="novel1_letter1_div1_p2_hi1"/&gt; will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking.&lt;p eID="novel1_letter1_div1_p2"/&gt;&lt;p sID="novel1_letter1_div1_p3"/&gt;I am already far north of London; and as I walk in the streets of Peters&lt;pb n="002" xml:id="F1818_v1_014"/&gt;burgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is </rdg>
+			               <rdg wit="f1831">Petersburgh, Dec. 11th, 17—.&lt;p eID="novel1_letter1_div1_p1"/&gt;&lt;p sID="novel1_letter1_div1_p2"/&gt;Y&lt;hi sID="novel1_letter1_div1_p2_hi1"/&gt;OU&lt;hi eID="novel1_letter1_div1_p2_hi1"/&gt; will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking.&lt;p eID="novel1_letter1_div1_p2"/&gt;&lt;p sID="novel1_letter1_div1_p3"/&gt;I am already far north of London; and as I walk in the streets of Petersburgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

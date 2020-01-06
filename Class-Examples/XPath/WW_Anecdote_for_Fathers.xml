@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Anecdote for Fathers: Shewing how the practice of Lying may be taught.</title>
+            <author>William Wordsworth</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>published in Lyrical Ballads, 1798 and 1800 editions</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>adapted from the Project Gutenberg e-text of 2003.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg>
+            <l xml:id="n1">I have a boy of five years old,</l>
+            <l xml:id="n2">His face is fair and fresh to see;</l>
+            <l xml:id="n3">His limbs are cast in beauty’s mould,</l>
+            <l xml:id="n4">And dearly he loves me.</l>
+         </lg>
+         <lg>
+            <l xml:id="n5">One morn we stroll’d on our dry walk,</l>
+            <l xml:id="n6">Our quiet home all full in view,</l>
+            <l xml:id="n7">And held such intermitted talk</l>
+            <l xml:id="n8">As we are wont to do.</l>
+         </lg>
+         <lg>
+            <l xml:id="n9">My thoughts on former pleasures ran;</l>
+            <l xml:id="n10">I thought of Kilve’s delightful shore,</l>
+            <l xml:id="n11">My pleasant home when Spring began,</l>
+            <l xml:id="n12">A long, long year before.</l>
+         </lg>
+         <lg>
+            <l xml:id="n13">A day it was when I could bear</l>
+            <l xml:id="n14">To think, and think, and think again;</l>
+            <l xml:id="n15">With so much happiness to spare,</l>
+            <l xml:id="n16">I could not feel a pain.</l>
+         </lg>
+         <lg>
+            <l xml:id="n17">My boy was by my side, so slim</l>
+            <l xml:id="n18">And graceful in his rustic dress!</l>
+            <l xml:id="n19">And oftentimes I talked to him</l>
+            <l xml:id="n20">In very idleness.</l>
+         </lg>
+         <lg>
+            <l xml:id="n21">The young lambs ran a pretty race;</l>
+            <l xml:id="n22">The morning sun shone bright and warm;</l>
+            <l xml:id="n23"><said who="I-speaker" xml:id="n01" next="#s1"/>Kilve,<said xml:id="s2" prev="#s1" next="#s3" ana="interrupt"/> said I, <said xml:id="s3" prev="#s2" next="#s4" ana="resume"/>was a pleasant place,</l>
+            <l xml:id="n24">And so is Liswyn farm.<said xml:id="s4" prev="#s3"/></l>
+         </lg>
+         <lg>
+            <l xml:id="n25"><said who="I-speaker" xml:id="s5" next="s6"/>My little boy, which like you more,<said xml:id="s6" prev="#s5" next="#s7" ana="interrupt"/></l>
+            <l xml:id="n26">I said and took him by the arm—</l>
+            <l xml:id="n27"><said xml:id="s7" prev="#s6" next="#s8" ana="resume"/>Our home by Kilve’s delightful shore,</l>
+            <l xml:id="n28">Or here at Liswyn farm?<said xml:id="s8" prev="#s7"/></l>
+         </lg>
+         <lg>
+            <l xml:id="n29"><said who="I-speaker" xml:id="s9" next="#s10"/>And tell me, had you
+               rather be,<said xml:id="s10" prev="#s9" next="#s11" ana="interrupt"/></l>
+            <l xml:id="n30">I said, and held him by the arm,</l>
+            <l xml:id="n31"><said xml:id="s11" prev="#s10" next="#s12" ana="resume"/>On Kilve’s smooth shore by
+               the green sea,</l>
+            <l xml:id="n32">Or here at Liswyn farm?<said xml:id="s12" prev="#s11"/></l>
+         </lg>
+         <lg>
+            <l xml:id="n33">In careless mood he looked at me,</l>
+            <l xml:id="n34">While still I held him by the arm,</l>
+            <l xml:id="n35">And said, <said who="Edward" xml:id="s13" next="#s14"/>At Kilve I’d rather
+               be</l>
+            <l xml:id="n36">Than here at Liswyn farm.<said xml:id="s14" prev="#s13"/></l>
+         </lg>
+         <lg>
+            <l xml:id="n37"><said who="I-speaker" xml:id="s15" next="#s16"/>Now, little Edward, say
+               why so:</l>
+            <l xml:id="n38">My little Edward, tell me why;<said xml:id="s16" prev="#s15"/> --</l>
+            <l xml:id="n39"><said who="Edward" xml:id="s17" next="#s18"/>I cannot tell, I do not
+                  know.<said xml:id="s18" prev="#s17"/> --</l>
+            <l xml:id="n40"><said who="I-speaker" xml:id="s19" next="#s20"/>Why, this is
+                  strange,<said xml:id="s20" prev="#s19" ana="interrupt"/> said I;</l>
+         </lg>
+         <lg>
+            <l xml:id="n41"><said who="I-speaker" xml:id="s21" next="#s22" ana="resume"/>For, here
+               are woods and green hills warm:</l>
+            <l xml:id="n42">There surely must some reason be</l>
+            <l xml:id="n43">Why you would change sweet Liswyn farm</l>
+            <l xml:id="n44">For Kilve by the green sea.<said xml:id="s22" prev="#s21"/></l>
+         </lg>
+         <lg>
+            <l xml:id="n45">At this, my boy hung down his head,</l>
+            <l xml:id="n46">He blush’d with shame, nor made reply;</l>
+            <l xml:id="n47">And five times to the child I said,</l>
+            <l xml:id="n48"><said who="I-speaker" xml:id="s23" next="#s24"/>Why, Edward, tell me why?<said xml:id="s24" prev="#s23"/></l>
+         </lg>
+         <lg>
+            <l xml:id="n49">His head he raised—there was in sight,</l>
+            <l xml:id="n50">It caught his eye, he saw it plain—</l>
+            <l xml:id="n51">Upon the house-top, glittering bright,</l>
+            <l xml:id="n52">A broad and gilded vane.</l>
+         </lg>
+         <lg>
+            <l xml:id="n53">Then did the boy his tongue unlock,</l>
+            <l xml:id="n54">And thus to me he made reply;</l>
+            <l xml:id="n55"><said who="Edward" xml:id="s25" next="#s26"/>At Kilve there was no weather-cock,</l>
+            <l xml:id="n56">And that’s the reason why.<said xml:id="s26" prev="#s25"/> </l>
+         </lg>
+         <lg>
+            <l xml:id="n57">Oh dearest, dearest boy! my heart</l>
+            <l xml:id="n58">For better lore would seldom yearn</l>
+            <l xml:id="n59">Could I but teach the hundredth part</l>
+            <l xml:id="n60">Of what from thee I learn.</l>
+         </lg>
+         
+      </body>
+   </text>
+</TEI>

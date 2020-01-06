@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Grannies</title>
+                    <date when="2006"/>
+                    <medium type="canvas"/>
+                    <size dimension="76 x 56">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="650" signed="150" unsigned="500"/>
+                    <edition total="100" signed="0" unsigned="100">LA Edition</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/grannies.jpg" alt="Banksy's 'Grannies'"/>
+            <title>Grannies</title>
+            <credit>https://dl.airtable.com/6WhO4jvTXGJ3grSYfEki_full_grannieslarge.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

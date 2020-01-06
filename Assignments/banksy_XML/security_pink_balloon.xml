@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Security Guard with Pink Balloon</title>
+                    <alternate>Police with Pink Balloon</alternate>
+                    <date when="2010-03"/>
+                    <medium type="spray_paint"/>
+                    <location lat="43.653908" long="-79.384293">Toronto, CA</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/p/BpDMo26h3Cu/">">Banksy's Personal Instagram</ref>
+                    <ref target="https://en.wikipedia.org/wiki/Well_Hung_Lover">Article That Supplied Information</ref>
+                    <ref target="https://www.ctvnews.ca/entertainment/banksy-behind-glass-artwork-gets-new-toronto-home-1.3284577">Article That Supplied Information</ref>
+                    <cause when="2010"> Police Being Soft to Criminals</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This piece, showing a security guard officer with a dog on a leash consisting of a pink balloon, was discovered at the rear of a police headquarters in the province of Ontario, Canada. Sadly, it was vandalised just a few days later. It showed that the police was soft on the criminals recently being released from jail. In front of OPP Headquarters in Toronto Ontario.</desc>
+        <p>
+            <img src="Security_Pink_Balloon.jpg" alt="Banksy's Security Guard With Pink Balloon"/>
+            <title>Security Guard with Pink Balloon Banksy</title>
+            <credit>By Paul Cassellman from Toronto - Security Guard with Pink Balloon Banksy, https://www.theglobeandmail.com/news/toronto/toronto-developer-who-salvaged-banksy-graffiti-installs-it-in-pedestrianpathway/article33989061/ </credit>
+        </p>
+    </body>
+</root>

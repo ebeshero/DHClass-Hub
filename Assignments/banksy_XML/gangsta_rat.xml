@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Gangsta Rat</title>
+                    <date when="2004"/>
+                    <medium type="canvas"/>
+                    <size dimension="35 x 50">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="20" signed="20" unsigned="0">Green</edition>
+                    <edition total="46" signed="46" unsigned="0">Pink</edition>
+                    <edition total="500" signed="150" unsigned="350">Red</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/gangsta_rat_green.jpg" alt="Banksy's 'Gangsta Rat (Green)'"/>
+            <title>Banksy's 'Gangsta Rat (Green)</title>
+            <credit>https://dl.airtable.com/LsRxHmlRQLOtuupDqk80_full_Banksy%2520Green%2520Gangsta%2520Rat%2520Signed.jpeg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/gangsta_rat_pink.jpg" alt="Banksy's 'Gangsta Rat (Pink)'"/>
+            <title>Banksy's 'Gangsta Rat (Pink)</title>
+            <credit>https://dl.airtable.com/I2d1U5vmQ6GjzhyMfctA_full_banksy-gangstarat-pink-signed.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/gangsta_rat_red.jpg" alt="Banksy's 'Gangsta Rat (Red)'"/>
+            <title>Banksy's 'Gangsta Rat (Red)</title>
+            <credit>https://dl.airtable.com/Gi8v8kPTk2I9DsnF8fjQ_full_banksy-gangsta-rat-large.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

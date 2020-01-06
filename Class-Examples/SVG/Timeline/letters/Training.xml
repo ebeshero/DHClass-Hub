@@ -1,0 +1,44 @@
+<?xml-model href="WarLettersSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+    
+    <title>Training: ‘drill before breakfast’</title>
+    
+    <abstract>
+        <persName firstName="Arthur" lastName="Smith" born="1895-03-08" rank="LanceCorporal" regiment="RailwayTroop,RoyalEngineers" regimentNum="87760">Arthur Smith</persName>
+        <placeName location="France">France</placeName>
+        <date when="1915-04-04">4 April 1915</date>
+    </abstract>
+    
+    <heading>
+        Dear <persName firstName="Sir">Sir</persName>
+    </heading>
+    
+    <body>
+        <p>
+            I have now been out in France a fortnight. I am getting on quite well in the army. Food is also good and plentiful. Of course, I find the life much rougher from that which I have been used to, but it is a fine experience all the same.
+        </p>
+        <p>
+            We were at Longmoor camp for a week where we were equipped and put through elementary drills. We slept in a big hut there and had a sack of straw and three blankets each. The huts, of which ours was one, were called Apple Pie and they are about a mile from the camp, so we had to be up about six every morning in order to march down for parade at the camp. The parade was at 7.15am. Some mornings we had an hour’s drill before breakfast. It was about 11pm I should think, when we arrived at Longmoor on 31st March, and consequently we went straight to our hut. No light was provided so we had to fish about for our beds in the dark. Fortunately it was moonlight, and after some time a lantern was brought. We were only too glad when getting up time came the next morning. It was before six. We were marched down to the camp and were inspected by the Sergeant Major and after waiting some time went into breakfast. Roast sausage was the chief item on the menu but to our amazement no knives and forks were supplied for us...Well, the only thing was to convey the sausages to our mouths with fingers.
+        </p>
+        <p>
+            The nearest thing to a knife and fork that some had was a pair of nail scissors so these were used. Personally I did not know whether to feel shocked or to laugh at the situation; it ended in the latter. We Audit fellows got to one table and we had to have a good laugh before we could eat much. It was a hopeless situation to be in. Don’t let this discourage anyone from coming but I warn him to bring a knife and fork with him. After the first day we were issued with kits and we treasure our knives and forks now. We came across on the mail boat Hantonia from Southampton to Havre. ... We had to sleep in huts there on the docks but the sleeping accommodation was better. We Audit fellows were able to keep together till last Saturday night, when Pond and I were sent off to different railheads. He is at 3rd Corps Railhead. We had to travel in horseboxes and during night time. We travelled in this manner Saturday, Sunday and Monday nights. French shunting is severe and we were shaken up. Saturday and Sunday we were about 30 in the trucks, Monday 17.
+        </p>
+        <p>
+            We were fortunate enough to get out into every town at which we stopped during the day. On Tuesday night another young fellow and I were stranded at a station somewhere in France, and we were instructed by the military authorities to sleep in the goods shed. We had to sleep on the deck of the shed and shunting was going on during the night. This was about the limit, I thought.
+        </p>
+        <p>
+            I arrived finally at my destination about midday last Wednesday. Now I live in a truck at a small French station. There are two other Sappers and a Lieutenant here. We deal chiefly with gifts and comforts sent to the troops...
+        </p>
+        <p>
+            We are out in the country. I think this railhead is about seven miles from the firing line. Can hear the guns and see the star shells at night. I must ask you kindly to excuse me for writing in pencil because I have no pen and ink here. Would you mind letting this letter be treated as to the whole of the statistical department, please sir.
+        </p>
+    </body>
+    
+    <closing>
+        With kindest regards to all.
+        I am yours obediently,
+        <persName firstName="Arthur" lastName="Smith">Arthur Smith</persName>
+    </closing>
+    
+</letter>

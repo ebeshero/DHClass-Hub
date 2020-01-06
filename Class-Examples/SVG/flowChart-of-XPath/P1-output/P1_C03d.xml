@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C03d">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C03d</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C03d_app1">
+		             <rdgGrp xml:id="C03d_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03d_app1_rg2"
+                       n="['is', 'wholly', 'uneducated:', 'he', 'is', 'as', 'silent', 'as', 'a', 'Turk,', 'and', 'a', 'kind', 'of', 'ignorant', 'carelessness', 'attends', 'him,', 'which,', 'while', 'it', 'renders', 'his', 'conduct', 'the', 'more', 'astonishing,', 'detracts', 'from', 'the', 'interest', 'and', 'sympathy', 'which', 'otherwise', 'he', 'would', 'command.&lt;p&gt;']">
+			               <rdg wit="f1831">is wholly uneducated: he is as silent as a Turk, and a kind of ignorant carelessness attends him, which, while it renders his conduct the more astonishing, detracts from the interest and sympathy which otherwise he would command.&lt;p eID="novel1_letter2_div2_p5"/&gt;</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03d_app1_rg3"
+                       n="['has', 'passed', 'all', 'his', 'life', 'on', 'board', 'a', 'vessel,', 'and', 'has', 'scarcely', 'an', 'idea', 'beyond', 'the']">
+			               <rdg wit="f1818">has passed all his life on board a vessel, and has scarcely an idea beyond the </rdg>
+			               <rdg wit="f1823">has passed all his life on board a vessel, and has scarcely an idea beyond the </rdg>
+			               <rdg wit="fThomas">has passed all his life on board a vessel, and has scarcely an idea beyond the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03d_app2">
+		             <rdgGrp xml:id="C03d_app2_rg1" n="['&lt;del&gt;rope&lt;del&gt;ship']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter2_div2_p5_del2"/&gt;rope&lt;del eID="novel1_letter2_div2_p5_del2"/&gt;ship </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03d_app2_rg2" n="['rope']">
+			               <rdg wit="f1818">rope </rdg>
+			               <rdg wit="f1823">rope </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03d_app3">
+		             <rdgGrp xml:id="C03d_app3_rg1" n="['and']">
+			               <rdg wit="f1818">and </rdg>
+			               <rdg wit="f1823">and </rdg>
+			               <rdg wit="fThomas">and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03d_app4">
+		             <rdgGrp xml:id="C03d_app4_rg1" n="['the', 'shroud.&lt;p/&gt;']">
+			               <rdg wit="f1818">the shroud.&lt;p eID="novel1_letter2_div2_p5"/&gt; </rdg>
+			               <rdg wit="f1823">the shroud.&lt;p eID="novel1_letter2_div2_p5"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03d_app4_rg2" n="['the&lt;del&gt;shroud&lt;del&gt;crew.&lt;p/&gt;']">
+			               <rdg wit="fThomas">the&lt;del sID="novel1_letter2_div2_p5_del3"/&gt;shroud&lt;del eID="novel1_letter2_div2_p5_del3"/&gt;crew.&lt;p eID="novel1_letter2_div2_p5"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

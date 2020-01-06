@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Keep your Coins, I want Change</title>
+                    <date when="2004-10"/>
+                    <medium type="spray_paint"/>
+                    <location lat="37.8136" long="144.9631">Melbourne, AU</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://socialactive.wordpress.com/2011/02/28/homelessness-i-want-change/">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc> This piece of Bnanksy became super popular as it spread everywhere.This piece was discovered in Melbourne. It shows a homeless man who appears to be asking for change but not in the physical change – 
+            as he says, he wants social change rather than coins/bills. Its a strong piece with a deep meaning as he wants society to change for the better. On a street outide of a building in Melbourne Australia.</desc>
+        <p>
+            <img src="Coins_Change.jpeg" alt="Keep your Coins, I want Change"/>
+            <title>Keep your Coins, I want Change - Banksy</title>
+            <credit>By: Jake Mcneill from Melboure Austrailia https://www.icanvas.com/canvas-print/keep-your-coins-i-want-change-by-meek-2064#1PC3-40x26</credit>
+        </p>
+    </body>
+</root>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="WarLettersSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+    <title>Dardanelles: ‘millions of flies’</title>
+    
+    <abstract>
+        <persName firstName="Harold" lastName="Cronin" born="1880-05-09" death="1917-12-02" rank="Lieutenant" regiment=" 4thSeaforthHighlanders">Harold William Cronin</persName>
+        <placeName location="Dardanelles">Dardanelles</placeName>
+        <date when="1915-10-03">3 October 1915</date>
+    </abstract>
+    
+    <heading>
+        Dear<persName lastName="Welsh">Mr Welsh</persName>
+    </heading>
+    
+    <body>
+        <p>
+            We were only out here a matter of a few hours before we went into the trenches; we were there for eight days and then came on to what is called a Rest Camp.
+            I suppose it is called that to distinguish it from the trenches because the men are at work all day road and trench making and it comes under both rifle and artillery fire.
+            We got here at 7 o’clock yesterday morning and were shelled at 9 o’clock.
+        </p>
+        <p>
+            In the trenches it was <emotion morale="low">fairly bad</emotion>, they are so narrow and smelly and one is being potted at and shelled all the time. 
+            A turn of eight days was really quite long enough because it is strenuous work and even when you do turn in for a rest you have to be ready to turn out at once on an alarm.
+        </p>
+        <p>
+            The country is really quite pretty and just like the hills and valleys of South Wales, but there are no brooks or rivers.
+            It rains hard for a month each year usually about this time and then there is no more until the next rainy season.
+            But although it is so gloriously sunny something is wrong with the place and it really isn’t as healthy as it looks.
+            I think the flies have something to do with it as well as the heat and the still unburied dead bodies about.
+            There are millions and millions of flies here and they are all over everything. Put a cup of tea down without a cover and it is immediately covered with dead ones,
+            they are all round your mouth and directly you open it to speak or to eat in they pop. It is a game. We have all got nets of course, we should have been worried, no medicine by now if we hadn’t.
+        </p>
+        <p>
+            We get plenty of bully beef and army biscuits, but bread and fresh meat is still a luxury and it is not possible to buy anything.
+            It must have been a “No Man’s Land” because there are no houses or buildings of any kind to be seen and except the flies, the only living things are green canaries and lizards.
+        </p>
+        <p>
+            We live in dugouts built up the reverse sides of the hills. They are just holes really, but all the same they can be made very comfortable with a bit of digging and a few waterproof sheets.
+            They are not shell proof by any means and the one I slept in during my first night here was knocked in completely by a shell pitching right into it. Fortunately I was not at home at the time.
+            We have another now and I must try and get a photo of it and let you see what it is like. I must send you one of our Mess dugout too.
+        </p>
+        <p>
+            Everything here is named after the Regiment responsible for the making or taking. For instance the road we made from our trenches to this camp is called “New Bedford Rd” and the ridge we took and now occupy is called on the army maps,
+            Bedford Ridge. I have just been filling in and colouring my map and find it is one of the most, if not the most, advanced line of the lot. Standing on that ridge it is possible to see what a lot of country we have taken and now hold,
+            but there is nothing to get wildly excited about. Each position is strengthened as much as possible before another attempt is made to push on and the whole thing is just steady progress. Something might happen suddenly, I only hope it does.
+        </p>
+        <p>
+            We have had some very big ships out here and they have been bombarding the forts heavily now for some few days, and there are cruisers, monitors etc. standing in the bay helping the land batteries to shell the trenches.
+            You see a flash and then wait a long time before hearing the boom and the shriek of the shell passing over our heads, almost together, then look round quickly and see the burst of the shell in or over the trenches sometimes before hearing the explosion.
+            The first we know of shells aimed at us is the bang of the explosion, and it is too late to get out of the way. Three officers were laid flat on their backs the other day without any hurt except to their dignity and farther on six men were buried without one being injured.
+            It isn’t always like that though.
+        </p>
+        <p>
+            There is quite good bathing here when we can find time to go. As the beach is in full view of the enemy, and comes under their shell fire, it would not appeal to the nervous. We never keep closer together than ten yards when we are undressing and swimming in hopes that the Turk will not consider one man worth the price of a shell.
+            We have had some casualties through the men keeping too close together, but after washing out of a teacup for a week or more it is worth a bit of risk to get rid of some of the trench dust and smell and feel and look clean again. And really is the best bathing I’ve ever had. The water is quite warm and clear.
+        </p>
+        <p>
+            All the hospital work is done on board a ship that stands in the bay. If the cases are serious or lengthy they are transferred to one of the hospital ships that calls daily and then go to either one of the bases or back to England.
+            We land troops night or day in spite of the fact that they come under fire so it is possible for a man to be on his way back wounded, by the same ship that bought him from the base, without ever having landed.
+        </p>
+        <p>
+            We had a grand voyage out. All the officers had either staterooms or 1st Class cabins and the food mostly was just the same as we should have had on an ordinary cruise to India or Australia, wherever it is that the Cruise Line calls.
+            The usual cabin stewards and waiters were in attendance and it was difficult to remember that we were not exactly on a pleasure trip. We did enjoy those two weeks…
+        </p>
+     </body>
+    <closing>
+        Kind regards,
+        
+        Yours sincerely,
+        
+        <persName lastName="Cronin">H.W. Cronin</persName>, Lieutenant.
+        
+        I am acting as captain until some of the others come back from hospital.
+        </closing>
+</letter>

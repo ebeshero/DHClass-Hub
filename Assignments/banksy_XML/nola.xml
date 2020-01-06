@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>NOLA</title>
+                    <date when="2008"/>
+                    <medium type="canvas"/>
+                    <size dimension="76 x 56">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="63" signed="63" unsigned="0">Grey</edition>
+                    <edition total="32" signed="32" unsigned="0">Orange</edition>
+                    <edition>Pink and Yellow Rain</edition>
+                    <edition total="289" signed="289" unsigned="0">White</edition>
+                    <edition total="31" signed="31" unsigned="0">Yellow</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/nola_grey.jpg" alt="Banksy's 'NOLA (Grey)'"/>
+            <title>NOLA (Grey)</title>
+            <credit>https://dl.airtable.com/ItmSpNLCSmGduE6p7Gqu_full_banksy-nola-grey-rain.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/nola_orange.jpg" alt="Banksy's 'NOLA (Orange)'"/>
+            <title>NOLA (Orange)</title>
+            <credit>https://dl.airtable.com/UDhFMSF7SewoE50XhQu4_full_banksy-print-nola--orange-32.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/nola_pink_and_yellow_rain.jpg" alt="Banksy's 'NOLA (Pink and Yellow Rain)'"/>
+            <title>NOLA (Pink and Yellow Rain)</title>
+            <credit>https://dl.airtable.com/KI53WU7iTfaevZXvY6XD_full_2017_CKS_13879_0217_000.jpg%3Fheight%3D400</credit>
+            <img src="../img/nola_white.jpg" alt="Banksy's 'NOLA (White)'"/>
+            <title>NOLA (White)</title>
+            <credit>https://dl.airtable.com/f3pm6eQPRJqE53u8948x_full_banksy_nola_large.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/nola_yellow.jpg" alt="Banksy's 'NOLA (Yellow)'"/>
+            <title>NOLA (Yellow)</title>
+            <credit>https://dl.airtable.com/6vNnFVdJTyuVXIlJQQRm_full_banksy-nola-yellow-rain.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

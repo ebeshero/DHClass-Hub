@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Naplam Girl</title>
+                    <date when="2004-09"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.5074" long="0.1278">London, UK</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.myartbroker.com/artist/banksy/napalm/">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Banksy created Napalm Girl in 2004. It features a reproduction of an iconic photograph of a young girl during a napalm bombing in Vietnam in the seventies. 
+            In Banksy’s version the terrified naked girl is caught between Ronald McDonald and Mickey Mouse. 
+            The piece was created on cartridge paper and has been exhibited internationally in many different galleries.</desc>
+        <p>
+            <img src="naplam_girl.jpg" alt="naplam girl Banksy"/>
+            <title>Naplam Girl Banksy</title>
+            <credit>By:John Dimcelli from London, https://www.pinterest.com/pin/777996904352483988/</credit>
+        </p>
+    </body>
+</root>

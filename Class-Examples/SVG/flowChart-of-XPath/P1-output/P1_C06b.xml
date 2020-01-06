@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C06b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C06b</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C06b_app1">
+		             <rdgGrp xml:id="C06b_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06b_app1_rg2"
+                       n="['frequently', 'conversed', 'with', 'me', 'on', 'mine,', 'which', 'I', 'have', 'communicated', 'to', 'him', 'without', 'disguise.', 'He', 'entered', 'attentively', 'into', 'all', 'my', 'arguments', 'in', 'favour', 'of', 'my', 'eventual', 'success,', 'and', 'into', 'every', 'minute', 'detail', 'of', 'the', 'measures', 'I', 'had', 'taken', 'to', 'secure', 'it.', 'I', 'was', 'easily', 'led', 'by', 'the', 'sympathy', 'which', 'he', 'evinced,', 'to', 'use', 'the', 'language', 'of', 'my', 'heart;', 'to', 'give', 'utterance', 'to', 'the', 'burning', 'ardour', 'of', 'my', 'soul;', 'and', 'to', 'say,', 'with', 'all', 'the', 'fervour', 'that', 'warmed', 'me,', 'how', 'gladly', 'I', 'would', 'sacrifice', 'my', 'fortune,', 'my', 'existence,', 'my', 'every', 'hope,', 'to', 'the', 'furtherance', 'of', 'my', 'enterprise.', 'One', 'man’s', 'life', 'or', 'death', 'were', 'but', 'a', 'small', 'price', 'to', 'pay', 'for', 'the', 'acquirement', 'of', 'the', 'knowledge', 'which', 'I', 'sought;', 'for', 'the', 'dominion', 'I', 'should', 'acquire', 'and', 'transmit', 'over', 'the', 'elemental', 'foes', 'of', 'our', 'race.', 'As', 'I', 'spoke,', 'a', 'dark', 'gloom', 'spread', 'over', 'my', 'listener’s', 'countenance.', 'At', 'first', 'I', 'perceived', 'that', 'he', 'tried', 'to', 'suppress', 'his', 'emotion;', 'he', 'placed', 'his', 'hands', 'before', 'his', 'eyes;', 'and', 'my', 'voice', 'quivered', 'and', 'failed', 'me,', 'as', 'I', 'beheld', 'tears', 'trickle', 'fast', 'from', 'between', 'his', 'fingers,—a', 'groan', 'burst', 'from', 'his', 'heaving', 'breast.', 'I', 'paused;', '—at', 'length', 'he', 'spoke,', 'in', 'broken', 'accents:—“Unhappy', 'man!', 'Do', 'you', 'share', 'my', 'madness?', 'Have', 'you', 'drank', 'also', 'of', 'the', 'intoxicating', 'draught?', 'Hear', 'me,—let', 'me', 'reveal', 'my', 'tale,', 'and', 'you', 'will', 'dash', 'the', 'cup', 'from', 'your', 'lips!”&lt;p&gt;', '&lt;p&gt;Such', 'words,', 'you', 'may', 'imagine,', 'strongly', 'excited', 'my', 'curiosity;', 'but', 'the', 'paroxysm', 'of', 'grief', 'that', 'had', 'seized', 'the', 'stranger', 'overcame', 'his', 'weakened', 'powers,', 'and', 'many', 'hours', 'of', 'repose', 'and', 'tranquil', 'conversation', 'were', 'necessary', 'to', 'restore', 'his', 'composure.&lt;p', '&gt;', '&lt;p&gt;Having', 'conquered', 'the', 'violence', 'of', 'his', 'feelings,', 'he', 'appeared', 'to', 'despise', 'himself', 'for', 'being', 'the', 'slave', 'of', 'passion;', 'and', 'quelling', 'the', 'dark', 'tyranny', 'of', 'despair,', 'he', 'led', 'me', 'again', 'to', 'converse', 'concerning', 'myself', 'personally.', 'He', 'asked', 'me', 'the', 'history', 'of', 'my', 'earlier', 'years.', 'The', 'tale', 'was', 'quickly', 'told:', 'but', 'it', 'awakened', 'various', 'trains', 'of', 'reflection.', 'I', 'spoke', 'of', 'my', 'desire', 'of', 'finding', 'a', 'friend—of', 'my', 'thirst', 'for', 'a', 'more', 'intimate', 'sympathy', 'with', 'a', 'fellow', 'mind', 'than', 'had', 'ever', 'fallen', 'to', 'my', 'lot;', 'and', 'expressed', 'my', 'conviction', 'that', 'a', 'man', 'could', 'boast', 'of', 'little', 'happiness,', 'who', 'did', 'not', 'enjoy', 'this', 'blessing.&lt;p&gt;', '&lt;p&gt;“I', 'agree', 'with', 'you,”', 'replied', 'the', 'stranger;', '“we', 'are', 'unfashioned', 'creatures,', 'but', 'half', 'made', 'up,', 'if', 'one', 'wiser,', 'better,', 'dearer', 'than', 'ourselves—such', 'a', 'friend', 'ought', 'to', 'be—do', 'not', 'lend', 'his', 'aid', 'to', 'perfectionate', 'our', 'weak', 'and', 'faulty', 'natures.']">
+			               <rdg wit="f1831">frequently conversed with me on mine, which I have communicated to him without disguise. He entered attentively into all my arguments in favour of my eventual success, and into every minute detail of the measures I had taken to secure it. I was easily led by the sympathy which he evinced, to use the language of my heart; to give utterance to the burning ardour of my soul; and to say, with all the fervour that warmed me, how gladly I would sacrifice my fortune, my existence, my every hope, to the furtherance of my enterprise. One man’s life or death were but a small price to pay for the acquirement of the knowledge which I sought; for the dominion I should acquire and transmit over the elemental foes of our race. As I spoke, a dark gloom spread over my listener’s countenance. At first I perceived that he tried to suppress his emotion; he placed his hands before his eyes; and my voice quivered and failed me, as I beheld tears trickle fast from between his fingers,—a groan burst from his heaving breast. I paused; —at length he spoke, in broken accents:—“Unhappy man! Do you share my madness? Have you drank also of the intoxicating draught? Hear me,—let me reveal my tale, and you will dash the cup from your lips!”&lt;p eID="novel1_letter4_div4_p27"/&gt; &lt;p sID="novel1_letter4_div4_p28"/&gt;Such words, you may imagine, strongly excited my curiosity; but the paroxysm of grief that had seized the stranger overcame his weakened powers, and many hours of repose and tranquil conversation were necessary to restore his composure.&lt;p eID="novel1_letter4_div4_p28"/&gt; &lt;p sID="novel1_letter4_div4_p29"/&gt;Having conquered the violence of his feelings, he appeared to despise himself for being the slave of passion; and quelling the dark tyranny of despair, he led me again to converse concerning myself personally. He asked me the history of my earlier years. The tale was quickly told: &lt;pb xml:id="F1831_v_032" n="16"/&gt;but it awakened various trains of reflection. I spoke of my desire of finding a friend—of my thirst for a more intimate sympathy with a fellow mind than had ever fallen to my lot; and expressed my conviction that a man could boast of little happiness, who did not enjoy this blessing.&lt;p eID="novel1_letter4_div4_p29"/&gt; &lt;p sID="novel1_letter4_div4_p30"/&gt;“I agree with you,” replied the stranger; “we are unfashioned creatures, but half made up, if one wiser, better, dearer than ourselves—such a friend ought to be—do not lend his aid to perfectionate our weak and faulty natures.</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06b_app1_rg3"
+                       n="['asked', 'me', 'many', 'questions', 'concerning', 'my', 'design;', 'and', 'i', 'have', 'related', 'my', 'little', 'history', 'frankly', 'to', 'him.', 'he', 'appeared', 'pleased', 'with', 'the', 'confidence,', 'and', 'suggested', 'several', 'alterations', 'in', 'my', 'plan,', 'which', 'i', 'shall', 'find', 'exceedingly', 'useful.', 'there', 'is', 'no', 'pedantry', 'in', 'his', 'manner;', 'but', 'all', 'he', 'does', 'appears', 'to', 'spring', 'solely', 'from', 'the', 'interest', 'he', 'instinctively', 'takes', 'in', 'the', 'welfare', 'of', 'those', 'who', 'surround', 'him.', 'he', 'is', 'often', 'overcome', 'by']">
+			               <rdg wit="f1818">asked me many questions concerning my design; and I have related my little history frankly to him. He appeared pleased with the confidence, and suggested several alterations in my plan, which I shall find exceedingly useful. There is no pedantry in his manner; but all he does appears to spring solely from the interest he instinctively takes in the welfare of those who surround him. He is often overcome by </rdg>
+			               <rdg wit="f1823">asked me many questions concerning my design; and I have related my little history frankly to him. He appeared pleased with the confidence, and suggested several alterations in my plan, which I shall find exceedingly useful. There is no pedantry in his manner; but all he does appears to spring solely from the interest he instinctively takes in the welfare of those who surround him. He is often overcome by </rdg>
+			               <rdg wit="fThomas">asked me many questions concerning my design; and I have related my little history frankly to him. He appeared pleased with the confidence, and suggested several alterations in my plan, which I shall find exceedingly useful. There is no pedantry in his manner; but all he does appears to spring solely from the interest he instinctively takes in the welfare of those who surround him. He is often overcome by </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06b_app2">
+		             <rdgGrp xml:id="C06b_app2_rg1" n="['a', 'gloom,']">
+			               <rdg wit="fThomas">a gloom, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06b_app2_rg2" n="['gloom,']">
+			               <rdg wit="f1818">gloom, </rdg>
+			               <rdg wit="f1823">gloom, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06b_app3">
+		             <rdgGrp xml:id="C06b_app3_rg1"
+                       n="['&lt;del&gt;and', 'then', 'he', 'sits', 'by', 'himself,', 'and', 'tries', 'to', 'overcome', 'all', 'that', 'is', 'sullen', 'or', 'unsocial', 'in', 'his', 'humour.', 'these', 'paroxysms', 'pass', 'from', 'him', 'like', 'a', 'cloud', 'from', 'before', 'the', 'sun,', 'though', 'his', 'dejection', 'never', 'leaves', 'him.&lt;del&gt;', '&lt;add&gt;Which', 'veils', 'his', 'countenance', 'like', 'deep', 'night—he', 'neither', 'speaks', 'or', 'notices', 'anything', 'around', 'him,', 'but', 'sitting', 'on', 'a', 'gun', 'will', 'gaze', 'on', 'the', 'sea', 'and', 'I', 'have', 'sometimes', 'observed', 'his', 'dark', 'eyelash', 'wet', 'with', 'a', 'tear', 'which', 'falls', '&lt;del&gt;silently&lt;del&gt;', 'silently', 'in', 'the', 'deep.', 'This', 'unobtrusive', 'sorrow', 'excites', 'in', 'me', 'the', 'most', 'painful', 'interest,', 'and', 'he', 'will', 'at', 'times', 'reward', 'my', 'sympathy', 'by', 'throwing', 'aside', 'this', 'veil', 'of', 'mortal', 'woe,', 'and', 'then', 'his', 'ardent', 'looks,', 'his', 'deep', 'toned', 'voice', 'and', 'powerful', 'eloquence', 'entrance', 'me', 'with', 'delight.&lt;add&gt;']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter4_div4_p27_del1"/&gt;and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him.&lt;del eID="novel1_letter4_div4_p27_del1"/&gt; &lt;add sID="novel1_letter4_div4_p27_add2"/&gt;Which veils his countenance like deep night—he neither speaks or notices anything around him, but sitting on a gun will gaze on the sea and I have sometimes observed his dark eyelash wet with a tear which falls &lt;del sID="novel1_letter4_div4_p27_add2_del1"/&gt;silently&lt;del eID="novel1_letter4_div4_p27_add2_del1"/&gt; silently in the deep. This unobtrusive sorrow excites in me the most painful interest, and he will at times reward my sympathy by throwing aside this veil of mortal woe, and then his ardent looks, his deep toned voice and powerful eloquence entrance me with delight.&lt;add eID="novel1_letter4_div4_p27_add2"/&gt;</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06b_app3_rg2"
+                       n="['and', 'then', 'he', 'sits', 'by', 'himself,', 'and', 'tries', 'to', 'overcome', 'all', 'that', 'is', 'sullen', 'or', 'unsocial', 'in', 'his', 'humour.', 'these', 'paroxysms', 'pass', 'from', 'him', 'like', 'a', 'cloud', 'from', 'before', 'the', 'sun,', 'though', 'his', 'dejection', 'never', 'leaves', 'him.']">
+			               <rdg wit="f1818">and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him. </rdg>
+			               <rdg wit="f1823">and then he sits by himself, and tries to overcome all that is sullen or unsocial in his humour. These paroxysms pass from him like a cloud from before the sun, though his dejection never leaves him. </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

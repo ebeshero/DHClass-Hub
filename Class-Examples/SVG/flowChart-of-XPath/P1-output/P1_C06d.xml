@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C06d">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C06d</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C06d_app1">
+		             <rdgGrp xml:id="C06d_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06d_app1_rg2"
+                       n="['i', 'once', 'had', 'a', 'friend,', 'the', 'most', 'noble', 'of', 'human', 'creatures,', 'and', 'am', 'entitled,', 'therefore,', 'to', 'judge', 'respecting', 'friendship.', 'you', 'have', 'hope,', 'and', 'the', 'world', 'before', 'you,', 'and', 'have', 'no', 'cause', 'for', 'despair.', 'but', 'i—i', 'have', 'lost', 'every', 'thing,', 'and', 'cannot', 'begin', 'life', 'anew.&#34;&lt;p/&gt;&lt;p/&gt;as', 'he', 'said', 'this,', 'his', 'countenance', 'became', 'expressive', 'of', 'a', 'calm', 'settled', 'grief,', 'that', 'touched', 'me', 'to', 'the', 'heart.', 'but', 'he', 'was', 'silent,', 'and', 'presently', 'retired', 'to', 'his', 'cabin.&lt;p/&gt;&lt;p/&gt;even', 'broken', 'in', 'spirit', 'as', 'he', 'is,', 'no', 'one', 'can', 'feel', 'more', 'deeply', 'than', 'he', 'does', 'the', 'beauties', 'of', 'nature.', 'the', 'starry', 'sky,', 'the', 'sea,', 'and', 'every', 'sight', 'afforded', 'by', 'these', 'wonderful', 'regions,', 'seems', 'still', 'to', 'have', 'the', 'power', 'of', 'elevating', 'his', 'soul', 'from', 'earth.', 'such', 'a', 'man', 'has', 'a', 'double', 'existence:', 'he', 'may', 'suffer', 'misery,', 'and', 'be', 'overwhelmed', 'by', 'disappointments;']">
+			               <rdg wit="f1818">I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have lost &lt;pb n="034" xml:id="F1818_v1_046"/&gt;every thing, and cannot begin life anew.”&lt;p eID="novel1_letter4_div4_p28"/&gt;&lt;p sID="novel1_letter4_div4_p29"/&gt;As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin.&lt;p eID="novel1_letter4_div4_p29"/&gt;&lt;p sID="novel1_letter4_div4_p30"/&gt;Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; </rdg>
+			               <rdg wit="f1823">I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have &lt;pb n="34" xml:id="F1823_v1_053"/&gt;lost every thing, and cannot begin life anew.”&lt;p eID="novel1_letter4_div4_p28"/&gt;&lt;p sID="novel1_letter4_div4_p29"/&gt;As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin.&lt;p eID="novel1_letter4_div4_p29"/&gt;&lt;p sID="novel1_letter4_div4_p30"/&gt;Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; </rdg>
+			               <rdg wit="fThomas">I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have lost &lt;pb n="034" xml:id="F1818_v1_046"/&gt;every thing, and cannot begin life anew.”&lt;p eID="novel1_letter4_div4_p28"/&gt;&lt;p sID="novel1_letter4_div4_p29"/&gt;As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin.&lt;p eID="novel1_letter4_div4_p29"/&gt;&lt;p sID="novel1_letter4_div4_p30"/&gt;Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; </rdg>
+			               <rdg wit="f1831">I once had a friend, the most noble of human creatures, and am entitled, therefore, to judge respecting friendship. You have hope, and the world before you, and have no cause for despair. But I—I have lost every thing, and cannot begin life anew.”&lt;p eID="novel1_letter4_div4_p30"/&gt;&lt;p sID="novel1_letter4_div4_p31"/&gt;As he said this, his countenance became expressive of a calm settled grief, that touched me to the heart. But he was silent, and presently retired to his cabin.&lt;p eID="novel1_letter4_div4_p31"/&gt;&lt;p sID="novel1_letter4_div4_p32"/&gt;Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth. Such a man has a double existence: he may suffer misery, and be overwhelmed by disappointments; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06d_app2">
+		             <rdgGrp xml:id="C06d_app2_rg1" n="['yet']">
+			               <rdg wit="f1818">yet </rdg>
+			               <rdg wit="fThomas">yet </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06d_app2_rg2" n="['yet,']">
+			               <rdg wit="f1823">yet, </rdg>
+			               <rdg wit="f1831">yet, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06d_app3">
+		             <rdgGrp xml:id="C06d_app3_rg1"
+                       n="['when', 'he', 'has', 'retired', 'into', 'himself,', 'he', 'will', 'be', 'like', 'a', 'celestial', 'spirit,', 'that', 'has', 'a', 'halo', 'around', 'him,', 'within', 'whose', 'circle', 'no', 'grief', 'or', 'folly', 'ventures.&lt;p/&gt;&lt;p/&gt;will', 'you']">
+			               <rdg wit="f1818">when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures.&lt;p eID="novel1_letter4_div4_p30"/&gt;&lt;p sID="novel1_letter4_div4_p31"/&gt;Will you </rdg>
+			               <rdg wit="f1823">when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures.&lt;p eID="novel1_letter4_div4_p30"/&gt;&lt;p sID="novel1_letter4_div4_p31"/&gt;Will you </rdg>
+			               <rdg wit="fThomas">when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures.&lt;p eID="novel1_letter4_div4_p30"/&gt;&lt;p sID="novel1_letter4_div4_p31"/&gt;Will you </rdg>
+			               <rdg wit="f1831">when he has retired into himself, he will be like a celestial spirit, that has a halo around him, within whose circle no grief or folly ventures.&lt;p eID="novel1_letter4_div4_p32"/&gt;&lt;p sID="novel1_letter4_div4_p33"/&gt;Will you </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06d_app4">
+		             <rdgGrp xml:id="C06d_app4_rg1" n="['laugh']">
+			               <rdg wit="f1818">laugh </rdg>
+			               <rdg wit="f1823">laugh </rdg>
+			               <rdg wit="fThomas">laugh </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06d_app4_rg2" n="['smile']">
+			               <rdg wit="f1831">smile </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06d_app5">
+		             <rdgGrp xml:id="C06d_app5_rg1"
+                       n="['at', 'the', 'enthusiasm', 'i', 'express', 'concerning', 'this', 'divine', 'wanderer?']">
+			               <rdg wit="f1818">at the enthusiasm I express concerning this divine wan&lt;pb n="035" xml:id="F1818_v1_047"/&gt;derer? </rdg>
+			               <rdg wit="f1823">at the enthusiasm I express concerning this divine wan&lt;pb n="35" xml:id="F1823_v1_054"/&gt;derer? </rdg>
+			               <rdg wit="fThomas">at the enthusiasm I express concerning this divine wan&lt;pb n="035" xml:id="F1818_v1_047"/&gt;derer? </rdg>
+			               <rdg wit="f1831">at the enthusiasm I express concerning this divine wanderer? </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

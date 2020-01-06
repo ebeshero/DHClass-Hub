@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Don't Forget your Scraf</title>
+                    <date when="2009-05"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.4545" long="2.5879">Bristol, UK</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="http://www.banksy.co.uk/out.asp">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.lifegate.com/gallery/top-5-highlights-banksys-career/2009-dont-forget-your-scarf-dear-bristol-museum"></ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This piece of Banksy artwork first appeared as part of an exhibit in Bristol titled ‘Banksy Versus Bristol Museum’. Critics state that while this is not one of Banksy’s more subversive artworks it expresses a simple ideal : 
+            that a child should be loved and accepted for what he or she is not because the fit with society’e expectations</desc>
+        <p>
+            <img src="scraf_guy.jpg" alt="Scraf Guy Banksy"/>
+            <title>Don't Forget your Scraf Banksy</title>
+            <credit>By Lorenzo Brenna from Bristol, https://www.lifegate.com/gallery/top-5-highlights-banksys-career/2009-dont-forget-your-scarf-dear-bristol-museum/</credit>
+        </p>
+    </body>
+</root>
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!--ebb: Note: oXygen has an SVG viewer in the Tools menu, but it's usually best to preview these files in a web browser. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc><!--You could write a description of this SVG here.--></desc>
+    <desc>This SVG just models some interesting shapes, and shows how to plot an X and Y axis as a vertical and horizontal line that share one x and y position in common.
+        (A vertical line is plotted by keeping the x coordinates the same.
+        A horizontal line is plotted by keeping the y coordinates the same.)
+        Remember that y values literally increase as you move down the screen.
+      In this plot we also compare how to draw a bar on a graph with a rectangle vs. a line.
+    </desc>
+    <g alignment-baseline="baseline" transform="translate (25, 100)">
+        <!--The "g" element just lets us *group* stuff together. -->
+        
+        <circle cx="250" cy="30" r="20" stroke="red" fill="aqua" stroke-width="4"/>  
+        <ellipse cx="200" cy="80" rx="100" ry="50" fill="yellow" stroke="purple"/>
+        
+     <circle cx="400" cy="300" r="50" stroke="red" fill="purple" stroke-width="5"/>  
+        
+      
+      <line x1="25" y1="0" x2="500" y2="500" stroke="red" stroke-dasharray="5,3" stroke-width="3"/>
+        <!--This will make a diagonal red dotted line, using the @stroke-dasharray attribute, which sets values for the length of the dashes and spaces in between.-->
+     
+        <line x1="25" y1="500" x2="700" y2="500" stroke="green" stroke-width="3"/>
+        <line x1="25" y1="500" x2="25" y2="0" stroke="green" stroke-width="3"/>
+        <!--The above lines make an X and a Y axis here. -->
+        
+        <rect x="50" y="250" width="30" height="250" fill="aqua" />
+        <!--The height property on a rectangle -->
+        
+        <line x1="90" y1="500" x2="90" y2="275" stroke-width="30" stroke="purple"/>
+        <!--The rectangle and the line basically do the same thing; we just made the stroke-width work as the width of the bar on a rectangle.-->
+        
+        
+        <line x1="25" y1="250" x2="700" y2="250" stroke="purple" stroke-width="2"/>
+        
+        <text x="15" y="230" fill="purple" style="font-family:sans-serif;font-size:15px; writing-mode: tb; glyph-orientation-vertical: 5">50</text>
+        
+        <line x1="25" y1="100" x2="700" y2="100" stroke="purple" stroke-width="2"/>
+        <text x="15" y="90" fill="purple" style="font-family:sans-serif;font-size:15px; writing-mode: tb; glyph-orientation-horizontal: 5">75</text>
+    </g>
+</svg>

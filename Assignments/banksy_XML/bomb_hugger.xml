@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Bomb Hugger</title>
+                    <alternate>Bomb Girl</alternate>
+                    <date when="2003"/>
+                    <medium type="spray_paint"/>
+                    <location lat="33.01529" long="27.8546">London, UK</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="http://www.banksy.co.uk/out.asp">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.myartbroker.com/artist/banksy/bomb-hugger-bomb-love/"></ref>
+                    <cause when="2011"> Milatary Aircrafts were being discussed as a Weapon.</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>The picture of a young girl hugging a bomb to her chest is one of Banksy’s original creations back in 2003, where it was made on a wall in London’s East End. 
+            The piece symbolises the horror of warby being innocence and as young girl by having nothing to do with it as being good or evil. On a mural, In East London</desc>
+        <p>
+            <img src="Bomb_Hugger.jpg" alt="Bomb Hugger Banksy"/>
+            <title>Bomb Hugger Banksy</title>
+            <credit>By Rachel Richardson from East London, http://www.blogs.buprojects.uk/2015-2016/rachelrichardson/2015/11/22/bomb-hugger-by-banksy/</credit>
+        </p>
+    </body>
+</root>
+
+
+

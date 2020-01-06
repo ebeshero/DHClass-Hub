@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   xmlns:rng="http://relaxng.org/ns/structure/1.0"
+   version="2.9.1"
+   xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hamilton ODD</title>
+            <author>Audrey Hunker</author>
+            <respStmt><resp>With assistance from</resp><name>Elisa Beshero-Bondar</name></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Prepared in TEI P5 for the Hamilton Project team on newtFire.org. GitHub repository: <ref target="https://github.com/ahunker/Hamilton-Project"/>. Date last worked on: <date when="2017-03-07">07 March 2017</date></authority>
+            <availability><licence><!--Choose and identify a Creative Commons license for sharing your code. Look here: https://creativecommons.org/share-your-work/--></licence></availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <schemaSpec ident="starterODD" start="TEI" prefix="tei">
+            <moduleRef key="tei"/>
+            <moduleRef key="core" include="listBibl bibl title author editor publisher pubPlace biblScope name rs date desc head lg l lb note num p q ref resp respStmt sp speaker stage textLang otherLangs foreign label"/>
+            <moduleRef key="analysis" include="s cl phr w"/>
+            <moduleRef key="drama" except="actor camera caption sound tech view prologue epilogue move performance"/>
+            <moduleRef key="header"/> 
+            <moduleRef key="linking" include="seg"/>
+            <moduleRef key="namesdates" include="persName placeName roleName geo place listPlace listEvent event"/>
+            <moduleRef key="textstructure" include="TEI back body div front floatingText text"/>
+            
+            
+      
+            <elementSpec ident="seg" module="linking" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <datatype><rng:text/></datatype>
+                     <valList type="closed">
+                        <valItem ident="#fiction"/>
+                        <valItem ident="#fact"/>
+                        <valItem ident="#ambiguous"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            <elementSpec ident="sp" module="core" mode="change">
+         <attList>
+            <attDef ident="who" mode="replace" usage="req">
+               <datatype><rng:text/></datatype>
+               <valList type="semi">
+                  
+                  <valItem ident="#hamilton"/>
+                  <valItem ident="#burr"/>
+                  <valItem ident="#washington"/>
+                  <valItem ident="#mulligan"/>
+                  <valItem ident="#lafayette"/>
+                  <valItem ident="#laurens"/>
+                  <valItem ident="#kingGeorge"/>
+                  <valItem ident="#seabury"/>
+                  <valItem ident="#lee"/>
+                  <valItem ident="#eliza"/>
+                  <valItem ident="#angelica"/>
+                  <valItem ident="#peggy"/>
+                  <valItem ident="#jefferson"/>
+                  <valItem ident="#madison"/>
+                  <valItem ident="#philipH"/>
+                  <valItem ident="#maria"/>
+                  <valItem ident="#reynolds"/>
+                  <valItem ident="#eacker"/>
+                  <valItem ident="#doctor"/>
+                  <valItem ident="#martha"/>
+                  <valItem ident="#dolly"/>
+                  <valItem ident="#ensemble"/>
+                  <valItem ident="#company"/>
+                  <valItem ident="#men"/>
+                  <valItem ident="#women"/>
+                  <valItem ident="#recording"/>
+               </valList>
+            </attDef>
+            
+         </attList>
+         
+         
+      </elementSpec>      
+            <elementSpec ident="persName" module="core" mode="change">
+               <attList>
+                  <attDef ident="ref" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="#hamilton"/>
+                        <valItem ident="#burr"/>
+                        <valItem ident="#washington"/>
+                        <valItem ident="#laurens"/>
+                        <valItem ident="#mulligan"/>
+                        <valItem ident="#ensemble"/>
+                        <valItem ident="#company"/>
+                        <valItem ident="#men"/>
+                        <valItem ident="#women"/>
+                        <valItem ident="#lafayette"/>
+                        <valItem ident="#eliza"/>
+                        <valItem ident="#angelica"/>
+                        <valItem ident="#peggy"/>
+                        <valItem ident="#jefferson"/>
+                        <valItem ident="#madison"/>
+                        <valItem ident="#philipH"/>
+                        <valItem ident="#kingGeorge"/>
+                        <valItem ident="#seabury"/>
+                        <valItem ident="#lee"/>
+                        <valItem ident="#maria"/>
+                        <valItem ident="#reynolds"/>
+                        <valItem ident="#eacker"/>
+                        <valItem ident="#doctor"/>
+                        <valItem ident="#martha"/>
+                        <valItem ident="#dolly"/>
+                        <valItem ident="#ness"/>
+                        <valItem ident="#pendleton"/>
+                        <valItem ident="#generalMercer"/>
+                        <valItem ident="#kingLouis"/>
+                        <valItem ident="#betsy"/>
+                        <valItem ident="#rochambeau"/>
+                        <valItem ident="#weeks"/>
+                        <valItem ident="#jay"/>
+                        <valItem ident="#sally"/>
+                        <valItem ident="#conway"/>
+                        <valItem ident="#theodosiaDaughter"/>
+                        <valItem ident="#theodosiaMother"/>
+                        <valItem ident="#philipS"/>
+                        <valItem ident="#paine"/>
+                        <valItem ident="#sAdams"/>
+                        <valItem ident="#jAdams"/>
+                        <valItem ident="#admiralHowe"/>
+                        <valItem ident="#generalMontgomery"/>
+                        <valItem ident="#green"/>
+                        <valItem ident="#knox"/>
+                        <valItem ident="#marthaWashington"/>
+                        <valItem ident="#schuylerSis"/>
+                        <valItem ident="#franklin"/>
+                     </valList>
+                  </attDef>
+                  
+               </attList>
+               
+               
+            </elementSpec> 
+            <elementSpec ident="phr" module="analysis" mode="change">
+               <attList>
+                  <attDef ident="type" mode="replace" usage="req">
+                     <valList type="closed">
+                        <valItem ident="#shot"/>
+                        <valItem ident="#wait"/>
+                        <valItem ident="#rise"/>
+                        <valItem ident="#time"/>
+                        <valItem ident="#satisfied"/>
+                        <valItem ident="#helpless"/>
+                        <valItem ident="#legacy"/>
+                        <valItem ident="#look"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
+            
+         </schemaSpec>
+      </body>
+  </text>
+</TEI>

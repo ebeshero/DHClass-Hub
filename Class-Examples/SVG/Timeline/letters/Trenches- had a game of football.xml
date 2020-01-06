@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="WarLettersSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <title>Trenches: "had a game of football"</title>
+    
+<abstract>This is one of many letters sent by staff of the Great Western Railway (GWR) Audit office at <placeName location="Paddington"></placeName> who had enlisted to fight in the 
+First World War. (RAIL 253/516)</abstract>
+
+<heading><persName firstName="Ernest" lastName="Bratchell"/>,France. Born: 28 July 1893, Joined GWR: 3 February 1908, Regiment: 1/3 (City of London) Battalion 
+(Royal Fusiliers), Regiment number: 2176, Rank: Private, Died: 1969</heading>
+
+
+<body>
+    
+    <p>Dear Burgie,</p>
+
+<p>Was very glad indeed to get your letters although, your news in regard to <persName>Joe [Chamberlain]</persName> comes as a shock. It was the first
+I had heard of him since he arrived in <placeName location="France"/> in spite of the fact his regiment being quite close. Am afraid the 9th and few days following were rotten days for a good
+many battalions, our lot as much as any. We have been “in” since the 8th and have had a fairly trying time we were reinforced during this week, not
+before time as we were down to our last two hundred. Can’t tell how sorry I am to hear about Joe as you say he was “one of the best”. I hope you 
+chaps have not been annoyed at my not answering your very welcome letters. I don’t pride myself much on writing good yarns though and opportunities
+are also hard to find. As you know I had a bit of a knock at <placeName location="Neuve Chappell"></placeName> but have quite got over that and am now in the <emotion morale="best of health and spirits"></emotion>.
+I came across <persName>Len Phillips</persName> and <persName>Peter Hawes</persName> in different drafts of the <placeName location="London Scottish"></placeName> while down at
+<placeName location="Rouen"></placeName> both of them have now had some experience on the job I expect. Thank <persName>Mr Drewe</persName> very much for making
+inquiries, tell him I occasionally wish heartily to be on the old job again the quiet life
+will do for me after this. No I did not get <persName>Dick’s</persName> magazine or letter expect it went astray while I was in hospital. Thank him very much for sending
+them will you. Had a game of football about two weeks ago with R.G.A.* Battery, the pitch being a serious drawback. I think it was a cabbage patch.
+Still we managed to get a good game in and most important of all, won. The weather here has on the whole been very good just lately only getting an
+occasional day’s rain. Last night we had a sharp thunderstorm, a new experience it had at least the effect of shutting all the other disturbances 
+of our rest up so we did not grouse. Much obliged for all the information re the other fellows. Am glad most of them are getting on so well. 
+<persName>Peacock</persName> seems to have come out top dog. The job alone from other examples seems to be a paying one, leaving out the holiday in <placeName location="Scotland"></placeName>. Well 
+must close my epistle. Please remember me to <persName>Dick</persName>, <persName>Mr Horsley</persName>, <persName>Ransley</persName> and <persName>Drewe</persName>, <persName>Fox</persName>.
+Hoping both they, and yourself are, <emotion morale="like myself O.K."></emotion>
+[Line censored].</p>
+
+</body>
+
+<closing>From yours faithfully,
+
+<persName>E.W. Bratchell</persName></closing>
+
+</letter>

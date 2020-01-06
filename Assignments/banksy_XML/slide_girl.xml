@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Bubble Slide Girl</title>
+                    <alternate>Slide Girl</alternate>
+                    <date when="2008-02"/>
+                    <medium type="spray_paint"/>
+                    <location lat="33.0292" long="27.8546">London, UK</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://us.canvasartrocks.com/blogs/posts/70529347-121-amazing-banksy-graffiti-artworks-with-locations">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>It shows a little girl using a drain pipe as a slide while blowing bubbles. The image shows the girl adapting to her surroundings and finding a playground 
+            in an unlikely place, just as society continues to adapt to difficulties in the world around us. The piece has currently removed. On the wall of a Youth Club in Hackney, East London.</desc>
+        <p>
+            <img src="Slide_Girl.jpg" alt="Bubble Slide Girl"/>
+            <title>Bubble Slide Girl</title>
+            <credit>By: Jacob Helderman from East London, https://hiveminer.com/Tags/banksy%2Cbubbles/Recent</credit>
+        </p>
+    </body>
+</root>

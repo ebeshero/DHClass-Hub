@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Gorilla Artist</title>
+                    <alternate>Shave Kong</alternate>
+                    <date when="2008"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.30702" long="0.065652">London, UK</location>
+                    <ref target="http://www.banksy.co.uk/"></ref>
+                    <ref target="http://www.banksy.co.uk/out.asp"></ref>
+                    <ref target="https://www.timeout.com/hong-kong/art/banksy-whos-laughing-now"></ref>
+                    <cause when="2008"> Against the People in this Society.</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>One of Banksy's graffiti artwork showed up in London by the Cans Festival as a gorilla sitting on a tiny bucket in thinking form 
+            by representing the society and how we've became today as the result of not working togther as a team. On Leake Street at the Cans Festival in London.</desc>
+        <p>
+            <img src="Shave_Kong.jpg" alt="Shave Kong"/>
+            <title>Gorilla Shave Kong</title>
+            <credit>By Elias Johnston from London, Gorilla Artist/Shave Kong https://www.canvasartrocks.com/blogs/posts/70529347-121-amazing-banksy-graffiti-artworks-with-locations</credit>
+        </p>
+    </body>
+</root>
+

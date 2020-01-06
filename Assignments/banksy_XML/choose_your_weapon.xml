@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Choose Your Weapon</title>
+                    <date when="2010"/>
+                    <medium type="canvas"/>
+                    <size dimension="70 x 70">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="25" signed="25" unsigned="0">Bright Pink</edition>
+                    <edition total="25" signed="25" unsigned="0">Bright Purple</edition>
+                    <edition total="58" signed="58" unsigned="0">Dark Blue</edition>
+                    <edition total="25" signed="25" unsigned="0">Dark Orange</edition>
+                    <edition total="25" signed="25" unsigned="0">Gold</edition>
+                    <edition total="25" signed="25" unsigned="0">Green</edition>
+                    <edition total="100" signed="100" unsigned="0">Grey</edition>
+                    <edition total="25" signed="25" unsigned="0">Khaki</edition>
+                    <edition total="25" signed="25" unsigned="0">Lemon</edition>
+                    <edition total="25" signed="25" unsigned="0">Light Orange</edition>
+                    <edition total="25" signed="25" unsigned="0">Magenta</edition>
+                    <edition total="25" signed="25" unsigned="0">Olive</edition>
+                    <edition total="58" signed="58" unsigned="0">Queue Jump Grey</edition>
+                    <edition total="25" signed="25" unsigned="0">Red</edition>
+                    <edition total="25" signed="25" unsigned="0">Silver</edition>
+                    <edition total="25" signed="25" unsigned="0">Sky Blue</edition>
+                    <edition total="25" signed="25" unsigned="0">Slate</edition>
+                    <edition total="25" signed="25" unsigned="0">Soft Yellow</edition>
+                    <edition total="25" signed="25" unsigned="0">Turquoise</edition>
+                    <edition total="20" signed="20" unsigned="0">White</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/choose_your_weapon_bright_pink.jpg" alt="Banksy's 'Choose Your Weapon (Bright Pink)'"/>
+            <title>Choose Your Weapon (Bright Pink)</title>
+            <credit>https://dl.airtable.com/WvqifPUtTDKlctsEpC4l_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_bright_purple.jpg" alt="Banksy's 'Choose Your Weapon (Bright Purple)'"/>
+            <title>Choose Your Weapon (Bright Purple)</title>
+            <credit>https://dl.airtable.com/9b6Rv9rfRXyqXbbDaFIr_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_dark_blue.jpg" alt="Banksy's 'Choose Your Weapon (Dark Blue)'"/>
+            <title>Choose Your Weapon (Dark Blue)</title>
+            <credit>https://dl.airtable.com/nLipTKqKQr2RMkrlLzZ3_full_banksy-choose-your-weapon-dark-blue.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_dark_orange.jpg" alt="Banksy's 'Choose Your Weapon (Dark Orange)'"/>
+            <title>Choose Your Weapon (Dark Orange)</title>
+            <credit>https://dl.airtable.com/sGt8KLTRRi9tMhS30dJK_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_gold.jpg" alt="Banksy's 'Choose Your Weapon (Gold)'"/>
+            <title>Choose Your Weapon (Gold)</title>
+            <credit>https://dl.airtable.com/lAMmD7wOQNG08f4omocf_full_banksy-choose-your-weapon-Gold.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_green.jpg" alt="Banksy's 'Choose Your Weapon (Green)'"/>
+            <title>Choose Your Weapon (Green)</title>
+            <credit>https://dl.airtable.com/WDfrVhYnQyeBPAZjVB79_full_Banksy-choose-your-weapon-Green.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_grey.jpg" alt="Banksy's 'Choose Your Weapon (Grey)'"/>
+            <title>Choose Your Weapon (Grey)</title>
+            <credit>https://dl.airtable.com/Vu88SdQzGkqSkIBwpozA_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_khaki.jpg" alt="Banksy's 'Choose Your Weapon (Khaki)'"/>
+            <title>Choose Your Weapon (Khaki)</title>
+            <credit>https://dl.airtable.com/6aIfMtuiQ1m1M9bvRZq1_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_lemon.jpg" alt="Banksy's 'Choose Your Weapon (Lemon)'"/>
+            <title>Choose Your Weapon (Lemon)</title>
+            <credit>https://dl.airtable.com/0JcNCdQdTdGnrhtlhAdo_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_light_orange.jpg" alt="Banksy's 'Choose Your Weapon (Light Orange)'"/>
+            <title>Choose Your Weapon (Light Orange)</title>
+            <credit>https://dl.airtable.com/oqqrUYi0R1irDryW0mYH_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_magenta.jpg" alt="Banksy's 'Choose Your Weapon (Magenta)'"/>
+            <title>Choose Your Weapon (Magenta)</title>
+            <credit>https://dl.airtable.com/uIsNFnWXQCmv4wTYLp3k_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_olive.jpg" alt="Banksy's 'Choose Your Weapon (Olive)'"/>
+            <title>Choose Your Weapon (Olive)</title>
+            <credit>https://dl.airtable.com/QSZRI3RRRLOkXJy7K3tR_full_Image.png</credit>
+            <img src="../img/choose_your_weapon_queue_jump_grey.jpg" alt="Banksy's 'Choose Your Weapon (Queue Jump Grey)'"/>
+            <title>Choose Your Weapon (Queue Jump Grey)</title>
+            <credit>https://dl.airtable.com/YWZunt0iRZKNaQiFzC7E_full_banksy-Choose-Your-Weapon-Warm-Grey.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_red.jpg" alt="Banksy's 'Choose Your Weapon (Red)'"/>
+            <title>Choose Your Weapon (Red)</title>
+            <credit>https://dl.airtable.com/dXR5ejoPRKuN2bLQRWgu_full_Banksy%2520Choose%2520Your%2520Weapon%2520Red.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_silver.jpg" alt="Banksy's 'Choose Your Weapon (Silver)'"/>
+            <title>Choose Your Weapon (Silver)</title>
+            <credit>https://dl.airtable.com/yaVORYHQAuskhnF7TVy0_full_banksy-choose-your-weapon-Silver.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_sky.jpg" alt="Banksy's 'Choose Your Weapon (Sky)'"/>
+            <title>Choose Your Weapon (Sky)</title>
+            <credit>https://dl.airtable.com/VLy4NXZHTfmjUKTjC9oP_full_Banksy-Choose-Your-Weapon-Sky-Blue.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_slate.jpg" alt="Banksy's 'Choose Your Weapon (Slate)'"/>
+            <title>Choose Your Weapon (Slate)</title>
+            <credit>https://dl.airtable.com/TWXiMGQJRZKcqISEEWgR_full_Banksy-Choose-your-Weapon-Slate-500.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_soft_yellow.jpg" alt="Banksy's 'Choose Your Weapon (Soft Yellow)'"/>
+            <title>Choose Your Weapon (Soft Yellow)</title>
+            <credit>https://dl.airtable.com/wiqxnjSzTGiG1doeJwss_full_Banksy_Choose_Your_Weapon_Soft_Yellow_LARGE.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_turquoise.jpg" alt="Banksy's 'Choose Your Weapon (Turquoise)'"/>
+            <title>Choose Your Weapon (Turquoise)</title>
+            <credit>https://dl.airtable.com/V6cgzNCaS7StqfX691cY_full_banksy-choose-your-weapon-turquoise.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/choose_your_weapon_white.jpg" alt="Banksy's 'Choose Your Weapon (White)'"/>
+            <title>Choose Your Weapon (White)</title>
+            <credit>https://dl.airtable.com/Uu6jU4V2S5u9ixxTUoYz_full_Banksy-Choose-Your-Weapon-White.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

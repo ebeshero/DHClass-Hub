@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>No Ball Games</title>
+                    <date when="2009"/>
+                    <medium type="canvas"/>
+                    <size dimension="50 x 76">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="250" signed="250" unsigned="0">Green</edition>
+                    <edition total="250" signed="250" unsigned="0">Grey</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/no_ball_games_green.jpg" alt="Banksy's 'No Ball Games (Green)'"/>
+            <title>No Ball Games (Green)</title>
+            <credit>https://dl.airtable.com/sJ6vDQITRfaDjrJlOzxG_full_Banksy_No_Ball_Games_Green.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/no_ball_games_grey.jpg" alt="Banksy's 'No Ball Games (Grey)'"/>
+            <title>No Ball Games (Grey)</title>
+            <credit>https://dl.airtable.com/54iMFaYXQBOmhrZwSurq_full_Banksy-No-Ball-Games-L.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Because I'm Worthless</title>
+                    <date when="2004"/>
+                    <medium type="canvas"/>
+                    <size dimension="50 x 35">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="250" signed="75" unsigned="150">Red</edition>
+                    <edition total="250" signed="75" unsigned="150">Pink</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Signature: Signature on the left and numbering on the right
+              Comments: Known as Placard rats, the text in these prints was either red or pink, spread evenly through the edition</desc>
+        <p>
+            <img src="../img/worthless_pink.jpg" alt="Banksy's 'Because I'm Worthless (Pink)'"/>
+            <title>Because I'm Worthless (Pink)</title>
+            <credit>https://dl.airtable.com/HdyWbGdDRaGK5RzcyJCR_full_banksy-because-im-wortthless-red-large.jpg.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/worthless_red.jpg" alt="Banksy's 'Because I'm Worthless (Red)'"/>
+            <title>Because I'm Worthless (Red)</title>
+            <credit>https://dl.airtable.com/qnERTEf0Sh2MeutS11Mr_full_Banksy-Because-I'm-Worthless500.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"/>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"/>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Girl with Balloon</title>
+                    <alternate>Balloon Girl</alternate>
+                    <alternate>Girl and Balloon</alternate>
+                    <date when="2002"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.508611" long="-0.116944">London, UK</location>
+                    <ref target="http://www.banksy.co.uk/out.asp">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/p/BpDMo26h3Cu/">Banksy's Personal
+                        Instagram</ref>
+                    <ref target="https://en.wikipedia.org/wiki/Girl_with_Balloon">Wikipedia
+                        Article</ref>
+                    <cause when="2005">West Bank Barrier</cause>
+                    <cause when="2014">Syrian Refugee Crisis</cause>
+                    <cause when="2017">UK Election</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>One of Banksy's most iconic pieces, the Girl with Balloon first appeared at the stairs
+            for the Waterloo Bridge on the South Bank side in 2002. Stairs for the Waterloo Bridge on the
+            South Bank side.</desc>
+        <p>
+            <img src="girl_with_balloon_waterloo.jpg" alt="Girl With Balloon Waterloo Location"/>
+            <title>Girl with Balloon</title>
+            <credit>By Dominic Robinson from Bristol, UK - Banksy Girl and Heart Balloon, CC BY-SA
+                2.0, https://commons.wikimedia.org/w/index.php?curid=73570221</credit>
+        </p>
+        <p>
+            <img src="girl_with_balloon_london.jpg" alt="Girl With Balloon London Location"/>
+            <title>Girl with Balloon</title>
+            <credit>By LYDIA and her SALAD DAYS - Girl with heart balloon, Banksy, London,
+                https://www.flickr.com/photos/82029517@N00/434681350</credit>
+        </p>
+    </body>
+</root>

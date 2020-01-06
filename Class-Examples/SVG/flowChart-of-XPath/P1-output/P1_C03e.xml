@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C03e">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C03e</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C03e_app1">
+		             <rdgGrp xml:id="C03e_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app1_rg2" n="['&lt;p/&gt;but']">
+			               <rdg wit="f1818">&lt;p sID="novel1_letter2_div2_p6"/&gt;But </rdg>
+			               <rdg wit="f1823">&lt;p sID="novel1_letter2_div2_p6"/&gt;But </rdg>
+			               <rdg wit="fThomas">&lt;p sID="novel1_letter2_div2_p6"/&gt;But </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app1_rg3" n="['&lt;p/&gt;yet']">
+			               <rdg wit="f1831">&lt;p sID="novel1_letter2_div2_p6"/&gt;Yet </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app2">
+		             <rdgGrp xml:id="C03e_app2_rg1" n="['do', 'not']">
+			               <rdg wit="f1818">do not </rdg>
+			               <rdg wit="f1823">do not </rdg>
+			               <rdg wit="fThomas">do not </rdg>
+			               <rdg wit="f1831">do not </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app3">
+		             <rdgGrp xml:id="C03e_app3_rg1" n="['suppose', 'that,']">
+			               <rdg wit="f1818">suppose that, </rdg>
+			               <rdg wit="f1823">suppose that, </rdg>
+			               <rdg wit="fThomas">suppose that, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app3_rg2" n="['suppose,']">
+			               <rdg wit="f1831">suppose, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app4">
+		             <rdgGrp xml:id="C03e_app4_rg1"
+                       n="['because', 'i', 'complain', 'a', 'little,', 'or', 'because', 'i', 'can', 'conceive', 'a', 'consolation', 'for', 'my', 'toils', 'which', 'i', 'may', 'never', 'know,', 'that', 'i', 'am', 'wavering', 'in', 'my', 'resolutions.', 'those', 'are', 'as', 'fixed', 'as', 'fate;', 'and', 'my', 'voyage', 'is', 'only', 'now', 'delayed', 'until', 'the', 'weather', 'shall', 'permit', 'my', 'embarkation.', 'the', 'winter', 'has', 'been', 'dreadfully', 'severe;', 'but', 'the', 'spring', 'promises', 'well,', 'and', 'it', 'is', 'considered', 'as', 'a', 'remarkably', 'early', 'season;', 'so']">
+			               <rdg wit="f1818">because I complain a little, or because I can conceive a consolation for my toils which I &lt;pb n="016" xml:id="F1818_v1_028"/&gt;may never know, that I am wavering in my resolutions. Those are as fixed as fate; and my voyage is only now delayed until the weather shall permit my embarkation. The winter has been dreadfully severe; but the spring promises well, and it is considered as a remarkably early season; so </rdg>
+			               <rdg wit="f1823">because I complain a little, or because I can conceive a consolation for my toils which I may never know, that I am wavering &lt;pb n="16" xml:id="F1823_v1_035"/&gt;in my resolutions. Those are as fixed as fate; and my voyage is only now delayed until the weather shall permit my embarkation. The winter has been dreadfully severe; but the spring promises well, and it is considered as a remarkably early season; so </rdg>
+			               <rdg wit="fThomas">because I complain a little, or because I can conceive a consolation for my toils which I &lt;pb n="016" xml:id="F1818_v1_028"/&gt;may never know, that I am wavering in my resolutions. Those are as fixed as fate; and my voyage is only now delayed until the weather shall permit my embarkation. The winter has been dreadfully severe; but the spring promises well, and it is considered as a remarkably early season; so </rdg>
+			               <rdg wit="f1831">because I complain a little, or because I can conceive a consolation for my toils which I &lt;pb n="9" xml:id="F1831_v_025"/&gt;may never know, that I am wavering in my resolutions. Those are as fixed as fate; and my voyage is only now delayed until the weather shall permit my embarkation. The winter has been dreadfully severe; but the spring promises well, and it is considered as a remarkably early season; so </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app5">
+		             <rdgGrp xml:id="C03e_app5_rg1" n="['that', 'perhaps']">
+			               <rdg wit="f1823">that perhaps </rdg>
+			               <rdg wit="f1831">that perhaps </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app5_rg2" n="['that,', 'perhaps,']">
+			               <rdg wit="f1818">that, perhaps, </rdg>
+			               <rdg wit="fThomas">that, perhaps, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app6">
+		             <rdgGrp xml:id="C03e_app6_rg1"
+                       n="['i', 'may', 'sail', 'sooner', 'than', 'i', 'expected.', 'i', 'shall', 'do', 'nothing']">
+			               <rdg wit="f1818">I may sail sooner than I expected. I shall do nothing </rdg>
+			               <rdg wit="f1823">I may sail sooner than I expected. I shall do nothing </rdg>
+			               <rdg wit="fThomas">I may sail sooner than I expected. I shall do nothing </rdg>
+			               <rdg wit="f1831">I may sail sooner than I expected. I shall do nothing </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app7">
+		             <rdgGrp xml:id="C03e_app7_rg1" n="['rashly:']">
+			               <rdg wit="f1823">rashly: </rdg>
+			               <rdg wit="f1831">rashly: </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app7_rg2" n="['rashly;']">
+			               <rdg wit="f1818">rashly; </rdg>
+			               <rdg wit="fThomas">rashly; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app8">
+		             <rdgGrp xml:id="C03e_app8_rg1"
+                       n="['you', 'know', 'me', 'sufficiently', 'to', 'confide', 'in', 'my', 'prudence', 'and']">
+			               <rdg wit="f1818">you know me sufficiently to confide in my prudence and </rdg>
+			               <rdg wit="f1823">you know me sufficiently to confide in my prudence and </rdg>
+			               <rdg wit="fThomas">you know me sufficiently to confide in my prudence and </rdg>
+			               <rdg wit="f1831">you know me sufficiently to confide in my prudence and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app9">
+		             <rdgGrp xml:id="C03e_app9_rg1" n="['considerateness']">
+			               <rdg wit="f1818">considerateness </rdg>
+			               <rdg wit="f1823">considerateness </rdg>
+			               <rdg wit="fThomas">considerateness </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app9_rg2" n="['considerateness,']">
+			               <rdg wit="f1831">considerateness, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app10">
+		             <rdgGrp xml:id="C03e_app10_rg1"
+                       n="['whenever', 'the', 'safety', 'of', 'others', 'is', 'committed', 'to', 'my', 'care.&lt;p/&gt;&lt;p/&gt;i', 'cannot', 'describe', 'to', 'you', 'my', 'sensations', 'on', 'the', 'near', 'prospect', 'of', 'my', 'undertaking.', 'it', 'is', 'impossible', 'to', 'communicate', 'to', 'you', 'a', 'conception', 'of', 'the', 'trembling', 'sensation,', 'half', 'pleasurable', 'and', 'half', 'fearful,', 'with', 'which', 'i', 'am', 'preparing', 'to', 'depart.', 'i', 'am', 'going', 'to', 'unexplored', 'regions,', 'to', '&#34;the', 'land', 'of', 'mist', 'and']">
+			               <rdg wit="f1818">whenever the safety of others is committed to my care.&lt;p eID="novel1_letter2_div2_p6"/&gt;&lt;p sID="novel1_letter2_div2_p7"/&gt;I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and </rdg>
+			               <rdg wit="f1823">whenever the safety of others is committed to my care.&lt;p eID="novel1_letter2_div2_p6"/&gt;&lt;p sID="novel1_letter2_div2_p7"/&gt;I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and </rdg>
+			               <rdg wit="fThomas">whenever the safety of others is committed to my care.&lt;p eID="novel1_letter2_div2_p6"/&gt;&lt;p sID="novel1_letter2_div2_p7"/&gt;I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and </rdg>
+			               <rdg wit="f1831">whenever the safety of others is committed to my care.&lt;p eID="novel1_letter2_div2_p6"/&gt;&lt;p sID="novel1_letter2_div2_p7"/&gt;I cannot describe to you my sensations on the near prospect of my undertaking. It is impossible to communicate to you a conception of the trembling sensation, half pleasurable and half fearful, with which I am preparing to depart. I am going to unexplored regions, to “the land of mist and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app11">
+		             <rdgGrp xml:id="C03e_app11_rg1" n="['snow;&#34;']">
+			               <rdg wit="f1818">&lt;pb n="017" xml:id="F1818_v1_029"/&gt;snow;” </rdg>
+			               <rdg wit="f1823">snow;” </rdg>
+			               <rdg wit="f1831">snow;” </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app11_rg2"
+                       n="['snow;&#34;&lt;note sid=&#34;novel1_letter2_div2_p7_note1&#34;/&gt;coleridge\'s', 'antient', 'mariner.&lt;note eid=&#34;novel1_letter2_div2_p7_note1&#34;/&gt;']">
+			               <rdg wit="fThomas">&lt;pb n="017" xml:id="F1818_v1_029"/&gt;snow;”&lt;note sID="novel1_letter2_div2_p7_note1"/&gt;Coleridge's Antient Mariner.&lt;note eID="novel1_letter2_div2_p7_note1"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app12">
+		             <rdgGrp xml:id="C03e_app12_rg1"
+                       n="['but', 'i', 'shall', 'kill', 'no', 'albatross,', 'therefore', 'do', 'not', 'be', 'alarmed', 'for', 'my']">
+			               <rdg wit="f1818">but I shall kill no albatross, therefore do not be alarmed for my </rdg>
+			               <rdg wit="f1823">but I shall kill no albatross, therefore do not be alarmed for my </rdg>
+			               <rdg wit="fThomas">but I shall kill no albatross, therefore do not be alarmed for my </rdg>
+			               <rdg wit="f1831">but I shall kill no albatross, therefore do not be alarmed for my </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03e_app13">
+		             <rdgGrp xml:id="C03e_app13_rg1"
+                       n="['safety,', 'or', 'if', 'I', 'should', 'come', 'back', 'to', 'you', 'as', 'worn', 'and', 'woful', 'as', 'the', '“Ancient', 'Mariner?”', 'You', 'will', 'smile', 'at', 'my', 'allusion;', 'but', 'I', 'will', 'disclose', 'a', 'secret.', 'I', 'have', 'often', 'attributed', 'my', 'attachment', 'to,', 'my', 'passionate', 'enthusiasm', 'for,', 'the', 'dangerous', 'mysteries', 'of', 'the', 'ocean,', 'to', 'that', 'production', 'of', 'the', 'most', 'imaginative', 'of', 'modern', 'poets.', 'There', 'is', 'something', 'at', 'work', 'in', 'my', 'soul,', 'which', 'I', 'do', 'not', 'understand.', 'I', 'am', 'practically', 'industrious—pains-taking;—a', 'workman', 'to', 'execute', 'with', 'perseverance', 'and', 'labour:—but', 'besides', 'this,', 'there', 'is', 'a', 'love', 'for', 'the', 'marvellous,', 'a', 'belief', 'in', 'the', 'marvellous,', 'intertwined', 'in', 'all', 'my', 'projects,', 'which', 'hurries', 'me', 'out', 'of', 'the', 'common', 'pathways', 'of', 'men,', 'even', 'to', 'the', 'wild', 'sea', 'and', 'unvisited', 'regions', 'I', 'am', 'about', 'to', 'explore.', '&lt;p&gt;', '&lt;p&gt;But', 'to', 'return', 'to', 'dearer', 'considerations.']">
+			               <rdg wit="f1831">safety, or if I should come back to you as worn and woful as the “Ancient Mariner?” You will smile at my allusion; but I will disclose a secret. I have often attributed my attachment to, my passionate enthusiasm for, the dangerous mysteries of the ocean, to that production of the most imaginative of modern poets. There is something at work in my soul, which I do not understand. I am practically industrious—pains-taking;—a workman to execute with perseverance and labour:—but besides this, there is a love for the marvellous, a belief in the marvellous, intertwined in all my projects, which hurries me out of the common pathways of men, even to the wild sea and unvisited regions I am about to explore. &lt;p eID="novel1_letter2_div2_p7"/&gt; &lt;p sID="novel1_letter2_div2_p8"/&gt;But to return to dearer considerations.</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03e_app13_rg2" n="['safety.&lt;p/&gt;']">
+			               <rdg wit="f1818">safety.&lt;p eID="novel1_letter2_div2_p7"/&gt; </rdg>
+			               <rdg wit="f1823">safety.&lt;p eID="novel1_letter2_div2_p7"/&gt; </rdg>
+			               <rdg wit="fThomas">safety.&lt;p eID="novel1_letter2_div2_p7"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

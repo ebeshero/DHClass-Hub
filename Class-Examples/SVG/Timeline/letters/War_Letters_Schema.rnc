@@ -1,0 +1,25 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = letter
+letter = element letter { title, abstract, heading, body, closing*}
+title = element title { text }
+abstract = element abstract { mixed{ persName*, placeName*, date* }}
+persName = element persName { mixed{ firstName?, lastName?, rank?, regiment?, regimentNum?, born?, retired?, death? }}
+firstName = attribute firstName { text }
+lastName = attribute lastName { text }
+rank = attribute rank { text }
+regiment = attribute regiment { text }
+regimentNum = attribute regimentNum { xsd:integer | text }
+born = attribute born { xsd:gYear | xsd:date | xsd:gMonthDay }
+retired = attribute retired { xsd:gYear | xsd:date | xsd:gMonthDay }
+death = attribute death { xsd:gYear | xsd:date | xsd:gMonthDay }
+placeName = element placeName { location, text }
+location = attribute location { text }
+date = element date { when, text }
+when = attribute when { xsd:gYear | xsd:date | xsd:gMonthDay }
+heading = element heading { mixed{ persName } }
+body = element body { p+ }
+p = element p { mixed{ persName*, placeName*, date*, emotion* }}
+emotion = element emotion { morale, text }
+morale = attribute morale { text }
+closing = element closing { mixed{ persName* }}

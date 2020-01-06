@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">  
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter  to <persName ref="#Elford_SirWm">Sir William Elford</persName>, <date when="1818-01-12"> 1818 January 12 </date></title> 
+            <!--ajc: Note: There are two letters attached to each other-->
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#ajc">Amy Colombo</editor>
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greenburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#ajc">Amy Colombo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Proofing and corrections by</resp>
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName><!--2016-08-14 ebb: Proofing is incomplete, but I made several corrections checking against the manuscript, and modified and updated entries for the Site Index, plus made repairs to spacing to prevent words running together in the HTML output. This is a long and complicated letter, and still requires thorough and slow-going proofing against the ms, particularly to be sure of the order of the leaves, and to add notes indicating where Mitford was attaching pages.-->
+            </respStmt>    
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2015-07-10">10 July 2015</date>. P5.</edition>
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford Editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>P1020021.jpg, P1020022.jpg,P1020023.jpg,P1020024.jpg,P1020025.jpg,
+               P1020026.jpg,P1020027.jpg,P1020028.jpg, P1020029.jpg, P1020030.jpg,P1020031.jpg, P1020032.jpg,P1020033.jpg, P1020034.jpg,
+               P1020035.jpg, P1020036.jpg,P1020037.jpg, P1020039.jpg,P1020040.jpg,P1020041.jpg,P1020042.jpg,P1020043.jpg,P1020044.jpg,
+               P1020045.jpg,P1020046.jpg,P1020047.jpg,P1020048.jpg,P1020049.jpg,P1020050.jpg,P1020051.jpg,P1020052.jpg,P1020053.jpg,
+               P1020054.jpg,P1020055.jpg</idno></resp></respStmt>
+            <!--2016-09-18 ebb: I'd like to convert this referencing of photo files to use the TEI <facsimile> element. 
+            See http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-facsimile.html
+            -->
+         </editionStmt>
+         
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greenburg, PA, USA</pubPlace>
+            <date>2015</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName></p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol.4, 1819-1823</collection><!--ajc: which collection is this letter from (1817/1818)?-->
+                  <idno>qB/TU/MIT Vol.4 ff .441 Horizon No.: 1361550</idno>    
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1818-01-12">1818 January 12</date>.</head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p><material>Paper</material></p>
+                           <p>3 large sheets of paper (23cm) and 1 slightly smaller sheet (which has been repaired) attached to page 3. Looks as if
+                              attached with red wax; 4 sheets total.</p>
+                           <p>Address leaf on page 6 bearing the following postmarks:
+                              1) Black circular mileage stamp
+                              reading<stamp>READING<lb/><unclear> <gap quantity ="2" unit ="chars" reason ="illegible"/></unclear><lb/> 1817<lb/></stamp>
+                               Address leaf on page 8 bearing the following postmarks:  
+                              2)Black circular mileage stamp
+                              reading<stamp>READING<lb/> JA 12<lb/> 1818<lb/> <unclear><gap quantity ="2" unit ="chars" reason ="illegile"/></unclear></stamp>
+                           </p>
+                        </support>
+                        <condition>
+                           <p>A portion of the letter (page 4) has been repaired where it was torn away under the seal; there have also been repairs to the
+                           address leaf (verso). A small portion of the letter (page 7) is gone (looks as if cut with scissors?). </p>
+                        </condition>    
+                     </supportDesc>
+                     
+                  </objectDesc>
+                  <sealDesc>
+                     <p>Remnant of black oval-shaped wax seal on page 6; Black circular wax seal; may be the "Un Me Suffit" Cupid seal (page 8). </p>
+                  </sealDesc>
+                  
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote corresp="#MRM" medium="pencil"> attached -- P.S dated 29 Dec. 1817<lb/> belonging to previous letter</handNote>
+         <handNote corresp="#rc">An editorial hand who appears to have drawn lines in red pencil or crayon across sheets of Mitford's ms in the Reading Central Library, here draws diagonal lines as usual through some of the pages, but also, where noted, appears to strike through some phrases in Mitford's letter.</handNote>
+         </handNotes>
+      </profileDesc>
+      
+      <encodingDesc>
+         <editorialDecl>
+            <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the begining of the next in the 
+               manuscript. Where Mitford's spelling and hypenation of words deviates from the standard, in order to facilitate searching we are
+               using the TEI elements "choice," "sic," and "reg" to encode both Mitford's spelling and the regular international standard of 
+               Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms
+               are not encoded.</p>
+         </editorialDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   
+  <text>
+      <body>
+         <div type="letter">
+            <opener> 
+               <add hand="#pencil">attached -- P.S dated 29 Dec. 1817<lb/> belonging to previous letter</add>
+               <dateline>
+                  <name type="person">To Sir William Elford</name>
+                  <name type="place">Bertram House</name> 
+                  <date when="1818-01-12">Jan<hi rend="superscript">y</hi> 12<hi rend="superscript">th</hi> 1818.</date> 
+               </dateline>
+            </opener>
+         <p>I have first been writing two prim letters to
+         two prim ladies for whom I do not care three fins nor they for
+         me -- people with whom I have not an idea in common, nor
+         an acquaintance, but who had heard as they were pleased to
+         say that I wrote "an exceeding good letter"-- I thank them! &amp; availing
+         themselves of having happened to meet me last week <add place="above"> <metamark place="above" function="insertion" rend="caret"/> &amp; having known <persName ref="#Russell_M">Mama</persName>
+            twenty years ago in <placeName ref="#Alresford_Hamps">Hampshire</placeName></add> wrote to
+            enquire after her &amp; to request, forsooth! the pleasure of my
+            correspondence. A great pleasure truly! If ever letters
+            were cold-givers such are mice -- Rain &amp; snow &amp; fogs &amp; damp
+            air all in one. -- For see, my dear <persName ref="#Elford_SirWm">Sir William</persName>-- that after such
+            a job it was absolutely necessary that I should write to you --
+            that I should supple my fingers &amp; thaw my ideas at your
+            warm fire -- &amp; yawn &amp; stretch &amp; pity &amp; bemoan myself to my
+            hearts content. You always let me come to you for comfort
+            in all my troubles &amp; this is one of the worst. Nobody can
+            be so awkward as I am at those sort of letters -- I would give
+            the world for that comfortable amplifying <!--ajc: I'm not sure about this word-->style which goes
+            on so quietly "hoping" &amp; "trusting" &amp; "fearing" &amp; "wishing" &amp; proses
+            about "sweet infants" &amp; "dear Invalids" &amp; "happy convalescence" -- turning
+            &amp; twisting about like a hare before the dogs -- with as many
+            words as a City Orator &amp; as few ideas as the board he bethumps.
+            I would give the world for this sort of prosing &amp; mine happens to
+            be different -- I write as bad perhaps but in another way --</p><pb/>
+            
+            <p>However I will answer for it I have got quit of these correspondences
+               I have happily ridded myself of my reputation as that <unclear><gap quantity="1" unit ="word" reason="illegible"/></unclear><!--ajc: word blurred in photo-->
+               &amp; please the fates I will so demean myself as never to run
+               the risk of having it said that I write "an exceeding good letter"
+               again. <add><metamark rend="waves"/></add><!--ajc:there is a line going through the jerk - as if MRM initially made a dash then wrote the jerk over it.-->
+               Pray <del rend="strikethrough">what</del> <add place="above">how</add> are you doing my dear friend? And what
+               are you doing? Quarter-sessioning it at <placeName ref="#Exeter">Exeter</placeName>? I intend
+               our worthy Chairman the <choice><sic>honour</sic><reg resp="#ajc">honor</reg></choice> of franking this epsitle of
+               mine when it shall be finished -- What else are M.Ps<!--ajc: member of parliment--> good
+               for? I may say this now, since you have cast the M.P. off
+               &amp; are so determined not to take it up again. -- Have you
+               been reading much lately? -- I have <add place="above"> <metamark place="above" function="insertion" rend="caret"/>been</add> reading <persName ref="#Edgeworth_Maria">Miss Edgeworth</persName>'s <title ref="#Ormond_novel">Ormond</title>--sad falling off! Even 
+               that Irish<note resp="#ajc">Mitford uses the word Irish here to refer to dialect.</note> which used to be so
+               fresh &amp; delightful is getting old &amp; us&#233; -- &amp; then she so copies
+               herself -- to be fair there is no law against stealing one's
+               own goods -- it can hardly be called Felony -- but it is something
+               very like it -- &amp; if <title ref="#Eunice">Eunice</title> &amp; <title ref="#Vivian">Vivian</title> &amp; <title ref="#Absentee">the Absentee</title> were to
+               prosecute <persName ref="#Ormond_H">Ormond</persName>, I do think <persName ref="#Ormond_H">Ormond</persName> would be hanged -- Also
+               then I have been reading <persName ref="#Ellis_Hen">Mr. Ellis's</persName> account of the Embassy &amp; <unclear><gap quantity="1" unit ="word" reason="illegible"/></unclear>
+               to <placeName ref= "#China">China</placeName>, &amp; <persName ref="#McLeod_John">Mr. Macleod's</persName>-- One does not get much knowledge
+               there either. Very little new since <persName ref="#Staunton_Geo">Sir George Staunton's</persName> &amp; <persName ref="#Macartney_Geo">Lord Macartney's</persName>
+               &amp; <persName ref="#Barrow_John">Mr. Barrow's</persName> time -- &amp; a good deal less than in <persName ref="#Holden_Henry">Dr. Holden</persName>
+               &amp; the <orgName ref="#Jesuits">Jesuits</orgName>! Oh live forever those delightful romancers
+               who gave <del rend="squiggles"><gap quantity="1" unit="word"/></del> <add place="above">us</add> all the delight of fiction which they believed to be
+               truth -- No Travellers except <persName ref="#Bruce_James">Bruce</persName> ever approached the 
+               charms of the old missionaries. But after all beyond a certain
+               point I do not expect we shall ever get with respect to China -- they are so hedged in with the hoop-petticoat of ceremony</p><pb n="2"/>
+            
+            <p>that nothing is visible beyond the tiny end of the little slipper.
+               The most satisfactory thing in both these books is the impression
+               which was made even on these Ambassador people
+               by <persName ref="#Napoleon">Napoleon</persName> -- the greater than Ever! Even they could not resist
+               his delightful manners -- You like him better than you did do
+               you not? I am sure you do. Apropos to <persName ref="#Bruce_James">Bruce</persName>-- Have you ever
+               finished that delightful <bibl corresp="#Travels_Nile">book</bibl> of his -- and are you not in
+               love with the <persName ref="#Esther_Ozoro">Ozoro Esther</persName> &amp; the beautiful <persName ref="#Mariam_Tecla">Tecla Mariam</persName>?
+               I am sure <persName ref="#Bruce_James">Bruce</persName> himself was enamoured with the last
+               mentioned lady -- he has <del rend="squiggles"><gap quantity="1" unit="word"/></del> <persName ref="#Orlando_AsYouLikeIt_char">Orlando's</persName> marks upon his whenever
+               he mentions her. And don't you think the <persName ref="#Michael_Ras">Ras Michael</persName>
+               a most charming old Tyrant? -- He has all that commanding
+               Villainy about him which carries one along so gloriously --
+               that intellectual power which there is no hating -- just like
+               <persName ref="#Milton">Milton</persName>'s <persName ref="#Satan">Satan</persName> &amp; <persName ref="#Shakespeare">Shakespeare</persName>'s <persName ref="#RichardIII">Richard</persName> &amp; my own beloved
+               the <persName ref="#Napoleon">Emperor</persName>. I wonder what he would think of being put in
+               such company? But I never can read <bibl corresp="#RichardIII_play">Richard</bibl> without thinking
+               of him, &amp; a friend of mine at <placeName ref="#Paris">Paris</placeName> who admires him as
+               much as I do says she delights in "<persName ref="#Talma_Francois">Talma</persName>'s <gap quantity="1" unit="word" reason="illegible"/>"<note resp="#ebb">Possibly a role that <persName ref="#Talma_Francois">Francois Talma</persName> performed in a Paris theatre after Mitford's friend and former teacher, <persName ref="#Rowden_Fr">Frances Rowden</persName>, had moved to <placeName ref="#Paris">Paris</placeName> in <date when="1818">1818</date>.</note> because
+               it is so like <persName ref="#Napoleon">Napoleon's</persName> quite a facsimile. But these
+               are his adorer's fancies -- we should not allow you the
+               profane to say or to think any such thing. <add><metamark rend="waves"/></add> Pray
+               have you ever tried the name diversion -- <add place="below"><metamark place="below" function="insertion" rend="caret"/><!--ajc:an X with a dot in each space, not a caret; seems to serve as an asterisk-->
+               It would not do to propogate nick names</add> We have been
+               obliged to give it up for fear of indiscretion -- <del rend="strikethrough">It would not do to propagate nick names &amp; Canard-en-champ</del></p><pb n="3"/>
+               <!--ajc: NOTE - at this point a fourth page is glued to the third page (over three crossed-out sentences)-->
+               
+            <p><del rend="strikethrough">Monday Morning</del><lb/>.
+               <del rend="strikethrough">P.S.</del> <add place="above"><metamark place="above" function="insertion" rend="caret"/><!--ajc:an X with a dot in each space, not a caret; seems to serve as an asterisk-->
+               <emph rend="underline">note</emph><!--ajc: the word note is double underlined--></add> The amusement here spoken of, is discussed
+               in a former letter, of which my letter remains. I must tell you <del rend="strikethrough">I add a first envelope to my letter to tell you</del><!--ajc: sideways quotation marks inserted before I and who-->
+               who are so fond of riddles a new amusement which 
+               <persName ref="#Valpy_Penelope">Penelope Valpy</persName> <del rend="strikethrough">who is a great <emph rend="underline">enemy</emph> of mine</del>, <persName ref="#James_Miss">Miss James</persName> &amp;
+               I fell into quite by accident the other evening. It would only 
+               do amongst <gap reason ="torn" unit="word" quantity ="1"/><!--ajc: L'Estrange has the missing word as "three"--> such discreet females for fear of propagating 
+               nicknames; but I can't resist telling you. -- It is then nothing
+               more or less than translating the real <choice><sic>sir-names</sic><reg resp="#ajc">surnames</reg></choice> of different
+               people, sometimes quite literally sometimes with a little 
+               improvement into different languages. Did you ever try it?
+               I will give you a sample: <persName ref="#Dukinfield_Mr">Mr. Duckinfield -- Monsieur
+                  Canard-en-champ</persName> -- somebody suggested that it was
+               <persName ref="#Dukinfield_Mr">Mr. Dukinfield</persName> &amp; that the right translation was
+               Dux-in-campo -- but I stuck to Canard. -- <persName ref="#Vane_hist">Mr. Vane -- Mr Girouette</persName> --
+               <persName>Mrs. Wise Madame le Sage</persName>--<persName>Dr. Taylor il Dottore Sartore</persName> --
+               <persName> Mr. Bully Mr.Taureau-mensonge</persName>--
+               --<persName>Mr. Madison - Signor Pazzia-sono-figlio</persName> &amp; a great
+               many others which I can't recollect. Compound names
+               do best. -- Of our list the first &amp; the last were famous
+               --for <persName ref="#Dukinfield_Mr">Mr. Duckinfield</persName> a clerical coxcomb of some family
+               &amp; much pride &amp; gloriously awkward <gap reason ="torn" unit="word" quantity ="1"/> the midst of
+               his coxcombry always puts me in mind of a Duck in
+               thunder -- &amp; poor <persName>Mr. Madison</persName> who in his own proper
+               person is quite nobody happens to be the son of a
+               furious virago who in one of her passions -- at Whist <!--ajc: do we code games?-->
+               especially, might well pass for madness itself<note resp="#ebb">Here Mitford is playing with translations of phonemes in people's names, and among her playful inventions, she applies the French translation of duck from "Duckinfield" as canard, and turns the name "Madison" into the Italian phrase meaning, "I am the son of madness."</note> -- Don't<note resp="#ajc #ebb">At this point <rs type="person" ref="#rc">a red pencil or crayon</rs> crosses through Mitford's word "Don't", perhaps to signal that she neglected to delete this word, since the following leaf begins a new paragraph. This is likely the same hand that appears to cancel many pages of Mitford's letters at the <orgName ref="#ReadingCL">Reading Central Library</orgName> in red.</note></p><pb n="4"/>
+               
+            <p>So <del rend="squiggles"><gap quantity="1" unit ="word"/></del> <gap quantity="2" unit="word" reason="illegible"/> my companions, in mischief-->
+               <del rend="squiggles"><gap quantity="2" unit ="word"/></del> I have taken to the very discreet &amp;<del rend="squiggles"><gap quantity="1" unit ="word"/></del>
+               <del rend="squiggles"><gap quantity="5" unit ="word"/>my companions in mischief this</del>
+               <del rend="squiggles"><gap quantity="1" unit ="word"/></del> Solitary diversion of choosing characters out of <persName ref="#Shakespeare">Shakespeare</persName>
+               for all my acquaintence -- <persName ref="#James_Miss">Miss James</persName> is a charming mixture
+               of <persName ref="#Viola_TN">Viola </persName> <persName ref="#Beatrice_MuchAdo">Beatrice</persName> &amp; <persName ref="#Isabella_Meas4Meas">Isabella</persName> -- Made up of every creature's
+               best " -- <persName ref="#Webb_Eliza">Eliza Webb</persName> is <persName ref="#Miranda">Miranda</persName> to the life -- &amp;
+               <persName ref="#Valpy_Penelope">Penelope Valpy</persName> with her brusquerie -- her sound dark prettiness -- her
+               blundering artlessness &amp; that inconceivable naivete with
+               which she really thinks aloud is &amp; can be nothing but <persName ref="#Nerissa_MerchVenice">Nerissa</persName><!--ajc: Not sure about this??does she mean Portia?-->
+               the lawyers clerk. What would you call her? -- Guess what
+               I call you -- Then we abound in the laughable -- we have
+               two or three <persName ref="#Dogberry_MA">Dogberrys</persName> &amp; more than one <persName ref="#Justice_Lord">Justice</persName> I hallow
+               to say nothing of <persName ref="#Polonius">Polonius</persName>'s <persName ref="#Bardolph_WS">Bardolph</persName>'s &amp; <persName ref="#Nym_WS">Nym</persName>'s by the
+               dozen. I wish we could find a <persName ref="#Falstaff_WS">Falstaff</persName> -- but there is nothing
+               like him left in the world. What a pretty taste I have for
+               all that is naughty! <del rend="strikethrough">Don't you think me a tad mad-cap?</del> <!--ajc: struck through in red - not my MRM-->
+               But it's only when I have a pen in my hand -- you have
+               no notion what a pretty-spoken well-behaved demure
+               damsel I pass for in these parts.<add><metamark rend="waves"/></add> Do you see
+               what <choice><sic>honours </sic><reg resp="#ajc">honors </reg></choice> <persName ref="#Haydon">Mr. Haydon</persName> has gained? I hope he will get
+               a little solid pudding as well as empty praise &amp; that these 
+               Russian Compliments will terminate in <persName ref="#Alexander_I_Rus">Alexander's</persName> giving
+               him a proper price for his beautiful picture &amp; yet
+               <placeName ref="#England">England</placeName> ought not to lose it-- But unless he can find two
+               other such friends as you &amp; <persName>Mr. Trigcombe</persName><!--ajc: I don't know whi this is. There is a Samuel Trigcombe who lived near Cornwall--> (oh my dear
+               Friend how inexpressibly I admire that liberality of yours!)
+               unless he can find such another what can he do? There is 
+               no great chance that Government will be munificent on
+               the occasion -- &amp; it is really too large for any private house<lb/>
+               <del rend="strikethrough">Restart your good custom of writing to me speedily</del> <!--ajc:this line appears on the back of the attached page four--><lb/>
+               <del rend="strikethrough">&amp; do not forget the riddles. -- Pray do you come to Town
+               this year? And when? Have the nightingales any chance of your coming to listen to them? Do not say no!
+               or you will break their hearts to say nothing of another heart that is not a nightingale's --Once more -- Adieu!</del>
+            </p><pb n="5"/>
+            
+            <p>I understand that the same beautiful boy who sat for
+               <figure xml:id="JudgmntSolomon_Haydon"></figure> Solomon is the model from whence he has taken the head
+               of <persName ref="#Jesus">Christ</persName>. Is not this odd? I believe this principle of 
+               self-will &amp; hating to paint furniture pictures is one of
+               the component parts of an artist. My friend <persName ref="#Hofland_TC">Mrs. (not Miss) Hofland's husband</persName>
+               has just the same fancy. He will cover 
+               yards of canvas whether people buy them or not. -- After all
+               I cannot help admiring with all my heart &amp; soul the
+               manly noble independent spirit of <persName ref="#Haydon">Mr. Haydon</persName>. Don't
+               you? He is quite one of the old heroes come to life again
+               -- one of <persName ref="#Shakespeare">Shakespeare's</persName> men. Full of spirit &amp; endurance
+               &amp; moral courage. Did you read his account of the
+               cartoons in <title ref="#Examiner">The Examiner</title>?<note resp="#ebb #ajc">Mitford may be referring to a series of essays in <title ref="#Examiner" level="j">The Examiner</title> through the summer and fall of 1817 about the Raphael cartoons, paintings by Raphael created as full-scale designs for tapestries on biblical subjects for the <placeName>Sistine Chapel</placeName>, and part of the British Royal Collection since the seventeenth century. They were housed at <placeName>Hampton Court</placeName>, but in 1817 they were put on display at the <placeName>British Institute Gallery</placeName> where Haydon set his students to work on studying and copying them. In <bibl>articles to <title level="j">The Examiner</title> of <date  when="1817-06-01">June 1</date> and <date when="1817-07-13">July 13, 1817</date>, Haydon praises the Royal Academy's decision to display the cartoons as a great service to the art of England, but in articles of <date when="1817-08-24">August 24</date> and <date when="1817-11-16">November 16, 1817</date></bibl>, Haydon writes in protest of the Academy's decision to remove the cartoons from the gallery, prematurely stopping his students from working with them.</note> <add><metamark rend="waves"/></add> Pray have you the great fine edition of <persName ref="#Lavater_Johann">Lavater</persName>? And do you remember
+               somewhere in the second or third volume the fine plate of
+               <persName ref="#Raphael">Raphael's</persName> work? Don't you think it like the <persName ref="#Napoleon">Emperor</persName>
+               with that fine thinking brow &amp; that sweet mouth? The <placeName ref="#Reading_city">Reading</placeName>
+               Ladies all say its the image of <persName ref="#Vane_hist">Girouette</persName> <!--ajc: Girouette - is she referring to Vane?--> -- but thats a
+               fib -- It's much too handsome -- too handsome for <choice><sic>any body</sic><reg resp="#ajc">anybody</reg></choice> 
+               but <persName ref="#Napoleon">Napoleon</persName>. I do love to praise him to you because
+               it gets you scolding or laughing at your little Friend
+               &amp; that is what she likes. -- Nota bene -- You fear you should
+               "think something" (and <persName ref="#Hill_Lucy">Lucy</persName> says upon such occasions) I have
+               never spoken to <persName ref="#Vane_hist">Mr. Girouette</persName> in my life nor he to me --
+               never seen him any where but at Church -- but a friend of mine
+               has. -- Adieu my dear Friend! Best <!--ajc: compts? abbreviated compliments?--> from <persName ref="#Mitford_Geo">Papa</persName> &amp; <persName ref="#Russell_M">Mama</persName>
+               --Ever very sincerely &amp; affectionately yours <lb/> <persName ref="#MRM">Mary Russell Mitford</persName><lb/>
+               Write soon, soon, very soon indeed!</p><pb n="6"/>
+            
+            <p>P.S. Upon looking again at <title ref="#Ormond_novel">Ormond</title> I retract some part
+               of my censure in <choice><sic>favour</sic><reg resp="#ajc">favor</reg></choice> of <persName ref="#King_Corny">King Corny</persName> (why did she kill
+               him?) <persName ref="#Mrs_MCrule">Mrs. McRule</persName> -- &amp; <persName ref="#OFaley_Miss_char">Miss O'Faley</persName> -- particularly the last.<note resp="#ajc #ebb"><rs type="person" ref="#rc">The hand in red pencil or crayon</rs> here strikes through all of "Mrs. McRule -- &amp; Miss O'Faley -- particularly the last" through the end of the sentence.</note> The
+               good people are as usual desperately dull -- mere puppets --
+               I don't at all wonder at her admiring <persName ref="#Chas_Grandison_fict">Sir Charles Grandison </persName>
+               <persName ref="#Annaly_Lady_char">Lady Annaly</persName> &amp; <persName ref="#Annaly_Miss_char">Miss Annaly</persName> &amp; all the <!--ajc:?--> &amp; indeed all
+               her heroines are <persName ref="#Chas_Grandison_fict">Sir Charles Grandison</persName>s in caps &amp; petticoats</p><lb/>
+               
+               <p>
+                  <address>
+                     <addrLine><placeName ref="#Reading_city">Reading</placeName><date when="1818-01-15"> January Fifteen 1818</date> </addrLine><lb/>
+                     <addrLine><persName ref="#Elford_SirWm">Sir William Elford Bart.</persName></addrLine><lb/>
+                     <addrLine><placeName ref="#Bickham_village">Bickham</placeName></addrLine><lb/>
+                     <addrLine><placeName><!--ajc:??--></placeName><placeName ref="#Plymouth_city">Plymouth</placeName></addrLine>
+                  </address>
+               </p>
+            
+            <p>She admires <bibl corresp="#TomJones_HF">Tom Jones</bibl> too &amp; so do you, much more that I do -- You
+                all talk of <persName ref="#Fielding_Henry">Fielding</persName>'s art &amp; his plot &amp; its being a complete comic epic
+                &amp; so forth -- but is not the art most in artificially visible -- did he
+                not want the crown of all art, that of conceling it? -- In short is
+                not <persName ref="#Pickle_P">Peregrine Pickle</persName> a much more accomplished &amp; likeable person?
+                Does not <persName ref="#Smollett_Tob">Smollett</persName> make us laugh much more heartily &amp; naturally?
+                --And is not -- I give up his heroine -- but is not the pretty womanly delicate
+                sketch of the cousin <persName ref="#Sophy_PPchar">Sophy</persName> much preferable to <persName ref="#Western_Sophia_TJchar">Sophia Western</persName>? -- Adieu</p>
+         
+            <closer>  
+               <address> <!--ajc: Address on verso of page 4-->
+                  <addrLine><placeName ref="#Reading_city">Reading</placeName> <date when="1817-12-29"> December Twenty Nine 1817</date> </addrLine><lb/>
+                  <addrLine><persName ref="#Elford_SirWm">Sir William Elford Bart.</persName></addrLine><lb/>
+                  <addrLine><placeName ref="#Bickham_village">Bickham</placeName></addrLine><lb/>
+                  <addrLine><placeName><!--ajc:??--></placeName><placeName ref="#Plymouth_city">Plymouth</placeName></addrLine>
+               </address>
+            </closer> 
+            
+            <closer>  
+               <address> <!--ajc: Address on verso of page 7-->
+                  <addrLine><placeName ref="#Reading_city">Reading</placeName> <date when="1818-01-15"> January Fifteen 1818</date> </addrLine>
+                  <addrLine><persName ref="#Elford_SirWm">Sir William Elford Bart.</persName></addrLine>
+                  <addrLine><placeName ref="#Bickham_village">Bickham</placeName></addrLine>
+                  <addrLine>in</addrLine>
+                  <addrLine><placeName>Salisbury </placeName> <placeName ref="#Plymouth_city">Plymouth</placeName></addrLine>
+               </address>
+            </closer> 
+            
+         </div>
+      </body>
+ <!--2016-08-14 ebb: added all new site index entries to Site Index.-->
+  </text>
+</TEI>

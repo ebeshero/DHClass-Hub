@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="Schematron/Schematron2Dickinson.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fascicle 16: Poem 1. 1601/327/variant</title>
+                <author>Emily Dickinson</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Fascicle 16: Dickinson's variants and published versions</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                        <idno>1601</idno></msIdentifier>
+                </msDesc>
+                <bibl><ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="references">
+                <listRef>
+                    <ptr target="xml/1601variant.xml"/>
+                    <ptr target="img/1601/fs1601a.jpg"/>
+                    <ptr target="img/1601/fs1601b.jpg"/>
+                    <ptr target="img/1601/1601ce.jpg"/>
+                    <ptr target="img/1601/1601fh.jpg"/>
+                    <ptr target="img/1601/1601poems2.jpg"/>
+                    <ptr target="img/1601/1601ceMap.jpg"/>
+                    <ptr target="img/1601/1601fhMap.jpg"/>
+                    <ptr target="img/1601/1601poems2Map.jpg"/>
+                    <ptr target="img/1601/fs1601Map.jpg"/>
+                </listRef>
+            </div>
+            <div type="witness">
+                <listWit>
+                    <witness xml:id="df16">
+                        <bibl>
+                            <title>ORIGINAL POEMS</title>
+                            <author>Emily Dickinson</author>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="poems2">
+                        <bibl>
+                            <title>Poems, Second Series</title>
+                            <author>Emily Dickinson</author>
+                            <editor>Thomas Wentworth Higginson and Mabel Loomis Todd</editor>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Roberts Brothers</publisher>
+                            <date>1891</date>
+                            <ref target="http://www.ibiblio.org/ebooks/Dickinson/Dickinson_Poems2.htm#copy">Poems by Emily Dickinson, Second Series (html version)</ref>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="ce">
+                        <bibl>
+                            <title>The Poems of Emily Dickinson: Centenary Edition</title>
+                            <author>Emily Dickinson</author>
+                            <editor>Martha Dickinson Bianchi and Alfred Leete Hampson</editor>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Little, Brown and Company</publisher>
+                            <date>1930</date>
+                        </bibl>
+                    </witness>
+                    <witness xml:id="fh">
+                        <bibl>
+                            <title>Final Harvest: Emily Dickinson's Poems</title>
+                            <author>Emily Dickinson</author>
+                            <editor>Thomas H. Johnson</editor>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Little, Brown and Company</publisher>
+                            <date>1961</date>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <head>
+                <title>Poem 1 (J 327: 1862/1891)</title></head>
+            <lg>
+                <l n="1">Before I got my <app>
+                    <rdg wit="#df16">Eye</rdg>
+                    <rdg wit="#ce #fh #poems2">eye</rdg>
+                </app> put out<app>
+                    <rdg wit="#df16">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">,</rdg>
+                    <rdg wit="#fh"></rdg>
+                </app></l>
+                <l n="2">I liked as well to see<app>
+                    <rdg wit="#df16 #ce #poems2"></rdg>
+                    <rdg wit="#fh">&#8212;</rdg>
+                </app></l>
+                <l n="3">As other <app>
+                    <rdg wit="#df16 #fh">Creatures</rdg>
+                    <rdg wit="#ce #poems2">creatures</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">,</rdg>
+                    <rdg wit="#ce #poems2"></rdg>
+                </app> that have <app>
+                    <rdg wit="#df16 #fh">Eyes</rdg>
+                    <rdg wit="#ce #poems2">eyes</rdg>
+                </app><app>
+                    <rdg wit="#df16">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">,</rdg>
+                    <rdg wit="#fh"></rdg>
+                </app></l>
+                <l n="4">And know no other way<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">.</rdg>
+                </app></l>
+            </lg>
+            <lg>
+                <l n="5">But were it told to me<app>
+                    <rdg wit="#df16 #ce #poems2">, </rdg>
+                    <rdg wit="#fh">&#8212;</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">Today</rdg>
+                    <rdg wit="#ce #poems2">to-day</rdg>
+                </app><app>
+                    <rdg wit="#df16 #ce #poems2">,</rdg>
+                    <rdg wit="#fh">&#8212;</rdg>
+                </app></l>
+                <l n="6">That I might have the <app>
+                    <rdg wit="#df16">Sky</rdg>
+                    <rdg wit="#ce #fh #poems2">sky</rdg>
+                </app></l>
+                <l n="7">For mine<app>
+                    <rdg wit="#df16 #ce #poems2">, </rdg>
+                    <rdg wit="#fh">&#8212;</rdg>
+                </app>I tell you that my <app>
+                    <rdg wit="#df16 #fh">Heart</rdg>
+                    <rdg wit="#ce #poems2">heart</rdg>
+                </app></l>
+                <l n="8">Would split, for size of me<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">.</rdg>
+                </app></l>
+            </lg>
+            <lg>
+                <l n="9">The <app>
+                    <rdg wit="#df16 #fh">Meadows</rdg>
+                    <rdg wit="#ce #poems2">meadows</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2"> </rdg>
+                </app>mine<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">, </rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh"></rdg>
+                    <rdg wit="#ce #poems2">the mountains mine,&#8212;</rdg>
+                </app></l>
+                <l n="10"><app>
+                    <rdg wit="#df16 #fh">The Mountains&#8212;mine&#8212;</rdg>
+                    <rdg wit="#ce #poems2"></rdg>
+                </app></l>
+                <l n="11">All <app>
+                    <rdg wit="#df16 #fh">Forests</rdg>
+                    <rdg wit="#ce #poems2">forests</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">, </rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">Stintless</rdg>
+                    <rdg wit="#ce #poems2">stintless</rdg>
+                </app> <app>
+                    <rdg wit="#df16 #fh">Stars</rdg>
+                    <rdg wit="#ce #poems2">stars</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">,</rdg>
+                </app></l>
+                <l n="12">As much of <app>
+                    <rdg wit="#df16 #ce #poems2">noon</rdg>
+                    <rdg wit="#fh">Noon</rdg>
+                </app><app>
+                    <rdg wit="#df16">,</rdg>
+                    <rdg wit="#ce #fh #poems2"></rdg>
+                </app> as I could take<app>
+                    <rdg wit="#df16">&#8212;</rdg>
+                    <rdg wit="#ce #fh #poems2"></rdg>
+                </app></l>
+                <l n="13">Between my finite <app>
+                    <rdg wit="#df16">Eyes</rdg>
+                    <rdg wit="#ce #fh #poems2">eyes</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">.</rdg>
+                </app></l>
+            </lg>
+            <lg>
+                <l n="14">The <app>
+                    <rdg wit="#df16 #fh">Motions</rdg>
+                    <rdg wit="#ce #poems2">motions</rdg>
+                </app> of the <app>
+                    <rdg wit="#df16 #fh">Dipping</rdg>
+                    <rdg wit="#ce #poems2">dipping</rdg>
+                </app> <app>
+                    <rdg wit="#df16 #fh">Birds</rdg>
+                    <rdg wit="#ce #poems2">birds</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">,</rdg>
+                </app></l>
+                <l n="15">The <app>
+                    <rdg wit="#df16" type="var0">Lightning's jointed Road&#8212;</rdg>
+                    <rdg wit="#df16 #fh" type="var1">Morning's Amber Road&#8212;</rdg>
+                    <rdg wit="#ce #poems2">lightning's jointed road,</rdg>
+                </app>
+                </l>
+                <l n="16">For mine<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2"> </rdg>
+                </app>to look at when I liked<app>
+                    <rdg wit="#df16">,</rdg>
+                    <rdg wit="#ce #poems2">,&#8212;</rdg>
+                    <rdg wit="#fh">&#8212;</rdg>
+                </app></l>
+                <l n="17">The <app>
+                    <rdg wit="#df16 #ce #poems2">news</rdg>
+                    <rdg wit="#fh">News</rdg>
+                </app> would strike me dead<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">!</rdg>
+                </app></l>
+            </lg>
+            <lg>
+                <l n="18">So<app>
+                    <rdg wit="#df16 #fh"></rdg>
+                    <rdg wit="#ce #poems2">,</rdg>
+                </app> safer<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">, </rdg>
+                </app>guess<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">, </rdg>
+                </app>with just my soul</l>
+                <l n="19">Upon the <app>
+                    <rdg wit="#df16">window pane</rdg>
+                    <rdg wit="#ce #poems2">window-pane</rdg>
+                    <rdg wit="#fh">Window pane</rdg>
+                </app><app>
+                    <rdg wit="#df16 #ce #poems2"></rdg>
+                    <rdg wit="#fh">&#8212;</rdg>
+                </app></l>
+                <l n="20">Where other <app>
+                    <rdg wit="#df16 #fh">Creatures</rdg>
+                    <rdg wit="#ce #poems2">creatures</rdg>
+                </app> put their <app>
+                    <rdg wit="#df16">Eyes</rdg>
+                    <rdg wit="#ce #fh #poems2">eyes</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">,</rdg>
+                </app></l>
+                <l n="21">Incautious<app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2"> </rdg>
+                </app>of the <app>
+                    <rdg wit="#df16 #fh">Sun</rdg>
+                    <rdg wit="#ce #poems2">sun</rdg>
+                </app><app>
+                    <rdg wit="#df16 #fh">&#8212;</rdg>
+                    <rdg wit="#ce #poems2">.</rdg>
+                </app></l>
+            </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Looting Soldier</title>
+                    <date when="2007-09"/>
+                    <medium type="spray_paint"/>
+                    <location lat="29.9511" long="90.0715">New Orleans, USA</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.nola.com/arts/2014/01/blotted_graffiti_mural_by_bank.html">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This piece in New Orleans is a comment on the alleged looting that took place all over the city in the wake of Hurricane Katrina. This piece has since been damaged and painted over, but the buildings owner has 
+            had it removed and is looking to restore it to its former glory. This was a message to get acroos that this wrong. In New Orleans, in front of a hospital.</desc>
+        <p>
+            <img src="Looting_Soldier.jpg" alt="Looting Soldier Banksy"/>
+            <title>Looting Soldier</title>
+            <credit>By: Theodore Rayne from New Orleans US, https://www.nola.com/arts/2017/11/banksy_graffiti_new_orleans_re.html</credit>
+        </p>
+    </body>
+</root>
+

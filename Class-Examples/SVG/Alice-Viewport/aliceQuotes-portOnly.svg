@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<!--2019-11-24 ebb: Here we set a width and height whose values are definitely too small to match our plot.
+                This creates a small, square "viewbox" in your browser window that's only 500 pixels by 500 pixels. 
+                
+        But we set a viewBox that scales the X and Y coordinates inside that viewbox to stretch from 0 to 1000.
+        The @viewBox takes 4 values: the first pair is the X,Y coordinates of the top left corner: 0 0. 
+        The second pair is the X,Y coordinates of the bottom right corner: 1000,1000. 
+    
+        Try adjusting these. The larger the values you use in that @viewBox for last coordinate pair, the tinier the plot will shrink. 
+        Be careful that the viewBox values are always LARGER than your biggest X and Y values. Otherwise you'll cut off part of your plot. 
+        -->
+   <g transform="translate(70, 600)">
+      <line x1="20"
+            y1="0"
+            x2="20"
+            y2="-500"
+            stroke-width="3"
+            stroke="black"/>
+      <line x1="20"
+            y1="0"
+            x2="900"
+            y2="0"
+            stroke-width="3"
+            stroke="black"/>
+      <text x="150"
+            y="-550"
+            text-anchor="middle"
+            stroke="black"
+            font-size="20">Number of Alice's quotes in Each Chapter</text>
+      <text x="5" y="0" text-anchor="middle" stroke="DarkOrchid">0</text>
+      <text x="5" y="-70" text-anchor="middle">10</text>
+      <text x="5" y="-140" text-anchor="middle">20</text>
+      <text x="5" y="-210" text-anchor="middle">30</text>
+      <text x="5" y="-280" text-anchor="middle">40</text>
+      <text x="5" y="-350" text-anchor="middle">50</text>
+      <text x="5" y="-420" text-anchor="middle">60</text>
+      <text x="70" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 1</text>
+      <line x1="70"
+            y1="-175"
+            x2="140"
+            y2="-224"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="70"
+              cy="-175"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="140" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 2</text>
+      <line x1="140"
+            y1="-224"
+            x2="210"
+            y2="-322"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="140"
+              cy="-224"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="210" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 3</text>
+      <line x1="210"
+            y1="-322"
+            x2="280"
+            y2="-259"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="210"
+              cy="-322"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="280" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 4</text>
+      <line x1="280"
+            y1="-259"
+            x2="350"
+            y2="-364"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="280"
+              cy="-259"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="350" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 5</text>
+      <line x1="350"
+            y1="-364"
+            x2="420"
+            y2="-427"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="350"
+              cy="-364"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="420" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 6</text>
+      <line x1="420"
+            y1="-427"
+            x2="490"
+            y2="-147"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="420"
+              cy="-427"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="490" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 7</text>
+      <line x1="490"
+            y1="-147"
+            x2="560"
+            y2="-280"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="490"
+              cy="-147"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="560" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 8</text>
+      <line x1="560"
+            y1="-280"
+            x2="630"
+            y2="-399"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="560"
+              cy="-280"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="630" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 9</text>
+      <line x1="630"
+            y1="-399"
+            x2="700"
+            y2="-0"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="630"
+              cy="-399"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="700" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 10</text>
+      <line x1="700"
+            y1="-0"
+            x2="770"
+            y2="-0"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="700"
+              cy="-0"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="770" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 11</text>
+      <line x1="770"
+            y1="-0"
+            x2="840"
+            y2="-63"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="770"
+              cy="-0"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+      <text x="840" y="20" text-anchor="middle" stroke="DarkOrchid">Ch. 12</text>
+      <line x1="840"
+            y1="-63"
+            x2="910"
+            y2="-0"
+            stroke="ForestGreen"
+            stroke-width="3"/>
+      <circle cx="840"
+              cy="-63"
+              r="5"
+              fill="DarkOrchid"
+              stroke="black"
+              stroke-width="2"/>
+   </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Flying Copper</title>
+                    <date when="2003"/>
+                    <medium type="canvas"/>
+                    <size dimension="100 x 70">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="750" signed="150" unsigned="600">Blue</edition>
+                    <edition total="63" signed="63" unsigned="0">Pink</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/flying_copper_blue.jpg" alt="Banksy's 'Flying Copper (Blue)'"/>
+            <title>Flying Copper (Blue)</title>
+            <credit>https://dl.airtable.com/H2ZKPrpfQmSsxApQmkjt_full_banksy-flying-copper.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/flying_copper_pink.jpg" alt="Banksy's 'Flying Copper (Pink)'"/>
+            <title>Flying Copper (Pink)</title>
+            <credit>https://dl.airtable.com/3do6Pqp1SjiiY08nlLOQ_full_banksy-flying-copper-pink.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

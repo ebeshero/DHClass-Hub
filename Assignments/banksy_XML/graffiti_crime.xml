@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Graffiti is a Crime</title>
+                    <date when="2013"/>
+                    <medium type="spray_paint"/>
+                    <location lat="40.43639" long="73.592674">New York, USA</location>
+                    <ref target="http://www.banksy.co.uk/"></ref>
+                    <ref target="http://www.banksy.co.uk/out.asp"></ref>
+                    <ref target="http://sneakhype.com/art/2013/10/banksy-graffiti-crime-piece-new-york-city.html"></ref>
+                    <cause when="2013"> Mocking the Law Sign in New York City.</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Graffiti Is a Crime is the first of Banksy’s pieces in New York City in October 2013. The piece incorporates his distinctive  
+            technique and pokes fun at the law by incorporating an anti-graffiti sign. However, within hours of it being posted on Banksy’s Instagram profile, the sign 
+            had been stolen and by the next day city officials had painted over the work. On Allen Street in New York City.</desc>
+        <p>
+            <img src="Graffiti_Crime.jpg" alt="Graffiti is a Crime"/>
+            <title>Snorting Copper</title>
+            <credit>By Christos Polydorou from New York City, Graffiti is a Crime, https://eatartdaily.wordpress.com/2013/10/01/graffiti-is-a-crime-by-banksy/</credit>
+        </p>
+    </body>
+</root>

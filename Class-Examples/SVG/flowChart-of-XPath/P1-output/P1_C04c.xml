@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C04c">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C04c</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C04c_app1">
+		             <rdgGrp xml:id="C04c_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04c_app1_rg2" n="['&lt;p/&gt;most', 'affectionately']">
+			               <rdg wit="f1818">&lt;p sID="novel1_letter3_div3_p7"/&gt;Most affectionately </rdg>
+			               <rdg wit="f1823">&lt;p sID="novel1_letter3_div3_p7"/&gt;Most affectionately </rdg>
+			               <rdg wit="fThomas">&lt;p sID="novel1_letter3_div3_p7"/&gt;Most affectionately </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04c_app1_rg3"
+                       n="['heaven', 'bless', 'my', 'beloved', 'sister!&lt;p/&gt;&lt;p/&gt;r.w.&lt;p/&gt;']">
+			               <rdg wit="f1831">Heaven bless my beloved sister!&lt;p eID="novel1_letter3_div3_p7"/&gt;&lt;p sID="novel1_letter3_div3_p8"/&gt;R.W.&lt;p eID="novel1_letter3_div3_p8"/&gt;&lt;pb n="11" xml:id="F1831_v_027"/&gt;&lt;milestone n="3" type="end" unit="letter"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C04c_app2">
+		             <rdgGrp xml:id="C04c_app2_rg1" n="['yours,&lt;p/&gt;&lt;p/&gt;r.', 'w.&lt;p/&gt;']">
+			               <rdg wit="f1823">yours,&lt;p eID="novel1_letter3_div3_p7"/&gt;&lt;p sID="novel1_letter3_div3_p8"/&gt;R. W.&lt;p eID="novel1_letter3_div3_p8"/&gt;&lt;milestone n="3" type="end" unit="letter"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04c_app2_rg2" n="['yours,&lt;p/&gt;&lt;p/&gt;r.w.&lt;p/&gt;']">
+			               <rdg wit="f1818">yours,&lt;p eID="novel1_letter3_div3_p7"/&gt;&lt;p sID="novel1_letter3_div3_p8"/&gt;R.W.&lt;p eID="novel1_letter3_div3_p8"/&gt;&lt;pb n="021" xml:id="F1818_v1_033"/&gt;&lt;milestone n="3" type="end" unit="letter"/&gt; </rdg>
+			               <rdg wit="fThomas">yours,&lt;p eID="novel1_letter3_div3_p7"/&gt;&lt;p sID="novel1_letter3_div3_p8"/&gt;R.W.&lt;p eID="novel1_letter3_div3_p8"/&gt;&lt;pb n="021" xml:id="F1818_v1_033"/&gt;&lt;milestone n="3" type="end" unit="letter"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

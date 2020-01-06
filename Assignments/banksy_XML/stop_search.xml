@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Stop and Search</title>
+                    <alternate>Girl and Soldier</alternate>
+                    <date when="2007-11"/>
+                    <medium type="spray_paint"/>
+                    <location lat="31.705791" long="35.200657">Bethlehem, IS</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://irishstudies.sunygeneseoenglish.org/bansky-girl-frisking-soldier/">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Girl and a Soldier is one of the 2007 pieces that Banksy put up on a wall in Bethlehem. The little girl is seen frisking an armed soldier in diffrent types of roles to get what she wants. 
+            This along with other images on the wall were intended to promote the annual Santa’s Ghetto exhibit. The piece is still visible although somewhat faded today.</desc>
+        <p>
+            <img src="Girl_Soldier.jpg" alt="Stop and Search"/>
+            <title>Stop and Search Banksy</title>
+            <credit>By: Richard Burhke from Bethlemhem, https://www.dailymail.co.uk/news/article-499346/Graffiti-artist-Banksy-strikes--Bethlehem.html</credit>
+        </p>
+    </body>
+</root>

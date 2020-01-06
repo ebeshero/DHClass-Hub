@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C07c">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C07c</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-01 10:15:03.568989 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C07c_app1">
+		             <rdgGrp xml:id="C07c_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+	              <rdgGrp xml:id="C07c_app1_rg2"
+                       n="['&lt;p/&gt;every', 'one', 'adored', 'elizabeth.', 'if', 'the']">
+	                 <rdg wit="f1818">&lt;p sID="novel1_letter4_chapter1_div4_div1_p10"/&gt;Every one adored Elizabeth. If the </rdg>
+	                 <rdg wit="f1823">&lt;p sID="novel1_letter4_chapter1_div4_div1_p10"/&gt;Every one adored Elizabeth. If the </rdg>
+	                 <rdg wit="fThomas">&lt;p sID="novel1_letter4_chapter1_div4_div1_p10"/&gt;Every one adored Elizabeth. If the </rdg>
+		             </rdgGrp>
+	              <rdgGrp xml:id="C07c_app1_rg3"
+                       n="['&lt;p/&gt;every', 'one', 'loved', 'elizabeth.', 'The', 'passionate', 'and', 'almost', 'reverential', 'attachment', 'with', 'which', 'all', 'regarded', 'her', 'became,', 'while', 'I', 'shared', 'it,', 'my', 'pride', 'and', 'my', 'delight.', 'On', 'the', 'evening', 'previous', 'to', 'her', 'being', 'brought', 'to', 'my', 'home,', 'my', 'mother', 'had', 'said', 'playfully,—“I', 'have', 'a', 'pretty', 'present', 'for', 'my', 'Victor—to-morrow', 'he', 'shall', 'have', 'it.”', 'And', 'when,', 'on', 'the', 'morrow,', 'she', 'presented', 'Elizabeth', 'to', 'me', 'as', 'her', 'promised', 'gift,', 'I,', 'with', 'childish', 'seriousness,', 'interpreted', 'her', 'words', 'literally,', 'and', 'looked', 'upon', 'Elizabeth', 'as', 'mine—mine', 'to', 'protect,', 'love,', 'and', 'cherish.', 'All', 'praises', 'bestowed', 'on', 'her,', 'I', 'received', 'as', 'made', 'to', 'a', 'possession', 'of', 'my', 'own.', 'We', 'called', 'each', 'other', 'familiarly', 'by', 'the', 'name', 'of', 'cousin.', 'No', 'word,', 'no', 'expression', 'could', 'body', 'forth', 'the', 'kind', 'of', 'relation', 'in', 'which', 'she', 'stood', 'to', 'me—my', 'more', 'than', 'sister,', 'since', 'till', 'death', 'she', 'was', 'to', 'be', 'mine', 'only.&lt;p&gt;', '&lt;', 'CHAPTER', 'II.', '&lt;p&gt;', 'WE', 'were', 'brought', 'up', 'together;', 'there', 'was', 'not', 'quite', 'a', 'year', 'difference', 'in', 'our', 'ages.', 'I', 'need', 'not', 'say', 'that']">
+	                 <rdg wit="f1831">&lt;p sID="novel1_letter4_chapter1_div4_div1_p11"/&gt;Every one loved Elizabeth. The passionate and almost reverential attachment with which all regarded her became, while I shared it, my pride and my delight. On the evening previous to her being brought to my home, my mother had said playfully,—“I have a pretty present for my Victor—to-morrow he shall have it.” And when, on the morrow, she presented Elizabeth to me as her promised gift, I, with childish seriousness, interpreted her words literally, and looked upon Elizabeth as mine—mine to protect, love, and &lt;pb xml:id="F1831_v_039" n="23"/&gt;cherish. All praises bestowed on her, I received as made to a possession of my own. We called each other familiarly by the name of cousin. No word, no expression could body forth the kind of relation in which she stood to me—my more than sister, since till death she was to be mine only.&lt;p eID="novel1_letter4_chapter1_div4_div1_p11"/&gt; &lt;milestone unit="chapter" type="end" n="1"/&gt; &lt;milestone unit="chapter" type="start" n="2"/&gt; &lt;head sID="novel1_letter4_chapter2_div4_div2_head1"/&gt;CHAPTER II.&lt;head eID="novel1_letter4_chapter2_div4_div2_head1"/&gt; &lt;p sID="novel1_letter4_chapter2_div4_div2_p1"/&gt; W&lt;hi sID="novel1_letter4_chapter2_div4_div2_p1_hi1"/&gt;E&lt;hi eID="novel1_letter4_chapter2_div4_div2_p1_hi1"/&gt; were brought up together; there was not quite a year difference in our ages. I need not say that </rdg>
+	              </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"/>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"/>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Take this Society</title>
+                    <date when="2011-04"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.5074" long="0.1278">London, UK</location>
+                    <size>medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="http://www.artofthestate.co.uk/Banksy/banksy_take_this_society.htm">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This piece is diffrent from his others becasue of the location, its not seen at a busy place for people to take notice.It shows little boy in the act of painting the slogan, as an 
+            act to show society that everyone matters no matter what.This piece however has currently removed. At Holland Park Roundabout in the Shepherd’s Bush area of London.</desc>
+        <p>
+            <img src="Take_Society.jpg" alt="Take this Society Banksy"/>
+            <title>Take this Society</title>
+            <credit>By: Lindsey Zulekya from London, http://www.sociologyatwork.org/about/what-is-applied-sociology/takethissociety/</credit>
+        </p>
+    </body>
+</root>

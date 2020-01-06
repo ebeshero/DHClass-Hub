@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C04b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C04b</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C04b_app1">
+		             <rdgGrp xml:id="C04b_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04b_app1_rg2"
+                       n="['&lt;p&gt;But', 'success', 'shall', 'crown', 'my', 'endeavours.', 'Wherefore', 'not?', 'Thus', 'far', 'I', 'have', 'gone,', 'tracing', 'a', 'secure', 'way', 'over', 'the', 'pathless', 'seas:', 'the', 'very', 'stars', 'themselves', 'being', 'witnesses', 'and', 'testimonies', 'of', 'my', 'triumph.', 'Why', 'not', 'still', 'proceed', 'over', 'the', 'untamed', 'yet', 'obedient', 'element?', 'What', 'can', 'stop', 'the', 'determined', 'heart', 'and', 'resolved', 'will', 'of', 'man?&lt;p&gt;', '&lt;p&gt;My', 'swelling', 'heart', 'involuntarily', 'pours', 'itself', 'out', 'thus.', 'But', 'I', 'must', 'finish.']">
+			               <rdg wit="f1831">&lt;p sID="novel1_letter3_div3_p6"/&gt;But success &lt;hi sID="novel1_letter3_div3_p6_hi1"/&gt;shall&lt;hi eID="novel1_letter3_div3_p6_hi1"/&gt; crown my endeavours. Wherefore not? Thus far I have gone, tracing a secure way over the pathless seas: the very stars themselves being witnesses and testimonies of my triumph. Why not still proceed over the untamed yet obedient element? What can stop the determined heart and resolved will of man?&lt;p eID="novel1_letter3_div3_p6"/&gt; &lt;p sID="novel1_letter3_div3_p7"/&gt;My swelling heart involuntarily pours itself out thus. But I must finish.</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C04b_app1_rg3"
+                       n="['&lt;p/&gt;remember', 'me', 'to', 'all', 'my', 'english', 'friends.&lt;p/&gt;']">
+			               <rdg wit="f1818">&lt;p sID="novel1_letter3_div3_p6"/&gt;Remember me to all my English friends.&lt;p eID="novel1_letter3_div3_p6"/&gt; </rdg>
+			               <rdg wit="f1823">&lt;p sID="novel1_letter3_div3_p6"/&gt;&lt;pb n="20" xml:id="F1823_v1_039"/&gt;Remember me to all my English friends.&lt;p eID="novel1_letter3_div3_p6"/&gt; </rdg>
+			               <rdg wit="fThomas">&lt;p sID="novel1_letter3_div3_p6"/&gt;Remember me to all my English friends.&lt;p eID="novel1_letter3_div3_p6"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"/>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"/>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Season's Greetings</title>
+                    <date when="2018-12-19"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.59055" long="-3.79859">Wales, UK</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/p/BrkqwhnlNjR/">Banksy's Personal
+                        Instagram</ref>
+                    <ref target="https://www.bbc.com/news/uk-wales-46617742">BBC News</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Season's Greetings was how Banksy finished off the 2018 year. The image appears on two
+            sides of a garage; one depicting a child enjoying snow falling while the other side reveals
+            the "snow" is actually ash from a dumpster fire. Garage in the Welsh Industrial Town of Port Talbot.</desc>
+        <p>
+            <img src="seasons_greetings.jpg" alt="Banksy's Season's Greetings"/>
+            <title>Season's Greetings</title>
+            <credit>https://cdn.shopify.com/s/files/1/1003/7610/files/Banksy_Seasons_Greetings.jpg?v=1545252714</credit>
+        </p>
+    </body>
+</root>

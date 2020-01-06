@@ -1,0 +1,57 @@
+*
+{
+margin: 0 auto 0 auto;
+text-align:left;
+}
+
+body
+{
+margin: 0;
+padding: 0;
+text-align: left;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+background-color:#32B0E4
+}
+
+table#ECCO
+{
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+margin-bottom:10px;
+display:none;
+}
+
+th
+{
+background-color:#1B75BF;
+}
+
+td, th
+{
+border: 1px solid #484848;
+text-align: left;
+padding: 10px;
+}
+
+table#NCCO tr td
+{display:none}
+
+
+h1
+{
+font-size:35px;
+margin-bottom:10px;
+padding-top:18px;
+margin-left:15px;
+margin-bottom:10px;
+color:#1F1603;
+}
+
+button
+{
+padding:2px;
+margin-left:15px;
+margin-bottom:10px;
+}

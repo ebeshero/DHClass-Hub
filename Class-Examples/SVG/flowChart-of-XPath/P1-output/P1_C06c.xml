@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C06c">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C06c</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C06c_app1">
+		             <rdgGrp xml:id="C06c_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+			               <rdg wit="f1831"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06c_app1_rg2"
+                       n="['i', 'have', 'endeavoured', 'to', 'win', 'his', 'confidence;', 'and', 'i', 'trust', 'that', 'i', 'have', 'succeeded.', 'one', 'day', 'i', 'mentioned', 'to', 'him', 'the', 'desire', 'i', 'had', 'always', 'felt', 'of', 'finding', 'a', 'friend', 'who', 'might']">
+			               <rdg wit="f1818">I have endeavoured to win his confidence; and I trust that I have suc&lt;pb n="033" xml:id="F1818_v1_045"/&gt;ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might </rdg>
+			               <rdg wit="f1823">I have endeavoured to win his confidence; and I trust that I have suc&lt;pb n="33" xml:id="F1823_v1_052"/&gt;ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might </rdg>
+			               <rdg wit="fThomas">I have endeavoured to win his confidence; and I trust that I have suc&lt;pb n="033" xml:id="F1818_v1_045"/&gt;ceeded. One day I mentioned to him the desire I had always felt of finding a friend who might </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06c_app2">
+		             <rdgGrp xml:id="C06c_app2_rg1" n="['sympathise']">
+			               <rdg wit="f1823">sympathise </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06c_app2_rg2" n="['sympathize']">
+			               <rdg wit="f1818">sympathize </rdg>
+			               <rdg wit="fThomas">sympathize </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06c_app3">
+		             <rdgGrp xml:id="C06c_app3_rg1"
+                       n="['with', 'me,', 'and', 'direct', 'me', 'by', 'his', 'counsel.', 'i', 'said,', 'i', 'did', 'not', 'belong', 'to', 'that', 'class', 'of', 'men', 'who', 'are', 'offended', 'by', 'advice.', '&#34;i', 'am', 'self-educated,', 'and', 'perhaps', 'i', 'hardly', 'rely', 'sufficiently', 'upon', 'my', 'own', 'powers.', 'i']">
+			               <rdg wit="f1818">with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I </rdg>
+			               <rdg wit="f1823">with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I </rdg>
+			               <rdg wit="fThomas">with me, and direct me by his counsel. I said, I did not belong to that class of men who are offended by advice. “I am self-educated, and perhaps I hardly rely sufficiently upon my own powers. I </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06c_app4">
+		             <rdgGrp xml:id="C06c_app4_rg1" n="['wish', 'therefore']">
+			               <rdg wit="f1818">wish therefore </rdg>
+			               <rdg wit="fThomas">wish therefore </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06c_app4_rg2" n="['wish,', 'therefore,']">
+			               <rdg wit="f1823">wish, therefore, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06c_app5">
+		             <rdgGrp xml:id="C06c_app5_rg1"
+                       n="['that', 'my', 'companion', 'should', 'be', 'wiser', 'and', 'more', 'experienced', 'than', 'myself,', 'to', 'confirm', 'and', 'support', 'me;', 'nor', 'have', 'i', 'believed', 'it', 'impossible', 'to', 'find', 'a', 'true', 'friend.&#34;&lt;p/&gt;&lt;p/&gt;&#34;i', 'agree', 'with', 'you,&#34;', 'replied', 'the', 'stranger,', '&#34;in', 'believing', 'that', 'friendship', 'is', 'not', 'only', 'a', 'desirable,', 'but', 'a', 'possible', 'acquisition.']">
+			               <rdg wit="f1818">that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”&lt;p eID="novel1_letter4_div4_p27"/&gt;&lt;p sID="novel1_letter4_div4_p28"/&gt;“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. </rdg>
+			               <rdg wit="f1823">that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”&lt;p eID="novel1_letter4_div4_p27"/&gt;&lt;p sID="novel1_letter4_div4_p28"/&gt;“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. </rdg>
+			               <rdg wit="fThomas">that my companion should be wiser and more experienced than myself, to confirm and support me; nor have I believed it impossible to find a true friend.”&lt;p eID="novel1_letter4_div4_p27"/&gt;&lt;p sID="novel1_letter4_div4_p28"/&gt;“I agree with you,” replied the stranger, “in believing that friendship is not only a desirable, but a possible acquisition. </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

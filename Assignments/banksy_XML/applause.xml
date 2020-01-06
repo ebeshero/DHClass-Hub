@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Applause</title>
+                    <date when="2006"/>
+                    <medium type="canvas"/>
+                    <size dimension="83.0 x 123.0">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="500" signed="150" unsigned="350">LA Edition</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Banksy (b. 1974)
+              Applause
+              screenprint in colours, 2006, on wove paper, numbered 402/500, published by Pictures on Walls, London, with their blindstamp, the full sheet, in very good condition, framed
+              Image 665 x 1060 mm., Sheet 808 mm x 1124 mm.</desc>
+        <p>
+            <img src="../img/applause.jpg" alt="Banksy's Applause"/>
+            <title>Applause</title>
+            <credit>https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true</credit>
+        </p>
+    </body>
+</root>

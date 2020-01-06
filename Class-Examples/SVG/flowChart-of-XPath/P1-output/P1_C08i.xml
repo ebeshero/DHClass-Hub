@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C08i">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C08i</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-04 16:58:37.992715 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C08i_app1">
+		             <rdgGrp xml:id="C08i_app1_rg1" n="['and']">
+			               <rdg wit="f1818">and </rdg>
+			               <rdg wit="f1823">and </rdg>
+			               <rdg wit="fThomas">and </rdg>
+			               <rdg wit="fMS">&amp;&lt;lb n="c56-0028__main__13"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app1_rg2" n="['on', 'the', 'same', 'day,', 'i']">
+			               <rdg wit="f1831">On the same day, I </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app2">
+		             <rdgGrp xml:id="C08i_app2_rg1" n="['paid']">
+			               <rdg wit="f1818">paid </rdg>
+			               <rdg wit="f1823">paid </rdg>
+			               <rdg wit="fThomas">paid </rdg>
+			               <rdg wit="f1831">paid </rdg>
+			               <rdg wit="fMS">paid </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app3">
+		             <rdgGrp xml:id="C08i_app3_rg1" n="['him']">
+			               <rdg wit="f1818">him </rdg>
+			               <rdg wit="f1823">him </rdg>
+			               <rdg wit="fThomas">him </rdg>
+			               <rdg wit="fMS">him </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app3_rg2" n="['m.', 'waldman']">
+			               <rdg wit="f1831">M. Waldman </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app4">
+		             <rdgGrp xml:id="C08i_app4_rg1" n="['a']">
+			               <rdg wit="f1818">a </rdg>
+			               <rdg wit="f1823">a </rdg>
+			               <rdg wit="fThomas">a </rdg>
+			               <rdg wit="f1831">a </rdg>
+			               <rdg wit="fMS">a </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app5">
+		             <rdgGrp xml:id="C08i_app5_rg1" n="['visit', 'the', 'same', 'evening.']">
+			               <rdg wit="f1818">visit the same evening. </rdg>
+			               <rdg wit="f1823">visit the same evening. </rdg>
+			               <rdg wit="fThomas">visit the same evening. </rdg>
+			               <rdg wit="fMS">visit the same evening. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app5_rg2" n="['visit.']">
+			               <rdg wit="f1831">visit. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app6">
+		             <rdgGrp xml:id="C08i_app6_rg1"
+                       n="['his', 'manners', 'in', 'private', 'were', 'even']">
+			               <rdg wit="f1818">His manners in private were even </rdg>
+			               <rdg wit="f1823">His manners in private were even </rdg>
+			               <rdg wit="fThomas">His manners in private were even </rdg>
+			               <rdg wit="f1831">His manners in private were even </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__14"/&gt; His manners in private were even </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app7">
+		             <rdgGrp xml:id="C08i_app7_rg1"
+                       n="['more', 'mild', 'and', 'attractive', 'than', 'in']">
+			               <rdg wit="f1818">more mild and attractive than in </rdg>
+			               <rdg wit="f1823">more mild and attractive than in </rdg>
+			               <rdg wit="fThomas">more mild and attractive than in </rdg>
+			               <rdg wit="f1831">more mild and attractive than in </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__15"/&gt; more mild &lt;metamark function="insert"&gt;^&lt;/metamark&gt;&amp; attractive than in </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app8">
+		             <rdgGrp xml:id="C08i_app8_rg1" n="['public.']">
+			               <rdg wit="fMS">public. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app8_rg2" n="['public;']">
+			               <rdg wit="f1818">public; </rdg>
+			               <rdg wit="f1823">public; </rdg>
+			               <rdg wit="fThomas">public; </rdg>
+			               <rdg wit="f1831">public; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app9">
+		             <rdgGrp xml:id="C08i_app9_rg1" n="['for']">
+			               <rdg wit="f1818">for </rdg>
+			               <rdg wit="f1823">for </rdg>
+			               <rdg wit="fThomas">for </rdg>
+			               <rdg wit="f1831">for </rdg>
+			               <rdg wit="fMS">For </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app10">
+		             <rdgGrp xml:id="C08i_app10_rg1"
+                       n="['there', 'was', 'a', 'certain', 'dignity', 'in', 'his']">
+			               <rdg wit="f1818">there was a certain dignity in his </rdg>
+			               <rdg wit="f1823">there was a certain dignity in his </rdg>
+			               <rdg wit="fThomas">there was a certain dignity in his </rdg>
+			               <rdg wit="f1831">there was a certain dignity in his </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__16"/&gt; there was a certain dignity in his </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app11">
+		             <rdgGrp xml:id="C08i_app11_rg1" n="['', 'manner']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__17"/&gt; manner </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app11_rg2" n="['mien']">
+			               <rdg wit="f1818">mien </rdg>
+			               <rdg wit="f1823">mien </rdg>
+			               <rdg wit="fThomas">mien </rdg>
+			               <rdg wit="f1831">mien </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app12">
+		             <rdgGrp xml:id="C08i_app12_rg1" n="['during', 'his']">
+			               <rdg wit="f1818">during his </rdg>
+			               <rdg wit="f1823">during his </rdg>
+			               <rdg wit="fThomas">during his </rdg>
+			               <rdg wit="f1831">during his </rdg>
+			               <rdg wit="fMS">during his </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app13">
+		             <rdgGrp xml:id="C08i_app13_rg1" n="['lecture,']">
+			               <rdg wit="f1818">lecture, </rdg>
+			               <rdg wit="f1823">lecture, </rdg>
+			               <rdg wit="fThomas">lecture, </rdg>
+			               <rdg wit="f1831">lecture, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app13_rg2" n="['lectures']">
+			               <rdg wit="fMS">lectures </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app14">
+		             <rdgGrp xml:id="C08i_app14_rg1" n="['which']">
+			               <rdg wit="f1818">which </rdg>
+			               <rdg wit="f1823">which </rdg>
+			               <rdg wit="fThomas">which </rdg>
+			               <rdg wit="f1831">which </rdg>
+			               <rdg wit="fMS">which </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app15">
+		             <rdgGrp xml:id="C08i_app15_rg1" n="['']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__18"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app15_rg2" n="['in', 'his', 'own', 'house']">
+			               <rdg wit="f1818">in his own house </rdg>
+			               <rdg wit="f1823">in his own house </rdg>
+			               <rdg wit="fThomas">in his own house </rdg>
+			               <rdg wit="f1831">in his own house </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app16">
+		             <rdgGrp xml:id="C08i_app16_rg1"
+                       n="['was', 'replaced', 'by', 'the', 'greatest']">
+			               <rdg wit="f1818">was replaced by the greatest </rdg>
+			               <rdg wit="f1823">was replaced by the greatest </rdg>
+			               <rdg wit="fThomas">was replaced by the greatest </rdg>
+			               <rdg wit="f1831">was replaced by the greatest </rdg>
+			               <rdg wit="fMS">was replaced by the greatest </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app17">
+		             <rdgGrp xml:id="C08i_app17_rg1" n="['&lt;del&gt;affabity&lt;del&gt;', 'affability', 'and']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0028__main__d2e5588"/&gt;affabity&lt;del eID="c56-0028__main__d2e5588"/&gt;&lt;lb n="c56-0028__main__19"/&gt; affability and </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app17_rg2" n="['affability', 'and']">
+			               <rdg wit="f1818">&lt;pb n="075" xml:id="F1818_v1_087"/&gt;affability and </rdg>
+			               <rdg wit="f1823">affability and </rdg>
+			               <rdg wit="fThomas">&lt;pb n="075" xml:id="F1818_v1_087"/&gt;affability and </rdg>
+			               <rdg wit="f1831">affability and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app18">
+		             <rdgGrp xml:id="C08i_app18_rg1"
+                       n="['kindness', 'in', 'his', 'own', '', 'house.']">
+			               <rdg wit="fMS">kindness in his own &lt;lb n="c56-0028__main__20"/&gt; house. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app18_rg2" n="['kindness.']">
+			               <rdg wit="f1818">kindness. </rdg>
+			               <rdg wit="f1823">kindness. </rdg>
+			               <rdg wit="fThomas">kindness. </rdg>
+			               <rdg wit="f1831">kindness. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app19">
+		             <rdgGrp xml:id="C08i_app19_rg1"
+                       n="['i', 'gave', 'him', 'pretty', 'nearly', 'the', 'same', 'account', 'of', 'my', 'former', 'pursuits', 'as', 'i', 'had', 'given', 'to', 'his', 'fellow-professor.', 'he', 'heard']">
+			               <rdg wit="f1831">I gave him pretty nearly the same account of my former pursuits as I had given to his fellow-professor. He heard </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app19_rg2" n="['he', 'heard']">
+			               <rdg wit="f1818">He heard </rdg>
+			               <rdg wit="f1823">He heard </rdg>
+			               <rdg wit="fThomas">He heard </rdg>
+			               <rdg wit="fMS">He heard </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app20">
+		             <rdgGrp xml:id="C08i_app20_rg1" n="['with', 'attention']">
+			               <rdg wit="f1818">with attention </rdg>
+			               <rdg wit="f1823">with attention </rdg>
+			               <rdg wit="fThomas">with attention </rdg>
+			               <rdg wit="f1831">with attention </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app21">
+		             <rdgGrp xml:id="C08i_app21_rg1" n="['my']">
+			               <rdg wit="f1818">my </rdg>
+			               <rdg wit="f1823">my </rdg>
+			               <rdg wit="fThomas">my </rdg>
+			               <rdg wit="fMS">&lt;mdel&gt;by&lt;/mdel&gt;my </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app21_rg2" n="['the']">
+			               <rdg wit="f1831">the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app22">
+		             <rdgGrp xml:id="C08i_app22_rg1" n="['little', 'narration']">
+			               <rdg wit="f1818">little narration </rdg>
+			               <rdg wit="f1823">&lt;pb n="75" xml:id="F1823_v1_094"/&gt;little narration </rdg>
+			               <rdg wit="fThomas">little narration </rdg>
+			               <rdg wit="f1831">little narration </rdg>
+			               <rdg wit="fMS">little narration </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app23">
+		             <rdgGrp xml:id="C08i_app23_rg1" n="['concerning', 'my']">
+			               <rdg wit="f1818">concerning my </rdg>
+			               <rdg wit="f1823">concerning my </rdg>
+			               <rdg wit="fThomas">concerning my </rdg>
+			               <rdg wit="f1831">concerning my </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__21"/&gt; concerning my </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app24">
+		             <rdgGrp xml:id="C08i_app24_rg1" n="['studies', 'with', 'attention', '']">
+			               <rdg wit="fMS">studies with attention &lt;lb n="c56-0028__main__22"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app24_rg2" n="['studies,', 'and']">
+			               <rdg wit="f1818">studies, and </rdg>
+			               <rdg wit="f1823">studies, and </rdg>
+			               <rdg wit="fThomas">studies, and </rdg>
+			               <rdg wit="f1831">studies, and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app25">
+		             <rdgGrp xml:id="C08i_app25_rg1"
+                       n="['smiled', 'at', 'the', 'names', 'of', 'cornelius']">
+			               <rdg wit="f1818">smiled at the names of Cornelius </rdg>
+			               <rdg wit="f1823">smiled at the names of Cornelius </rdg>
+			               <rdg wit="fThomas">smiled at the names of Cornelius </rdg>
+			               <rdg wit="f1831">smiled at the names of Cornelius </rdg>
+			               <rdg wit="fMS">smiled at the names of Cornelius </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app26">
+		             <rdgGrp xml:id="C08i_app26_rg1" n="['']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__23"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app26_rg2" n="['agrippa,']">
+			               <rdg wit="f1818">Agrippa, </rdg>
+			               <rdg wit="fThomas">Agrippa, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app27">
+		             <rdgGrp xml:id="C08i_app27_rg1" n="['agrippa']">
+			               <rdg wit="f1823">Agrippa </rdg>
+			               <rdg wit="f1831">Agrippa </rdg>
+			               <rdg wit="fMS">Agrippa </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app28">
+		             <rdgGrp xml:id="C08i_app28_rg1" n="['and']">
+			               <rdg wit="f1818">and </rdg>
+			               <rdg wit="f1823">and </rdg>
+			               <rdg wit="fThomas">and </rdg>
+			               <rdg wit="f1831">and </rdg>
+			               <rdg wit="fMS">and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app29">
+		             <rdgGrp xml:id="C08i_app29_rg1" n="['paracelsus']">
+			               <rdg wit="fMS">Paracelsus&lt;metamark&gt;X&lt;/metamark&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app29_rg2" n="['paracelsus,']">
+			               <rdg wit="f1818">Paracelsus, </rdg>
+			               <rdg wit="f1823">Paracelsus, </rdg>
+			               <rdg wit="fThomas">Paracelsus, </rdg>
+			               <rdg wit="f1831">Paracelsus, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app30">
+		             <rdgGrp xml:id="C08i_app30_rg1" n="['but', 'without']">
+			               <rdg wit="f1818">but without </rdg>
+			               <rdg wit="f1823">but without </rdg>
+			               <rdg wit="fThomas">but without </rdg>
+			               <rdg wit="f1831">but without </rdg>
+			               <rdg wit="fMS">but without </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app31">
+		             <rdgGrp xml:id="C08i_app31_rg1" n="['the', 'contempt', 'that']">
+			               <rdg wit="f1818">the contempt that </rdg>
+			               <rdg wit="f1823">the contempt that </rdg>
+			               <rdg wit="fThomas">the contempt that </rdg>
+			               <rdg wit="f1831">the contempt that </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__24"/&gt; the contempt that </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app32">
+		             <rdgGrp xml:id="C08i_app32_rg1" n="['m.']">
+			               <rdg wit="f1818">M. </rdg>
+			               <rdg wit="f1823">M. </rdg>
+			               <rdg wit="fThomas">M. </rdg>
+			               <rdg wit="f1831">M. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app32_rg2" n="['mr']">
+			               <rdg wit="fMS">Mr </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app33">
+		             <rdgGrp xml:id="C08i_app33_rg1" n="['krempe', 'had']">
+			               <rdg wit="f1818">Krempe had </rdg>
+			               <rdg wit="f1823">Krempe had </rdg>
+			               <rdg wit="fThomas">Krempe had </rdg>
+			               <rdg wit="f1831">Krempe had </rdg>
+			               <rdg wit="fMS">Krempe had </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app34">
+		             <rdgGrp xml:id="C08i_app34_rg1"
+                       n="['&lt;del&gt;ex&lt;del&gt;&lt;del&gt;exhibited&lt;del&gt;expressed', 'to', 'them.', '']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__25"/&gt;&lt;del rend="strikethrough" sID="c56-0028__main__d2e5622"/&gt;Ex&lt;del eID="c56-0028__main__d2e5622"/&gt;&lt;del rend="strikethrough" sID="c56-0028__main__d2e5627"/&gt;exhibited&lt;del eID="c56-0028__main__d2e5627"/&gt;expressed to them. &lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;lb n="c56-0028__left_margin__1"/&gt;&lt;metamark function="displacement"&gt;^&lt;/metamark&gt;&lt;lb n="c56-0028__left_margin__2"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app34_rg2" n="['exhibited.']">
+			               <rdg wit="f1818">exhibited. </rdg>
+			               <rdg wit="f1823">exhibited. </rdg>
+			               <rdg wit="fThomas">exhibited. </rdg>
+			               <rdg wit="f1831">exhibited. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app35">
+		             <rdgGrp xml:id="C08i_app35_rg1" n="['he']">
+			               <rdg wit="f1818">He </rdg>
+			               <rdg wit="f1823">He </rdg>
+			               <rdg wit="fThomas">He </rdg>
+			               <rdg wit="f1831">He </rdg>
+			               <rdg wit="fMS">He </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app36">
+		             <rdgGrp xml:id="C08i_app36_rg1" n="['said']">
+			               <rdg wit="fMS">said </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app36_rg2" n="['said,']">
+			               <rdg wit="f1818">said, </rdg>
+			               <rdg wit="f1823">said, </rdg>
+			               <rdg wit="fThomas">said, </rdg>
+			               <rdg wit="f1831">said, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app37">
+		             <rdgGrp xml:id="C08i_app37_rg1" n="['that']">
+			               <rdg wit="f1818">that </rdg>
+			               <rdg wit="f1823">that </rdg>
+			               <rdg wit="fThomas">that </rdg>
+			               <rdg wit="f1831">that </rdg>
+			               <rdg wit="fMS">that </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app38">
+		             <rdgGrp xml:id="C08i_app38_rg1" n="['&#34;these']">
+			               <rdg wit="f1818">“these </rdg>
+			               <rdg wit="f1823">“these </rdg>
+			               <rdg wit="fThomas">“these </rdg>
+			               <rdg wit="f1831">“these </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app38_rg2" n="['', 'these']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__3"/&gt; these </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app39">
+		             <rdgGrp xml:id="C08i_app39_rg1" n="['were']">
+			               <rdg wit="f1818">were </rdg>
+			               <rdg wit="f1823">were </rdg>
+			               <rdg wit="fThomas">were </rdg>
+			               <rdg wit="f1831">were </rdg>
+			               <rdg wit="fMS">were </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app40">
+		             <rdgGrp xml:id="C08i_app40_rg1" n="['men', 'to', 'whose']">
+			               <rdg wit="f1818">men to whose </rdg>
+			               <rdg wit="f1823">men to whose </rdg>
+			               <rdg wit="fThomas">men to whose </rdg>
+			               <rdg wit="f1831">men to whose </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__4"/&gt; men to whose </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app41">
+		             <rdgGrp xml:id="C08i_app41_rg1" n="['indefatigable', 'zeal']">
+			               <rdg wit="f1818">indefatigable zeal </rdg>
+			               <rdg wit="f1823">indefatigable zeal </rdg>
+			               <rdg wit="fThomas">indefatigable zeal </rdg>
+			               <rdg wit="f1831">indefatigable zeal </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__5"/&gt; indefatigable zeal </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app42">
+		             <rdgGrp xml:id="C08i_app42_rg1"
+                       n="['', 'modern&lt;del&gt;chem&lt;del&gt;naturalphilosophers']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__6"/&gt; modern&lt;del rend="strikethrough" sID="c56-0028__left_margin__d2e5670"/&gt;chem&lt;del eID="c56-0028__left_margin__d2e5670"/&gt;natural&lt;lb n="c56-0028__left_margin__7"/&gt;philosophers </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app42_rg2" n="['modern', 'philosophers']">
+			               <rdg wit="f1818">modern philosophers </rdg>
+			               <rdg wit="f1823">modern philosophers </rdg>
+			               <rdg wit="fThomas">modern philosophers </rdg>
+			               <rdg wit="f1831">modern philosophers </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app43">
+		             <rdgGrp xml:id="C08i_app43_rg1" n="['were']">
+			               <rdg wit="f1818">were </rdg>
+			               <rdg wit="f1823">were </rdg>
+			               <rdg wit="fThomas">were </rdg>
+			               <rdg wit="f1831">were </rdg>
+			               <rdg wit="fMS">were </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app44">
+		             <rdgGrp xml:id="C08i_app44_rg1" n="['indebted', 'for', 'most']">
+			               <rdg wit="f1818">indebted for most </rdg>
+			               <rdg wit="f1823">indebted for most </rdg>
+			               <rdg wit="fThomas">indebted for most </rdg>
+			               <rdg wit="f1831">indebted for most </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__8"/&gt; indebted for most </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app45">
+		             <rdgGrp xml:id="C08i_app45_rg1" n="['of', 'the', 'foundations']">
+			               <rdg wit="f1818">of the foundations </rdg>
+			               <rdg wit="f1823">of the foundations </rdg>
+			               <rdg wit="fThomas">of the foundations </rdg>
+			               <rdg wit="f1831">of the foundations </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__9"/&gt; of the foundations </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app46">
+		             <rdgGrp xml:id="C08i_app46_rg1" n="['of', 'their']">
+			               <rdg wit="f1818">of their </rdg>
+			               <rdg wit="f1823">of their </rdg>
+			               <rdg wit="fThomas">of their </rdg>
+			               <rdg wit="f1831">of their </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__10"/&gt; of their </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app47">
+		             <rdgGrp xml:id="C08i_app47_rg1" n="['knowledge.', 'they', 'had', 'left']">
+			               <rdg wit="f1818">knowledge. They had left </rdg>
+			               <rdg wit="f1823">knowledge. They had left </rdg>
+			               <rdg wit="fThomas">knowledge. They had left </rdg>
+			               <rdg wit="f1831">knowledge. They had left </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app47_rg2"
+                       n="['knowledgeit', 'is', 'not', 'a', 'meaner', '', 'tasktheyhadleft']">
+			               <rdg wit="fMS">knowledge&lt;lb n="c56-0028__left_margin__11"/&gt;it is not a meaner &lt;lb n="c56-0028__left_margin__12"/&gt; taskThey&lt;metamark function="insert"&gt;^&lt;/metamark&gt;hadleft </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app48">
+		             <rdgGrp xml:id="C08i_app48_rg1" n="['to']">
+			               <rdg wit="f1818">to </rdg>
+			               <rdg wit="f1823">to </rdg>
+			               <rdg wit="fThomas">to </rdg>
+			               <rdg wit="f1831">to </rdg>
+			               <rdg wit="fMS">to </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app49">
+		             <rdgGrp xml:id="C08i_app49_rg1" n="['us,', 'as', 'an', 'easier']">
+			               <rdg wit="f1818">us, as an easier </rdg>
+			               <rdg wit="f1823">us, as an easier </rdg>
+			               <rdg wit="fThomas">us, as an easier </rdg>
+			               <rdg wit="f1831">us, as an easier </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__13"/&gt; us, as an easier </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app50">
+		             <rdgGrp xml:id="C08i_app50_rg1" n="['', 'task']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__14"/&gt; task </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app50_rg2" n="['task,']">
+			               <rdg wit="f1818">task, </rdg>
+			               <rdg wit="f1823">task, </rdg>
+			               <rdg wit="fThomas">task, </rdg>
+			               <rdg wit="f1831">task, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app51">
+		             <rdgGrp xml:id="C08i_app51_rg1" n="['to', 'give', 'new']">
+			               <rdg wit="f1818">to give new </rdg>
+			               <rdg wit="f1823">to give new </rdg>
+			               <rdg wit="fThomas">to give new </rdg>
+			               <rdg wit="f1831">to give new </rdg>
+			               <rdg wit="fMS">to give new </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app52">
+		             <rdgGrp xml:id="C08i_app52_rg1" n="['names,', 'and', 'arrange']">
+			               <rdg wit="f1818">names, and arrange </rdg>
+			               <rdg wit="f1823">names, and arrange </rdg>
+			               <rdg wit="fThomas">names, and arrange </rdg>
+			               <rdg wit="f1831">names, and arrange </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__15"/&gt; names, &amp; arrange </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app53">
+		             <rdgGrp xml:id="C08i_app53_rg1" n="['in']">
+			               <rdg wit="f1818">in </rdg>
+			               <rdg wit="f1823">in </rdg>
+			               <rdg wit="fThomas">in </rdg>
+			               <rdg wit="f1831">in </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__16"/&gt; in </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app54">
+		             <rdgGrp xml:id="C08i_app54_rg1" n="['conected', 'classifications']">
+			               <rdg wit="fMS">conected classi&lt;lb n="c56-0028__left_margin__17"/&gt;fications </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app54_rg2" n="['connected', 'classifications,']">
+			               <rdg wit="f1818">connected classifications, </rdg>
+			               <rdg wit="f1823">connected classifications, </rdg>
+			               <rdg wit="fThomas">connected classifications, </rdg>
+			               <rdg wit="f1831">connected classifications, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app55">
+		             <rdgGrp xml:id="C08i_app55_rg1" n="['the']">
+			               <rdg wit="f1818">the </rdg>
+			               <rdg wit="f1823">the </rdg>
+			               <rdg wit="fThomas">the </rdg>
+			               <rdg wit="f1831">the </rdg>
+			               <rdg wit="fMS">the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app56">
+		             <rdgGrp xml:id="C08i_app56_rg1" n="['facts', 'which', 'they']">
+			               <rdg wit="f1818">facts which they </rdg>
+			               <rdg wit="f1823">facts which they </rdg>
+			               <rdg wit="fThomas">facts which they </rdg>
+			               <rdg wit="f1831">facts which they </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__18"/&gt; facts which they </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app57">
+		             <rdgGrp xml:id="C08i_app57_rg1" n="['', 'to']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__19"/&gt; to </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app57_rg2" n="['in']">
+			               <rdg wit="f1818">in </rdg>
+			               <rdg wit="f1823">in </rdg>
+			               <rdg wit="fThomas">in </rdg>
+			               <rdg wit="f1831">in </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app58">
+		             <rdgGrp xml:id="C08i_app58_rg1" n="['a', 'great', 'degree']">
+			               <rdg wit="f1818">a great degree </rdg>
+			               <rdg wit="f1823">a great degree </rdg>
+			               <rdg wit="fThomas">a great degree </rdg>
+			               <rdg wit="f1831">a great degree </rdg>
+			               <rdg wit="fMS">a great degree </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app59">
+		             <rdgGrp xml:id="C08i_app59_rg1" n="['had', 'been', 'the']">
+			               <rdg wit="f1818">had been the </rdg>
+			               <rdg wit="f1823">had been the </rdg>
+			               <rdg wit="fThomas">had been the </rdg>
+			               <rdg wit="f1831">had been the </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__20"/&gt; ha&lt;mdel&gt;v&lt;/mdel&gt;d&lt;mdel&gt;e&lt;/mdel&gt; been the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app60">
+		             <rdgGrp xml:id="C08i_app60_rg1" n="['instruments', 'of']">
+			               <rdg wit="f1818">instruments of </rdg>
+			               <rdg wit="f1823">instruments of </rdg>
+			               <rdg wit="fThomas">instruments of </rdg>
+			               <rdg wit="f1831">instruments of </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__21"/&gt; instruments of </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app61">
+		             <rdgGrp xml:id="C08i_app61_rg1" n="['bringing', 'to', 'light.']">
+			               <rdg wit="f1818">bringing to light. </rdg>
+			               <rdg wit="f1823">bringing to light. </rdg>
+			               <rdg wit="fThomas">bringing to light. </rdg>
+			               <rdg wit="f1831">bringing to light. </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__22"/&gt; bringing to light. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app62">
+		             <rdgGrp xml:id="C08i_app62_rg1" n="['the', 'labours', 'of']">
+			               <rdg wit="f1818">The labours of </rdg>
+			               <rdg wit="f1823">The labours of </rdg>
+			               <rdg wit="fThomas">The labours of </rdg>
+			               <rdg wit="f1831">The labours of </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__23"/&gt; The labours of </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app63">
+		             <rdgGrp xml:id="C08i_app63_rg1" n="['men', 'of']">
+			               <rdg wit="f1818">men of </rdg>
+			               <rdg wit="f1823">men of </rdg>
+			               <rdg wit="fThomas">men of </rdg>
+			               <rdg wit="f1831">men of </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__24"/&gt; men of </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app64">
+		             <rdgGrp xml:id="C08i_app64_rg1" n="['genius', '']">
+			               <rdg wit="fMS">genius &lt;lb n="c56-0028__left_margin__25"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app64_rg2" n="['genius,']">
+			               <rdg wit="f1818">genius, </rdg>
+			               <rdg wit="f1823">genius, </rdg>
+			               <rdg wit="fThomas">genius, </rdg>
+			               <rdg wit="f1831">genius, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app65">
+		             <rdgGrp xml:id="C08i_app65_rg1" n="['however', 'erroneously']">
+			               <rdg wit="f1818">however erroneously </rdg>
+			               <rdg wit="f1823">however erroneously </rdg>
+			               <rdg wit="fThomas">however erroneously </rdg>
+			               <rdg wit="f1831">however erroneously </rdg>
+			               <rdg wit="fMS">however erroneously </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app66">
+		             <rdgGrp xml:id="C08i_app66_rg1" n="['', 'directed']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__26"/&gt; directed </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app66_rg2" n="['directed,']">
+			               <rdg wit="f1818">directed, </rdg>
+			               <rdg wit="f1823">directed, </rdg>
+			               <rdg wit="fThomas">directed, </rdg>
+			               <rdg wit="f1831">directed, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app67">
+		             <rdgGrp xml:id="C08i_app67_rg1" n="['scarcely', 'ever']">
+			               <rdg wit="f1818">scarcely ever </rdg>
+			               <rdg wit="f1823">scarcely ever </rdg>
+			               <rdg wit="fThomas">scarcely ever </rdg>
+			               <rdg wit="f1831">scarcely ever </rdg>
+			               <rdg wit="fMS">scarce&lt;lb n="c56-0028__left_margin__27"/&gt;ly ever </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app68">
+		             <rdgGrp xml:id="C08i_app68_rg1" n="['fail', 'in']">
+			               <rdg wit="f1818">fail in </rdg>
+			               <rdg wit="f1823">fail in </rdg>
+			               <rdg wit="fThomas">fail in </rdg>
+			               <rdg wit="f1831">fail in </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app68_rg2" n="['failed.in']">
+			               <rdg wit="fMS">failed.&lt;lb n="c56-0028__left_margin__1"/&gt;in </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app69">
+		             <rdgGrp xml:id="C08i_app69_rg1" n="['ultimately']">
+			               <rdg wit="f1818">ultimately </rdg>
+			               <rdg wit="f1823">ultimately </rdg>
+			               <rdg wit="fThomas">ultimately </rdg>
+			               <rdg wit="f1831">ultimately </rdg>
+			               <rdg wit="fMS">ultimately </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app70">
+		             <rdgGrp xml:id="C08i_app70_rg1" n="['turning', 'to', 'the']">
+			               <rdg wit="f1818">turning to the </rdg>
+			               <rdg wit="f1823">turning to the </rdg>
+			               <rdg wit="fThomas">turning to the </rdg>
+			               <rdg wit="f1831">turning to the </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__2"/&gt; turning to the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app71">
+		             <rdgGrp xml:id="C08i_app71_rg1" n="['solid', 'advantage', 'of']">
+			               <rdg wit="f1818">solid advantage of </rdg>
+			               <rdg wit="f1823">solid advantage of </rdg>
+			               <rdg wit="fThomas">solid advantage of </rdg>
+			               <rdg wit="f1831">solid advantage of </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__3"/&gt; solid advantage of </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app72">
+		             <rdgGrp xml:id="C08i_app72_rg1" n="['', 'mankind.i']">
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__4"/&gt; mankind.I </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app72_rg2" n="['mankind.&#34;', 'i']">
+			               <rdg wit="f1818">mankind.” I </rdg>
+			               <rdg wit="f1823">mankind.” I </rdg>
+			               <rdg wit="fThomas">mankind.” I </rdg>
+			               <rdg wit="f1831">mankind.” I </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app73">
+		             <rdgGrp xml:id="C08i_app73_rg1" n="['listened']">
+			               <rdg wit="f1818">listened </rdg>
+			               <rdg wit="f1823">listened </rdg>
+			               <rdg wit="fThomas">listened </rdg>
+			               <rdg wit="f1831">listened </rdg>
+			               <rdg wit="fMS">listen&lt;lb n="c56-0028__left_margin__5"/&gt;ed </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app74">
+		             <rdgGrp xml:id="C08i_app74_rg1"
+                       n="['&lt;del&gt;to', 'his', 'statement,', 'which', 'was', 'delivered&lt;del&gt;to', 'him', 'with', 'interest', 'for', 'he', 'spoke']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter4_chapter2_div4_div2_p15_del1"/&gt;to his statement, which was delivered&lt;del eID="novel1_letter4_chapter2_div4_div2_p15_del1"/&gt;to him with interest for he spoke </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app74_rg2"
+                       n="['to', 'his', 'statement', 'which', 'was', 'delivered']">
+			               <rdg wit="fMS">to his state&lt;lb n="c56-0028__left_margin__6"/&gt;ment which &lt;lb n="c56-0028__left_margin__7"/&gt; was delivered </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app74_rg3"
+                       n="['to', 'his', 'statement,', 'which', 'was', 'delivered']">
+			               <rdg wit="f1818">to his statement, which was delivered </rdg>
+			               <rdg wit="f1823">to his statement, which was delivered </rdg>
+			               <rdg wit="f1831">to his statement, which was delivered </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app75">
+		             <rdgGrp xml:id="C08i_app75_rg1" n="['without']">
+			               <rdg wit="f1818">without </rdg>
+			               <rdg wit="f1823">without </rdg>
+			               <rdg wit="fThomas">without </rdg>
+			               <rdg wit="f1831">without </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__8"/&gt; without </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app76">
+		             <rdgGrp xml:id="C08i_app76_rg1" n="['&lt;del&gt;any&lt;del&gt;']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter4_chapter2_div4_div2_p15_del2"/&gt;any&lt;del eID="novel1_letter4_chapter2_div4_div2_p15_del2"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app76_rg2" n="['any']">
+			               <rdg wit="f1818">any </rdg>
+			               <rdg wit="f1823">any </rdg>
+			               <rdg wit="f1831">any </rdg>
+			               <rdg wit="fMS">any </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app77">
+		             <rdgGrp xml:id="C08i_app77_rg1" n="['presumption']">
+			               <rdg wit="f1818">presumption </rdg>
+			               <rdg wit="f1823">presumption </rdg>
+			               <rdg wit="fThomas">presumption </rdg>
+			               <rdg wit="f1831">presumption </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__9"/&gt; presumption </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app78">
+		             <rdgGrp xml:id="C08i_app78_rg1" n="['or', 'affectation;']">
+			               <rdg wit="f1818">or affectation; </rdg>
+			               <rdg wit="f1823">or affectation; </rdg>
+			               <rdg wit="fThomas">or affectation; </rdg>
+			               <rdg wit="f1831">or affectation; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app79">
+		             <rdgGrp xml:id="C08i_app79_rg1" n="['and', 'then']">
+			               <rdg wit="f1818">and then </rdg>
+			               <rdg wit="f1823">and then </rdg>
+			               <rdg wit="fThomas">and then </rdg>
+			               <rdg wit="f1831">and then </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__left_margin__10"/&gt;&amp; then </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app80">
+		             <rdgGrp xml:id="C08i_app80_rg1" n="['added,']">
+			               <rdg wit="f1818">added, </rdg>
+			               <rdg wit="f1823">added, </rdg>
+			               <rdg wit="fThomas">added, </rdg>
+			               <rdg wit="f1831">added, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app80_rg2"
+                       n="['added&lt;del&gt;i', 'ended', 'by', 'saying&lt;del&gt;']">
+			               <rdg wit="fMS">added&lt;del rend="strikethrough" sID="c56-0028__main__d2e5825"/&gt;I ended by saying&lt;del eID="c56-0028__main__d2e5825"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app81">
+		             <rdgGrp xml:id="C08i_app81_rg1" n="['that']">
+			               <rdg wit="f1818">that </rdg>
+			               <rdg wit="f1823">that </rdg>
+			               <rdg wit="fThomas">that </rdg>
+			               <rdg wit="f1831">that </rdg>
+			               <rdg wit="fMS">that </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app82">
+		             <rdgGrp xml:id="C08i_app82_rg1" n="['his', 'lecture', 'had', 'removed', 'my']">
+			               <rdg wit="f1818">his lecture had removed my </rdg>
+			               <rdg wit="f1823">his lecture had removed my </rdg>
+			               <rdg wit="fThomas">his lecture had removed my </rdg>
+			               <rdg wit="f1831">his lecture had removed my </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0028__main__26"/&gt; his lecture had removed my </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app83">
+		             <rdgGrp xml:id="C08i_app83_rg1" n="['prejudice', '']">
+			               <rdg wit="fMS">prejudice &lt;lb n="c56-0028__main__27"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app83_rg2" n="['prejudices']">
+			               <rdg wit="f1818">prejudices </rdg>
+			               <rdg wit="f1823">prejudices </rdg>
+			               <rdg wit="fThomas">prejudices </rdg>
+			               <rdg wit="f1831">prejudices </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app84">
+		             <rdgGrp xml:id="C08i_app84_rg1" n="['against', 'modern']">
+			               <rdg wit="f1818">against modern </rdg>
+			               <rdg wit="f1823">against modern </rdg>
+			               <rdg wit="fThomas">against modern </rdg>
+			               <rdg wit="f1831">against modern </rdg>
+			               <rdg wit="fMS">against modern </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08i_app85">
+		             <rdgGrp xml:id="C08i_app85_rg1" n="['chemists']">
+			               <rdg wit="fMS">chemists </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08i_app85_rg2" n="['chemists;']">
+			               <rdg wit="f1818">&lt;pb n="076" xml:id="F1818_v1_088"/&gt;chemists; </rdg>
+			               <rdg wit="f1823">chemists; </rdg>
+			               <rdg wit="fThomas">&lt;pb n="076" xml:id="F1818_v1_088"/&gt;chemists; </rdg>
+			               <rdg wit="f1831">chemists; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

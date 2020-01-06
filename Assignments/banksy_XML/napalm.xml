@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Napalm</title>
+                    <alternate>Can't Beat The Feeling</alternate>
+                    <date when="2004"/>
+                    <medium type="canvas"/>
+                    <size dimension="50 x 76">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="650" signed="150" unsigned="500"/>
+                    <edition total="27" signed="27" unsigned="0">Orange</edition>
+                    <edition total="27" signed="27" unsigned="0">Rainbow</edition>
+                    <edition total="50" signed="50" unsigned="0">Serpentine Edition</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/napalm.jpg" alt="Banksy's 'Napalm'"/>
+            <title>Napalm</title>
+            <credit>https://dl.airtable.com/ikJJzsnQTmW5oJlJf9Zm_full_banksy-prints-napalm.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/napalm_orange.jpg" alt="Banksy's 'Napalm (Orange)'"/>
+            <title>Napalm (Orange)</title>
+            <credit>https://dl.airtable.com/kuUyRf3WRIOET88oTHNx_full_NapalmAPlarge.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/napalm_rainbow.jpg" alt="Banksy's 'Napalm (Rainbow)'"/>
+            <title>Napalm (Rainbow)</title>
+            <credit>https://dl.airtable.com/SBnHtUBFS529Ni4aaNmF_full_bansky-napalm-rainbow.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/napalm_serpentine_edition.jpg" alt="Banksy's 'Napalm (Serpentine Edition)'"/>
+            <title>Napalm (Serpentine Edition)</title>
+            <credit>https://dl.airtable.com/QFdMtHbKSUSc7lERJfP8_full_Cant%2520Beat%2520The%2520Feeling.png%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

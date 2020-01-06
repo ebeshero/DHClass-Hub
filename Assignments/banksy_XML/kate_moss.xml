@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Kate Moss</title>
+                    <date when="2005"/>
+                    <medium type="canvas"/>
+                    <size dimension="70 x 70">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="50" signed="50" unsigned="0"/>
+                    <edition total="20" signed="20" unsigned="0">Apricot/Gold</edition>
+                    <edition total="20" signed="20" unsigned="0">Blue/Grey</edition>
+                    <edition total="20" signed="20" unsigned="0">Green</edition>
+                    <edition total="20" signed="20" unsigned="0">Pink</edition>
+                    <edition total="20" signed="20" unsigned="0">Purple</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/kate_moss.jpg" alt="Banksy's 'Kate Moss'"/>
+            <title>Kate Moss</title>
+            <credit>https://dl.airtable.com/CNr8GuSRQou3FNjpq8fe_full_banksy-kate-moss-original-colourway.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/kate_moss_apricot_gold.jpg" alt="Banksy's 'Kate Moss (Apricot/Gold)'"/>
+            <title>Kate Moss (Apricot/Gold)</title>
+            <credit>https://dl.airtable.com/1AUELxZ8Rs6XPHFte97o_full_banksy-katemoss-apricot.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/kate_moss_blue_grey.jpg" alt="Banksy's 'Kate Moss (Blue/Grey)'"/>
+            <title>Kate Moss (Blue/Grey)</title>
+            <credit>https://dl.airtable.com/OFAyiVi6Q5GRsdpQCCtg_full_banksy-kate-moss-grey-blue-grey-5082.gif%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/kate_moss_green.jpg" alt="Banksy's 'Kate Moss (Green)'"/>
+            <title>Kate Moss (Green)</title>
+            <credit>https://dl.airtable.com/zAJzGMBCQvG1iHE47262_full_banksy-katemoss-green.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/kate_moss_pink.jpg" alt="Banksy's 'Kate Moss (Pink)'"/>
+            <title>Kate Moss (Pink)</title>
+            <credit>https://dl.airtable.com/nNdZ7yHGRsyGxA2Uf9Tc_full_kate_moss_banksy---4.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/kate_moss_purple.jpg" alt="Banksy's 'Kate Moss (Purple)'"/>
+            <title>Kate Moss (Purple)</title>
+            <credit>https://dl.airtable.com/9QTXNUQKSkcSbdn5RE4I_full_banksy-kate-moss-purple-better.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

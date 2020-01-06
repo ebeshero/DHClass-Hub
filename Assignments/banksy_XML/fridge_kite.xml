@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Fridge Kite</title>
+                    <date when="2012-08"/>
+                    <medium type="spray_paint"/>
+                    <location lat="29.9511" long="90.0715">New Orleans, USA</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://us.canvasartrocks.com/blogs/posts/70529347-121-amazing-banksy-graffiti-artworks-with-locations">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This piece by Banksy shows a Fridge Kite by a child flying a kite, but it is actually a fridge. It has been suggested that this represents hunger and poverty. 
+            However, the child is still finding a way to be a child despite this. It shows the power of limitation that a child can have. This work has since been destroyed.</desc>
+        <p>
+            <img src="fridge_kite.jpg" alt="Fridge Kite Banksy"/>
+            <title>Fridge Kite Banksy</title>
+            <credit>By: Claude Johnston from New Orleans, https://commons.wikimedia.org/wiki/File:Banksy_Fridge_Kite.jpg</credit>
+        </p>
+    </body>
+</root>

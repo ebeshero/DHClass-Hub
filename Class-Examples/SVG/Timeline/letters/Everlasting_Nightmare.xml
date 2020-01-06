@@ -1,0 +1,47 @@
+<?xml-model href="WarLettersSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+    
+    <title>Dardanelles: ‘an everlasting nightmare’</title>
+    
+    <abstract>
+        <persName firstName="Harold" lastName="Watts" born="1884-08-28" death="1953-09-11" regiment="DrakesBattalionRoyalNavalVolunteerReserve">Thomas Harold Watts</persName>
+        <placeName location="Dardanelles"/>
+        <date when="1915-06-18">18 June 1915</date>
+    </abstract>
+    
+    <heading>
+        Dear <persName firstName="Arthur">Arthur</persName>
+    </heading>
+    
+    <body>
+        <p>
+            I expect you are wondering why I have not written, but it is an awful effort to get all correspondence off, and be on active service at the same time. I can’t say that I am enjoying myself out here. It’s awfully hot, and we are eaten up by millions of flies. Life in the trenches is not a picnic either we have about four or five days out of them and eight or nine in them. When we are out supposed to be resting, we have to go on working parties, digging etc., then wherever we are, we are always under shell fire, so it’s not much rest after all. The last shell we had in camp, <emotion morale="low">there was four killed and seventeen wounded</emotion>.
+        </p>
+        <p>
+            We have been under fire for three months now, and we should like a rest as the strain is tremendous on one’s nerves. I don’t think the troops in France get it quite as bad. Then again, the only comforts we have are sent from home, as the country here is quite barren, and we cannot buy anything in shops, I would give a quid for a pint of beer down the club. Our food consists of half a loaf of bread per day, bacon and tea for breakfast, Bully beef and biscuits for dinner and Jam for tea and cheese. Lime juice is served out about four times per week, that is a drop is put into a dixie of water and a cup full served out per man, and rum is served out twice a week (sometimes) that is about four table spoonful each.
+        </p>
+        <p>
+            We live in a trench and it is a mercy it don’t rain otherwise we’d be washed away. The fighting just lately has been terrible. Our shells knock the enemy all ways and the sight in the trenches that we take is awful. We wear our respirators because of the awful smell of the dead. I’ll never get the sight out of my eyes, and it will be an everlasting nightmare. If I am spared to come home, I’ll be able to tell you all about it, but I cannot possibly write as words fail me. I can’t describe things.
+        </p>
+        <p>
+            Wouldn’t it be nice to be at Walmer again and you come down and see me again, I did enjoy that time, and also seeing Billy Dawson and Richardson. There seem to be a lot of French troops out here, but there seems to be no relief for us. Nobody loves us now Churchill has gone, we are nobody’s pets. It’s the army first here, except when there is work to be done, and then the Naval Division have to do it. You know both my brothers have commissions in the 4th Bedfordshires and are at Dovercourt. My wife tells me she has sent me three boxes of stuff, I received one box, and I fear that one transport has been floundered [sunk] and another has been torpedoed, so I expect that is where my other two boxes are. It’s awfully disappointing because I do look forward so to a bit of chocolate and a few biscuits from home. We get cigarettes and baccy served out to us, but it is too hot to smoke much, so that I don’t miss that so much. I get a bath in a biscuit tin when I can, but when in the trenches I have to go all the time without a wash, so you can tell I am used to being dirty.
+        </p>
+        <p>
+            How are they all down the club, and is Emmie still there, and is she better or not? Is Paice going to Looe this year? And where are you spending your holidays? Lord how I’d like a holiday, I am so tired and would give anything to get away from this continual banging.
+        </p>
+        <p>
+            Please remember me to all fellows who are left in the office. Mr Miller and Goff &amp; Hills and George Williams, and all the boys generally. I can’t write to all separately, also for details of my experiences you must wait until I get back, if ever I do, of which sometimes I despair.
+        </p>
+        <p>
+            The papers tell you pretty full accounts, although they are rather anticipating events as to our advancing. Now I must close old chap, and thank you very much for all your kindness.
+        </p>
+    </body>
+    
+    <closing>
+        Wishing you all the best,
+        Yours very sincerely,
+        <persName firstName="Harold" lastName="Watts">Harold Watts</persName>
+    </closing>
+    
+</letter>

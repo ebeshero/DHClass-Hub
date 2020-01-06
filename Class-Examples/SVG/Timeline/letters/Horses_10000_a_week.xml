@@ -1,0 +1,33 @@
+<?xml-model href="WarLettersSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+    
+    <title>Horses: ‘10,000 a week come in’</title>
+    
+    <abstract>
+        <persName firstName="James" lastName="Hyam" born="1891-07-24" death="1951" rank="Gunner" regiment="11Hussars,C.Squadron;RoyalFieldArtillery;RoyalGarrisonArtillery" regimentNum="223725; 184963">James Walter Hyam</persName>
+        <placeName location="England">England</placeName>
+    </abstract>
+    
+    <heading>
+        Dear <persName firstName="Bertie">Bertie</persName>
+    </heading>
+    
+    <body>
+        <p>
+            Many thanks for letters and fags both were very acceptable as you can imagine for it bucks one up to hear from old associates. I also had a letter from “Tinker” Taylor who told me Gwen has left the Great Western Railway Company. I will write to Ferdi [Ferdinand] and ask Frosty if you give me his address. I can imagine how lovely and empty the old room looks, fancy more flappers eh, quite a selection as you say. I will just give you an idea of our work here day by day. Reveille 6.00am, stables at 6.30-7.30, breakfast till 9. Then exercise ride one and lead two or three [horses] for one and a half hours, then groom them until 12.15, then we water and feed and go to dinner till 2.30 then sweep up … [Letter damaged]
+        </p>
+        <p>
+            Bed [horses] down at 4pm then water and feed at 4.15 to 4.30 and hay up at 5pm, only we take it in turns to do that and we have stables like this. [Fatty has drawn a rough sketch of the stables which house the horses].
+        </p>
+        <p>
+            We have six and seven a side which leaves us four horses each. Of course, sandwiched between this is probably a visit to Avonmouth Docks to fetch horses or take ours to the station for we only keep them for a week at the time just to knock the mud off and feed them up so as they get their shore legs and look a bit shipshape again. We have about 10,000 a week come in of horses and mules and some of them are fair devils, so wild and timid.
+        </p>
+    </body>
+    
+    <closing>
+        I may come and see you probably Saturday if I get the weekend off...
+        <persName firstName="James" lastName="Hyam">Fatty</persName>
+    </closing>
+    
+</letter>

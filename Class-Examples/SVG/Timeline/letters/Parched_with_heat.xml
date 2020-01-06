@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="WarLettersSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <title>Dardanelles: ‘parched with the heat’</title>
+    <abstract>
+        This is one of many letters sent by staff of the Great Western Railway Audit office at Paddington who had enlisted to fight in the First World War. Image shows part of letter. (RAIL 253/516)
+        <persName firstName="George" lastName="Shipley" born="1878-08-18" death="1915-12-02" regiment="10 Middlesex Regiment" regimentNum="2594" rank="Company Sergeant Major">George Shipley</persName>, <placeName location="Gallipoli">Gallipoli, Turkey</placeName><date when="1915-11-08">8 November 1915</date>.
+    </abstract>
+    <heading>
+        Dear<persName firstName="Nic" lastName="Boyce">Nic (Boyce)</persName>
+    </heading>
+    <body>
+        <p>
+            Thanks very much for your interesting letter… I wondered when I would hear from someone at the office. Also many thanks for your good wishes and congratulations on my marriage which I have conveyed to my wife. I am sure she will thank you all very much.
+        </p>
+        
+        <p>
+            Well to tell you a little about our experiences, we started off mysteriously one Sunday from Devonport on the captured German liner Derflinger, not a bad boat. The Warrant Officers had 2nd class quarters it was all right. Food was very fair. Submarine pickets* every night for one of the four companies, lights out… at seven or half past. Stole by Gibraltar at night in a fog expecting it to be torpedoed. We did reach Malta in due course after skirting north African coast, spent a day there, went ashore, had a few drinks which we needed being very hot and then on to Alexandria for three days, ashore every night, not a bad place, of course the lower men didn’t go, except for a route march on the Saturday. Our movements were kept very secret and we couldn’t find out what was to be done with our division, we then pushed to Port Said and had a day there. All of a sudden, we received orders to sail and soon found we were off to Gallipoli as we were passing through the Aegean sea, which is as you know full of pretty islands. Some hours before reaching Lemnos, the naval guns could be heard booming and we ran into the magnificent harbour there full of shipping and life. After a day there, we pushed on to Imbros 4½ miles from Sulva Bay during the afternoon they treated us to a naval shelling of Achi Baba, which is really the other side of the peninsula, but they shoot over the hills and mountains here. It was a fine sight and many of our chaps went sick at once. At night (Sunday 9/8/15) our good ship made for Anafarta Bay where a new landing had been effected two days before. 900 rounds, four days’ rations each, as much as a man is expected to carry and they dumped us over the side in lighters [a type of flat-bottomed barge] at 7am, a short journey through the boom defences and we were ashore waiting for something to turn up.
+        </p>
+        <p>
+            Bivouacked on the beach and were put on unloading lighters till about 10 when the Turks spotted us and started shelling, two men killed and four wounded to start with and we lost a few more, wounded during the day although naturally we took what cover we could. I had one or two near me whilst getting a timber out of the hold of a lighter but managed to dodge them all right. At night my company received orders to take picks and shovels up into the firing line which was about five miles away half way up Chocolate Hill… Well Nic the 10th were soon in the thick of it as we advanced across the salt lake in extended order.
+        </p>
+        <p>
+            Rifle fire now we had to dodge and many of our chaps got hit rather seriously I have since found out. I was glad of a rest at the foot of the hill but had to push on again and deliver the goods, after feeling about in the dark for some time our guide led us in single file up behind the firing line, where we laid down, bullets were whistling round but we managed to escape them… The enemy were yelling for all they were worth and I was glad when our captain ordered us down again to the beach. This took us some hours and when we reached the place, the other three had gone up to reinforce the firing line, so up we went again the next day about 6pm, nearly all things are done here in the dark as we are in view all the time. We again advanced across the take from Lala Baba, my heels were nearly raw through new boots and I eventually had to rest for a fortnight later on. Well on our right was a hill burning furiously with many a chap caught in the flames and so perishing (not our regiment).
+        </p>
+        <p>
+            We finished on rather a feathered bed and did not find the other Company ‘til next day, it was a night, we were all parched with the heat, and no water. Dried up and had to dig ourselves in, it’s no light job this hiding being… like an ostrich, ‘til you make a hole large enough to get into and make yourself head cover.
+        </p>
+    </body>
+    
+    
+    
+</letter>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Snorting Copper</title>
+                    <alternate>Police Snorting Coke</alternate>
+                    <date when="2005"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.51001" long="-0.133869">London, UK</location>
+                    <ref target="http://www.banksy.co.uk/"></ref>
+                    <ref target="http://www.banksy.co.uk/out.asp"></ref>
+                    <ref target="https://www.standard.co.uk/go/london/arts/banksys-lost-snorting-copper-has-been-returned-to-its-original-home-on-curtain-road-in-shoreditch-a3651646.html"></ref>
+                    <cause when="2005"> Lack of Police Work and Corruption in London.</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This artwork shows the police officers in London snorting a line of coke.This artworks also included several miles of paint “dribble” which trailed through the city and led to the stencil representing a line of coke. This piece by 
+            Banksy is strongly taking shots at the cops by lacking immorality and corruption in the police force. This artwork was vandalized but hsa been brought back to restoration. On Curtain Road at the Waterloo Station in London.</desc>
+        <p>
+            <img src="banksy_snorting_copper.jpg" alt="Snorting Copper Banksy"/>
+            <title>Snorting Copper</title>
+            <credit>By Andy Nolan from London, Snorting Copper, https://2015andynoden.wordpress.com/2016/11/06/banksy-art-work/</credit>
+        </p>
+    </body>
+</root>

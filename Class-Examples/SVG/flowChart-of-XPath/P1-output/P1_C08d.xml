@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C08d">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C08d</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-04 16:58:37.992715 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C08d_app1">
+		             <rdgGrp xml:id="C08d_app1_rg1" n="['']">
+			               <rdg wit="f1831"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app1_rg2"
+                       n="['i', 'had', 'taken', 'leave', 'of', 'all', 'my']">
+			               <rdg wit="f1818">I had taken leave of all my </rdg>
+			               <rdg wit="f1823">I had taken leave of all my </rdg>
+			               <rdg wit="fThomas">I had taken leave of all my </rdg>
+			               <rdg wit="fMS">I had taken leave of all &lt;lb n="c56-0021__main__4"/&gt; my </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app2">
+		             <rdgGrp xml:id="C08d_app2_rg1" n="['friends']">
+			               <rdg wit="fMS">friends </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app2_rg2" n="['friends,']">
+			               <rdg wit="f1818">friends, </rdg>
+			               <rdg wit="f1823">friends, </rdg>
+			               <rdg wit="fThomas">friends, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app3">
+		             <rdgGrp xml:id="C08d_app3_rg1"
+                       n="['Clerval', 'spent', 'the', 'last', 'evening', 'with', 'us.', 'He', 'had', 'endeavoured', 'to', 'persuade', 'his', 'father', 'to', 'permit', 'him', 'to', 'accompany', 'me,', 'and', 'to', 'become', 'my', 'fellow', 'student;', 'but', 'in', 'vain.', 'His', 'father', 'was', 'a', 'narrow-minded', 'trader,', 'and', 'saw', 'idleness', 'and', 'ruin', 'in', 'the', 'aspirations', 'and', 'ambition', 'of', 'his', 'son.', 'Henry', 'deeply', 'felt', 'the', 'misfortune', 'of', 'being', 'debarred', 'from', 'a', 'liberal', 'education.', 'He', 'said', 'little;', 'but', 'when', 'he', 'spoke,', 'I', 'read', 'in', 'his', 'kindling', 'eye', 'and', 'in', 'his', 'animated', 'glance', 'a', 'restrained', 'but', 'firm', 'resolve,', 'not', 'to', 'be', 'chained', 'to', 'the', 'miserable', 'details', 'of', 'commerce.&lt;p/&gt;', '&lt;p/&gt;We', 'sat', 'late.', 'We', 'could', 'not', 'tear', 'ourselves', 'away', 'from', 'each', 'other,', 'nor', 'persuade', 'ourselves', 'to', 'say', 'the', 'word', '“Farewell!”', 'It', 'was', 'said;', 'and', 'we', 'retired', 'under', 'the', 'pretence', 'of', 'seeking', 'repose,', 'each', 'fancying', 'that', 'the', 'other', 'was', 'deceived:', 'but', 'when', 'at', 'morning’s', 'dawn', 'I', 'descended', 'to', 'the', 'carriage', 'which', 'was', 'to', 'convey', 'me', 'away,', 'they', 'were', 'all', 'there—my', 'father', 'again', 'to', 'bless', 'me,', 'Clerval', 'to', 'press', 'my', 'hand', 'once', 'more,', 'my', 'Elizabeth', 'to', 'renew', 'her', 'entreaties', 'that', 'I', 'would', 'write', 'often,', 'and', 'to', 'bestow', 'the', 'last', 'feminine', 'attentions', 'on', 'her', 'playmate', 'and', 'friend.&lt;p/&gt;']">
+			               <rdg wit="f1831">Clerval spent the last evening with us. He had endeavoured to persuade his father to permit him to accompany me, and to become my fellow student; but in vain. His father was a narrow-minded trader, and saw idleness and ruin in the aspirations and ambition of his son. Henry deeply felt the misfortune of being debarred from a liberal education. He said little; but when he spoke, I read in his kindling eye and in his animated glance a restrained but firm resolve, not to be chained to the miserable details of commerce.&lt;p eID="novel1_letter4_chapter3_div4_div3_p6"/&gt; &lt;p sID="novel1_letter4_chapter3_div4_div3_p7"/&gt;We sat late. We could not tear ourselves away from each other, nor persuade ourselves to say the word “Farewell!” It was said; and we retired under the pretence of seeking repose, each fancying that the other was deceived: but when at morning’s dawn I descended to the carriage which was to convey me away, they were all there—my father again to bless me, Clerval to press my hand once more, my Elizabeth to renew her entreaties that I would write often, and to bestow the last feminine attentions on her playmate and friend.&lt;p eID="novel1_letter4_chapter3_div4_div3_p7"/&gt;</rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app3_rg2"
+                       n="['excepting', 'clerval,', 'who', 'spent', 'the', 'last', 'evening', 'with', 'us.', 'he', 'bitterly', 'lamented', 'that', 'he', 'was']">
+			               <rdg wit="f1818">excepting Clerval, who spent the last evening with us. He bitterly lamented that he was </rdg>
+			               <rdg wit="f1823">excepting Clerval, who spent the last evening with us. He bitterly lamented that he was </rdg>
+			               <rdg wit="fThomas">excepting Clerval, who spent the last evening with us. He bitterly lamented that he was </rdg>
+			               <rdg wit="fMS">excepting Clerval, who spent &lt;lb n="c56-0021__main__5"/&gt; the last evening with us. He bitterly la&lt;lb n="c56-0021__main__6"/&gt;mented that he was </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app4">
+		             <rdgGrp xml:id="C08d_app4_rg1" n="['&lt;del&gt;not', 'able&lt;del&gt;unable']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0021__main__d2e4032"/&gt;not able&lt;del eID="c56-0021__main__d2e4032"/&gt;unable </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app4_rg2" n="['unable']">
+			               <rdg wit="f1818">unable </rdg>
+			               <rdg wit="f1823">unable </rdg>
+			               <rdg wit="fThomas">unable </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app5">
+		             <rdgGrp xml:id="C08d_app5_rg1" n="['to']">
+			               <rdg wit="f1818">to </rdg>
+			               <rdg wit="f1823">to </rdg>
+			               <rdg wit="fThomas">to </rdg>
+			               <rdg wit="fMS">to </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app6">
+		             <rdgGrp xml:id="C08d_app6_rg1" n="['accompany']">
+			               <rdg wit="f1818">accompany </rdg>
+			               <rdg wit="f1823">accompany </rdg>
+			               <rdg wit="fThomas">accompany </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__7"/&gt; accompany </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app7">
+		             <rdgGrp xml:id="C08d_app7_rg1" n="['me']">
+			               <rdg wit="fMS">me </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app7_rg2" n="['me:']">
+			               <rdg wit="f1818">me: </rdg>
+			               <rdg wit="f1823">me: </rdg>
+			               <rdg wit="fThomas">me: </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app8">
+		             <rdgGrp xml:id="C08d_app8_rg1" n="['but', 'his', 'father']">
+			               <rdg wit="f1818">but his father </rdg>
+			               <rdg wit="f1823">but his father </rdg>
+			               <rdg wit="fThomas">but his father </rdg>
+			               <rdg wit="fMS">But his father </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app9">
+		             <rdgGrp xml:id="C08d_app9_rg1" n="['could', 'not']">
+			               <rdg wit="f1818">could not </rdg>
+			               <rdg wit="f1823">could not </rdg>
+			               <rdg wit="fThomas">could not </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__8"/&gt; could not </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app10">
+		             <rdgGrp xml:id="C08d_app10_rg1" n="['&lt;del&gt;bear&lt;del&gt;be']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0021__main__d2e4046"/&gt;bear&lt;del eID="c56-0021__main__d2e4046"/&gt;be </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app10_rg2" n="['be']">
+			               <rdg wit="f1818">be </rdg>
+			               <rdg wit="f1823">be </rdg>
+			               <rdg wit="fThomas">be </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app11">
+		             <rdgGrp xml:id="C08d_app11_rg1" n="['persuaded', 'to', 'part', 'with']">
+			               <rdg wit="f1818">persuaded to part with </rdg>
+			               <rdg wit="f1823">persuaded to part with </rdg>
+			               <rdg wit="fThomas">persuaded to part with </rdg>
+			               <rdg wit="fMS">persuaded to part with </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app12">
+		             <rdgGrp xml:id="C08d_app12_rg1"
+                       n="['him', '&lt;del&gt;besides&lt;del&gt;&lt;del&gt;as&lt;del&gt;&lt;del&gt;he&lt;del&gt;', 'intending&lt;del&gt;him', 'to&lt;del&gt;that']">
+			               <rdg wit="fMS">him &lt;lb n="c56-0021__main__9"/&gt;&lt;del rend="strikethrough" sID="c56-0021__main__d2e4055"/&gt;besides&lt;del eID="c56-0021__main__d2e4055"/&gt;&lt;del rend="strikethrough" sID="c56-0021__main__d2e4058"/&gt;as&lt;del eID="c56-0021__main__d2e4058"/&gt;&lt;del rend="strikethrough" sID="c56-0021__main__d2e4062"/&gt;he&lt;del eID="c56-0021__main__d2e4062"/&gt; intend&lt;mdel&gt;ed&lt;/mdel&gt;ing&lt;del rend="strikethrough" sID="c56-0021__main__d2e4076"/&gt;him to&lt;del eID="c56-0021__main__d2e4076"/&gt;that </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app12_rg2" n="['him,']">
+			               <rdg wit="f1818">him, </rdg>
+			               <rdg wit="f1823">him, </rdg>
+			               <rdg wit="fThomas">him, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app13">
+		             <rdgGrp xml:id="C08d_app13_rg1" n="['intending']">
+			               <rdg wit="f1818">intending </rdg>
+			               <rdg wit="fThomas">intending </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app13_rg2" n="['intending,']">
+			               <rdg wit="f1823">intending, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app14">
+		             <rdgGrp xml:id="C08d_app14_rg1" n="['that']">
+			               <rdg wit="f1818">that </rdg>
+			               <rdg wit="f1823">that </rdg>
+			               <rdg wit="fThomas">that </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app15">
+		             <rdgGrp xml:id="C08d_app15_rg1" n="['he']">
+			               <rdg wit="f1818">he </rdg>
+			               <rdg wit="f1823">he </rdg>
+			               <rdg wit="fThomas">he </rdg>
+			               <rdg wit="fMS">he </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app16">
+		             <rdgGrp xml:id="C08d_app16_rg1" n="['should', 'become']">
+			               <rdg wit="f1818">should become </rdg>
+			               <rdg wit="f1823">should become </rdg>
+			               <rdg wit="fThomas">should become </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app16_rg2" n="['shouldbecome']">
+			               <rdg wit="fMS">shouldbe&lt;lb n="c56-0021__main__10"/&gt;come </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app17">
+		             <rdgGrp xml:id="C08d_app17_rg1"
+                       n="['a', 'partner', 'with', 'him', 'in', 'business,']">
+			               <rdg wit="f1818">a partner with him in business, </rdg>
+			               <rdg wit="f1823">a partner with him in business, </rdg>
+			               <rdg wit="fThomas">a partner with him in business, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app17_rg2"
+                       n="['a', 'partner', 'with', 'him', 'in', 'his', 'business,', 'and', '&lt;del&gt;he', 'said', 'he', 'did', 'not&lt;del&gt;&lt;del&gt;and&lt;del&gt;']">
+			               <rdg wit="fMS">a partner with him in &lt;lb n="c56-0021__main__11"/&gt; his business, and &lt;del next="#c56-0021.03" rend="strikethrough" sID="c56-0021__main__d2e4092"/&gt;he said he did not&lt;del eID="c56-0021__main__d2e4092"/&gt;&lt;lb n="c56-0021__left_margin__1"/&gt;&lt;del rend="strikethrough" sID="c56-0021__left_margin__d2e4103"/&gt;and&lt;del eID="c56-0021__left_margin__d2e4103"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app18">
+		             <rdgGrp xml:id="C08d_app18_rg1" n="['in']">
+			               <rdg wit="f1818">in </rdg>
+			               <rdg wit="f1823">in </rdg>
+			               <rdg wit="fThomas">in </rdg>
+			               <rdg wit="fMS">in </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app19">
+		             <rdgGrp xml:id="C08d_app19_rg1" n="['compliance']">
+			               <rdg wit="f1818">compliance </rdg>
+			               <rdg wit="f1823">compliance </rdg>
+			               <rdg wit="fThomas">compliance </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__left_margin__2"/&gt; compliance </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app20">
+		             <rdgGrp xml:id="C08d_app20_rg1" n="['with', 'his', 'favourite', 'theory,']">
+			               <rdg wit="f1818">with his favourite theory, </rdg>
+			               <rdg wit="f1823">with his favourite theory, </rdg>
+			               <rdg wit="fThomas">with his favourite theory, </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__left_margin__3"/&gt; with his favou&lt;lb n="c56-0021__left_margin__4"/&gt;rite theory, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app21">
+		             <rdgGrp xml:id="C08d_app21_rg1" n="['that']">
+			               <rdg wit="f1818">that </rdg>
+			               <rdg wit="f1823">that </rdg>
+			               <rdg wit="fThomas">that </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__left_margin__5"/&gt; that </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app22">
+		             <rdgGrp xml:id="C08d_app22_rg1" n="['&lt;del&gt;the&lt;del&gt;', 'learning']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0021__left_margin__d2e4119"/&gt;the&lt;del eID="c56-0021__left_margin__d2e4119"/&gt; learning </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app22_rg2" n="['learning']">
+			               <rdg wit="f1818">learning </rdg>
+			               <rdg wit="f1823">learning </rdg>
+			               <rdg wit="fThomas">learning </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app23">
+		             <rdgGrp xml:id="C08d_app23_rg1" n="['was']">
+			               <rdg wit="f1818">was </rdg>
+			               <rdg wit="f1823">was </rdg>
+			               <rdg wit="fThomas">was </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__left_margin__6"/&gt; was </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app24">
+		             <rdgGrp xml:id="C08d_app24_rg1" n="['superflous', '']">
+			               <rdg wit="fMS">superflous &lt;lb n="c56-0021__left_margin__7"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app24_rg2" n="['superfluous']">
+			               <rdg wit="f1818">superfluous </rdg>
+			               <rdg wit="f1823">superfluous </rdg>
+			               <rdg wit="fThomas">superfluous </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app25">
+		             <rdgGrp xml:id="C08d_app25_rg1" n="['in', 'the', 'commerce', 'of', 'ordinary']">
+			               <rdg wit="f1818">in the commerce of ordinary </rdg>
+			               <rdg wit="f1823">in the commerce of ordinary </rdg>
+			               <rdg wit="fThomas">in the commerce of ordinary </rdg>
+			               <rdg wit="fMS">in the com&lt;lb n="c56-0021__left_margin__8"/&gt;merce of ordi&lt;lb n="c56-0021__left_margin__9"/&gt;nary </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app26">
+		             <rdgGrp xml:id="C08d_app26_rg1" n="['life.']">
+			               <rdg wit="f1818">life. </rdg>
+			               <rdg wit="f1823">life. </rdg>
+			               <rdg wit="fThomas">life. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app26_rg2"
+                       n="['life.&lt;del&gt;see&lt;del&gt;&lt;del&gt;of&lt;del&gt;&lt;del&gt;what', 'use', 'learning&lt;del&gt;&lt;del&gt;was&lt;del&gt;&lt;del&gt;could', 'be&lt;del&gt;&lt;del&gt;to', 'a&lt;del&gt;&lt;del&gt;merchant.&lt;del&gt;']">
+			               <rdg wit="fMS">life.&lt;lb n="c56-0021__main__12"/&gt;&lt;del next="#c56-0021.04" rend="strikethrough" sID="c56-0021__main__d2e4145" xml:id="c56-0021.03"/&gt;see&lt;del eID="c56-0021__main__d2e4145"/&gt;&lt;del rend="unmarked" sID="c56-0021__main__d2e4151"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;of&lt;del eID="c56-0021__main__d2e4151"/&gt;&lt;del next="#c56-0021.05" rend="strikethrough" sID="c56-0021__main__d2e4164" xml:id="c56-002201.04"/&gt;what use learning&lt;del eID="c56-0021__main__d2e4164"/&gt;&lt;del next="#c56-0021.06" rend="strikethrough" sID="c56-0021__main__d2e4169" xml:id="c56-0021.05"/&gt;was&lt;del eID="c56-0021__main__d2e4169"/&gt;&lt;metamark function="insert"&gt;^&lt;/metamark&gt;&lt;del rend="strikethrough" sID="c56-0021__main__d2e4178"/&gt;could be&lt;del eID="c56-0021__main__d2e4178"/&gt;&lt;del next="#c56-0021.07" rend="strikethrough" sID="c56-0021__main__d2e4185" xml:id="c56-0021.06"/&gt;to a&lt;del eID="c56-0021__main__d2e4185"/&gt;&lt;lb n="c56-0021__main__13"/&gt;&lt;del rend="strikethrough" sID="c56-0021__main__d2e4190" xml:id="c56-0021.07"/&gt;merchant.&lt;del eID="c56-0021__main__d2e4190"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app27">
+		             <rdgGrp xml:id="C08d_app27_rg1"
+                       n="['henry', 'had', 'a', 'refined', 'mind;', 'he', 'had', 'no', 'desire', 'to', 'be', 'idle,', 'and', 'was', 'well', 'pleased', 'to', 'become', 'his', 'father’s', 'partner,', 'but', 'he', 'believed', 'that', 'a', 'man', 'might', 'be', 'a', 'very', 'good', 'trader,', 'and', 'yet', 'possess', 'a', 'cultivated', 'understanding.&lt;p/&gt;&lt;p/&gt;we', 'sat', 'late,']">
+			               <rdg wit="f1818">Henry had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.&lt;p eID="novel1_letter4_chapter2_div4_div2_p4"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p5"/&gt;We sat late, </rdg>
+			               <rdg wit="f1823">Henry had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.&lt;p eID="novel1_letter4_chapter2_div4_div2_p5"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p6"/&gt;We sat late, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app27_rg2"
+                       n="['henry', 'had', 'a', 'refined', 'mind', '&lt;del&gt;and', 'a&lt;del&gt;', 'he', '&lt;del&gt;did', 'not', 'wish&lt;del&gt;had', 'no', 'desire', 'to', 'be', 'idle', 'and', 'was', 'well', 'pleased', 'to', 'become', 'the', '', 'partner&lt;del&gt;of&lt;del&gt;', 'his', &#34;father's&#34;, 'partnerbut', 'he', 'believed', 'that', 'a', 'man', 'might', 'be', 'a', 'very', 'good', 'trader', 'and', 'yet', '&lt;del&gt;have&lt;del&gt;posess', 'a', 'cultivated', '&lt;del&gt;mind.&lt;del&gt;understanding.&lt;p/&gt;', 'we', 'sate', 'late']">
+			               <rdg wit="fMS">Henry had a refined mind &lt;lb n="c56-0021__main__14"/&gt;&lt;del rend="strikethrough" sID="c56-0021__main__d2e4198"/&gt;and a&lt;del eID="c56-0021__main__d2e4198"/&gt; he &lt;del rend="strikethrough" sID="c56-0021__main__d2e4203"/&gt;did not wish&lt;del eID="c56-0021__main__d2e4203"/&gt;had no desire to be idle &lt;lb n="c56-0021__main__15"/&gt; and was well pleased to become the &lt;lb n="c56-0021__main__16"/&gt; partner&lt;del rend="strikethrough" sID="c56-0021__main__d2e4219"/&gt;of&lt;del eID="c56-0021__main__d2e4219"/&gt; his father's &lt;metamark function="insert"&gt;^&lt;/metamark&gt;partnerbut he believed &lt;lb n="c56-0021__main__17"/&gt; that a man might be a very good &lt;lb n="c56-0021__main__18"/&gt; trader and yet &lt;del rend="strikethrough" sID="c56-0021__main__d2e4241"/&gt;have&lt;del eID="c56-0021__main__d2e4241"/&gt;posess a cultivated &lt;lb n="c56-0021__main__19"/&gt;&lt;del rend="strikethrough" sID="c56-0021__main__d2e4252"/&gt;mind.&lt;del eID="c56-0021__main__d2e4252"/&gt;understanding.&lt;milestone unit="tei:p"/&gt;&lt;lb n="c56-0021__main__20"/&gt; We sate late </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app27_rg3"
+                       n="['henry&lt;del&gt;had', 'a', 'refined', 'mind;', 'he', 'had', 'no', 'desire', 'to', 'be', 'idle,', 'and', 'was', 'well', 'pleased', 'to', 'become', 'his', 'father’s', 'partner,', 'but', 'he', 'believed', 'that', 'a', 'man', 'might', 'be', 'a', 'very', 'good', 'trader,', 'and', 'yet', 'possess', 'a', 'cultivated', 'understanding.&lt;del&gt;loved', 'poetry', 'and', 'his', 'mind', 'was', 'filled', 'with', 'the', 'imagery', 'and', 'sublime', 'sentiments', 'of', 'the', 'masters', 'of', 'that', 'art.', 'a', 'poet', 'himself,', 'he', 'turned', 'with', '&lt;del&gt;y&lt;del&gt;', 'disgust', 'from', 'the', 'details', 'of', 'ordinary', 'life.', 'his', 'own', '&lt;del&gt;soul&lt;del&gt;', 'mind', 'was', 'all', 'the', 'possession', 'that', 'he', 'prized,', 'beautiful', 'and', 'majestic', 'thoughts', 'the', 'only', 'wealth', 'he', 'coveted—daring', 'as', 'the', 'eagle', 'and', 'as', 'free,', 'common', 'laws', 'could', 'not', 'be', 'applied', 'to', 'him;', 'and', 'while', 'you', 'gazed', 'on', 'him', 'you', 'felt', 'his', 'soul’s', 'spark', 'was', 'more', 'divine—more', 'truly', 'stolen', 'from', 'apollo’s', 'sacred', 'fire,', 'than', 'the', 'glimmering', 'ember', 'that', 'animates', 'other', 'men.&lt;p/&gt;&lt;p/&gt;we', 'sat', 'late,']">
+			               <rdg wit="fThomas">Henry&lt;del sID="novel1_letter4_chapter2_div4_div2_p4_del1"/&gt;had a refined mind; he had no desire to be idle, and was well pleased to become his father’s partner, but he believed that a man might be a very good trader, and yet possess a cultivated understanding.&lt;del eID="novel1_letter4_chapter2_div4_div2_p4_del1"/&gt;loved poetry and his mind was filled with the imagery and sublime sentiments of the masters of that art. A poet himself, he turned with &lt;del sID="novel1_letter4_chapter2_div4_div2_p4_add1_del1"/&gt;y&lt;del eID="novel1_letter4_chapter2_div4_div2_p4_add1_del1"/&gt; disgust from the details of ordinary life. His own &lt;del sID="novel1_letter4_chapter2_div4_div2_p4_add1_del2"/&gt;soul&lt;del eID="novel1_letter4_chapter2_div4_div2_p4_add1_del2"/&gt; mind was all the possession that he prized, beautiful &amp; majestic thoughts the only wealth he coveted—daring as the eagle and as free, common laws could not be applied to him; and while you gazed on him you felt his soul’s spark was more divine—more truly stolen from Apollo’s sacred fire, than the glimmering ember that animates other men.&lt;p eID="novel1_letter4_chapter2_div4_div2_p4"/&gt;&lt;p sID="novel1_letter4_chapter2_div4_div2_p5"/&gt;We sat late, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app28">
+		             <rdgGrp xml:id="C08d_app28_rg1"
+                       n="['listening', 'to', 'his', 'complaints,', 'and']">
+			               <rdg wit="f1818">listening to his complaints, and </rdg>
+			               <rdg wit="f1823">listening to his complaints, and </rdg>
+			               <rdg wit="fThomas">listening to his complaints, and </rdg>
+			               <rdg wit="fMS">listening to his com&lt;lb n="c56-0021__main__21"/&gt;plaints, and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app29">
+		             <rdgGrp xml:id="C08d_app29_rg1" n="['&lt;del&gt;i&lt;del&gt;', 'making', 'many', 'little']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0021__main__d2e4270"/&gt;I&lt;del eID="c56-0021__main__d2e4270"/&gt; making many little </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app29_rg2" n="['making', 'many', 'little']">
+			               <rdg wit="f1818">making many little </rdg>
+			               <rdg wit="f1823">making many little </rdg>
+			               <rdg wit="fThomas">making many little </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app30">
+		             <rdgGrp xml:id="C08d_app30_rg1" n="['arrangements', 'for', 'the', 'future.']">
+			               <rdg wit="f1818">arrangements for the future. </rdg>
+			               <rdg wit="f1823">arrangements for the future. </rdg>
+			               <rdg wit="fThomas">arrangements for the future. </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__22"/&gt; arrangements for the future. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app31">
+		             <rdgGrp xml:id="C08d_app31_rg1" n="['&lt;del&gt;and&lt;del&gt;the', '']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0021__main__d2e4275"/&gt;and&lt;del eID="c56-0021__main__d2e4275"/&gt;&lt;mdel&gt;t&lt;/mdel&gt;The &lt;lb n="c56-0021__main__23"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app31_rg2" n="['the']">
+			               <rdg wit="f1818">The </rdg>
+			               <rdg wit="f1823">The </rdg>
+			               <rdg wit="fThomas">The </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app32">
+		             <rdgGrp xml:id="C08d_app32_rg1"
+                       n="['next', 'morning', 'early', 'i', 'departed.', 'tears']">
+			               <rdg wit="f1818">next &lt;pb n="067" xml:id="F1818_v1_079"/&gt;morning early I departed. Tears </rdg>
+			               <rdg wit="f1823">next &lt;pb n="67" xml:id="F1823_v1_086"/&gt;morning early I departed. Tears </rdg>
+			               <rdg wit="fThomas">next &lt;pb n="067" xml:id="F1818_v1_079"/&gt;morning early I departed. Tears </rdg>
+			               <rdg wit="fMS">next morning early I departed. Tears </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app33">
+		             <rdgGrp xml:id="C08d_app33_rg1" n="['gushed', 'from', 'the', 'eyes', 'of']">
+			               <rdg wit="f1818">gushed from the eyes of </rdg>
+			               <rdg wit="f1823">gushed from the eyes of </rdg>
+			               <rdg wit="fThomas">gushed from the eyes of </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__24"/&gt; gushed from the eyes of </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app34">
+		             <rdgGrp xml:id="C08d_app34_rg1" n="['elizabeth', '']">
+			               <rdg wit="fMS">Elizabeth &lt;lb n="c56-0021__main__25"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app34_rg2" n="['elizabeth;']">
+			               <rdg wit="f1818">Elizabeth; </rdg>
+			               <rdg wit="f1823">Elizabeth; </rdg>
+			               <rdg wit="fThomas">Elizabeth; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app35">
+		             <rdgGrp xml:id="C08d_app35_rg1"
+                       n="['they', 'proceeded', 'partly', 'from', 'sorrow']">
+			               <rdg wit="f1818">they proceeded partly from sorrow </rdg>
+			               <rdg wit="f1823">they proceeded partly from sorrow </rdg>
+			               <rdg wit="fThomas">they proceeded partly from sorrow </rdg>
+			               <rdg wit="fMS">they proceeded partly from sorrow </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app36">
+		             <rdgGrp xml:id="C08d_app36_rg1"
+                       n="['at', 'my', 'departure,', 'and', 'partly', 'because']">
+			               <rdg wit="f1818">at my departure, and partly because </rdg>
+			               <rdg wit="f1823">at my departure, and partly because </rdg>
+			               <rdg wit="fThomas">at my departure, and partly because </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__26"/&gt; at my departure, and partly because </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app37">
+		             <rdgGrp xml:id="C08d_app37_rg1"
+                       n="['she', 'reflected', 'that', 'the', 'same', 'journey']">
+			               <rdg wit="f1818">she reflected that the same journey </rdg>
+			               <rdg wit="f1823">she reflected that the same journey </rdg>
+			               <rdg wit="fThomas">she reflected that the same journey </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__27"/&gt; she reflected that the same journey </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app38">
+		             <rdgGrp xml:id="C08d_app38_rg1"
+                       n="['was', 'to', 'have', 'taken', 'place', 'three']">
+			               <rdg wit="f1818">was to have taken place three </rdg>
+			               <rdg wit="f1823">was to have taken place three </rdg>
+			               <rdg wit="fThomas">was to have taken place three </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__28"/&gt; was to have taken place three </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app39">
+		             <rdgGrp xml:id="C08d_app39_rg1" n="['months']">
+			               <rdg wit="f1818">months </rdg>
+			               <rdg wit="f1823">months </rdg>
+			               <rdg wit="fThomas">months </rdg>
+			               <rdg wit="fMS">&lt;lb n="c56-0021__main__29"/&gt; months </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app40">
+		             <rdgGrp xml:id="C08d_app40_rg1" n="['before']">
+			               <rdg wit="fMS">before </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app40_rg2" n="['before,']">
+			               <rdg wit="f1818">before, </rdg>
+			               <rdg wit="f1823">before, </rdg>
+			               <rdg wit="fThomas">before, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app41">
+		             <rdgGrp xml:id="C08d_app41_rg1" n="['when', 'a']">
+			               <rdg wit="f1818">when a </rdg>
+			               <rdg wit="f1823">when a </rdg>
+			               <rdg wit="fThomas">when a </rdg>
+			               <rdg wit="fMS">when a </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app42">
+		             <rdgGrp xml:id="C08d_app42_rg1" n="['mothers', '']">
+			               <rdg wit="fMS">mothers &lt;lb n="c56-0021__main__30"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app42_rg2" n="['mother’s']">
+			               <rdg wit="f1818">mother’s </rdg>
+			               <rdg wit="f1823">mother’s </rdg>
+			               <rdg wit="fThomas">mother’s </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app43">
+		             <rdgGrp xml:id="C08d_app43_rg1"
+                       n="['blessing', 'would', 'have', 'accompanied']">
+			               <rdg wit="f1818">blessing would have accompanied </rdg>
+			               <rdg wit="f1823">blessing would have accompanied </rdg>
+			               <rdg wit="fThomas">blessing would have accompanied </rdg>
+			               <rdg wit="fMS">blessing would have accompanied </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C08d_app44">
+		             <rdgGrp xml:id="C08d_app44_rg1" n="['me']">
+			               <rdg wit="fMS">me </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08d_app44_rg2" n="['me.&lt;p/&gt;']">
+			               <rdg wit="f1818">me.&lt;p eID="novel1_letter4_chapter2_div4_div2_p5"/&gt; </rdg>
+			               <rdg wit="f1823">me.&lt;p eID="novel1_letter4_chapter2_div4_div2_p6"/&gt; </rdg>
+			               <rdg wit="fThomas">me.&lt;p eID="novel1_letter4_chapter2_div4_div2_p5"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

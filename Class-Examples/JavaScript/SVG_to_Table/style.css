@@ -1,0 +1,495 @@
+body {
+background-color: #acc1ca;
+margin: 0px;
+padding: 0px;
+}
+.boxed {
+padding: 5px;
+border: 1px solid white;
+position: static;
+top: 70%;
+left: 20%;
+right: 20%;
+}
+.homeBanner{
+color: #acc1ca;
+position: absolute; 
+top: -5%;
+left: 28%;
+right: 30%;
+font-size:90px;
+font-family: hightowerEOT;
+}
+.homeHeader {
+color: black;
+font-size:25px;
+font-family: hightowerEOT;
+padding: 5px;
+}
+.p1 {
+color: black;
+font-size: 20px;
+font-family: hightowerEOT;
+padding: 5px;
+}
+.homeImage {
+max-width: 54.5%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+margin-top: .5%;
+padding: 5px;
+}
+#header-container {
+width: 100%;
+height: 150px;
+background-color: #725d5f;
+margin-top: 0%;
+}
+.topNav:after {
+    display:block;
+    clear:both;
+}
+ul.topnav {
+list-style-type: none;
+margin: 0 auto;
+width: 100%;
+height: 43px;
+padding: 1px;
+overflow: hidden;
+background-color: white;
+text-align: center;
+margin-top: .5%;
+}
+ul.topnav li {
+display: inline-block;
+text-align: center;
+}
+ul.topnav li a {
+display: inline-block;
+color: #6a363b;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.3s;
+font-size: 17px;
+}
+ul.topnav li a:hover {
+background-color: #acc1ca;
+}
+.navBar li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+    visibility: visible;
+}
+ 
+.sub-menu {
+    width:10%;
+    padding:5px 0px;
+    position:absolute;
+    top:25.7%;
+    left:38.9%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+background-color: white;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+background-color: white;
+}
+.navBar li:hover .sub-menu2 {
+    z-index:1;
+    opacity:1;
+    visibility: visible;
+}
+ 
+.sub-menu2 {
+    width:10%;
+    padding:5px 0px;
+    position:absolute;
+    top:25.7%;
+    left:50.5%;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+background-color: white;
+}
+ 
+.sub-menu2 li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu2 li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu2 li a:hover, .sub-menu .current-item a {
+background-color: white;
+}
+.copy {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.aboutHeader {
+    color: #6a363b;
+    font-size:32px;
+    font-family: hightowerEOT;
+    position: relative;
+    left: -10%;
+    top:  7%;
+}
+.members {
+	display: table;
+    width: 750px;
+    height: 100%;
+    margin-bottom: 35px;
+    padding: 10px;
+}
+.memberRow {
+	display: table-row;
+	height: 100%;
+}
+.memberPic {
+	display: table-cell;
+	width: 200px;
+	text-align: center;
+	background-color: #acc1ca;
+}
+.memberBio {
+	display: table-cell;
+	width: 300px;
+	height: 100px;
+	background-color: #725d5f;
+	opacity: 0.8;
+}
+.memberName {
+	padding: 10px;
+	display:block;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+font-family: hightowerEOT;
+font-size: 23px;
+}
+.memberBioCopy {
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20px;
+font-family: hightowerEOT
+	}
+.aboutImage{
+    height: 250px;
+}
+#menu{
+    width: 100%;
+height: 70px;
+background-color: #725d5f;
+margin-top: 0%;
+}
+.ssiHeader{
+color: #acc1ca;
+position: absolute; 
+top: -2.5%;
+left: 5%;
+font-size:40px;
+font-family: hightowerEOT;
+}
+ul.topMenu {
+list-style-type: none;
+margin: 0 auto;
+width: 100%;
+height: 43px;
+padding: 0;
+overflow: hidden;
+background-color: white;
+text-align: center;
+margin-top: .5%;
+}
+ul.topMenu li {
+display: inline-block;
+text-align: center;
+}
+ul.topMenu li a {
+display: inline-block;
+color: #6a363b;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.3s;
+font-size: 17px;
+}
+ul.topMenu li a:hover {
+background-color: #acc1ca;
+}
+.menuBar li:hover .sub-nav {
+    position: absolute;
+    z-index:1;
+    opacity:1;
+    visibility: visible;
+}
+.sub-nav {
+    width:10%;
+    padding:5px 0px;
+    position:absolute;
+    top:15.3%;
+    left:41.6%;
+    z-index:-1;
+    opacity:0;
+    visibility: hidden;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+background-color: white;
+}
+ 
+.sub-nav li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-nav li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-nav li a:hover, .sub-nav .current-item a {
+background-color: white;
+}
+.menuBar li:hover .sub-nav2 {
+    position: absolute;
+    z-index:1;
+    opacity:1;
+    visibility: visible;
+}
+.sub-nav2 {
+    width:10%;
+    padding:5px 0px;
+    position:absolute;
+    top:15.3%;
+    left:53.5%;
+    z-index:-1;
+    opacity:0;
+    visibility: hidden;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+background-color: white;
+}
+ 
+.sub-nav2 li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-nav2 li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-nav2 li a:hover, .sub-nav .current-item a {
+background-color: white;
+}
+.menuImage{
+margin-left: 90%;
+margin-right: 10%;
+margin-top: 1.2%;
+}
+.cc{
+    margin-left: 48%;
+margin-right: 48%;
+margin-top: 17%;
+}
+.creativeCommons{
+margin-left: 19%;
+margin-right: 19%;
+margin-top: 0%;
+}
+.ssiCC{
+    margin-left: 19%;
+margin-right: 19%;
+margin-top: 8.5%;
+}
+.methodologyImage{
+    max-width: 40%;
+    margin-left: 5%;
+    margin-right: 22.5%;
+margin-top: 10%;
+padding: 5px;
+}
+.p2{
+position: absolute;
+top: 35%;
+left: 35%;
+right: 5%;
+font-size: 20px;
+font-family: hightowerEOT
+}
+.methodHeader{
+    color: #6a363b;
+    font-size:32px;
+    font-family: hightowerEOT;
+    position: absolute;
+    left: 38%;
+    top: 16%;
+}
+.cemeteryHeader{
+        color: #6a363b;
+    font-size:32px;
+    font-family: hightowerEOT;
+    position: absolute;
+    left: 38%;
+    top: 16%;
+}
+.cemeteryImage{
+    max-width: 40%;
+    margin-left: 5%;
+    margin-right: 22.5%;
+margin-top: 10%;
+padding: 5px;
+}
+.p3{
+border: 1px solid black;
+position: absolute;
+top: 32%;
+left: 50%;
+right: 10%;
+font-size: 20px;
+font-family: hightowerEOT
+}
+p{
+    padding: 3px;
+}
+.p4{
+    border: 1px solid black;
+position: absolute;
+top: 65%;
+left: 50%;
+right: 10%;
+font-size: 20px;
+font-family: hightowerEOT
+}
+#ageBarGraph{
+width:60%;
+        max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 22.5%;
+padding: 5px;
+position: relative;
+top:0px;
+    z-index:0;
+}
+
+table{
+    border-collapse:collapse;
+}
+table, th, td {
+     border-color:black;
+    border-style:solid;
+    border-width:1px;
+    padding:10px
+
+}
+
+#ageGraphTable{
+    position:absolute;
+    width:20%;
+        max-width: 900px;
+    top:70%;
+    left:30%
+}
+
+#ageGraphTable td:nth-child(2){
+    background-color:#15B7FF
+}
+
+#ageGraphTable td:nth-child(3){
+    background-color:#FFCCFF
+}
+
+#ageGraphTable tr[id] {display: none; /*height:100px; width:300px;*/}
+#ageGraphTable tr[id="0to2"] {display: table-row;}
+
+.lineGraph{
+    margin-right: 3%;
+    margin-left: 3%;
+margin-top: 7%;
+}
+
+#explanation{
+     position:absolute;
+     top:110%;
+     left:10%;
+     font-size:20px;
+ }
+ .p5{border: 1px solid black;
+ position: absolute;
+ width:500%;
+ top: 70%;
+ font-size: 18px;
+ padding:5px;
+ font-family: hightowerEOT
+ }
+ map{
+     display: inline;
+ }
+ img.tn{width:75px; padding:1px;
+     
+ }
+ .iframe{
+ display: block;
+margin: auto;
+padding: 5px;
+ }
+.mapI{
+      display: block;
+margin: auto;
+padding: 10px;
+ }
+.methodImage3{
+ display: block;
+         max-width: 30%;
+    margin-left: 2%;
+margin-top: 12%;
+padding: 5px;
+ }
+.methodImage{
+ display: block;
+         max-width: 30%;
+    margin-left: 2%;
+margin-top: 5%;
+padding: 5px;
+ }
+ .methodImage2{
+  display: block;
+              max-width: 30%;
+    margin-left: 2%;
+margin-top: 5%;
+padding: 5px;
+ }
+ #explanation2{
+     position:absolute;
+     top:70%;
+     left:10%;
+     font-size:20px;
+ }
+ #explanation3{
+     position:absolute;
+     top:70%;
+     left:10%;
+     font-size:20px;
+     max-width: 30%;
+ }
+ 

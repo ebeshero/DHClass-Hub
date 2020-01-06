@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Gangsta Rat</title>
+                    <date when="2006"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.5276" long="0.0898">London, UK</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="http://www.banksy.co.uk/out.asp">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.telegraph.co.uk/culture/art/art-news/9635128/Banksys-Gangsta-Rat-goes-under-the-hammer.html"></ref>
+                    <cause when="2006"> Mocking the Society in London</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Banksy’s ‘Gangsta Rat’ was first spotted w at Moorfields Eye Hospital in London in 2006. The rat, who is indeed looking rather ‘gangster’ with his chain and baseball cap 
+            symbolizes the society as it went from innocent looking to a "gangsta"type of looking by making the society worse. In front of Morefields Eye Hospital in on City Road in London.</desc>
+        <p>
+            <img src="Gangsta_Rat.jpg" alt="Gangsta Rat Banksy"/>
+            <title>Gansta Rat Banksy</title>
+            <credit>By Emmanuel Harris from London, https://banksyunofficial.com/2017/04/17/street-art-uk-2006/2006-sa-uk-london-gangsta-rat-w-ghettoblaster/</credit>
+        </p>
+    </body>
+</root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Girl with Skipping Rope</title>
+                    <date when="2007-01"/>
+                    <medium type="spray_paint"/>
+                    <location lat="40.6782" long="73.9442">Brooklyn, USA</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.nytimes.com/2007/01/28/nyregion/thecity/28graf.html">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This piece by Banksy makes up half of a two part piece of art, with the green ‘skipping rope’ snaking across the ground and connecting to the electric box in another Banksy painting. 
+            It was originally found in Brooklyn but was painted over after falling victim to ‘The Splasher’ and individual who goes around splashing paint on street art.</desc>
+        <p>
+            <img src="girl_rope.jpg" alt="girl with skipping rope"/>
+            <title>Girl with Skipping Rope Banksy</title>
+            <credit>By: Joseph Keane from Brooklyn NY, https://www.pinterest.com/pin/155303887150330013/</credit>
+        </p>
+    </body>
+</root>

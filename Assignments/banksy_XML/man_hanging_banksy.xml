@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Well, Hung Lover</title>
+                    <alternate>Hanging from Window</alternate>
+                    <alternate>Naked Man Hanging from Window</alternate>
+                    <date when="2006-04-09"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.4534" long="-2.6011">Bristol, UK</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/p/BpDMo26h3Cu/">">Banksy's Personal Instagram</ref>
+                    <ref target="https://en.wikipedia.org/wiki/Well_Hung_Lover">Article That Supplied Information</ref>
+                    <ref target="https://www.atlasobscura.com/places/well-hung-lover">Article That Supplied Information</ref>
+                    <cause when="2006"> Health Clinic Park St, Bristol UK</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>One of Banksy's biggest piece he has done. The man hanging from the window naked with a man in a suit and a women looking outside the window to find him, appeared on Park St in Bristol in front of a health clinic in 2006 to represent the societys wrong doing as not everyone being treated right. In Bristol, England from a window on Park Street.</desc>
+        <p>
+            <img src="Well_Hung_Lover.jpg" alt="Banksy's Well, Hung Lover"/>
+            <title>Well, Hung Lover</title>
+            <credit>By Anthony Saunders from Bristol, United Kingdom - Well, Hung Lover Banksy, https://commons.wikimedia.org/wiki/File:Well_Hung_Lover.jpg  </credit>
+        </p>
+    </body>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Trolleys</title>
+                    <date when="2007"/>
+                    <medium type="canvas"/>
+                    <size dimension="56 x 76">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="650" signed="150" unsigned="500">Black and White</edition>
+                    <edition total="27" signed="27" unsigned="0">Colour on End Paper</edition>
+                    <edition total="750" signed="750" unsigned="0">Colour</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/trolleys_black_and_white.jpg" alt="Banksy's 'Trolleys (Black and White)'"/>
+            <title>Trolleys (Black and White)</title>
+            <credit>https://dl.airtable.com/vUWAOC2QOuz8rQXVsC77_full_Banksy-Trolleys-Signed.jpeg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/trolleys_colour.jpg" alt="Banksy's 'Trolleys (Colour)'"/>
+            <title>Trolleys (Colour)</title>
+            <credit>https://dl.airtable.com/nzLzTfL9SAmFGIzPV7it_full_Banksy-trolleyhunters-colour-signed.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

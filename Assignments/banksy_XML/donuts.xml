@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Donuts</title>
+                    <date when="2009"/>
+                    <medium type="canvas"/>
+                    <size dimension="76 x 86">medium</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="">Banksy's Personal Instagram</ref>
+                    <ref target="https://airtable.com/universe/expXzVY5PPYiJCAw2/artery-the-banksy-database?explore=true">Artery: The Banksy Database</ref>
+                    <edition total="299" signed="299" unsigned="0">Brown/Chocolate</edition>
+                    <edition total="299" signed="299" unsigned="0">Pink/Strawberry</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc></desc>
+        <p>
+            <img src="../img/donuts_brown_chocolate.jpg" alt="Banksy's 'Donuts (Brown/Chocolate)'"/>
+            <title>Donuts (Brown/Chocolate)</title>
+            <credit>https://dl.airtable.com/nAhMfYdRqySMXqienSZ1_full_banksy-prints-chocolate-donutlarge.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+            <img src="../img/donuts_pink_strawberry.jpg" alt="Banksy's 'Donuts (Pink/Strawberry)'"/>
+            <title>Donuts (Pink/Strawberry)</title>
+            <credit>https://dl.airtable.com/mLHkGIqkRIekldblk7Za_full_Banksy-Donuts-Pink-.jpg%3FAction%3Dthumbnail%26Width%3D1200</credit>
+        </p>
+    </body>
+</root>

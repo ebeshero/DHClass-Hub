@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Alyssa Argento</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"/>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"/>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The Mild Mild West</title>
+                    <date when="1999"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.462783" long="-2.589352">Bristol, UK</location>
+                    <ref target="http://www.banksy.co.uk">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal
+                        Instagram</ref>
+                    <ref target="https://en.wikipedia.org/wiki/The_Mild_Mild_West">Wikipedia</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>The Mild Mild West depicts a teddy bear tossing a moatov cocktail at policemen in riot
+            gear. Banksy created this in response to police armed in riot gear attacking partygoers
+            at an event at Winterstroke Road.</desc>
+        <p>
+            <img src="mild_mild_west.jpg" alt="Banksy's Mild Mild West"/>
+            <title>The Mild Mild West</title>
+            <credit>William Avery</credit>
+        </p>
+    </body>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C08f">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C08f</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-04 16:58:37.992715 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C08f_app1">
+		             <rdgGrp xml:id="C08f_app1_rg1"
+                       n="['pursuits.', 'In', 'rather', 'a', 'too', 'philosophical', 'and', 'connected', 'a', 'strain,', 'perhaps,', 'I', 'have', 'given', 'an', 'account', 'of', 'the', 'conclusions', 'I', 'had', 'come', 'to', 'concerning', 'them', 'in', 'my', 'early', 'years.', 'As', 'a', 'child,', 'I', 'had', 'not', 'been', 'content', 'with', 'the', 'results', 'promised', 'by', 'the', 'modern', 'professors', 'of', 'natural', 'science.', 'With', 'a', 'confusion', 'of', 'ideas', 'only', 'to', 'be', 'accounted', 'for', 'by', 'my', 'extreme', 'youth,', 'and', 'my', 'want', 'of', 'a', 'guide', 'on', 'such', 'matters,', 'I', 'had', 'retrod', 'the', 'steps', 'of', 'knowledge', 'along', 'the', 'paths', 'of', 'time,', 'and', 'exchanged', 'the', 'discoveries', 'of', 'recent', 'enquirers', 'for', 'the', 'dreams', 'of', 'forgotten', 'alchymists.']">
+			               <rdg wit="f1831">pursuits. In rather a too philosophical and connected a strain, perhaps, I have given an account of the conclusions I had come to concerning them in my early years. As a child, I had not been content with the results promised by the modern professors of natural science. With a confusion of ideas only to be accounted for by my extreme youth, and my want of a guide on such matters, I had retrod the steps of knowledge along the paths of time, and exchanged the discoveries of recent enquirers for the dreams of forgotten alchymists. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08f_app1_rg2" n="['&lt;del&gt;science&lt;del&gt;doctrine.']">
+			               <rdg wit="fMS">&lt;del rend="strikethrough" sID="c56-0026__main__d2e4949"/&gt;science&lt;del eID="c56-0026__main__d2e4949"/&gt;&lt;mdel&gt;.&lt;/mdel&gt;doctrine. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C08f_app1_rg3" n="['doctrine.']">
+			               <rdg wit="f1818">doctrine. </rdg>
+			               <rdg wit="f1823">doctrine. </rdg>
+			               <rdg wit="fThomas">doctrine. </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

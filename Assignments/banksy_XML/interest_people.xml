@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Interest in People</title>
+                    <date when="2010-05"/>
+                    <medium type="spray_paint"/>
+                    <location lat="43.6532" long="79.3832">Toronto, CA</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="http://micaelamarie.weebly.com/art-bloginspiration-digital-design/0-interest-in-people">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This Banksy art piece shows a salesman with an aim to attack the a capitalist society where respect for people can often be viewed as less important than commodities. 
+            The graffiti lasted only a couple of days before it was painted over by store staff. It shows that he wants people to underatnd other human beings as well.</desc>
+        <p>
+            <img src="Interest_People.jpg" alt="Interest in People"/>
+            <title>Interest in People, Banksy</title>
+            <credit>By: David Tooping from Toronto Ontario, https://torontoist.com/2010/05/banksy_comes_to_toronto/</credit>
+        </p>
+    </body>
+</root>
+

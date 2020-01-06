@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C06h">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C06h</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C06h_app1">
+		             <rdgGrp xml:id="C06h_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06h_app1_rg2" n="['doubt']">
+			               <rdg wit="f1818">doubt </rdg>
+			               <rdg wit="f1823">doubt </rdg>
+			               <rdg wit="fThomas">doubt </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06h_app1_rg3" n="['doubt', 'but']">
+			               <rdg wit="f1831">doubt but </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app2">
+		             <rdgGrp xml:id="C06h_app2_rg1"
+                       n="['that', 'my', 'tale', 'conveys', 'in', 'its', 'series', 'internal', 'evidence', 'of', 'the', 'truth', 'of', 'the', 'events', 'of', 'which', 'it', 'is', 'composed.&#34;&lt;p/&gt;&lt;p/&gt;you', 'may', 'easily']">
+			               <rdg wit="f1818">that my tale conveys in its series internal evidence of the truth of the events of which it is composed.”&lt;p eID="novel1_letter4_div4_p33"/&gt;&lt;p sID="novel1_letter4_div4_p34"/&gt;You may easily </rdg>
+			               <rdg wit="f1823">that my tale conveys in its series internal evidence of the truth of the events of which it is composed.”&lt;p eID="novel1_letter4_div4_p33"/&gt;&lt;p sID="novel1_letter4_div4_p34"/&gt;You may easily </rdg>
+			               <rdg wit="fThomas">that my tale conveys in its series internal evidence of the truth of the events of which it is composed.”&lt;p eID="novel1_letter4_div4_p33"/&gt;&lt;p sID="novel1_letter4_div4_p34"/&gt;You may easily </rdg>
+			               <rdg wit="f1831">that my tale conveys in its series internal evidence of the truth of the events of which it is composed.”&lt;p eID="novel1_letter4_div4_p35"/&gt;&lt;p sID="novel1_letter4_div4_p36"/&gt;You may easily </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app3">
+		             <rdgGrp xml:id="C06h_app3_rg1" n="['conceive']">
+			               <rdg wit="f1818">conceive </rdg>
+			               <rdg wit="f1823">conceive </rdg>
+			               <rdg wit="fThomas">conceive </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06h_app3_rg2" n="['imagine']">
+			               <rdg wit="f1831">imagine </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app4">
+		             <rdgGrp xml:id="C06h_app4_rg1"
+                       n="['that', 'i', 'was', 'much', 'gratified', 'by', 'the', 'offered', 'communication;', 'yet', 'i', 'could', 'not', 'endure', 'that', 'he', 'should', 'renew', 'his', 'grief', 'by', 'a', 'recital', 'of', 'his', 'misfortunes.', 'i', 'felt', 'the', 'greatest', 'eagerness', 'to', 'hear', 'the', 'promised', 'narrative,', 'partly', 'from', 'curiosity,', 'and', 'partly', 'from', 'a', 'strong', 'desire', 'to', 'ameliorate', 'his', 'fate,', 'if', 'it', 'were', 'in', 'my', 'power.', 'i', 'expressed', 'these', 'feelings', 'in', 'my', 'answer.&lt;p/&gt;&lt;p/&gt;&#34;i', 'thank', 'you,&#34;', 'he', 'replied,', '&#34;for', 'your', 'sympathy,', 'but', 'it', 'is', 'useless;', 'my', 'fate', 'is', 'nearly', 'fulfilled.', 'i', 'wait', 'but', 'for', 'one', 'event,', 'and', 'then', 'i', 'shall', 'repose', 'in', 'peace.', 'i', 'understand', 'your', 'feeling,&#34;', 'continued', 'he,', 'perceiving', 'that', 'i', 'wished', 'to', 'interrupt', 'him;', '&#34;but', 'you', 'are', 'mistaken,', 'my', 'friend,', 'if', 'thus', 'you', 'will', 'allow', 'me', 'to', 'name', 'you;', 'nothing', 'can', 'alter', 'my', 'destiny:', 'listen', 'to', 'my', 'history,', 'and', 'you', 'will', 'perceive', 'how', 'irrevocably', 'it', 'is']">
+			               <rdg wit="f1818">that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power. I expressed these feelings in my answer.&lt;p eID="novel1_letter4_div4_p34"/&gt;&lt;p sID="novel1_letter4_div4_p35"/&gt;“I thank you,” he replied, “for &lt;pb n="037" xml:id="F1818_v1_049"/&gt;your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is </rdg>
+			               <rdg wit="f1823">that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power. I expressed these feelings in my answer.&lt;p eID="novel1_letter4_div4_p34"/&gt;&lt;p sID="novel1_letter4_div4_p35"/&gt;“I thank you,” he replied, “for &lt;pb n="37" xml:id="F1823_v1_056"/&gt;your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is </rdg>
+			               <rdg wit="fThomas">that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power. I expressed these feelings in my answer.&lt;p eID="novel1_letter4_div4_p34"/&gt;&lt;p sID="novel1_letter4_div4_p35"/&gt;“I thank you,” he replied, “for &lt;pb n="037" xml:id="F1818_v1_049"/&gt;your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is </rdg>
+			               <rdg wit="f1831">that I was much gratified by the offered communication; yet I could not endure that he should renew his grief by a recital of his misfortunes. I felt the greatest eagerness to hear the promised narrative, partly from curiosity, and partly from a strong desire to ameliorate his fate, if it were in my power. I expressed these feelings in my answer.&lt;p eID="novel1_letter4_div4_p36"/&gt;&lt;p sID="novel1_letter4_div4_p37"/&gt;“I thank you,” he replied, “for your sympathy, but it is useless; my fate is nearly fulfilled. I wait but for one event, and then I shall repose in peace. I understand your feeling,” continued he, perceiving that I wished to interrupt him; “but you are mistaken, my friend, if thus you will allow me to name you; nothing can alter my destiny: listen to my history, and you will perceive how irrevocably it is </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app5">
+		             <rdgGrp xml:id="C06h_app5_rg1" n="['determined.&#34;&lt;p/&gt;&lt;p/&gt;he']">
+			               <rdg wit="f1823">determined.”&lt;p eID="novel1_letter4_div4_p35"/&gt;&lt;p sID="novel1_letter4_div4_p36"/&gt;He </rdg>
+			               <rdg wit="f1831">determined.”&lt;p eID="novel1_letter4_div4_p37"/&gt;&lt;p sID="novel1_letter4_div4_p38"/&gt;&lt;pb n="18" xml:id="F1831_v_034"/&gt;He </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06h_app5_rg2" n="['determined.&lt;p/&gt;&lt;p/&gt;he']">
+			               <rdg wit="f1818">determined.&lt;p eID="novel1_letter4_div4_p35"/&gt;&lt;p sID="novel1_letter4_div4_p36"/&gt;He </rdg>
+			               <rdg wit="fThomas">determined.&lt;p eID="novel1_letter4_div4_p35"/&gt;&lt;p sID="novel1_letter4_div4_p36"/&gt;He </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app6">
+		             <rdgGrp xml:id="C06h_app6_rg1"
+                       n="['then', 'told', 'me,', 'that', 'he', 'would', 'commence', 'his', 'narrative', 'the', 'next', 'day', 'when', 'i', 'should', 'be', 'at', 'leisure.', 'this', 'promise', 'drew', 'from', 'me', 'the', 'warmest', 'thanks.', 'i', 'have', 'resolved', 'every', 'night,', 'when', 'i', 'am', 'not']">
+			               <rdg wit="f1818">then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not </rdg>
+			               <rdg wit="f1823">then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not </rdg>
+			               <rdg wit="fThomas">then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not </rdg>
+			               <rdg wit="f1831">then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app7">
+		             <rdgGrp xml:id="C06h_app7_rg1" n="['engaged,']">
+			               <rdg wit="f1818">engaged, </rdg>
+			               <rdg wit="f1823">engaged, </rdg>
+			               <rdg wit="fThomas">engaged, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06h_app7_rg2"
+                       n="['imperatively', 'occupied', 'by', 'my', 'duties,']">
+			               <rdg wit="f1831">imperatively occupied by my duties, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app8">
+		             <rdgGrp xml:id="C06h_app8_rg1"
+                       n="['to', 'record,', 'as', 'nearly', 'as', 'possible', 'in', 'his', 'own', 'words,', 'what', 'he', 'has', 'related', 'during', 'the', 'day.', 'if', 'i', 'should', 'be', 'engaged,', 'i', 'will', 'at', 'least', 'make', 'notes.', 'this', 'manuscript', 'will', 'doubtless', 'afford', 'you', 'the', 'greatest']">
+			               <rdg wit="f1818">to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest </rdg>
+			               <rdg wit="f1823">to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest </rdg>
+			               <rdg wit="fThomas">to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest </rdg>
+			               <rdg wit="f1831">to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app9">
+		             <rdgGrp xml:id="C06h_app9_rg1" n="['pleasure:']">
+			               <rdg wit="f1818">pleasure: </rdg>
+			               <rdg wit="f1823">pleasure: </rdg>
+			               <rdg wit="f1831">pleasure: </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06h_app9_rg2"
+                       n="['pleasure&lt;note sid=&#34;novel1_letter4_div4_p36_note1&#34;/&gt;impossible&lt;note eid=&#34;novel1_letter4_div4_p36_note1&#34;/&gt;:']">
+			               <rdg wit="fThomas">&lt;hi sID="novel1_letter4_div4_p36_hi1"/&gt;pleasure&lt;hi eID="novel1_letter4_div4_p36_hi1"/&gt;&lt;note sID="novel1_letter4_div4_p36_note1"/&gt;impossible&lt;note eID="novel1_letter4_div4_p36_note1"/&gt;: </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app10">
+		             <rdgGrp xml:id="C06h_app10_rg1"
+                       n="['but', 'to', 'me,', 'who', 'know', 'him,', 'and', 'who', 'hear', 'it', 'from', 'his', 'own', 'lips,', 'with', 'what', 'interest', 'and', 'sympathy', 'shall', 'i', 'read', 'it', 'in', 'some', 'future']">
+			               <rdg wit="f1818">but to me, &lt;pb n="038" xml:id="F1818_v1_050"/&gt;who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future </rdg>
+			               <rdg wit="f1823">but to me, &lt;pb n="38" xml:id="F1823_v1_057"/&gt;who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future </rdg>
+			               <rdg wit="fThomas">but to me, &lt;pb n="038" xml:id="F1818_v1_050"/&gt;who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future </rdg>
+			               <rdg wit="f1831">but to me, who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06h_app11">
+		             <rdgGrp xml:id="C06h_app11_rg1"
+                       n="['day!', 'even', 'now,', 'as', 'i', 'commence', 'my', 'task,', 'his', 'full-toned', 'voice', 'swells', 'in', 'my', 'ears;', 'his', 'lustrous', 'eyes', 'dwell', 'on', 'me', 'with', 'all', 'their', 'melancholy', 'sweetness;', 'i', 'see', 'his', 'thin', 'hand', 'raised', 'in', 'animation,', 'while', 'the', 'lineaments', 'of', 'his', 'face', 'are', 'irradiated', 'by', 'the', 'soul', 'within.', 'strange', 'and', 'harrowing', 'must', 'be', 'his', 'story;', 'frightful', 'the', 'storm', 'which', 'embraced', 'the', 'gallant', 'vessel', 'on', 'its', 'course,', 'and', 'wrecked', 'it—thus!&lt;p/&gt;']">
+			               <rdg wit="f1831">day! Even now, as I commence my task, his full-toned voice swells in my ears; his lustrous eyes dwell on me with all their melancholy sweetness; I see his thin hand raised in animation, while the lineaments of his face are irradiated by the soul within. Strange and harrowing must be his story; frightful the storm which embraced the gallant vessel on its course, and wrecked it—thus!&lt;p eID="novel1_letter4_div4_p38"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06h_app11_rg2"
+                       n="['day!&lt;p/&gt;frankenstein;or,the', 'modern', 'prometheus.']">
+			               <rdg wit="f1818">day!&lt;p eID="novel1_letter4_div4_p36"/&gt;&lt;pb n="039" xml:id="F1818_v1_051"/&gt;&lt;head sID="novel1_letter4_div4_head3"/&gt;FRANKENSTEIN;&lt;head eID="novel1_letter4_div4_head3"/&gt;&lt;head sID="novel1_letter4_div4_head4"/&gt;&lt;hi sID="novel1_letter4_div4_head4_hi1"/&gt;OR&lt;hi eID="novel1_letter4_div4_head4_hi1"/&gt;,&lt;head eID="novel1_letter4_div4_head4"/&gt;&lt;head sID="novel1_letter4_div4_head5"/&gt;THE MODERN PROMETHEUS.&lt;head eID="novel1_letter4_div4_head5"/&gt; </rdg>
+			               <rdg wit="f1823">day!&lt;p eID="novel1_letter4_div4_p36"/&gt;&lt;pb n="39" xml:id="F1823_v1_058"/&gt;&lt;head sID="novel1_letter4_div4_head3"/&gt;FRANKENSTEIN;&lt;head eID="novel1_letter4_div4_head3"/&gt;&lt;head sID="novel1_letter4_div4_head4"/&gt;&lt;hi sID="novel1_letter4_div4_head4_hi1"/&gt;OR&lt;hi eID="novel1_letter4_div4_head4_hi1"/&gt;,&lt;head eID="novel1_letter4_div4_head4"/&gt;&lt;head sID="novel1_letter4_div4_head5"/&gt;THE MODERN PROMETHEUS.&lt;head eID="novel1_letter4_div4_head5"/&gt; </rdg>
+			               <rdg wit="fThomas">day!&lt;p eID="novel1_letter4_div4_p36"/&gt;&lt;pb n="039" xml:id="F1818_v1_051"/&gt;&lt;head sID="novel1_letter4_div4_head3"/&gt;FRANKENSTEIN;&lt;head eID="novel1_letter4_div4_head3"/&gt;&lt;head sID="novel1_letter4_div4_head4"/&gt;&lt;hi sID="novel1_letter4_div4_head4_hi1"/&gt;OR&lt;hi eID="novel1_letter4_div4_head4_hi1"/&gt;,&lt;head eID="novel1_letter4_div4_head4"/&gt;&lt;head sID="novel1_letter4_div4_head5"/&gt;THE MODERN PROMETHEUS.&lt;head eID="novel1_letter4_div4_head5"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

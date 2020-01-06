@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Hammer Boy</title>
+                    <alternate>Strong Kid</alternate>
+                    <date when="2013-10"/>
+                    <medium type="spray_paint"/>
+                    <location lat="40.47393" long="-73.585303">New York, USA</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/p/BpDMo26h3Cu/">">Banksy's Personal Instagram</ref>
+                    <ref target="https://untappedcities.com/2013/10/20/banksy-in-nyc-day-20-hammer-boy-on-the-upper-west-side/">Article That Supplied Information</ref>
+                    <cause when="2013"> Showing how this society is creating these kind of kids.</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>Hammer Boy was the piece created on Day 20 of Banksy’s New York Residency in 2013.Banksy makes use of existing features/items and adds his different stencil style to bring them to life. 
+            Several attempts have been made to deface but the painting is still there today. On 79th street, in front of Building in New York City.</desc>
+        <p>
+            <img src="Hammer_Boy.jpg" alt="Banksy's Hammer Boy"/>
+            <title>Hammer Boy Banksy</title>
+            <credit>By: Rom Levy from New York City, Hammer Boy, https://streetartnews.net/2013/10/banksy-new-street-piece-upper-west-side.html </credit>
+        </p>
+    </body>
+</root>
+

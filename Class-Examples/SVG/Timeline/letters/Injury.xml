@@ -1,0 +1,37 @@
+<?xml-model href="WarLettersSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<letter>
+    
+    <title>Injury: ‘I look a pretty picture’</title>
+    
+    <abstract>
+        <persName firstName="Albert" lastName="Rippington" born="1893-11-21" death="1982" regiment="5thLondonRifleBrigade">Albert Edwin Rippington</persName>
+        <placeName location="England">England</placeName>
+    </abstract>
+    
+    <heading>
+        Dear <persName firstName="Ernie">Ernie</persName>
+    </heading>
+    
+    <body>
+        <p>
+            Thanks very much for your letter and kind wishes. My wounds are getting on all right and they have discovered eleven in all. It is hard not to be able to get up, but I suppose a month will soon be slip by. My people came to see me yesterday and the day before.
+        </p>
+        <p>
+            You ought to see my face. They cannot shave me because I have scraps of shell sticking in, and as I had not had a shave for about a week before I was wounded, I look a pretty picture.
+        </p>
+        <p>
+            Well old chap, I am glad I am wounded to get out of that hell, and if you ever meet a chap that says he wants to go back call him a liar.
+        </p>
+        <p>
+            If you could manage to come down at any time I should be delighted. I have not received any letter from Dalton but perhaps will get it later. That will be the time old chap when I look into the office on my way home. We’ll manage to get a drink then.  Well I must close now and I expect you will have quite enough trouble to read what I have written already.
+        </p>
+    </body>
+    
+    <closing>
+        Hoping to be with you all,
+        Your old pal,
+        <persName firstName="Albert" lastName="Rippington">Rip</persName>
+    </closing>
+    
+</letter>

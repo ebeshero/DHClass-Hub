@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Javelin Thrower</title>
+                    <alternate>Welcome to Hackney</alternate>
+                    <date when="2012-07"/>
+                    <medium type="spray_paint"/>
+                    <location lat="51.5433" long="0.0166">London, UK</location>
+                    <size>large</size>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/banksy/?hl=en">Banksy's Personal Instagram</ref>
+                    <ref target="https://www.dezeen.com/2012/07/27/london-2012-street-art-by-banksy/">Article That Supplied Information for Markup</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>During the 2012 Olympics in London, Banksy created this piece known as ‘Welcome to Hackney’ or ‘Javelin Thrower’ as it shows an athlete throwing a missile. This is in protest of the decision to add surface to air missile launchers on top of some residential 
+            tower blocks in the city as part of the security measures during the games.</desc>
+        <p>
+            <img src="javelin_thrower.jpg" alt="Javelin Thrower"/>
+            <title>Javelin Thrower Banksy</title>
+            <credit>By: Julie Petterson from London, https://www.redheaddesign.com/london-officials-to-erase-banksys-olympic-street-art/</credit>
+        </p>
+    </body>
+</root>

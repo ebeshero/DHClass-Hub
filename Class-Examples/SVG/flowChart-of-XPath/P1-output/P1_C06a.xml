@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C06a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C06a</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C06a_app1">
+		             <rdgGrp xml:id="C06a_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06a_app1_rg2"
+                       n="['&lt;p/&gt;august', '13th,', '17—.&lt;p/&gt;&lt;p/&gt;my', 'affection', 'for', 'my', 'guest', 'increases', 'every', 'day.', 'he', 'excites', 'at', 'once', 'my', 'admiration', 'and', 'my', 'pity', 'to', 'an', 'astonishing', 'degree.', 'how', 'can', 'i', 'see', 'so', 'noble', 'a', 'creature', 'destroyed', 'by']">
+			               <rdg wit="f1818">&lt;p sID="novel1_letter4_div4_p25"/&gt;August 13th, 17—.&lt;p eID="novel1_letter4_div4_p25"/&gt;&lt;p sID="novel1_letter4_div4_p26"/&gt;My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by </rdg>
+			               <rdg wit="f1823">&lt;p sID="novel1_letter4_div4_p25"/&gt;August 13th, 17—.&lt;p eID="novel1_letter4_div4_p25"/&gt;&lt;p sID="novel1_letter4_div4_p26"/&gt;My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by </rdg>
+			               <rdg wit="fThomas">&lt;p sID="novel1_letter4_div4_p25"/&gt;August 13th, 17—.&lt;p eID="novel1_letter4_div4_p25"/&gt;&lt;p sID="novel1_letter4_div4_p26"/&gt;My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by </rdg>
+			               <rdg wit="f1831">&lt;p sID="novel1_letter4_div4_p25"/&gt;August 13th, 17—.&lt;p eID="novel1_letter4_div4_p25"/&gt;&lt;p sID="novel1_letter4_div4_p26"/&gt;My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06a_app2">
+		             <rdgGrp xml:id="C06a_app2_rg1" n="['misery']">
+			               <rdg wit="f1818">misery </rdg>
+			               <rdg wit="f1823">misery </rdg>
+			               <rdg wit="fThomas">misery </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06a_app2_rg2" n="['misery,']">
+			               <rdg wit="f1831">misery, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06a_app3">
+		             <rdgGrp xml:id="C06a_app3_rg1"
+                       n="['without', 'feeling', 'the', 'most', 'poignant', 'grief?', 'he', 'is', 'so', 'gentle,', 'yet', 'so', 'wise;', 'his', 'mind', 'is', 'so', 'cultivated;']">
+			               <rdg wit="f1818">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; </rdg>
+			               <rdg wit="f1823">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; </rdg>
+			               <rdg wit="fThomas">without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated; </rdg>
+			               <rdg wit="f1831">without feeling the most poignant grief? He is so &lt;pb n="15" xml:id="F1831_v_031"/&gt;gentle, yet so wise; his mind is so cultivated; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06a_app4">
+		             <rdgGrp xml:id="C06a_app4_rg1" n="['and', 'when', 'he', 'speaks,']">
+			               <rdg wit="f1818">and when he speaks, </rdg>
+			               <rdg wit="f1823">and when he speaks, </rdg>
+			               <rdg wit="f1831">and when he speaks, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06a_app4_rg2"
+                       n="['and', 'when', 'he', 'speaks,', 'in', 'his', 'native', 'language', 'which', 'is', 'french,']">
+			               <rdg wit="fThomas">and when he speaks, in his native language which is French, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06a_app5">
+		             <rdgGrp xml:id="C06a_app5_rg1"
+                       n="['although', 'his', 'words', 'are', 'culled', 'with', 'the', 'choicest', 'art,', 'yet', 'they', 'flow', 'with', 'rapidity', 'and', 'unparalleled', 'eloquence.&lt;p/&gt;&lt;p/&gt;he', 'is', 'now', 'much', 'recovered', 'from', 'his', 'illness,', 'and', 'is', 'continually', 'on', 'the', 'deck,', 'apparently', 'watching', 'for', 'the', 'sledge', 'that', 'preceded', 'his', 'own.', 'yet,', 'although', 'unhappy,', 'he', 'is', 'not', 'so', 'utterly', 'occupied', 'by', 'his', 'own', 'misery,', 'but', 'that', 'he', 'interests', 'himself', 'deeply', 'in', 'the']">
+			               <rdg wit="f1818">although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence.&lt;p eID="novel1_letter4_div4_p26"/&gt;&lt;p sID="novel1_letter4_div4_p27"/&gt;He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un&lt;pb n="032" xml:id="F1818_v1_044"/&gt;happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the </rdg>
+			               <rdg wit="f1823">although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence.&lt;p eID="novel1_letter4_div4_p26"/&gt;&lt;p sID="novel1_letter4_div4_p27"/&gt;He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un&lt;pb n="32" xml:id="F1823_v1_051"/&gt;happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the </rdg>
+			               <rdg wit="fThomas">although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence.&lt;p eID="novel1_letter4_div4_p26"/&gt;&lt;p sID="novel1_letter4_div4_p27"/&gt;He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although un&lt;pb n="032" xml:id="F1818_v1_044"/&gt;happy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the </rdg>
+			               <rdg wit="f1831">although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence.&lt;p eID="novel1_letter4_div4_p26"/&gt;&lt;p sID="novel1_letter4_div4_p27"/&gt;He is now much recovered from his illness, and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although unhappy, he is not so utterly occupied by his own misery, but that he interests himself deeply in the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06a_app6">
+		             <rdgGrp xml:id="C06a_app6_rg1" n="['employments']">
+			               <rdg wit="f1818">employments </rdg>
+			               <rdg wit="f1823">employments </rdg>
+			               <rdg wit="fThomas">employments </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C06a_app6_rg2" n="['projects']">
+			               <rdg wit="f1831">projects </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C06a_app7">
+		             <rdgGrp xml:id="C06a_app7_rg1" n="['of', 'others.', 'he', 'has']">
+			               <rdg wit="f1818">of others. He has </rdg>
+			               <rdg wit="f1823">of others. He has </rdg>
+			               <rdg wit="fThomas">of others. He has </rdg>
+			               <rdg wit="f1831">of others. He has </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

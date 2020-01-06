@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+   <g transform="translate(200, 600)">
+      <line x1="0"
+            y1="0"
+            x2="0"
+            y2="-500"
+            stroke-width="3"
+            stroke="blue"/>
+      <line x1="-1.5"
+            y1="0"
+            x2="240"
+            y2="0"
+            stroke-width="3"
+            stroke="maroon"/>
+      <text x="120" y="40" fill="indigo" text-anchor="middle">Number of choices at this location</text>
+      <g>
+         <text x="-20"
+               y="-22.222222222222222222"
+               fill="indigo"
+               text-anchor="end">1stBridgeSeedRoom</text>
+         <line x1="0"
+               x2="20"
+               y1="-25"
+               y2="-25"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="30"
+               y="-22.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">1</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-72.222222222222222222"
+               fill="indigo"
+               text-anchor="end">FallingRocks</text>
+         <line x1="0"
+               x2="60"
+               y1="-75"
+               y2="-75"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="70"
+               y="-72.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">3</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-122.222222222222222222"
+               fill="indigo"
+               text-anchor="end">MouseRoom</text>
+         <line x1="0"
+               x2="60"
+               y1="-125"
+               y2="-125"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="70"
+               y="-122.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">3</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-172.222222222222222222"
+               fill="indigo"
+               text-anchor="end">SansStation</text>
+         <line x1="0"
+               x2="80"
+               y1="-175"
+               y2="-175"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="90"
+               y="-172.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">4</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-222.222222222222222222"
+               fill="indigo"
+               text-anchor="end">QuicheRoom</text>
+         <line x1="0"
+               x2="80"
+               y1="-225"
+               y2="-225"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="90"
+               y="-222.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">4</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-272.222222222222222222"
+               fill="indigo"
+               text-anchor="end">SansTelescopeRoom</text>
+         <line x1="0"
+               x2="80"
+               y1="-275"
+               y2="-275"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="90"
+               y="-272.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">4</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-322.222222222222222222"
+               fill="indigo"
+               text-anchor="end">HistoryPlaque</text>
+         <line x1="0"
+               x2="100"
+               y1="-325"
+               y2="-325"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="110"
+               y="-322.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">5</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-372.222222222222222222"
+               fill="indigo"
+               text-anchor="end">SeaWeedHidingSpot</text>
+         <line x1="0"
+               x2="100"
+               y1="-375"
+               y2="-375"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="110"
+               y="-372.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">5</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-422.222222222222222222"
+               fill="indigo"
+               text-anchor="end">2ndBridgeSeedRoom</text>
+         <line x1="0"
+               x2="120"
+               y1="-425"
+               y2="-425"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="130"
+               y="-422.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">6</text>
+      </g>
+      <g>
+         <text x="-20"
+               y="-472.222222222222222222"
+               fill="indigo"
+               text-anchor="end">WishingRoom</text>
+         <line x1="0"
+               x2="160"
+               y1="-475"
+               y2="-475"
+               stroke="green"
+               stroke-width="10"/>
+         <text x="170"
+               y="-472.222222222222222222"
+               fill="indigo"
+               text-anchor="middle">8</text>
+      </g>
+      <line x1="100"
+            y1="0"
+            x2="100"
+            y2="-500"
+            stroke-width="1"
+            stroke="maroon"
+            stroke-dasharray="3 2"/>
+      <text x="100" y="-510" text-anchor="middle" stroke="maroon">5</text>
+      <text x="150"
+            y="-550"
+            text-anchor="middle"
+            stroke="black"
+            font-size="20">Number of choices at each setting in Undertale’s Waterfall map</text>
+   </g>
+</svg>

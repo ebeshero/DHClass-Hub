@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C03f">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C03f</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C03f_app1">
+		             <rdgGrp xml:id="C03f_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03f_app1_rg2" n="['&lt;p/&gt;shall']">
+			               <rdg wit="f1818">&lt;p sID="novel1_letter2_div2_p8"/&gt;Shall </rdg>
+			               <rdg wit="f1823">&lt;p sID="novel1_letter2_div2_p8"/&gt;&lt;pb n="17" xml:id="F1823_v1_036"/&gt;Shall </rdg>
+			               <rdg wit="fThomas">&lt;p sID="novel1_letter2_div2_p8"/&gt;Shall </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03f_app1_rg3" n="['shall']">
+			               <rdg wit="f1831">Shall </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03f_app2">
+		             <rdgGrp xml:id="C03f_app2_rg1"
+                       n="['i', 'meet', 'you', 'again,', 'after', 'having', 'traversed', 'immense', 'seas,', 'and', 'returned', 'by', 'the', 'most', 'southern', 'cape', 'of', 'africa', 'or', 'america?', 'i', 'dare', 'not', 'expect', 'such', 'success,', 'yet', 'i', 'cannot', 'bear', 'to', 'look', 'on', 'the', 'reverse', 'of', 'the', 'picture.', 'continue']">
+			               <rdg wit="f1818">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
+			               <rdg wit="f1823">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
+			               <rdg wit="fThomas">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03f_app2_rg2"
+                       n="['i', 'meet', 'you', 'again,', 'after', 'having', 'traversed', 'immense', 'seas,', 'and', 'returned', 'by', 'the', 'most', 'southern', 'cape', 'of', 'africa', 'or', 'america?', 'i', 'dare', 'not', 'expect', 'such', 'success,', 'yet', 'i', 'cannot', 'bear', 'to', 'look', 'on', 'the', 'reverse', 'of', 'the', 'picture.', 'continue', 'for', 'the', 'present']">
+			               <rdg wit="f1831">I meet you again, after having traversed immense seas, and returned by the most southern cape of Africa or America? I dare not expect such success, yet I cannot bear to look on the reverse of the picture. Continue for the present </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03f_app3">
+		             <rdgGrp xml:id="C03f_app3_rg1"
+                       n="['to', 'write', 'to', 'me', 'by', 'every', 'opportunity:', 'i', 'may', 'receive', 'your', 'letters']">
+			               <rdg wit="f1818">to write to me by every opportunity: I may receive your letters </rdg>
+			               <rdg wit="f1823">to write to me by every opportunity: I may receive your letters </rdg>
+			               <rdg wit="fThomas">to write to me by every opportunity: I may receive your letters </rdg>
+			               <rdg wit="f1831">to write to me by every opportunity: I may receive your letters </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03f_app4">
+		             <rdgGrp xml:id="C03f_app4_rg1"
+                       n="['(though', 'the', 'chance', 'is', 'very', 'doubtful)']">
+			               <rdg wit="f1818">(though the chance is very doubtful) </rdg>
+			               <rdg wit="f1823">(though the chance is very doubtful) </rdg>
+			               <rdg wit="fThomas">(though the chance is very doubtful) </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03f_app5">
+		             <rdgGrp xml:id="C03f_app5_rg1"
+                       n="['on', 'some', 'occasions', 'when', 'i', 'need', 'them', 'most', 'to', 'support', 'my', 'spirits.', 'i', 'love', 'you', 'very', 'tenderly.', 'remember', 'me', 'with', 'affection,', 'should', 'you', 'never', 'hear', 'from', 'me', 'again.&lt;p/&gt;&lt;p/&gt;your', 'affectionate', 'brother,&lt;p/&gt;&lt;p/&gt;robert', 'walton.&lt;p/&gt;']">
+			               <rdg wit="f1818">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID="novel1_letter2_div2_p8"/&gt;&lt;p sID="novel1_letter2_div2_p9"/&gt;Your affectionate brother,&lt;p eID="novel1_letter2_div2_p9"/&gt;&lt;p sID="novel1_letter2_div2_p10"/&gt;R&lt;hi sID="novel1_letter2_div2_p10_hi1"/&gt;OBERT&lt;hi eID="novel1_letter2_div2_p10_hi1"/&gt; W&lt;hi sID="novel1_letter2_div2_p10_hi2"/&gt;ALTON&lt;hi eID="novel1_letter2_div2_p10_hi2"/&gt;.&lt;p eID="novel1_letter2_div2_p10"/&gt;&lt;pb n="018" xml:id="F1818_v1_030"/&gt;&lt;milestone n="2" type="end" unit="letter"/&gt; </rdg>
+			               <rdg wit="f1823">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID="novel1_letter2_div2_p8"/&gt;&lt;p sID="novel1_letter2_div2_p9"/&gt;Your affectionate brother,&lt;p eID="novel1_letter2_div2_p9"/&gt;&lt;p sID="novel1_letter2_div2_p10"/&gt;R&lt;hi sID="novel1_letter2_div2_p10_hi1"/&gt;OBERT&lt;hi eID="novel1_letter2_div2_p10_hi1"/&gt; W&lt;hi sID="novel1_letter2_div2_p10_hi2"/&gt;ALTON&lt;hi eID="novel1_letter2_div2_p10_hi2"/&gt;.&lt;p eID="novel1_letter2_div2_p10"/&gt;&lt;milestone n="2" type="end" unit="letter"/&gt; </rdg>
+			               <rdg wit="fThomas">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID="novel1_letter2_div2_p8"/&gt;&lt;p sID="novel1_letter2_div2_p9"/&gt;Your affectionate brother,&lt;p eID="novel1_letter2_div2_p9"/&gt;&lt;p sID="novel1_letter2_div2_p10"/&gt;R&lt;hi sID="novel1_letter2_div2_p10_hi1"/&gt;OBERT&lt;hi eID="novel1_letter2_div2_p10_hi1"/&gt; W&lt;hi sID="novel1_letter2_div2_p10_hi2"/&gt;ALTON&lt;hi eID="novel1_letter2_div2_p10_hi2"/&gt;.&lt;p eID="novel1_letter2_div2_p10"/&gt;&lt;pb n="018" xml:id="F1818_v1_030"/&gt;&lt;milestone n="2" type="end" unit="letter"/&gt; </rdg>
+			               <rdg wit="f1831">on some occasions when I need them most to support my spirits. I love you very tenderly. Remember me with affection, should you never hear from me again.&lt;p eID="novel1_letter2_div2_p8"/&gt;&lt;p sID="novel1_letter2_div2_p9"/&gt;Your affectionate brother,&lt;p eID="novel1_letter2_div2_p9"/&gt;&lt;p sID="novel1_letter2_div2_p10"/&gt;R&lt;hi sID="novel1_letter2_div2_p10_hi1"/&gt;OBERT&lt;hi eID="novel1_letter2_div2_p10_hi1"/&gt; W&lt;hi sID="novel1_letter2_div2_p10_hi2"/&gt;ALTON&lt;hi eID="novel1_letter2_div2_p10_hi2"/&gt;.&lt;p eID="novel1_letter2_div2_p10"/&gt;&lt;pb n="10" xml:id="F1831_v_026"/&gt;&lt;milestone n="2" type="end" unit="letter"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

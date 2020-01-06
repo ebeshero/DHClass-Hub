@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C03b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C03b</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C03b_app1">
+		             <rdgGrp xml:id="C03b_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+               <rdgGrp xml:id="C03b_app1_rg2"
+                       n="['This', 'circumstance,', 'added', 'to', 'his', 'well', 'known', 'integrity', 'and', 'dauntless', 'courage,', 'made', 'me', 'very', 'desirous', 'to', 'engage', 'him.', 'A', 'youth', 'passed', 'in', 'solitude,', 'my', 'best', 'years', 'spent', 'under', 'your', 'gentle', 'and', 'feminine', 'fosterage,', 'has', 'so', 'refined', 'the', 'groundwork', 'of', 'my', 'character,', 'that', 'I', 'cannot', 'overcome', 'an', 'intense', 'distaste', 'to', 'the', 'usual', 'brutality', 'exercised', 'on', 'board', 'ship:', 'I', 'have', 'never', 'believed', 'it', 'to', 'be', 'necessary;', 'and', 'when', 'I', 'heard', 'of', 'a', 'mariner', 'equally', 'noted', 'for', 'his', 'kindliness', 'of', 'heart,', 'and', 'the', 'respect', 'and', 'obedience', 'paid', 'to', 'him', 'by', 'his', 'crew,', 'I', 'felt', 'myself', 'peculiarly', 'fortunate', 'in', 'being', 'able', 'to', 'secure', 'his', 'services.', 'I', 'heard', 'of', 'him', 'first', 'in', 'rather', 'a', 'romantic', 'manner,', 'from', 'a', 'lady', 'who', 'owes', 'to', 'him', 'the', 'happiness', 'of', 'her', 'life.', 'This,', 'briefly,', 'is', 'his', 'story.']">
+                  <rdg wit="f1831">This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character, that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story.</rdg>
+               </rdgGrp>
+		             <rdgGrp xml:id="C03b_app1_rg3"
+                       n="['he', 'is,', 'indeed,', 'of', 'so', 'amiable', 'a', 'nature,', 'that', 'he', 'will', 'not', 'hunt', '(a', 'favourite,', 'and', 'almost', 'the', 'only', 'amusement', 'here),', 'because', 'he', 'cannot', 'endure', 'to', 'spill', 'blood.']">
+			               <rdg wit="f1818">He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. </rdg>
+			               <rdg wit="f1823">He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. </rdg>
+			               <rdg wit="fThomas">He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03b_app2">
+		             <rdgGrp xml:id="C03b_app2_rg1"
+                       n="['&lt;del&gt;he', 'is,', 'moreover,', 'heroically', 'generous.&lt;del&gt;', '&lt;add&gt;I', 'will', 'relate', 'to', 'you', 'an', 'anecdote', 'of', 'his', 'life,', 'recounted', 'to', 'me', 'by', 'the', 'parties', 'themselves,', 'which', 'exemplifies', 'the', 'generosity,', 'I', 'had', 'almost', 'said', 'the', 'heroism', 'of', 'his', 'nature.&lt;add&gt;']">
+			               <rdg wit="fThomas">&lt;del sID="novel1_letter2_div2_p5_del1"/&gt;He is, moreover, heroically generous.&lt;del eID="novel1_letter2_div2_p5_del1"/&gt; &lt;add sID="novel1_letter2_div2_p5_add1"/&gt;I will relate to you an anecdote of his life, recounted to me by the parties themselves, which exemplifies the generosity, I had almost said the heroism of his nature.&lt;add eID="novel1_letter2_div2_p5_add1"/&gt; </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03b_app2_rg2"
+                       n="['he', 'is,', 'moreover,', 'heroically', 'generous.']">
+			               <rdg wit="f1818">He is, moreover, heroically generous. </rdg>
+			               <rdg wit="f1823">He is, moreover, heroically generous. </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

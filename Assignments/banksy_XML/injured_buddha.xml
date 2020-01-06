@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2-banksy_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <creator>Banksy</creator>
+                <editor>Abdual Nadeem</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Digital edition hosted on <ref target="http://combe.newtfire.org/Banksy.html"></ref>
+                    and GitHub: <ref target="https://github.com/alnopa9/Banksy"></ref>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Injured Buddha</title>
+                    <alternate>Budha Tunnel</alternate>
+                    <date when="2008-05"/>
+                    <medium type="spray_paint"/>
+                    <location lat="43.552849" long="7.017369">London, UK</location>
+                    <ref target="http://www.banksy.co.uk/">Banksy's Personal Site</ref>
+                    <ref target="https://www.instagram.com/p/BpDMo26h3Cu/">">Banksy's Personal Instagram</ref>
+                    <ref target="https://us.canvasartrocks.com/blogs/posts/70529347-121-amazing-banksy-graffiti-artworks-with-locations">Article That Supplied Information</ref>
+                    <cause when="2008"> Bringing other people into our Society.</cause>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </header>
+    <body>
+        <desc>This picture showed up at the festival as a reminder to the society that other people can join the festivals as well. The work shows Buddha with a bandaged hand and facial wounds to symbolize the triumph of the mind over emotion. By this happeneing, it will get better from here on out. In front of Cannes Festival in London.</desc>
+        <p>
+            <img src="Injured_Buddha.jpg" alt="Banksy's Injured Buddha"/>
+            <title>Injured Buddha Banksy</title>
+            <credit>By Mark L. McHanon from London - Injured Buddha, https://posttraditionalbuddhism.com/imperfect-buddha-podcast/ </credit>
+        </p>
+    </body>
+</root>

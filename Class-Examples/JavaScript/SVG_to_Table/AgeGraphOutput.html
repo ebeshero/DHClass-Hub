@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Age Graph</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <script type="text/javascript" src="ageGraph.js">/**/</script>
+   </head>
+   <body><h1 class="ssiHeader">theGraveyard</h1>
+<div id="menu"><img alt="Creative Commons License"  src="cc.png" class="menuImage"/></div>
+
+<div id="header">
+    <div class="menu-wrap"><nav class="menuBar"><ul class="topMenu" id="myTopmenu">
+        <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a>
+                <ul class="sub-nav">
+                    <li><a href="about.html">Our Team</a></li>
+                    <li><a href="methodology.html">Methods</a></li>
+                    <li><a href="cemetery.html">The Cemetery</a></li>
+                </ul></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="pieChart.html">Analysis</a>
+                <ul class="sub-nav2">
+                    <li><a href="pieChart.html">graph 1</a></li>
+                    <li><a href="lineGraph.html">graph 2</a></li>
+                    <li><a href="ageGraphOutput.html">graph 3</a></li>
+                </ul></li>
+    </ul></nav></div>
+</div>
+      <div id="ageBarGraph">
+         <svg xmlns="http://www.w3.org/2000/svg" width="200%" height="200%" viewBox="0 0 1800 900">
+            <g transform="translate(0 700)">
+               <line x1="75" x2="75" y1="0" y2="-450" stroke="black" stroke-width="1"/>
+               <line x1="75" x2="1200" y1="0" y2="0" stroke="black" stroke-width="1"/>
+               <text x="400" y="-450" font-size="25px">Common Age of Death in Brush Creek Cemetery </text>
+               <text x="50" y="-10" font-size="20px">1</text>
+               <line x1="70" x2="80" y1="-10" y2="-10" stroke="black" stroke-width="2"/>
+               <text x="50" y="-50" font-size="20px">5</text>
+               <line x1="70" x2="80" y1="-50" y2="-50" stroke="black" stroke-width="2"/>
+               <text x="50" y="-100" font-size="20px">10</text>
+               <line x1="70" x2="80" y1="-100" y2="-100" stroke="black" stroke-width="2"/>
+               <text x="50" y="-150" font-size="20px">15</text>
+               <line x1="70" x2="80" y1="-150" y2="-150" stroke="black" stroke-width="2"/>
+               <text x="50" y="-200" font-size="20px">20</text>
+               <line x1="70" x2="80" y1="-200" y2="-200" stroke="black" stroke-width="2"/>
+               <text x="50" y="-250" font-size="20px">25</text>
+               <line x1="70" x2="80" y1="-250" y2="-250" stroke="black" stroke-width="2"/>
+               <text x="50" y="-300" font-size="20px">30</text>
+               <line x1="70" x2="80" y1="-300" y2="-300" stroke="black" stroke-width="2"/>
+               <text x="50" y="-350" font-size="20px">35</text>
+               <line x1="70" x2="80" y1="-350" y2="-350" stroke="black" stroke-width="2"/>
+               <text x="50" y="-400" font-size="20px">40</text>
+               <line x1="70" x2="80" y1="-400" y2="-400" stroke="black" stroke-width="2"/>
+               <!-- Bars start here-->
+               <g id="svg_0to2">
+                  <line x1="100" y1="-10" x2="100" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="100" y1="-10" x2="100" y2="-10" style="stroke:#15B7FF; stroke-width:45"
+                  />
+               </g>
+               <text x="80" y="25" font-size="20px">0-2</text>
+               <g id="svg_3to10">
+                  <line x1="200" y1="-10" x2="200" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="200" y1="-10" x2="200" y2="-30" style="stroke:#15B7FF; stroke-width:45"
+                  />
+               </g>
+               <text x="180" y="25" font-size="20px">3-10</text>
+               <g id="svg_11to19">
+                  <line x1="300" y1="-10" x2="300" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="300" y1="-10" x2="300" y2="-30" style="stroke:#15B7FF; stroke-width:45"
+                  />
+               </g>
+               <text x="280" y="25" font-size="20px">11-19</text>
+               <g id="svg_20to29">
+                  <line x1="400" y1="-10" x2="400" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="400" y1="-10" x2="400" y2="-50" style="stroke:#15B7FF; stroke-width:45"
+                  />
+               </g>
+               <text x="380" y="25" font-size="20px">20-29</text>
+               <g id="svg_30to39">
+                  <line x1="500" y1="-0" x2="500" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="500" y1="-0" x2="500" y2="-60" style="stroke:#15B7FF; stroke-width:45"/>
+               </g>
+               <text x="480" y="25" font-size="20px">30-39</text>
+               <g id="svg_40to49">
+                  <line x1="600" y1="-20" x2="600" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="600" y1="-20" x2="600" y2="-90" style="stroke:#15B7FF; stroke-width:45"
+                  />
+               </g>
+               <text x="580" y="25" font-size="20px">40-49</text>
+               <g id="svg_50to59">
+                  <line x1="700" y1="-50" x2="700" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="700" y1="-50" x2="700" y2="-80" style="stroke:#15B7FF; stroke-width:45"
+                  />
+               </g>
+               <text x="680" y="25" font-size="20px">50-59</text>
+               <g id="svg_60to69">
+                  <line x1="800" y1="-70" x2="800" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="800" y1="-70" x2="800" y2="-200" style="stroke:#15B7FF; stroke-width:45"
+                  />
+               </g>
+               <text x="780" y="25" font-size="20px">60-69</text>
+               <g id="svg_70to79">
+                  <line x1="900" y1="-130" x2="900" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="900" y1="-130" x2="900" y2="-310"
+                     style="stroke:#15B7FF; stroke-width:45"/>
+               </g>
+               <text x="880" y="25" font-size="20px">70-79</text>
+               <g id="svg_80to89">
+                  <line x1="1000" y1="-200" x2="1000" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="1000" y1="-200" x2="1000" y2="-330"
+                     style="stroke:#15B7FF; stroke-width:45"/>
+               </g>
+               <text x="980" y="25" font-size="20px">80-89</text>
+               <g id="svg_90to99">
+                  <line x1="1100" y1="-90" x2="1100" y2="0" style="stroke:#FFCCFF; stroke-width:45"/>
+                  <line x1="1100" y1="-90" x2="1100" y2="-130"
+                     style="stroke:#15B7FF; stroke-width:45"/>
+               </g>
+               <text x="1080" y="25" font-size="20px">90-99</text>
+               <g class="legend">
+                  <text x="100" y="-400" font-size="30px">Legend</text>
+                  <line x1="100" x2="130" y1="-350" y2="-350" stroke="#15B7FF" stroke-width="30"/>
+                  <text x="140" y="-350" text-anchor="start" font-size="18px">Men</text>
+                  <line x1="100" x2="130" y1="-300" y2="-300" stroke="#FFCCFF" stroke-width="30"/>
+                  <text x="140" y="-300" text-anchor="start" font-size="18px">Women</text>
+               </g>
+               <text x="600" y="75" font-size="25px"> Age of Death</text>
+               <text x="25" y="-200" font-size="25px" text-anchor="middle"
+                  style="writing-mode: tb; letter-spacing:10" rotate="-90"> Amount of Peop le</text>
+            </g>
+         </svg>
+      </div>
+      <div id="ageGraphTable">
+         <table id="ageResults">
+            <tr class="header">
+               <th>Age Ranges</th>
+               <th>Men</th>
+               <th>Women</th>
+               <th>Total</th>
+            </tr>
+            <tr id="0to2">
+               <td> 0 to 2</td>
+               <td>0</td>
+               <td>1</td>
+               <td>1</td>
+            </tr>
+            <tr id="3to10">
+               <td> 3 to 10 </td>
+               <td>2</td>
+               <td>1</td>
+               <td>3</td>
+            </tr>
+            <tr id="11to19">
+               <td> 11 to 19</td>
+               <td>2</td>
+               <td>1</td>
+               <td>3</td>
+            </tr>
+            <tr id="20to29">
+               <td> 20 to 29</td>
+               <td>4</td>
+               <td>1</td>
+               <td>5</td>
+            </tr>
+            <tr id="30to39">
+               <td> 30 to 39</td>
+               <td>6</td>
+               <td>0</td>
+               <td>6</td>
+            </tr>
+            <tr id="40to49">
+               <td> 40 to 49</td>
+               <td>7</td>
+               <td>2</td>
+               <td>9</td>
+            </tr>
+            <tr id="50to59">
+               <td> 50 to 59</td>
+               <td>3</td>
+               <td>5</td>
+               <td>8</td>
+            </tr>
+            <tr id="60to69">
+               <td> 60 to 69</td>
+               <td>13</td>
+               <td>7</td>
+               <td>20</td>
+            </tr>
+            <tr id="70to79">
+               <td> 70 to 79</td>
+               <td>18</td>
+               <td>13</td>
+               <td>31</td>
+            </tr>
+            <tr id="80to89">
+               <td> 80 to 89</td>
+               <td>13</td>
+               <td>20</td>
+               <td>33</td>
+            </tr>
+            <tr id="90to99">
+               <td> 90 to 99</td>
+               <td>4</td>
+               <td>9</td>
+               <td>13</td>
+            </tr>
+         </table>
+      </div>
+      <div id="explanation">
+         <h3>Explanation</h3>
+         <br />
+         <div class="p5">This graph shows the common age of death amoung occupants in section I of the Brush
+            Creek Cemetery. Each bar shows the total number of people who's age of death was in that
+            age range. The blue part of the graph represents the amount of men and the pink part
+            represents the number or women. The height of the graph overall displays the total
+            amount of people who died in that age range. When you mouse over the bar, the table
+            above shows the exact numbers.</div>
+      </div>
+   </body>
+</html>

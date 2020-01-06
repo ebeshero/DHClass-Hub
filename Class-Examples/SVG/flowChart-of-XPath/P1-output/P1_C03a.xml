@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C03a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C03a</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-03 19:23:51.102012 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C03a_app1">
+		             <rdgGrp xml:id="C03a_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03a_app1_rg2"
+                       n="['letter', 'ii.to', 'mrs.', 'saville,', 'england.&lt;p/&gt;archangel,', '28th', 'march,', '17—.&lt;p/&gt;&lt;p/&gt;how', 'slowly', 'the', 'time', 'passes', 'here,', 'encompassed', 'as', 'i', 'am', 'by', 'frost', 'and']">
+			               <rdg wit="f1818">&lt;milestone n="2" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter2_div2_head1"/&gt;LETTER II.&lt;head eID="novel1_letter2_div2_head1"/&gt;&lt;ab sID="novel1_letter2_div2_ab1"/&gt;&lt;hi sID="novel1_letter2_div2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter2_div2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter2_div2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter2_div2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter2_div2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter2_div2_ab1_hi3"/&gt;&lt;ab eID="novel1_letter2_div2_ab1"/&gt;&lt;p sID="novel1_letter2_div2_p1"/&gt;Archangel, 28th March, 17—.&lt;p eID="novel1_letter2_div2_p1"/&gt;&lt;p sID="novel1_letter2_div2_p2"/&gt;How slowly the time passes here, encompassed as I am by frost and </rdg>
+			               <rdg wit="f1823">&lt;pb n="10" xml:id="F1823_v1_029"/&gt;&lt;milestone n="2" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter2_div2_head1"/&gt;LETTER II.&lt;head eID="novel1_letter2_div2_head1"/&gt;&lt;head sID="novel1_letter2_div2_head2"/&gt;&lt;hi sID="novel1_letter2_div2_head2_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter2_div2_head2_hi1"/&gt; S&lt;hi sID="novel1_letter2_div2_head2_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter2_div2_head2_hi2"/&gt;, &lt;hi sID="novel1_letter2_div2_head2_hi3"/&gt;England&lt;hi eID="novel1_letter2_div2_head2_hi3"/&gt;.&lt;head eID="novel1_letter2_div2_head2"/&gt;&lt;p sID="novel1_letter2_div2_p1"/&gt;Archangel, 28th March, 17—.&lt;p eID="novel1_letter2_div2_p1"/&gt;&lt;p sID="novel1_letter2_div2_p2"/&gt;How slowly the time passes here, encompassed as I am by frost and </rdg>
+			               <rdg wit="fThomas">&lt;milestone n="2" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter2_div2_head1"/&gt;LETTER II.&lt;head eID="novel1_letter2_div2_head1"/&gt;&lt;ab sID="novel1_letter2_div2_ab1"/&gt;&lt;hi sID="novel1_letter2_div2_ab1_hi1"/&gt;To Mrs.&lt;hi eID="novel1_letter2_div2_ab1_hi1"/&gt; S&lt;hi sID="novel1_letter2_div2_ab1_hi2"/&gt;AVILLE&lt;hi eID="novel1_letter2_div2_ab1_hi2"/&gt;, &lt;hi sID="novel1_letter2_div2_ab1_hi3"/&gt;England.&lt;hi eID="novel1_letter2_div2_ab1_hi3"/&gt;&lt;ab eID="novel1_letter2_div2_ab1"/&gt;&lt;p sID="novel1_letter2_div2_p1"/&gt;Archangel, 28th March, 17—.&lt;p eID="novel1_letter2_div2_p1"/&gt;&lt;p sID="novel1_letter2_div2_p2"/&gt;How slowly the time passes here, encompassed as I am by frost and </rdg>
+			               <rdg wit="f1831">&lt;milestone n="2" type="start" unit="letter"/&gt;&lt;head sID="novel1_letter2_div2_head1"/&gt;LETTER II.&lt;head eID="novel1_letter2_div2_head1"/&gt;&lt;head sID="novel1_letter2_div2_head2"/&gt;&lt;hi sID="novel1_letter2_div2_head2_hi1"/&gt;To Mrs. Saville, England.&lt;hi eID="novel1_letter2_div2_head2_hi1"/&gt;&lt;head eID="novel1_letter2_div2_head2"/&gt;&lt;p sID="novel1_letter2_div2_p1"/&gt;Archangel, 28th March, 17—.&lt;p eID="novel1_letter2_div2_p1"/&gt;&lt;p sID="novel1_letter2_div2_p2"/&gt;How slowly the time passes here, encompassed as I am by frost and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app2">
+		             <rdgGrp xml:id="C03a_app2_rg1" n="['snow!']">
+			               <rdg wit="f1831">snow! </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03a_app2_rg2" n="['snow;']">
+			               <rdg wit="f1818">snow; </rdg>
+			               <rdg wit="f1823">snow; </rdg>
+			               <rdg wit="fThomas">snow; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app3">
+		             <rdgGrp xml:id="C03a_app3_rg1"
+                       n="['yet', 'a', 'second', 'step', 'is', 'taken', 'towards', 'my', 'enterprise.', 'i', 'have', 'hired', 'a', 'vessel,', 'and', 'am', 'occupied', 'in', 'collecting', 'my', 'sailors;', 'those', 'whom', 'i', 'have', 'already']">
+			               <rdg wit="f1818">yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already </rdg>
+			               <rdg wit="f1823">yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already </rdg>
+			               <rdg wit="fThomas">yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already </rdg>
+			               <rdg wit="f1831">yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app4">
+		             <rdgGrp xml:id="C03a_app4_rg1" n="['engaged']">
+			               <rdg wit="f1818">engaged </rdg>
+			               <rdg wit="f1823">engaged </rdg>
+			               <rdg wit="fThomas">engaged </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03a_app4_rg2" n="['engaged,']">
+			               <rdg wit="f1831">engaged, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app5">
+		             <rdgGrp xml:id="C03a_app5_rg1"
+                       n="['appear', 'to', 'be', 'men', 'on', 'whom', 'i', 'can', 'depend,', 'and', 'are', 'certainly', 'possessed', 'of', 'dauntless', 'courage.&lt;p/&gt;&lt;p/&gt;but', 'i', 'have', 'one', 'want', 'which', 'i', 'have', 'never', 'yet', 'been', 'able', 'to', 'satisfy;', 'and', 'the', 'absence', 'of', 'the', 'object', 'of', 'which', 'i', 'now', 'feel', 'as', 'a', 'most', 'severe', 'evil.', 'i', 'have', 'no', 'friend,', 'margaret:', 'when', 'i', 'am', 'glowing', 'with', 'the', 'enthusiasm', 'of', 'success,', 'there', 'will', 'be', 'none', 'to', 'participate', 'my', 'joy;', 'if', 'i', 'am', 'assailed', 'by', 'disappointment,', 'no', 'one', 'will', 'endeavour', 'to', 'sustain', 'me', 'in', 'dejection.', 'i', 'shall', 'commit', 'my', 'thoughts', 'to', 'paper,', 'it', 'is', 'true;', 'but', 'that', 'is', 'a', 'poor', 'medium', 'for', 'the', 'communication', 'of', 'feeling.', 'i', 'desire', 'the', 'company', 'of', 'a', 'man', 'who', 'could']">
+			               <rdg wit="f1818">appear to be men on whom I can depend, and are certainly possessed of dauntless courage.&lt;p eID="novel1_letter2_div2_p2"/&gt;&lt;p sID="novel1_letter2_div2_p3"/&gt;But I have one want which I have never yet been able to satisfy; and the absence of the object of which I &lt;pb n="011" xml:id="F1818_v1_023"/&gt;now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could </rdg>
+			               <rdg wit="f1823">appear to be men on whom I can depend, and are certainly possessed of dauntless courage.&lt;p eID="novel1_letter2_div2_p2"/&gt;&lt;p sID="novel1_letter2_div2_p3"/&gt;But I have one want which I have never yet been able to satisfy; and &lt;pb n="11" xml:id="F1823_v1_030"/&gt;the absence of the object of which I now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could </rdg>
+			               <rdg wit="fThomas">appear to be men on whom I can depend, and are certainly possessed of dauntless courage.&lt;p eID="novel1_letter2_div2_p2"/&gt;&lt;p sID="novel1_letter2_div2_p3"/&gt;But I have one want which I have never yet been able to satisfy; and the absence of the object of which I &lt;pb n="011" xml:id="F1818_v1_023"/&gt;now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could </rdg>
+			               <rdg wit="f1831">appear to be men on whom I can depend, and are certainly possessed of dauntless courage.&lt;p eID="novel1_letter2_div2_p2"/&gt;&lt;p sID="novel1_letter2_div2_p3"/&gt;But I have one want which I have never yet been able to satisfy; and the absence of the object of which I now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of &lt;pb n="7" xml:id="F1831_v_023"/&gt;feeling. I desire the company of a man who could </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app6">
+		             <rdgGrp xml:id="C03a_app6_rg1" n="['sympathise']">
+			               <rdg wit="f1831">sympathise </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03a_app6_rg2" n="['sympathize']">
+			               <rdg wit="f1818">sympathize </rdg>
+			               <rdg wit="f1823">sympathize </rdg>
+			               <rdg wit="fThomas">sympathize </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app7">
+		             <rdgGrp xml:id="C03a_app7_rg1"
+                       n="['with', 'me;', 'whose', 'eyes', 'would', 'reply', 'to', 'mine.', 'you', 'may', 'deem', 'me', 'romantic,', 'my', 'dear', 'sister,', 'but', 'i', 'bitterly', 'feel', 'the', 'want', 'of', 'a', 'friend.', 'i', 'have', 'no', 'one', 'near', 'me,', 'gentle', 'yet', 'courageous,', 'possessed', 'of', 'a', 'cultivated', 'as', 'well', 'as', 'of', 'a', 'capacious', 'mind,', 'whose', 'tastes', 'are', 'like', 'my', 'own,', 'to', 'approve', 'or', 'amend', 'my', 'plans.', 'how', 'would', 'such', 'a', 'friend', 'repair', 'the', 'faults', 'of', 'your', 'poor', 'brother!', 'i', 'am', 'too', 'ardent', 'in', 'execution,', 'and', 'too', 'impatient', 'of', 'difficulties.', 'but', 'it', 'is', 'a', 'still', 'greater', 'evil', 'to', 'me', 'that', 'i', 'am', 'self-educated:', 'for', 'the', 'first', 'fourteen', 'years', 'of', 'my', 'life', 'i', 'ran', 'wild', 'on', 'a', 'common,', 'and', 'read', 'nothing', 'but', 'our', 'uncle', 'thomas’s', 'books', 'of', 'voyages.', 'at', 'that', 'age', 'i', 'became', 'acquainted', 'with', 'the', 'celebrated', 'poets', 'of', 'our', 'own', 'country;', 'but', 'it', 'was', 'only', 'when', 'it', 'had', 'ceased', 'to', 'be', 'in', 'my', 'power', 'to', 'derive', 'its', 'most', 'important', 'benefits', 'from', 'such', 'a', 'conviction,', 'that', 'i', 'perceived', 'the', 'necessity', 'of', 'becoming', 'acquainted', 'with', 'more', 'languages', 'than', 'that', 'of', 'my', 'native', 'country.', 'now', 'i', 'am', 'twenty-eight,', 'and', 'am', 'in', 'reality', 'more', 'illiterate', 'than', 'many']">
+			               <rdg wit="f1818">with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, and too impatient of difficul&lt;pb n="012" xml:id="F1818_v1_024"/&gt;ties. But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction, that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many </rdg>
+			               <rdg wit="f1823">with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, &lt;pb n="12" xml:id="F1823_v1_031"/&gt;and too impatient of difficulties. But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction, that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many </rdg>
+			               <rdg wit="fThomas">with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, and too impatient of difficul&lt;pb n="012" xml:id="F1818_v1_024"/&gt;ties. But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction, that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many </rdg>
+			               <rdg wit="f1831">with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, and too impatient of difficulties. But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read nothing but our uncle Thomas’s books of voyages. At that age I became acquainted with the celebrated poets of our own country; but it was only when it had ceased to be in my power to derive its most important benefits from such a conviction, that I perceived the necessity of becoming acquainted with more languages than that of my native country. Now I am twenty-eight, and am in reality more illiterate than many </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app8">
+		             <rdgGrp xml:id="C03a_app8_rg1" n="['school-boys']">
+			               <rdg wit="f1818">school-boys </rdg>
+			               <rdg wit="f1823">school-boys </rdg>
+			               <rdg wit="fThomas">school-boys </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03a_app8_rg2" n="['schoolboys']">
+			               <rdg wit="f1831">schoolboys </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app9">
+		             <rdgGrp xml:id="C03a_app9_rg1"
+                       n="['of', 'fifteen.', 'it', 'is', 'true', 'that', 'i', 'have', 'thought', 'more,', 'and', 'that', 'my', 'day', 'dreams', 'are', 'more', 'extended', 'and', 'magnificent;', 'but', 'they', 'want', '(as', 'the', 'painters', 'call', 'it)', 'keeping;', 'and', 'i', 'greatly', 'need', 'a', 'friend', 'who', 'would', 'have', 'sense', 'enough', 'not', 'to', 'despise', 'me', 'as', 'romantic,', 'and', 'affection', 'enough', 'for', 'me', 'to', 'endeavour', 'to', 'regulate', 'my', 'mind.&lt;p/&gt;&lt;p/&gt;well,', 'these', 'are', 'useless', 'complaints;', 'i', 'shall', 'certainly', 'find', 'no', 'friend', 'on', 'the', 'wide', 'ocean,', 'nor', 'even', 'here', 'in', 'archangel,', 'among', 'merchants', 'and', 'seamen.', 'yet', 'some', 'feelings,', 'unallied', 'to', 'the', 'dross', 'of', 'human', 'nature,', 'beat', 'even', 'in', 'these', 'rugged', 'bosoms.', 'my', 'lieutenant,', 'for', 'instance,', 'is', 'a', 'man', 'of', 'wonderful', 'courage', 'and', 'enterprise;', 'he', 'is', 'madly', 'desirous']">
+			               <rdg wit="f1818">of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) &lt;hi sID="novel1_letter2_div2_p3_hi1"/&gt;keeping;&lt;hi eID="novel1_letter2_div2_p3_hi1"/&gt; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection &lt;pb n="013" xml:id="F1818_v1_025"/&gt;enough for me to endeavour to regulate my mind.&lt;p eID="novel1_letter2_div2_p3"/&gt;&lt;p sID="novel1_letter2_div2_p4"/&gt;Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous </rdg>
+			               <rdg wit="f1823">of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) &lt;hi sID="novel1_letter2_div2_p3_hi1"/&gt;keeping;&lt;hi eID="novel1_letter2_div2_p3_hi1"/&gt; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection &lt;pb n="13" xml:id="F1823_v1_032"/&gt;enough for me to endeavour to regulate my mind.&lt;p eID="novel1_letter2_div2_p3"/&gt;&lt;p sID="novel1_letter2_div2_p4"/&gt;Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous </rdg>
+			               <rdg wit="fThomas">of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) &lt;hi sID="novel1_letter2_div2_p3_hi1"/&gt;keeping;&lt;hi eID="novel1_letter2_div2_p3_hi1"/&gt; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection &lt;pb n="013" xml:id="F1818_v1_025"/&gt;enough for me to endeavour to regulate my mind.&lt;p eID="novel1_letter2_div2_p3"/&gt;&lt;p sID="novel1_letter2_div2_p4"/&gt;Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous </rdg>
+			               <rdg wit="f1831">of fifteen. It is true that I have thought more, and that my day dreams are more extended and magnificent; but they want (as the painters call it) &lt;hi sID="novel1_letter2_div2_p3_hi1"/&gt;keeping;&lt;hi eID="novel1_letter2_div2_p3_hi1"/&gt; and I greatly need a friend who would have sense enough not to despise me as romantic, and affection enough for me to endeavour to regulate my mind.&lt;p eID="novel1_letter2_div2_p3"/&gt;&lt;p sID="novel1_letter2_div2_p4"/&gt;Well, these are useless complaints; I shall certainly find no friend on the wide ocean, nor even here in Archangel, among merchants and seamen. Yet some feelings, unallied to the dross of human nature, beat even in these rugged bosoms. My lieutenant, for instance, is a man of wonderful courage and enterprise; he is madly desirous </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app10">
+		             <rdgGrp xml:id="C03a_app10_rg1"
+                       n="['of', 'glory:', 'or', 'rather,', 'to', 'word', 'my', 'phrase', 'more', 'characteristically,', 'of', 'advancement', 'in', 'his', 'profession.']">
+			               <rdg wit="f1831">of glory: or rather, to word my phrase more characteristically, of advancement in his profession. </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03a_app10_rg2" n="['of', 'glory.']">
+			               <rdg wit="f1818">of glory. </rdg>
+			               <rdg wit="f1823">of glory. </rdg>
+			               <rdg wit="fThomas">of glory. </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app11">
+		             <rdgGrp xml:id="C03a_app11_rg1"
+                       n="['he', 'is', 'an', 'englishman,', 'and', 'in', 'the', 'midst', 'of', 'national', 'and', 'professional', 'prejudices,', 'unsoftened', 'by', 'cultivation,', 'retains', 'some', 'of', 'the', 'noblest', 'endowments', 'of', 'humanity.', 'i', 'first', 'became', 'acquainted', 'with', 'him', 'on', 'board', 'a', 'whale', 'vessel:', 'finding', 'that', 'he', 'was', 'unemployed', 'in', 'this', 'city,', 'i', 'easily', 'engaged', 'him', 'to', 'assist', 'in', 'my', 'enterprise.&lt;p/&gt;&lt;p/&gt;the', 'master', 'is', 'a', 'person', 'of', 'an', 'excellent', 'disposition,', 'and', 'is', 'remarkable', 'in', 'the', 'ship', 'for', 'his']">
+			               <rdg wit="f1818">He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.&lt;p eID="novel1_letter2_div2_p4"/&gt;&lt;p sID="novel1_letter2_div2_p5"/&gt;The master is a person of an excellent disposition, and is remarkable in &lt;pb n="014" xml:id="F1818_v1_026"/&gt;the ship for his </rdg>
+			               <rdg wit="f1823">He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.&lt;p eID="novel1_letter2_div2_p4"/&gt;&lt;p sID="novel1_letter2_div2_p5"/&gt;The master is a person of an excellent disposition, and is remarkable in the ship for his </rdg>
+			               <rdg wit="fThomas">He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.&lt;p eID="novel1_letter2_div2_p4"/&gt;&lt;p sID="novel1_letter2_div2_p5"/&gt;The master is a person of an excellent disposition, and is remarkable in &lt;pb n="014" xml:id="F1818_v1_026"/&gt;the ship for his </rdg>
+			               <rdg wit="f1831">He is an Englishman, and in the midst of national and professional prejudices, unsoftened by cultivation, retains some of the noblest endowments of humanity. I first became acquainted with him on board a whale vessel: finding that he was unemployed in this city, I easily engaged him to assist in my enterprise.&lt;p eID="novel1_letter2_div2_p4"/&gt;&lt;p sID="novel1_letter2_div2_p5"/&gt;The master is a person of an excellent disposition, and is remarkable in the ship for his </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app12">
+		             <rdgGrp xml:id="C03a_app12_rg1" n="['gentleness']">
+			               <rdg wit="f1823">gentleness </rdg>
+			               <rdg wit="f1831">gentleness </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C03a_app12_rg2" n="['gentleness,']">
+			               <rdg wit="f1818">gentleness, </rdg>
+			               <rdg wit="fThomas">gentleness, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C03a_app13">
+		             <rdgGrp xml:id="C03a_app13_rg1"
+                       n="['and', 'the', 'mildness', 'of', 'his', 'discipline.']">
+			               <rdg wit="f1818">and the mildness of his discipline. </rdg>
+			               <rdg wit="f1823">and the mild&lt;pb n="14" xml:id="F1823_v1_033"/&gt;ness of his discipline. </rdg>
+			               <rdg wit="fThomas">and the mildness of his discipline. </rdg>
+			               <rdg wit="f1831">and the mild&lt;pb n="8" xml:id="F1831_v_024"/&gt;ness of his discipline. </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:cx="http://interedition.eu/collatex/ns/1.0"
+     xml:id="P1-C07a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bridge Phase 1: Collation unit C07a</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Frankenstein Variorum Project</authority>
+            <date>2018</date>
+            <availability>
+               <licence>Distributed under a Creative Commons
+                                Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Produced from collation output prepared in batch file processing on  2018-10-01 10:15:03.568989 .</p>
+            <p>Edited to correct alignments and prepared for the Frankenstein Variorum spine on  2020-01-02T22:09:17.46-05:00.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="alignmentChunk">
+            <app xml:id="C07a_app1">
+		             <rdgGrp xml:id="C07a_app1_rg1" n="['']">
+			               <rdg wit="fMS"> </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app1_rg2" n="['chapter']">
+			               <rdg wit="f1818">&lt;milestone n="1" type="start" unit="chapter"/&gt;&lt;head sID="novel1_letter4_chapter1_div4_div1_head1"/&gt;CHAPTER </rdg>
+			               <rdg wit="f1823">&lt;milestone n="1" type="start" unit="chapter"/&gt;&lt;head sID="novel1_letter4_chapter1_div4_div1_head1"/&gt;CHAPTER </rdg>
+			               <rdg wit="fThomas">&lt;milestone n="1" type="start" unit="chapter"/&gt;&lt;head sID="novel1_letter4_chapter1_div4_div1_head1"/&gt;CHAPTER </rdg>
+			               <rdg wit="f1831">&lt;milestone n="1" type="start" unit="chapter"/&gt;&lt;head sID="novel1_letter4_chapter1_div4_div1_head1"/&gt;CHAPTER </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app2">
+		             <rdgGrp xml:id="C07a_app2_rg1" n="['i.&lt;p/&gt;', 'i']">
+			               <rdg wit="f1818">I.&lt;head eID="novel1_letter4_chapter1_div4_div1_head1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p1"/&gt; I </rdg>
+			               <rdg wit="fThomas">I.&lt;head eID="novel1_letter4_chapter1_div4_div1_head1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p1"/&gt; I </rdg>
+			               <rdg wit="f1831">I.&lt;head eID="novel1_letter4_chapter1_div4_div1_head1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p1"/&gt; I </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app2_rg2" n="['i.&lt;p/&gt;i']">
+			               <rdg wit="f1823">I.&lt;head eID="novel1_letter4_chapter1_div4_div1_head1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p1"/&gt;I </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app3">
+		             <rdgGrp xml:id="C07a_app3_rg1"
+                       n="['am', 'by', 'birth', 'a', 'genevese;', 'and', 'my', 'family', 'is', 'one', 'of', 'the', 'most', 'distinguished', 'of', 'that', 'republic.', 'my', 'ancestors', 'had', 'been', 'for', 'many', 'years', 'counsellors', 'and', 'syndics;', 'and', 'my', 'father', 'had', 'filled', 'several', 'public', 'situations', 'with', 'honour', 'and', 'reputation.', 'he', 'was', 'respected', 'by', 'all', 'who', 'knew']">
+			               <rdg wit="f1818">&lt;hi sID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt;AM&lt;hi eID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt; by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew </rdg>
+			               <rdg wit="f1823">&lt;hi sID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt;AM&lt;hi eID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt; by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew </rdg>
+			               <rdg wit="fThomas">&lt;hi sID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt;AM&lt;hi eID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt; by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew </rdg>
+			               <rdg wit="f1831">&lt;hi sID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt;AM&lt;hi eID="novel1_letter4_chapter1_div4_div1_p1_hi1"/&gt; by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app4">
+		             <rdgGrp xml:id="C07a_app4_rg1" n="['him']">
+			               <rdg wit="f1818">him </rdg>
+			               <rdg wit="f1823">him </rdg>
+			               <rdg wit="fThomas">him </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app4_rg2" n="['him,']">
+			               <rdg wit="f1831">him, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app5">
+		             <rdgGrp xml:id="C07a_app5_rg1"
+                       n="['for', 'his', 'integrity', 'and', 'indefatigable', 'attention', 'to', 'public', 'business.', 'he', 'passed', 'his', 'younger', 'days', 'perpetually', 'occupied', 'by', 'the', 'affairs', 'of', 'his', 'country;']">
+			               <rdg wit="f1818">for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of &lt;pb n="040" xml:id="F1818_v1_052"/&gt;his country; </rdg>
+			               <rdg wit="f1823">for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; </rdg>
+			               <rdg wit="fThomas">for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of &lt;pb n="040" xml:id="F1818_v1_052"/&gt;his country; </rdg>
+			               <rdg wit="f1831">for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app6">
+		             <rdgGrp xml:id="C07a_app6_rg1"
+                       n="['a', 'variety', 'of', 'circumstances', 'had', 'prevented', 'his', 'marrying', 'early,', 'nor']">
+			               <rdg wit="f1831">a variety of circumstances had prevented his marrying early, nor </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app6_rg2" n="['and', 'it']">
+			               <rdg wit="f1818">and it </rdg>
+			               <rdg wit="f1823">&lt;pb n="40" xml:id="F1823_v1_059"/&gt;and it </rdg>
+			               <rdg wit="fThomas">and it </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app7">
+		             <rdgGrp xml:id="C07a_app7_rg1" n="['was']">
+			               <rdg wit="f1818">was </rdg>
+			               <rdg wit="f1823">was </rdg>
+			               <rdg wit="fThomas">was </rdg>
+			               <rdg wit="f1831">was </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app8">
+		             <rdgGrp xml:id="C07a_app8_rg1" n="['it']">
+			               <rdg wit="f1831">it </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app8_rg2" n="['not']">
+			               <rdg wit="f1818">not </rdg>
+			               <rdg wit="f1823">not </rdg>
+			               <rdg wit="fThomas">not </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app9">
+		             <rdgGrp xml:id="C07a_app9_rg1"
+                       n="['until', 'the', 'decline', 'of', 'life', 'that', 'he']">
+			               <rdg wit="f1818">until the decline of life that he </rdg>
+			               <rdg wit="f1823">until the decline of life that he </rdg>
+			               <rdg wit="fThomas">until the decline of life that he </rdg>
+			               <rdg wit="f1831">until the decline of life that he </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app10">
+		             <rdgGrp xml:id="C07a_app10_rg1" n="['became', 'a', 'husband']">
+			               <rdg wit="f1831">became a husband </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app10_rg2" n="['thought', 'of', 'marrying,']">
+			               <rdg wit="f1818">thought of marrying, </rdg>
+			               <rdg wit="f1823">thought of marrying, </rdg>
+			               <rdg wit="fThomas">thought of marrying, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app11">
+		             <rdgGrp xml:id="C07a_app11_rg1" n="['and']">
+			               <rdg wit="f1818">and </rdg>
+			               <rdg wit="f1823">and </rdg>
+			               <rdg wit="fThomas">and </rdg>
+			               <rdg wit="f1831">and </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app12">
+		             <rdgGrp xml:id="C07a_app12_rg1" n="['bestowing', 'on']">
+			               <rdg wit="f1818">bestowing on </rdg>
+			               <rdg wit="f1823">bestowing on </rdg>
+			               <rdg wit="fThomas">bestowing on </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app13">
+		             <rdgGrp xml:id="C07a_app13_rg1" n="['the']">
+			               <rdg wit="f1818">the </rdg>
+			               <rdg wit="f1823">the </rdg>
+			               <rdg wit="fThomas">the </rdg>
+			               <rdg wit="f1831">the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app14">
+		             <rdgGrp xml:id="C07a_app14_rg1" n="['father', 'of', 'a', 'family.&lt;p/&gt;&lt;p/&gt;as']">
+			               <rdg wit="f1831">father of a family.&lt;p eID="novel1_letter4_chapter1_div4_div1_p1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p2"/&gt;As </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app14_rg2"
+                       n="['state', 'sons', 'who', 'might', 'carry', 'his', 'virtues', 'and', 'his', 'name', 'down', 'to', 'posterity.&lt;p/&gt;&lt;p/&gt;as']">
+			               <rdg wit="f1818">state sons who might carry his virtues and his name down to posterity.&lt;p eID="novel1_letter4_chapter1_div4_div1_p1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p2"/&gt;As </rdg>
+			               <rdg wit="f1823">state sons who might carry his virtues and his name down to posterity.&lt;p eID="novel1_letter4_chapter1_div4_div1_p1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p2"/&gt;As </rdg>
+			               <rdg wit="fThomas">state sons who might carry his virtues and his name down to posterity.&lt;p eID="novel1_letter4_chapter1_div4_div1_p1"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p2"/&gt;As </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app15">
+		             <rdgGrp xml:id="C07a_app15_rg1"
+                       n="['the', 'circumstances', 'of', 'his', 'marriage', 'illustrate', 'his', 'character,', 'i', 'cannot', 'refrain', 'from', 'relating', 'them.', 'one', 'of', 'his', 'most', 'intimate', 'friends', 'was', 'a', 'merchant,', 'who,', 'from', 'a', 'flourishing', 'state,', 'fell,', 'through', 'numerous', 'mischances,', 'into', 'poverty.', 'this', 'man,', 'whose', 'name', 'was', 'beaufort,', 'was', 'of', 'a', 'proud', 'and', 'unbending', 'disposition,', 'and', 'could', 'not', 'bear', 'to', 'live', 'in', 'poverty', 'and', 'oblivion', 'in', 'the', 'same', 'country', 'where', 'he', 'had', 'formerly', 'been', 'distinguished', 'for', 'his', 'rank', 'and', 'magnificence.', 'having', 'paid', 'his', 'debts,', 'therefore,', 'in', 'the', 'most', 'honourable', 'manner,', 'he', 'retreated', 'with', 'his', 'daughter', 'to', 'the', 'town', 'of', 'lucerne,', 'where', 'he', 'lived', 'unknown', 'and', 'in', 'wretchedness.', 'my', 'father', 'loved', 'beaufort', 'with', 'the', 'truest', 'friendship,', 'and', 'was', 'deeply', 'grieved', 'by', 'his', 'retreat', 'in', 'these', 'unfortunate', 'circumstances.', 'he']">
+			               <rdg wit="f1818">the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beau&lt;pb n="041" xml:id="F1818_v1_053"/&gt;fort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He </rdg>
+			               <rdg wit="f1823">the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the truest &lt;pb n="41" xml:id="F1823_v1_060"/&gt;friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He </rdg>
+			               <rdg wit="fThomas">the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beau&lt;pb n="041" xml:id="F1818_v1_053"/&gt;fort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He </rdg>
+			               <rdg wit="f1831">the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magni&lt;pb n="19" xml:id="F1831_v_035"/&gt;ficence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app16">
+		             <rdgGrp xml:id="C07a_app16_rg1" n="['bitterly', 'deplored']">
+			               <rdg wit="f1831">bitterly deplored </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app16_rg2" n="['grieved', 'also', 'for']">
+			               <rdg wit="f1818">grieved also for </rdg>
+			               <rdg wit="f1823">grieved also for </rdg>
+			               <rdg wit="fThomas">grieved also for </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app17">
+		             <rdgGrp xml:id="C07a_app17_rg1" n="['the']">
+			               <rdg wit="f1818">the </rdg>
+			               <rdg wit="f1823">the </rdg>
+			               <rdg wit="fThomas">the </rdg>
+			               <rdg wit="f1831">the </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app18">
+		             <rdgGrp xml:id="C07a_app18_rg1"
+                       n="['false', 'pride', 'which', 'led', 'his', 'friend', 'to', 'a', 'conduct', 'so', 'little', 'worthy']">
+			               <rdg wit="f1831">false pride which led his friend to a conduct so little worthy </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app18_rg2" n="['loss']">
+			               <rdg wit="f1818">loss </rdg>
+			               <rdg wit="f1823">loss </rdg>
+			               <rdg wit="fThomas">loss </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app19">
+		             <rdgGrp xml:id="C07a_app19_rg1" n="['of']">
+			               <rdg wit="f1818">of </rdg>
+			               <rdg wit="f1823">of </rdg>
+			               <rdg wit="fThomas">of </rdg>
+			               <rdg wit="f1831">of </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app20">
+		             <rdgGrp xml:id="C07a_app20_rg1" n="['his', 'society,', 'and', 'resolved']">
+			               <rdg wit="f1818">his society, and resolved </rdg>
+			               <rdg wit="f1823">his society, and resolved </rdg>
+			               <rdg wit="fThomas">his society, and resolved </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app20_rg2"
+                       n="['the', 'affection', 'that', 'united', 'them.', 'he', 'lost', 'no', 'time', 'in', 'endeavouring']">
+			               <rdg wit="f1831">the affection that united them. He lost no time in endeavouring </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app21">
+		             <rdgGrp xml:id="C07a_app21_rg1" n="['to', 'seek', 'him']">
+			               <rdg wit="f1818">to seek him </rdg>
+			               <rdg wit="f1823">to seek him </rdg>
+			               <rdg wit="fThomas">to seek him </rdg>
+			               <rdg wit="f1831">to seek him </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app22">
+		             <rdgGrp xml:id="C07a_app22_rg1" n="['out']">
+			               <rdg wit="f1818">out </rdg>
+			               <rdg wit="fThomas">out </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app22_rg2" n="['out,']">
+			               <rdg wit="f1823">out, </rdg>
+			               <rdg wit="f1831">out, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app23">
+		             <rdgGrp xml:id="C07a_app23_rg1" n="['and', 'endeavour', 'to', 'persuade']">
+			               <rdg wit="f1818">and endeavour to persuade </rdg>
+			               <rdg wit="f1823">and endeavour to persuade </rdg>
+			               <rdg wit="fThomas">and endeavour to persuade </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app23_rg2" n="['with', 'the', 'hope', 'of', 'persuading']">
+			               <rdg wit="f1831">with the hope of persuading </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app24">
+		             <rdgGrp xml:id="C07a_app24_rg1"
+                       n="['him', 'to', 'begin', 'the', 'world', 'again', 'through', 'his', 'credit', 'and', 'assistance.&lt;p/&gt;&lt;p/&gt;beaufort', 'had', 'taken', 'effectual', 'measures', 'to', 'conceal', 'himself;', 'and', 'it', 'was', 'ten', 'months', 'before', 'my', 'father', 'discovered', 'his', 'abode.', 'overjoyed', 'at', 'this', 'discovery,', 'he', 'hastened', 'to', 'the', 'house,', 'which', 'was', 'situated', 'in', 'a', 'mean', 'street,', 'near', 'the', 'reuss.', 'but', 'when', 'he', 'entered,', 'misery', 'and', 'despair', 'alone', 'welcomed', 'him.', 'beaufort', 'had', 'saved', 'but', 'a', 'very', 'small', 'sum', 'of', 'money', 'from', 'the', 'wreck', 'of', 'his', 'fortunes;', 'but', 'it', 'was', 'sufficient', 'to', 'provide', 'him', 'with', 'sustenance', 'for', 'some', 'months,', 'and', 'in', 'the', 'mean', 'time', 'he', 'hoped', 'to', 'procure', 'some', 'respectable', 'employment', 'in', 'a', 'merchant’s', 'house.', 'the', 'interval']">
+			               <rdg wit="f1818">him to begin the world again through his credit and assistance.&lt;p eID="novel1_letter4_chapter1_div4_div1_p2"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p3"/&gt;Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a mean street, near the Reuss. But when he entered, misery and despair alone welcomed him. Beaufort had saved but a very small sum of money from the wreck of his fortunes; but it was sufficient to provide him with sustenance for some months, and in the mean time he hoped to procure some respectable employment in a mer&lt;pb n="042" xml:id="F1818_v1_054"/&gt;chant’s house. The interval </rdg>
+			               <rdg wit="f1823">him to begin the world again through his credit and assistance.&lt;p eID="novel1_letter4_chapter1_div4_div1_p2"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p3"/&gt;Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a mean street, near the Reuss. But when he entered, misery and despair alone welcomed him. Beaufort had saved but a very small sum of money from the wreck of his fortunes; but it was sufficient to provide him with sustenance for some months, and in the mean time he hoped to procure some respectable employment in a merchant’s house. The &lt;pb n="42" xml:id="F1823_v1_061"/&gt;interval </rdg>
+			               <rdg wit="fThomas">him to begin the world again through his credit and assistance.&lt;p eID="novel1_letter4_chapter1_div4_div1_p2"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p3"/&gt;Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a mean street, near the Reuss. But when he entered, misery and despair alone welcomed him. Beaufort had saved but a very small sum of money from the wreck of his fortunes; but it was sufficient to provide him with sustenance for some months, and in the mean time he hoped to procure some respectable employment in a mer&lt;pb n="042" xml:id="F1818_v1_054"/&gt;chant’s house. The interval </rdg>
+			               <rdg wit="f1831">him to begin the world again through his credit and assistance.&lt;p eID="novel1_letter4_chapter1_div4_div1_p2"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p3"/&gt;Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a mean street, near the Reuss. But when he entered, misery and despair alone welcomed him. Beaufort had saved but a very small sum of money from the wreck of his fortunes; but it was sufficient to provide him with sustenance for some months, and in the mean time he hoped to procure some respectable employment in a merchant’s house. The interval </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app25">
+		             <rdgGrp xml:id="C07a_app25_rg1" n="['was', 'consequently']">
+			               <rdg wit="f1818">was consequently </rdg>
+			               <rdg wit="f1823">was consequently </rdg>
+			               <rdg wit="fThomas">was consequently </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app25_rg2" n="['was,', 'consequently,']">
+			               <rdg wit="f1831">was, consequently, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app26">
+		             <rdgGrp xml:id="C07a_app26_rg1"
+                       n="['spent', 'in', 'inaction;', 'his', 'grief', 'only', 'became', 'more', 'deep', 'and', 'rankling,', 'when', 'he', 'had', 'leisure', 'for', 'reflection;', 'and', 'at', 'length', 'it', 'took', 'so', 'fast', 'hold', 'of', 'his', 'mind,', 'that', 'at', 'the', 'end', 'of', 'three', 'months', 'he', 'lay', 'on', 'a', 'bed', 'of', 'sickness,', 'incapable', 'of', 'any', 'exertion.&lt;p/&gt;&lt;p/&gt;his', 'daughter', 'attended', 'him', 'with', 'the', 'greatest', 'tenderness;', 'but', 'she', 'saw', 'with', 'despair', 'that', 'their', 'little', 'fund', 'was', 'rapidly', 'decreasing,', 'and', 'that', 'there', 'was', 'no', 'other', 'prospect', 'of', 'support.', 'but', 'caroline', 'beaufort', 'possessed', 'a', 'mind', 'of', 'an', 'uncommon', 'mould;', 'and', 'her', 'courage', 'rose', 'to', 'support', 'her', 'in', 'her', 'adversity.', 'she', 'procured', 'plain', 'work;', 'she', 'plaited', 'straw;', 'and', 'by', 'various', 'means', 'contrived', 'to', 'earn', 'a', 'pittance', 'scarcely', 'sufficient', 'to', 'support', 'life.&lt;p/&gt;&lt;p/&gt;several', 'months', 'passed', 'in', 'this', 'manner.', 'her', 'father', 'grew', 'worse;', 'her', 'time', 'was', 'more', 'entirely', 'occupied', 'in', 'attending', 'him;', 'her', 'means', 'of', 'subsistence', 'decreased;', 'and', 'in', 'the', 'tenth', 'month', 'her', 'father', 'died', 'in', 'her', 'arms,', 'leaving', 'her', 'an', 'orphan', 'and', 'a', 'beggar.', 'this', 'last', 'blow', 'overcame', 'her;', 'and', 'she', 'knelt', 'by', 'beaufort’s', 'coffin,', 'weeping', 'bitterly,', 'when', 'my', 'father', 'entered', 'the', 'chamber.', 'he', 'came', 'like', 'a', 'protecting', 'spirit', 'to', 'the', 'poor', 'girl,', 'who', 'committed', 'herself', 'to', 'his']">
+			               <rdg wit="f1818">spent in inaction; his grief only became more deep and rankling, when he had leisure for reflection; and at length it took so fast hold of his mind, that at the end of three months he lay on a bed of sickness, incapable of any exertion.&lt;p eID="novel1_letter4_chapter1_div4_div1_p3"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p4"/&gt;His daughter attended him with the greatest tenderness; but she saw with despair that their little fund was rapidly decreasing, and that there was no other prospect of support. But Caroline Beaufort possessed a mind of an uncommon mould; and her courage rose to support her in her adversity. She procured plain work; she plaited straw; and by various means contrived to earn a pittance scarcely sufficient to support life.&lt;p eID="novel1_letter4_chapter1_div4_div1_p4"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p5"/&gt;Several months passed in this manner. Her father grew worse; her time &lt;pb n="043" xml:id="F1818_v1_055"/&gt;was more entirely occupied in attending him; her means of subsistence decreased; and in the tenth month her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort’s coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the poor girl, who committed herself to his </rdg>
+			               <rdg wit="f1823">spent in inaction; his grief only became more deep and rankling, when he had leisure for reflection; and at length it took so fast hold of his mind, that at the end of three months he lay on a bed of sickness, incapable of any exertion.&lt;p eID="novel1_letter4_chapter1_div4_div1_p3"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p4"/&gt;His daughter attended him with the greatest tenderness; but she saw with despair that their little fund was rapidly decreasing, and that there was no other prospect of support. But Caroline Beaufort possessed a mind of an uncommon mould; and her courage rose to support her in her adversity. She procured plain work; she plaited straw; and by various means contrived to earn a pittance scarcely sufficient to support life.&lt;p eID="novel1_letter4_chapter1_div4_div1_p4"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p5"/&gt;Several months passed in this manner. Her father grew worse; her time &lt;pb n="43" xml:id="F1823_v1_062"/&gt;was more entirely occupied in attending him; her means of subsistence decreased; and in the tenth month her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort’s coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the poor girl, who committed herself to his </rdg>
+			               <rdg wit="fThomas">spent in inaction; his grief only became more deep and rankling, when he had leisure for reflection; and at length it took so fast hold of his mind, that at the end of three months he lay on a bed of sickness, incapable of any exertion.&lt;p eID="novel1_letter4_chapter1_div4_div1_p3"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p4"/&gt;His daughter attended him with the greatest tenderness; but she saw with despair that their little fund was rapidly decreasing, and that there was no other prospect of support. But Caroline Beaufort possessed a mind of an uncommon mould; and her courage rose to support her in her adversity. She procured plain work; she plaited straw; and by various means contrived to earn a pittance scarcely sufficient to support life.&lt;p eID="novel1_letter4_chapter1_div4_div1_p4"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p5"/&gt;Several months passed in this manner. Her father grew worse; her time &lt;pb n="043" xml:id="F1818_v1_055"/&gt;was more entirely occupied in attending him; her means of subsistence decreased; and in the tenth month her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort’s coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the poor girl, who committed herself to his </rdg>
+			               <rdg wit="f1831">spent in inaction; his grief only became more deep and rankling, when he had leisure for reflection; and at length it took so fast hold of his mind, that at the end of three months he lay on a bed of sickness, incapable of any exertion.&lt;p eID="novel1_letter4_chapter1_div4_div1_p3"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p4"/&gt;His daughter attended him with the greatest tenderness; but she saw with despair that their little fund was rapidly decreasing, and that there was no other prospect of support. But Caroline Beaufort possessed a mind of an uncommon mould; and her courage rose to support her in her adversity. She procured plain work; she plaited straw; and by various means contrived to earn a pittance scarcely sufficient to support life.&lt;p eID="novel1_letter4_chapter1_div4_div1_p4"/&gt;&lt;p sID="novel1_letter4_chapter1_div4_div1_p5"/&gt;Several months passed in this manner. Her father grew worse; her time was more entirely occupied in attending him; her means of subsistence decreased; and in the tenth month her father died in her arms, leaving her an orphan and a beggar. This last blow overcame her; and she knelt by Beaufort’s coffin, weeping bitterly, when my father entered the chamber. He came like a protecting spirit to the &lt;pb n="20" xml:id="F1831_v_036"/&gt;poor girl, who committed herself to his </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app27">
+		             <rdgGrp xml:id="C07a_app27_rg1" n="['care,']">
+			               <rdg wit="f1818">care, </rdg>
+			               <rdg wit="f1823">care, </rdg>
+			               <rdg wit="fThomas">care, </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app27_rg2" n="['care;']">
+			               <rdg wit="f1831">care; </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app28">
+		             <rdgGrp xml:id="C07a_app28_rg1"
+                       n="['and', 'after', 'the', 'interment', 'of', 'his']">
+			               <rdg wit="f1818">and after the interment of his </rdg>
+			               <rdg wit="f1823">and after the interment of his </rdg>
+			               <rdg wit="fThomas">and after the interment of his </rdg>
+			               <rdg wit="f1831">and after the interment of his </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app29">
+		             <rdgGrp xml:id="C07a_app29_rg1" n="['friend']">
+			               <rdg wit="f1818">friend </rdg>
+			               <rdg wit="fThomas">friend </rdg>
+		             </rdgGrp>
+		             <rdgGrp xml:id="C07a_app29_rg2" n="['friend,']">
+			               <rdg wit="f1823">friend, </rdg>
+			               <rdg wit="f1831">friend, </rdg>
+		             </rdgGrp>
+	           </app>
+            <app xml:id="C07a_app30">
+		             <rdgGrp xml:id="C07a_app30_rg1"
+                       n="['he', 'conducted', 'her', 'to', 'geneva,', 'and', 'placed', 'her', 'under', 'the', 'protection', 'of', 'a', 'relation.', 'two', 'years', 'after', 'this', 'event', 'caroline', 'became', 'his', 'wife.&lt;p/&gt;']">
+			               <rdg wit="f1818">he conducted her to Geneva, and placed her under the protection of a relation. Two years after this event Caroline became his wife.&lt;p eID="novel1_letter4_chapter1_div4_div1_p5"/&gt; </rdg>
+			               <rdg wit="f1823">he conducted her to Geneva, and placed her under the protection of a relation. Two years after this event Caroline became his wife.&lt;p eID="novel1_letter4_chapter1_div4_div1_p5"/&gt; </rdg>
+			               <rdg wit="fThomas">he conducted her to Geneva, and placed her under the protection of a relation. Two years after this event Caroline became his wife.&lt;p eID="novel1_letter4_chapter1_div4_div1_p5"/&gt; </rdg>
+			               <rdg wit="f1831">he conducted her to Geneva, and placed her under the protection of a relation. Two years after this event Caroline became his wife.&lt;p eID="novel1_letter4_chapter1_div4_div1_p5"/&gt; </rdg>
+		             </rdgGrp>
+	           </app>
+         </ab>
+      </body>
+   </text>
+</TEI>
