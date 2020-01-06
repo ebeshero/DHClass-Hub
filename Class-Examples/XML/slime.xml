@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe type="kids" name="slime">
+    <step n="1">For the simplest of all slime recipes, all you need is <ingred>cornstarch</ingred>.
+        Just <action>dump</action> some into a <equip>bowl</equip>, add some <ingred>water</ingred>,
+        &amp; start <action>mixing</action>.</step>
+    <step n="2">Keep <action>adding <ingred>water</ingred></action> until it reaches the consistency
+        you want (a good place to start is <measure unit="ratio" amt="2::1">2 parts
+                <ingred>cornstarch</ingred> to 1 part <ingred>water</ingred></measure>).</step>
+    <step n="3">You can also add <ingred>food coloring</ingred> to make it look more legit.</step>
+</recipe>
+<!--ebb: This is an XML comment! -->
