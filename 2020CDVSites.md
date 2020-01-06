@@ -42,24 +42,28 @@
 * 2019 CDA Project:
   * [Brecon Site](http://brecon.newtfire.org/)
   * [Brecon GitHub](https://github.com/haggis78/BreconChurch)
+
 **Shannon Dunn**
 * GitHub: [smdunn921](https://github.com/smdunn921)
 * Website: [shd79](https://newtfire.org/~shd79/)
 * 2019 CDA Project:
   * [Teen Titan Site](http://teentitans.newtfire.org/)
   * [Teen Titan GitHub](https://github.com/lmcneil7/teen-titans)
+
 **Lauren McNeill**
 * GitHub: [lmcneil7](https://github.com/lmcneil7)
 * Website: [lam289](https://newtfire.org/~lam289/)
 * 2019 CDA Project:
   * [Teen Titan Site](http://teentitans.newtfire.org/)
   * [Teen Titan GitHub](https://github.com/lmcneil7/teen-titans)
+
 **Amber Peddicord**
 * GitHub: [amberpeddicord](https://github.com/amberpeddicord)
 * Website: [amp293](https://newtfire.org/~amp293/)
 * 2019 CDA Project:
   * [Brecon Site](http://brecon.newtfire.org/)
   * [Brecon GitHub](https://github.com/haggis78/BreconChurch)
+
 **Robert Pernell**
 * GitHub: [bobbyfunks](https://github.com/bobbyfunks)
 * Website: [rap159](https://newtfire.org/~rap159/)
@@ -72,12 +76,15 @@
 **Bryant Bolyen**
 * GitHub: []()
 * Website: []()
+
 **Benjamin Crawford**
 * GitHub: []()
 * Website: []()
+
 **Vincent Diana**
 * GitHub: []()
 * Website: []()
+
 **Robert Fencil**
 * GitHub: []()
 * Website: []()
