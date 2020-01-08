@@ -74,11 +74,11 @@
 ### New to DHClass-Hub
 
 **Bryant Bolyen**
-* GitHub: []()
+* GitHub: [Bryant-LettucePrime](https://github.com/Bryant-LettucePrime)
 * Website: []()
 
 **Benjamin Crawford**
-* GitHub: []()
+* GitHub: [benjaminc2020](https://github.com/benjaminc2020)
 * Website: []()
 
 **Vincent Diana**
@@ -86,6 +86,9 @@
 * Website: []()
 
 **Robert Fencil**
-* GitHub: []()
+* GitHub: [robftg](https://github.com/robftg)
 * Website: []()
 
+**Bianca Maginley**
+* GitHub: [biancamaginley](https://github.com/biancamaginley)
+* Website: []()
