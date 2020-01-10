@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipe type="kids" name="slime">
-    <step n="1">For the simplest of all slime recipes, all you need is <ingred>cornstarch</ingred>.
+    <step num="1">For the simplest of all slime recipes, all you need is <ingred>cornstarch</ingred>.
         Just <action>dump</action> some into a <equip>bowl</equip>, add some <ingred>water</ingred>,
         &amp; start <action>mixing</action>.</step>
     <step n="2">Keep <action>adding <ingred>water</ingred></action> until it reaches the consistency
