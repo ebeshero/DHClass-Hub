@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogRecord>
+    <TitleMain>
+        <Title chars="51">Translation of evidence into nursing and healthcare</Title>
+        <OtherInformation>/ Kathleen M. White, Sharon Dudley-Brown, Mary F. Terhaar, editors.</OtherInformation>
+    </TitleMain>
+    <AuthorList>
+        <Author>
+            <LastName>White</LastName>
+            <ForeName>Kathleen M</ForeName>
+            <Initials>KM</Initials>
+            <Dates>1953-</Dates>
+            <NameQualifier>(Kathleen Murphy),</NameQualifier>
+            <Role>editor</Role>
+        </Author>
+        <Author>
+            <LastName>Dudley-Brown</LastName>
+            <ForeName>Sharon</ForeName>
+            <Initials>S</Initials>
+            <Role>editor</Role>
+        </Author>
+        <Author>
+            <LastName>Terhaar</LastName>
+            <ForeName>Mary F</ForeName>
+            <Initials>MF</Initials>
+            <Role>editor</Role>
+        </Author>
+    </AuthorList>
+    <PublicationInfo>
+        <Country>United States</Country>
+        <Imprint ImprintType="Original" FunctionType="Publication">
+            <Place>New York, NY :</Place>
+            <Entity>Springer Publishing Company, LLC,</Entity>
+        </Imprint>
+        <PublicationDate date = "2016-03-16"/>
+        <Edition>Third edition.</Edition>
+    </PublicationInfo>
+    <Language>eng</Language>
+    <PhysicalDescription pages = "472" cm = "15.24"/>
+        <AbstractText>"Designed as both a text for the <keywords>DNP curriculum</keywords> and a practical resource for <audience>seasoned health professionals</audience>, this acclaimed book demonstrates the importance of an interprofessional approach to <keywords>translating evidence</keywords> into nursing and healthcare practice in both <keywords>clinical and nonclinical environments.</keywords>--<source>Provided by publisher</source>.</AbstractText>
+    <ISBN ValidYN="Y">9780826147363</ISBN>
+</catalogRecord>
