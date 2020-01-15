@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="nlmcatalog_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <catalogRecord>
     <TitleMain>
         <Title chars="51">Translation of evidence into nursing and healthcare</Title>
