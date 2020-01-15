@@ -1,0 +1,45 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+#Defines catalogRecord as root element.
+start = catalogRecord
+
+#Defines catalogRecord
+catalogRecord = element catalogRecord{TitleMain, AuthorList,PublicationInfo, Language, PhysicalDescription, AbstractText,ISBN}
+
+#The elements in catalogRecord, and their definitons. 
+TitleMain = element TitleMain{Title, OtherInformation}
+Title = element Title{mixed{chars}}
+OtherInformation = element OtherInformation{text}
+AuthorList = element AuthorList{Author+}
+Author = element Author{LastName, ForeName, Initials?, Dates?, NameQualifier*, Role+}
+LastName = element LastName{text}
+ForeName = element ForeName{text}
+Initials = element Initials{text}
+Dates = element Dates{text}
+NameQualifier = element NameQualifier{text}
+Role = element Role{text}
+PublicationInfo = element PublicationInfo{(Country | Imprint |  PublicationDate | Edition)+}
+Country = element Country{text}
+Imprint = element Imprint{ImprintType, FunctionType, Place, Entity}
+Place = element Place{text}
+Entity = element Entity{text}
+PublicationDate = element PublicationDate{date, empty}
+Edition = element Edition{text}
+Language = element Language{text}
+PhysicalDescription = element PhysicalDescription{(pages | cm)+, empty}
+AbstractText = element AbstractText{mixed{(keywords | audience | source)+}}
+keywords = element keywords{text}
+audience = element audience{text}
+source = element source{text}
+ISBN = element ISBN{mixed{ValidYN}}
+
+#The attributes
+chars = attribute chars{xsd:integer}
+ValidYN = attribute ValidYN{"Y"|"N"}
+ImprintType = attribute ImprintType{text}
+FunctionType = attribute FunctionType{text}
+date = attribute date{datePattern}
+pages = attribute pages{xsd:integer}
+cm = attribute cm{xsd:float}
+
+#The pattern
+datePattern = (xsd:date | xsd:gYearMonth| xsd:gYear)
