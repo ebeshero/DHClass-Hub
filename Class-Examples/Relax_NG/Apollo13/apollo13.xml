@@ -1,4 +1,4 @@
-<?xml-model href="apollo13_ebb_.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="apollo13_ebb.rnc" type="application/relax-ng-compact-syntax"?>
 <apollo13 nasadoc="techtranscript">
         <head>
                 <!-- These are pages 128 and 129 from the 624-page "NASA APOLLO 13 TECHNICAL AIR-TO-GROUND VOICE TRANSCRIPTION" -->

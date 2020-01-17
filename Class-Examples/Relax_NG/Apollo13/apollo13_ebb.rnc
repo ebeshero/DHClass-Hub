@@ -1,12 +1,14 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-start = apollo13
-apollo13 = element apollo13 {nasadoc, head, body}
-nasadoc =  attribute nasadoc {text} 
+start = root
+root = element apollo13 {nasadoc, head, body}
+nasadoc =  attribute nasadoc {"techTranscript" | "instructionManual"} 
 head = element head {crew, ground}
 ground = element ground {CC, empty}
 crew = element crew {CDR, CMP, LMP, empty}
 
 CDR = attribute CDR {"James Lovell" | "Jack Swigert" | "Fred Haise"}
+# 2020-01-17 ebb: Good point from Bryant in class that it doesn't really make sense to make all three of the astronauts potentially hold all three positions in Real Life.
+# Robert looked this up and noticed that all three astronauts *could* occupy these positions.
 CMP = attribute CMP {"James Lovell" | "Jack Swigert" | "Fred Haise"}
 LMP = attribute LMP {"James Lovell" | "Jack Swigert" | "Fred Haise"}
 CC = attribute CC {"Jack Lousma" | "Joe Schmo"}
@@ -16,6 +18,6 @@ body = element body {(transmission | O2-tank-anomaly)*}
 transmission = element transmission {MET, com, mixed{(panel | MCandW)*}}
 panel = element panel {text}
 MCandW = element MCandW {text}
-MET = attribute MET {text} #{xsd:time} #ebb I'm not sure this is the right datatype
+MET = attribute MET {xsd:duration} #{xsd:time} #ebb I'm not sure this is the right datatype
 com = attribute com {"CC" | "CMP" | "LMP" | "CDR"}
 O2-tank-anomaly = element O2-tank-anomaly {empty}
