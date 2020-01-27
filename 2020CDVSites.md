@@ -34,7 +34,9 @@
   * [Combe Site](http://combe.newtfire.org/)
   * [Combe GitHub](https://github.com/dorothealint/William_Combe_Works)
 
-### Returning Students
+### **Railroad Project**
+* [GitHub](https://github.com/ChinoyIndustries/WoodburyClayCo)
+* [Website]()
 
 **Connor Chinoy**
 * GitHub: [ChinoyIndustries](https://github.com/ChinoyIndustries)
@@ -43,12 +45,17 @@
   * [Brecon Site](http://brecon.newtfire.org/)
   * [Brecon GitHub](https://github.com/haggis78/BreconChurch)
 
-**Shannon Dunn**
-* GitHub: [smdunn921](https://github.com/smdunn921)
-* Website: [shd79](https://newtfire.org/~shd79/)
-* 2019 CDA Project:
-  * [Teen Titan Site](http://teentitans.newtfire.org/)
-  * [Teen Titan GitHub](https://github.com/lmcneil7/teen-titans)
+Robert Fencil
+* GitHub: [robftg](https://github.com/robftg)
+* Website: []()
+
+Bianca Maginley
+* GitHub: [biancamaginley](https://github.com/biancamaginley)
+* Website: []()
+
+### **Teen Titans**
+* [GitHub](https://github.com/lmcneil7/teen-titans)
+* [Website](http://teentitans.newtfire.org/)
 
 **Lauren McNeill**
 * GitHub: [lmcneil7](https://github.com/lmcneil7)
@@ -57,38 +64,36 @@
   * [Teen Titan Site](http://teentitans.newtfire.org/)
   * [Teen Titan GitHub](https://github.com/lmcneil7/teen-titans)
 
-**Amber Peddicord**
+Shannon Dunn
+* GitHub: [smdunn921](https://github.com/smdunn921)
+* Website: [shd79](https://newtfire.org/~shd79/)
+* 2019 CDA Project:
+  * [Teen Titan Site](http://teentitans.newtfire.org/)
+  * [Teen Titan GitHub](https://github.com/lmcneil7/teen-titans)
+
+Amber Peddicord
 * GitHub: [amberpeddicord](https://github.com/amberpeddicord)
 * Website: [amp293](https://newtfire.org/~amp293/)
 * 2019 CDA Project:
   * [Brecon Site](http://brecon.newtfire.org/)
   * [Brecon GitHub](https://github.com/haggis78/BreconChurch)
 
-**Robert Pernell**
+### **Brand New**
+* [GitHub](https://github.com/benjaminc2020/BrandNew)
+* [Website]()
+
+**Benjamin Crawford**
+* GitHub: [benjaminc2020](https://github.com/benjaminc2020)
+* Website: []()
+
+Robert Pernell
 * GitHub: [bobbyfunks](https://github.com/bobbyfunks)
 * Website: [rap159](https://newtfire.org/~rap159/)
 * 2019 CDA Project:
   * [UnderTale Site](http://undertale.newtfire.org/)
   * [UnderTale GitHub](https://github.com/ajw120/Undertale)
 
-### New to DHClass-Hub
-
-**Bryant Bolyen**
+Bryant Bolyen
 * GitHub: [Bryant-LettucePrime](https://github.com/Bryant-LettucePrime)
 * Website: []()
 
-**Benjamin Crawford**
-* GitHub: [benjaminc2020](https://github.com/benjaminc2020)
-* Website: []()
-
-**Vincent Diana**
-* GitHub: []()
-* Website: []()
-
-**Robert Fencil**
-* GitHub: [robftg](https://github.com/robftg)
-* Website: []()
-
-**Bianca Maginley**
-* GitHub: [biancamaginley](https://github.com/biancamaginley)
-* Website: []()
