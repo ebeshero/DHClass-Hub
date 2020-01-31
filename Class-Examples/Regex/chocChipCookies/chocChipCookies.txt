@@ -14,7 +14,7 @@ Source: http://forkthecookbook.com/recipes/chocolate-chip-cookies-e5dfe
 2 whole	large eggs
 2 tsp	vanilla extract
 18 to 20 oz	bittersweet chocolate (cut into large chip-size chunks (I recommend chocolate with at least 60% cacao content and prefer Scharffen Berger or Callebaut.))
-whisk flour, baking soda, baking powder, and salt together in a bowl. set aside.
+whisk flour, baking soda, baking powder, & salt together in a bowl. set aside.
 cream butter and sugars together until lightened, 3-5 minutes.
 add eggs, one at a time, mixing well after each addition. stir in vanilla.
 add dry ingredients, mixing at lowest speed until just combined.
