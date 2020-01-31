@@ -34,9 +34,17 @@
   * [Combe Site](http://combe.newtfire.org/)
   * [Combe GitHub](https://github.com/dorothealint/William_Combe_Works)
 
-### **Railroad Project**
-* [GitHub](https://github.com/ChinoyIndustries/WoodburyClayCo)
+### **Space Launch Project**
+* [GitHub]()
 * [Website]()
+
+**Robert Fencil**
+* GitHub: [robftg](https://github.com/robftg)
+* Website: []()
+
+Bianca Maginley
+* GitHub: [biancamaginley](https://github.com/biancamaginley)
+* Website: []()
 
 **Connor Chinoy**
 * GitHub: [ChinoyIndustries](https://github.com/ChinoyIndustries)
@@ -44,14 +52,6 @@
 * 2019 CDA Project:
   * [Brecon Site](http://brecon.newtfire.org/)
   * [Brecon GitHub](https://github.com/haggis78/BreconChurch)
-
-Robert Fencil
-* GitHub: [robftg](https://github.com/robftg)
-* Website: []()
-
-Bianca Maginley
-* GitHub: [biancamaginley](https://github.com/biancamaginley)
-* Website: []()
 
 ### **Teen Titans**
 * [GitHub](https://github.com/lmcneil7/teen-titans)
@@ -97,3 +97,6 @@ Bryant Bolyen
 * GitHub: [Bryant-LettucePrime](https://github.com/Bryant-LettucePrime)
 * Website: []()
 
+### **Railroad Project**
+* [GitHub](https://github.com/ChinoyIndustries/WoodburyClayCo)
+* [Website]()
