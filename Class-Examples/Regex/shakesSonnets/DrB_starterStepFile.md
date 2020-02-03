@@ -19,24 +19,3 @@ Find:
 ```
 Replace: leave empty to cut these off.
 1. Added root element.
-1. Start the inside-out method. Find and replace everything with a
-line element
-Find: 
-```
-.+
-```
-Replace:
-```
-<line>\0</line>
-```
-1. Find and wrap the sonnets:
-Find:
-```
-<line> ([IVXLC]+)</line>
-```
-Replace:
-```
-</sonnet><sonnet n="\1">
-```
-1. Removed extra </sonnet> from top and did clean up tags
-1. Save as .xml 
