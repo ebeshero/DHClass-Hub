@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table type="week" n="5">
+    <row role="day">
+        <cell role="date">
+            <date when="2019-02-04">M 2-04</date>
+        </cell>
+        <cell role="inclass"> 
+            <p>Introducing up-conversion with Regular Expressions: Using Find &amp; Replace in &lt;oXygen/&gt;: hands-on exercise with <ref target="https://github.com/ebeshero/DHClass-Hub/tree/master/Class-Examples/Regex/chocChipCookies">Chocolate Chip Cookies recipe on DHClass-Hub</ref> and <ref target="RegexExerciseSonnets.html"><hi>Regex Exercise 1: Shakespeare's Sonnets</hi></ref></p>
+        </cell>
+        <cell role="assign"><list>
+            <item>(For Wednesday) finish and submit <ref target="RegexExerciseSonnets.html"><hi>Regex Exercise 1: Shakespeare's Sonnets</hi></ref>. Consult our <title level="a"><ref target="explainRegex.html">Intro to
+                Regular Expressions</ref></title> and <ref
+                    target="http://www.regular-expressions.info/quickstart.html">the
+                    Regular Expressions Quick Start</ref> as you work on the regex exercises.</item>
+        </list></cell>
+    </row>
+    <row role="day">
+        <cell role="date">
+            <date when="2019-02-06">W 2-06</date>
+        </cell>
+        <cell role="inclass"><p>Regular Expressions: thinking algorithmically. Selecting for what’s not there. Simplifying overcomplicated expressions.</p><p>XML and the Web: Introduce HTML and CSS. SFTP into the Apache Server for newtFire.
+            File directories and their association with web URLs.</p></cell>
+        <cell role="assign"><list>
+            <item><hi>Project Checkpoint 2:</hi> Establish a clear file directory structure for GitHub, ensure all project team members are working consistently. Establish a project schema and associate that schema with project XML files in the repo. All team members work with and correct XML markup applying the project schema.</item>
+            <item><hi><ref target="RegexExerciseVoyage.html">Regex Exercise 2: Pacific Voyage Narrative</ref></hi></item>
+            <!-- <item><ref target="RegexExerciseVoyage.html"><hi rend="em">Regex Exercise 3: Pacific Voyage Narrative</hi></ref></item>-->
+            <item>Read our <title level="a"><ref target="explainHTML.html">Introduction
+                to XHTML (and HTML)</ref></title>.</item>
+            
+        </list></cell>
+    </row>
+    <row role="day">
+        <cell role="date">
+            <date when="2019-02-08">F 2-08</date>
+        </cell>
+        <cell role="inclass"><p>Building on the Web: HTML and CSS. Introduction to your web space on NewtFire and the index.html page </p><p>Hands-on: SFTP to NewtFire, association with GitHub.</p><p>Mindful file directory management: File directories and their association with web URLs.</p></cell>
+        <cell role="assign"><list>
+            <item>Consult our <title level="a"><ref target="explainHTML.html"
+                >Introduction to XHTML (and HTML)</ref></title>, and our <title
+                    level="a"><ref target="explainCSS.html">Introduction to Cascading
+                        Stylesheets (CSS)</ref></title> as you work on <hi rend="em"><ref target="HTMLExercise1.html">HTML/CSS Exercise 1</ref>:</hi> NOTE: Do not submit this assignment on Courseweb. Instead, submit this
+                homework by using FTP to post to our newtFire web server, and do <hi rend="em">not</hi> follow standard homework naming conventions</item>
+        </list></cell>
+    </row>
+</table>
