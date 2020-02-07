@@ -28,7 +28,7 @@ Open a text or markdown file to paste in the expressions you use for each of the
    * c. Define a new variable to return *only* the landmarks in files that hold the *current* type value in the `for loop`. That *current* value is stored in the `for loop` variable. Make a predicate filter on the landmark nodes to return *only* the landmarks that are associated with the *current* value of your `for loop`. How to do that? You want to find the landmarks whose `preceding::` node gives a type, which, if you lower-case or upper-case it, will *contain* the current `for loop` variable. 
    * d. Try testing your return in stages. 
       * If you return your `for` loop variable, you should see 26 results. We want a total of 26 results in our return, so each type of Pokemon is presented alongside a list of landmarks for finding it.
-      * Try returning just the special matching landmarks variable: there will be 144 of them. But notice there are many duplicates in the results. To keep our chart concise and tidy, let’s define a new variable to hold the `distinct-values()` of those matching landmarks. There will be 83 distinct values.
+      * Try returning just the special matching landmarks variable: there will be 114 of them. But notice there are many duplicates in the results. To keep our chart concise and tidy, let’s define a new variable to hold the `distinct-values()` of those matching landmarks. There will be 83 distinct values.
       * You can return multiple variables together by wrapping them in parentheses like this: 
       ``
       return ($d, $distLM)
