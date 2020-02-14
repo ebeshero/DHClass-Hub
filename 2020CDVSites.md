@@ -34,17 +34,17 @@
   * [Combe Site](http://combe.newtfire.org/)
   * [Combe GitHub](https://github.com/dorothealint/William_Combe_Works)
 
-### **Space Launch Project**
-* [GitHub]()
-* [Website]()
+### **Rocket Launches**
+* [GitHub](https://github.com/robftg/Rocket-Launches)
+* [Website](http://rocket.newtfire.org/)
 
 **Robert Fencil**
 * GitHub: [robftg](https://github.com/robftg)
-* Website: []()
+* Website: [http://newtfire.org/~rwf17/](http://newtfire.org/~rwf17/)
 
 Bianca Maginley
 * GitHub: [biancamaginley](https://github.com/biancamaginley)
-* Website: []()
+* Website: [http://newtfire.org/~bim8/](http://newtfire.org/~bim8/)
 
 **Connor Chinoy**
 * GitHub: [ChinoyIndustries](https://github.com/ChinoyIndustries)
@@ -80,11 +80,11 @@ Amber Peddicord
 
 ### **Brand New**
 * [GitHub](https://github.com/benjaminc2020/BrandNew)
-* [Website]()
+* [Website](http://brandnew.newtfire.org)
 
 **Benjamin Crawford**
 * GitHub: [benjaminc2020](https://github.com/benjaminc2020)
-* Website: []()
+* Website: [http://newtfire.org/~bec80](http://newtfire.org/~bec80)
 
 Robert Pernell
 * GitHub: [bobbyfunks](https://github.com/bobbyfunks)
@@ -95,8 +95,8 @@ Robert Pernell
 
 Bryant Bolyen
 * GitHub: [Bryant-LettucePrime](https://github.com/Bryant-LettucePrime)
-* Website: []()
+* Website: [http://newtfire.org/~bab184](http://newtfire.org/~bab184)
 
-### **Railroad Project**
+### **Railroad: Woodbury Clay**
 * [GitHub](https://github.com/ChinoyIndustries/WoodburyClayCo)
-* [Website]()
+* [Website](http://railroad.newtfire.org)
