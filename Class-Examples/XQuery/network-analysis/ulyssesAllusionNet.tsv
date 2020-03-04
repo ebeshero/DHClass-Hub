@@ -1,0 +1,80 @@
+Aristotle	p	3	William Blake
+Aristotle	p	3	Hughie Cannon
+Aristotle	p	3	James Thornton
+Aristotle	p	3	Claxon Bellamy and JL Hatton
+William Blake	p	2	Aristotle
+James Joyce	p	2	George William Russell
+Shakespeare	p	2	John Augustin Daly
+Shakespeare	p	2	Salomon Hermann Mosenhal
+Mozart	p	2	Giusseppe Saverio Raffaele
+Mozart	p	2	Giovanni Pierluigi da Palestrina
+George William Russell	p	1	James Joyce
+Wilkie Collins	p	1	Ellen Wood
+Wilkie Collins	p	1	Mary Elizabeth Braddon
+Wilkie Collins	p	1	Margaret Wolfe Hungerford
+Wilkie Collins	p	1	Daniel Defoe
+Ellen Wood	p	1	Wilkie Collins
+Ellen Wood	p	1	Mary Elizabeth Braddon
+Ellen Wood	p	1	Margaret Wolfe Hungerford
+Ellen Wood	p	1	Daniel Defoe
+Mary Elizabeth Braddon	p	1	Wilkie Collins
+Mary Elizabeth Braddon	p	1	Ellen Wood
+Mary Elizabeth Braddon	p	1	Margaret Wolfe Hungerford
+Mary Elizabeth Braddon	p	1	Daniel Defoe
+Margaret Wolfe Hungerford	p	1	Wilkie Collins
+Margaret Wolfe Hungerford	p	1	Ellen Wood
+Margaret Wolfe Hungerford	p	1	Mary Elizabeth Braddon
+Margaret Wolfe Hungerford	p	1	Daniel Defoe
+Daniel Defoe	p	1	Wilkie Collins
+Daniel Defoe	p	1	Ellen Wood
+Daniel Defoe	p	1	Mary Elizabeth Braddon
+Daniel Defoe	p	1	Margaret Wolfe Hungerford
+H.S. Clarke and E.B. Farmer	p	1	Wilford Morgan
+H.S. Clarke and E.B. Farmer	p	1	Will S. Hays
+H.S. Clarke and E.B. Farmer	p	1	F.E. Weatherly and Hope Temple
+Wilford Morgan	p	1	H.S. Clarke and E.B. Farmer
+Wilford Morgan	p	1	Will S. Hays
+Wilford Morgan	p	1	F.E. Weatherly and Hope Temple
+Will S. Hays	p	1	H.S. Clarke and E.B. Farmer
+Will S. Hays	p	1	Wilford Morgan
+Will S. Hays	p	1	F.E. Weatherly and Hope Temple
+F.E. Weatherly and Hope Temple	p	1	H.S. Clarke and E.B. Farmer
+F.E. Weatherly and Hope Temple	p	1	Wilford Morgan
+F.E. Weatherly and Hope Temple	p	1	Will S. Hays
+Freeman Crofts Wills	p	1	Herbert Beerbohm Tree
+Freeman Crofts Wills	p	1	GA Greene
+Freeman Crofts Wills	p	1	Robert Southey
+Herbert Beerbohm Tree	p	1	Freeman Crofts Wills
+Herbert Beerbohm Tree	p	1	GA Greene
+Herbert Beerbohm Tree	p	1	Robert Southey
+GA Greene	p	1	Freeman Crofts Wills
+GA Greene	p	1	Herbert Beerbohm Tree
+GA Greene	p	1	Robert Southey
+Robert Southey	p	1	Freeman Crofts Wills
+Robert Southey	p	1	Herbert Beerbohm Tree
+Robert Southey	p	1	GA Greene
+Hughie Cannon	p	1	Aristotle
+Hughie Cannon	p	1	James Thornton
+Hughie Cannon	p	1	Claxon Bellamy and JL Hatton
+James Thornton	p	1	Aristotle
+James Thornton	p	1	Hughie Cannon
+James Thornton	p	1	Claxon Bellamy and JL Hatton
+Claxon Bellamy and JL Hatton	p	1	Aristotle
+Claxon Bellamy and JL Hatton	p	1	Hughie Cannon
+Claxon Bellamy and JL Hatton	p	1	James Thornton
+HW Challis and William V Wallace	p	1	James Montgomery
+HW Challis and William V Wallace	p	1	Iona Opie
+James Montgomery	p	1	HW Challis and William V Wallace
+James Montgomery	p	1	Iona Opie
+Iona Opie	p	1	HW Challis and William V Wallace
+Iona Opie	p	1	James Montgomery
+John Augustin Daly	p	1	Shakespeare
+John Augustin Daly	p	1	Salomon Hermann Mosenhal
+Salomon Hermann Mosenhal	p	1	John Augustin Daly
+Salomon Hermann Mosenhal	p	1	Shakespeare
+Bret Harte	p	1	Pontius Pilate
+Pontius Pilate	p	1	Bret Harte
+Giusseppe Saverio Raffaele	p	1	Mozart
+Giusseppe Saverio Raffaele	p	1	Giovanni Pierluigi da Palestrina
+Giovanni Pierluigi da Palestrina	p	1	Giusseppe Saverio Raffaele
+Giovanni Pierluigi da Palestrina	p	1	Mozart
