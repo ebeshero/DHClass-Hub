@@ -10,17 +10,17 @@ To download QGIS, go to [Download QGIS](https://qgis.org/en/site/forusers/downlo
 
 In QGIS, we work in Projects. To create a new project, first open QGIS. One option would be to click the icon of a piece of white paper in the upper left-hand corner of the page. It is circled in red in the image below. 
 
-![](qgis_intro/Screen%20Shot%202020-03-03%20at%207.52.55%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-03%20at%207.52.55%20PM%203.png)
 
 Alternatively, you could hit the “Project” button in the ribbon at the top of the page and then select “New Project” from the resulting dropdown menu.  It is circled in red in the image below. 
 
-![](qgis_intro/Screen%20Shot%202020-03-03%20at%207.56.22%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-03%20at%207.56.22%20PM%203.png)
 
 Another option, evident with the image of the menu above, is to use the shortcut Command-N (for Mac OS X users) or Control-N (for Windows or Linux users). 
 
 Once you have created a new project, your QGIS screen should be blank, like the following image. 
 
-![](qgis_intro/Screen%20Shot%202020-03-03%20at%207.59.40%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-03%20at%207.59.40%20PM%203.png)
 
 QGIS, like all GIS, “analyzes spatial location and organizations layers of information into visualizations using maps and 3D scenes. With this unique capability, [it] reveals deeper insights into data, such as patterns, relationships, and situations” ([ESRI](https://www.esri.com/en-us/what-is-gis/overview)). It utilizes layers to allow users to dive deep into a location and glean more information from it than traditional maps may have allowed. Layers are added to a project to create a map. 
 
@@ -28,11 +28,11 @@ Next, you’ll add your first layer to the QGIS project, the base layer: the Ope
 
 To add the OpenStreetMap XYZ Tile Layer to your project, go to the Browser menu on the left-hand side of the page and select “XYZ Tiles.” The option “OpenStreetMap” should appear below “XYZ Tiles,” as pictured below. 
 
-![](qgis_intro/Screen%20Shot%202020-03-03%20at%208.34.21%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-03%20at%208.34.21%20PM%203.png)
 
 Double click on “OpenStreetMap” to add the layer to your project. Your QGIS page should now look like the image below, with a map of the world where the blank white space used to be. 
 
-![](qgis_intro/Screen%20Shot%202020-03-03%20at%208.43.31%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-03%20at%208.43.31%20PM%203.png)
 
 
 You should notice that now “OpenStreetMap” is present in the “Layers” menu, which is beneath the “Browser” menu.  One other thing to notice is that there is a checkmark next to the layer name, which means that that layer should be visible on the map. To deactivate that layer, click on the checkbox to remove the checkmark; you should then see the map of the world disappear from view. 
@@ -43,7 +43,7 @@ Next, we will import a TSV (tab-separated values) file and use it to generate an
 
 Please download the following text file, which is a TSV file with the latitude and longitude coordinates of all significant earthquakes since 2150 BC from NOAA’s National Geophysical Data Center. Save this to your computer as a .txt file, a .csv file, or a .tsv file. This data in this file is separated by tabs, which makes it technically a tab-separated value (TSV) file. Any file that contains data separated by a specific character is a delimited text file, so as long as you save it as one of those, you will be fine. 
 
-<a href='qgis_intro/signif%202.txt'>signif 2.txt</a>
+<a href='qgis_intro/signif%203.txt'>signif 3.txt</a>
 
 If you open this file and examine it, you’ll notice that there is a column for latitude coordinates and a column for longitude coordinates. Those are the two most essential columns in this document for creating a layer in QGIS: the X and Y coordinates of the locations you want to map. 
 
@@ -51,14 +51,14 @@ Quite simply, the X coordinates will be the longitude coordinates and the Y coor
 
 Remember the Cartesian coordinate plane. 
 
-![](qgis_intro/TKyga%202.png)
+![](qgis_intro/TKyga%203.png)
 Picture source: [calculus - Standard Cartesian Plane - Mathematics Stack Exchange](https://math.stackexchange.com/questions/1093289/standard-cartesian-plane)
 
 The y-axis goes up and down; it is vertical. Conversely, the x-axis goes from left to right; it is horizontal. 
 
 Now, remember latitude and longitude lines. 
 
-![](qgis_intro/longitude-and-latitude-simple%202.png)
+![](qgis_intro/longitude-and-latitude-simple%203.png)
 Picture source: [What Is Longitude and Latitude?](https://www.timeanddate.com/geography/longitude-latitude.html)
 
 Like the x-axis, lines of latitude go from left to right across the globe; they are horizontal. Similarly, the lines of longitude, like the y-axis, are vertical. As such, the X coordinates of the table are the latitude coordinates, and the Y coordinates of the table are longitude coordinates. 
@@ -75,7 +75,7 @@ As such, you really only need two columns in a text-delimited file to import it 
 
 There is a very simple example below of a CSV that could be imported into QGIS. 
 
-![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.20.09%20PM.png)
+![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.20.09%20PM%202.png)
 
 As you can see, there are two rows and four columns for this CSV. This is viewed through GitHub’s file viewer, and so the actual commas that separate each of the values are hidden from view so that the table is more readable, but they are there nonetheless. 
 
@@ -89,7 +89,7 @@ Finally, the fourth column, “place_name”, contains the names of the location
 
 As implied by the section above, your project data will be suitable for QGIS mapping if it _includes latitude and longitude coordinates_. This of course implies that there is something in your project to do with actual, physical locations that could be mapped. 
 
-(Note: a project that works with mapping fictional locations, while of course pursuing a worthwhile goal, may or may not contain data suitable for using QGIS. The act of using QGIS itself implies a connection to the real, physical world, and so, if the fictional locations you are concerned with do have a connection to the real world, then QGIS can be used. If no such connection is present, then perhaps a different mapping technique would be more suitable for your project.) 
+(Note: If, perhaps, your project works with fictional locations, then another option that you might want to consider is image mapping. In this case, you take a picture of a fictional map, then perhaps convert it to an SVG with some tools that Dr. B can tell you about, and then use image mapping, also something Dr. B can tell you more about, to draw shapes on the picture of the map, so that you can add layers and add meaning to the map that way.) 
 
 **If your project has something to do with real locations, but you do not have latitude and longitude coordinates in your XML,** then you will need to put latitude and longitude coordinates in your XML so that you can then extract such data using XSLT or XQuery. 
 
@@ -102,20 +102,20 @@ In Google Maps, you will then be presented with a map with a pin on it represent
 
 You’ll then be presented with a box like the one in the image below. 
 
-![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.39.39%20PM.png)
+![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.39.39%20PM%202.png)
 (Yes, Pennsylvania is in French here, but this is the geodata associated with 150 Finoli Drive, Greensburg, PA, 15601). 
 
 The latitude coordinate is the one on the left, the first coordinate (here, 40.276473) and the longitude coordinate is the one on the right, or the second one (here, -79.531310). 
 
 In Open Street Maps, you’ll be presented with a page like the following (or you may be presented with a set of links for different locations if there was ambiguity in your location reference, so click on the correct link to be directed to a page like the following). 
 
-![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.44.16%20PM.png)
+![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.44.16%20PM%202.png)
 
 To get the latitude and longitude coordinates of this location, click on the “Export” button on the top left-hand side of the page, circled in red above. 
 
 You’ll then be presented with a set of coordinates representing a range, as pictured below. 
 
-![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.46.26%20PM.png)
+![](qgis_intro/Screen%20Shot%202020-03-09%20at%202.46.26%20PM%202.png)
 
 OpenStreetMap recognizes that there might be slight variation or error in any geocoordinates they provide you with (feel free to read up on the creation of geodata and satellite triangulation etc. for more on that), so it provides you with a range of values, representing both ends of the range where the location may be: the minimum and maximum values for the longitude and latitude coordinates. I’ve labelled each of the numeric values in the image above. You’ll have to decide whether you want to go with the maximum or minimum values—just be sure to be consistent; for example, don’t mix them up and take the max latitude coordinate of a location along with the minimum longitude coordinate. 
 
@@ -123,7 +123,7 @@ With these, you can then copy and paste the coordinates into your XML.
 
 Alternatively, if you click “Export” beneath the OpenStreetMap licensing information, you can download a .osm file, which is in fact an XML file. You can then use XSLT to integrate the latitude and longitude coordinates held in that file into your XML code. The latitude and longitude coordinates, again in a range, are held in the `bounds`element of this .osm file, in the attributes `minlat`, `minlon`, `maxlat`, and `maxlon`. You can reference Dr. B’s tutorials and assignments on XSLT, published at dh.newtfire.org, for more on how to do that.   
 
-![](qgis_intro/Screen%20Shot%202020-03-09%20at%203.04.05%20PM.png)
+![](qgis_intro/Screen%20Shot%202020-03-09%20at%203.04.05%20PM%202.png)
 
 Alternatively, if you need to grab latitude and longitude coordinates for a lot of locations, it may be easier to utilize an API. Reference [Dr. B’s GitHub issue on using an API](https://github.com/ebeshero/DHClass-Hub/issues/622) for more on that. 
 
@@ -131,7 +131,7 @@ Alternatively, if you need to grab latitude and longitude coordinates for a lot 
 
 To import the data file, go to “Layer” in the top ribbon, hover over “Add Layer,” and then select “Add Delimited Text Layer.” If you remember from before, the file that we want to add is a delimited text file, and so the layer that we want to add is a delimited text layer. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%201.20.47%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%201.20.47%20PM%203.png)
 
 There are other types of layers, such as Vector layers or Raster layers, but we will worry about those later. 
 
@@ -144,16 +144,16 @@ You will then be faced with a screen that looks like this one.
 6. Finally, you’ll want to select the appropriate Coordinate Reference System (CRS). I will err on the side of simplicity and not go into what a CRS is or how it works, but you should just trust me that you should choose the Default CRS: WGS 84. 
 7. Click Add. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.01.32%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.01.32%20PM%203.png)
 
 
 Pins, marking the locations of significant earthquakes around the world, should appear on your base map. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.03.16%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.03.16%20PM%203.png)
 
 Your list of Layers should now look like the following image. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.14.16%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.14.16%20PM%203.png)
 
 You should notice that the new layer, “earthquakes”, is higher on the list than “OpenStreetMap.” This means that the “earthquakes” layer is layered _on top of_ the “OpenStreetMap” layer. If you were to click and drag the “earthquakes” layer, then it would disappear on the map, because the base map “OpenStreetMap” would then be layered on top of it; it would cover it and render it invisible. 
 
@@ -165,85 +165,85 @@ Now, we’ll work on creating a map from the project.
 
 Use the Pan and Zoom controls in the QGIS menu bar, pictured below, to zoom in on California. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.28.15%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.28.15%20PM%203.png)
 
 The resulting zoom should look something like the following image. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.25.54%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.25.54%20PM%203.png)
 
 
 Next, click on “Project” in the top ribbon, and then click on “New Print Layout.” 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.31.28%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.31.28%20PM%203.png)
 
 You’ll then be asked to give the new Print Layout a name. 
 (Yes, I misspelled California in the screenshot, but I don’t want to take another one.) 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.34.43%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%202.34.43%20PM%203.png)
 
 Give a name, and then click “OK.” 
 
 You should be then presented with a blank screen. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.48.53%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.48.53%20PM%203.png)
 
 Click on “Zoom Full” (the magnifying glass with three arrows pointing outward) to get the full extent of the map layout. 
 
 Next, go to “Add Item” in the top ribbon and select “Add Map” from the dropdown menu. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.51.23%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.51.23%20PM%203.png)
 
 Once you click “Add Map,” the “Add Map” mode will be activated. Click and drag a square on the white canvas to add a map to that square. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.54.01%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.54.01%20PM%203.png)
 
 You should end up with an image like the one above. 
 
 Next, click the “Item Properties” tab on the right-hand side of the page and make sure that the boxes next to “Lock layers” and “Lock styles for layers” are checked. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.57.01%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%204.57.01%20PM%203.png)
 
 Then, navigate to the main QGIS window. Use the Pan and Zoom tools to zoom in on the San Francisco Bay Area. We will use this area as an inset on our larger map. 
 
 Next, right click on the “earthquakes” layer in the “Layers” menu. In the pop up menu, click on “Styles” and use the resulting color wheel to choose a new color for the points on the map marking where the earthquakes occurred. Try to make it one that is brighter or more noticeable than the original color of the symbols. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.05.20%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.05.20%20PM%203.png)
 
 Switch back to the “Print Layout” menu, and again select “Add Item” and then “Add Map.” 
 
 This time, use the cursor to drag a smaller square on top of the preexisting map of California, perhaps in a corner or off to the side where it won’t cover any data points. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.09.33%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.09.33%20PM%203.png)
 
 Now, we want to make the inset look better with a frame and highlight the area from which the inset was taken. 
 
 In the “Items” menu on the right-hand side of the page, select “Map 2,” which is the inset map. Click on the “Item Properties” tab, and then make sure that the button next to “Frame is checked.” A menu should then appear, and you should change the thickness to 1.0 and hit “Enter” on your keyboard.  A border should appear around the inset. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.12.08%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.12.08%20PM%203.png)
 
 Now, select “Map 1”, the larger map, from the “Item” list. Select the “Item Properties” tab, and then scroll down to the “Overviews” section. Click on the green plus sign to add an overview; once you have done that, select “Map 2” as the Map frame. This indicates that Map 1, the larger map, should be highlighted with the selection from Map 2, the inset map. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.57.23%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%205.57.23%20PM%203.png)
 
 Next, we’ll add a label to the top of the map. Go to “Add Item” at the top ribbon, and then hover over “Add Shape,” and then click on “Add Rectangle.” Then use your cursor to drag out a rectangle on top of the map, preferably away from the inset and the majority of the data points. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.05.35%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.05.35%20PM%203.png)
 
 To color the rectangle, make sure that it is selected in the “Item” list, then go to “Style”; to change the color to match the map underneath it, then go to “Symbol Selector,” then “Select Color,” and then choose the tab to sample a color. You can then use a dropper to select a color from the background map for the background of your label. 
 
 Next, to actually add a label to the map, go to “Add Item” and then “Add Label.” You can then change the font and label as you should so choose, using the Appearance menu on the right-hand side of the page. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.32.47%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.32.47%20PM%203.png)
  
 Finally, for the last touch that we’ll be putting on this map, go to “Add Item,” and then go to “Add Scale Bar.” 
 
 A menu such as the one pictured in the image below should appear. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.37.04%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.37.04%20PM%203.png)
 
 These options give you the ability to control the size of the scale bar. Click “OK,” and you will have a scale bar on your map. 
 
-![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.38.11%20PM%202.png)
+![](qgis_intro/Screen%20Shot%202020-03-04%20at%209.38.11%20PM%203.png)
 
 Once you save your layout, you can then export it to an image file, an SVG, or even a PDF. 
 
