@@ -4,7 +4,7 @@ With this assignment, you’ll be working with the [Pokemon Map Project](http://
 It has been theorized that the Pokemon region of Kanto corresponds to the Japanese locale of the same name. Using [this source,](https://bulbapedia.bulbagarden.net/wiki/Pokémon_world_in_relation_to_the_real_world) we manually inserted some geocoordinates into some of the preexisting Pokemon XML files, which enables the locations, the landmark elements, to be placed on a QGIS map. The goal of this assignment is to use that collection of XML files with geocoordinates to create a map of where certain Pokemon types would exist in the real world. 
 
 ## Collecting the Data 
-A collection of carefully curated XML files from the Pokemon Map Project is in [eXide](http://newtfire.org:8338/exist/apps/eXide/index.html), in ‘_db/2020_ClassExamples_pokemonQGIS’. Your first task is to write an XQuery script that runs over that collection and creates a TSV that can be used to create a text-delimited layer in QGIS. 
+A collection of carefully curated XML files from the Pokemon Map Project is in [eXide](http://newtfire.org:8338/exist/apps/eXide/index.html), in '_db/2020_ClassExamples/pokemonQGIS/'. Your first task is to write an XQuery script that runs over that collection and creates a TSV that can be used to create a text-delimited layer in QGIS. 
 
 Open one of the Pokemon files in that collection and think about in particular how you’d access the Pokemon type name, the name of the landmark, the `lat`attribute, and the `lon` attribute with XPath. More specifically, you’re going to want to find the Pokemon type, find the locations associated with that type, and then find the latitude and longitude coordinates associated with each of the locations. 
 
