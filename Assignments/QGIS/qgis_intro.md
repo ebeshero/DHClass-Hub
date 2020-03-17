@@ -43,7 +43,7 @@ Next, we will import a TSV (tab-separated values) file and use it to generate an
 
 Please download the following text file, which is a TSV file with the latitude and longitude coordinates of all significant earthquakes since 2150 BC from NOAA’s National Geophysical Data Center. Save this to your computer as a .txt file, a .csv file, or a .tsv file. This data in this file is separated by tabs, which makes it technically a tab-separated value (TSV) file. Any file that contains data separated by a specific character is a delimited text file, so as long as you save it as one of those, you will be fine. 
 
-<a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_intro/signif_3.txt'>signif 3.txt</a>
+<a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_intro/signif_3.txt'>signif_3.txt</a>
 
 If you open this file and examine it, you’ll notice that there is a column for latitude coordinates and a column for longitude coordinates. Those are the two most essential columns in this document for creating a layer in QGIS: the X and Y coordinates of the locations you want to map. 
 
