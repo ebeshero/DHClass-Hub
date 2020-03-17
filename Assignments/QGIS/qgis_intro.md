@@ -249,7 +249,7 @@ Once you save your layout, you can then export it to an image file, an SVG, or e
 
 Congratulations! You’ve made a map with QGIS. 
 
-For more on QGIS, feel free to consult [this website](http://www.qgistutorials.com/en/index.html), which will teach you how to do pretty much anything with this software. 
+For more on QGIS, feel free to consult [the QGIS Tutorials and Tips website](http://www.qgistutorials.com/en/index.html), which will teach you how to do pretty much anything with this software. 
 
 
 
