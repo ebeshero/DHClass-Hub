@@ -11,7 +11,7 @@ Open one of the Pokemon files in that collection and think about in particular h
 You’ll want your output to look like the following image. 
 
 
-![](qgis_1/Screen%20Shot%202020-03-11%20at%2011.54.39%20AM%202.png)
+![](qgis_1/screenshot_pokeData.png)
 
 As you can see, the first column of the result TSV contains the Pokemon type, the second contains the name of the location, the third contains the latitude coordinate, and the fourth contains the longitude coordinate. 
 
