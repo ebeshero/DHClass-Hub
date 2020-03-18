@@ -39,6 +39,8 @@ Click on the tiled Earth icon with a plus sign on the bottom right to show the m
 
 ![](qgis_1/Screen%20Shot%202020-03-11%20at%2012.15.10%20PM%202.png)
 
+Do you see a “Google” option on the list? If you do not, click on “Settings” on the menu, and select the “More Services” tab. Ignore the caution message and click on the “Get contributed pack”, and Google will then become available together with a long list of other GIS services.
+
 Hover over the “Google” option, and then click on the “Google Road” option. This is a XYZ Tile layer provided by Google, and all of its labels all over the world are in English. 
 
 ![](qgis_1/Screen%20Shot%202020-03-11%20at%2012.18.48%20PM%202.png)
