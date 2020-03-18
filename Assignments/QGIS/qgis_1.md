@@ -48,7 +48,7 @@ Hover over the “Google” option, and then click on the “Google Road” opti
 You should then notice that there is a layer called “Google Road” in the Layer list on the lower left-hand side of the main QGIS window. 
 
 ### Adding the Pokemon Delimited Text Layer
-Next, you’ll want to add the Pokemon TSV that you created with XQuery as a delimited text layer to your QGIS project. To do that, follow the steps outlined for adding a delimited text layer in the QGIS introductory tutorial. 
+Next, you’ll want to add the Pokemon TSV that you created with XQuery as a delimited text layer to your QGIS project. To do that, follow the steps outlined for adding a delimited text layer in the [QGIS introductory tutorial](https://github.com/ebeshero/DHClass-Hub/blob/master/Assignments/QGIS/qgis_intro.md). 
 
 If you created a TSV file, you’ll need to change a couple of options when you’re importing the file. Make sure that you select “Custom Delimiters” and make sure that the box next to “Tab” is checked. Furthermore, note that the top row of the TSV file you created does not have the names of the columns; if your TSV looks like the example picture above, then the first row should just contain relevant data. As such, you’ll need to ensure that the box next to “First record has field names” is deselected. Finally, also if your TSV looks like the example above, the X Field will be “field_4” and the Y Field will be “field_3”. If you remember, the Y coordinates are the latitude coordinates, while the X coordinates are the longitude coordinates. 
 
