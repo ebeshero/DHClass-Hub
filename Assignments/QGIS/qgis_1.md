@@ -169,4 +169,7 @@ As explained in the introductory QGIS tutorial, use Print Layout to create a nic
 
 ### Submitting Your Exercise 
 
-When you’re finished, upload __________ (a picture of the map or the QGIS project itself?) to Canvas. 
+When you’re finished, upload the following files to Canvas: 
+* Your XQuery file to produce the Pokemon data (saved as .xql) 
+* Your QGIS project file (saved as .qgz)
+* An export image in SVG (saved as .svg)
