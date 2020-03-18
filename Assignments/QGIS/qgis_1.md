@@ -161,7 +161,7 @@ The main QGIS map should now look something like this, depending on the differen
 
 ![](qgis_1/Screen%20Shot%202020-03-11%20at%202.46.33%20PM%202.png)
 
-You can see that now there are different colors for different Pokemon types. 
+You can see that now there are different colors for different Pokemon types. If this were being developed for a project website, we'd want to prepare a label and a legend to associate colors with Pokemon types, but that part is optional for this homework assignment.
 
 ### Finishing Touches 
 
