@@ -1,0 +1,45 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/2020_ClassExamples/pokemonQGIS" version="1" owner="frc23" group="dh-group" mode="755" created="2020-03-10T20:23:29.816Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="113.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:15.895Z" modified="2020-03-10T20:22:15.895Z" filename="113.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="029.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.025Z" modified="2020-03-10T20:22:16.025Z" filename="029.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="107.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.183Z" modified="2020-03-10T20:22:16.183Z" filename="107.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="046.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.248Z" modified="2020-03-10T20:22:16.248Z" filename="046.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="035.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.386Z" modified="2020-03-10T20:22:16.386Z" filename="035.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="010.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.456Z" modified="2020-03-10T20:22:16.456Z" filename="010.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="024.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.603Z" modified="2020-03-10T20:22:16.603Z" filename="024.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="082.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.672Z" modified="2020-03-10T20:22:16.672Z" filename="082.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="051.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.746Z" modified="2020-03-10T20:22:16.746Z" filename="051.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="099.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.81Z" modified="2020-03-10T20:22:16.81Z" filename="099.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="142.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.882Z" modified="2020-03-10T20:22:16.882Z" filename="142.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="100.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:16.946Z" modified="2020-03-10T20:22:16.946Z" filename="100.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="063.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:17.021Z" modified="2020-03-10T20:22:17.021Z" filename="063.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="106.xml" skip="no" owner="frc23" group="dh-group" mode="644" created="2020-03-10T20:22:17.09Z" modified="2020-03-10T20:22:17.09Z" filename="106.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

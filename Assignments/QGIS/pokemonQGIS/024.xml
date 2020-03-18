@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+        <dexNum num="024">024</dexNum>
+        <name>Arbok</name>
+        <typing type="Poison">Poison</typing>
+    </info>
+    
+    <locations>
+        <route num="23">Route 23<lvl min="41" max="41"> level 41</lvl><rate perc="5"> encounter rate: 5%</rate></route>
+        <landmark n="Cerulean Cave" lat="36.047193" lon="140.167760">Cerulean Cave<lvl min="52" max="52"> level 52</lvl><rate perc="10"> encounter rate: 10%</rate></landmark>
+    </locations>
+    
+</pokemon>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+     <dexNum num="113">113</dexNum>
+     <name>Chansey</name>
+     <typing type="Normal">Normal</typing>
+    </info>
+    
+    <locations>
+        <landmark n="Cerulean Cave" lat="36.047193" lon="140.167760"> Cerulean Cave<lvl min="64" max="64"> level 64</lvl><rate perc="10"> encounter rate: 10%</rate></landmark>
+        <landmark n="Safari Zone" lat="36.036145" lon="140.484194"> Safari Zone<lvl min="23" max="26"> level 23-26</lvl><rate perc="4"> encounter rate: 4%</rate></landmark>
+    </locations>
+    
+    </pokemon>

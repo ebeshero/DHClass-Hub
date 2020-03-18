@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+     <dexNum num="142">142</dexNum>
+        <name>Aerodactyl</name>
+     <typing type="Rock Flying">Rock Flying</typing>
+    </info>
+    
+    <locations>
+        <landmark n="Cinnabar Island" lat="34.744984" lon="139.385938">Cinnabar Island<lvl min="30" max="30"> level: 30</lvl></landmark>
+    </locations>
+    
+    </pokemon>

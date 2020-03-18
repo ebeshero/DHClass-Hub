@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+     <dexNum num="106">106</dexNum>
+     <name>Hitmonlee</name>
+     <typing type="Fighting">Fighting</typing>
+    </info>
+    
+    <locations>
+        <landmark n="Saffron City" lat="35.680460" lon="139.766612">Saffron City<lvl min="30" max="30"> level 30</lvl></landmark>
+    </locations>
+    
+    </pokemon>

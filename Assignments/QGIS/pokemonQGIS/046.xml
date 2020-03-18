@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+        <dexNum num="046">046</dexNum>
+        <name>Paras</name>
+        <typing type="Bug Grass">Bug Grass</typing>
+    </info>
+    
+    <locations>
+        <landmark n="Mt. Moon" lat="36.539991" lon="139.166215">Mt. Moon<lvl min="8" max="8"> level 8</lvl><rate perc="5"> encounter rate: 5%</rate></landmark>
+        <landmark n="Safari Zone" lat="36.036145" lon="140.484194">Safari Zone<lvl min="27" max="27"> level 27</lvl><rate perc="5"> encounter rate: 5%</rate></landmark>
+    </locations>
+    
+</pokemon>

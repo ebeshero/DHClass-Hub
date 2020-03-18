@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+        <dexNum num="035">035</dexNum>
+        <name>Clefairy</name>
+        <typing type="Fairy">Fairy</typing>
+    </info>
+    
+    <locations>
+        <landmark n="Mt. Moon" lat="36.539991" lon="139.166215">Mt. Moon<lvl min="8" max="8"> level 8</lvl><rate perc="1"> encounter rate: 1%</rate></landmark>
+        <landmark n="Celadon Gym" lat="35.685080" lon="139.710030">Celadon Gym<lvl min="8" max="8"> level 8</lvl><rate perc="50"> encounter rate: 50%</rate></landmark>
+    </locations>
+    
+</pokemon>

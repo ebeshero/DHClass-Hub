@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+     <dexNum num="099">099</dexNum>
+     <name>Kingler</name>
+     <typing type="Water">Water</typing>
+    </info>
+    
+    <locations>
+        <route num="23">route 23<lvl min="23" max="23"> level 23</lvl><rate perc="25"> encounter rate: 25%</rate></route>
+        <landmark n="Cerulean Cave" lat="36.047193" lon="140.167760">Cerulean Cave<lvl min="23" max="23"> level 23</lvl><rate perc="25"> encounter rate: 25%</rate></landmark>
+    </locations>
+    
+    </pokemon>

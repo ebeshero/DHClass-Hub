@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+        <dexNum num="051">051</dexNum>
+        <name>Dugtrio</name>
+        <typing type="Ground">Ground</typing>
+    </info>
+    
+    <locations>
+        <landmark n="Diglett's Cave" lat="20.787587" lon="-156.027552">Diglett's Cave<lvl min="29" max="31"> level 29-31</lvl><rate perc="5"> encounter rate: 5%</rate></landmark>
+    </locations>
+    
+</pokemon>

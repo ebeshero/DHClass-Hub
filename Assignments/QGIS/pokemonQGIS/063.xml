@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+        <dexNum num="063">063</dexNum>
+        <name>Abra</name>
+        <typing type="Psychic">Psychic</typing>
+    </info>
+    
+    <locations>
+        <route num="24">Route 24<lvl min="8" max="12"> level 8-12</lvl><rate perc="15"> encounter rate: 15%</rate></route>
+        <route num="25">Route 25<lvl min="10" max="12"> level 10-12</lvl><rate perc="15"> encounter rate: 15%</rate></route>
+        <landmark n="Celadon Gym" lat="35.685080" lon="139.710030">Celadon Gym<lvl min="6" max="9"> level 6-9</lvl><rate perc="50"> encounter rate: 50%</rate></landmark>
+    </locations>
+    
+</pokemon>

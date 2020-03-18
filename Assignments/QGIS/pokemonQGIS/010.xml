@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+        <dexNum num="010">010</dexNum>
+        <name>Caterpie</name>
+        <typing type="Bug">Bug</typing>
+    </info>
+    
+    <locations>
+        <route num="25">Route 25<lvl min="8" max="8"> level 8</lvl><rate perc="1"> encounter rate: 1%</rate></route>
+        <route num="2">Route 2<lvl min="3" max="5"> level 3-5</lvl><rate perc="15"> encounter rate: 15%</rate></route>
+        <route num="24">Route 24<lvl min="7" max="7"> level 7</lvl><rate perc="25"> encounter rate: 25%</rate></route>
+        <route num="25">Route 25<lvl min="8" max="8"> level 8</lvl><rate perc="1"> encounter rate: 1%</rate></route>
+        <landmark n="Viridian Forest" lat="36.036145" lon="138.670876">Viridian Forest<lvl min="3" max="5"> level 3,5</lvl><rate perc="50"> encounter rate: 50%</rate></landmark>
+    </locations>
+    
+</pokemon>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+     <dexNum num="100">100</dexNum>
+     <name>Voltorb</name>
+     <typing type="Electric">Eletric</typing>
+    </info>
+    
+    <locations>
+        <route num="10">route 10<lvl min="14" max="17"> level 14-17</lvl><rate perc="45"> encounter rate: 45%</rate></route>
+        <landmark n="Power Plant" lat="36.466389" lon="140.606667">Power Plant<lvl min="21" max="23"> level 21-23</lvl><rate perc="35"> encounter rate: 35%</rate></landmark>
+    </locations>
+    
+    </pokemon>

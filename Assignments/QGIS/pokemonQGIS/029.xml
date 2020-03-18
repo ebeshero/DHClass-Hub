@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pokemonChecker.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="PokemonSchema.rnc" type="application/relax-ng-compact-syntax"?><pokemon>
+    
+    <info>
+        <dexNum num="029">029</dexNum>
+        <name>Nidoran-Female</name>
+        <typing type="Poison">Poison</typing>
+    </info>
+    
+    <locations>
+        <route num="22">Route 22<lvl min="2" max="4"> level 2-4</lvl><rate perc="35"> encounter rate: 35%</rate></route>
+        <landmark n="Safari Zone" lat="36.036145" lon="140.484194">Safari Zone<lvl min="22" max="22"> level 22</lvl><rate perc="25"> encounter rate: 25%</rate></landmark>
+    </locations>
+    
+</pokemon>
