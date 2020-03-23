@@ -179,7 +179,7 @@ Now, select “wind speed” (or whatever you named the wind speed column) as th
 
 ![](qgis_2/Screen%20Shot%202020-03-22%20at%204.36.27%20PM.png)
 
-Next, click “Change…” next to “Symbol”.  The Symbol Selector window should appear. Scroll down to the bottom of the symbol menu and select the “triangle red” symbol. Then, click on the square on the far right-hand side of the window opposite “Rotation”, hover over “Field Type: int, double, string” and select “wind direction” (or whatever you named the wind direction column) from the resulting menu. This means that the directions of the symbols will be altered by this column. 
+Next, click “Change…” next to “Symbol”.  The Symbol Selector window should appear. Scroll down to the bottom of the symbol menu and select the “triangle red” symbol. Make sure that this is a "Font Marker," you may need to click on "Simple Marker" and then select "Font Marker" from the dropdown menu next to "Symbol Type." Then, click on the square on the far right-hand side of the window opposite “Rotation”, hover over “Field Type: int, double, string” and select “wind direction” (or whatever you named the wind direction column) from the resulting menu. This means that the directions of the symbols will be altered by this column. 
 
 ![](qgis_2/Screen%20Shot%202020-03-22%20at%204.41.46%20PM.png)
 
@@ -190,6 +190,8 @@ Then, make sure that the “Mode” is “Equal Interval.” Then click on the �
 
 
 ![](qgis_2/Screen%20Shot%202020-03-22%20at%204.47.20%20PM.png)
+
+NOTE: Your symbols may not immediately change color according to the color map when you classify. IF THIS HAPPENS go back and change the symbol from a "Font Marker" to "Vector Field Marker;" you should then see that the symbols have changed color according to the color ramp, and so then you should go back and change the marker type back to "Font Marker." The symbols should remain having changed according to the color ramp. 
 
 Click on OK when finished. The resulting map should look something like this, of course depending on the color ramp that you chose. 
 
