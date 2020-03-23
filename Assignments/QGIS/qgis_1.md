@@ -58,7 +58,9 @@ Your QGIS map, zoomed out, should now look something like the following image.
 
 ![](qgis_1/Screen%20Shot%202020-03-11%20at%2012.29.36%20PM%202.png)
 
-Notice that not all of the locations are in Japan: one is in Hawaii. This is because some of the Pokemon XML files in that collection reference locations that are supposed to be in Hawaii (and appear to be from the Pokemon Alola world rather than from Kanto); it does not appear that the original creators of the Pokemon Map Project restricted themselves to the Kanto region. However, the map that we want to create will focus on Japan, which correlates to the game’s Kanto region. 
+Notice that not all of the locations are in Japan: one is in Hawaii. This is because some of the Pokemon XML files in that collection reference locations that are supposed to be in Hawaii (and appear to be from the Pokemon Alola world rather than from Kanto); it does not appear that the original creators of the Pokemon Map Project restricted themselves to the Kanto region. However, the map that we want to create will focus on Japan. 
+
+Note: the picture does include a point in France. That is because it was made working with an older version of the collection. It is not correct, and you should not have a point in France. 
 
 Zoom in on the points clustered in Japan. Your map should look something like the image below. 
 
