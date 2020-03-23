@@ -148,11 +148,6 @@ Now we know what the full WHEN statement should look like:
 
 Use the HTML Color Picker to select colors for each of the different types, and then write a CASE statement to change the point color when the value of “field_1” are all of the different types. You can either type the expression into the window or click on the different functions in the middle list to compose the expression. 
 
-It should end up looking like the expression pictured below. 
-
-
-![](qgis_1/Screen%20Shot%202020-03-11%20at%202.45.50%20PM%202.png)
-
 
 When you’re finished, click “OK.” 
 
