@@ -13,7 +13,7 @@ Could weather have impacted the routes of Cook, Forster, or Magellan, and would 
 ### Historical Geodata
 Projects looking at historical subjects often have the added challenge of needing to work with historical data, which can sometimes be messy. Furthermore, sometimes data is missing or incomplete. As such, sometimes it can be challenging to merely find relevant historical data, let alone relevant historical geodata. 
 
-Note: A good starting point for finding good historical geodata is [The American Association of Geographers’ Historical GIS Clearinghouse and Forum](http://www.aag.org/cs/projects_and_programs/historical_gis_clearinghouse/hgis_databases). 
+Note: A good starting point for finding historical geodata is [The American Association of Geographers’ Historical GIS Clearinghouse and Forum](http://www.aag.org/cs/projects_and_programs/historical_gis_clearinghouse/hgis_databases). 
 
 ### Sea Surface Temperature Raster Layer 
 
