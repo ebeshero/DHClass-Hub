@@ -30,7 +30,7 @@ To import the .nc file into QGIS, go to Layers > Add Layer > Add Raster Layer. O
 
 ![](qgis_2/Screen%20Shot%202020-03-21%20at%208.43.24%20PM.png)
 
-Next, a window asking for you to choose a CRS (coordinate reference system) will appear. Be sure to select WGS 84, then click OK. 
+Next, a window asking for you to choose a CRS (coordinate reference system) may appear. If prompted, be sure to select WGS 84, then click OK. 
 
 ![](qgis_2/Screen%20Shot%202020-03-21%20at%209.00.21%20PM.png)
 
@@ -41,7 +41,7 @@ A layer called “absolute” should appear in the project, and it should look l
 
 As you can see, this layer looks pixelated because it is made up of many cells, rectangles, of data. The darker blue and black areas are where the ocean is colder, while the lighter areas, closer to the equator, represent warmer ocean surface temperatures. 
 
-Since this is a raster layer of the ocean, it’s kind of hard to see where the continent are. Next, add the OpenStreetMap XYZ Tile layer, as you did in the Intro Tutorial. Make sure that it is above the “absolute” layer in the Layers menu; the “absolute” layer should disappear from view. 
+Since this is a raster layer of the ocean, it’s kind of hard to see where the continents are. Next, add the OpenStreetMap XYZ Tile layer, as you did in the Intro Tutorial. Make sure that it is above the “absolute” layer in the Layers menu; the “absolute” layer should disappear from view. 
 
 We’re going to alter the transparency of the “OpenStreetMap” layer so that we can see the “absolute” layer through it. After all, we don’t want to completely erase the sea surface temperature data; we just want to be able to more easily contextualize the information presented there. 
 
@@ -65,7 +65,7 @@ Now, we’ll work with wind speed data from the Global Forecast System (GFS) of 
 
 Download the following .csv file and save it to your machine. It was acquired from the ERDDAP server hosted by the Pacific Islands Ocean Observing System.
 
-<a href='qgis_2/wind_vectors.csv'>wind_vectors.csv</a>
+<a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_2/wind_vectors.csv'>wind_vectors.csv</a>
 
 #### Prepping the Data
 
