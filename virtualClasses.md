@@ -4,7 +4,7 @@ Following 16 March 2020, the university was closed due to the Covid-19 pandemic 
 For the first week we just wanted to keep the DH momentum going, but these meetings were optional and helped us to test our virtual connections. Coding work conducted between March 16 - 20 is deemed extra credit.
 Starting 23 March, we returned to regular class meetings and assignments. 
 
-This page stores links to recordings of our virtual class meetings over Zoom, as well as links to Google Docs and other files otherwise not part of this repository or the newtFire.org website. 
+Live class sessions are held virtually during our regular meeting time [at this Zoom link](https://pitt.zoom.us/j/862800079) for the rest of the Spring 2020 semester. This page stores links to recordings of our virtual class meetings over Zoom, as well as links to Google Docs and other files otherwise not part of this repository or the newtFire.org website. 
 We didn't always opt to use a Google Doc, but where we did, we indicate that below. Google Doc class notes are located in [this shared Google Drive directory](https://drive.google.com/drive/folders/17R-XhKpJn13KgNsIuso8zNQ5GYWjvrO0).
 
 * M 3/16: Topic: Next Steps in the Pandemic Time 
