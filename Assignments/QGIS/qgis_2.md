@@ -71,7 +71,7 @@ Download the following .csv file and save it to your machine. It was acquired fr
 
 The data in this file has already been cleaned and corrected; however, as it is, it is incomplete. 
 
-You should open the file in a spreadsheet editing program, such as Microsoft Excel or LibreOffice. Notice that there are five columns: id, latitude, longitude, u component, and v component. 
+You should open the file in a spreadsheet editing program, such as Microsoft Excel or LibreOffice. Notice that there are five columns: id, latitude, longitude, u component, and v component. As you're opening the document, you may be asked to specify the comma as the delimiter in the document. You should enter through this to open a CSV in an Excel environment. 
 
 The id column is a unique identifier for each row. We’ll use that later. The latitude and longitude columns are pretty self-explanatory, because they hold the geocoordinates for the wind vectors. The u component and the v component columns hold the u-component and v-component of the wind vectors, respectively. 
 
@@ -219,9 +219,9 @@ Download and save the following three files, which were grabbed via XQuery from 
 * <a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_2/magellan.csv'>magellan.csv</a>
 * <a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_2/pacific.csv'>pacific.csv</a>
 
-Import “magellan.csv” as a delimited-text layer into QGIS, just as you’ve done before. 
+Import “magellan.csv” as a delimited-text layer into QGIS, just as you’ve done before. The second column will be the X coordinate and the third will be the Y coordinate. 
 
-Import “pacific.csv” as a delimited-text layer into QGIS as well, being sure to check the box next to “DMS Coordinates.” The latitude and longitude coordinates in “Degree Minute Second”, or DMS, format. Checking the box allows QGIS to account for that. 
+Import “pacific.csv” as a delimited-text layer into QGIS as well, being sure to check the box next to “DMS Coordinates.” The latitude and longitude coordinates in “Degree Minute Second”, or DMS, format. Checking the box allows QGIS to account for that. The third column will be the X coordinate and the second will be the Y coordinate. 
 
 Finally, import “magellan_desc.csv” into QGIS as a delimited-text layer. This file, if you open it, has no latitude or longitude coordinates. It contains merely a column containing a unique identifier for each row and then place names (sometimes those are written as latitude or longitude coordinates, but we’re counting them as names, here, because that’s what they were encoded as in the original project data.) Because of this, be sure to select “No geometry (attribute only table)” in the “Geometry Definition” section. 
 
@@ -318,7 +318,6 @@ You can see that there are now lines connecting the Magellan points to the Pacif
 
 You can see that the Magellan points are closest to Pacific Project points most often in areas of high wind speed and high surface water temperature - areas where storms are likely to occur. 
 
-Tip: Your map projection may be cut off in the middle of the Pacific on the left and right. To change that so you can view the whole Pacific ocean at once, try [this quick tutorial on changing the map projection](https://www.gislounge.com/center-map-pacific-ocean-using-qgis/).
 
 ## Conclusion
 Of course, more data, especially more Magellan data, would make this graph more interesting. However, I think it is apparent that weather may possibly have affected the Cook and Forster voyages, because you can see that those points are clustered in areas of high wind speed and low sea surface temperature. 
