@@ -20,7 +20,7 @@ Note: A good starting point for finding historical geodata is [The American Asso
 First, download the Network Common Data Form (NetCDF) file of global sea surface temperatures from 1850-2020, created by the Hadley Centre in conjunction with the Climatic Research Unit of the University of East Anglia. 
 
 Sea surface temperature file: 
-<a href='qgis_2/absolute.nc'>absolute.nc</a>
+<a href='https://github.com/ebeshero/DHClass-Hub/raw/master/Assignments/QGIS/qgis_2/absolute.nc'>absolute.nc</a>
 
 Save it to your local machine in a place that you will remember. 
 
