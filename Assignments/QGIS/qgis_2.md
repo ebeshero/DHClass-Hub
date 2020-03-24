@@ -129,7 +129,7 @@ Congratulations! You’ve just calculated 1/1048576 of the wind directions!
 
 Copy the cell that you just calculated (by right clicking it, or selecting it and hitting CTRL+C, etc.) and paste it into the top row, the row with the column labels. When you do that, you SHOULD get #Value  as the result--because it's trying to use words - the labels - to do a mathematical calculation. Just ignore it for now. 
 
-Highlight the entire column by clicking on the column letter. Then, hit CTRL+D (or Command+D). The rest of the column values should populate with the calculations. You can then erase #Value and rename the column something sensible, like "wind direction." 
+Highlight the entire column by clicking on the column letter. Then, hit CTRL+D (or Command+D). (If those delete, use CTRL+V or Command+V instead.) The rest of the column values should populate with the calculations. You can then erase #Value and rename the column something sensible, like "wind direction." 
 
 ![](qgis_2/Screen%20Shot%202020-03-22%20at%204.02.29%20PM.png)
 
@@ -169,13 +169,13 @@ Import the .csv file that you just saved to QGIS as a delimited-text layer. Yes,
 
 That’s because, right now, it’s styling each of those vectors as single points, not vectors. 
 
-Right click on the wind vector layer and click on “Properties…” Then go to the “Sybmology” tab. 
+Right click on the wind vector layer and click on “Properties…” Then go to the “Symbology” tab. 
 
 Click on “Single Symbol” at the top of the window and select “Graduated” from the resulting menu. 
 
 ![](qgis_2/Screen%20Shot%202020-03-22%20at%204.21.29%20PM.png)
 
-Now, select “wind speed” (or whatever you named the wind speed column) as the “Column,” by clicking the drop-down menu arrow button on the right-hand side of the window and selecting the “wind speed” field from the resulting list. 
+Now, select “wind speed” (or whatever you named the wind speed column) as the “Column” (or “Value”) by clicking the drop-down menu arrow button on the right-hand side of the window and selecting the “wind speed” field from the resulting list. 
 
 ![](qgis_2/Screen%20Shot%202020-03-22%20at%204.36.27%20PM.png)
 
@@ -213,11 +213,11 @@ Congratulations! You’ve finished the base map.
 
 ## Importing the Voyagers’ Log Data
 
-Download and save the following files, which were grabbed via XQuery from Magellan and Pacific Project data. 
+Download and save the following three files, which were grabbed via XQuery from Magellan and Pacific Project data. 
 
-<a href='qgis_2/magellan_desc.csv'>magellan_desc.csv</a>
-<a href='qgis_2/magellan.csv'>magellan.csv</a>
-<a href='qgis_2/pacific.csv'>pacific.csv</a>
+* <a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_2/magellan_desc.csv'>magellan_desc.csv</a>
+* <a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_2/magellan.csv'>magellan.csv</a>
+* <a href='https://raw.githubusercontent.com/ebeshero/DHClass-Hub/master/Assignments/QGIS/qgis_2/pacific.csv'>pacific.csv</a>
 
 Import “magellan.csv” as a delimited-text layer into QGIS, just as you’ve done before. 
 
@@ -240,7 +240,7 @@ Go to the “Joins” tab and click on the green plus sign on the bottom left-ha
 
 ![](qgis_2/Screen%20Shot%202020-03-22%20at%205.34.51%20PM.png)
 
-What does it mean to join two layers together? It that you find a common value that connects each row of one layer to each row of the other. In this case, the IDs for the latitude and longitude points in the “magellan.csv” file are the same as the IDs for the place names in the “magellan_desc.csv” file. As such, we’ll use the ID column in both of the tables, layers, to join them together. 
+What does it mean to join two layers together? It means that you find a common value that connects each row of one layer to each row of the other. In this case, the IDs for the latitude and longitude points in the “magellan.csv” file are the same as the IDs for the place names in the “magellan_desc.csv” file. As such, we’ll use the ID column in both of the tables, layers, to join them together. 
 
 Essentially, we’re saying that that the data contained in the columns of the “magellan_desc.csv” file is connected to the data contained in the columns of the “magellan.csv” file because they share the same ID. 
 
