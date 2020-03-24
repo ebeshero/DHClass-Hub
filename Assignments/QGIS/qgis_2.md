@@ -318,13 +318,15 @@ You can see that there are now lines connecting the Magellan points to the Pacif
 
 You can see that the Magellan points are closest to Pacific Project points most often in areas of high wind speed and high surface water temperature - areas where storms are likely to occur. 
 
+Tip: Your map projection may be cut off in the middle of the Pacific on the left and right. To change that so you can view the whole Pacific ocean at once, try [this quick tutorial on changing the map projection](https://www.gislounge.com/center-map-pacific-ocean-using-qgis/).
+
 ## Conclusion
 Of course, more data, especially more Magellan data, would make this graph more interesting. However, I think it is apparent that weather may possibly have affected the Cook and Forster voyages, because you can see that those points are clustered in areas of high wind speed and low sea surface temperature. 
 
-Use Map Layout to create a nice picture of your map, complete with features like a title or legend that make your map more easily understood by others. 
+Use Map Layout to create a nice picture of your map, complete with features like a title or legend that make your map more easily understood by others. NOTE: We found that if we exported the map to SVG this time the file size was enormous, and it was better to export an image and choose .PNG as the file type for a more portable graphic. 
 
 ## Submitting the Assigment 
 When you’re finished, upload the following files to Canvas:
 * Your Wind Vector file (saved as .csv) 
 * Your QGIS project file (saved as .qgz)
-* An export image in SVG (saved as .svg)
+* An export image in PNG (saved as .png)
