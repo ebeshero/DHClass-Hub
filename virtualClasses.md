@@ -24,4 +24,5 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
 * M 3/23: Topic: Introducing QGIS
      * [Zoom session](https://pitt.zoom.us/rec/share/4OZTKpfZx1JOT9LEs2qYcfcCP6-8T6a80CQc86Zcyh0HeLkAOHsGNQNGyA8vsOEx)
      
-
+* W 3/25: Topic: QGIS (prep for QGIS 2 and 3 and Friday's data discussion)
+    * [Zoom session](https://pitt.zoom.us/rec/share/vsx7Ab2z3VxLbI3zsGHbZPcCR4X1X6a82ydN__UFnU3wEVZNLw1rTVeDLhJB9lSx)
