@@ -26,3 +26,7 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
      
 * W 3/25: Topic: QGIS (prep for QGIS 2 and 3 and Friday's data discussion)
     * [Zoom session](https://pitt.zoom.us/rec/share/vcVuKuCt0EhOc4HzsWr1R6BmJLThaaa8hiMY__ZfzkYlV2mkiZFsHgOF4sRZ_Sbb)
+    
+* F 3/27: Topic: bad mapping data for QGIS
+    * [Zoom session: with markers indicating when we exited into breakout sessions and returned for full class discussion](https://pitt.zoom.us/rec/share/_ZR1c6zo2EpOYqPEyWv-Bf8EPIG_eaa81SFI8vAEzx7DEsUEgYYelwtbx_wq4bFH)
+    * (Sorry, the individual breakout sessions were not recorded.)
