@@ -14,7 +14,7 @@ If you have a column of place names output in Column A, and paste this formula t
 
 To split this data so that you have latitude in one column, and longitude in the other, you can just split up that XPath so that one column (B) reports ONLY the `@lat` and the next column (C) reports ONLY the `@lon` associated with your place name in Column A.
 
-It will be possible to pull this geodata in XQuery, too, by the way, working with Open Street Maps as an external database. Happy experimenting. You will be able to import a TSV or CSV into Google Sheets and export it. And there may be a working variation on this `JOIN()` function in Excel or other spreadsheet software. Please report on your experiences with pulling geodata and raise questions on the [DHClass-Hub](https://github.com/ebeshero/DHClass-Hub) and find us on Slack if you want some help. 
+It will be possible to pull this geodata in XQuery, too, by the way, working with Open Street Maps as an external database. Happy experimenting. You will be able to import a TSV or CSV into Google Sheets and export it. And there may be a working variation on this `JOIN()` function in Excel or other spreadsheet software. Please report on your experiences with pulling geodata and raise questions on the [DHClass-Hub](https://github.com/ebeshero/DHClass-Hub) and find us on Slack if you want some help. You will want to inspect your results to do a “sanity check” and make sure they are the correct locations, and make any corrections you need to make for your map. 
 
 
 ## Export to PNG 
