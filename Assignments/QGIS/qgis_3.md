@@ -4,7 +4,7 @@ For this assignment, you’ll use a couple of different export options to create
 For this assignment, you should use one of the maps you made previously or make a new map using guidelines and techniques covered earlier. I would advise working with a simpler map, perhaps just a base map and a set of points. You might want to pull some data from your working project code, and if you have a set of place names without geocoordinates, you could try looking up latitude and longitude coordinates or visiting a geomapping API service. 
 
 ## Geocoding Tip
-Some of you have completed a “TimeMapper” assignment with me using a simpler mapping program running with Google Sheets. In that program, you can keep an column of place names, and then add a column that does an “API lookup”, of the first available geocoordinates associated with a location. Here is the formula we used in Google Sheets to do that lookup, which returns latitude and longitude coordinates:
+Some of you have completed a “TimeMapper” assignment with Dr. B using a simpler mapping program running with Google Sheets. In that program, you can keep an column of place names, and then add a column that does an “API lookup”, of the first available geocoordinates associated with a location. Here is the formula we used in Google Sheets to do that lookup, which returns latitude and longitude coordinates:
 
 ```
 =JOIN(",", ImportXML(CONCATENATE("http://nominatim.openstreetmap.org/search/?format=xml&q=",A2), "//place[1]/@lat | //place[1]/@lon"))
