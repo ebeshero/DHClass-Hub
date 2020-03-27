@@ -1,7 +1,21 @@
 # QGIS Exercise 3
 For this assignment, you’ll use a couple of different export options to create maps that you can publish on a website. 
 
-For this assignment, you should use one of the maps you made previously or make a new map using guidelines and techniques covered earlier. I would advise working with a simpler map, perhaps just a base map and a set of points. 
+For this assignment, you should use one of the maps you made previously or make a new map using guidelines and techniques covered earlier. I would advise working with a simpler map, perhaps just a base map and a set of points. You might want to pull some data from your working project code, and if you have a set of place names without geocoordinates, you could try looking up latitude and longitude coordinates or visiting a geomapping API service. 
+
+## Geocoding Tip
+Some of you have completed a “TimeMapper” assignment with me using a simpler mapping program running with Google Sheets. In that program, you can keep an column of place names, and then add a column that does an “API lookup”, of the first available geocoordinates associated with a location. Here is the formula we used in Google Sheets to do that lookup, which returns latitude and longitude coordinates:
+
+```
+=JOIN(",", ImportXML(CONCATENATE("http://nominatim.openstreetmap.org/search/?format=xml&q=",A2), "//place[1]/@lat | //place[1]/@lon"))
+```
+
+If you have a column of place names output in Column A, and paste this formula to fill in Column B (like we've done in QGIS 2), it will read the place name in the corresponding cell in Column A and look up and return the first set of geocoordinates it finds. Note the XPath in the formula, as Open Street Maps' data is stored in XML. If you wanted to return *all* the available sets of geocordinates, or data associated with them, you could remove the `[1]` predicates after `//place` and look at the content of the `//place` element.
+
+To split this data so that you have latitude in one column, and longitude in the other, you can just split up that XPath so that one column (B) reports ONLY the `@lat` and the next column (C) reports ONLY the `@lon` associated with your place name in Column A.
+
+It will be possible to pull this geodata in XQuery, too, by the way, working with Open Street Maps as an external database. Happy experimenting. You will be able to import a TSV or CSV into Google Sheets and export it. And there may be a working variation on this `JOIN()` function in Excel or other spreadsheet software. Please report on your experiences with pulling geodata and raise questions on the [DHClass-Hub](https://github.com/ebeshero/DHClass-Hub) and find us on Slack if you want some help. 
+
 
 ## Export to PNG 
 From working on previous assignments, you’re probably already familiar with the process for exporting to PNG. From the Print Layout window, you can use the “Export to Image” icon, pictured below, in the top menu bar, and then select PNG as the file type. 
