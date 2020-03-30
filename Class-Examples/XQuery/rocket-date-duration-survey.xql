@@ -1,7 +1,7 @@
 xquery version "3.1";
 declare namespace ebb="http://newtfire.org";
 declare variable $rocketColl := collection('/db/rocket/');
-(: ebb: This XQuery introduces you to user-defined functions in XQuery. 
+(: ebb: This script introduces you to user-defined functions in XQuery. 
 These can be useful for taking values from your XQuery variables and performing a conversion, as we're doing here.
 Since the Rocket Launches project has multiple attributes encoding launch dates and landing dates in the same xs:dateTime format, 
 and since they work with the xs:duration datatype too, for coding how long a mission lasted, 
