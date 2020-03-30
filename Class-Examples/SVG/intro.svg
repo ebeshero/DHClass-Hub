@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc>This is a little example of a super simple SVG file. SVG stands for Scaleable Vector Graphics, 
+        and it's a form of XML that works with X (horizontal) and Y (vertical) coordinates to draw shapes, lines, or paths on a screen.</desc>
+    <g>
+            <!--The "g" element lets us *group* stuff together. We can use a transform attribute to 
+            alter the format of things inside. We'll use transform="translate(x, y)" a lot. -->
+        
+        <line x1="20" x2="220" y1="20" y2="20" stroke="green" stroke-width="4"/>
+        <circle cx="0" cy="0" r="50" stroke="red" fill="purple" stroke-width="6" fill-opacity="30%"/>
+<!--SVG elements that I draw after this point, if they're drawn over the same area as the circle (between 0,0 and 0,50), will show up on top of it.
+        We can adjust transparency for superimposed shapes by using @opacity on the <g> element (for all elements in the group), or by putting 
+        @fill-opacity on individual shape elements and using a percent value. 
+        -->
+
+    </g>
+</svg>
