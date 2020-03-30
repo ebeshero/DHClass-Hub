@@ -25,12 +25,16 @@ return $year + $decimalDay
 };
 (: CONVERT DURATION TO DECIMAL :)
 (: ebb: The next user-defined function will convert the xs:duration datatype into a decimal value based on number of days. 
- : So if we input a duration indicating 1 day, 6 hours, and 0 minutes, we should return 1.25 from this function.  
+ : If we input a duration indicating 1 day, 6 hours, and 0 minutes, we should return 1.25 from this function. 
+ : Our function takes four input arguments: $d (a value for the number of days), $h (a value for the number of hours),
+ : $m (for the number of minutes), and $s (for the number of seconds). In our XQuery, we created variables to separate each of these values 
+ : and submitted them as the input to this function.
  : Here's what we're calculating: There are 24 hours in a day. (Divide the H portion by 24) and add it to the days.
  : There are 60 minutes in an hour, and 60 * 24 gives the total number of minutes in a day. 
  : So we divide the M portion by 60 * 24) and add it to hours.
  : There are 60 seconds in a minute. and 60 * 60 * 24 gives us the total number of seconds in a day. 
- : We then divide the S portion by 60 * 60 * 24 and add that value to minutes and hours.
+ : We then divide the S portion by 60 * 60 * 24 and add that value to minutes and hours to give us 
+ : the decimal proporition of a day in the duration. Finally we add that to the number of days in the duration. 
  : :)
 declare function ebb:durationConverter($d as xs:integer, $h as xs:integer, $m as xs:integer, $s as xs:integer?)
 as xs:decimal?
