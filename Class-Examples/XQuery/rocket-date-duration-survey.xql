@@ -59,4 +59,5 @@ let $durSecs := seconds-from-duration($duration)
 let $durDayDec := ebb:durationConverter($durDays, $durHours, $durMins, $durSecs) 
 
 order by $lDec
-return concat('Launch Date: ', $l, ', mission: ', $mID, ': This Launch Decimal Date: ', $lDec, ': Duration: ', $duration, ': Decimal Notation:', $durDayDec)
+return concat('Launch Date: ', $l, ', mission: ', $mID, ': This Launch Decimal Date: ', $lDec, 
+': Duration: ', $duration, ': Decimal Notation:', $durDayDec)
