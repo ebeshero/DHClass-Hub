@@ -30,3 +30,7 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
 * F 3/27: Topic: bad mapping data for QGIS
     * [Zoom session: with markers indicating when we exited into breakout sessions and returned for full class discussion](https://pitt.zoom.us/rec/share/_ZR1c6zo2EpOYqPEyWv-Bf8EPIG_eaa81SFI8vAEzx7DEsUEgYYelwtbx_wq4bFH)
     * (Sorry, the individual breakout sessions were not recorded, but we recommend jumping between the markers we set from when we exited to when we returned.)
+
+* M 3/30: Topics: QGIS file outputs (Leaflet site, PNG, SVG). Introducing SVG.
+    * [Zoom session](https://pitt.zoom.us/rec/share/4uJvdIrr0kpJHpHh8FzzUZEITtq8T6a81nQWrvsKzU3pGb6ahMz--VWUXCmdpl39)
+
