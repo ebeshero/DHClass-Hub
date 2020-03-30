@@ -14,8 +14,10 @@ Let's start reading this by skipping past the section I've marked off with aster
 We will first extract the year from the datatype with year-from-dateTime(), 
 and then use format-dateTime() to return a 'picture string' that will give us the date's numerical position in the year. 
 We then divide that date number by 365 (since most years have 365 days). 
-This will give us a decimal format we can use in making charts and graphs. :)
-declare function ebb:dateDecimalConverter($dT as xs:dateTime) 
+This will give us a decimal format we can use in making charts and graphs. 
+Note how we use question marks and apply datatypes do define the function input and output. 
+:)
+declare function ebb:dateDecimalConverter($dT as xs:dateTime?) 
 as xs:decimal?
 {
 let $year := year-from-dateTime($dT) ! xs:integer(.)
