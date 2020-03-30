@@ -50,7 +50,8 @@ let $mID := $m  ! tokenize(., ':')[1]
 
 
 let $duration := $m/following-sibling::duration/@time
-(: ebb: To do duration arithmetic, start by looking at the functions here: https://www.w3.org/TR/xpath-functions-31/#durations
+(: ebb: To do duration arithmetic, start by looking at the functions here: 
+: https://www.w3.org/TR/xpath-functions-31/#durations
  : Let's try representing durations in terms of days with a decimal. 
  : We'll write a user-defined function to convert hours, minutes, and seconds into a fraction of the day. :)
 let $durDays := days-from-duration($duration)
