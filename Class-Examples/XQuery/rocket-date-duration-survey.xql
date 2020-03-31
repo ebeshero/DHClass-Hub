@@ -48,7 +48,7 @@ return $d + $TDec
 
 let $launchDateTimes := $rocketColl//launch/@sDateTime
 for $l in $launchDateTimes
-(: To do date arithmetic, take a look at these functions: https://www.w3.org/TR/xpath-functions-31/#dates-times
+(: ebb: To do date arithmetic, take a look at these functions: https://www.w3.org/TR/xpath-functions-31/#dates-times
  : We'll write a user-defined function to convert this datatype into a decimal notation. :)
 let $lDec := ebb:dateDecimalConverter($l)
 let $m := $rocketColl//launch[@sDateTime = $l]/preceding-sibling::sts
@@ -64,7 +64,7 @@ let $durDays := days-from-duration($duration)
 let $durHours := hours-from-duration($duration)
 let $durMins := minutes-from-duration($duration)
 let $durSecs := seconds-from-duration($duration)
-(: Now in line 43, we send our variables to our user-defined function for turning date datatypes into decimal values. :)
+(: Now in the next line, we send our variables to our user-defined function for turning date datatypes into decimal values. :)
 let $durDayDec := ebb:durationConverter($durDays, $durHours, $durMins, $durSecs) 
 
 order by $lDec
