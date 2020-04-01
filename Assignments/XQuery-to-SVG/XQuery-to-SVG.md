@@ -190,3 +190,28 @@ Our tasks are:
 
 * To plot SVG text elements labelling the mission identifiers. 
 
+#### Structuring the code
+We will work with the converted decimal data that we prepared to plot the dates and durations in visible screen space with SVG. Much as we do when writing XQuery to generate HTML, we declare a global variable to hold our output file to save to the database. We will also typically declare a global variable or two  holding just a number to help us add spacing for our plot in the X and Y directions. 
+
+```
+(: Global variables go up here :)
+ declare variable $timelineSpacer := 100;
+ declare variable $ThisFileContent := 
+<svg xmlns="http://www.w3.org/2000/svg">
+   <g>
+      <line x1="??" y1="??" x2="??" y2="??" style="??;??;"/>  
+   <!--ebb: The line element above will represent the start and end points of our line. You may choose to plot this vertically or horizontally. x1 and y1 will represent the earliest date, while x2 and y2 will represent the latest date. -->   
+         {
+         <!--ebb: FLWOR statements go here to process the data about each mission and plot it along our timeline.-->
+         }
+      
+   </g>
+</svg> ;
+```
+
+#### Plotting the timeline
+If we plot a vertical line that runs from top to bottom in chronological order, we can take advantage of the y-coordinate space that increases as we move down the screen with SVG. (Or you may, if you like, opt to plot your timeline horizontally instead, if you prefer to think of time scrolling from left to right.) Either way, we need to know how long our line should be. To measure it, remember that we want to mark a small set of years separated from each other by a regular interval (large enough to give us room to plot some information). We need to write variables to determine how many years we need to plot, and then separate them by regular space. We could do this by hand, and pound this out point by point, but since the Rocket Launches collection can always add more mission dates by adding current launch information, it would be better to write code that searches for the maximum and minimum date represented in the collection at any given time. (That means you could run your XQuery whenever the XML collection is updated and easily update your infographic with new data.)
+
+In our starter script, we have already worked out decimal conversions of the dateTime data for each launch (as well as its duration). We need to add a couple of global variables to determine the length of the timeline. You should use the XPath `min()` and `max()` functions to define variables identifying the earliest and latest years in our series.
+
+
