@@ -214,6 +214,13 @@ We usually subtract the `min()` value from the `max()` and multiply by our space
 
 In our for-each loop, we will need to subtract the `min()` value from each mission dateTime decimal value, so we can plot from 0 (instead of 1981). And just like we did with the `max()` value, we'll want to multiply it by our spacer so our plot is easy to read and not crowded. We'll output the actual dateTime and the mission identifier as labels for our data, and we'll use the duration for each mission to determine the relative size or area of the shape we wish to plot.
 
+#### Namespace issues and Q{}
+As soon as we create an SVG document in XQuery, we are placing the new code we generate in the SVG namespace. That means when writing an XQuery script inside the SVG root element, we will not be able to extract project data unless we indicate that it's in another namespace or no namespace. We indicate that using a special notation: `Q{}` set before any elements in an XPath reaching into project data. Attributes by default are not referenced in a namespace so you don’t have to indicate anything special aobut them. Here is how we had to change our variable to read the Rocket Launches data from within our XQuery script.
+
+```
+let $launchDateTimes := $rocketColl//Q{}launch/@sDateTime
+```
+
 #### Viewing your output
 
 You should be able to plot the timeline now! Run your results with the Eval button, and view them as Adaptive Output in the results window to look at your code. You should see SVG generated with its namespace in the root node, and your should see a simple SVG file containing a line element. You can view the SVG as a graphic in XQuery by toggling the XML Output option to Direct Output, but you will probably need to scroll to see your entire line. That is because we need to set the width and height attributes on our SVG and set up the long vertical line to be viewable in a browser window on scrolling down.
