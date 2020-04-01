@@ -62,7 +62,10 @@ The third value here, `P214DT3H9M56S`, is an **xs:duration** datatype indicating
 
 We share this just to inform you how dateTime and duration are commonly processed in the universe of XML data. We also need to be aware of the limitations of that processing. If we want to draw SVG lines and shapes that indicate relative proportion and distance in time, SVG will not be able to read an xs:duration value or a xs:dateTime value directly. These datatypes will need to be converted to a decimal format (xs:decimal or xs:float) in order to work out plotting them on a screen. 
 
-In a perfect universe, there would be a ready-made function to convert the date and duration datatypes to a decimal notation. However, the documentation and our own experience shows us that it's only possible conduct date arithmetic in XPath using the collection of dateTime and duration datatypes (including gYear, gYearMonth, etc). We cannot simply convert those into decimal values automatically with something like number(), xs:decimal(), xs:integer(), or xs:float(). (Try it yourself and take a look at the error messages.) We are going to have to define our own functions to create a reasonable conversion of our dateTime and duration values into a decimal notation for plotting shapes on a screen. 
+In a perfect universe, there would be a ready-made function to convert the date and duration datatypes to a decimal notation. However, the documentation and our own experience shows us that it's only possible conduct date arithmetic in XPath using the collection of dateTime and duration datatypes (including `gYear`, `gYearMonth`, etc). We cannot simply convert those into decimal values automatically with something like `number()`, `xs:decimal()`, `xs:integer()`, or `xs:float()`. (Try it yourself and take a look at the error messages.) We are going to have to define our own functions to create a reasonable conversion of our dateTime and duration values into a decimal notation for plotting shapes on a screen. 
+
+## Writing user-defined functions for converting date and duration to decimal values
+
 
 
 ```
