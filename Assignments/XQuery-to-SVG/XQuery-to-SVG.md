@@ -6,7 +6,7 @@ Jump to the section you need:
 * [Processing Date and Duration data with User-defined Functions](#Processing-Date-and-Duration-data-with-User-defined-Functions)
      * [Unpacking the dateTime and duration datatypes](#Unpacking-the-dateTime-and-duration-datatypes)
      * [Writing user-defined functions to convert date and duration to decimal values](#Writing-user-defined-functions-to-convert-date-and-duration-to-decimal-values)
-* [create an anchor](#anchors-in-markdown)
+* [Writing XQuery to draw SVG](#Writing-XQuery-to-draw-SVG)
 * [create an anchor](#anchors-in-markdown)
 * [create an anchor](#anchors-in-markdown)
 * [create an anchor](#anchors-in-markdown)
@@ -159,13 +159,25 @@ Notice that this function is taking four input arguments from each of the preced
 
 ##### User-defined conversion of xs:duration to xs:decimal
 
-Since our date conversion function was based on 
+Since our date conversion function gives us a year as a whole number, and days in the year as a decimal portion of a year, we want a duration that will match up to this proportionally. So we want to convert the duration value into a decimal portion of a year. 
 
+Our function takes four input arguments: `$d` (a value for the number of days), `$h` (a value for the number of hours), `$m` (for the number of minutes), and `$s` (for the number of seconds).
 
+````
+declare function ebb:durationConverter($d as xs:integer, $h as xs:integer, $m as xs:integer, $s as xs:integer?)
+as xs:decimal?
+{
+let $durDec := $d div 365 + $h div (365 * 24) + $m div (365 * 24 * 60) + $s div (365 * 24 * 60 * 60)
+return $durDec
+}; 
+````
+Here we calculate based on that rough estimate of 365 days in a year, so we first divide the `$d` value by 365. There are 24 hours in a day and 365 days in a year, so we divide the `$h` portion by (24 * 365) and add it to the days. Next, there are 60 minutes in an hour, and 60 * 24 * 365 gives the total number of minutes in a year. So we divide the `$m` value by 60 * 24 * 365) and add it to hours and days. Finally, there are 60 seconds in a minute. and 60 * 60 * 24 * 365 gives us the total number of seconds in a year. We then divide the `$s` value by (60 * 60 * 24 * 365) and add that value to minutes, hours, and days to give us the decimal proporition of a year in the duration.
 
+Here is a simple text output from our first XQuery designed to survey the data conversions: 
 ```
-Launch Date: 1981-04-12T07:00:03, mission: STS-1: 
-This Launch Decimal Date: 1981.279452054794520548: 
-Duration: P2DT6H20M53S: Decimal Notation:2.264502314814814815
+Launch Date: 1981-04-12T07:00:03, mission: STS-1: This Launch Decimal Date: 1981.279452054794520548: Duration: P2DT6H20M53S: Decimal Notation:0.006204115930999494
 ```
+### Writing XQuery to draw SVG
+
+
 
