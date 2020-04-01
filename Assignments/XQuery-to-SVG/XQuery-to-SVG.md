@@ -20,7 +20,7 @@ We began by surveying the kinds of date and duration data that the Rocket Launch
 
 In this file we wrote two **user-defined functions** to process the xs:dateTime and xs:duration datatypes into a simpler decimal format that we can use for plotting lines and shapes in SVG. You can follow the comments we left in this file for details, and we will just briefly summarize here what we needed to process and how we did it. Our goal here is to give you enough information so you can write your own user-defined XQuery functions when you need them. If you are doing simple counts or arithmetic on your XML data, you probably will not need to write functions. But if you want to do more complex processing, like in this case, unpacking dateTime datatypes to be able to plot dates and durations along a line proportionally, it is helpful to define your own functions. 
 
-## Unpacking the dateTime and duration datatypes
+### Unpacking the dateTime and duration datatypes
 Launch dates are encoded in the Rocket Launches project using the xs:dateTime datatype in an `@sDateTime` attribute on the `<launch>` element. We accessed the launch dateTimes in the Rocket Launches project with this variable:
 
 ```
@@ -38,7 +38,7 @@ We could use the `tokenize()` function to strip the times off the dates, but we 
 * Formatted display is something we experimented with in XPath Exercise 4 to convert an xs:dateTime like `2020-03-31T07:00` into a string like this `Tuesday, March thirty-first, two thousand and twenty at seven o’ clock am.` 
 * Time-zone conversion would help us to take data given in one time-zone and convert it to another. 
 
-### Into the weeds of date arithmetic
+#### Into the weeds of date arithmetic
 Because we are interested in sorting values and doing date arithmetic, we wanted to see how simple arithmetic functions work on dateTime data in exist-dB. To experiment, we wrote a simple XQuery script which you can find at `/db/2020_ClassExamples/rocketSimpleDateArithmetic.xql`. It looks like this:
 
 ```
@@ -64,7 +64,21 @@ We share this just to inform you how dateTime and duration are commonly processe
 
 In a perfect universe, there would be a ready-made function to convert the date and duration datatypes to a decimal notation. However, the documentation and our own experience shows us that it's only possible conduct date arithmetic in XPath using the collection of dateTime and duration datatypes (including `gYear`, `gYearMonth`, etc). We cannot simply convert those into decimal values automatically with something like `number()`, `xs:decimal()`, `xs:integer()`, or `xs:float()`. (Try it yourself and take a look at the error messages.) We are going to have to define our own functions to create a reasonable conversion of our dateTime and duration values into a decimal notation for plotting shapes on a screen. 
 
-## Writing user-defined functions for converting date and duration to decimal values
+### Writing user-defined functions to convert date and duration to decimal values
+Here we explain how to write your own **user-defined functions** in XQuery, to address our problem of needing to generate decimal values from xs:dateTime and xs:duration datatypes. Like a global variable declaration, a function that you define is also available in a global way throughout an XQuery document. Think of a function as something to which you can send one or more nodes or values for processing to give you an output that you want. 
+
+In our case, we need to define two functions:  
+1) for turning dateTime values into decimals, and
+2) for converting durations into decimal values. 
+
+#### Converting xsd:dateTime into an xsd:decimal
+To convert a given xsd:dateTime value, say 1981-04-12T07:00:03, into a decimal, we need to decide which of the numerical values should form the basis for a whole number, and which should be defined as a decimal portion. Since we want to plot a timeline ranging over years from the 1980s to the 2010s, we decided to make years be whole numbers, and every unit of time smaller than a year would be a decimal portion of the year. Thus, April as the fourth month of a twelve-month year would give us roughly `4/12` or `.3` of a year. 
+
+Our work is going to presume roughly (though sometimes incorrectly on Leap Years) that 365 days make a year. We will want to find out from the dateTime what the numerical date in the year will be and divide it by 365 to give us a rough proportion of (in this example) how far into a year is April 12. We reason that our visualization is showing us roughly how far apart in time certain dates are from each other and a perfect degree of accuracy (factoring in which years are Leap Years and have 364 days, for example) is probably unnecessary. 
+
+##### A sidenote for scholars of past centuries
+Historical date arithmetic needs to deal with different calendar systems than our current Gregorian calendar system in use throughout most of the world and the world’s electronics. Fortunately, there are [calendar converters like this one on the web](https://www.fourmilab.ch/documents/calendar/) to assist.)
+
 
 
 
