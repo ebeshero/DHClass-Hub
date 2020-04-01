@@ -3,7 +3,7 @@
 
 Jump to the section you need:
 * [Global variables](#Global-variables)
-* [create an anchor](#anchors-in-markdown)
+* [Processing Date and Duration data with User-defined Functions](#Processing-Date-and-Duration-data-with-User-defined-Functions)
 * [create an anchor](#anchors-in-markdown)
 * [create an anchor](#anchors-in-markdown)
 * [create an anchor](#anchors-in-markdown)
@@ -37,7 +37,7 @@ declare variable $rocketColl := collection('/db/rocket/');
 Notice the syntax of a global variable: it begins with the words “declare variable” and ends with a semicolon. In preparing files for generating SVG, global variables can be helpful, particularly if think you might want to work with multiple FLWOR statements later.  
 Why make global variables? A global variable does pretty much the same thing as a top-level `let` statement in a FLWOR, but it is available anywhere and everywhere in your XQuery, for use in multiple FLWOR statements you might write. Since you might find yourself wanting to generate multiple SVG graph plots from your project data, you may find yourself writing a few separate FLWOR statements to draw on the same material. Also, you can define other helpful global things, like user-defined functions, which we’ll show you in the next section. Anything defined globally is conveniently listed in the outline view that you can find on the left-hand side of the eXide window.
 
-## Surveying and Processing Date and Duration data with User-defined Functions
+## Processing Date and Duration data with User-defined Functions
 We began by surveying the kinds of date and duration data that the Rocket Launches project provides. Our first XQuery script shows us in concatenated strings what that data looks like. Find it in eXide by opening `/db/2020_ClassExamples/rocketDateDurationSurvey.xql`, or you can access [the file on the DHClass-Hub/Class-Examples/XQuery here ](https://github.com/ebeshero/DHClass-Hub/blob/master/Class-Examples/XQuery/rocket-date-duration-survey.xql). In eXide, you should hit `eval` on the file to review its output.
 
 In this file we wrote two **user-defined functions** to process the xs:dateTime and xs:duration datatypes into a simpler decimal format that we can use for plotting lines and shapes in SVG. You can follow the comments we left in this file for details, and we will just briefly summarize here what we needed to process and how we did it. Our goal here is to give you enough information so you can write your own user-defined XQuery functions when you need them. If you are doing simple counts or arithmetic on your XML data, you probably will not need to write functions. But if you want to do more complex processing, like in this case, unpacking dateTime datatypes to be able to plot dates and durations along a line proportionally, it is helpful to define your own functions. 
