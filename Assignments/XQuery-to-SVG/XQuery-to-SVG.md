@@ -135,20 +135,37 @@ let $lDec := ebb:dateDecimalConverter($l)
 This portion of code initiates a for-loop over the sequence of launch dateTime values, and it sends each individual member of the sequence to our namespaced `ebb:dateDecimalConverter()` function. Each `$l` in `$launchDateTimes` will be processed in turn by that function, and be stored as the value of the variable `$lDec`. 
 
 #### Converting xs:duration into xs:decimal
+This function is a little more complicated because of the format of the duration datatype, giving us (from this project) days, hours, minutes, and seconds. We broke these apart using the XPath duration functions to extract each of these as separate values. (We could have done that inside our user-defined function, but we wanted to show you how to create a function with multiple input arguments.) 
+
+In our XQuery script working with the Rocket Project data, we accessed and broke down the duration values thus: 
+
+```
+let $duration := $m/following-sibling::duration/@time
+(: ebb: To do duration arithmetic, start by looking at the functions here: 
+: https://www.w3.org/TR/xpath-functions-31/#durations
+ : Let's try representing durations in terms of days with a decimal. 
+ : We'll write a user-defined function to convert hours, minutes, and seconds into a fraction of the day. :)
+let $durDays := days-from-duration($duration)
+let $durHours := hours-from-duration($duration)
+let $durMins := minutes-from-duration($duration)
+let $durSecs := seconds-from-duration($duration)
+```
+In the next line, we send our variables to new user-defined function for turning date datatypes into decimal values.
+
+```
+let $durDayDec := ebb:durationConverter($durDays, $durHours, $durMins, $durSecs)
+```
+Notice that this function is taking four input arguments from each of the preceding variables. 
+
+##### User-defined conversion of xs:duration to xs:decimal
+
+Since our date conversion function was based on 
 
 
 
-
-
+```
 Launch Date: 1981-04-12T07:00:03, mission: STS-1: 
 This Launch Decimal Date: 1981.279452054794520548: 
 Duration: P2DT6H20M53S: Decimal Notation:2.264502314814814815
 ```
-
-
-
-
-
-
-
 
