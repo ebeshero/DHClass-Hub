@@ -198,7 +198,9 @@ We will work with the converted decimal data that we prepared to plot the dates 
       
    </g>
 </svg> ;
+$ThisFileContent
 ```
+Here we declared the global variable $ThisFileContent (so that its declaration ends with a semicolon after the the close tag of the `</svg>`. (You will remember and find on other examples how to use this variable after this point to it up for storage in your directory on our eXist-dB.) We are also "calling the variable" or returning its content in the return window by just entering it at the end here. This is how we recommend testing and viewing the SVG output as you are creating it.
 
 #### Plotting the timeline
 If we plot a vertical line that runs from top to bottom in chronological order, we can take advantage of the y-coordinate space that increases as we move down the screen with SVG. (Or you may, if you like, opt to plot your timeline horizontally instead, if you prefer to think of time scrolling from left to right.) Either way, we need to know how long our line should be. To measure it, remember that we want to mark a set of dates separated from each other by a regular interval (large enough to give us room to plot some information). We need to write variables to determine how many years we need to plot, and then separate them by regular space. We could do this by hand, and pound this out point by point, but since the Rocket Launches collection can always add more mission dates by adding current launch information, it would be better to write code that searches for the maximum and minimum date represented in the collection at any given time. (That means you could run your XQuery whenever the XML collection is updated and easily update your infographic with new data.)
