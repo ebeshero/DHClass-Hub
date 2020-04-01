@@ -57,15 +57,14 @@ We could use the `tokenize()` function to strip the times off the dates, but we 
 #### Into the weeds of date arithmetic
 Because we are interested in sorting values and doing date arithmetic, we wanted to see how simple arithmetic functions work on dateTime data in exist-dB. To experiment, we wrote a simple XQuery script which you can find at `/db/2020_ClassExamples/rocketSimpleDateArithmetic.xql`. It looks like this:
 
-```
-xquery version "3.1";
+```xquery version "3.1";
 declare variable $rocketColl := collection('/db/rocket/');
 let $launchDateTimes := $rocketColl//launch/@sDateTime ! xs:dateTime(.) => sort()
 let $ldt-one := $launchDateTimes[1]
 let $ldt-two := $launchDateTimes[2]
 return 
-string-join(($ldt-one, $ldt-two, ($ldt-two - $ldt-one)), ', ')
-```
+string-join(($ldt-one, $ldt-two, ($ldt-two - $ldt-one)), ', ')```
+
 This XQuery reaches into the rocket collection and defines `$launchDateTimes` as a sequence of all the values of `@sDateTime`. We needed to make sure the XQuery processor recognized these as xs:dateTime, so we mapped each value as such with `xs:dateTime(.)`. Then we used the arrow operator to apply a `sort()` function, which should sort the dates from earliest to latest. The variable `$launchDateTimes` then contains a sorted sequence of dateTime values (which you can test for yourself by commenting out and altering our return statement). 
 
 We next wanted to test how date arithmetic works. We defined `$ldt-one` and `$ldt-two` to return the first and second values in our sorted sequence of dateTimes. We returned a simple string to show us the first and second dates, and the results of a simple subtraction of one from the other with a minus sign. When we `eval` this in eXide we see:
@@ -114,9 +113,7 @@ let $year := year-from-dateTime($dT)
 let $dayInYear := format-dateTime($dT, '[d]') ! xs:integer(.)
 let $decimalDay := $dayInYear div 365
 return $year + $decimalDay
-};
-
-```
+};```
 This function is declared with an `ebb:` namespace prefix and a name which I came up with to be descriptive. `ebb:dateDecimalConverter()` takes a single input *argument* designated inside the parentheses, and that argument needs to be a single dateTime value. (We could call that input argument anything we like, but it represents the data you will be sending to this function from elsewhere in your XQuery script.) The `as xs:dateTime` indicates the dataType. The function will output new data in a different datatype, and that appears on the next line following the parentheses: `as xs:decimal` followed by question mark. 
 
 The work of the function happens inside the set of curly braces `{ }`, and it is delivered in a simple FLWOR statement. Let’s unpack it. We ran an XPath function, `year-from-dateTime()`, which simply extracts the year as a four-digit integer from the dateTime datatype. (We could just as easily have used a tokenize() function to return this, but we would have then needed to convert it to an xs:integer(), so we decided we liked this better since it already by default returns the date in an xs:integer() format.) We will use that as our whole number.
