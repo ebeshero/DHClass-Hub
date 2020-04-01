@@ -155,7 +155,7 @@ Since our date conversion function gives us a year as a whole number, and days i
 Our function takes four input arguments: `$d` (a value for the number of days), `$h` (a value for the number of hours), `$m` (for the number of minutes), and `$s` (for the number of seconds).
 
 ````
-declare function ebb:durationConverter($d as xs:integer, $h as xs:integer, $m as xs:integer, $s as xs:integer?)
+declare function ebb:durationConverter($d as xs:integer?, $h as xs:integer?, $m as xs:integer?, $s as xs:integer?)
 as xs:decimal?
 {
 let $durDec := $d div 365 + $h div (365 * 24) + $m div (365 * 24 * 60) + $s div (365 * 24 * 60 * 60)
@@ -186,7 +186,7 @@ We will work with the converted decimal data that we prepared to plot the dates 
 
 ```
 (: Global variables go up here :)
- declare variable $timelineSpacer := 100;
+ declare variable $timelineSpacer := 1000;
  declare variable $ThisFileContent := 
 <svg xmlns="http://www.w3.org/2000/svg">
    <g>
@@ -223,7 +223,7 @@ let $launchDateTimes := $rocketColl//Q{}launch/@sDateTime
 
 #### Viewing your output
 
-You should be able to plot the timeline now! Run your results with the Eval button, and view them as Adaptive Output in the results window to look at your code. You should see SVG generated with its namespace in the root node, and your should see a simple SVG file containing a line element. You can view the SVG as a graphic in XQuery by toggling the XML Output option to Direct Output, but you will probably need to scroll to see your entire line. That is because we need to set the width and height attributes on our SVG and set up the long vertical line to be viewable in a browser window on scrolling down.
+You should be able to plot the timeline now! Run your results with the Eval button, and view them as **Adaptive Output** in the results window to look at your code. You should see SVG generated with its namespace in the root node, and your should see a simple SVG file containing a line element. You can view the SVG as a graphic in XQuery by toggling the XML Output option to **Direct Output**, but you will probably need to scroll to see your entire line. That is because we need to set the width and height attributes on our SVG and set up the long vertical line to be viewable in a browser window on scrolling down.
 
 #### Setting the viewport and shifting things with transform="translate(x, y)" so you can see the full line:
 
