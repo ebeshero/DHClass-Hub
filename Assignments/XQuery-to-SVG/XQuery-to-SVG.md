@@ -231,3 +231,4 @@ To make your long line visible, you want to estimate something wider than its wi
 
 We also decided to shift our SVG over a little bit so that if we use 0, 0 coordinates, the timeline won’t be flush against the top and side of the screen. To do this, we add `transform="translate(x, y)"` to the outermost `<g>` element, which bundles the all the SVG elements into a group. Using the `transform="translate(x, y)"`function, we adjust the x and y values of the plotted elements inside, moving them over by x units and up or down by y units. 
 
+We have created a sample starter XQuery to SVG file for this exercise and stored it in our newtFire eXist-dB as `/db/2020_ClassExamples/rocketTimelineStarter.xql`.
