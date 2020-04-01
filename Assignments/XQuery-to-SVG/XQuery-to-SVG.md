@@ -1,9 +1,31 @@
 # Writing XQuery to Visualize Data in SVG
 ## With special features for plotting with date and duration data
 
+Jump to the section you need:
+* [Global variables](#Global-variables)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+* [create an anchor](#anchors-in-markdown)
+
+* [create an anchor](#anchors-in-markdown)
+
+
+
 This tutorial is designed to show you how to work with XQuery in eXist-db to generate an SVG visualization. Along the way we will introduce you to user-defined functions in XQuery with an example that involves doing date and duration arithmetic to plot a timeline from XML data encoded using the `xs:dateTime` and `xs:duration` datatypes. 
 
-## Accessing Rocket Launches project data, and using global variables
+## Global variables
 For this exercise, we are working with XML data from the Spring 2020 [Rocket Launches project](http://rocket.newtfire.org) to create a timeline infographic using SVG. XML data for this project is stored in the [newtfire eXist-db](http://newtfire.org:8338), and we address the collection with XPath in the eXide window there as `collection('/db/rocket/')`. 
 
 We want to show you some nifty “global” features in writing XQuery, so we’ll start by showing you how to write a global variable. We can begin a new XQuery file by declaring a global variable that addresses the collection:
@@ -35,7 +57,7 @@ We could use the `tokenize()` function to strip the times off the dates, but we 
 
 * Component extraction means, pull out the year, month, day, hour, minute, or second as a value (as we might do with tokenizing the parts of the datatype). 
 * Order comparisons would help you evaluate and select dateTime values before or after a certain dateTime that you identify (evaluating dateTime values as less than or greater than each other, or setting them in sequence). 
-* Formatted display is something we experimented with in XPath Exercise 4 to convert an xs:dateTime like `2020-03-31T07:00` into a string like this `Tuesday, March thirty-first, two thousand and twenty at seven o’ clock am.` 
+* Formatted display is something we experimented with in [XPath Exercise 4](https://dh.newtfire.org/XPathExercise4.html) to convert an xs:dateTime like `2020-03-31T07:00` into a string like this `Tuesday, March thirty-first, two thousand and twenty at seven o’ clock am.` 
 * Time-zone conversion would help us to take data given in one time-zone and convert it to another. 
 
 #### Into the weeds of date arithmetic
@@ -71,18 +93,60 @@ In our case, we need to define two functions:
 1) for turning dateTime values into decimals, and
 2) for converting durations into decimal values. 
 
-#### Converting xsd:dateTime into an xsd:decimal
+#### Converting xs:dateTime into an xs:decimal
 To convert a given xsd:dateTime value, say 1981-04-12T07:00:03, into a decimal, we need to decide which of the numerical values should form the basis for a whole number, and which should be defined as a decimal portion. Since we want to plot a timeline ranging over years from the 1980s to the 2010s, we decided to make years be whole numbers, and every unit of time smaller than a year would be a decimal portion of the year. Thus, April as the fourth month of a twelve-month year would give us roughly `4/12` or `.3` of a year. 
 
 Our work here builds on the rough notion that most years contain 365 days (avoiding the precision of a solar year calculation and failing to account for leap years). We will want to find out from the dateTime what the numerical date in the year will be and divide it by 365 to give us a reasonable estimate of a calendar date’s position in the year, as in this example, how far into a year is April 12. The timeline visualization we create for screen viewing will show us roughly how far apart in time certain dates are from each other, and for that purpose, a perfect degree of accuracy (factoring in leap years of 366 days or precise solar year lengths) is more complicated than necessary. 
 
 ##### A sidenote for scholars of past centuries
-Historical date arithmetic needs to deal with different calendar systems than our current Gregorian calendar system in use throughout most of the world and the world’s electronics. Fortunately, there are [calendar converters like this one on the web](https://www.fourmilab.ch/documents/calendar/) to assist.)
+Historical date arithmetic needs to deal with different calendar systems than our current Gregorian calendar system in use throughout most of the world and the world’s electronics. Fortunately, there are [calendar converters like this one](https://www.fourmilab.ch/documents/calendar/) to assist.)
 
-
-
+#### Writing a user-defined function
+To write your own functions, you have to work in a different namespace. By default XQuery supplies a `local:` namespace for this, but we like the idea of defining our own functions in a personalized namespace that we make up. You can make up your own, and we encourage you to do so just for fun. A namespace is conventionally written in the format of a distinct URI only because it makes for a distinct identifier. Sometimes people prepare websites at a web address if people want to look up more information about a namespace (see for example [the website about the SVG namespace](https://www.w3.org/2000/svg)), but that isn't required. We simply declare our personal made-up namespace at the top of the file and that is all that is necessary. You make up the namespace and a prefix by which to refer to it, like this:
 
 ```
+declare namespace ebb="http://newtfire.org";
+```
+
+Here I created a namespace designated by `http://newtfire.org` and I will refer to it with the three letters before the `=`: `ebb`. In my code, I'll follow the namespace prefix with a colon before introducing my function: `ebb:`.
+
+Now I declare a function, which shares the `declare` language of a global variable definition. I will show the entire function in full so you can see how it works: 
+
+```
+declare function ebb:dateDecimalConverter($dT as xs:dateTime?) 
+as xs:decimal?
+{
+let $year := year-from-dateTime($dT)  
+let $dayInYear := format-dateTime($dT, '[d]') ! xs:integer(.)
+let $decimalDay := $dayInYear div 365
+return $year + $decimalDay
+};
+
+```
+This function is declared with an `ebb:` namespace prefix and a name which I came up with to be descriptive. `ebb:dateDecimalConverter()` takes a single input *argument* designated inside the parentheses, and that argument needs to be a single dateTime value. (We could call that input argument anything we like, but it represents the data you will be sending to this function from elsewhere in your XQuery script.) The `as xs:dateTime` indicates the dataType. The function will output new data in a different datatype, and that appears on the next line following the parentheses: `as xs:decimal` followed by question mark. 
+
+The work of the function happens inside the set of curly braces `{ }`, and it is delivered in a simple FLWOR statement. Let’s unpack it. We ran an XPath function, `year-from-dateTime()`, which simply extracts the year as a four-digit integer from the dateTime datatype. (We could just as easily have used a tokenize() function to return this, but we would have then needed to convert it to an xs:integer(), so we decided we liked this better since it already by default returns the date in an xs:integer() format.) We will use that as our whole number.
+
+Next, we define a variable that applies the `format-dateTime()` function and a special “picture string” to determine the count of the calendar date as its number of days into the year. (We looked this up this special “picture string” syntax for `format-dateTime()` in [Section 9.8.4.1 of the w3 XPath specs](https://www.w3.org/TR/xpath-functions-31/#rules-for-datetime-formatting)).
+
+Finally, we simply divide that value by 365 to return our decimal value, and we return the year integer plus the decimal. 
+
+#### Calling the user-defined function
+Within our XQuery that is processing data from the Rocket Launch project, we can now call our new user-defined function. We'll do that in the following lines: 
+
+```
+let $launchDateTimes := $rocketColl//launch/@sDateTime
+for $l in $launchDateTimes
+let $lDec := ebb:dateDecimalConverter($l)
+```
+This portion of code initiates a for-loop over the sequence of launch dateTime values, and it sends each individual member of the sequence to our namespaced `ebb:dateDecimalConverter()` function. Each `$l` in `$launchDateTimes` will be processed in turn by that function, and be stored as the value of the variable `$lDec`. 
+
+#### Converting xs:duration into xs:decimal
+
+
+
+
+
 Launch Date: 1981-04-12T07:00:03, mission: STS-1: 
 This Launch Decimal Date: 1981.279452054794520548: 
 Duration: P2DT6H20M53S: Decimal Notation:2.264502314814814815
