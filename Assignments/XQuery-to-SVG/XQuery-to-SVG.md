@@ -7,15 +7,6 @@ Jump to the section you need:
      * [Unpacking the dateTime and duration datatypes](#Unpacking-the-dateTime-and-duration-datatypes)
      * [Writing user-defined functions to convert date and duration to decimal values](#Writing-user-defined-functions-to-convert-date-and-duration-to-decimal-values)
 * [Writing XQuery to draw SVG](#Writing-XQuery-to-draw-SVG)
-* [create an anchor](#anchors-in-markdown)
-* [create an anchor](#anchors-in-markdown)
-* [create an anchor](#anchors-in-markdown)
-* [create an anchor](#anchors-in-markdown)
-* [create an anchor](#anchors-in-markdown)
-
-* [create an anchor](#anchors-in-markdown)
-
-
 
 This tutorial is designed to show you how to work with XQuery in eXist-db to generate an SVG visualization. Along the way we will introduce you to user-defined functions in XQuery with an example that involves doing date and duration arithmetic to plot a timeline from XML data encoded using the `xs:dateTime` and `xs:duration` datatypes. 
 
