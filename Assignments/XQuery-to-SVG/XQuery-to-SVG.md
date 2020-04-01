@@ -179,5 +179,14 @@ Launch Date: 1981-04-12T07:00:03, mission: STS-1: This Launch Decimal Date: 1981
 ```
 ### Writing XQuery to draw SVG
 
+Now we are ready to begin plotting our SVG timeline! Our tasks are:
+Our tasks are:
 
+* To plot in SVG a line that represents time span of all the rocket launches in the collection from earliest to latest.
+
+* To plot the mission dates in proportional relation to one another as SVG shapes along that line.
+
+* To indicate the relative duration of each mission in the area of a shape (such as a circle or square) that we plot on the timeline. 
+
+* To plot SVG text elements labelling the mission identifiers. 
 
