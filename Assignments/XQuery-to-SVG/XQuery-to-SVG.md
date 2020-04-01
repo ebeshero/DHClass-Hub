@@ -57,7 +57,8 @@ We could use the `tokenize()` function to strip the times off the dates, but we 
 #### Into the weeds of date arithmetic
 Because we are interested in sorting values and doing date arithmetic, we wanted to see how simple arithmetic functions work on dateTime data in exist-dB. To experiment, we wrote a simple XQuery script which you can find at `/db/2020_ClassExamples/rocketSimpleDateArithmetic.xql`. It looks like this:
 
-```xquery version "3.1";
+```
+xquery version "3.1";
 declare variable $rocketColl := collection('/db/rocket/');
 let $launchDateTimes := $rocketColl//launch/@sDateTime ! xs:dateTime(.) => sort()
 let $ldt-one := $launchDateTimes[1]
