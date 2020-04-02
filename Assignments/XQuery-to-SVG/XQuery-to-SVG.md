@@ -184,7 +184,7 @@ Our tasks are:
 We will work with the converted decimal data that we prepared to plot the dates and durations in visible screen space with SVG. Much as we do when writing XQuery to generate HTML, we declare a global variable to hold our output file to save to the database. We will also typically declare a global variable or two  holding just a number to help us add spacing for our plot in the X and Y directions. 
 
 ```
-(: Global variables go up here :)
+(: Global declarations go up here! :)
  declare variable $timelineSpacer := 10;
 declare variable $maxDecDate as xs:decimal := ebb:dateDecimalConverter($maxDateTime); 
  declare variable $ThisFileContent := 
