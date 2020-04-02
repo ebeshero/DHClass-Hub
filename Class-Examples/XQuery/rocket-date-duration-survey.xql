@@ -1,6 +1,10 @@
 xquery version "3.1";
 declare namespace ebb="http://newtfire.org";
-declare variable $rocketColl := collection('/db/rocket/');
+declare variable $rocketColl as node()+ := collection('/db/rocket/');
+declare variable $launchDateTimes as xs:dateTime+ := $rocketColl//launch/@sDateTime ! xs:dateTime(.) => sort();
+declare variable $maxDateTime as xs:dateTime := $launchDateTimes => max();
+declare variable $minDateTime as xs:dateTime := $launchDateTimes => min();
+
 (: ebb: This script introduces you to user-defined functions in XQuery. 
 These can be useful for taking values from your XQuery variables and performing a conversion, as we're doing here.
 Since the Rocket Launches project has multiple attributes encoding launch dates and landing dates in the same xs:dateTime format, 
@@ -10,20 +14,14 @@ Let's start reading this by skipping past the section I've marked off with aster
 
 (: **************** USER-DEFINED FUNCTIONS **************************:) 
 (: CONVERT DATETIME to DECIMAL :)
-(: ebb :This user-defined function will unpack the date components from an input xs:dateTime datatype.
-We will first extract the year from the datatype with year-from-dateTime(), 
-and then use format-dateTime() to return a 'picture string' that will give us the date's numerical position in the year. 
-We then divide that date number by 365 (since most years have 365 days). 
-This will give us a decimal format we can use in making charts and graphs.
-Note how we use question marks and apply datatypes do define the function input and output. 
-:)
+(: 2020-04-01 ebb: UPDATING this so we're changing how it works and using pure date arithmetic rather than an estimated base date-in-year divided by 365. Our timeline will be based on a quantity of days separating each rocket launch from the earliest rocket launch.  :)
+
+
 declare function ebb:dateDecimalConverter($dT as xs:dateTime?) 
 as xs:decimal?
 {
-let $year := year-from-dateTime($dT)  
-let $dayInYear := format-dateTime($dT, '[d]') ! xs:integer(.)
-let $decimalDay := $dayInYear div 365
-return $year + $decimalDay
+let $dateAsDuration := $dT - $minDateTime
+return ebb:durationConverter($dateAsDuration)
 };
 
 (: CONVERT DURATION TO DECIMAL :)
@@ -33,23 +31,27 @@ return $year + $decimalDay
  : Our function takes four input arguments: $d (a value for the number of days), $h (a value for the number of hours),
  : $m (for the number of minutes), and $s (for the number of seconds). In our XQuery, we created variables 
  : to separate each of these values and submitted them as the input to this function.
- : Here's what we're calculating: There are 365 days in a year. (Divide the D value by 365). There are 24 hours in a day. (Divide the H portion by 24 * 365) and add it to the days.
- : There are 60 minutes in an hour, and 60 * 24 * 365 gives the total number of minutes in a year. 
- : So we divide the M portion by 60 * 24 * 365) and add it to hours.
- : There are 60 seconds in a minute. and 60 * 60 * 24 * 365 gives us the total number of seconds in a year. 
- : We then divide the S portion by 60 * 60 * 24 * 365 and add that value to minutes and hours to give us 
- : the decimal proporition of a year in the duration. 
+ : Here's what we're calculating: We'll retain the total number of days as whole number, and convert the rest to a decimal. There are 24 hours in a day. (Divide the H portion by 24) and add it to the days.
+ : There are 60 minutes in an hour, and 60 * 24 gives the total number of minutes in a day. 
+ : So we divide the M portion by 60 * 24) and add it to hours.
+ : There are 60 seconds in a minute. and 60 * 60 * 24 gives us the total number of seconds in a day. 
+ : We then divide the S portion by 60 * 60 * 24 and add that value to minutes and hours to give us 
+ : a decimal conversion of days in the duration. 
  : :)
-
-declare function ebb:durationConverter($d as xs:integer, $h as xs:integer, $m as xs:integer, $s as xs:integer?)
+ 
+declare function ebb:durationConverter($dur as xs:duration?)
 as xs:decimal?
 {
-let $durDec := $d div 365 + $h div (365 * 24) + $m div (365 * 24 * 60) + $s div (365 * 24 * 60 * 60)
+let $d := days-from-duration($dur)
+let $h := hours-from-duration($dur)
+let $m := minutes-from-duration($dur)
+let $s := seconds-from-duration($dur)
+
+let $durDec := $d + $h div (24) + $m div (24 * 60) + $s div (24 * 60 * 60)
 return $durDec
 }; 
 (: *******************END USER-DEFINED FUNCTIONS ********************** :)
 
-let $launchDateTimes := $rocketColl//launch/@sDateTime
 for $l in $launchDateTimes
 (: ebb: To do date arithmetic, take a look at these functions: https://www.w3.org/TR/xpath-functions-31/#dates-times
  : We'll write a user-defined function to convert this datatype into a decimal notation. :)
@@ -63,13 +65,9 @@ let $duration := $m/following-sibling::duration/@time
 : https://www.w3.org/TR/xpath-functions-31/#durations
  : Let's try representing durations in terms of days with a decimal. 
  : We'll write a user-defined function to convert hours, minutes, and seconds into a fraction of the day. :)
-let $durDays := days-from-duration($duration)
-let $durHours := hours-from-duration($duration)
-let $durMins := minutes-from-duration($duration)
-let $durSecs := seconds-from-duration($duration)
 (: ebb: In the next line, we send our variables to our user-defined function for turning date datatypes into decimal values. :)
-let $durDayDec := ebb:durationConverter($durDays, $durHours, $durMins, $durSecs) 
+let $durDayDec := ebb:durationConverter($duration) 
 
-order by $lDec
+(:  :order by $lDec :)
 return concat('Launch Date: ', $l, ', mission: ', $mID, ': This Launch Decimal Date: ', $lDec, 
 ': Duration: ', $duration, ': Decimal Notation:', $durDayDec)
