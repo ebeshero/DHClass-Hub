@@ -34,3 +34,5 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
 * M 3/30: Topics: QGIS file outputs (Leaflet site, PNG, SVG). Introducing SVG.
     * [Zoom session](https://pitt.zoom.us/rec/share/4uJvdIrr0kpJHpHh8FzzUZEITtq8T6a81nQWrvsKzU3pGb6ahMz--VWUXCmdpl39)
 
+* W 4/1: Topic: XQuery for survey project data to create SVG, and introducing global variables, declarations, and user-defined functions using Rocket Project data
+    * [Zoom session](https://pitt.zoom.us/rec/share/z9BoPuzO-E9IQ43P4UrUcJ8tE660aaa8gSBK-PJezUi8wNZh_565CiqQPWgZq9YL)
