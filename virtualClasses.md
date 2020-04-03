@@ -36,3 +36,6 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
 
 * W 4/1: Topic: XQuery for survey project data to create SVG, and introducing global variables, declarations, and user-defined functions using Rocket Project data
     * [Zoom session](https://pitt.zoom.us/rec/share/z9BoPuzO-E9IQ43P4UrUcJ8tE660aaa8gSBK-PJezUi8wNZh_565CiqQPWgZq9YL)
+
+* F 4/3: Topic: Plotting an SVG Timeline from XQuery
+    * [Zoom session](https://pitt.zoom.us/rec/share/xJB3I6rK3XJJfYnjw2P9RrYQN6r3X6a8gyQeqKFZn0qNcwiF3FIyQJj98Vo_4l8w)
