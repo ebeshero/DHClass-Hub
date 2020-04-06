@@ -39,3 +39,6 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
 
 * F 4/3: Topic: Plotting an SVG Timeline from XQuery
     * [Zoom session](https://pitt.zoom.us/rec/share/xJB3I6rK3XJJfYnjw2P9RrYQN6r3X6a8gyQeqKFZn0qNcwiF3FIyQJj98Vo_4l8w)
+
+* M 4/6: Topic: Putting the pieces together: SVG in HTML with CSS and JS
+    * [Zoom session](https://pitt.zoom.us/rec/share/w-IyNeDqsUZIeK_iy27fAZRwB6niaaa8gXMY__VfnR3zOZL0R5z4WBFeYcbgXpHO)
