@@ -11,7 +11,7 @@ buttons[3].addEventListener('click', anotherFunction, false)
 
 
 function changeColor() {
-var p1 = document.getElementById("colorToggle")
+var p1 = document.getElementById("colorToggle") 
 {p1.style.backgroundColor = "skyblue";}
 /* here, style is a *property*: the CSS styling of an element: you can add a CSS property after invoking style. */
 }
@@ -23,6 +23,8 @@ var pars = document.getElementsByTagName('p')
     }   
 }
 
+
+
 function newFunction() {
 alert ('YO! This is function is firing!!');
 var li = document.getElementsByTagName('li')    
@@ -31,17 +33,9 @@ var li = document.getElementsByTagName('li')
     }  
 }
 
+
 function anotherFunction() {
 var anothers = document.getElementsByClassName('stuff')
-    for (var i = 0, length = anothers.length; i < length; i++) {
-        anothers[i].style.cssText = "text-decoration: underline; text-decoration-style: wavy;"   
-    }
+    for (var i = 0, length = anothers.length; i < length; i++) 
+    {anothers[i].style.cssText = "text-decoration: underline; text-decoration-style: wavy;"}
 }
-
-
-
-
-
-
-
-
