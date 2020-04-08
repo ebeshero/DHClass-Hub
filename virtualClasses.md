@@ -42,3 +42,6 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
 
 * M 4/6: Topic: Putting the pieces together: SVG in HTML with CSS and JS
     * [Zoom session](https://pitt.zoom.us/rec/share/w-IyNeDqsUZIeK_iy27fAZRwB6niaaa8gXMY__VfnR3zOZL0R5z4WBFeYcbgXpHO)
+
+* W 4/8: Topic: Introducing JavaScript
+    * [Zoom session](https://pitt.zoom.us/rec/share/vfRIK5Ch0DNORKvt4UXAA7Y_E9mmT6a8gHVL8vAKnhvf_-dM9QDFhs6lu5bWU1OI) 
