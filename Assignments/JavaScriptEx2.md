@@ -38,7 +38,7 @@ Set these together on an HTML page (and make sure the combined code is well-form
 Write your JavaScript and CSS ideally as separate files linked with this file in the HTML `<head>` element. Write and adapt JavaScript functions to create dynamic effects when a user visits the page and exploring the data.
 
 To finish and submit this assignment, do the following: 
-* Sign your code in a comment. Indicate who wrote it and give the date (2019-04-10 Your Name). 
+* Sign your code in a comment. Indicate who wrote it and give the date (2020-04-10 Your Name). 
 * Post your HTML, CSS, and JavaScript to your newtFire webspace (personal or project space) and to your GitHub repo. 
 * Include a link to your published code in the text or markdown file you used to record your answers to the study of the Graveyard Project’s code, and submit this file to the JavaScript Ex 2 upload point on Canvas.
 
