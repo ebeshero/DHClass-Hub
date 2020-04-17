@@ -45,3 +45,7 @@ We didn't always opt to use a Google Doc, but where we did, we indicate that bel
 
 * W 4/8: Topic: Introducing JavaScript
     * [Zoom session](https://pitt.zoom.us/rec/share/vfRIK5Ch0DNORKvt4UXAA7Y_E9mmT6a8gHVL8vAKnhvf_-dM9QDFhs6lu5bWU1OI) 
+* The class moved to project-specific meetings at this point for the next three class sessions.     
+
+* F 4/17: Semester Project Presentations
+*   * [Zoom session](https://pitt.zoom.us/rec/share/2d0lCo3V5GhJfbPHsUCYdZQZIofsX6a80CQc_fMFnxt1B2sSav-dSCGjDGEjpjiz)
