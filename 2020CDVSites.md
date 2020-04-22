@@ -34,9 +34,9 @@
   * [Combe Site](http://combe.newtfire.org/)
   * [Combe GitHub](https://github.com/dorothealint/William_Combe_Works)
   
-### **Railroad: Woodbury Clay Payers**
+### **Woodbury Clay Payers**
 * [GitHub](https://github.com/ChinoyIndustries/WoodburyClayCo)
-* [Website](http://railroad.newtfire.org)
+* [Website](http://woodbury.newtfire.org)
 
 **Connor Chinoy**
 * GitHub: [ChinoyIndustries](https://github.com/ChinoyIndustries)
